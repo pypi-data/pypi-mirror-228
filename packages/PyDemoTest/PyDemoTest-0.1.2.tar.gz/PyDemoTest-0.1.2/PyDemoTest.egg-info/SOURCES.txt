@@ -1,0 +1,9 @@
+README.rst
+setup.py
+PyDemoTest/__init__.py
+PyDemoTest/__version__.py
+PyDemoTest/main.py
+PyDemoTest.egg-info/PKG-INFO
+PyDemoTest.egg-info/SOURCES.txt
+PyDemoTest.egg-info/dependency_links.txt
+PyDemoTest.egg-info/top_level.txt
