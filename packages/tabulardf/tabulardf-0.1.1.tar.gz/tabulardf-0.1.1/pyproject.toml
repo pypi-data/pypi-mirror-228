@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "tabulardf"
+version = "0.1.1"
+description = ""
+authors = ["Lukas Plank <lupl@tuta.io>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+tacl = 'tabulardf.tacl:tacl'
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.3"
+jinja2 = "^3.1.2"
+lodkit = "^0.1.1"
+lxml = "^4.9.3"
+openpyxl = "^3.1.2"
+click = "^8.1.6"
+rdflib = "^7.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
