@@ -1,0 +1,8 @@
+README.md
+setup.py
+neuralite/__init__.py
+neuralite/interpreter.py
+neuralite.egg-info/PKG-INFO
+neuralite.egg-info/SOURCES.txt
+neuralite.egg-info/dependency_links.txt
+neuralite.egg-info/top_level.txt
