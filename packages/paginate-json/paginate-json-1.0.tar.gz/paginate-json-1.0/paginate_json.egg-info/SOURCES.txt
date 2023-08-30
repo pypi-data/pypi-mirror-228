@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+paginate_json/__init__.py
+paginate_json/cli.py
+paginate_json.egg-info/PKG-INFO
+paginate_json.egg-info/SOURCES.txt
+paginate_json.egg-info/dependency_links.txt
+paginate_json.egg-info/entry_points.txt
+paginate_json.egg-info/requires.txt
+paginate_json.egg-info/top_level.txt
+tests/test_cli.py

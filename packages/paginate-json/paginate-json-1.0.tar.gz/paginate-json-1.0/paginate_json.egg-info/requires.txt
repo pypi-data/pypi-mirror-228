@@ -1,0 +1,10 @@
+requests
+click
+
+[pyjq]
+pyjq
+
+[test]
+pytest
+requests-mock
+cogapp
