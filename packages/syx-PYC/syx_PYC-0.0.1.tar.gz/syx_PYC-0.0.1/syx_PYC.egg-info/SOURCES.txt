@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+syx_PYC/__init__.py
+syx_PYC.egg-info/PKG-INFO
+syx_PYC.egg-info/SOURCES.txt
+syx_PYC.egg-info/dependency_links.txt
+syx_PYC.egg-info/top_level.txt
