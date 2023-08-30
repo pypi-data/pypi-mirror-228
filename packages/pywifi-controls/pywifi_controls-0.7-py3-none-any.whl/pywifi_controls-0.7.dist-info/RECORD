@@ -1,0 +1,10 @@
+pywifi/__init__.py,sha256=afNKR0lPOAgp9VlZfS4VLqUVtDNn0zDiwYg2HRJm1QU,178
+pywifi/control_connection.py,sha256=aDV0wOMMNyZ12B5xcI2nbw0l9Hj1-ZfYwTuGHSn5LRg,5662
+pywifi/control_peripheral.py,sha256=GpxlrzeSIy0mBLLAVpziLDaVZ8aGkg4t1KhD26OIaNE,6400
+pywifi/model.py,sha256=sr_2OnAxpkTCDL_GCJpcCUK6fVTGgXpwJgP6IkZDOsk,1684
+pywifi/win_wifi_config.xml,sha256=m8b_rkpgKpXn2NfP_qRYJY2oJ5DLzlwKcYJKClL1dlM,637
+pywifi_controls-0.7.dist-info/LICENSE,sha256=N6uy_li4-jJY9MU799w17Yat5CkIMUGgi2Tpl2Ykdt8,1068
+pywifi_controls-0.7.dist-info/METADATA,sha256=HESNJxOkD4PxZa2XsyXrk9zwC3XxaHXXIZ9hQF2pA0M,5085
+pywifi_controls-0.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pywifi_controls-0.7.dist-info/top_level.txt,sha256=rlrEfumrCpUR5b_PrKkQ4bQE46mmE4bFt7uUU52gxec,7
+pywifi_controls-0.7.dist-info/RECORD,,
