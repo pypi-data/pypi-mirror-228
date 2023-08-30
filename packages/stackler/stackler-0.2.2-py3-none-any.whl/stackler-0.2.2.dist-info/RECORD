@@ -1,0 +1,11 @@
+stackler/dev.py,sha256=qV06z_m7UIgjk-rT73uzPMi1Gdxfo221_pVtHRykVis,1324
+stackler/display_utils.py,sha256=If1hOGTzxtjGzGfN0ybS0Qgh7L6QT250GT76rYGljuU,8049
+stackler/git_utils.py,sha256=YiHyvhwLd55ysavR-8gSv4LuJf-ECm7kt_YgnvavcvU,2120
+stackler/main.py,sha256=kDxVGgV_XAHykewv2FGe-JCD1b41H1VGeuf3lzpb0dA,12473
+stackler/phab_utils.py,sha256=lCOxHCHFrIifIlI6fItxbRqcu7qW8gZQkS94woTpoG8,6066
+stackler/shell.py,sha256=MuTKxoLEyCxso5nQ7Cre-7rDo3LW0bx3ven4vMayLRg,158
+stackler/shell_runner.py,sha256=CoLQKanYsl1mcNUNnvm3LO-8RY9zymsvPNQLYLa-alQ,2889
+stackler-0.2.2.dist-info/entry_points.txt,sha256=LX7NoBcqmrbzFIka4eyOD3L-BlKF7paMvyT6flODi1o,46
+stackler-0.2.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+stackler-0.2.2.dist-info/METADATA,sha256=NG_bRPQpu1krcPTI6bq29lFT-PEbNhsAhMbIM41-Tic,3827
+stackler-0.2.2.dist-info/RECORD,,
