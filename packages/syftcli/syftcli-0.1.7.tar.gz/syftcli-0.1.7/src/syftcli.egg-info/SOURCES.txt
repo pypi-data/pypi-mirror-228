@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/syftcli/__init__.py
+src/syftcli/cli.py
+src/syftcli/version.py
+src/syftcli.egg-info/PKG-INFO
+src/syftcli.egg-info/SOURCES.txt
+src/syftcli.egg-info/dependency_links.txt
+src/syftcli.egg-info/entry_points.txt
+src/syftcli.egg-info/requires.txt
+src/syftcli.egg-info/top_level.txt
