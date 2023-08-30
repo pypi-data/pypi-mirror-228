@@ -1,0 +1,13 @@
+artbox/__init__.py,sha256=0zUb6-uEYH9ONIJl6_KknDzT5hk14J_yvHMPHUHo2is,472
+artbox/__main__.py,sha256=WHMG_j1a4TwUl7Qmq6Y4cT25GX8VaXrRhPxA-ju5bYA,113
+artbox/base.py,sha256=SCiaS2kvd9PGnwYxB3IYt43sO5enbjlKlV7wzWEKnVY,430
+artbox/cli.py,sha256=9pa1UGsgb45z71FusO99tGln3gyvbKviaqpcH79cWb0,3351
+artbox/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+artbox/sounds.py,sha256=X_bjrFSydMZozw-FqDZF5XztUlN4QIk5lEfg_QtLWeE,7472
+artbox/videos.py,sha256=7S6_Hz0_HdZSs-KXekQDgtVMD6eUTNZVpnbNQpmBSY8,3179
+artbox/voices.py,sha256=NOukgTTN4GtKbC9u0yH0esBy-QyMkiTA7oXyrTOvy7U,3337
+artbox-0.3.0.dist-info/LICENSE,sha256=p2sboGOIGY03yJdRWMKqjOM9Q1gOlN-zO9IrGdA1FwQ,1501
+artbox-0.3.0.dist-info/METADATA,sha256=01lLoVx-rb27uSOi4xP9zHyjhDC9-GoHcTZ2lRcF4kc,923
+artbox-0.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+artbox-0.3.0.dist-info/entry_points.txt,sha256=tLn4S3lodfzKruHo3jKQD4ftLIz504w0A_Pslb67htM,46
+artbox-0.3.0.dist-info/RECORD,,
