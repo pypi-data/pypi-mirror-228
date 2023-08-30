@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: rand_password_generator_python
+Version: 0.0.2
+Summary: Generating a random password of desired length
+Author: Shalini Gupta (shalinigupta)
+Author-email: shalinigupta.int25@gmail.com
+Keywords: python,video,password,random characters
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PassWord_Gen
+
+The PassWord_Gen is a lightweight and easy-to-use Python package that allows you to generate strong and secure passwords for your applications. Whether you're building a web application, a command-line tool, or anything else that requires password generation, this package has you covered.
+
+## **Features**
+
+* Generate random passwords with customizable length.
+* Control password complexity with options for including uppercase letters, lowercase letters, digits, and special characters.
+* Easily integrate the PassWord_Gen into your projects.
+
+### Installation
+
+<span style="color:grey">
+pip install rand_password_generator_python
+</span>
