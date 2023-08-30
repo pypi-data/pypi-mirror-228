@@ -1,0 +1,125 @@
+Metadata-Version: 2.1
+Name: generic-grader
+Version: 0.0.5
+Summary: A collection of parameterizable tests for automatic grading.
+Project-URL: Homepage, https://github.com/Purdue-EBEC/generic-grader
+Project-URL: Bug Tracker, https://github.com/Purdue-EBEC/generic-grader/issues
+Author-email: John Cole <jhcole@purdue.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: gradescope-utils<1,>=0.5.0
+Requires-Dist: matplotlib<4,>=3.7.0
+Requires-Dist: parameterized<1,>=0.8.1
+Requires-Dist: pillow<10,>=9.4.0
+Requires-Dist: pytesseract<1,>=0.3.10
+Requires-Dist: python-dateutil<3,>=2.8.2
+Requires-Dist: pytz==2022.7.1
+Requires-Dist: rapidfuzz<4,>=3.1.1
+Requires-Dist: scipy<2,>=1.10.1
+Provides-Extra: dev
+Requires-Dist: build; extra == 'dev'
+Requires-Dist: coverage; extra == 'dev'
+Requires-Dist: pre-commit~=3.0; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Generic Grader
+
+A collection of generic tests for grading programming assignments.
+
+
+## Usage
+
+Don't use this yet. It's not ready.
+
+
+## Contributing
+
+1. Clone the repo onto your machine.
+
+   - HTTPS
+
+     ``` bash
+     git clone https://github.com/Purdue-EBEC/generic-grader.git
+     ```
+
+   - SSH
+
+     ``` bash
+     git clone git@github.com:Purdue-EBEC/generic-grader.git
+     ```
+
+2. Set up a new virtual environment in the cloned repo.
+
+   ``` bash
+   cd generic-grader
+   python3.11 -m venv .env3.11
+   ```
+
+3. Activate the virtual environment.  If you are using VS Code, there may be a pop-up to do this automatically when working from this directory.
+
+   - Linux/macOS
+
+      ``` bash
+      source .env3.11/bin/activate
+      ```
+
+   - Windows
+
+     ``` bash
+     .env3.11\Scripts\activate
+     ```
+
+4. Install tesseract-ocr
+
+   - on Linux
+
+     ``` bash
+     sudo apt install tesseract-ocr
+     ```
+
+   - on macOS
+
+     ``` bash
+     brew install tesseract
+     ```
+
+   - on Windows, download the latest installers from https://github.com/UB-Mannheim/tesseract/wiki
+
+5. Install other dependencies.
+
+   ``` bash
+   pip install -r common/requirements.txt
+   ```
+
+6. Install the pre-commit hooks.
+
+   ``` bash
+   pre-commit install
+   ```
+
+7. Install the package.  Note that this installs the package as editable, so
+   edits will be automatically reflected in the installed package.
+
+   ``` bash
+   pip install -e .[dev]
+   ```
+
+8. Run the tests.
+
+   ``` bash
+   pytest
+   ```
+
+9. Make changes ...
+
+10. Deactivate the virtual environment.
+
+   ``` bash
+   deactivate
+   ```

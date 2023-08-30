@@ -1,0 +1,12 @@
+generic_grader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+generic_grader/file/file_presence.py,sha256=hPsw1PzPaOYiUCSJ8Fx1qbDGmySl17lbds0MQkoRh14,3602
+generic_grader/file/file_set_up.py,sha256=nC1qY-gGYrznZTwCowmTMU66kWoQli40gOiBkYJkQX0,1616
+generic_grader/style/comments.py,sha256=Z8B2v45a12GAnTmJ2tmGiwJi6QOcjzIkQZbhjt8mhns,1609
+generic_grader/style/program_length.py,sha256=u2Y1vVYa7t01kwYefvAYbkwtn4TAlfnLT8CL4pG3BC4,1537
+generic_grader/utils/decorators.py,sha256=V7ejjepsbCIDm3bxeKKYj9F7JFdHs1iVwT6-wu3avBE,3199
+generic_grader/utils/options.py,sha256=tfVuGT-LuE1k6TxoJ7MX-v6vRdvQghCynfo_KCYI-H8,1399
+generic_grader/utils/static.py,sha256=i9gGMj9dr6ceaGbB1u6pztqN81CsqSCoc5Yud39hPmg,1297
+generic_grader-0.0.5.dist-info/METADATA,sha256=s9_0sQ18BYp-3QWMlaN_rMWbn3WeEIznL9pm0HKwIoQ,2747
+generic_grader-0.0.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+generic_grader-0.0.5.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+generic_grader-0.0.5.dist-info/RECORD,,
