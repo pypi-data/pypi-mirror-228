@@ -1,0 +1,23 @@
+[build-system]
+requires = [
+    "setuptools>=61.2",
+    "vcversioner", "six",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "txwebsocket"
+version = "1.1.1"
+authors = [{name = "Corbin Simpson", email = "simpsoco@osuosl.org"}]
+license = {text = "MIT/X11"}
+description = "Twisted WebSockets support with Websocket Upgrade"
+readme = "README.rst"
+classifiers = ["Programming Language :: Python :: 3.9"]
+urls = {Homepage = "https://github.com/Synerty/txwebsocket"}
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+exclude = ["test"]
+namespaces = false
