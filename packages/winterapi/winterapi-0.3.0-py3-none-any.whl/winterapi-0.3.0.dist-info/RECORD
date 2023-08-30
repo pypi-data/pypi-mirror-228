@@ -1,0 +1,11 @@
+winterapi/__init__.py,sha256=6lwXRfvCBZjBQxJuaF_a5Wen299jPZUrP2GVF1Ogv78,117
+winterapi/configure_tests.py,sha256=og6fQ84pqstSAKh8RmY3UaEdivT6ZdWRKkcywqK44T4,611
+winterapi/credentials.py,sha256=DwDfe9PFKRE4wjqrX_oUAORDC4CjzuMbvtX_DKov2PA,4263
+winterapi/endpoints.py,sha256=jSG0GGzs2Rk9SRYgi-FUBp0SkUzQx3d-Jde4OvENq2U,333
+winterapi/fidelius.py,sha256=tAPlM2mIV5Wm4e837M6Qfhob7wPIG7XMAhEGn3Ibt1U,4957
+winterapi/messenger.py,sha256=sFqFjQNbI3evdSD-x0Zvf2I_UQueIxO7LnXBdfgygT8,9706
+winterapi-0.3.0.dist-info/LICENSE,sha256=1iZrHR2LhpCY1NTeri8yAqy_-y_oCBThEaQEw4d68xU,1063
+winterapi-0.3.0.dist-info/METADATA,sha256=DtRi0tjchS5WtccnnOGykpBT-YWmkbenEGGpDuny-Zg,2024
+winterapi-0.3.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+winterapi-0.3.0.dist-info/top_level.txt,sha256=U2w2k9B0fAFJdFttD3pcpTgBvdEFbDuKIrjEDh_gslQ,10
+winterapi-0.3.0.dist-info/RECORD,,
