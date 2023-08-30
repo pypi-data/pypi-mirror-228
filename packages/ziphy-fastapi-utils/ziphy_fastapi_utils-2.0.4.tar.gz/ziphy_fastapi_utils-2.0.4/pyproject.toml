@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "ziphy-fastapi-utils"
+version = "2.0.4"
+description = "Ziphy FastAPI Utils"
+authors = ["ZiphyCare LLC <support@ziphycare.com>"]
+packages = [{ include = "ziphy" }]
+
+[[tool.poetry.source]]
+name = "ziphy-fastapi-utils"
+url = "https://ziphy-400156773725.d.codeartifact.us-east-1.amazonaws.com/pypi/labq/simple"
+default = true
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0"
+
+[tool.poetry.group.dev.dependencies]
+httpx = ">=0.24.1,^0"
+ziphy-pychecks = {git = "git@github.com:ziphycare/ziphy-pychecks.git", rev = "v2.0.1"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+strict = true
+plugins = "pydantic.mypy"
+explicit_package_bases = true
+
+[tool.black]
+preview = true
+target-versions = ["py311"]
+
+[tool.ruff]
+target-version = "py311"
+select = [
+    "E", "F", "I", "W", "N", "UP",
+    "ANN204", "FBT", "B", "C4", "G",
+    "PT", "PIE", "RSE", "RET", "SLF",
+    "SIM", "TID", "TCH", "PTH", "ERA",
+    "PGH", "PLE", "PLR", "PLW", "TRY",
+    "PERF", "RUF001"
+]
+ignore = [
+    "N805", "SIM102", "SIM117", "PLR0911",
+    "PLR0912", "PLR0913", "PLR0915", "PLR2004",
+    "TRY003", "FBT002"
+]
+unfixable = ["ERA001"]
+
+[tool.ruff.flake8-pytest-style]
+fixture-parentheses = false
+mark-parentheses = false
