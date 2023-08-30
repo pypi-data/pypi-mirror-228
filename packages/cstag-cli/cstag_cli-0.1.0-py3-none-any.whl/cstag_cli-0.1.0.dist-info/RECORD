@@ -1,0 +1,12 @@
+cstag_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cstag_cli/main.py,sha256=OdbGf-qBno5B3v9_9DSqVyhIf25131p87oXRi6AFLJI,1015
+cstag_cli/append/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cstag_cli/append/appender.py,sha256=Gm5BxxucBTE7siARl0Ru0mrb0QnrleS-9xhQyBR7Fgk,559
+cstag_cli/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cstag_cli/utils/io.py,sha256=7deCX29_6_QxxZHuGReCTrDpSk4UuBMyHPf1raNbd4U,905
+cstag_cli-0.1.0.dist-info/LICENSE,sha256=JjtBlTIw3SZ5Ihhrry2qWxN9G-kqDxoazKIY4YfEdN4,1069
+cstag_cli-0.1.0.dist-info/METADATA,sha256=ig9lr6t4bQOokJEVm8QRaSQ42eEwPqsVUygRN8FtqCU,3199
+cstag_cli-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+cstag_cli-0.1.0.dist-info/entry_points.txt,sha256=thClT0lUZJRPHwCwWzCbufY_zLCTDoAw3J7ZQLGcGw8,46
+cstag_cli-0.1.0.dist-info/top_level.txt,sha256=Ha3q09gK1X8yvCCYvI6th4aO3c8cX9NZwwWHK8ZRQE8,10
+cstag_cli-0.1.0.dist-info/RECORD,,
