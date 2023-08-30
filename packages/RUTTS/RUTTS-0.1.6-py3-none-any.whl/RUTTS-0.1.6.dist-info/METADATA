@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: RUTTS
+Version: 0.1.6
+Summary: russian text to speech
+Home-page: https://github.com/Tera2Space/RUTTS
+Author: Tera Space
+Author-email: tera2space@gmail.com
+License: MIT
+Keywords: tts
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+Requires-Dist: scipy
+Requires-Dist: gruut
+Requires-Dist: gruut-lang-ru
+Requires-Dist: sounddevice
+Requires-Dist: onnxruntime
+Requires-Dist: huggingface-hub
+Requires-Dist: tok
+
