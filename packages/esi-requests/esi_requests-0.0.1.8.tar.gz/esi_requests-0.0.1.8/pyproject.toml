@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "esi_requests"
+authors = [
+    {name = "Hanbo", email = "hb.evetools@gmail.com"},
+]
+description = "A simple library for asynchronous ESI requests"
+requires-python = ">=3.7"
+dynamic = ["version", "readme", "dependencies"]
+keywords = ["python", "esi", "eve-online", "asyncio"]
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+]
+
+[tool.setuptools]
+include-package-data = true
+packages = ["esi_requests", "esi_requests.data", "esi_requests.sso", "esi_requests.log"]
+package-data = {"*" = ["application.json", "schema.yml"]}
+
+[tool.setuptools.dynamic]
+version = {file = ["version"]}
+readme = {file = ["README.md"], content-type = "text/markdown"}
+dependencies = {file = ["requirements.txt"]}
+
+[tool.black]
+line-length = 108
+target-version = ['py39']
