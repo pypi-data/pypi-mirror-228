@@ -1,0 +1,9 @@
+setup.py
+apv_invoicing_pdf.egg-info/PKG-INFO
+apv_invoicing_pdf.egg-info/SOURCES.txt
+apv_invoicing_pdf.egg-info/dependency_links.txt
+apv_invoicing_pdf.egg-info/requires.txt
+apv_invoicing_pdf.egg-info/top_level.txt
+invoicing/__init__.py
+invoicing/helper.py
+invoicing/invoice.py
