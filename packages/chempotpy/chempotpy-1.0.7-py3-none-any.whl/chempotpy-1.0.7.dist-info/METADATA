@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: chempotpy
+Version: 1.0.7
+Summary: chempotpy: CHEMical library of POTential energy surfaces in PYthon
+Author: Yinan Shu, Zoltan Varga, Dayou Zhang, Donald G. Truhlar
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: charset-normalizer
+

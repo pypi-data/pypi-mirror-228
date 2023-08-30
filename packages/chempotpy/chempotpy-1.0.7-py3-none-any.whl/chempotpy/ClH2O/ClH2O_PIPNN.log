@@ -1,0 +1,417 @@
+running build
+running config_cc
+INFO: unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+running config_fc
+INFO: unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+running build_src
+INFO: build_src
+INFO: building extension "ClH2O_PIPNN" sources
+INFO: f2py options: []
+INFO: f2py:> /tmp/tmpo7l1x5ou/src.linux-x86_64-3.11/ClH2O_PIPNNmodule.c
+creating /tmp/tmpo7l1x5ou/src.linux-x86_64-3.11
+get_useparameters: mapping for {'only': 1, 'map': {'vpescut': 'vpescut'}} not impl.
+Reading fortran codes...
+	Reading file 'ClH2O_PIPNN.f90' (format:free)
+Post-processing...
+	Block: ClH2O_PIPNN
+			Block: nnparam
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:nnparam
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:nnparam
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:nnparam
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:nnparam
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:nnparam
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:nnparam
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: pes
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:pes
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:pes
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:pes
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:pes
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:pes
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:pes
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: clh2onn
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:clh2onn
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:clh2onn
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:clh2onn
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:clh2onn
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:clh2onn
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:clh2onn
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: pes_init
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:pes_init
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:pes_init
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:pes_init
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:pes_init
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:pes_init
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:pes_init
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:pes_init
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:pes_init
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: getpota
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpota
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpota
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpota
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpota
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpota
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpota
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: getpotb
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpotb
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpotb
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpotb
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpotb
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpotb
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpotb
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: getpotc
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpotc
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpotc
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpotc
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpotc
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpotc
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:getpotc
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: tranfun
+			Block: emsav
+			Block: bemsav
+			Block: evmono
+			Block: evpoly
+			Block: hohcl_pes_interface
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:hohcl_pes_interface
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:hohcl_pes_interface
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:hohcl_pes_interface
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:hohcl_pes_interface
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:hohcl_pes_interface
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:hohcl_pes_interface
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: ho_hcl_correction
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_hcl_correction
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_hcl_correction
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_hcl_correction
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_hcl_correction
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_hcl_correction
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_hcl_correction
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: before_vpes
+			Block: ho_dipole
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_dipole
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_dipole
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_dipole
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_dipole
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_dipole
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_dipole
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_dipole
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_dipole
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: hcl_dipole
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:hcl_dipole
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:hcl_dipole
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:hcl_dipole
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:hcl_dipole
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:hcl_dipole
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:hcl_dipole
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:hcl_dipole
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:hcl_dipole
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: ho_hcl_pes_spline
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_hcl_pes_spline
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_hcl_pes_spline
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_hcl_pes_spline
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_hcl_pes_spline
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_hcl_pes_spline
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:ho_hcl_pes_spline
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+{'attrspec': ['dimension(n)']}
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:splint
+vars2fortran: No typespec for argument "xa".
+{'attrspec': ['dimension(n)']}
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:splint
+vars2fortran: No typespec for argument "ya".
+{'attrspec': ['dimension(n)']}
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:splint
+vars2fortran: No typespec for argument "y2a".
+{}
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:splint
+vars2fortran: No typespec for argument "n".
+{}
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:splint
+vars2fortran: No typespec for argument "x".
+{}
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:splint
+vars2fortran: No typespec for argument "y".
+			Block: splint
+{'attrspec': ['dimension(n)']}
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:spline
+vars2fortran: No typespec for argument "x".
+{'attrspec': ['dimension(n)']}
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:spline
+vars2fortran: No typespec for argument "y".
+{}
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:spline
+vars2fortran: No typespec for argument "n".
+{}
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:spline
+vars2fortran: No typespec for argument "yp1".
+{}
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:spline
+vars2fortran: No typespec for argument "ypn".
+{'attrspec': ['dimension(n)']}
+In: :ClH2O_PIPNN:ClH2O_PIPNN.f90:spline
+vars2fortran: No typespec for argument "y2".
+			Block: spline
+Applying post-processing hooks...
+  character_backward_compatibility_hook
+Post-processing (stage 2)...
+	Block: ClH2O_PIPNN
+		Block: unknown_interface
+			Block: nnparam
+			Block: pes
+			Block: clh2onn
+			Block: pes_init
+			Block: getpota
+			Block: getpotb
+			Block: getpotc
+			Block: tranfun
+			Block: emsav
+			Block: bemsav
+			Block: evmono
+			Block: evpoly
+			Block: hohcl_pes_interface
+			Block: ho_hcl_correction
+			Block: before_vpes
+			Block: ho_dipole
+			Block: hcl_dipole
+			Block: ho_hcl_pes_spline
+			Block: splint
+			Block: spline
+Building modules...
+    Building module "ClH2O_PIPNN"...
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "pes"...
+          p,g,d = pes(x,igrad)
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "clh2onn"...
+          clh2onn(ct,vpes,vpesa,vpesb,vpesc)
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "pes_init"...
+          pes_init()
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "getpota"...
+          getpota(x,vpot)
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "getpotb"...
+          getpotb(x,vpot)
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "getpotc"...
+          getpotc(x,vpot)
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+		Creating wrapper for Fortran function "tranfun"("tranfun")...
+        Constructing wrapper function "tranfun"...
+          tranfun = tranfun(x,ifunc)
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+		Creating wrapper for Fortran function "emsav"("emsav")...
+        Constructing wrapper function "emsav"...
+          v = emsav(x,c)
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "bemsav"...
+          p = bemsav(x)
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "evmono"...
+          m = evmono(x)
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "evpoly"...
+          p = evpoly(m)
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "hohcl_pes_interface"...
+          hohcl_pes_interface(xc,vpes)
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "ho_hcl_correction"...
+          ho_hcl_correction(xc,vdp)
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "before_vpes"...
+          before_vpes(xct,lxc)
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "ho_dipole"...
+          ho_dipole(rt,dpt)
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "hcl_dipole"...
+          hcl_dipole(rt,dpt)
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "ho_hcl_pes_spline"...
+          ho_hcl_pes_spline(r1,r2,vpes)
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "splint"...
+          splint(xa,ya,y2a,x,y,[n])
+    Generating possibly empty wrappers"
+    Maybe empty "ClH2O_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "spline"...
+          spline(x,y,yp1,ypn,y2,[n])
+		Constructing F90 module support for "nnparam"...
+		  Variables: alpha vpesmin vpescut pi radian bohr n0ho n0hcl nxho nxhcl n2n dp0ho dp0hcl r0ho r0hcl exhohcl rxho rxhcl dp0ho2 dp0hcl2 exhohcl2 nbasis ninput noutput nhid nlayer ifunc nwe nodemax nterm nindex nscale nodes weighta biasa pdela pavga weightb biasb pdelb pavgb weightc biasc pdelc pavgc
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+    Wrote C/API module "ClH2O_PIPNN" to file "/tmp/tmpo7l1x5ou/src.linux-x86_64-3.11/ClH2O_PIPNNmodule.c"
+    Fortran 77 wrappers are saved to "/tmp/tmpo7l1x5ou/src.linux-x86_64-3.11/ClH2O_PIPNN-f2pywrappers.f"
+    Fortran 90 wrappers are saved to "/tmp/tmpo7l1x5ou/src.linux-x86_64-3.11/ClH2O_PIPNN-f2pywrappers2.f90"
+INFO:   adding '/tmp/tmpo7l1x5ou/src.linux-x86_64-3.11/fortranobject.c' to sources.
+INFO:   adding '/tmp/tmpo7l1x5ou/src.linux-x86_64-3.11' to include_dirs.
+copying /home/truhlard/shuxx055/anaconda3/envs/test/lib/python3.11/site-packages/numpy/f2py/src/fortranobject.c -> /tmp/tmpo7l1x5ou/src.linux-x86_64-3.11
+copying /home/truhlard/shuxx055/anaconda3/envs/test/lib/python3.11/site-packages/numpy/f2py/src/fortranobject.h -> /tmp/tmpo7l1x5ou/src.linux-x86_64-3.11
+INFO:   adding '/tmp/tmpo7l1x5ou/src.linux-x86_64-3.11/ClH2O_PIPNN-f2pywrappers.f' to sources.
+INFO:   adding '/tmp/tmpo7l1x5ou/src.linux-x86_64-3.11/ClH2O_PIPNN-f2pywrappers2.f90' to sources.
+INFO: build_src: building npy-pkg config files
+/home/truhlard/shuxx055/anaconda3/envs/test/lib/python3.11/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running build_ext
+INFO: customize UnixCCompiler
+INFO: customize UnixCCompiler using build_ext
+INFO: get_default_fcompiler: matching types: '['arm', 'gnu95', 'intel', 'lahey', 'pg', 'nv', 'absoft', 'nag', 'vast', 'compaq', 'intele', 'intelem', 'gnu', 'g95', 'pathf95', 'nagfor', 'fujitsu']'
+INFO: customize ArmFlangCompiler
+WARN: Could not locate executable armflang
+INFO: customize Gnu95FCompiler
+INFO: Found executable /home/truhlard/shuxx055/anaconda3/envs/test/bin/gfortran
+INFO: customize Gnu95FCompiler
+INFO: customize Gnu95FCompiler using build_ext
+INFO: building 'ClH2O_PIPNN' extension
+INFO: compiling C sources
+INFO: C compiler: gcc -pthread -B /home/truhlard/shuxx055/anaconda3/envs/test/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/truhlard/shuxx055/anaconda3/envs/test/include -fPIC -O2 -isystem /home/truhlard/shuxx055/anaconda3/envs/test/include -fPIC
+
+creating /tmp/tmpo7l1x5ou/tmp
+creating /tmp/tmpo7l1x5ou/tmp/tmpo7l1x5ou
+creating /tmp/tmpo7l1x5ou/tmp/tmpo7l1x5ou/src.linux-x86_64-3.11
+INFO: compile options: '-DNPY_DISABLE_OPTIMIZATION=1 -I/tmp/tmpo7l1x5ou/src.linux-x86_64-3.11 -I/home/truhlard/shuxx055/anaconda3/envs/test/lib/python3.11/site-packages/numpy/core/include -I/home/truhlard/shuxx055/anaconda3/envs/test/include/python3.11 -c'
+INFO: gcc: /tmp/tmpo7l1x5ou/src.linux-x86_64-3.11/fortranobject.c
+INFO: gcc: /tmp/tmpo7l1x5ou/src.linux-x86_64-3.11/ClH2O_PIPNNmodule.c
+INFO: compiling Fortran 90 module sources
+INFO: Fortran f77 compiler: /home/truhlard/shuxx055/anaconda3/envs/test/bin/gfortran -Wall -g -ffixed-form -fno-second-underscore -fPIC -O3 -funroll-loops
+Fortran f90 compiler: /home/truhlard/shuxx055/anaconda3/envs/test/bin/gfortran -fallow-argument-mismatch -std=legacy -fPIC -O3 -funroll-loops
+Fortran fix compiler: /home/truhlard/shuxx055/anaconda3/envs/test/bin/gfortran -Wall -g -ffixed-form -fno-second-underscore -fallow-argument-mismatch -std=legacy -fPIC -O3 -funroll-loops
+INFO: compile options: '-I/tmp/tmpo7l1x5ou/src.linux-x86_64-3.11 -I/home/truhlard/shuxx055/anaconda3/envs/test/lib/python3.11/site-packages/numpy/core/include -I/home/truhlard/shuxx055/anaconda3/envs/test/include/python3.11 -c'
+extra options: '-J/tmp/tmpo7l1x5ou/ -I/tmp/tmpo7l1x5ou/'
+INFO: gfortran:f90: ClH2O_PIPNN.f90
+INFO: compiling Fortran sources
+INFO: Fortran f77 compiler: /home/truhlard/shuxx055/anaconda3/envs/test/bin/gfortran -Wall -g -ffixed-form -fno-second-underscore -fPIC -O3 -funroll-loops
+Fortran f90 compiler: /home/truhlard/shuxx055/anaconda3/envs/test/bin/gfortran -fallow-argument-mismatch -std=legacy -fPIC -O3 -funroll-loops
+Fortran fix compiler: /home/truhlard/shuxx055/anaconda3/envs/test/bin/gfortran -Wall -g -ffixed-form -fno-second-underscore -fallow-argument-mismatch -std=legacy -fPIC -O3 -funroll-loops
+INFO: compile options: '-I/tmp/tmpo7l1x5ou/src.linux-x86_64-3.11 -I/home/truhlard/shuxx055/anaconda3/envs/test/lib/python3.11/site-packages/numpy/core/include -I/home/truhlard/shuxx055/anaconda3/envs/test/include/python3.11 -c'
+extra options: '-J/tmp/tmpo7l1x5ou/ -I/tmp/tmpo7l1x5ou/'
+INFO: gfortran:f90: /tmp/tmpo7l1x5ou/src.linux-x86_64-3.11/ClH2O_PIPNN-f2pywrappers2.f90
+INFO: gfortran:f77: /tmp/tmpo7l1x5ou/src.linux-x86_64-3.11/ClH2O_PIPNN-f2pywrappers.f
+INFO: /home/truhlard/shuxx055/anaconda3/envs/test/bin/gfortran -Wall -g -Wall -g -shared /tmp/tmpo7l1x5ou/tmp/tmpo7l1x5ou/src.linux-x86_64-3.11/ClH2O_PIPNNmodule.o /tmp/tmpo7l1x5ou/tmp/tmpo7l1x5ou/src.linux-x86_64-3.11/fortranobject.o /tmp/tmpo7l1x5ou/ClH2O_PIPNN.o /tmp/tmpo7l1x5ou/tmp/tmpo7l1x5ou/src.linux-x86_64-3.11/ClH2O_PIPNN-f2pywrappers.o /tmp/tmpo7l1x5ou/tmp/tmpo7l1x5ou/src.linux-x86_64-3.11/ClH2O_PIPNN-f2pywrappers2.o -L/panfs/jay/groups/16/truhlard/shuxx055/anaconda3/envs/test/bin/../lib/gcc/x86_64-conda-linux-gnu/13.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/panfs/jay/groups/16/truhlard/shuxx055/anaconda3/envs/test/bin/../lib/gcc/x86_64-conda-linux-gnu/13.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lgfortran -o ./ClH2O_PIPNN.cpython-311-x86_64-linux-gnu.so
+Removing build directory /tmp/tmpo7l1x5ou
