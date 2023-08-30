@@ -1,0 +1,6 @@
+setup.py
+funspeech.egg-info/PKG-INFO
+funspeech.egg-info/SOURCES.txt
+funspeech.egg-info/dependency_links.txt
+funspeech.egg-info/requires.txt
+funspeech.egg-info/top_level.txt

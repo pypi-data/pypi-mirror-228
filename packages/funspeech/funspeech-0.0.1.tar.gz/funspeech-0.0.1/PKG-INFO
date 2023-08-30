@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: funspeech
+Version: 0.0.1
+Summary: FunASR: A Fundamental End-to-End Speech Recognition Toolkit
+Home-page: https://github.com/alibaba-damo-academy/FunASR.git
+Author: Speech Lab of DAMO Academy, Alibaba Group
+Author-email: funasr@list.alibaba-inc.com
+License: The MIT License
+Keywords: funasr, funllm, funtts, funspeaker, funnmt
+Platform: Any
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+placehold
