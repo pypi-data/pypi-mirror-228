@@ -1,0 +1,7 @@
+__pycache__
+.venv
+.vscode
+docs/build
+docs/*.bat
+docs/Makefile
+dist
