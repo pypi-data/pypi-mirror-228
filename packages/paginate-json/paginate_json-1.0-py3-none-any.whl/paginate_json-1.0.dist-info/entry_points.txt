@@ -1,0 +1,2 @@
+[console_scripts]
+paginate-json = paginate_json.cli:cli
