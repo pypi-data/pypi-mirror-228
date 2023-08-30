@@ -1,0 +1,13 @@
+selenium==3.8.0
+keyboard
+pytest
+requests
+boto3
+PyAutoGUI
+urllib3
+pytest-html
+importlib-metadata
+Faker
+ramda
+webdriver_manager
+networkx
