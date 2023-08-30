@@ -1,0 +1,6 @@
+opencv-python
+Pillow
+numpy
+loguru
+pypinyin
+cn2an
