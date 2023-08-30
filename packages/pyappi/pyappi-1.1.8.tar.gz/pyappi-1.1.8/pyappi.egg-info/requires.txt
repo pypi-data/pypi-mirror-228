@@ -1,0 +1,9 @@
+wheel
+uvicorn
+twine
+fastapi
+pathvalidate
+twine
+colorama
+httpx
+click
