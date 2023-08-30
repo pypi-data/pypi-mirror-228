@@ -1,0 +1,7 @@
+sqlalchemy
+requests[socks]
+retry
+stem
+pydrive
+undetected_chromedriver
+pendulum
