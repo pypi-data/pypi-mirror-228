@@ -1,0 +1,6 @@
+databricks-sql-connector
+requests
+vininfo
+openpyxl
+fuzzywuzzy
+python-Levenshtein
