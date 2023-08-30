@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: STASCAN
+Version: 1.0.0
+Summary: An AI-driven method for enhanced cellular organizational map in spatial transcriptomics
+Home-page: https://github.com/AbbyWY/STASCAN
+Author: Ying Wu
+Author-email: wuy@big.ac.cn
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: requests
+
+Here we propose STASCAN, which both gene expression and the morphological information are simultaneously utilized to improve the cellular resolution of captured domains and even gap regions. Besides, STASCAN is further designed to enable cell-type predictions at subdivide-spot resolution and construction of the 3D spatial cell map from histology images alone.
+
