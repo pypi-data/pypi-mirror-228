@@ -1,0 +1,18 @@
+[project]
+name = "vectorizer_dsawires"
+version = "0.0.1"
+authors = [
+  { name="David Sawires", email="contact@davidsawires.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dsawires/vectorizer"
+"Bug Tracker" = "https://github.com/dsawires/vectorizer/issues"
