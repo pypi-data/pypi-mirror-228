@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+intersectioncalc/README.MD
+intersectioncalc/__init__.py
+intersectioncalc/requirements.txt
+intersectioncalc/thirdparty.json
+intersectioncalc.egg-info/PKG-INFO
+intersectioncalc.egg-info/SOURCES.txt
+intersectioncalc.egg-info/dependency_links.txt
+intersectioncalc.egg-info/requires.txt
+intersectioncalc.egg-info/top_level.txt

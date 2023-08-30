@@ -1,0 +1,3 @@
+include intersectioncalc/requirements.txt
+include intersectioncalc/thirdparty.json
+include intersectioncalc/README.MD
