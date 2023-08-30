@@ -1,0 +1,128 @@
+Metadata-Version: 2.1
+Name: raga-cli
+Version: 0.1.70
+Summary: Git for data scientists - manage your code and data together
+Author-email: Manab Roy <manab.roy@raga.ai>
+Maintainer-email: Manab Roy <manab.roy@raga.ai>
+License: Apache License 2.0
+Project-URL: Homepage, https://github.com/whoosh-labs/rctl
+Project-URL: Bug Tracker, https://github.com/whoosh-labs/rctl/issues
+Keywords: data-science,data-version-control,machine-learning,git,developer-tools,reproducibility,collaboration,ai,raga
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dvc ==2.45.1
+Requires-Dist: dvc-s3 ==2.21.0
+Requires-Dist: halo ==0.0.31
+Requires-Dist: platformdirs ==3.2.0
+Provides-Extra: all
+Requires-Dist: dvc[s3] ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: dvc[s3,tests] ; extra == 'dev'
+Provides-Extra: s3
+Requires-Dist: dvc-s3 ==2.21.0 ; extra == 's3'
+Provides-Extra: testing
+Requires-Dist: pytest-test-utils ==0.0.8 ; extra == 'testing'
+Provides-Extra: tests
+Requires-Dist: tpi[ssh] >=2.1.0 ; extra == 'tests'
+Requires-Dist: dvc-ssh ==2.20.0 ; extra == 'tests'
+Requires-Dist: pytest-test-utils ==0.0.8 ; extra == 'tests'
+Requires-Dist: pytest ==7.2.0 ; extra == 'tests'
+Requires-Dist: pytest-cov ==4.0.0 ; extra == 'tests'
+Requires-Dist: pytest-xdist ==3.1.0 ; extra == 'tests'
+Requires-Dist: pytest-mock ==3.10.0 ; extra == 'tests'
+Requires-Dist: pytest-lazy-fixture ==0.6.3 ; extra == 'tests'
+Requires-Dist: flaky ==3.7.0 ; extra == 'tests'
+Requires-Dist: pytest-timeout ==2.1.0 ; extra == 'tests'
+Requires-Dist: filelock ==3.8.2 ; extra == 'tests'
+Requires-Dist: beautifulsoup4 ==4.11.1 ; extra == 'tests'
+Requires-Dist: pylint ==2.15.9 ; extra == 'tests'
+Requires-Dist: pylint-pytest ==1.1.2 ; extra == 'tests'
+Requires-Dist: pylint-plugin-utils ==0.7 ; extra == 'tests'
+Requires-Dist: mypy ==0.991 ; extra == 'tests'
+Requires-Dist: types-requests ; extra == 'tests'
+Requires-Dist: types-tabulate ; extra == 'tests'
+Requires-Dist: types-toml ; extra == 'tests'
+Requires-Dist: pytest-docker ==0.11.0 ; (python_version < "3.10" or sys_platform != "win32") and extra == 'tests'
+Requires-Dist: pywin32 >=225 ; (sys_platform == "win32") and extra == 'tests'
+
+
+# # Raga CLI (rc) - Data Version Control Tool
+
+Raga CLI (rc) is a command-line tool built in Python for managing data version control. It allows you to track changes to datasets and models, create checkpoints, and manage repositories to ensure smooth collaboration and reproducibility in data-related projects.
+
+## Installation
+
+To install Raga CLI, make sure you have Python installed, and then run the following command:
+
+```bash
+pip install raga-cli
+```
+
+## Usage
+
+Raga CLI provides several commands to help you manage your data version control tasks. Here are the available commands:
+
+1. **Create a New Repository**
+   ```bash
+   rc repo create -n <repo_name> -tag <model/dataset>
+   ```
+   This command creates a new repository with the specified name and tags it as a model or dataset repository.
+
+2. **Clone an Existing Repository**
+   ```bash
+   rc repo clone -n <repo_name>
+   ```
+   Use this command to clone an existing repository by providing the repository name.
+
+3. **Show Repository Current Local Version**
+   ```bash
+   rc repo version
+   ```
+   Displays the current local version of the repository.
+
+4. **Show Repository Information**
+   ```bash
+   rc repo info
+   ```
+   Provides information about the repository, including its name, type, and current version.
+
+5. **Upload Files and Create Checkpoint**
+   ```bash
+   rc put -m "<commit message>"
+   ```
+   Uploads tracked files or directories to remote storage and creates a checkpoint with the specified commit message.
+
+6. **Download Tracked Files or Directories**
+   ```bash
+   rc get
+   ```
+   Downloads files or directories that are tracked by Raga CLI.
+
+7. **Download Files or Directories of a Specific Repo Version**
+   ```bash
+   rc get -repo-version <repo_version>
+   ```
+   Downloads files or directories of a particular version of the repository.
+
+### Additional Flags
+
+- `-h`, `--help`: Prints the usage/help message and exits.
+- `-q`, `--quiet`: Suppresses standard output. Exits with 0 if no problems arise; otherwise, exits with 1.
+- `-v`, `--verbose`: Displays detailed tracing information.
+
+## Contributing
+
+Contributions to Raga CLI are welcome! If you encounter issues or have suggestions for improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/whoosh-labs/rctl).
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+---
