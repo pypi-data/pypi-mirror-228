@@ -1,0 +1,17 @@
+naamkaran/__init__.py,sha256=ck6-MpUCtt4CdhHAUJfGmZtVKRcwR-LTcSiGE3YIpUQ,133
+naamkaran/generate.py,sha256=I11hARxpAEAW8ZQYBWzaQGQir-kppxWcGwh0Vt0Wfs0,1233
+naamkaran/model.py,sha256=iRw48yxGiUA5kGhSnDTaDidg365TbYuNSKBmDQVYzhg,1573
+naamkaran/naam.py,sha256=IE-IumHYXFDi3IjOUyX0iVRDy9jFEHUE_q7oz2oUy3k,3113
+naamkaran/utils.py,sha256=T_Qe2Q1x5adM8x3Z_1zBFSWXk2lEwcb3ippFKL0YpJw,1364
+naamkaran/models/naamkaran.pt,sha256=SajrVW7xifVP0FNY18ilPjpzTLxpaqBFRzsNOtFVKGg,532009
+naamkaran/models/names_vec.joblib,sha256=-ID4JcgMtgteXkhBThDl_hdBDBtgHnyJ8caA9coGlck,571
+naamkaran/notebooks/01_data_prep.ipynb,sha256=rw_6fQQPCrWd7Q-O2wMLbvvKmoIKWD4jyKIN5IIByd8,19473
+naamkaran/notebooks/02_train.ipynb,sha256=BltIDyA3GFcdXkEr5k3qFr2HJzcBY7crWR_-QMQsIe4,183119
+naamkaran/tests/__init__.py,sha256=xiOJriUKfsW0hTAbD5-gc95gYy_FLuYeB62-22WYSKg,404
+naamkaran/tests/test_010_gen_names.py,sha256=UFalQyUhcs0VQTpnvaSRcVI38_cLtlfNI2r-IhjyOWE,1004
+naamkaran-0.0.1.dist-info/LICENSE,sha256=Ke30wWOV0EuSF_Pt-bWEPdTjaS8DvUft2y0FBgjzwAI,1112
+naamkaran-0.0.1.dist-info/METADATA,sha256=xV4-pX0bvbshH9BnfVBY5s9lTKWKDs81ds631DylX18,3921
+naamkaran-0.0.1.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+naamkaran-0.0.1.dist-info/entry_points.txt,sha256=PPthvNwIcARkd1qh6fdhNSYzYNv_et4F2RgBT9fXFvs,59
+naamkaran-0.0.1.dist-info/top_level.txt,sha256=EO129kAe1fjrXbGhOf8573nmasfFnniBCHRzF3rgZ4o,10
+naamkaran-0.0.1.dist-info/RECORD,,
