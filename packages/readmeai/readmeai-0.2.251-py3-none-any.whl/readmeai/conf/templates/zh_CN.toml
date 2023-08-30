@@ -1,0 +1,160 @@
+# zh-cn template
+
+[md]
+default = "[📍 INSERT-INSTRUCTIONS_HERE]"
+header = """
+<div align="center">
+  <h1 align="center">
+    <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" />
+    <br>
+    {}
+  </h1>
+  <h3 align="center">📍 {}</h3>
+  <h3 align="center">🚀 使用以下软件和工具开发:</h3>
+</div>
+"""
+
+badges = """
+<p align="center">
+  {}
+</p>
+---
+"""
+
+toc = """
+## 📚 目录
+- [📚 目录](#-目录)
+- [📍概述](#-概述)
+- [🔮 特性](#-特性)
+- [⚙️ 项目结构](#项目结构)
+- [🧩 模块](#模块)
+- [🏎💨 开始](#-开始)
+- [🗺 路线图](#-路线图)
+- [🤝 贡献](#-贡献)
+- [🪪 许可证](#-许可证)
+- [📫 联系方式](#-联系方式)
+- [🙏 致谢](#-致谢)
+---
+"""
+
+intro = """
+## 📍概述
+
+{}
+
+---
+## 🔮 特性
+
+{}
+
+---
+"""
+
+modules = """
+---
+<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-src-open.svg" width="80" />
+## 💻 模块
+"""
+
+dropdown = """
+<details closed>
+  <summary>{}</summary>
+  
+  {}
+
+</details>
+"""
+
+tree = """
+<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-github-open.svg" width="80" />
+## ⚙️ 项目结构
+
+"""
+
+setup = """
+<hr />
+
+## 🚀 开始
+
+### ✅ 先决条件
+
+在开始之前，请确保已安装以下先决条件:
+
+> `[📌  插入项目先决条件]`
+
+### 💻 安装
+
+1. 克隆 {0} 仓库:
+
+    ```sh
+    git clone {1}
+    ```
+
+2. 切换到项目目录:
+
+    ```sh
+    cd {0}
+    ```
+
+3. 安装依赖:
+
+    ```sh
+    {2}
+    ```
+
+### 🤖 使用 {0}
+
+    ```sh
+    {3}
+    ```
+
+<hr />
+"""
+
+ending = """
+
+## 🛠 后续开发
+
+- [📌 里程碑 1: 添加新特性 X]
+- [📌 里程碑 2: ...]
+- [📌 里程碑 3: ...]
+- [📌 里程碑 4: ...]
+
+## 🤝 贡献
+
+欢迎贡献！请按照以下步骤进行:
+
+1. Fork 项目仓库。这会在您的账户上创建一个项目副本，您可以在不影响原始项目的情况下进行修改。
+2. 使用 Git 或 GitHub Desktop 等 Git 客户端将 fork 的仓库克隆到本地机器上。
+3. 创建一个具有描述性名称的新分支（例如 new-feature-branch 或 bugfix-issue-123）。
+
+    ```sh
+    git checkout -b new-feature-branch
+    ```
+
+4. 对项目代码进行更改。
+5. 使用清晰的提交消息将更改提交到本地分支。
+
+    ```sh
+    git commit -m '实现新特性。'
+    ```
+
+6. 使用以下命令将更改推送到 GitHub 上的 fork 仓库。
+
+    ```sh
+    git push origin new-feature-branch
+    ```
+
+7. 在原始仓库中创建一个 pull request。
+   打开一个新的 pull request 到原始项目仓库。在 pull request 中描述您所做的更改及其原因。
+   项目维护者将审查您的更改，并提供反馈或将其合并到主分支中。
+
+## 🪪 许可证
+
+该项目使用 [📌 插入许可证类型] 许可证。有关详细信息，请参阅 LICENSE 文件。
+
+## 🙏 致谢
+
+[📌 插入参考和资源]
+
+"""
