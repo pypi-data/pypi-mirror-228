@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: weather-app-mehdirazajaffri
+Version: 1.0.2
+Summary: Weather App Cli Tool
+Download-URL: https://github.com/mehdirazajaffri/weather_app/archive/refs/tags/1.0.2.tar.gz
+Author: Mehdi Raza
+Author-email: mehdirazajaffri@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+License-File: LICENSE
+
+Weather App
