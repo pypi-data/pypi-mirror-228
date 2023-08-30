@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+auto_ner/__init__.py
+auto_ner/app.py
+auto_ner/run.py
+auto_ner.egg-info/PKG-INFO
+auto_ner.egg-info/SOURCES.txt
+auto_ner.egg-info/dependency_links.txt
+auto_ner.egg-info/entry_points.txt
+auto_ner.egg-info/not-zip-safe
+auto_ner.egg-info/requires.txt
+auto_ner.egg-info/top_level.txt
