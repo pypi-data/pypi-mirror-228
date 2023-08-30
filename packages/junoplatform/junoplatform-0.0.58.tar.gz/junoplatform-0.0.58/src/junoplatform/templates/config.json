@@ -1,0 +1,36 @@
+{
+  "Level_target": [
+    3.0
+  ],
+  "paraP": 5,
+  "paraI": 2,
+  "paraD": 4,
+  "updata_value": 4,
+  "pump_range": [
+    10,
+    100
+  ],
+  "interval_minute": 10,
+  "pump_range_single": [
+    30,
+    50
+  ],
+  "pools": [
+    {
+      "enable": true,
+      "user_input": false,
+      "ui": true,
+      "name": "排放池",
+      "tags": [
+        "AI_LT-T30401-DISP"
+      ],
+      "alias": [
+        "排放池-液位"
+      ],
+      "units": [
+        "mg/L"
+      ],
+      "targets": "Level_target"
+    }
+  ]
+}
