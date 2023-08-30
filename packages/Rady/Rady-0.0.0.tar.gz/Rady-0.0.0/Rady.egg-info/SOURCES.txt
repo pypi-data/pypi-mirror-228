@@ -1,0 +1,6 @@
+license.txt
+setup.py
+Rady.egg-info/PKG-INFO
+Rady.egg-info/SOURCES.txt
+Rady.egg-info/dependency_links.txt
+Rady.egg-info/top_level.txt
