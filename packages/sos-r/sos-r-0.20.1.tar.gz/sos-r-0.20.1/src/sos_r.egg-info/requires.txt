@@ -1,0 +1,5 @@
+sos>=0.19.8
+sos-notebook>=0.24.0
+pyarrow>=0.13.1
+pandas
+numpy
