@@ -1,0 +1,98 @@
+sources:
+  local_stack:
+    args:
+      fmt_fields:
+        dt:
+        - '20210210'
+        - '20210211'
+      fn_fmt: 'tab_out.nc'
+      hindcast: false
+      urlpath: '{{CATALOG_DIR}}//{dt}.000000/'
+    description: Test Stack Data
+    driver: rompy.intake.NetCDFFCStackSource
+
+  local_hindcast:
+    args:
+      fmt_fields:
+        dt:
+        - '20210210'
+        - '20210211'
+      fn_fmt: 'tab_out.nc'
+      hindcast: true
+      urlpath: '{{CATALOG_DIR}}//{dt}.000000/'
+    description: Test Stack Data
+    driver: rompy.intake.NetCDFFCStackSource
+
+  local_hindcast_single:
+    args:
+      fmt_fields:
+        dt:
+        - '20210210'
+      fn_fmt: 'tab_out.nc'
+      hindcast: true
+      urlpath: '{{CATALOG_DIR}}//{dt}.000000/'
+    description: Test Stack Data
+    driver: rompy.intake.NetCDFFCStackSource
+
+  local_stack_single:
+    args:
+      fmt_fields:
+        dt:
+        - '20210210'
+      fn_fmt: 'tab_out.nc'
+      hindcast: false
+      urlpath: '{{CATALOG_DIR}}//{dt}.000000/'
+    description: Test Stack Data
+    driver: rompy.intake.NetCDFFCStackSource
+
+  local_hindcast_time:
+    args:
+      fmt_fields:
+        dt:
+        - '20210210'
+        - '20210211'
+      fn_fmt: 'tab_out.nc'
+      startdt: '2021-02-13 12:00'
+      enddt: '2021-02-14 12:00'
+      hindcast: true
+      urlpath: '{{CATALOG_DIR}}//{dt}.000000/'
+    description: Test Stack Data
+    driver: rompy.intake.NetCDFFCStackSource
+
+  local_stack_time:
+    args:
+      fmt_fields:
+        dt:
+        - '20210210'
+        - '20210211'
+      fn_fmt: 'tab_out.nc'
+      startdt: '2021-02-13 12:00'
+      enddt: '2021-02-14 12:00'
+      hindcast: false
+      urlpath: '{{CATALOG_DIR}}//{dt}.000000/'
+    description: Test Stack Data
+    driver: rompy.intake.NetCDFFCStackSource
+  
+  local_hindcast_single_time:
+    args:
+      fmt_fields:
+        dt:
+        - '20210210'
+      fn_fmt: 'tab_out.nc'
+      startdt: '2021-02-10 12:00'
+      hindcast: true
+      urlpath: '{{CATALOG_DIR}}//{dt}.000000/'
+    description: Test Stack Data
+    driver: rompy.intake.NetCDFFCStackSource
+
+  local_stack_single_time:
+    args:
+      fmt_fields:
+        dt:
+        - '20210210'
+      fn_fmt: 'tab_out.nc'
+      startdt: '2021-02-10 12:00'
+      hindcast: false
+      urlpath: '{{CATALOG_DIR}}//{dt}.000000/'
+    description: Test Stack Data
+    driver: rompy.intake.NetCDFFCStackSource
