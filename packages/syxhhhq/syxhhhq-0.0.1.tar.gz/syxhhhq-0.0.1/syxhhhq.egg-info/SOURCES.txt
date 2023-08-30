@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+syxhhhq/__init__.py
+syxhhhq/lymasterdd.py
+syxhhhq/syx1.py
+syxhhhq/syx2.py
+syxhhhq.egg-info/PKG-INFO
+syxhhhq.egg-info/SOURCES.txt
+syxhhhq.egg-info/dependency_links.txt
+syxhhhq.egg-info/top_level.txt
