@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "flm-core"
+version = "0.3.0alpha000012" # ALSO BUMP IN flm/flm/__init__.py
+description = "Flexible Latex-like Markup"
+authors = ["Philippe Faist"]
+license = "MIT"
+readme = "README.md"
+include = ["flm/main/templates/**/*"]
+packages = [
+    { include = "flm" },
+]
+
+[tool.poetry.scripts]
+flm = 'flm.__main__:run_main'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pylatexenc = { version = "^3.0a19", allow-prereleases = true }
+python-frontmatter = "^1.0.0"
+PyYAML = ">=5.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+ipython = "^8.3.0"
+toml = "^0.10.2"
+
+[tool.poetry.group.buildjslib]
+optional = true
+
+[tool.poetry.group.buildjslib.dependencies]
+Transcrypt = ">=3.9.0"
+PyYAML = ">=5.0"
+
+[tool.poetry.group.builddoc]
+optional = true
+
+[tool.poetry.group.builddoc.dependencies]
+Sphinx = ">=5.0.0"
+sphinx-issues = ">=3.0.0"
+
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+
+
+[tool.pytest.ini_options]
+testpaths = [
+    "test",
+]
