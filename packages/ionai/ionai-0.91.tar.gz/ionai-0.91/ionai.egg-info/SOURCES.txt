@@ -1,0 +1,8 @@
+setup.py
+ion/__init__.py
+ion/core.py
+ion/iris.py
+ionai.egg-info/PKG-INFO
+ionai.egg-info/SOURCES.txt
+ionai.egg-info/dependency_links.txt
+ionai.egg-info/top_level.txt
