@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: inscodeai
+Version: 0.2.0
+Summary: A Python package that provides OCR services using Baidu OCR API
+Home-page: https://github.com/yourname/inscodeai
+Author: yanhui
+Author-email: yanhui@csdn.net
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

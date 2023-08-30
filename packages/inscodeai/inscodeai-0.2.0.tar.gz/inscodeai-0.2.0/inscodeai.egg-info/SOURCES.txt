@@ -1,0 +1,8 @@
+setup.py
+inscodeai/__init__.py
+inscodeai/inscodeai.py
+inscodeai.egg-info/PKG-INFO
+inscodeai.egg-info/SOURCES.txt
+inscodeai.egg-info/dependency_links.txt
+inscodeai.egg-info/requires.txt
+inscodeai.egg-info/top_level.txt
