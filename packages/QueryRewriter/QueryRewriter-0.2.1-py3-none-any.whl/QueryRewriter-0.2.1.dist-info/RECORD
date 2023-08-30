@@ -1,0 +1,11 @@
+query_rewritor/__init__.py,sha256=Yb9kfwoXsRhC-SQj8NQyGEvGlDiitkTf2DyxTFUY5xA,56
+query_rewritor/chatgpt_based/__init__.py,sha256=NQb7k9GPqYbarj9CO8ckx7jxTWbSNV0v9FF-W2f0-yg,64
+query_rewritor/chatgpt_based/query_rewritor.py,sha256=9pFj1dLTL83dP1rPejYnzNGIHDWsKjJsn72hyQU2T7Y,2160
+query_rewritor/chatgpt_based/synonyms_generator.py,sha256=UcJtHJcfNFTstO68gv2819vl_ihnMgcizPiPdO-Acjw,897
+query_rewritor/regex_based/__init__.py,sha256=Y77BbTMjL7jr9KOK4nikOq8xJbFrOb3B_XWc4LNJaiA,29
+query_rewritor/regex_based/query_rewritor.py,sha256=90G-v4X-ldx8tHruoUd74bCZ6JILRFMkynA2Obd6yb0,2928
+query_rewritor/regex_based/test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+QueryRewriter-0.2.1.dist-info/METADATA,sha256=QjKO0zd2bD0xKikdmxJ7NKoKJ1xY2bZPJPVoLhQPkKs,132
+QueryRewriter-0.2.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+QueryRewriter-0.2.1.dist-info/top_level.txt,sha256=4panvcHUjdqqFGm1ldWlv4OplPkwhBaadUXiAyJJysE,15
+QueryRewriter-0.2.1.dist-info/RECORD,,
