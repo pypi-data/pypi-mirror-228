@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: PyDemoTest
+Version: 0.1.1
+Summary: TestDemo-Python project for uploading to pypi.
+Home-page: https://github.com/liaopan
+Maintainer: reallo
+Maintainer-email: liaopan_2015@163.com
+License: MIT-License
+Download-URL: http://github.com/liaopan/**project
+Keywords: Neuroscience neuroimaging MEG brain.
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+
+UNKNOWN
+
