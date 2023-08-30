@@ -1,0 +1,17 @@
+# List required packages in this file, one per line.
+numpy
+xarray
+intake
+intake-xarray
+intake-geopandas
+fsspec
+cookiecutter
+dask
+h5py
+netcdf4
+tqdm
+pandas
+scipy
+matplotlib
+owslib
+geopandas
