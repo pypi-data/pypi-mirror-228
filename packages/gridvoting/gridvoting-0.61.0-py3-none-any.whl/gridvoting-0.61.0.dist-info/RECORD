@@ -1,0 +1,10 @@
+gridvoting/__init__.py,sha256=v4r32IETO_Exsi082VNOt7RwJCsNK4rlX6GCmSwr0yo,23971
+gridvoting/test_gridvoting_condorcet_cycle.py,sha256=rYlbt4RZI5nd8KSWX6VG_K_1bgNrltDbcTK1N9gXPus,1018
+gridvoting/test_gridvoting_cupy.py,sha256=BufOuP7q_0yrTDrShBVW6284ojJis7lN07fluR6uLXI,175
+gridvoting/test_gridvoting_grid.py,sha256=AK5osCNRRx5V4U8K8rYK0hzIFRzlrNIQfNduv42F_II,12765
+gridvoting/test_gridvoting_replication.py,sha256=JUTrhVTiHSZWs-mShn37bDwdDaaZzAGzgcwkng4ZzeM,4089
+gridvoting-0.61.0.dist-info/LICENSE.md,sha256=8T93PZQX_Tn-5QHKezB6KBUwbUAICH-x9MsewJbcnSg,1142
+gridvoting-0.61.0.dist-info/METADATA,sha256=oeNnfYoJXFOpYI7kupgTffP-P3vPPJFBaMDrPK9YBaA,20199
+gridvoting-0.61.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gridvoting-0.61.0.dist-info/top_level.txt,sha256=_Vk-DUpOEYpo2Wqg4j9TUMkIvEXdA4B61_T4wFqtO8E,11
+gridvoting-0.61.0.dist-info/RECORD,,
