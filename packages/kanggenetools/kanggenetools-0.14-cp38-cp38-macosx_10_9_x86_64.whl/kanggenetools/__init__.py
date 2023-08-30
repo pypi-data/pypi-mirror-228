@@ -1,0 +1,7 @@
+API_KEY = "kangtools"
+
+def authorize(key):
+    if key != API_KEY:
+        raise ImportError("Invalid API key. Please contact the package author xiaowenkang kangxiaowen@gmail.com for a valid key.")
+
+

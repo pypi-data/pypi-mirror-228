@@ -1,0 +1,9 @@
+kanggenetools/__init__.py,sha256=AM__I5cXgIEigm3DugdT0SdvZ2F5sBdl5qAz53JVyqU,199
+kanggenetools/authorization.py,sha256=g1GtChJJ7FZ_UfnUowNgrEUlxPFI8i-EAtZIfji4bt8,153
+kanggenetools/compression_algorithm.cpython-38-darwin.so,sha256=wT2vDsroHJjkYEhK1lH9kRLawmH74xnmXJtN6HlSZ90,75376
+kanggenetools/main.py,sha256=ZpoEnFytC_TMb_Poaa7yTwka81PCna2MPeSaBhozqcQ,808
+kanggenetools/transform.py,sha256=Ze0WwR52eIcop7zwUoGsEdBosvBsYRUmre7B3uLbRjs,7237
+kanggenetools-0.14.dist-info/METADATA,sha256=BglNUBzaXLJuP7UNaYKLN7Ex8npF-FmUrnp-etIlBrE,477
+kanggenetools-0.14.dist-info/WHEEL,sha256=RA4ju32EWHpO-G1BhxTQ3AwXQWjnnrzYGkM9skoN7_I,109
+kanggenetools-0.14.dist-info/top_level.txt,sha256=z9HpsIM1_CVxAfrtfJIPQiBFwE5LHnMtiKYg1U_f-sY,14
+kanggenetools-0.14.dist-info/RECORD,,
