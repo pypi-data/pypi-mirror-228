@@ -1,0 +1,2 @@
+[console_scripts]
+auto_ner.run = auto_ner.run:run
