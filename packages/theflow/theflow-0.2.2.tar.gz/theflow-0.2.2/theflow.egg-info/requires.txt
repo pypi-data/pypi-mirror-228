@@ -1,0 +1,14 @@
+pyyaml
+
+[dev]
+pytest
+pytest-cov
+black
+flake8
+mypy
+isort
+pre-commit
+notebook
+ipython
+build
+twine
