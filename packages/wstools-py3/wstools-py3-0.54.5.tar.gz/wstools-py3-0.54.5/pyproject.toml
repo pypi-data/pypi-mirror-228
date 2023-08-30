@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wstools-py3"
+version = "0.54.5"
+authors = [{name = "Makina Corpus", email = "python@makina-corpus.com"}]
+maintainers = [{name = "Synerty", email = "contact@synerty.com"}]
+license = {text = "BSD"}
+description = "WSDL parsing services package for Web Services for Python. seehttps://github.com/Synerty/wstools-py3"
+keywords = ["api", "wstools", "wdsl", "web"]
+readme = "README.rst"
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Other Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3.4",
+    "Programming Language :: Python :: 3.5",
+    "Topic :: Internet :: WWW/HTTP",
+]
+urls = {Homepage = "https://github.com/Synerty/wstools-py3"}
+dependencies = ["six"]
+
+[project.optional-dependencies]
+testing = ["py >= 1.4", "hacking", "pytest", "pytest-cov"]
+
+[tool.setuptools]
+include-package-data = true
+provides = ["wstools"]
+
+[tool.setuptools.packages.find]
+exclude = ["tests"]
+namespaces = false
