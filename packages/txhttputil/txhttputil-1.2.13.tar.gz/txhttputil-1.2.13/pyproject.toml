@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "txhttputil"
+version = "1.2.13"
+authors = [{name = "Synerty", email = "contact@synerty.com"}]
+description = "Synerty utility classes for serving a static site with twisted.web with user permissions."
+keywords = [
+    "twisted",
+    "resource",
+    "file",
+    "download",
+    "synerty",
+]
+classifiers = ["Programming Language :: Python :: 3.9"]
+dependencies = [
+    "pytz",
+    "txwebsocket>=1.0.1",
+    "filetype",
+    "pem",
+    "pytmpdir",
+    "treelib>=1.6.4",
+    "cryptography",
+    "pyOpenSSL",
+]
+
+[project.urls]
+Homepage = "https://github.com/Synerty/txhttputil"
+Download = "https://github.com/Synerty/txhttputil/tarball/1.2.11"
+
+[tool.setuptools]
+packages = [
+    "txhttputil",
+    "txhttputil.downloader",
+    "txhttputil.login_page",
+    "txhttputil.site",
+    "txhttputil.util",
+]
+include-package-data = false
