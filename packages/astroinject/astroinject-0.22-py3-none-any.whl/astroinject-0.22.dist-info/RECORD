@@ -1,0 +1,11 @@
+astroinject/__init__.py,sha256=7gd9ZbPmQ-5PX1cg0H1LRJ4r7klxsOeGCjOhUwOHH70,22
+astroinject/main.py,sha256=XXfpLo6e61aSXDhj2lWzmFDMgBkgFk6YFCAqmOvcfUY,4722
+astroinject/inject/__init__.py,sha256=4SeLy2Ax1SwXafJWn8a1Oyohf_mSeCmoR1MjU-kgmMw,42
+astroinject/inject/conn.py,sha256=dHm8SraBfrvFRwwoaz0y8pFkJLOyXb_UWaW-ZU7FC6Q,8691
+astroinject/inject/funcs.py,sha256=DjqT4Hw5ztg54uE1Rhi7_5w7tMJkLwqlLackaupMm-s,13152
+astroinject-0.22.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+astroinject-0.22.dist-info/METADATA,sha256=flxIAveZtZd-4c2-A87W2JMGLWKfSWS1wfv3emOgqM4,326
+astroinject-0.22.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+astroinject-0.22.dist-info/entry_points.txt,sha256=YyjGHn4YrO6OpAw_ddPgrsjG_dS4XEP6KRbRjPh5cKE,54
+astroinject-0.22.dist-info/top_level.txt,sha256=MOHtbIb6vQURMi6aBBjIRFZOM13Q476ovQGt3Gsv-pI,12
+astroinject-0.22.dist-info/RECORD,,
