@@ -1,0 +1,8 @@
+httpx[http2]
+nest-asyncio
+aiofiles
+tqdm
+orjson
+
+[:platform_system != "Windows"]
+uvloop

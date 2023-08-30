@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: psychopath
+Version: 0.0.0
+Summary: File System Utils For Data Science Projects
+Home-page: https://github.com/trevorhobenshield/psychopath
+Author: Trevor Hobenshield
+Author-email: trevorhobenshield@gmail.com
+License: MIT
+Keywords: data science ml machine learning deep learning utility tools helpers images videos text audio
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# psychopath
+File System Utils For Data Science Projects
