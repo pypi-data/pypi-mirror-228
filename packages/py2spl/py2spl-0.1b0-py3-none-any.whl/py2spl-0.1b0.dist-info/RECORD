@@ -1,0 +1,13 @@
+docs/source/conf.py,sha256=TscuikHdsrIVECvW4uE_spHdbKEPdA5AO5eOfogE15c,1414
+examples/hi.py,sha256=oQNEH0DQb06mQ2FcEuR_Z-_ydoxBR_kldkuLM5V5ypU,646
+pyspl/__about__.py,sha256=Gbk5ndVbGSSwKiDUgG9RXCE9qRM59uJ_dLIyDf-o5dw,22
+pyspl/__init__.py,sha256=T9RU94fdaGkmIxngo_EnCBmdWgGSoyFMm16CmEXCfpc,243
+pyspl/character.py,sha256=qwKI0dJwXlTha0UvF_rxMC3w71Rp5cJaEsTK_C4XhIQ,533
+pyspl/errors.py,sha256=BNTDQxFflbqui4WmT-8HMfEi7BzMWM3FMqed3BG3Rtk,797
+pyspl/names.py,sha256=Sxu19Tvoz8-kSKpvUdnrkYkrA-mGriWeMQ8__kKX-Ho,3919
+pyspl/operations.py,sha256=dbERaP77eyecqAqKAWy5pT05E_jLH_8FXFovKn5w9Pw,4717
+pyspl/play.py,sha256=WzICqa_j2WUPVTMIaG6JHRMTb25IdAAjw28Eqynl2vE,9859
+py2spl-0.1b0.dist-info/METADATA,sha256=R1hYRwvoXIbgqm5pvTOCejc7RzgXhWAUY69N3t2L7lI,1246
+py2spl-0.1b0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+py2spl-0.1b0.dist-info/licenses/LICENSE,sha256=nWDG9crC_1z5swdm4M_j-ceAUth_JpHxrYxI3FpEyjE,1088
+py2spl-0.1b0.dist-info/RECORD,,
