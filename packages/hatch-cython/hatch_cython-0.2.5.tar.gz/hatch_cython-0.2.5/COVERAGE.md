@@ -1,0 +1,19 @@
+| Name                                     |    Stmts |     Miss |   Branch |   BrPart |   Cover |
+|----------------------------------------- | -------: | -------: | -------: | -------: | ------: |
+| src/hatch\_cython/\_\_init\_\_.py        |        2 |        0 |        0 |        0 |    100% |
+| src/hatch\_cython/config/\_\_init\_\_.py |        2 |        0 |        0 |        0 |    100% |
+| src/hatch\_cython/config/autoimport.py   |        9 |        0 |        4 |        0 |    100% |
+| src/hatch\_cython/config/config.py       |      138 |       12 |       58 |        7 |     89% |
+| src/hatch\_cython/config/defaults.py     |        6 |        0 |        0 |        0 |    100% |
+| src/hatch\_cython/config/files.py        |       22 |        1 |       12 |        2 |     91% |
+| src/hatch\_cython/config/flags.py        |       70 |        1 |       26 |        0 |     99% |
+| src/hatch\_cython/config/includes.py     |       15 |        1 |        8 |        1 |     91% |
+| src/hatch\_cython/config/macros.py       |       12 |        0 |        7 |        0 |    100% |
+| src/hatch\_cython/config/platform.py     |       71 |        2 |       28 |        2 |     96% |
+| src/hatch\_cython/constants.py           |       11 |        0 |        0 |        0 |    100% |
+| src/hatch\_cython/devel.py               |        5 |        0 |        0 |        0 |    100% |
+| src/hatch\_cython/hooks.py               |        5 |        1 |        2 |        0 |     86% |
+| src/hatch\_cython/plugin.py              |      192 |        9 |      142 |        8 |     95% |
+| src/hatch\_cython/temp.py                |       11 |        0 |        0 |        0 |    100% |
+| src/hatch\_cython/utils.py               |       27 |        1 |       12 |        1 |     95% |
+|                                **TOTAL** |  **598** |   **28** |  **299** |   **21** | **94%** |
