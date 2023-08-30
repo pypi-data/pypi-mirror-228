@@ -1,0 +1,5 @@
+This project depends on quicktype.
+
+it can be installed with nodejs. 
+
+npm install quicktype

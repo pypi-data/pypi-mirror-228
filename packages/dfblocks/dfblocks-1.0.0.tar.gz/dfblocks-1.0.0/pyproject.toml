@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "DFBlocks"
+version = "1.0.0"
+description = "MCDiamondfire type definitions and data"
+authors = ["showierdata9978 <68120127+showierdata9978@users.noreply.github.com>"]
+license = "Unlicense"
+readme="README"
+packages = [
+    {include = "DFBlocks"}
+]
+repository = "https://github.com/showierdata9978/DFBlocks"
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.11"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
