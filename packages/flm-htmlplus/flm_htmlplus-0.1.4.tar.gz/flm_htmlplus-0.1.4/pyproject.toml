@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "flm-htmlplus"
+version = "0.1.4"
+description = "Enhancements to FLM's HTML output (syntax highlighting, math equations, option for PDF output, etc.)"
+authors = ["Philippe Faist"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "flm_htmlplus"}]
+include = ["flm_htmlplus/runmathjax_browser_dist.js"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flm-core = ">=0.3.0a10"
+selenium = "^4.10.0"
+webdriver-manager = "^3.8.5"
+pygments = "^2.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
