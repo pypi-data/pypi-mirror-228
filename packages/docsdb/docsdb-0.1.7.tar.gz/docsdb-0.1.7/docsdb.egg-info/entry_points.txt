@@ -1,0 +1,2 @@
+[console_scripts]
+docsdb = docsdb.main:cli
