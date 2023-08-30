@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: vortexpy
+Version: 4.0.0
+Summary: Synertys observable, routable, data serialisation and transport code.
+Author-email: Synerty <contact@synerty.com>
+Project-URL: Homepage, https://github.com/Synerty/vortexpy
+Project-URL: Download, https://github.com/Synerty/vortexpy/tarball/3.4.6
+Keywords: vortex,observable,http,compressed,synerty
+Classifier: Programming Language :: Python :: 3.5
+License-File: LICENSE
