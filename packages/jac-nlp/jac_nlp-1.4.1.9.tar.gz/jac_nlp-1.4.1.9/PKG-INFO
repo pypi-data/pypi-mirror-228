@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: jac_nlp
+Version: 1.4.1.9
+Home-page: https://github.com/Jaseci-Labs/jaseci
+Author: Jason Mars
+Author-email: jason@jaseci.org
+Provides-Extra: all
+Provides-Extra: summarization
+Provides-Extra: sbert_sim
+Provides-Extra: text_seg
+Provides-Extra: tfm_ner
+Provides-Extra: use_enc
+Provides-Extra: use_qa
+Provides-Extra: bi_enc
+Provides-Extra: topic_ext
+Provides-Extra: gpt2
+Provides-Extra: sentiment
+Provides-Extra: paraphraser
+Provides-Extra: dolly
+Provides-Extra: llm
+Provides-Extra: cl_summer
