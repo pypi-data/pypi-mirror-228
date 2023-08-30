@@ -1,0 +1,74 @@
+/* COLORS */
+$bg-main-color: white;
+$bg-secondary-color: #e5e7eb;
+$text-primary-color: black;
+
+$bg-main-color-darken: #1e293b;
+$bg-secondary-color-darken: #0f172a;
+$text-primary-color-darken: white;
+
+/* SideBar CSS */
+SideBar {
+    dock: left;
+    width: 20;
+
+    background: $bg-secondary-color;
+    color: $text-primary-color;
+    transition: width 250ms in_out_cubic;
+}
+
+.-dark-mode SideBar {
+    background: $bg-secondary-color-darken;
+    color: $text-primary-color-darken;
+}
+
+SideBar.-hidden {
+    width: 0;
+}
+
+SideBar .sidebar-options-column {
+    margin: 1;
+    padding: 1 1;
+}
+
+SideBar #sidebar-title {
+    width: 100%;
+    content-align: left middle;
+    text-style: bold;
+    border-bottom: heavy $text-primary-color;
+}
+
+.-dark-mode SideBar #sidebar-title {
+    border-bottom: heavy $text-primary-color-darken;
+}
+
+SideBar .sidebar-option {
+    content-align: left middle;
+    margin: 1 0;
+    width: 100%;
+}
+
+/* Main Content CSS */
+MainContent {
+    background: $bg-main-color;
+    color: $text-primary-color;
+
+    padding: 2 1 0 1;
+    height: 100%;
+}
+
+.-dark-mode MainContent {
+    background: $bg-main-color-darken;
+    color: $text-primary-color-darken;
+}
+
+MainContent .title {
+    content-align: left middle;
+    text-style: bold;
+    border-bottom: heavy $text-primary-color;
+    width: 100%
+}
+
+.-dark-mode MainContent .title {
+    border-bottom: heavy $text-primary-color-darken;
+}
