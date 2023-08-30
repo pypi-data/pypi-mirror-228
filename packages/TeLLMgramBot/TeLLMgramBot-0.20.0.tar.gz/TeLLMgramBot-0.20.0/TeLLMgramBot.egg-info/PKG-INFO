@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: TeLLMgramBot
+Version: 0.20.0
+Summary: OpenAI GPT, driven by Telegram
+Home-page: https://github.com/Digital-Heresy/TeLLMgramBot
+Author: RoninATX
+Author-email: ronin.atx@gmail.com
+License: MIT
+Requires-Python: >=3.10
+License-File: LICENSE
