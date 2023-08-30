@@ -1,0 +1,11 @@
+README.md
+setup.py
+plasmaz-base/__init__.py
+plasmaz-base/plasz_cmds.py
+plasmaz-base/plasz_events.py
+plasmaz-base/plasz_utils.py
+plasmaz.egg-info/PKG-INFO
+plasmaz.egg-info/SOURCES.txt
+plasmaz.egg-info/dependency_links.txt
+plasmaz.egg-info/requires.txt
+plasmaz.egg-info/top_level.txt
