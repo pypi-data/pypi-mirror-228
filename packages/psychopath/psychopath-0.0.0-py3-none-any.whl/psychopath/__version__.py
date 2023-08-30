@@ -1,0 +1,5 @@
+__title__ = "psychopath"
+__description__ = "File System Utils For Data Science Projects"
+__version__ = "0.0.0"
+__author__ = "Trevor Hobenshield"
+__license__ = "MIT"
