@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: zensectfpy
+Version: 0.0.1
+Summary: Python library that contains a snarky storage secret - Designed for ZenseCTF.
+Home-page: https://github.com/vijay-jaisankar/simple-vuln-py-lib
+Author: Vijay Jaisankar (Zense)
+Author-email: zense-club@iiitb.ac.in
+Project-URL: Bug Tracker, https://github.com/vijay-jaisankar/simple-vuln-py-lib/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# simple-vuln-py-lib
+Python library that contains a snarky storage secret.

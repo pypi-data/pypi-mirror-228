@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/zensectfpy/__init__.py
+src/zensectfpy/rickroll.py
+src/zensectfpy/top_secret_wisefox_64.py
+src/zensectfpy.egg-info/PKG-INFO
+src/zensectfpy.egg-info/SOURCES.txt
+src/zensectfpy.egg-info/dependency_links.txt
+src/zensectfpy.egg-info/top_level.txt
