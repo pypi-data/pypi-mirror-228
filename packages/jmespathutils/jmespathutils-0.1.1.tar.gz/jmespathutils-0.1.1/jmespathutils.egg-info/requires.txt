@@ -1,0 +1,17 @@
+jmespath
+xmltodict
+cuid
+
+[dev]
+mypy
+black
+vistir==0.6.1
+pipenv-setup[black]
+pre-commit
+types-jmespath
+tox
+invoke
+twine
+wheel
+zest.releaser
+flake8
