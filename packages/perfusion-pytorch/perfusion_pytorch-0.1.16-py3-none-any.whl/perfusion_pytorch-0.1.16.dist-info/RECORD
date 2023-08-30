@@ -1,0 +1,11 @@
+perfusion_pytorch/__init__.py,sha256=nJNnQ5osNCOXjDe1PTAXvyJE8xXCLh0sHaqEiKMQlUc,390
+perfusion_pytorch/embedding.py,sha256=pZKl9OOnTZx2bQQGoXT3LCZ51S6yUIWmZgCpDAuFn7w,8370
+perfusion_pytorch/open_clip.py,sha256=pQI5LXdp-p-soCuV0GXi0g76sICYR4ld2J3gChgQN7A,2403
+perfusion_pytorch/perfusion.py,sha256=z0mTqoxE97zfdWsxPnUnjGMPWDRmd-X2ywoq1sanJVc,17286
+perfusion_pytorch/save_load.py,sha256=nAxNHiA4fhWxWZK1nCLT039XFynPDrPnF0H5ctodFG8,2656
+perfusion_pytorch/data/covariance_CLIP_ViT-L-14.pt,sha256=uudD7uN4iU0p6vMTdAJE5vq8hmI6qAPGle3awz8NA6U,2360161
+perfusion_pytorch-0.1.16.dist-info/LICENSE,sha256=JCo3d2HvOFPGYvaXfnYX4-qjRyQvVElop5ZRITXMg-U,1066
+perfusion_pytorch-0.1.16.dist-info/METADATA,sha256=c1cFM_lqKpnYbvjLxfxN4sElpHS-h2lx2Y3-3DVgMT4,768
+perfusion_pytorch-0.1.16.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+perfusion_pytorch-0.1.16.dist-info/top_level.txt,sha256=NaPS2X00Ajc0y8u1lNrHpseHgozKSfAPhePWxd6WnhM,18
+perfusion_pytorch-0.1.16.dist-info/RECORD,,
