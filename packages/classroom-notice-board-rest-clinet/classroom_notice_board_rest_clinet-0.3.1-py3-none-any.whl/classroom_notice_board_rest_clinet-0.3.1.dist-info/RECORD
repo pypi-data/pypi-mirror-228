@@ -1,0 +1,10 @@
+classroom_notice_board_rest_clinet-0.3.1.dist-info/METADATA,sha256=C0RKLKjAPgaAh6nEIXnllJ4gX2vQlf3orR23QlRDxgs,7181
+classroom_notice_board_rest_clinet-0.3.1.dist-info/WHEEL,sha256=1D4d-_ODszlK6-qFybc5BLF-ZhZvee-uKVh2hLa3IIc,90
+classroom_notice_board_rest_clinet-0.3.1.dist-info/entry_points.txt,sha256=5pfPeZWqrgNqPOjLrNR2oi3GnbgZKrc1L7LsIMYWWxE,241
+classroom_notice_board_rest_clinet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+classroom_notice_board_rest_clinet/main.py,sha256=Gf2JVaRT3Duqclhow7852miuUTXhefyM-Nc1q10AUNo,4108
+classroom_notice_board_rest_clinet/restclient.py,sha256=If9OmOGegsQmSs_tjFpvmuGy3ya6XU40hqAXIoXkYsw,3408
+classroom_notice_board_rest_clinet/toolbox/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+classroom_notice_board_rest_clinet/toolbox/extractor.py,sha256=PxzzwlW2KndQXITyOpJTHAKvq-NW4ERnqKhaoFYvgVk,658
+classroom_notice_board_rest_clinet/toolbox/makeup_artist.py,sha256=W7ms8trxmpEOSFxucj7huvam1RkaFfpdrcSWFkJ3As8,117
+classroom_notice_board_rest_clinet-0.3.1.dist-info/RECORD,,
