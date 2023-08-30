@@ -1,0 +1,9 @@
+snakemake>=6.0.5
+mamba
+pandas
+networkx
+bird_tool_utils
+extern
+ruamel.yaml>=0.15.99
+polars
+pyarrow
