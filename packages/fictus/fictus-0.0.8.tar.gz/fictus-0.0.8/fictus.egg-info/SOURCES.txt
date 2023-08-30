@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+pyproject.toml
+fictus/__init__.py
+fictus/constants.py
+fictus/file.py
+fictus/folder.py
+fictus/renderer.py
+fictus.egg-info/PKG-INFO
+fictus.egg-info/SOURCES.txt
+fictus.egg-info/dependency_links.txt
+fictus.egg-info/top_level.txt
+tests/test_fictusfilesystem.py
+tests/test_folder.py
