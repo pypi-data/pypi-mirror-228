@@ -1,0 +1,8 @@
+kanggenetools/__init__.py,sha256=5bwI0jJW6wdCLUBa8iO3l3PHutecHgiEgLo4ZpmO2_M,164
+kanggenetools/compression_algorithm.py,sha256=UjTMSIN4uofqYbOlQgZdSZfegjcFjchI3gTMiOIZyPA,1515
+kanggenetools/main.py,sha256=ZpoEnFytC_TMb_Poaa7yTwka81PCna2MPeSaBhozqcQ,808
+kanggenetools/transform.py,sha256=Ze0WwR52eIcop7zwUoGsEdBosvBsYRUmre7B3uLbRjs,7237
+kanggenetools-0.10.dist-info/METADATA,sha256=KYWsuetmVyfIwd7bO7sMKmeqrX0djf1ePB5z9s1XiyM,477
+kanggenetools-0.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+kanggenetools-0.10.dist-info/top_level.txt,sha256=z9HpsIM1_CVxAfrtfJIPQiBFwE5LHnMtiKYg1U_f-sY,14
+kanggenetools-0.10.dist-info/RECORD,,
