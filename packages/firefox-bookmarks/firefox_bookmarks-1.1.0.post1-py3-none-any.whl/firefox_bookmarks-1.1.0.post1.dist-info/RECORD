@@ -1,0 +1,10 @@
+firefox_bookmarks/__init__.py,sha256=7LwF-HOoMReqD2ksrM5xSA_Q-KU6Pf_1gpqxkOdZKvM,26560
+firefox_bookmarks/bookmark.py,sha256=dbFpUvHfy6-RgMFIyy-O3ko_iMI_xKnN7bEO-mPB7Nw,4451
+firefox_bookmarks/connect.py,sha256=RhsheNnuqRI8waGWawfvaiXuhBYQtl598r1bpyHs-2c,1268
+firefox_bookmarks/constants.py,sha256=t543iZlN_qn93n4J-5mjFLtL9aRk0uGj7DYy_K_EUnY,438
+firefox_bookmarks/locate.py,sha256=Tawvrjf8DVWwDsy0lCLvwMsYFRRsF3GXXji5KQjPWK8,2391
+firefox_bookmarks/models.py,sha256=60loYxcwQOvTK135eUh-GoACZSwZv-hQehlFraaqT7Q,3974
+firefox_bookmarks-1.1.0.post1.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+firefox_bookmarks-1.1.0.post1.dist-info/METADATA,sha256=tBcV22chWuxW2Vd95m11QTnTaM5GA7ELgduC5dDjqHg,3517
+firefox_bookmarks-1.1.0.post1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+firefox_bookmarks-1.1.0.post1.dist-info/RECORD,,
