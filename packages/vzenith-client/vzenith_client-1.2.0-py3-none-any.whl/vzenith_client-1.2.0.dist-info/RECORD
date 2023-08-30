@@ -1,0 +1,9 @@
+LICENSE,sha256=7Lnd39gi_KpXB2olVG8Xphb_b__amIzKyF5-beD7fhE,1502
+vzenith/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vzenith/client.py,sha256=z63TLquJ69D9uvGGBOLP67ersavUx4tzi32CqbN2vxc,3994
+vzenith/event.py,sha256=0BmxUFPEOg8_G2ISCYyolQQuGKP-I15HNf0qdOvBjFg,677
+vzenith/packet.py,sha256=gocD8n5k6P_JqwRbIG-mSnAA5AfHROoDh8gv2cjj8kQ,1653
+vzenith_client-1.2.0.dist-info/LICENSE,sha256=7Lnd39gi_KpXB2olVG8Xphb_b__amIzKyF5-beD7fhE,1502
+vzenith_client-1.2.0.dist-info/METADATA,sha256=n8_eFBsoyzLXXWfodBvE6v5DUuQ0f_5yjkQi9fy-3kc,1677
+vzenith_client-1.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+vzenith_client-1.2.0.dist-info/RECORD,,

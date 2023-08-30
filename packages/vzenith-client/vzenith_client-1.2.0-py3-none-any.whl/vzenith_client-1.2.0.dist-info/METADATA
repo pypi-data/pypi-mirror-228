@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: vzenith-client
+Version: 1.2.0
+Summary: A VisionZenith Intelligent Video System Client SDK in TCP protocol for Python.
+Home-page: https://github.com/he-yaowen/vzenith-client
+License: BSD-3-Clause
+Keywords: license-plate-recognition,intelligent-video-system,vision-zenith
+Author: HE Yaowen
+Author-email: he.yaowen@hotmail.com
+Requires-Python: >=3.9,<3.12
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Monitoring
+Project-URL: Repository, https://github.com/he-yaowen/vzenith-client.git
+Description-Content-Type: text/markdown
+
+# vzenith-client
+
+![license](https://img.shields.io/github/license/he-yaowen/vzenith-client)
+![status](https://img.shields.io/pypi/status/vzenith-client)
+![version](https://img.shields.io/pypi/v/vzenith-client)
+![build](https://img.shields.io/github/actions/workflow/status/he-yaowen/vzenith-client/ubuntu-jammy.yml)
+![python](https://img.shields.io/pypi/pyversions/vzenith-client)
+![downloads](https://img.shields.io/pypi/dm/vzenith-client)
+
+A [VisionZenith][1] Intelligent Video System Client SDK in TCP protocol for
+Python.
+
+## License
+
+Copyright (C) 2023 HE Yaowen <he.yaowen@hotmail.com>
+
+The BSD-3-Clause License, see [LICENSE](./LICENSE).
+
+[1]: https://www.vzenith.com
+
