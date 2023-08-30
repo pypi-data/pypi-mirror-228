@@ -1,0 +1,8 @@
+llm_blocks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llm_blocks/block_factory.py,sha256=gfYQ8XAPSKoi1Vnk8O0W7aFks4AmGOtooyU7wZTdUIA,2077
+llm_blocks/blocks.py,sha256=QDPdETJBvArbsdZVutgEQZQfw37kAAzNW-7ifRHpjhY,4233
+llm_blocks/chat_utils.py,sha256=v02MSKmVOEPB1tw7cX59YLfJ5XBLE77VYH5seDjc18Y,2787
+llm_blocks-0.3.6.dist-info/METADATA,sha256=ExskboQ3zY-HDMhSW8TRH8yRvaUabCcP24lcXgWV76A,2784
+llm_blocks-0.3.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+llm_blocks-0.3.6.dist-info/top_level.txt,sha256=59w7ael04Bcje5AlBkoFOnEoAGMjsRkgXvGO3hvXum8,11
+llm_blocks-0.3.6.dist-info/RECORD,,
