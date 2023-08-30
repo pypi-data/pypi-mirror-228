@@ -1,0 +1,34 @@
+
+# Prompts
+[prompts]
+code_summary = """Offer a comprehensive summary that encapsulates the core functionalities of the code snippet: \n{}\n 
+Aim for precision and conciseness in your explanation, ensuring a fine balance between detail and brevity.
+Generate your response in the language {} and limit the length of your response to 275 characters (including spaces).
+"""
+features = """Hello! Please analyze the codebase located at {} and provide a list of important features. 
+The following includes a list of the summaries of the files in the repository:\n{}\n
+Please consider the codebase as a whole and highlight its key characteristics, design patterns, architectural decisions, and any other noteworthy elements.
+Generate your response in the language {} and format the response as a Markdown table with the following format:
+
+| Feature                | Description                           |
+| ---------------------- | ------------------------------------- |
+| **⚙️ Architecture**     | Analyze the structural design of the system here. Limit your response to a maximum of 275 characters (including spaces).    |
+| **📖 Documentation**   | Discuss the quality and comprehensiveness of the documentation here. Limit your response to a maximum of 275 characters (including spaces).    |
+| **🔗 Dependencies**    | Examine the external libraries or other systems that this system relies on here. Limit your response to a maximum of 275 characters (including spaces).    |
+| **🧩 Modularity**      | Discuss the system's organization into smaller, interchangeable components here. Limit your response to a maximum of 275 characters (including spaces).    |
+| **✔️ Testing**          | Evaluate the system's testing strategies and tools here. Limit your response to a maximum of 275 characters (including spaces).    |
+| **⚡️ Performance**      | Analyze how well the system performs, considering speed, efficiency, and resource usage here. Limit your response to a maximum of 275 characters (including spaces).    |
+| **🔐 Security**        | Assess the measures the system uses to protect data and maintain functionality here. Limit your response to a maximum of 275 characters (including spaces).    |
+| **🔀 Version Control** | Discuss the system's version control strategies and tools here. Limit your response to a maximum of 275 characters (including spaces).    |
+| **🔌 Integrations**    | Evaluate how the system interacts with other systems and services here. Limit your response to a maximum of 275 characters (including spaces).    |
+| **📶 Scalability**     | Analyze the system's ability to handle growth here. Limit your response to a maximum of 275 characters (including spaces).    |
+
+Please provide a comprehensive technical analysis of the codebase and its components.
+"""
+overview = """Please analyze the codebase located at {} and provide a robust, yet succinct overview of the rpoject.
+The following includes a list of the summaries of the files in the repository: \n{}\n
+Generate your response in the language {}, and limit the response to 3-4 sentences that encapsulate the core functionalities of the project, its purpose, and its value proposition.
+"""
+slogan = """Conceptualize a catchy and memorable slogan for the GitHub project: {}.
+Generate your response in the language {} and limit your response to 80 characters.
+"""
