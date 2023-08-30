@@ -1,0 +1,8 @@
+numpy>=1.20.3
+pandas>=1.0.3
+pyarrow>=1.0.0
+regex
+importlib_resources
+memoized-property
+requests
+packaging
