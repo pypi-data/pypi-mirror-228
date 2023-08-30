@@ -1,0 +1,2 @@
+Plasmaz is a GitHub API Wrapper which relies on the library requests. Plasmaz is Python based which means it's easier to use it, than maybe Git. Plasmaz is under har and early
+development so it's features and base will be very limited. Come back soon util then! :D

@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: plasmaz
+Version: 0.8.0
+Summary: Plasmaz is a Python GitHub API wrapper which interacts with the GitHub API.
+Author: TuberAsk
+License: MIT License (MIT)
