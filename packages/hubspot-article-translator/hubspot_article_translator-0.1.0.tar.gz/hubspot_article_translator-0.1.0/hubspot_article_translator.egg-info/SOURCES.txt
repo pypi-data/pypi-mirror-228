@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+hubspot_article_translator/__init__.py
+hubspot_article_translator/core.py
+hubspot_article_translator.egg-info/PKG-INFO
+hubspot_article_translator.egg-info/SOURCES.txt
+hubspot_article_translator.egg-info/dependency_links.txt
+hubspot_article_translator.egg-info/top_level.txt
+hubspot_article_translator/translation/__init__.py
+hubspot_article_translator/translation/manager.py
+hubspot_article_translator/translation/clients/__init__.py
+hubspot_article_translator/translation/clients/aws.py
+hubspot_article_translator/translation/clients/azure.py
+hubspot_article_translator/translation/clients/base.py
+hubspot_article_translator/translation/content_languages/__init__.py
+hubspot_article_translator/translation/helpers/__init__.py
