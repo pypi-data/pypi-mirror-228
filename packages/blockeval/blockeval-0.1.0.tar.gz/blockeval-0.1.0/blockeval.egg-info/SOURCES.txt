@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+blockeval/__init__.py
+blockeval/analysis.py
+blockeval/utils.py
+blockeval.egg-info/PKG-INFO
+blockeval.egg-info/SOURCES.txt
+blockeval.egg-info/dependency_links.txt
+blockeval.egg-info/requires.txt
+blockeval.egg-info/top_level.txt
