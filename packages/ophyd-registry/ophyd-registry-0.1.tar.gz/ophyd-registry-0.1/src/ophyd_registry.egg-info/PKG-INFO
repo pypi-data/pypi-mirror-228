@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ophyd-registry
+Version: 0.1
+Summary: A registry to keep track of, and retrieve, Ophyd objects.
+Author-email: Mark Wolfman <wolfman@anl.gov>
+Project-URL: Homepage, https://haven-spc.readthedocs.io/en/latest/
+Project-URL: Bug Tracker, https://github.com/spc-group/haven/issues
+Keywords: synchrotron,xray,bluesky
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System :: Hardware
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# ophyd-registry
+
+[![Python Tests](https://github.com/spc-group/ophyd-registry/actions/workflows/ci.yml/badge.svg)](https://github.com/spc-group/ophyd-registry/actions/workflows/ci.yml)
+
+A registry to keep track of, and retrieve, Ophyd objects.
+
