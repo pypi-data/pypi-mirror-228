@@ -1,0 +1,64 @@
+Compatibility:
+  - name: 操作系统兼容性-操作系统
+    identifies: compatibility1
+    step: "分别在如下操作系统中运行测试项目：Windows（Windows XP，windows 2003，vista，Win2000/NT，Windows9x，Windows7，Windows8，Windows10），Unix，Linux；\n\
+    对于普通用户来讲，最常用的是Windows操作系统，先针对当前的主流操作系统版本进行兼容性测试，在确保主流操作系统版本兼容性测试的前提下再对非主流操作系统版本进行测试，尽量保证项目的操作系统版本的兼容性测试的完整性"
+    expect: 测试项目在各操作系统平台下能正常运行，功能、特效、页面均正常
+  - name: 浏览器兼容性-浏览器
+    identifies: compatibility2
+    step: "分别在如下浏览器中运行测试项目：IE（IE6/IE7/IE8/IE9/腾讯TT/傲游/世界之窗/360/sougou），Firefox（FF3.5/FF4），谷歌/safari/sougou，Opera；\n\
+    sougou浏览器比较特殊，是采用IE和google使用的webkit两种内核隔合而成的；\n在确保主流浏览器（可以是IE,Firefox,谷歌，Opera）的兼容性测试通过的前提下，再对非主流浏览器（含版本）进行测试，尽量保证项目的浏览器的兼容性测试的完整性"
+    expect: 测试项目在各浏览器下能正常运行，功能、特效、页面均正常
+  - name: 分辨率兼容性
+    identifies: compatibility3
+    step: "针对需求规格说明书中建议的分辨率进行专门的测试；\n对于需求规格说明书中没有规定分辨率的项目，在完成主流分辨率（现在常见的分辨率是1024×768，800×600）的兼容性测试的前提下，尽可能进行一些非主流分辨率的兼容性测试"
+    expect:
+      测试项目的页面版式在不同的分辨率模式下能正常显示，字体符合要求（对于需求规格说明书中规定的分辨率，测试必须保证测试通过；对于需求规格说明书中没有规定分辨率的项目，在保证主流分辨率的前提下，在一定程度上保证大部分非主流分辨率）
+  - name: 硬件兼容性-最低配置
+    identifies: compatibility4
+    step: 最低配置是否满足系统运行要求
+    expect: 是
+  - name: 硬件兼容性-推荐配置
+    identifies: compatibility5
+    step: 推荐配置下系统响应速度是否满足需求
+    expect: 是
+  - name: 硬件兼容性-特殊要求
+    identifies: compatibility6
+    step: 软件运行对硬件环境是否有特殊要求
+    expect: 否
+  - name: 打印机兼容性-测试页
+    identifies: compatibility7
+    step: 测试页可打印
+    expect: 是
+  - name: 打印机兼容性-不同纸张
+    identifies: compatibility8
+    step: 能选择不同幅面的纸张
+    expect: 是
+  - name: 打印机兼容性-精度
+    identifies: compatibility9
+    step: 能选择打印精度（打印分辨率
+    expect: 是
+  - name: 打印机兼容性-横纵调整
+    identifies: compatibility10
+    step: 支持纸张横、纵打印调整功能
+    expect: 是
+  - name: 打印机兼容性-逐页打印
+    identifies: compatibility11
+    step: 支持逐页打印功能
+    expect: 是
+  - name: 打印机兼容性-分页
+    identifies: compatibility12
+    step: 支持多分页打印功能
+    expect: 是
+  - name: 打印机兼容性-双面
+    identifies: compatibility13
+    step: 具备双面打印的机子能够自动实现双面打印
+    expect: 是
+  - name: 数据库的兼容性-移植
+    identifies: compatibility14
+    step: 移植的完整性
+    expect: 原数据库的各个对象全部移植到新数据库
+  - name: 数据库的兼容性-性能测试
+    identifies: compatibility15
+    step: 性能测试，与原来数据库性能基准点进行对比
+    expect: 达到标准

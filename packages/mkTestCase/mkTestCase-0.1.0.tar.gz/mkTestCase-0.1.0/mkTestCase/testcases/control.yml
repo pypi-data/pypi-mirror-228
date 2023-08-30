@@ -1,0 +1,221 @@
+Control:
+  - name: 树结构测试-刷新
+    identifies: control1
+    step: 对树结构进行刷新操作
+    expect: 刷新时，树不应该有明显的重建过程
+  - name: 树结构测试-图标美观
+    identifies: control2
+    step: 树结点的图标应该美观并能代表实际意义
+    expect: 是
+  - name: 树结构测试-展开收缩
+    identifies: control3
+    step: 鼠标点击展开、收缩树结点
+    expect: 树结点能正常展开、收缩
+  - name: 树结构测试-左右
+    identifies: control4
+    step: 通过键盘的【←、→】键，定位到树结点
+    expect: "1．能正确定位到树结点\n2．焦点在树结点时，树结点对应数据的刷新过程，要有延迟功能（如：延迟3秒后，系统自动刷新）"
+  - name: 树结构测试-上下
+    identifies: control5
+    step: 通过键盘的【↑、↓】键，展开树结点
+    expect: "1．树结点能正常展开、收缩\n2．焦点在树结点时，树结点对应数据的刷新过程，要有延迟功能（如：延迟3秒后，系统自动刷新）"
+  - name: 树结构测试-顶级勾选
+    identifies: control6
+    step: 选中未勾选的顶级结点，点击勾选
+    expect: 当前顶级结点勾选上，其下级结点全部自动被置为勾选状态
+  - name: 树结构测试-顶级取消
+    identifies: control7
+    step: 选中勾选的顶级结点，点击取消勾选
+    expect: 当前顶级结点取消勾选，其下级结点之前为勾选状态的全部自动被置为未勾选状态
+  - name: 树结构测试-非末级节点勾选
+    identifies: control8
+    step: 选中非末级结点，点击勾选（结点能够同时勾选多个）
+    expect: 系统自动将其下级结点全部置为勾选状态，并将其全部上级结点也同样置为勾选状态
+  - name: 树结构测试-非末级节点取消勾选
+    identifies: control9
+    step: 选中非末级结点，点击取消勾选（结点能够同时勾选多个）
+    expect: "1．系统自动将下级的状态全部置为未勾选状态\n2．如果取消勾选的非末级结点没有同级的结点为勾选状态，那么也同样取消其直接上级的勾选状态"
+  - name: 树结构测试-末级节点勾选
+    identifies: control10
+    step: 选中一个末级结点，点击勾选
+    expect: 当前末级节点勾选上，其全部上级结点自动被置为勾选状态
+  - name: 树结构测试-末级节选取消勾选
+    identifies: control11
+    step: 选中一个末级结点，点击取消勾选
+    expect: "1.当前末级节点取消勾选\n2.如果取消勾选的末级结点的直接上级结点下没有结点为勾选状态，系统自动将直接上级结点置为未勾选状态"
+  - name: 滚动条-正常项
+    identifies: control12
+    step: "垂直滚动条的显示长度和定位内容：\n1.有 100条记录，当前查看记录是第1条；\n2.有 100条记录，当前查看记录是第50条；\n3.有 100条记录，当前查看记录是第100条；"
+    expect: "1.滚动条的位置应该处理于窗口顶端位置；\n2.滚动条的位置应该处理于窗口中间位置；\n3.滚动条的位置应该处理于窗口底端位置；"
+  - name: 滚动条-快速拖动
+    identifies: control13
+    step: 快速拖动滚动条
+    expect: 窗口数据的刷新正常，不会出现抖动或闪屏的情况
+  - name: 滚动条-鼠标滚轮
+    identifies: control14
+    step: 通过鼠标的滚轮移动滚动条
+    expect: 能正确移动滚动条
+  - name: 滚动条-上下拉动
+    identifies: control15
+    step: 通过鼠标点击滚动条的上下按钮移动滚动条
+    expect: 能正确移动滚动条
+  - name: 滚动条-长度
+    identifies: control16
+    step: 滚动条的长度要根据显示信息的长度或宽度能及时变换，以利于用户了解显示信息的位置和百分比
+    expect: 是
+  - name: 单选按钮-显示
+    identifies: control17
+    step: 单选框统一居左显示，名称描述统一居右显示
+    expect: 是
+  - name: 单选按钮-多个单选
+    identifies: control18
+    step: 如果存在多个单选控钮，并且属于同一分类，那么必须放到一个统一的分组框中
+    expect: 是
+  - name: 单选按钮-多个默认
+    identifies: control19
+    step: 如果存在多个单选控钮，那么在每个分类下都应该提供一个默认值（某个按钮默认被选中），不能出现在某一分类下单选按钮都为空的情况
+    expect: 是
+  - name: 单选按钮-分类选择
+    identifies: control20
+    step: 同一分类中，选择一个单选按钮
+    expect: 系统允许此项操作
+  - name: 单选按钮-分类多选
+    identifies: control21
+    step: 同一分类中，选择多个单位选按钮
+    expect: 系统不允许此项操作
+  - name: 复选按钮-显示
+    identifies: control22
+    step: 选择框统一居左显示，名称描述统一居右显示
+    expect: 是
+  - name: 复选按钮-checkbox
+    identifies: control23
+    step: 如果能通过一个CHECKBOX框，即可实现两个功能，那么不允许使用两个CHECKBOX框完成一个功能，比如显示已作废
+    expect: 是
+  - name: 复选按钮-选择一个
+    identifies: control24
+    step: 选择一个复选框
+    expect: 选择有效
+  - name: 复选按钮-多个复选
+    identifies: control25
+    step: 选择多个复选框
+    expect: 系统允许此项操作
+  - name: 字符输入框-最大值最小值之间
+    identifies: control26
+    step: 录入的字符串长度在【最小值，最大值】之间，进行保存
+    expect: 保存成功
+  - name: 字符输入框-显示格式
+    identifies: control27
+    step: 录入字符串的显示格式
+    expect: 字符内容要居左显示
+  - name: 字符输入框-为空
+    identifies: control28
+    step: 输入字符串为空值，进行保存
+    expect: "1．保存成功（允许保存空值）\n2．保存不成功，弹出提示信息，确定后，将焦点定位到当前录入框（不允许保存空值）"
+  - name: 字符输入框-最大字符数
+    identifies: control29
+    step: 输入最大字符数【最大值长度】，进行保存
+    expect: 保存成功
+  - name: 字符输入框-最大值长度
+    identifies: control30
+    step: 输入最大字符数【最大值长度】+1个字符，进行保存
+    expect: 当录入字符达到最大长度时，系统不再允许录入任何字符
+  - name: 字符输入框-首尾空格
+    identifies: control31
+    step: 录入的字符串前后存在多个空格字符，进行保存
+    expect: 保存成功，保存后的字符串应该把前后的空格符自动过滤掉
+  - name: 字符输入框-中间空格
+    identifies: control32
+    step: 录入的字符串中间存在多个空格字符，进行保存
+    expect: "1.保存成功（允许有空格）\n2.保存不成功，弹出提示信息（不允许有空格）"
+  - name: 字符输入框-特殊字母
+    identifies: control33
+    step: 录入的字符串，包括特殊字符串，进行保存
+    expect: "1.保存成功（允许有特殊字符）\n2.保存不成功，弹出提示信息（不允许有特殊字符）"
+  - name: 字符输入框-半角
+    identifies: control34
+    step: 录入的字符串，包括半角的单引号、双引号、星号、百分号、括号、大于号、小于号、连续两个减号、空格、TAB符号，进行保存
+    expect: 保存成功，系统自动将以上半角的符号转换为全角符号
+  - name: 字符输入框-回车
+    identifies: control35
+    step: 录入的字符串，包括回车、软回车符号，进行保存（软回车可以通过复制、粘贴来实现）
+    expect: 保存成功，对于单行字符录入框，系统自动将以上符号转换为空格符号；对于多行字符录入框，会保留以上符号
+  - name: 数据录入框-最大最小值
+    identifies: control36
+    step: 录入数据的大小在【最小值，最大值】区间内，进行保存
+    expect: 保存成功
+  - name: 数据录入框-最小值
+    identifies: control37
+    step: 录入的数据等于【最小值】，进行保存
+    expect: 保存成功
+  - name: 数据录入框-最大值
+    identifies: control38
+    step: 录入的数据等于【最大值】，进行保存
+    expect: 保存成功
+  - name: 数据录入框-最小值减1
+    identifies: control39
+    step: 录入的数据等于【最小值】-1，进行保存
+    expect: 保存不成功，1）弹出提示信息，并将焦点定位到当前录入框；或，2）当焦点移开当前录入框时，系统自动清空当前录入框的数据
+  - name: 数据录入框-最大值加一
+    identifies: control40
+    step: 录入的数据等于【最大值】+1，进行保存
+    expect: 同上
+  - name: 数据录入框-整型
+    identifies: control41
+    step: 在整型录入框中，录入的数据带有小数位
+    expect: 1）系统控制，不允许录入小数位；或，2）录入小数位后，当焦点移开时，系统自动清空当前录入框数据
+  - name: 数据录入框-上箭头
+    identifies: control42
+    step: 在整型录入框中，使用上箭头调整数据【基数=1】
+    expect: 调整后的数据值 = 原值 + 基数的值
+  - name: 数据录入框-下箭头
+    identifies: control43
+    step: 在整型录入框中，使用下箭头调整数据【基数=1】
+    expect: 调整后的数据值 = 原值 - 基数的值
+  - name: 数据录入框-上箭头最大值
+    identifies: control44
+    step: 在整型录入框中，使用上箭头调整数据，使其调整到等于【最大值】
+    expect: 能正确操作
+  - name: 数据录入框-下箭头最大值
+    identifies: control45
+    step: 在整型录入框中，使用下箭头调整数据，使其调整到等于【最小值】
+    expect: 能正确操作
+  - name: 数据录入框-上箭头最大值2
+    identifies: control46
+    step: 在整型录入框中，使用上箭头调整数据，使其调整到大于【最大值】
+    expect: 1）调整数据到最大值后，再使用上箭头调整时，系统不应该再做任何操作；或，2）当焦点移开当前录入框时，系统自动清空当前录入框的数据
+  - name: 数据录入框-下箭头最小值
+    identifies: control47
+    step: 在整型录入框中，使用下箭头调整数据，使其调整到小于【最小值】
+    expect: 1）调整数据到最小值后，在使用下箭头调整时，系统不应该在做任何操作；或，2）当焦点移开当前录入框时，系统自动清空当前录入框的数据
+  - name: 数据录入框-不超过小数位
+    identifies: control48
+    step: 小数数据录入框中录入区间内的数据，带有小数位，小数位数不超过规定的位数，进行保存
+    expect: 保存成功，保存后的数据，显示结果依然是录入的数据
+  - name: 数据录入框-超过小数位
+    identifies: control49
+    step: 小数数据录入框中录入区间内的数据，带有小数位，小数位数超过规定的位数，进行保存
+    expect: 1）系统控制，不允许录入超过规定位数的小数位；或，2）当焦点移开当前录入框时，弹出提示信息
+  - name: 数据录入框-不带小数位
+    identifies: control50
+    step: 小数数据录入框中录入区间内的数据，不带小数位，进行保存
+    expect: 保存成功，保存后的数据，显示结果依然是录入的数据
+  - name: 数据录入框-空数据
+    identifies: control51
+    step: 录入空数据，进行保存
+    expect: "1．保存成功，保存后的值默认为0（允许为空）\n2．保存不成功，弹出提示信息，确定后，将焦点定位到当前录入框（不允许保存空值）"
+  - name: 数据录入框-数字以外
+    identifies: control52
+    step: 在录入框录入除数字外的其他字符内容，进行保存
+    expect: 1）系统控制，不允许任何字符；或，2）当焦点移开当前录入框时，系统自动清空当前录入框的字符内容
+  - name: 数据录入框-千分号格式
+    identifies: control53
+    step: 录入正确数据后，显示结果
+    expect: 系统以带千分号格式显示数据，数据全部居右显示
+  - name: 数据录入框-焦点跳转
+    identifies: control54
+    step: 当焦点跳转到当前录入框
+    expect: 录入框的数据被置为全选状态
+  - name: 数据录入框-负数
+    identifies: control55
+    step: 在录入框直接录入负数（前提：允许录入负数）
+    expect: 录入中，在不需要任何键的辅助操作的情况下，就可以完成负数的录入

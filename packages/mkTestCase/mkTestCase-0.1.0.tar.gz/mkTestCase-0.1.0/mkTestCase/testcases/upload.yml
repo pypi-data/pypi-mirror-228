@@ -1,0 +1,78 @@
+Upload:
+  - name: 上传-类型正确
+    identifies: upload1
+    step: 文件类型正确，文件大小合适，比如，jpg、jpeg、bmp、png或gif、psd的格式图片，文件大小为5M、4.9M及更小
+    expect: 上传成功
+  - name: 上传-大小
+    identifies: upload2
+    step: 文件类型正确，文件大小不合适，比如，jpg、jpeg、bmp、png或gif、psd的格式图片，文件大小为5.1M及更大
+    expect: 上传的附件中大小不能超过5M
+  - name: 上传-类型错误大小正常
+    identifies: upload3
+    step:
+      文件类型错误，文件大小合适，比如，doc；.xls；ppt；tiff；tga；png；swf；svg；pcx；dxf；wmf；emf；lic；eps；.txt等格式文件，文件大小不大于5M
+    expect: 提示“只能上传jpg、jpeg、bmp、png或gif、psd格式的图片”
+  - name: 上传-0kb
+    identifies: upload4
+    step: 文件类型和文件大小合法，上传一个0kb的图片
+    expect: 提示信息：“请重新上传文件，或者是不能上传0kb的图片”
+  - name: 上传-正在使用
+    identifies: upload5
+    step: 文件类型和文件大小合法，上传一个正在使用中的图片（即打开该图片，再上传该图片）
+    expect: 上传成功
+  - name: 上传-输入地址
+    identifies: upload6
+    step: 文件类型和文件大小合法，手动输入一个存在的图片地址
+    expect: 上传成功
+  - name: 上传-输入错误地址
+    identifies: upload7
+    step: 文件类型和文件大小合法，手动输入一个不存在的图片地址
+    expect: 提示：“请正确选择要上传的文件”
+  - name: 上传-输入名称
+    identifies: upload8
+    step: 文件类型和文件大小合法，手动输入一个存在的图片名称
+    expect: 提示：“请正确选择要上传的文件的路径”
+  - name: 上传-再次上传
+    identifies: upload9
+    step: 上一次上传失败后，再进行上传操作，测试上传失败后，是否还能继续上传
+    expect: 能够正常进行上传
+  - name: 上传-exe
+    identifies: upload10
+    step: 上传的文件控制不能放入exe.bat后缀名的文件
+    expect: 是
+  - name: 上传-取消
+    identifies: upload11
+    step: 选择文件上传的过程中取消上传，是否出现异常
+    expect: 可取消上传，无异常
+  - name: 上传-手动刷新
+    identifies: upload12
+    step: 上传成功后，手动刷新页面
+    expect: 系统不会报错，也不会重复上传
+  - name: 上传-上传成功返回
+    identifies: upload13
+    step: 文件上传结束后，是否回到原来的界面
+    expect: 是
+  - name: 上传-断点续传
+    identifies: upload14
+    step: 前一次上传失败后，再执行上传操作，测试上传失败后，是否能断点续传
+    expect: 是（看具体需求）
+  - name: 上传-相同文件
+    identifies: upload15
+    step: 上传成功后，再执行上传操作，上传一个相同的文件
+    expect: 可上传成功，后上传的文件覆盖前面上传的文件
+  - name: 上传-不同文件
+    identifies: upload16
+    step: 上传成功后，再执行上传操作，上传一个不同的文件
+    expect: 可上传成功，后上传的文件覆盖前面上传的文件
+  - name: 上传-大文件超时
+    identifies: upload17
+    step: 上传大文件所需时间较长时，前端页面是否会超时失败（模拟网络较差环境）
+    expect: 有进度条，可上传成功，有成功的提示信息。
+  - name: 上传-张数
+    identifies: upload18
+    step: 上传文件个数是否有限制
+    expect: 一般图片限制上传5张，提示超出限制不能上传（看具体需求）
+  - name: 上传-失败显示
+    identifies: upload19
+    step: 上传失败后，未重新上传，在下载页面检查是否显示该失败文件
+    expect: 下载页面不会显示该失败文件

@@ -1,0 +1,21 @@
+Authority:
+- name: 权限检查-对应显示
+  identifies: authority1
+  step: 登录用户设定的角色对应的权限菜单能正常显示
+  expect: 是
+- name: 权限检查-对应不显示
+  identifies: authority2
+  step: 登录用户未设定的角色对应的权限菜单不显示
+  expect: 是
+- name: 权限检查-特殊菜单
+  identifies: authority3
+  step: 登录用户设定的特殊权限菜单能正常显示
+  expect: 是
+- name: 权限检查-权限数据
+  identifies: authority4
+  step: 登录用户设定的单位权限能正常显示有权限的单位的数据
+  expect: 是
+- name: 权限检查-未登录不展示数据
+  identifies: authority5
+  step: 登录用户未设定的单位权限不显示对应的单位的数据
+  expect: 是

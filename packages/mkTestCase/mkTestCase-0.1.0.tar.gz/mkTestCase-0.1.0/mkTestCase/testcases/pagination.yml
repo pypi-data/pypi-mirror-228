@@ -1,0 +1,29 @@
+Pagination:
+- name: 分页-go
+  identifies: pagination1
+  step: 输入页数，点击go（转到）按钮
+  expect: 正常转向所输入的页面，且当前页数及当前页的数据显示正确
+- name: 分页-切换
+  identifies: pagination2
+  step: 点击首页、上一页、下一页、未页，测试各页面转换是否正常
+  expect: 页面正常进行跳转，且当前页数及当前页的数据显示正确
+- name: 分页-边界
+  identifies: pagination3
+  step: "测试在各边界页面再进行翻页是否正确：\n1、已在首页，点击首页或上一页；\n2、已在未页，点击未页或下一页；"
+  expect: 有正确的提示或不会报错，当前页数及当前页的数据显示正确
+- name: 分页-页数跳转
+  identifies: pagination4
+  step: "输入页数，点击go按钮，测试是否对所输入的页数进行了判断：\n1、输入非正整数\n2、输入超出的页数\n3、输入超大的数值\n4、输入字符、中文                         5、输入特殊字符"
+  expect: "1、4、5限制不允许输入；\n2、3自动转到未页或有正确的提示"
+- name: 分页-删除
+  identifies: pagination5
+  step: 对数据操作（增删）后是否正确显示数据
+  expect: 是
+- name: 分页-搜索跳转
+  identifies: pagination6
+  step: 搜索后页码是否跳转到首页
+  expect: 是
+- name: 分页-翻页显示
+  identifies: pagination7
+  step: 搜索后执行翻页，是否正确
+  expect: 页面正常进行跳转，且当前页数及当前页的数据显示正确，搜索条件保留

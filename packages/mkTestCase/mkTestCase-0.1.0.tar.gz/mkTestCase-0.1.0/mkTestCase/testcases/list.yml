@@ -1,0 +1,25 @@
+List:
+- name: 列表测试-核对
+  identifies: list1
+  step: 核对列表字段
+  expect: 与原型一致
+- name: 列表测试-长度
+  identifies: list2
+  step: 列表字段长度显示
+  expect: 字段过长按需求要求显示。换行或用省略号
+- name: 列表测试-翻页
+  identifies: list3
+  step: 当第一页数据达到X条后
+  expect: 列表显示翻页
+- name: 列表测试-点击第二页
+  identifies: list4
+  step: 点击第二页、最后一页切换
+  expect: 可正常切换，数据无误
+- name: 列表测试-搜索条件翻页
+  identifies: list5
+  step: 录入搜索条件，点击翻页
+  expect: 第二页数据为增加搜索条件的数据
+- name: 列表测试-输入页数
+  identifies: list6
+  step: 录入翻页的页数，点击确定
+  expect: 跳转到对应页数

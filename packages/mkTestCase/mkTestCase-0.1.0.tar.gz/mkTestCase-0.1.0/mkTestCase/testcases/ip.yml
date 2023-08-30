@@ -1,0 +1,37 @@
+Ip:
+- name: ip-正确ip
+  identifies: ip1
+  step: 正确的ip地址
+  expect: 验证通过
+- name: ip-空格
+  identifies: ip2
+  step: 测试必填：输入中英文空格或者不输入任何信息
+  expect: 给予提示信息，不允许提交
+- name: ip-前后空格
+  identifies: ip3
+  step: IP地址 前中后含空格
+  expect: 中间不允许包含空格
+- name: ip-大于小于4位
+  identifies: ip4
+  step: 要求是4位，输入小于4位或者大于4位格式（137.125.11、137.112.254.12.12）
+  expect: 给予提示信息，不允许提交
+- name: ip-大于255
+  identifies: ip5
+  step: 4位中有任意一位大于255（测试每一位）（192.124.256.21）
+  expect: 给予提示信息，不允许提交
+- name: ip-0
+  identifies: ip6
+  step: 第一个数字或者最后一个数字为0（0.1.2.3、255.255.255.0、23.54.156.0等）
+  expect: 给予提示信息，不允许提交
+- name: ip-超过4个数字
+  identifies: ip7
+  step: 其中某一位超过4个数字（145.1234.12.111）
+  expect: 给予提示信息，不允许提交
+- name: ip-特殊ip
+  identifies: ip8
+  step: 特殊的IP（255.255.255.255、0.0.0.0、1.1.1.1）
+  expect: 验证通过，或根据业务要求判断
+- name: ip-非法字符
+  identifies: ip9
+  step: 正确的ip地址中混入非法字符/中文/英文
+  expect: 给予提示信息，不允许提交

@@ -1,0 +1,25 @@
+Nav:
+- name: 导航相关检查-一致
+  identifies: nav1
+  step: 当前位置与菜单名称显示一致
+  expect: 是
+- name: 导航相关检查-风格
+  identifies: nav2
+  step: 显示风格统一
+  expect: 是
+- name: 导航相关检查-换行
+  identifies: nav3
+  step: 导航没有多出一行，没有不正确的换行
+  expect: 是
+- name: 导航相关检查-切换显示
+  identifies: nav4
+  step: 模块切换后菜单正确显示
+  expect: 是
+- name: 导航相关检查-在线帮助
+  identifies: nav5
+  step: 在线帮助链接选中后能正确进入在线帮助系统
+  expect: 是
+- name: 导航相关检查-退出
+  identifies: nav6
+  step: 退出系统链接选中后能正确退出系统进入登录界面
+  expect: 是

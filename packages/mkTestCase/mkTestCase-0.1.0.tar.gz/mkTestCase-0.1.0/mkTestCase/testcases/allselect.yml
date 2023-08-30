@@ -1,0 +1,21 @@
+Allselect:
+- name: 全选-点击全选
+  identifies: allselect1
+  step: 点击全选按钮，测试是否实现了全选当前页的功能
+  expect: 当前页的全部记录被选中
+- name: 全选-再次点击全选
+  identifies: allselect2
+  step: 点击全选按钮后，再点击全选按钮，测试全选按钮勾选状态变更是否正确
+  expect: 当前页的全部记录被取消选中，全选按钮被取消选中
+- name: 全选-全选复杂操作
+  identifies: allselect3
+  step: 点击全选按钮后，再去掉某些记录的勾选，测试全选按钮勾选状态变更是否正确
+  expect: 当前页的全选按钮取消选中
+- name: 全选-筛选全选取消
+  identifies: allselect4
+  step: 筛选条件后，点击全选按钮，取消筛选
+  expect: 当前页的全选按钮取消选中，1.保持选中的项；2.取消选中的项
+- name: 全选-全选状态
+  identifies: allselect5
+  step: 将当前页的所有记录逐个全部勾选，测试全选按钮勾选状态变更是否正确
+  expect: 当前页的全选按钮被选中

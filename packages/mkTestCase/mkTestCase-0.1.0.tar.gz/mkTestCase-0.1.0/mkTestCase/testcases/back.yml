@@ -1,0 +1,13 @@
+Back:
+- name: 返回功能检查-正常返回
+  identifies: back1
+  step: 返回时能正常回到返回前的页面
+  expect: 是
+- name: 返回功能检查-风格
+  identifies: back2
+  step: 返回的页面风格与系统其他功能统一
+  expect: 是
+- name: 返回功能检查-之前查询
+  identifies: back3
+  step: 返回页面为查询页面时，能正确保留之前的查询条件，正确显示此时符合查询条件的信息，删除了的数据不会再显示
+  expect: 是
