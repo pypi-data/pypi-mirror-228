@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+syx_ggg/__init__.py
+syx_ggg.egg-info/PKG-INFO
+syx_ggg.egg-info/SOURCES.txt
+syx_ggg.egg-info/dependency_links.txt
+syx_ggg.egg-info/top_level.txt
