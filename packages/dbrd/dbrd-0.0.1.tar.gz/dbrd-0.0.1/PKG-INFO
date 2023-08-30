@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dbrd
+Version: 0.0.1
+Summary: DBRD
+Home-page: 
+Author: AP tech
+Author-email: mk-lee@aptechinc.kr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+### DBRD project
