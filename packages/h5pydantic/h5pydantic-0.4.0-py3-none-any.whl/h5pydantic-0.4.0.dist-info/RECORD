@@ -1,0 +1,9 @@
+h5pydantic/__init__.py,sha256=KvXfeGWvOkyUUh_wTCo1uKV-IH4OdV7vWX6Ca9gCTmo,196
+h5pydantic/enum.py,sha256=QcRcq8DuVN5OYfgctpHh5GwCbBoyqtZUAsVklfIKKfo,1107
+h5pydantic/model.py,sha256=cg69vj-gCBBU3dpcDw0l5MoJZ8mjDZwbOAsWttOlLuY,7438
+h5pydantic/newsfragments/.gitignore,sha256=kCpRPdl3S_jqYYZaOrc0-xa6-l3KqVjNRXc6jCkd_-Q,12
+h5pydantic/newsfragments/multi.feature,sha256=r41mGFItYyT9_F5DYZRqAUyjDzEU9G3_DryQ8nnlywI,130
+h5pydantic/types.py,sha256=T4J8EvsD-CKUtBHNxCF1iLWbxPqG8RBb_l_1diyIHhM,1482
+h5pydantic-0.4.0.dist-info/METADATA,sha256=trdTiM4A4hvFHlpdGTzfHK_CCrHA726M0ZBr8TaWxjk,1516
+h5pydantic-0.4.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+h5pydantic-0.4.0.dist-info/RECORD,,
