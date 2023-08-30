@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sqlalchemy_counter
+Version: 0.1
+Summary: A simple tool for counting and printing database queries when using SLQAlchemy
+Home-page: https://github.com/luisgc93/sqlalchemy-counter/
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Author: Luis Garcia
+Author-email: luisgc93@gmail.com
+License: MIT
+Keywords: query,db,debug
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE.txt
