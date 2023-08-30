@@ -1,0 +1,96 @@
+
+
+SMALL BUGS
+- get_execution_paths() is returning 2 paths, when it should return 1
+- annoying final UNKNOWN token end of cmdstmt
+- resolve aliases doing weird shit  (hisat2) -x '$$reference_genome.index.fields.path'
+- 'skeleton' mode should autotemplate tool inputs/arguments if they reference a process input
+- filename types: 
+    - always retain
+    - janis_pipelines - CutAdaptBase_2
+    - need pre-script for filename types
+    - determine default
+        - either "generated" or some form like ${output_prefix}-R1.fastq.gz
+    - reference prescript redefinition in script 
+- file type inputs - optional with default pointing to another tool input:
+    - janis_pipelines - FastQCBase (extended):
+      def read1 = read1.simpleName != params.NULL_VALUE ? read1 : ${reads1}
+    - janis_pipelines - FastQCBase (regular):
+      missing, but should be present! 
+
+
+
+REGULAR MODE BUGS
+0.  JANIS -> NEXTFLOW (BwaAlignment())
+    - GETFASTQC_ADAPTERS should have 'read1_fastqc_datafile' as input
+    - GETFASTQC_ADAPTERS should have 'read2_fastqc_datafile' as input
+
+1.  CWL -> NEXTFLOW
+    runtime inputs (runtime.cpu etc) should be kept in skeleton / regular mode
+
+6.  ::GALAXY FEATURE::
+    for options which appear in the templated command, mark these as mandatory.
+    exceptions:
+        - value is a galaxy param which we know is optional (in conditional param etc, or the param is marked optional)
+
+
+TODO: TEST SUITE 100%
+- nextflow
+    - baseName vs simpleName?
+- wdl 
+    - miniwdl can't parse some WDL formats
+    - wdl ingest: need to injest local variables (bwa.wdl Int totalSortThreads = select_first([sortThreads, estimatedSortThreads]))
+    - mismatch secondary types
+    - scatter on multiple inputs
+    - nameroot operator - ask richard
+
+NICETIES:
+- galaxy 
+    - make it faster
+    - output collection especially with redirect is scuffed
+    - picard_MarkDuplicates.xml: REMOVE_DUPLICATES='${remove_duplicates}' causing issues
+
+TODO: RELEASE
+- test cli
+    - --galaxy-gen-images cmdline option etc
+- all test-suites 
+- all packages segregated as much as possible (ensure legacy compatibility)
+- all packages build from pyproject.toml 
+- ensure datatypes correctly segregated
+
+FUTURE FEATURES
+- prune_workflow() 
+    - move static values to step.sources
+- nextflow
+    - Null values
+        cwl subworkflow_test wf 
+        looks weird: 
+        OPTIONAL2(
+            [].collect{ file(it) },         // in_file_arr
+            file( params.NULL_VALUE ),      // in_file
+            params.in_string_arr_optional,  // in_string_arr
+            params.in_int_optional,         // in_int
+            params.in_string_optional       // in_string
+        )
+- galaxy
+    - annotation
+        - move InputExtractor.add_uncaptured_inputs() to an annotation class.  
+        - need to ensure not picking up gxparams which are only control params
+    - repeat params (& conditional params?)
+        - add support
+        - cutadapt adapters argument
+        - cutadapt library.type single?
+    - command
+        - which one is the main software command? 
+        - future: create step for each software command, for non-linux software (mkdir, cp etc)?
+    - select & when detection
+        - mutually exclusive groups (cli args)
+        - what to add to cmdstr 
+        - .when() in janis? 
+        - how will this appear in nextflow for tool translations? 
+        - can we autoremove command compoennts for workflow translations?
+            - would be only if all instances of the tool use have the same selects. 
+            - others would need to be the same as tool translation. 
+    - repeat block evaluation?
+    
+
