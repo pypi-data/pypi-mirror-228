@@ -1,0 +1,91 @@
+name: Tests
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+
+
+jobs:
+  tests:
+    name: "Python ${{ matrix.python-version }} - ${{ matrix.database-schema }}"
+    runs-on: "ubuntu-latest"
+
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9", "3.10", "3.11"]
+        database-schema: 
+          - "sqlite"
+          - "postgresql"
+
+    services:
+      postgres:
+        image: postgres:14-alpine
+        env:
+          POSTGRES_USER: username
+          POSTGRES_PASSWORD: password
+          POSTGRES_DB: test_db
+        ports:
+          - 5432:5432
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+
+    steps:
+      - uses: "actions/checkout@v3"
+      - uses: "actions/setup-python@v4"
+        with:
+          python-version: "${{ matrix.python-version }}"
+      - name: "Install dependencies"
+        run: pip install hatch
+      - name: "Run linting checks"
+        run: hatch run lint:check
+      - name: "Build package"
+        run: |
+          hatch build
+      - run: mkdir coverage
+      - name: Set postgres database URI
+        if: matrix.database-schema == 'postgresql'
+        run: |
+          echo "TEST_DATABASE_URI=postgresql+psycopg2://username:password@localhost:5432/test_db" >> $GITHUB_ENV
+      - name: Set sqlite database URI
+        if: matrix.database-schema == 'sqlite'
+        run: |
+          echo "TEST_DATABASE_URI=sqlite:///test_db.sqlite" >> $GITHUB_ENV
+      - name: "Run tests"
+        env:
+          COVERAGE_FILE: coverage/.coverage.${{ runner.os }}-${{ matrix.database-schema }}-py${{ matrix.python-version }}
+          CONTEXT: ${{ runner.os }}-${{ matrix.database-schema }}-py${{ matrix.python-version }}
+        run: hatch run test:test
+      - name: Store coverage files
+        uses: actions/upload-artifact@v3
+        with:
+          name: coverage
+          path: coverage
+
+  coverage-combine:
+    needs: [tests]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+
+      - name: Get coverage files
+        uses: actions/download-artifact@v3
+        with:
+          name: coverage
+          path: coverage
+      - run: pip install coverage[toml]
+      - run: ls -la coverage
+      - run: coverage combine coverage
+      - run: coverage report
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
