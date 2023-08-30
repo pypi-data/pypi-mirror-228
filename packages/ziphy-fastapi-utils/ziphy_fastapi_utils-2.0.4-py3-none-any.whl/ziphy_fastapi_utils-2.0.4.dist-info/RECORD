@@ -1,0 +1,8 @@
+ziphy/fastapi_utils/__init__.py,sha256=ru-YU5MEG8GT-XFrj0GPel-om-X79aCLE1RjJUsTGMA,500
+ziphy/fastapi_utils/encoding.py,sha256=Rq_gjqC-LHdBFtur7Sld1mtGkfGUJ5X7LeGORR67miA,943
+ziphy/fastapi_utils/exceptions.py,sha256=ipguBEPHex2t32TZKrzOCXUxlz2bQUlZMrYH61jwRgQ,2568
+ziphy/fastapi_utils/middleware.py,sha256=vGPyc4rI0YcmY2ijeX2CmX_pess7UkEDUKihUc_WjLU,1275
+ziphy/fastapi_utils/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ziphy_fastapi_utils-2.0.4.dist-info/METADATA,sha256=zcTlWgZ9rhGl0LI07Dpob7qs-D0ZTBCvPeCuIfDFUs8,310
+ziphy_fastapi_utils-2.0.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ziphy_fastapi_utils-2.0.4.dist-info/RECORD,,
