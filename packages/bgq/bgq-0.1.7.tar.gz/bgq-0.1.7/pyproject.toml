@@ -1,0 +1,44 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "bgq"
+version = "0.1.7"
+description = "a simple asynchronous background job queue"
+homepage = "https://ragt.ag/code/projects/bgq"
+repository = "https://ragt.ag/code/projects/bgq.git"
+documentation = "https://ragt.ag/code/projects/bgq/api"
+authors = ["Angelo Gladding <angelo@ragt.ag>"]
+license = "AGPL-3.0-or-later"
+packages = [{include="bgq.py"}, {include="webint_jobs"}]
+
+[tool.pyright]
+reportGeneralTypeIssues = false
+reportOptionalMemberAccess = false
+
+[tool.poetry.scripts]
+bgq = "bgq:main"
+
+[tool.poetry.plugins."webapps"]
+jobs = "webint_jobs:app"
+
+[[tool.poetry.source]]
+name = "main"
+url = "https://ragt.ag/code/pypi"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+sqlyte = "^0.1.1"
+txtint = "^0.1.2"
+webagt = "^0.1.2"
+webint = "^0.1.59"
+
+[tool.poetry.group.dev.dependencies]
+gmpg = {path="../gmpg", develop=true}
+sqlyte = {path="../sqlyte", develop=true}
+txtint = {path="../txtint", develop=true}
+webagt = {path="../webagt", develop=true}
+webint = {path="../webint", develop=true}
+newmath = {path="../newmath", develop=true}
+microformats = {path="../python-microformats", develop=true}
