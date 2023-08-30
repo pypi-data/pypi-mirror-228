@@ -1,0 +1,13 @@
+geopandas
+xarray-datatree
+xsar>=2023.8
+numpy
+xarray
+shapely
+fsspec
+affine
+pandas
+dask
+more-itertools
+pyyaml
+pyproj
