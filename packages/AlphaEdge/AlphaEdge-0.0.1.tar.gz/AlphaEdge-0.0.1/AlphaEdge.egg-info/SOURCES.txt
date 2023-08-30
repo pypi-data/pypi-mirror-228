@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+AlphaEdge.egg-info/PKG-INFO
+AlphaEdge.egg-info/SOURCES.txt
+AlphaEdge.egg-info/dependency_links.txt
+AlphaEdge.egg-info/requires.txt
+AlphaEdge.egg-info/top_level.txt
+alphaedge/__init__.py
+alphaedge/api/__init__.py
+alphaedge/api/quantum.py
