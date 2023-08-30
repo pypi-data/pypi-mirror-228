@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+setup.py
+metasnek/__init__.py
+metasnek/fasta_finder.py
+metasnek/fastq_finder.py
+metasnek.egg-info/PKG-INFO
+metasnek.egg-info/SOURCES.txt
+metasnek.egg-info/dependency_links.txt
+metasnek.egg-info/top_level.txt
+tests/test_fasta_finder.py
+tests/test_fastq_finder.py
