@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+syx_fff/__init__.py
+syx_fff.egg-info/PKG-INFO
+syx_fff.egg-info/SOURCES.txt
+syx_fff.egg-info/dependency_links.txt
+syx_fff.egg-info/top_level.txt
