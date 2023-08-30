@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tc-core-analyzer-lib
+Version: 1.0.1
+Summary: TogetherCrew core analyzer library.
+Author: Mohammad Amin Dadgar, TogetherCrew
+Maintainer: Mohammad Amin Dadgar
+Maintainer-email: dadgaramin96@gmail.com
+
+# tc-core-analyzer
+
+This repository is made for togethercrew core-analyzer scripts that could be used across different platforms.
