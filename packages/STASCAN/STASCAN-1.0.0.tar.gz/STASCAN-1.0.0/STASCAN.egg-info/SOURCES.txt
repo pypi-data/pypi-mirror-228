@@ -1,0 +1,15 @@
+LICENSE.txt
+README.rst
+setup.py
+STASCAN/StatPlot.py
+STASCAN/__init__.py
+STASCAN/downstream.py
+STASCAN/model.py
+STASCAN/preparation.py
+STASCAN/run_STASCAN.py
+STASCAN.egg-info/PKG-INFO
+STASCAN.egg-info/SOURCES.txt
+STASCAN.egg-info/dependency_links.txt
+STASCAN.egg-info/not-zip-safe
+STASCAN.egg-info/requires.txt
+STASCAN.egg-info/top_level.txt
