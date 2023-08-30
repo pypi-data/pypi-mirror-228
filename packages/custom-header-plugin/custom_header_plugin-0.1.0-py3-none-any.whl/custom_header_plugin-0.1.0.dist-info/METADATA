@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: custom-header-plugin
+Version: 0.1.0
+Summary: A custom header plugin for MkDocs
+Home-page: https://github.com/yourusername/your-plugin-repo
+Author: abhiramp
+Author-email: abhiram.is17@bmsce.ac.in
+Requires-Dist: mkdocs
+

@@ -1,0 +1,5 @@
+test_plugin/custom_header_plugin.py,sha256=so9EGNNVDKbRkVxrferjbNW_kVS84i8w2so_PZCMRro,483
+custom_header_plugin-0.1.0.dist-info/METADATA,sha256=B_2TXOcC4c0h26vRZw69-nxxaLR3W1hoNNTQIo308eY,255
+custom_header_plugin-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+custom_header_plugin-0.1.0.dist-info/top_level.txt,sha256=HAdgQvyas_m9ulaHX5xGB0kvftasuEl9P3QMwIdNN2I,12
+custom_header_plugin-0.1.0.dist-info/RECORD,,
