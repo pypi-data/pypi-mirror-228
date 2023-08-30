@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+mac_formatter/__init__.py
+mac_formatter/mac_formatter.py
+mac_formatter.egg-info/PKG-INFO
+mac_formatter.egg-info/SOURCES.txt
+mac_formatter.egg-info/dependency_links.txt
+mac_formatter.egg-info/requires.txt
+mac_formatter.egg-info/top_level.txt
+mac_formatter.egg-info/zip-safe
