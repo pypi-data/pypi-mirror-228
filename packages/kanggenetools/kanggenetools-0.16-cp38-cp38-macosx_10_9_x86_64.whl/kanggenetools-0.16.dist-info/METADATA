@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: kanggenetools
+Version: 0.16
+Summary: Tools for gene analysis by xiaowen kang
+Home-page: https://github.com/yourusername/kanggenetools
+Author: xiaowen kang
+Author-email: kangxiaowen@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+# kanggenetools
+kanggenetools
+ini
+
+
