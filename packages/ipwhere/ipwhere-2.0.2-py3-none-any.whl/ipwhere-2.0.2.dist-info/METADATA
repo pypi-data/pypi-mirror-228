@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: ipwhere
+Version: 2.0.2
+Summary: ipwhere - query an IP address geographical location
+Author-email: Eugene Ciurana pr3d4t0r <ipwhere.project@cime.net>
+License: BSD-3-Clause
+Classifier: Intended Audience :: Other Audience
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: appdirs
+Requires-Dist: click
+Requires-Dist: psutil
+Requires-Dist: pyperclip
+
+# ipwhere
+
+IP geo location command line tool (relies on 3rd-party to provide actual
+location).
+
+Unlike with previous versions **`ipwhere` does not require an API key starting
+on version 2.0.2.**
+
+
+## No API key required
+
+`ipwhere` uses https://ip-api.com for resolving locations.  They provide a free
+service that does not require an API key and grants up to 45 requests per minute
+from a given IP address.
+
+
+### Query Frequency
+
+If possible, use local caching as well.  This will help you extend the number of
+requests per minute from `ipwhere`.
+
+ipwhere makes a single query per call.  Future versions may implement local
+caching to `/tmp` or similar.
+

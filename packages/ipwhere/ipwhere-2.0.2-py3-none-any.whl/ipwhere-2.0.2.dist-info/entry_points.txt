@@ -1,0 +1,2 @@
+[console_scripts]
+ipwhere = ipwhere:_main
