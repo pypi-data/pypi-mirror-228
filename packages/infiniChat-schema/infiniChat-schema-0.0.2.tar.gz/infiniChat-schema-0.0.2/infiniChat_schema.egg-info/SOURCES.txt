@@ -1,0 +1,8 @@
+pyproject.toml
+infiniChat_schema/__init__.py
+infiniChat_schema/models.py
+infiniChat_schema.egg-info/PKG-INFO
+infiniChat_schema.egg-info/SOURCES.txt
+infiniChat_schema.egg-info/dependency_links.txt
+infiniChat_schema.egg-info/requires.txt
+infiniChat_schema.egg-info/top_level.txt
