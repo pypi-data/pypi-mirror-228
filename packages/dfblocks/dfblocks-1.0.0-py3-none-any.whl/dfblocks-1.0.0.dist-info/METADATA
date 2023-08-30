@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dfblocks
+Version: 1.0.0
+Summary: MCDiamondfire type definitions and data
+Home-page: https://github.com/showierdata9978/DFBlocks
+License: Unlicense
+Author: showierdata9978
+Author-email: 68120127+showierdata9978@users.noreply.github.com
+Requires-Python: >=3.10.0,<3.11
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/showierdata9978/DFBlocks
+Description-Content-Type: text/plain
+
+This project depends on quicktype.
+
+it can be installed with nodejs. 
+
+npm install quicktype
