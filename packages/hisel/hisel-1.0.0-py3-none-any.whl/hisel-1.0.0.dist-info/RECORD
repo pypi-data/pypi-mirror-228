@@ -1,0 +1,16 @@
+hisel/__init__.py,sha256=cSbX1BxqgthcMPfA_ng8R0bJN4hAmfBilAMwHYvEVMg,92
+hisel/categorical.py,sha256=5LbcY3cciLtAgNIErI33B6XxrSqBb9GilVZwAhBgGDE,6787
+hisel/cudakernels.py,sha256=sZ_d_W9m0_HssxqfRFwPKtFHJ4wt1GR7tZMjxUwfNc8,6452
+hisel/feature_selection.py,sha256=Gv2s7JUGBVrJHoEX3F4-VSk8RhKlgkvzrqEHywUZNLI,2891
+hisel/hsic.py,sha256=2udtW2oPkvZMfc-i6IoMW2JnbutIUNcor-6FYW_bTFA,4180
+hisel/kernels.py,sha256=82hEca_p40I81bPTwKCdly4Kw2JEH1Y4vplHOcWaFL0,8324
+hisel/lar/__init__.py,sha256=HDZErzbZ800j-M0solPs39Pq6dUIwtpQyWHl5Pvan_E,31
+hisel/lar/_lar.pxd,sha256=pvvPmEyDO2HDh88nMFL75m4JQghSBBSoCp5DTHLB_LQ,103
+hisel/lar/_lar.pyx,sha256=XZI-n0UYUK2pKN1t4bnKAsTRekvFN91lBuPSj3Q8DCo,2957
+hisel/lar/lar.py,sha256=YpZ40sm4YeW5tzlzp-9QlL93P0t1NZ07kwlzvL1wjiY,2831
+hisel/permutohedron.py,sha256=8BxiVssfp8WNo1ZZHsFnnjMBui82axDK69wShUFWRTY,894
+hisel/select.py,sha256=gXyn2rZcX9wP-3qJKi49jmaRfJQOcYE2sUX2kjZPKNo,15413
+hisel-1.0.0.dist-info/LICENSE.txt,sha256=4qQA_A3pGdzKbx14FRUYCpkvcJK_ADOpHYWZ1Em6XZA,10832
+hisel-1.0.0.dist-info/METADATA,sha256=2HIC5cHGkHkhBEGB-OKIj668NbVDIm47U8rn3k59Irg,4596
+hisel-1.0.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+hisel-1.0.0.dist-info/RECORD,,
