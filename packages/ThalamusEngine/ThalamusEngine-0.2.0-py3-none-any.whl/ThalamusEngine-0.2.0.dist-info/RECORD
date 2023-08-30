@@ -1,0 +1,11 @@
+ThalamusEngine/Interface.py,sha256=G52dt14l1eFgSxmaWHobT7nKOI1cGplf0utMBJHy1GE,19440
+ThalamusEngine/__init__.py,sha256=VPMwk0QUjI0Z4lrPI71OXeYAoZykgauPG05mXKl3pDg,51
+ThalamusEngine/Lib/DLLList_Readme.txt,sha256=U4ouS9lZixC9rvwN-ELwrl5ECErtTMCVyA4xBrQVRfA,96
+ThalamusEngine/Lib/freeglut.dll,sha256=ydvnRZwmqNA7FNInQeag5I4pVBID7LvLV4oB0CaS0gA,235008
+ThalamusEngine/Lib/opencv_world450d.dll,sha256=Eq04881SMpnX_Ruklx-xqJDVr3Mcekm1kd0Qm6UjZec,119260672
+ThalamusEngine/Lib/thalamus.dll,sha256=F7wPRd-ltj9WFhMbI9LDHaCdRc2PNZSRgLlRuHPypPs,207360
+ThalamusEngine/Lib/thalamus.so,sha256=KSKffoo8PfWeEInY3knDCDF8Bf7dEpEy50YJoHFFERg,1987880
+ThalamusEngine-0.2.0.dist-info/METADATA,sha256=DElatGG5ieEGPiRb0-WPS2ZZHB8Jj8iGIb-4Vw6kR3U,395
+ThalamusEngine-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ThalamusEngine-0.2.0.dist-info/top_level.txt,sha256=o4HnVfdz_cZ-J4pm6srgQvHo3z1g2pO4AFcxqOr0Kn0,15
+ThalamusEngine-0.2.0.dist-info/RECORD,,
