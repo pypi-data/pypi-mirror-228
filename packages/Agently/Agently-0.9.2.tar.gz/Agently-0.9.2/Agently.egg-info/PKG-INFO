@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Agently
+Version: 0.9.2
+Summary: Agently, a framework to build applications based on language model powered intelligent agents.
+Home-page: https://github.com/Maplemx/Agently
+Author: Maplemx
+Author-email: maplemx@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+License-File: LICENSE
+
+# Agently for Python v2.0.0 (Still Working On It)
+
+## What is this?
+visit https://github.com/Maplemx/Agently for more information.
