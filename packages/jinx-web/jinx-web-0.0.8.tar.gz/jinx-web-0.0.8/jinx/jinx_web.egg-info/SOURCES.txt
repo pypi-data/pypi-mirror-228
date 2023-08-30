@@ -1,0 +1,9 @@
+pyproject.toml
+jinx/jinx_web.egg-info/PKG-INFO
+jinx/jinx_web.egg-info/SOURCES.txt
+jinx/jinx_web.egg-info/dependency_links.txt
+jinx/jinx_web.egg-info/requires.txt
+jinx/jinx_web.egg-info/top_level.txt
+jinx/middleware/__init__.py
+jinx/middleware/middleware.py
+tests/test_jinx.py
