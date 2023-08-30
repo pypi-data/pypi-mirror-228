@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyappi
+Version: 1.1.8
+Summary: Native Python Appi implementation. Single threaded, single node, no plug-ins.
+License: Copyright (c) All Rights Reserved
+License-File: LICENSE
+Requires-Dist: wheel
+Requires-Dist: uvicorn
+Requires-Dist: twine
+Requires-Dist: fastapi
+Requires-Dist: pathvalidate
+Requires-Dist: colorama
+Requires-Dist: httpx
+Requires-Dist: click
+
+Build & Deploy:
+
+python setup.py sdist bdist_wheel
+python -m pip install -e ./
+twine upload dist/* --verbose
