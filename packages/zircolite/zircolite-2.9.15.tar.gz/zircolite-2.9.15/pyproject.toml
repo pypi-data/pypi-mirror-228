@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "zircolite"
+version = "2.9.15"
+description = ""
+authors = ["wagga40 <6437862+wagga40@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jinja2 = "^3.1.2"
+colorama = "^0.4.6"
+tqdm = "^4.66.1"
+requests = "^2.31.0"
+evtx = "^0.8.2"
+aiohttp = {extras = ["speedups"], version = "^3.8.5"}
+lxml = "^4.9.3"
+orjson = "^3.9.5"
+xxhash = "^3.3.0"
+urllib3 = "^1.26.16"
+elasticsearch = {extras = ["async"], version = "^8.9.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+zircolite = 'zircolite.__main__:main'
