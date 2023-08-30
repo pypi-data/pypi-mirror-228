@@ -1,0 +1,8 @@
+metasnek/__init__.py,sha256=onVTrWx9HG0_rdGq-Mx-zK6bEqCfIanCX74PdfkDpG0,143
+metasnek/fasta_finder.py,sha256=nl6XYzbaf1rHS6uQ_HGmiql_BSbazyUfhOIi43K9ZUE,3618
+metasnek/fastq_finder.py,sha256=7GJttKTpiLIMSmovJcqt1uGblzhn5fa0BJflREuabXg,8670
+metasnek-0.0.8.dist-info/LICENSE,sha256=Ttvvbq19jk-rDnAFQieg2BPiYbJMMPF08Xi6HCnuz-E,1070
+metasnek-0.0.8.dist-info/METADATA,sha256=5qBIMU7VWexJBmJ4ZaPIhx9DHcyXR7MYPIz3oC054IU,1575
+metasnek-0.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+metasnek-0.0.8.dist-info/top_level.txt,sha256=kCvjUAiBZwLlfFM8v9117fMHbR4yeQsmFiZ5sswp-2k,9
+metasnek-0.0.8.dist-info/RECORD,,
