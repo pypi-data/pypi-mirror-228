@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: jinx-web
+Version: 0.0.7
+Summary: Jinx Python Web Framework built for learning purposes.
+Author-email: Bernardo Laing <bernardo.laing@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: Jinja2 >=3.1.2
+Requires-Dist: requests >=2.31.0
+Requires-Dist: parse >=1.19.1
+Requires-Dist: requests-wsgi-adapter >=0.4.1
+Requires-Dist: WebOb >=1.8.7
+Requires-Dist: whitenoise >=6.5.0
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
