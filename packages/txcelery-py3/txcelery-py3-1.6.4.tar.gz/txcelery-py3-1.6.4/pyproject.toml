@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "txcelery-py3"
+version = "1.6.4"
+authors = [{name = "Sentimens Research Group", email = "contact@sentimens.com"}, {name = "LLC"}]
+maintainers = [{name = "Synerty Pty Ltd", email = "contact@synerty.com"}]
+license = {text = "MIT"}
+description = "Celery for Twisted:  manage Celery tasks from twistedusing the Deferred API"
+keywords = [
+    "celery",
+    "twisted",
+    "deferred",
+    "async",
+    "asynchronous",
+]
+classifiers = ["Programming Language :: Python :: 3.5"]
+dependencies = ["Twisted", "Celery>=3.0.0", "setuptools>=23"]
+readme = "REAMD.md"
+
+[project.urls]
+Homepage = "https://github.com/Synerty/txcelery-py3"
+Download = "https://github.com/Synerty/txcelery-py3/tarball/1.6.3"
+
+[tool.setuptools]
+packages = ["txcelery"]
+include-package-data = true
+provides = ["txcelery"]

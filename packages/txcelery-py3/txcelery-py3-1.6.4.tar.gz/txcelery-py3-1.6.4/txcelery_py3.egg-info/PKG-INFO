@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: txcelery-py3
+Version: 1.6.4
+Summary: Celery for Twisted:  manage Celery tasks from twistedusing the Deferred API
+Author: LLC
+Author-email: Sentimens Research Group <contact@sentimens.com>
+Maintainer-email: Synerty Pty Ltd <contact@synerty.com>
+License: MIT
+Project-URL: Homepage, https://github.com/Synerty/txcelery-py3
+Project-URL: Download, https://github.com/Synerty/txcelery-py3/tarball/1.6.3
+Keywords: celery,twisted,deferred,async,asynchronous
+Classifier: Programming Language :: Python :: 3.5
+Provides: txcelery
+Description-Content-Type: text/markdown
+License-File: LICENSE
