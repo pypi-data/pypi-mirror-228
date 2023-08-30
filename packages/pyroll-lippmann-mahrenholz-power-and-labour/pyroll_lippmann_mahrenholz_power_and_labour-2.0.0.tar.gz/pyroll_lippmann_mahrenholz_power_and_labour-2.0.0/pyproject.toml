@@ -1,0 +1,32 @@
+[project]
+name = "pyroll-lippmann-mahrenholz-power-and-labour"
+description = "Plugin for PyRolL providing the power and labour calculation after O. Lippmann and H. Mahrenholz"
+authors = [
+    { name = "Christoph Renzing", email = "christoph.renzing@imf.tu-freiberg.de" }
+]
+
+license = "BSD-3-Clause"
+homepage = "https://pyroll-project.github.io/"
+repository = "https://github.com/pyroll-project/pyroll-lippmann-mahrenholz-power-and-labour"
+documentation = "https://pyroll-project.github.io/modules/pyroll-lippmann-mahrenholz-power-and-labour/docs/"
+packages = [
+    { include = "pyroll/lippmann_mahrenholz_power_and_labour" }
+]
+readme = "README.md"
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Manufacturing",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering"
+]
+
+requires-python = ">=3.9, <4.0"
+dependencies = [
+    "pyroll-core"
+]
+
+dynamic = ["version"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
