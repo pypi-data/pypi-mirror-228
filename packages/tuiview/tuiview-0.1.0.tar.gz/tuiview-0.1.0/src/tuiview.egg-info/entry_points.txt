@@ -1,0 +1,3 @@
+[console_scripts]
+tuiview = tuiview.__main__:main
+tv = tuiview.__main__:main
