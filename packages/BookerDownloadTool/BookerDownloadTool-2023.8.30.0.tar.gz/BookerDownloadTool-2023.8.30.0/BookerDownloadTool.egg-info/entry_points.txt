@@ -1,0 +1,4 @@
+[console_scripts]
+BookerDownloadTool = BookerDownloadTool.__main__:main
+bdt = BookerDownloadTool.__main__:main
+dl-tool = BookerDownloadTool.__main__:main
