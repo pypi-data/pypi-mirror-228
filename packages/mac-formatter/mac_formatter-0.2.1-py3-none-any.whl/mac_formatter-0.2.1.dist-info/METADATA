@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: mac-formatter
+Version: 0.2.1
+Summary: A simple tool for formatting MAC addresses
+Author: thamuppet
+Description-Content-Type: text/markdown
+Requires-Dist: wheel >=0.37.1
+
+mac_format
+======
+A simple library to convert MAC-addresses to different formats.
+<br />
+<hr>
+
+### How
+
+`````pycon
+from mac_formatter import MacFormatter
+
+mac_address = '01:ab:02:cd:03:ef'
+mac = MacFormatter(mac_address)
+
+print(mac.dot)
+print(mac.line)
+print(mac.space)
+print(mac.colon)
+`````
+output:
+`````bash
+01ab.02cd.03ef
+01-ab-02-cd-03-ef
+01 ab 02 cd 03 ef
+01:ab:02:cd:03:ef
+`````
+<hr>
+MAC-addresses is converted to lowercase by default, for uppercase use .upper()
+<hr style="border-top: 3px solid rgba(255, 255, 255, 0.2);">
+---
+
+*thamuppet* <br>
+
+
