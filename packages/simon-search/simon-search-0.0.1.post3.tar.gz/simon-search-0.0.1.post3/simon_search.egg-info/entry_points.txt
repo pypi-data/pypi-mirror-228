@@ -1,0 +1,2 @@
+[console_scripts]
+simon-setup = simon.setup:execute
