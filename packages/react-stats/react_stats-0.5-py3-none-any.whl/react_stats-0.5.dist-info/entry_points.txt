@@ -1,0 +1,4 @@
+[console_scripts]
+auto-assets = react_stats.commands.auto_assets:main
+get-stats = react_stats.commands.get_stats:main
+make-assets = react_stats.commands.make_assets:main
