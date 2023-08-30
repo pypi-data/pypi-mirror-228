@@ -1,0 +1,7 @@
+README.md
+setup.py
+platform_client_python.egg-info/PKG-INFO
+platform_client_python.egg-info/SOURCES.txt
+platform_client_python.egg-info/dependency_links.txt
+platform_client_python.egg-info/not-zip-safe
+platform_client_python.egg-info/top_level.txt
