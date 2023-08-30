@@ -1,0 +1,12 @@
+qsvin/__init__.py,sha256=158nQJEK818fSTnrCjFkq9gwnM4tGfdDOa2QidqdHmA,22
+qsvin/config.py,sha256=sowl5fvPJBwAw9vhtZDjHQN6CbUaBcrYkZopofYXJ9M,600
+qsvin/db_client.py,sha256=wRQGON4TIh55pfraDuKuVpG6gFOx_hqz4iQR1rsy4-o,2369
+qsvin/external_api.py,sha256=WCQa60IqWZcEYRMa-zzJGtAi6bpB7PF95a2l4CpHdDg,5804
+qsvin/qvin.py,sha256=1b_ChW60xQCUxhPJGmr4xKXOv0fHx1UYjyG3jAXBrT0,3034
+qsvin/remote_client.py,sha256=TR5yGrAAHSc_MiOaWfkoZ0__Xc9uQvS69p6-ho62aYg,624
+qsvin/test.py,sha256=oJu322uhAtCys8OC7dgWdkFSdMLMG1r073hLtIvKs9Y,356
+qsvin/vin_decoder.py,sha256=EDVV-kkiKuF1KA-2FV3R_x0uHElz9D4EsKT0PmkPKY4,5173
+qsvin-0.0.7.dist-info/METADATA,sha256=-uk53z4Y1_uhYmBYq0Ngv_twj52RGNa9tG8kE_jpPrU,432
+qsvin-0.0.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+qsvin-0.0.7.dist-info/top_level.txt,sha256=DfQNJ9Z_txNEIwG4s1uOs8YPkXlhR7cntiQbnYxImRI,6
+qsvin-0.0.7.dist-info/RECORD,,
