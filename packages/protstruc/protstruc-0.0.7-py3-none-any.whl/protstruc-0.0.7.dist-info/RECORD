@@ -1,0 +1,15 @@
+protstruc/__init__.py,sha256=HgcSJpPr0z_496vF64-ozopWjTEjzJXtnPMisJ9w4MM,71
+protstruc/alphabet.py,sha256=FwNwzIXrhLPB51u8RPKMqhqW7dODi718_3usflnz2Ss,386
+protstruc/decorator.py,sha256=4FfymOOpfhIW840-Y4PW9_BLom7GYq0cbhFYQONmItc,1813
+protstruc/general.py,sha256=j1-EExnsXR6XH4aPAMoYfJZdxmWtt137VVSoaBsb1XA,9220
+protstruc/geometry.py,sha256=MLF02-tBmX9lgTekYnc8wWbwX3rsUcS1tiuT8mjYfww,16149
+protstruc/io.py,sha256=AXIF6g3mxiPlg5p2Zc5SXflNG5a7iEU_cu5X1qwghVM,1275
+protstruc/pdb.py,sha256=P4iyPW7wAR8kLu-8ZDVFvvJlatKt-PzC2btuy7gtr1g,11300
+protstruc/protstruc.py,sha256=vGRxHrnRz95s-hDn-EejL0CGTKx2TR3saUoJcdqrmgY,45162
+protstruc/constants/__init__.py,sha256=i4vNoTYUcUNPvAtSN7k_fdcEUT8JYTaXxNLMbcfSeFE,29
+protstruc/constants/ideal.py,sha256=I157oVyBGULuxitqzTYHiBfphKc1gM-6rPAAmmsLB0g,880
+protstruc-0.0.7.dist-info/LICENSE,sha256=0N0n0228KGxU52mjnCq7Bhnugm0Jxqr3OzbDj-FsOIg,1067
+protstruc-0.0.7.dist-info/METADATA,sha256=gwqsZsnEUPAA3SZRgGugBpahwnye3UtXOCiLBHCnHaY,929
+protstruc-0.0.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+protstruc-0.0.7.dist-info/top_level.txt,sha256=Yk1RCRH8Ha7EweBUlNpd-V1Ri5u_vMIACQOWx0O4WPQ,10
+protstruc-0.0.7.dist-info/RECORD,,

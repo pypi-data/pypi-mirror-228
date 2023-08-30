@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: protstruc
+Version: 0.0.7
+Summary: Utility library for handling protein structures in Python.
+Home-page: https://github.com/dohlee/protstruc
+Author: Dohoon Lee
+Author-email: dohlee.bioinfo@gmail.com
+License: MIT
+Keywords: protein structure,protein design,protein structure prediction,antibody structure,antibody design,bioinformatics,computational biology,artificial intelligence
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: einops
+Requires-Dist: torch
+Requires-Dist: biopandas >=0.4.1
+Requires-Dist: biotite >=0.37.0
+
