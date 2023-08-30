@@ -1,0 +1,16 @@
+attrs
+numpy
+pydantic-settings
+boto3
+tqdm
+rich
+typer
+requests
+
+[dev]
+setuptools_scm
+pre-commit
+
+[test]
+pytest
+coverage
