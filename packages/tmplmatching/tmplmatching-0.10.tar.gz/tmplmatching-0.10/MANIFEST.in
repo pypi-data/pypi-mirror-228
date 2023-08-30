@@ -1,0 +1,9 @@
+include tmplmatching/requirements.txt
+include tmplmatching/thirdparty.json
+include tmplmatching/README.MD
+include tmplmatching/ybat.js
+include tmplmatching/canvas.min.js
+include tmplmatching/filesaver.min.js
+include tmplmatching/jszip.min.js
+include tmplmatching/ybat.css
+include tmplmatching/ybat.html
