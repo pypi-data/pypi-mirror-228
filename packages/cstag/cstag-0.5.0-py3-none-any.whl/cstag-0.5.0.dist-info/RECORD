@@ -1,0 +1,14 @@
+cstag/__init__.py,sha256=ZSDSzb_2_A3URZNrsby5ovxwFQvz4dJdMmeTREpIVI8,236
+cstag/call.py,sha256=p_sfvr8F4dm4nz5cPHtINzqHAI0qPvQubXieBAgjuao,6043
+cstag/consensus.py,sha256=WKU-aJDf0U58Olp_nXtIK3ah2CKZNSCaZaEdSkOTl6s,2547
+cstag/lengthen.py,sha256=hv8CY5a1yGoYII_oftBTLkJnvhbUvZyaLsR6ruQ9bRI,1533
+cstag/mask.py,sha256=UvakakX5r7wZcwE71_0-0EPwid0C7ZyuEh92VOKA_po,1908
+cstag/revcomp.py,sha256=NNh2r5R1K5CQ76fboZseUSJuzStk9yOPbFXXIdNxdfM,1644
+cstag/shorten.py,sha256=srjAkxujevva7d6vWkIKNW7wV1-SrugAuXuCEu78IlA,900
+cstag/split.py,sha256=yHgOPn323CrIGFpjOIk4Q-4ZJB3qz7rJtKYPZk3cm_M,516
+cstag/to_html.py,sha256=dbX3zPBfBQulyyoF1EjLlPNUI60N_yKtpHhqNzcxNN4,3950
+cstag-0.5.0.dist-info/LICENSE,sha256=gxD-OG_NEkuYSK8D4UsrfdJFY3kPbGGe9yw4UfC3iBk,1069
+cstag-0.5.0.dist-info/METADATA,sha256=D5E57UVC7SB7xMYOeShlf45kEkqhnLKI4ZkCibHkM7I,5369
+cstag-0.5.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+cstag-0.5.0.dist-info/top_level.txt,sha256=UjMk-BXyki9XiDJml-phOaKVcxg5aH-3KLMWznkbSFk,6
+cstag-0.5.0.dist-info/RECORD,,
