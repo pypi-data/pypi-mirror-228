@@ -1,0 +1,7 @@
+scipy
+gruut
+gruut-lang-ru
+sounddevice
+onnxruntime
+huggingface-hub
+tok
