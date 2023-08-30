@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django-arcgis-address
+Version: 1.2.2
+Summary: Django models for storing and retrieving postal addresses.
+Home-page: https://gitlab.ics.muni.cz/dobrovolnictvi/django-arcgis-address.git
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Framework :: Django :: 4.2
+Requires-Python: >=3.9
+Requires-Dist: django (~=4.0)
+Requires-Dist: setuptools
+
+UNKNOWN
+
+
