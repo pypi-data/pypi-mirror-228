@@ -1,0 +1,9 @@
+LICENSE
+setup.cfg
+setup.py
+seaplane_framework.config.egg-info/PKG-INFO
+seaplane_framework.config.egg-info/SOURCES.txt
+seaplane_framework.config.egg-info/dependency_links.txt
+seaplane_framework.config.egg-info/requires.txt
+seaplane_framework.config.egg-info/top_level.txt
+seaplane_framework/config/__init__.py
