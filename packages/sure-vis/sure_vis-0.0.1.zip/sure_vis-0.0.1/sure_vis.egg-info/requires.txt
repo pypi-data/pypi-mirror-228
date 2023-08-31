@@ -1,0 +1,7 @@
+numpy
+scikit-learn
+notebook
+notebookjs
+pandas
+scipy
+importlib_resources
