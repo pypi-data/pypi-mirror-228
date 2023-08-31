@@ -1,0 +1,6 @@
+pandas
+django
+openpyxl
+bdtime
+tqdm
+pypinyin

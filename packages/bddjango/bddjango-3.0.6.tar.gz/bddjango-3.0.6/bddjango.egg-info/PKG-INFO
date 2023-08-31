@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bddjango
+Version: 3.0.6
+Summary: 常用的django开发工具
+Home-page: https://github.com/bode135/bddjango.git
+Author: bode135
+Author-email: 2248270222@qq.com
+License: UNKNOWN
+Description: 
+        bddjango/PypiReadme.md
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
