@@ -1,0 +1,7 @@
+README.md
+setup.py
+shelve_cache_decorator/__init__.py
+shelve_cache_decorator.egg-info/PKG-INFO
+shelve_cache_decorator.egg-info/SOURCES.txt
+shelve_cache_decorator.egg-info/dependency_links.txt
+shelve_cache_decorator.egg-info/top_level.txt
