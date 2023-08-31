@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="stock_production_lot_view_tree" model="ir.ui.view">
+    <field name="name">stock.production.lot - tree</field>
+    <field name="model">stock.production.lot</field>
+    <field name="inherit_id" ref="stock.view_production_lot_tree" />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='product_id']" position="after">
+                <field name="fixed_asset_id" />
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="stock_production_lot_view_search" model="ir.ui.view">
+    <field name="name">stock.production.lot - search</field>
+    <field name="model">stock.production.lot</field>
+    <field name="inherit_id" ref="stock.search_product_lot_filter" />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='product_id']" position="after">
+                <field name="fixed_asset_id" />
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="stock_production_lot_view_form" model="ir.ui.view">
+    <field name="name">stock.production.lot - form</field>
+    <field name="model">stock.production.lot</field>
+    <field name="inherit_id" ref="stock.view_production_lot_form" />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//notebook" position="inside">
+                <page name="fixed_asset" string="Fixed Asset">
+                    <group name="fixed_asset_1" colspan="4" col="2">
+                        <field name="fixed_asset_id" />
+                    </group>
+                </page>
+            </xpath>
+        </data>
+    </field>
+</record>
+
+</odoo>

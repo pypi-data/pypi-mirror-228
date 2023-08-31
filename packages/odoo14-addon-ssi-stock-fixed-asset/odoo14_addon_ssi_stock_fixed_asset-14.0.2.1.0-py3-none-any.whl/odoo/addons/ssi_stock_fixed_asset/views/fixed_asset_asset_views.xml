@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="fixed_asset_asset_view_form" model="ir.ui.view">
+    <field name="name">fixed.asset.asset - form</field>
+    <field name="model">fixed.asset.asset</field>
+    <field name="inherit_id" ref="ssi_fixed_asset.fixed_asset_asset_view_form" />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//notebook" position="inside">
+                <page name="intenvory" string="Inventory">
+                    <group name="inventory_1" colspan="4" col="2">
+                        <field name="product_id" />
+                        <field name="inventory_state" />
+                        <field name="lot_id" domain="[('product_id','=',product_id)]" />
+                        <field name="lot_ids" widget="many2many" />
+                    </group>
+                </page>
+            </xpath>
+        </data>
+    </field>
+</record>
+
+</odoo>
