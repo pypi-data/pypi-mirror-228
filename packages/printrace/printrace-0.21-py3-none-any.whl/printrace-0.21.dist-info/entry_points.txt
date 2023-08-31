@@ -1,0 +1,2 @@
+[console_scripts]
+printr = printrace.printr:main
