@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "notrix"
+version = "0.7.0"
+description = "Notrix Official Python SDK"
+authors = ["SDK team <pythonsdk@y-faces.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

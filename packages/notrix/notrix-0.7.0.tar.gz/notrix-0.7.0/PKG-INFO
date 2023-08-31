@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: notrix
+Version: 0.7.0
+Summary: Notrix Official Python SDK
+License: MIT
+Author: SDK team
+Author-email: pythonsdk@y-faces.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Notrix Python SDK
+
+## Installation
+```commandline
+pip install notrix
+```
+
+## Basic usage
+
+```python
+from notrix import Client
+
+client = Client("NOTRIX_SECRET_KEY")
+payment_page = client.create_payment_page(
+    title="Bike",
+    description="My amazing bike",
+    image=open("bike.png", 'rb'),
+    price=1.5,  # USD,
+    webhook_url="https://example.com/webhooks/notrix/"
+)
+
+print(payment_page.link("1234"))  # Payment link with user_id 1234 (will be sent in the webhook)
+print(payment_page.price)  # The price in USD
+print(payment_page.webhook_url) 
+print(payment_page.uuid)
+```
+
