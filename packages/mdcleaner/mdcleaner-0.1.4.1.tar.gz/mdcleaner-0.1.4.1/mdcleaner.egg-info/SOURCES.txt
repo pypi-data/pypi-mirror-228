@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+mdcleaner/__init__.py
+mdcleaner/cleaner.py
+mdcleaner.egg-info/PKG-INFO
+mdcleaner.egg-info/SOURCES.txt
+mdcleaner.egg-info/dependency_links.txt
+mdcleaner.egg-info/requires.txt
+mdcleaner.egg-info/top_level.txt
