@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: flask-app-creator
+Version: 0.1.1
+Summary: Script para criar a base de um projeto flask para usar como extensão ou como aplicação final
+Author: riguima
+Author-email: richard.alexsander.guima@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: flask (>=2.3.3,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# flask-app-creator
+
+Script para criar a base de um projeto flask para usar como extensão ou como aplicação final
+
+## Instalação
+
+Instale usando o pipx (recomendado)
+
+`pipx install flask-app-creator`
+
+Mas você pode também instalar com pip:
+
+`pip install flask-app-creator`
+
+## Como Usar
+
+Crie a pasta para seu projeto e dentro dela rode `flask-app-creator .`
+

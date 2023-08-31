@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "flask-app-creator"
+version = "0.1.1"
+description = "Script para criar a base de um projeto flask para usar como extensão ou como aplicação final"
+authors = ["riguima <richard.alexsander.guima@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.3.3"
+toml = "^0.10.2"
+python-dotenv = "^1.0.0"
+typer = {extras = ["all"], version = "^0.9.0"}
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+blue = "^0.9.1"
+isort = "^5.12.0"
+ruff = "^0.0.286"
+
+[tool.poetry.scripts]
+flask-app-creator = 'flask_app_creator.main:run'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
