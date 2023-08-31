@@ -1,0 +1,26 @@
+## EcodeX - SpadaOS官方GUI库
+
+EcodeX是SpadaOS官方GUI库，它是一个功能强大且易于使用的Python库。它提供了一组丰富的GUI元素和工具，用于创建现代化的图形用户界面应用程序。
+
+EcodeX基于EcoX框架开发，因此它具有跨平台性，可以在Windows、Linux和MacOS等操作系统上运行。它支持多种语言，包括中文、英文等，并且提供了丰富的文档和示例，以帮助用户快速上手。
+
+EcodeX库提供了多种GUI元素，如按钮、文本框、列表框、进度条等，同时支持自定义元素和布局。它还提供了多种高级功能，如事件处理、主题管理和国际化支持等。此外，EcodeX还具有易于使用的API，使得开发者可以轻松地创建和管理GUI应用程序。
+
+总之，EcodeX是一个功能强大、易于使用且跨平台的Python GUI库。它为SpadaOS操作系统提供了丰富的图形用户界面元素和工具，使得开发者可以轻松地创建出美观且易于使用的应用程序。
+
+## 作者
+SpadaOS及EcodeX作者皆为欣源科技EcoSpace
+
+感谢帮助及支持SpadaOS及EcodeX的朋友们~
+
+龙龙&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;事阿远捏_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是昵称&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zqh7_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MarianaUI
+
+## 参考文档
+
+参考文档正在编辑中。。。
+
+## 安装方式
+
+EcodeX可以从pip安装::
+
+    pip install EcodeX
