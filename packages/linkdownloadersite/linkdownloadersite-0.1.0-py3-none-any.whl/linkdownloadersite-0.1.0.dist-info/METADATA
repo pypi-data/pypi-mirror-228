@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: linkdownloadersite
+Version: 0.1.0
+Summary: 
+Author: asaunde78
+Author-email: saundersasher78@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Flask (>=2.3.3,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
