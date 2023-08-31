@@ -1,0 +1,6 @@
+
+[pydantic]
+pydantic<3.0.0,>=2.2.1
+
+[requests]
+requests<3.0.0,>=2.31.0
