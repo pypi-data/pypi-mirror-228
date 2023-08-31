@@ -1,0 +1,5 @@
+setup.py
+pyxterm.egg-info/PKG-INFO
+pyxterm.egg-info/SOURCES.txt
+pyxterm.egg-info/dependency_links.txt
+pyxterm.egg-info/top_level.txt
