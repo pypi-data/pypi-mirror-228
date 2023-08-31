@@ -1,0 +1,17 @@
+client/__init__.py,sha256=pqQ0if3MBiDE9VazTTKdNa_SfU87ff_PZMN-GA7X_4Y,64
+client/helper.py,sha256=hoiRdNgWA3pPBfen-uyj6sfjWIsoiELKTfY0T7qmqGg,1577
+client/main.py,sha256=AqaFfs9xC1p5k3YSxFRsrgiosA2IzSXkqN4135vIsMo,1131
+copier/__init__.py,sha256=Nb6ugzTFTr1FTRm-7knIY9VXAQC6o5gQrFuzHe6jpIc,32
+copier/main.py,sha256=tuiSQge5HguAIIv9yRTf-EEBu8fLSqvfcezTEdoZxiM,2321
+example/__init__.py,sha256=8D5a8oKgqd6WA1RUkiKCn4l_PVemtyuckxQut0vDHXM,20
+example/data.py,sha256=rjQgOQT2PfUqxcNhlhYCiJsZUkpB8j_s-XUaGFd0nWk,2322
+example/main.py,sha256=DRXnQfAoIIfZdPisX30r4u8-LtkzxdqwSKgzbhBOZ1c,1137
+schema/__init__.py,sha256=Z3Qz6h9MLm1YWhYEn7I0dfC5pV11CN5cFGlLaLiLgHU,25
+schema/main.py,sha256=dBfEeMtV03tkUDrx2BzHXbctxgD5NDeWVHr9z20R0b4,1559
+utility/__init__.py,sha256=ltvlupxfgzjibxhxG1F1HU_HZaIIf6HRs7ktbJuIlYQ,37
+utility/main.py,sha256=LQQ-vLObWYS_a_hi7G4l2-Zuq-V6jSrA2SqgKIj6pdw,223
+appsync_copier-0.0.2.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+appsync_copier-0.0.2.dist-info/METADATA,sha256=hb8zDNZAjOoXmtfYSzpkpG-Proon-WnyFlA4oqQc34A,534
+appsync_copier-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+appsync_copier-0.0.2.dist-info/top_level.txt,sha256=gXplANlpO6UDTntuv-0gXSbwbLG_yzONNrODt_2gNFA,37
+appsync_copier-0.0.2.dist-info/RECORD,,

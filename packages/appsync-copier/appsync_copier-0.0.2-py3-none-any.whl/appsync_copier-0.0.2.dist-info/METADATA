@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: appsync-copier
+Version: 0.0.2
+Summary: Copy Models in App Sync
+Home-page: https://github.com/Habib-Shahzad/ultimate-appsync-copier
+Author: Habib
+Author-email: habibshehzad55@gmail.com
+Project-URL: Bug Tracker, https://github.com/Habib-Shahzad/ultimate-appsync-copier/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
