@@ -1,0 +1,8 @@
+mysql-connector-python
+pandas
+plotly
+psycopg2
+pyodbc
+reportlab
+redis
+requests

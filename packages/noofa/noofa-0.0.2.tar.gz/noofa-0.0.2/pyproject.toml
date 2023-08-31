@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "noofa"
+version = "0.0.2"
+authors = [
+  { name="Max Peshkin", email="existentiary@gmail.com" },
+]
+description = "Reports backend package"
+readme = "README.md"
+requires-python = ">=3.8, <4"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "mysql-connector-python",
+    "pandas",
+    "plotly",
+    "psycopg2",
+    "pyodbc",
+    "reportlab",
+    "redis",
+    "requests",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/milkywayisdead/noofa"
+"Bug Tracker" = "https://github.com/milkywayisdead/noofa/issues"
