@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Termicolor/All.py
+Termicolor/Ansi.py
+Termicolor/Attributes.py
+Termicolor/Background.py
+Termicolor/Color.py
+Termicolor/Foreground.py
+Termicolor/Styles.py
+Termicolor/__init__.py
+Termicolor.egg-info/PKG-INFO
+Termicolor.egg-info/SOURCES.txt
+Termicolor.egg-info/dependency_links.txt
+Termicolor.egg-info/requires.txt
+Termicolor.egg-info/top_level.txt
