@@ -1,0 +1,7 @@
+wiretap/__init__.py,sha256=4WwSZB4zMbbHDF0-dOVb7gBOY6135dV_g43St0A11mE,121
+wiretap/layers.py,sha256=KUAcHoCD4DsiBqd85OndrxZpxl0YVYfr2UKm8Co0004,620
+wiretap/wiretap.py,sha256=7v7W6XCORAbofZc9vv5S8Uw-Qdl_9034A1KuXWBlbNU,14784
+wiretap-6.0.0.dist-info/METADATA,sha256=2ZGTYuEmlCt1FQC-UuCqar-R7_Oe8fLhcbD7AgitDN8,244
+wiretap-6.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+wiretap-6.0.0.dist-info/top_level.txt,sha256=qmBPPxbsuDq57r7kh5q29WKFFyvB8j8Mzgx5RKHnwAw,8
+wiretap-6.0.0.dist-info/RECORD,,
