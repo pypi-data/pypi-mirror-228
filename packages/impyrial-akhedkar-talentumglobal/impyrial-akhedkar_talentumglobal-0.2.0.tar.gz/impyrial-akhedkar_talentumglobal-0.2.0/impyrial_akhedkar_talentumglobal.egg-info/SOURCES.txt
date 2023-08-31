@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+impyrial/__init__.py
+impyrial/utils.py
+impyrial/length/__init__.py
+impyrial/length/api.py
+impyrial/length/core.py
+impyrial/weight/__init__.py
+impyrial/weight/api.py
+impyrial/weight/core.py
+impyrial_akhedkar_talentumglobal.egg-info/PKG-INFO
+impyrial_akhedkar_talentumglobal.egg-info/SOURCES.txt
+impyrial_akhedkar_talentumglobal.egg-info/dependency_links.txt
+impyrial_akhedkar_talentumglobal.egg-info/requires.txt
+impyrial_akhedkar_talentumglobal.egg-info/top_level.txt
