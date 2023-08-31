@@ -1,0 +1,9 @@
+numpy
+matplotlib
+
+[test]
+pytest
+scipy
+matplotlib
+html5lib
+matrepr
