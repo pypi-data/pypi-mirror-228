@@ -1,0 +1,12 @@
+CMakeLists.txt
+COPYING
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+vcpkg.json
+src/python/chalc/__init__.py
+src/python/chalc.egg-info/PKG-INFO
+src/python/chalc.egg-info/SOURCES.txt
+src/python/chalc.egg-info/dependency_links.txt
+src/python/chalc.egg-info/top_level.txt
