@@ -1,0 +1,11 @@
+chalc/__init__.py,sha256=R4jBMwKmjGG-qCYAZkcoJSwa7NSc4sSJr48vicLcoAg,253
+chalc/_version.pypy38-pp73-win_amd64.pyd,sha256=pzp1-vk1Yb_HsjyVP8XDUTLm5P17B6SOjUfcw5WwCMw,101376
+chalc/chromatic.pypy38-pp73-win_amd64.pyd,sha256=HBTlZzyxr2OS5HDAwq7dUTtpiSoWB6-Z6q39yww9LCg,715264
+chalc/filtration.pypy38-pp73-win_amd64.pyd,sha256=deueKfgmkZBRN4XUY6KyKkBHtCG4PYqgQPHZB-JDryM,209408
+chalc/gmp-10.dll,sha256=SBuBOggbBubKcKd2a749IN1fZPf_-ef2WqOLdGnTeVg,420864
+chalc/mpfr-6.dll,sha256=jcEE98sH5mZ93plX9ic6Bi8ERVdfyUI2qzLcy4insNE,413184
+chalc-0.3.0.dist-info/COPYING,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+chalc-0.3.0.dist-info/METADATA,sha256=W1PB4cwyL1NyeDkZcCyGZzkL7JcwiRu2uO9dY9tjvVQ,429
+chalc-0.3.0.dist-info/WHEEL,sha256=oMAX5sYK5ISx9Ie3de_DlRhIl3SV9SerOvjJLWsvb7w,101
+chalc-0.3.0.dist-info/top_level.txt,sha256=tVtYforZ_xPmAlFijY1M_2Yt1FDjWKJ8jsVHiTW8r44,6
+chalc-0.3.0.dist-info/RECORD,,

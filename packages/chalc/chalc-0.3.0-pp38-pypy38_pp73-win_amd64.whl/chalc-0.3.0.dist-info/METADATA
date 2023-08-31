@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: chalc
+Version: 0.3.0
+Home-page: https://github.com/abhinavnatarajan/chalc
+Download-URL: https://github.com/abhinavnatarajan/chalc
+Author: Abhinav Natarajan
+License: GPL
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: COPYING
+
+# Chalc
+A package to compute the chromatic alpha complex of coloured point clouds in Euclidean space. Full description coming soon. 
