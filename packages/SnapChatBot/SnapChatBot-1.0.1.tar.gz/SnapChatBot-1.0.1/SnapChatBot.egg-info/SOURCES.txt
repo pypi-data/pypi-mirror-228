@@ -1,0 +1,6 @@
+setup.py
+SnapChatBot.egg-info/PKG-INFO
+SnapChatBot.egg-info/SOURCES.txt
+SnapChatBot.egg-info/dependency_links.txt
+SnapChatBot.egg-info/requires.txt
+SnapChatBot.egg-info/top_level.txt
