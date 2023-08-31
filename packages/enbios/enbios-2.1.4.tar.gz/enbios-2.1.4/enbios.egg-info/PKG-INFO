@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: enbios
+Version: 2.1.4
+Summary: Enbios 2
+Author: Ramin Soleymani
+License: BSD-3-Clause
+Project-URL: Homepage, https://github.com/LIVENlab/enbios
+Project-URL: Bug Tracker, https://github.com/LIVENlab/enbios/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# Enbios 2
+
+This a ground up new implementation of enbios.
+
+Compared to the original version of enbios, this version is more flexible does not make it's own LCA calculations, but
+uses brightway2 for that.
+
+The main functionality of enbios2 is currently to run experiments, which are described a set of (brightway) activities a
+set of methods and a set of scenarios, which contain demand for the given activities.
+
+In addition to get the results of the scenarios in the dendrogram (....) the user can also define a hierarchy, which
+contains the activities at the bottom.
+
+Enbios 2 is a python package (https://pypi.org/project/enbios/), which can be installed with pip.
+
+## Installation
+
+
+(windows)
+`python -m venv venv`
+
+(linux)
+`python3.9 -m venv venv`
+
+Activate the environment with
+
+(windows)
+`venv\Scripts\activate`
+
+(linux)
+`source venv/bin/activate`
+
+
+Install enbios2 with
+
+(windows)
+`python -m pip install enbios`
+
+(linux)
+`python3 -m pip install enbios`
+
+## Demo
+
+The repository contains a few notebooks (require jupyter notebook) in the demos folder.
+
+[Getting started](https://github.com/LIVENlab/enbios/blob/main/enbios2/demos/intro.ipynb)
+
+[Plotting results](https://github.com/LIVENlab/enbios/blob/main/enbios2/demos/intro.ipynb)
