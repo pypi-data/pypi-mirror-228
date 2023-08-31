@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "pyredi"
+version = "0.1.1"
+description = "Python package for REDi - Resilient Design for the Next Generation of Buildings"
+authors = ["Stevan.Gavrilovic <stevan.gavrilovic@arup.com>"]
+license = "Apache 2.0 - See LICENSE.txt"
+readme = "README.md"
+packages = [
+    { include = "REDi" },
+]
+exclude = ["REDi/.git", 
+           "REDi/examples/*_PRIVATE.json",
+           "REDi/.pytest_cache",
+           "REDi/.vscode",
+           "REDi/.mypy_cache",
+           "REDi/.gitignore",
+           "REDi/pyproject.toml",
+           "REDi/poetry.lock"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+numpy = "^1.25.2"
+pytest = "^7.4.0"
+scipy = "^1.11.2"
+simplejson = "^3.19.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
