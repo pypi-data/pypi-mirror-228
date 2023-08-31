@@ -1,0 +1,7 @@
+plone
+collective.js.jqueryui
+
+[test]
+plone.app.testing
+plone.mocktestcase
+formencode

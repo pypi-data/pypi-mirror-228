@@ -1,0 +1,93 @@
+<metal:listingmacro define-macro="listing">
+    <tal:foldercontents define="batch view/batch">
+        <tal:listing condition="batch">
+            <table class="tablesorter" metal:define-slot="entries" id="upload_listing">
+                <thead>
+                <tr>
+                    <th class="borderedHeader">File</th>
+                    <th class="borderedHeader">Creator</th>
+                    <th class="borderedHeader">Modified Date</th>
+                    <th class="borderedHeader">File Size</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tal:entry tal:repeat="item batch" metal:define-macro="entries">
+                    <tal:block tal:define="item_url item/getURL|item/absolute_url;
+                               item_id item/getId|item/id;
+                               item_title item/Title;
+                               item_title python:item_title or item_id;
+                               item_description item/Description;
+                               item_type item/portal_type;
+                               item_type_title item/Type;
+                               item_modified item/ModificationDate;
+                               item_created item/CreationDate;
+                               item_type_class python:'contenttype-' + view.normalizeString(item_type);
+                               item_link python:item_type in view.use_view_action and item_url+'/view' or item_url;
+                               item_wf_state item/review_state;
+                               item_wf_state_class python:'state-' + view.normalizeString(item_wf_state);
+                               item_creator item/Creator;">
+                        <metal:block define-slot="entry">
+                            <tr>
+                                <td>
+              <span class="summary upload-listing-item">
+                  <tal:image omit-tag="" condition="python:item_type == 'Image'">
+                      <a href="#"
+                         tal:attributes="href string:${item_url}/view;
+                                         class string:${item_wf_state_class} url">
+                          <img tal:attributes="src string:${item_url}/@@images/image/icon"/>
+                          <span tal:content="item_title"/>
+                      </a>
+                  </tal:image>
+                  <tal:notimage omit-tag="" condition="python:item_type != 'Image'">
+                      <a href="#"
+                         tal:attributes="href item_link;
+                                         class string:$item_type_class $item_wf_state_class url"
+                         tal:content="item_title">
+                          Item Title
+                      </a>
+                  </tal:notimage>
+                  <span tal:condition="python:item_type in view.use_view_action">
+                    &mdash;
+                      <a tal:attributes="href item_link">
+                      <span class="glyphicon glyphicon-download"></span>
+                      download
+                    </a>
+                  </span>
+              </span>
+                                </td>
+                                <td>
+              <span class="documentByLine"
+                    tal:condition="item_creator"
+                    tal:define="author python:view.member_info(item_creator);"
+                    tal:content="python: author and author['fullname'] or item_creator"
+                    tal:omit-tag="not:author"/>
+                                </td>
+                                <td>
+                                    <tal:modified>
+                  <span tal:replace="python:view.toLocalizedTime(item_modified,long_format=1)">
+                    August 16, 2001 at 23:35:59
+                  </span>
+                                    </tal:modified>
+                                </td>
+                                <td tal:content="item/getObjSize"/>
+                            </tr>
+                        </metal:block>
+                    </tal:block>
+                </tal:entry>
+                </tbody>
+            </table>
+
+            <p>For mass modification or deletion of uploaded files please use the
+                <a tal:attributes="href string:${context/absolute_url}/folder_contents">Contents</a> page</p>
+
+        </tal:listing>
+        <metal:empty metal:define-slot="no_items_in_listing">
+            <p class="discreet"
+               tal:condition="not: batch"
+               i18n:translate="description_no_items_in_folder">
+                There are currently no other items.
+            </p>
+        </metal:empty>
+
+    </tal:foldercontents>
+</metal:listingmacro>
