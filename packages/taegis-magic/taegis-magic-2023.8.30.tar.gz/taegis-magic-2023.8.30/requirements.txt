@@ -1,0 +1,5 @@
+ipython
+pandas
+typer[all]
+taegis-sdk-python
+Jinja2
