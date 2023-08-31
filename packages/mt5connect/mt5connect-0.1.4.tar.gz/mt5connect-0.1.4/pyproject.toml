@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mt5connect"
+version = "0.1.4"
+description = ""
+authors = ["Alpha <piotr@piotryordanov.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+pandas = "^2.0.3"
+numpy = "^1.24.4"
+pyarrow = "^13.0.0"
+python = "^3.11"
+boto3 = "^1.28.37"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
