@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Excel-split-merge-tool
+Version: 0.1.0
+Home-page: https://github.com/Armynous/split_n_merge_excelfile.git
+Author: Pongpol Prommacharoen
+Author-email: pongpol095@gmail.com
+Requires-Dist: tqdm
+Requires-Dist: openpyxl >=3.1.2
+Requires-Dist: pandas >=2.1.0
+Requires-Dist: numpy >=1.25.2
+
