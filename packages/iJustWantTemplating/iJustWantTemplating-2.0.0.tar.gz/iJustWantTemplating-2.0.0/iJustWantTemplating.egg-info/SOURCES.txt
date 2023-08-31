@@ -1,0 +1,5 @@
+setup.py
+iJustWantTemplating.egg-info/PKG-INFO
+iJustWantTemplating.egg-info/SOURCES.txt
+iJustWantTemplating.egg-info/dependency_links.txt
+iJustWantTemplating.egg-info/top_level.txt
