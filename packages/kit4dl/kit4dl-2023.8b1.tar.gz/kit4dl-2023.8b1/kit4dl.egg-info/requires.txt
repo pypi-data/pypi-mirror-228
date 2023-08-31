@@ -1,0 +1,12 @@
+torch
+lightning
+torchmetrics
+numpy<=1.25.0
+pydantic<2.0.0
+scikit-learn
+colormath
+tqdm
+typer[all]
+
+[:python_version < "3.11"]
+toml
