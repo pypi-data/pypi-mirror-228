@@ -1,0 +1,197 @@
+.sb-tabs__wrapper {
+    scrollbar-color: var(--w-color-border-furniture) var(--w-color-surface-page);
+    scrollbar-width: thin
+}
+
+.sb-tabs__wrapper::-webkit-scrollbar {
+    height: 5px;
+    width: 5px
+}
+
+.sb-tabs__wrapper::-webkit-scrollbar-button {
+    display: none
+}
+
+.sb-tabs__wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--w-color-border-field-default);
+    border-radius: .1875rem
+}
+
+.sb-tabs__wrapper::-webkit-scrollbar-track {
+    background: #0000
+}
+
+.sb-tabs__wrapper {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    overflow-x: auto
+}
+
+.sb-tabs__list {
+    display: flex;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.sb-tabs__list>:not([hidden])~:not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-inline-end: calc(1.5rem*var(--tw-space-x-reverse));
+    margin-inline-start: calc(1.5rem*(1 - var(--tw-space-x-reverse)))
+}
+
+.sb-tabs__list {
+    border-bottom-width: .0625rem;
+    border-color: var(--w-color-border-furniture);
+    padding-inline-end: 0
+}
+
+.sb-tabs__tab {
+    box-sizing: border-box;
+    color: var(--w-color-text-label);
+    color: var(--w-color-text-meta);
+    display: inline-flex;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.3;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    position: relative;
+    white-space: nowrap
+}
+
+.sb-tabs__tab:after {
+    background-color: var(--w-color-icon-primary);
+    bottom: -1px;
+    content: var(--tw-content);
+    display: block;
+    height: 2px;
+    inset-inline-start: 0;
+    position: absolute;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    width: 0
+}
+
+.sb-tabs__tab:hover {
+    color: var(--w-color-text-label)
+}
+
+.sb-tabs__tab:hover:after {
+    content: var(--tw-content);
+    width: 100%
+}
+
+@media (forced-colors:active) {
+    .sb-tabs__tab:after {
+        background-color: LinkText;
+        content: var(--tw-content);
+        height: .25rem
+    }
+
+    .sb-tabs__tab:hover:after {
+        content: var(--tw-content);
+        width: 100%
+    }
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .sb-tabs__tab:after {
+        content: var(--tw-content);
+        transition-property: none
+    }
+}
+
+.sb-tabs__tab[aria-selected=true] {
+    color: var(--w-color-text-label)
+}
+
+.sb-tabs__tab[aria-selected=true]:after {
+    content: var(--tw-content);
+    width: 100%
+}
+
+@media (forced-colors:active) {
+    .sb-tabs__tab[aria-selected=true]:after {
+        content: var(--tw-content);
+        width: 100%
+    }
+}
+
+.sb-tabs__errors {
+    background-color: var(--w-color-critical-200);
+    border-color: var(--w-color-surface-page);
+    border-radius: 1rem;
+    border-width: .0625rem;
+    color: var(--w-color-white);
+    display: none;
+    font-size: .5625rem;
+    font-weight: 700;
+    inset-inline-end: -.25rem;
+    margin-inline-end: -.75rem;
+    padding-bottom: .125rem;
+    padding-top: .125rem;
+    padding-inline-end: .325rem;
+    padding-inline-start: .325rem;
+    position: absolute;
+    top: .25rem
+}
+
+.sb-tabs .tab-content,
+.sb-tabs__list {
+    padding-inline-end: 1.25rem;
+    padding-inline-start: 1.25rem
+}
+
+@media (min-width: 50em) {
+
+    .sb-tabs .tab-content,
+    .sb-tabs__list {
+        padding-inline-end: 2.5rem;
+        padding-inline-start: 2.5rem
+    }
+}
+
+@media (min-width: 56.25em) {
+
+    .sb-tabs .tab-content,
+    .sb-tabs__list {
+        padding-inline-end: 5rem;
+        padding-inline-start: 5rem
+    }
+}
+
+.nice-padding .sb-tabs .tab-content,
+.nice-padding .sb-tabs__list {
+    padding-inline-end: 0;
+    padding-inline-start: 0
+}
+
+.sb-tabs[data-tabs-animate] .sb-tabs__panel {
+    --tw-translate-y: 0.25rem;
+    opacity: 0;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transition-duration: .15s;
+    transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1)
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .sb-tabs[data-tabs-animate] .sb-tabs__panel {
+        transition-property: none
+    }
+}
+
+.sb-tabs[data-tabs-animate] .sb-tabs__panel.animate-in {
+    --tw-translate-y: 0px;
+    opacity: 1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
