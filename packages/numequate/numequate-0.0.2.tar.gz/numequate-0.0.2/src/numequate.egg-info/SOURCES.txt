@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+src/numequate/__init__.py
+src/numequate/base.py
+src/numequate/utils.py
+src/numequate.egg-info/PKG-INFO
+src/numequate.egg-info/SOURCES.txt
+src/numequate.egg-info/dependency_links.txt
+src/numequate.egg-info/top_level.txt
