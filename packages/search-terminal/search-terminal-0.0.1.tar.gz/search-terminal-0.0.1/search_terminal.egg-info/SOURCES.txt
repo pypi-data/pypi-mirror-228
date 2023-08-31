@@ -1,0 +1,9 @@
+setup.py
+search_package/__init__.py
+search_package/search.py
+search_terminal.egg-info/PKG-INFO
+search_terminal.egg-info/SOURCES.txt
+search_terminal.egg-info/dependency_links.txt
+search_terminal.egg-info/entry_points.txt
+search_terminal.egg-info/requires.txt
+search_terminal.egg-info/top_level.txt
