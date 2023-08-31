@@ -1,0 +1,14 @@
+{% extends "layout.html" %} {% block content %} {% for project in projects %}
+<article class="grid">
+  <main>
+    <h2>{{ project.title }}</h2>
+    <p>{{ project.brief }}</p>
+  </main>
+  <img
+    class="container-fluid"
+    src="{{ build_url([project.slug, 'board.svg']) }}"
+    alt=" {{ project.title }} thumbnail."
+  />
+  <a href="{{ build_url(['boards', project.slug]) }}"></a>
+</article>
+{% endfor %} {% endblock %}
