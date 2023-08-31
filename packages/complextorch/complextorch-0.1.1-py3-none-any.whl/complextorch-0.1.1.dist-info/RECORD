@@ -1,0 +1,10 @@
+complextorch/__init__.py,sha256=ho0wtn4rUxStl0QgWQx_Yv7Fh5Vu5afCy7Qqiosb68Q,177
+complextorch/_cvrandom.py,sha256=D6dJ0hqi44gZYRWFLg7I7d5Oc1PR44VN-w9D5MvMsws,284
+complextorch/_cvtensor.py,sha256=lbQ7OTwlFzKU8nD-_zsAYG0XGzx1t3kEYX8B_DeJaTE,15274
+complextorch/nn/__init__.py,sha256=UB06cYKqbPtT3KZPENFUM4ya8ngvRiSWw47F7f4WTb0,1793
+complextorch/nn/functional.py,sha256=-pvKt_TicCQTYuY9mid5lvSQaCoXCuCMMUGvP96eS6E,14440
+complextorch-0.1.1.dist-info/LICENSE,sha256=HcYrVyNJhGoD9GXa5oGqR6MB0k5xZtEVvagZjPOfwSA,35155
+complextorch-0.1.1.dist-info/METADATA,sha256=maX83ZymJJyxuSsZI1fAGW7u7RqDKQZjqJrelBnj2zc,2316
+complextorch-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+complextorch-0.1.1.dist-info/top_level.txt,sha256=eK0Jh7SEyYKCJcTP2o_BQqH28jqdbvI7tkkIDac9ZSM,13
+complextorch-0.1.1.dist-info/RECORD,,
