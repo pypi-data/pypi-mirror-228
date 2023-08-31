@@ -1,0 +1,10 @@
+{
+  "steps": {
+    "meeting": {
+      "target": "front",
+      "type": "mission",
+      "mission_type": "meeting_organization",
+      "upstream_steps": []
+    }
+  }
+}
