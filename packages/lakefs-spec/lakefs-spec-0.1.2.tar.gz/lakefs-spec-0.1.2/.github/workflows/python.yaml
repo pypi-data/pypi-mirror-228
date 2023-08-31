@@ -1,0 +1,65 @@
+name: lakefs-spec CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      lakefs:
+        image: treeverse/lakefs:0.107.0
+        ports:
+          - 8000:8000
+        env:
+          LAKEFS_INSTALLATION_USER_NAME: "quickstart"
+          LAKEFS_INSTALLATION_ACCESS_KEY_ID: "AKIAIOSFOLQUICKSTART"
+          LAKEFS_INSTALLATION_SECRET_ACCESS_KEY: "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+          LAKEFS_DATABASE_TYPE: "local"
+          LAKEFS_AUTH_ENCRYPT_SECRET_KEY: "THIS_MUST_BE_CHANGED_IN_PRODUCTION"
+          LAKEFS_BLOCKSTORE_TYPE: "local"
+    env:
+      MYPY_CACHE_DIR: "${{ github.workspace }}/.cache/mypy"
+      RUFF_CACHE_DIR: "${{ github.workspace }}/.cache/ruff"
+      PRE_COMMIT_HOME: "${{ github.workspace }}/.cache/pre-commit"
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.11
+        cache: 'pip'
+        cache-dependency-path: |
+          requirements.txt
+          requirements-dev.txt
+          pyproject.toml
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt -r requirements-dev.txt
+        pip install -e . --no-deps
+    - name: Cache pre-commit tools
+      uses: actions/cache@v3
+      with:
+        path: |
+          ${{ env.MYPY_CACHE_DIR }}
+          ${{ env.RUFF_CACHE_DIR }}
+          ${{ env.PRE_COMMIT_HOME }}
+        key: ${{ runner.os }}-${{ hashFiles('dev-deps.lock', '.pre-commit-config.yaml') }}-linter-cache
+    - name: Run pre-commit checks
+      run: |
+        pre-commit run --all-files --verbose --show-diff-on-failure
+    - name: Test with pytest
+      run: |
+        pytest -s --cov=src --cov-branch
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v3
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

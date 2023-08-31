@@ -1,0 +1,11 @@
+fsspec>=2023.6.0
+lakefs-client<0.108.0,>=0.105.0
+
+[dev]
+pre-commit>=3.3.3
+pytest>=7.4.0
+build>=0.10.0
+pytest-cov>=4.1.0
+
+[yaml]
+pyyaml
