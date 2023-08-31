@@ -1,0 +1,8 @@
+prefect_supporter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prefect_supporter/flow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prefect_supporter/flow/clear_db_history.py,sha256=tgOxG6kfsqkFaNMmf0WWywGnhlPK2z5dmz5L_B53EoY,1629
+prefect_supporter/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prefect_supporter/model/clearing_db.py,sha256=hb-Dqfbwk4kM10_M8LiBT2VP98vBnO56YK2hPFxhvno,294
+prefect_supporter-1.0.0.dist-info/METADATA,sha256=urOX0_x-ovQ0ho1XogJ8rge4iGz7Fu5wUbVbjv4iD6A,2106
+prefect_supporter-1.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+prefect_supporter-1.0.0.dist-info/RECORD,,

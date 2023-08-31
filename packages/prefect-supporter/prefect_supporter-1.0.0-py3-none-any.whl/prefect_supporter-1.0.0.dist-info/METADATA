@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: prefect-supporter
+Version: 1.0.0
+Summary: Prefect Supporter
+Home-page: https://github.com/ultimatelife/prefect-supporter
+License: MIT
+Keywords: prefect,prefect-supporter
+Author: Kunizno
+Author-email: pykunzino@gmail.com
+Maintainer: Kunizno
+Maintainer-email: pykunzino@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: httpx (==0.24.1)
+Requires-Dist: prefect (>=2.11.5,<3.0.0)
+Requires-Dist: pydantic (==1.10.12)
+Project-URL: Repository, https://github.com/ultimatelife/prefect-supporter
+Description-Content-Type: text/markdown
+
+# prefect_supporter
+
+prefect_supporter provide services to supporter to manage Prefect
+
+## Usage
+
+1. Delete `flow run` history in Database. It also deletes `task run`
+   - create your deployment
+      - example  
+      ```python
+      Deployment.build_from_flow(
+        flow=clear_db_history_flow,
+        name="clear_db_history_deployment",
+        schedule=None,
+        work_queue_name="default",
+        tags=["prefect-management"],
+        parameters={
+            "frc": FlowRunClearing(
+                state_list=[StateType.COMPLETED],
+                before_dt=datetime.now(),
+                after_dt=datetime(year=1970, month=1, day=1, hour=0, minute=0)
+            )
+        },
+        apply=True
+       )
+      ```
+  - Parameter   
+      - `FlowRunClearing` model
+         - api_url : your prefect api address, ex) http://localhost:4200/api
+         - state_list: state list to delete ex) "COMPLETED", "FAILED"
+         - before_dt : time range to delete data to be started
+         - after_dt : time range to delete data  to be ended
