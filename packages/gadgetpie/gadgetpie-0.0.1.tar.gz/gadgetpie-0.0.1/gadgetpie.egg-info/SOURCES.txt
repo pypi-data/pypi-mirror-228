@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gadgetpie/__init__.py
+gadgetpie/dict2class.py
+gadgetpie/logger.py
+gadgetpie.egg-info/PKG-INFO
+gadgetpie.egg-info/SOURCES.txt
+gadgetpie.egg-info/dependency_links.txt
+gadgetpie.egg-info/top_level.txt
