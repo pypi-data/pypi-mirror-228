@@ -1,0 +1,2 @@
+[console_scripts]
+techspecpy = techspec.cli:cli_main
