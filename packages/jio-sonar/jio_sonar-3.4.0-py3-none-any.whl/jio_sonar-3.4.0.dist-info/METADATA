@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: jio-sonar
+Version: 3.4.0
+Summary: maronette
+Home-page: UNKNOWN
+Author: shayan
+Author-email: syedshayan109@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/jio_sonar/
+Keywords: jsonar,jio_sonar
+Platform: UNKNOWN
+Requires-Dist: future (==0.18.3)
+Requires-Dist: manifestparser (==2.1.0)
+Requires-Dist: mozrunner (==8.3.0)
+Requires-Dist: mozversion (==2.4.0)
+Requires-Dist: six (==1.16.0)
+
+marionetetee client
+
+

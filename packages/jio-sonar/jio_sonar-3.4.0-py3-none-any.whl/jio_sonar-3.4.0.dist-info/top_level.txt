@@ -1,0 +1,5 @@
+device
+logi
+marionette_client
+mozprocess
+test
