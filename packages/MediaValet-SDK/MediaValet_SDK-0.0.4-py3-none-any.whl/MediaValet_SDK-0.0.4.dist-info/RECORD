@@ -1,0 +1,10 @@
+mvsdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mvsdk/api/__init__.py,sha256=gLUYm04RsLaS2Zywjkfa_Z-1tEgZq8BzjIK3B_Jikc4,5751
+mvsdk/rest/__init__.py,sha256=3LatyZGoHrp4WFQavKW3ffrShtVRjKrTEmAvGVWvzqQ,2766
+mvsdk/rest/asset/__init__.py,sha256=xYVDkao4Vt8BPTeeDNm4KsW7fGsdbDauF-W0nBFrLPE,3178
+mvsdk/rest/connect/__init__.py,sha256=gmlC8BXFx2CoUGdoP7hqsjKKeJAclyCOEPXEFT8bFUA,814
+mvsdk/rest/keyword/__init__.py,sha256=KQjXnq90xo_yfrnmpjx7muA4QfrWTYopRO96Poj6WLI,1595
+MediaValet_SDK-0.0.4.dist-info/METADATA,sha256=VnBKvweilWjshPwB3hH89umk4oRvptoUmP7rBzjWDwI,357
+MediaValet_SDK-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+MediaValet_SDK-0.0.4.dist-info/top_level.txt,sha256=5nTGofrSp1NEjm18_siI6n-jMRlgFxsMUVk7sdBRkqU,6
+MediaValet_SDK-0.0.4.dist-info/RECORD,,
