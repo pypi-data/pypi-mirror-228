@@ -1,0 +1,2 @@
+[console_scripts]
+trackbert = trackbert.__main__:main
