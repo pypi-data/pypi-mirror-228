@@ -1,0 +1,11 @@
+README.md
+setup.py
+lidar-camera-calibration/__init__.py
+lidar-camera-calibration/fmin.py
+lidar-camera-calibration/general.py
+lidar-camera-calibration/rotations.py
+lidar_camera_calibration.egg-info/PKG-INFO
+lidar_camera_calibration.egg-info/SOURCES.txt
+lidar_camera_calibration.egg-info/dependency_links.txt
+lidar_camera_calibration.egg-info/requires.txt
+lidar_camera_calibration.egg-info/top_level.txt
