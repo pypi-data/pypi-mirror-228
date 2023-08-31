@@ -1,0 +1,3 @@
+[console_scripts]
+gpuv=gpuv.cli:cli
+
