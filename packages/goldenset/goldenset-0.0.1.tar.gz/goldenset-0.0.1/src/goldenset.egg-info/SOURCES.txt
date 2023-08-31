@@ -1,0 +1,6 @@
+pyproject.toml
+src/__init__.py
+src/goldenset.egg-info/PKG-INFO
+src/goldenset.egg-info/SOURCES.txt
+src/goldenset.egg-info/dependency_links.txt
+src/goldenset.egg-info/top_level.txt
