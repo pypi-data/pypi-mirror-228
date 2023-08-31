@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+accord_nlp/__init__.py
+accord_nlp.egg-info/PKG-INFO
+accord_nlp.egg-info/SOURCES.txt
+accord_nlp.egg-info/dependency_links.txt
+accord_nlp.egg-info/requires.txt
+accord_nlp.egg-info/top_level.txt
