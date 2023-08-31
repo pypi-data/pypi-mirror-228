@@ -1,0 +1,2 @@
+pyatls
+requests>=2.0
