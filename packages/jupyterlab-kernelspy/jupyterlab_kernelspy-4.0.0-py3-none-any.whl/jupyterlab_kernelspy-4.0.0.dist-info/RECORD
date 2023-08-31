@@ -1,0 +1,14 @@
+jupyterlab_kernelspy/__init__.py,sha256=D0rV47NJyO1Mr--fq5X2A0TCpOycdvyLixgYbvdizv4,598
+jupyterlab_kernelspy/_version.py,sha256=Vz2bD29IXDNOF5TI1JxeAnomoA2wy38u0_o2i4z3LXw,171
+jupyterlab_kernelspy-4.0.0.data/data/share/jupyter/labextensions/jupyterlab-kernelspy/package.json,sha256=ANEweF4d5cKO95JZOb1vwG7iI1dUm-yh9MxQtg_LmUo,6178
+jupyterlab_kernelspy-4.0.0.data/data/share/jupyter/labextensions/jupyterlab-kernelspy/static/255.9946fcf68145195b2f3e.js,sha256=mUb89oFFGVsvPjkn6Rx99Em67Cf93j2aZncjTGWDMfk,42943
+jupyterlab_kernelspy-4.0.0.data/data/share/jupyter/labextensions/jupyterlab-kernelspy/static/598.1b1fd77f255e244435d4.js,sha256=Gx_XfyVeJEQ11KnTCm-eQgXy39Y1et_Ce33UM-EJR1E,15342
+jupyterlab_kernelspy-4.0.0.data/data/share/jupyter/labextensions/jupyterlab-kernelspy/static/747.fe81faa203ef14c6dc69.js,sha256=_oH6ogPvFMbcab_ljbwys7inXaa3rCBCeNzRVMizaDM,5471
+jupyterlab_kernelspy-4.0.0.data/data/share/jupyter/labextensions/jupyterlab-kernelspy/static/remoteEntry.35427e78d5ec24a32599.js,sha256=NUJ-eNXsJKMlma0a_5LM6hJPFcEEMj4J2MCgduNVSI8,7530
+jupyterlab_kernelspy-4.0.0.data/data/share/jupyter/labextensions/jupyterlab-kernelspy/static/style.js,sha256=fd4ZOiE1zK5Je5EbgwdeaR2JbNgn7M943wbiun17qBM,163
+jupyterlab_kernelspy-4.0.0.data/data/share/jupyter/labextensions/jupyterlab-kernelspy/static/third-party-licenses.json,sha256=xy9wh__XySR8FzXzAMcmFGesyoE3F3bgwzFGpaVVFpc,8537
+jupyterlab_kernelspy-4.0.0.data/data/share/jupyter/labextensions/jupyterlab-kernelspy/install.json,sha256=jTPYNy27a1RJIb7Z78a5CVD0uHGel7_as11Szb9bAcc,201
+jupyterlab_kernelspy-4.0.0.dist-info/METADATA,sha256=rOfm_79hfWCSCLr9hH2ys8DNDp6rb4KjZZNwK3Gjg2M,5978
+jupyterlab_kernelspy-4.0.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jupyterlab_kernelspy-4.0.0.dist-info/licenses/LICENSE,sha256=qBqoA9785jJGYqyLBix1waim-d6s6IXIF2I30cdnZtw,1640
+jupyterlab_kernelspy-4.0.0.dist-info/RECORD,,
