@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: vzenith-camera
+Version: 0.1.0
+Summary: A Python library for VisionZenith Smart Camera SDK in TCP protocol.
+Home-page: https://github.com/he-yaowen/vzenith-camera
+License: BSD-3-Clause
+Keywords: smart-camera,license-plate-recognition,intelligent-video-system,vision-zenith
+Author: HE Yaowen
+Author-email: he.yaowen@hotmail.com
+Requires-Python: >=3.8,<3.12
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Monitoring
+Project-URL: Repository, https://github.com/he-yaowen/vzenith-camera.git
+Description-Content-Type: text/markdown
+
+# vzenith-camera
+
+![license](https://img.shields.io/github/license/he-yaowen/vzenith-camera)
+![status](https://img.shields.io/pypi/status/vzenith-camera)
+![version](https://img.shields.io/pypi/v/vzenith-camera)
+![build](https://img.shields.io/github/actions/workflow/status/he-yaowen/vzenith-camera/ubuntu-jammy.yml)
+![python](https://img.shields.io/pypi/pyversions/vzenith-camera)
+![downloads](https://img.shields.io/pypi/dm/vzenith-camera)
+
+A Python library for [VisionZenith][1] Smart Camera SDK in TCP protocol.
+
+## License
+
+Copyright (C) 2023 HE Yaowen <he.yaowen@hotmail.com>
+
+The BSD-3-Clause License, see [LICENSE](./LICENSE).
+
+[1]: https://www.vzenith.com
+
