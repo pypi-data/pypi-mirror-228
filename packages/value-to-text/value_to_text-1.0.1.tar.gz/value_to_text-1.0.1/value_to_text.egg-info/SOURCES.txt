@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+value_to_text/__init__.py
+value_to_text/write_value.py
+value_to_text.egg-info/PKG-INFO
+value_to_text.egg-info/SOURCES.txt
+value_to_text.egg-info/dependency_links.txt
+value_to_text.egg-info/not-zip-safe
+value_to_text.egg-info/top_level.txt
