@@ -1,0 +1,16 @@
+ogsapi/__init__.py,sha256=YX0PqVdo7MfPYrHdf0xkN3ZJSPZpLThU-gTamccWMHM,614
+ogsapi/client.py,sha256=TFF3esV1H1RlHdiqrlpqdBLwUp8HrpgkOYCty002ZYA,24026
+ogsapi/ogs_api_exception.py,sha256=U9GXku_d6V5jQR3OLC3PKWf9_PddY2vTcrob-JBimcE,746
+ogsapi/ogscredentials.py,sha256=mWWCnKC7aWBqBOh1jLQ4xrxaXDb2G2clwFQjsF3tXcc,1810
+ogsapi/ogsgame.py,sha256=vd0mhFwkYmLcRea-GhlyKSmzd7MJnBfYgqaW5GV52-s,10404
+ogsapi/ogsgameclock.py,sha256=ng_ge-ZiSwj0PKIbqRYPQWIwegkV_-QzPxUTwsbPNqY,4202
+ogsapi/ogsgamedata.py,sha256=QOjEuJuSmruyMqYZuQTMM3Y5_r2tu6kV9ox3NSAk2vg,4672
+ogsapi/ogsrestapi.py,sha256=IgzVlzd9pKRztDf2D2UQBPke2yyrggn48aHkZV3faD4,5378
+ogsapi/ogssocket.py,sha256=M1UOuOlzclsdvGw6xj_TBpl5N-dSC8C3Xc9mk6qmUuY,8344
+ogsapi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=II8MU37Xp9ta-70A126c3Roqok43kNauglMhHBYCsfg,3719
+ogsapi-1.3.0.dist-info/LICENSE,sha256=stm-oLaWkZo4f4MaCLi3hEsAT23sgblDPgvFaWStjhg,35082
+ogsapi-1.3.0.dist-info/METADATA,sha256=bOAPfZmi6afOYW38lonXoNUuwCO_G1RN4RvCcf5T1dM,43815
+ogsapi-1.3.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ogsapi-1.3.0.dist-info/top_level.txt,sha256=Z1OSb_RWdTk7QwNOecjkVhAhzm3d4yXPV9NaZIjUv10,13
+ogsapi-1.3.0.dist-info/RECORD,,
