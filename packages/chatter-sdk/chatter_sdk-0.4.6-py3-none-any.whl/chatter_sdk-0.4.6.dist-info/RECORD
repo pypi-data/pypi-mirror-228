@@ -1,0 +1,12 @@
+chatter_sdk/__init__.py,sha256=oCV0rGUI2M3b_M7zhJ6CYRbYrI-NTSS851FoK3UQkZo,108
+chatter_sdk/chatter.py,sha256=bxj8i8gLSodzneG0vIlhxETUuMXBpWOh1at2SMDcU5o,1435
+chatter_sdk/chatter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatter_sdk/chatter/chatter.py,sha256=b5bFKRqZJ2ctEG823bL8cVQhHQCxb4y--mc8ncl35YA,1376
+chatter_sdk/chatterfile/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatter_sdk/chatterfile/chatterfile.py,sha256=OKCgJkY4VYLFt-W8ekq8dKyRygSWKVHccT7Bm_vSnig,3769
+chatter_sdk/chatterfile/prompt_utils.py,sha256=q9Tzs6fIuQGrjZHTVO5bwgHcbOGo0Vb9sF-ze7CD7UE,327
+chatter_sdk/chatterfile/run_utils.py,sha256=UBsSMslGD86Fg7UkMfmFR1yK1wtp6dRBrkoBS9yES9g,1661
+chatter_sdk-0.4.6.dist-info/METADATA,sha256=LuZwIHdFPsywGlviU06GtaoanolAmW7GbrothWrPjGo,329
+chatter_sdk-0.4.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+chatter_sdk-0.4.6.dist-info/top_level.txt,sha256=H5k_J-OJ4bE9KwZjU3t30mcLsenYQctoI1ePp9q87mg,12
+chatter_sdk-0.4.6.dist-info/RECORD,,

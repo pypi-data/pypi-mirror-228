@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: chatter-sdk
+Version: 0.4.6
+Summary: SDK to interact with Chatter!
+Home-page: UNKNOWN
+Author: Anish Agrawal
+Author-email: anish@trychatter.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: PyYAML
+Requires-Dist: jinja2
+Requires-Dist: openai
+Requires-Dist: anthropic
+
+UNKNOWN
+
