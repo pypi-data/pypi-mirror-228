@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biopytk"
+dynamic = ["version"]
+authors = [
+  { name="Stephen Cheney", email="scheney.cb@gmail.com" },
+]
+description = "Personal Toolkit for Bioinformatics and Computational Biology pipelines. (WIP)"
+readme = "README.md"
+requires-python = ">=3.11.1"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Steve-Cheney/biopytk"
