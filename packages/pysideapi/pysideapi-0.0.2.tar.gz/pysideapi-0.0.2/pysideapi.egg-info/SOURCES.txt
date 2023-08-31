@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+jira/__init__.py
+pysideapi.egg-info/PKG-INFO
+pysideapi.egg-info/SOURCES.txt
+pysideapi.egg-info/dependency_links.txt
+pysideapi.egg-info/requires.txt
+pysideapi.egg-info/top_level.txt
