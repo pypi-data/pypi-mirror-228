@@ -1,0 +1,11 @@
+dogu/device/__init__.py,sha256=ZTyok-IFXXykzJ4-doTT985mVT_79bu6g4tAtgtY6XU,63
+dogu/device/appium_server.py,sha256=5TrFk-EV-k3WtNAVXeNOL0-IgkL4nQS4Fd9BROOpqVE,555
+dogu/device/common/closable.py,sha256=my-aLMNCveEjnGJ4M4SaucPDB36rycj0FVFO-kNT1Z8,140
+dogu/device/common/device_closer.py,sha256=1vN2cT9IU0y87FCgVREOyzBhbf4stauECtkfks7Ikxk,264
+dogu/device/common/device_http_response.py,sha256=Z3fBcLac0-V4OnC85qoWytssLBlP6dp6kjKsVtTQ694,938
+dogu/device/device_client.py,sha256=q0AeVWKauxwwHrEON0Rg6PbRoeorI7ecbYsVhsMgYEg,4230
+dogu/device/device_host_client.py,sha256=fd1IEZrQmKy0CvPbYgJ5mSZiT4cfJRkNMwYr_WxfHTQ,1416
+dogu/device/logger.py,sha256=zI3T5NpYj9NbZrTbaIIJGh4oUGVhFYHFSRXaln1xy9g,372
+dogu_device_client-0.0.5.dist-info/METADATA,sha256=h5jkraKgryYFDVnso_gyDtxvPN9KJc3olOgwrqBvxc0,625
+dogu_device_client-0.0.5.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+dogu_device_client-0.0.5.dist-info/RECORD,,
