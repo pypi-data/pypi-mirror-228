@@ -1,0 +1,7 @@
+README.md
+setup.py
+EcodeX/__init__.py
+EcodeX.egg-info/PKG-INFO
+EcodeX.egg-info/SOURCES.txt
+EcodeX.egg-info/dependency_links.txt
+EcodeX.egg-info/top_level.txt
