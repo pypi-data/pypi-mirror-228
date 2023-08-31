@@ -1,0 +1,8 @@
+azureml-core
+azureml-pipeline
+python-dotenv
+pandas
+pyarrow
+pydantic
+Jinja2 
+azure-storage-blob
