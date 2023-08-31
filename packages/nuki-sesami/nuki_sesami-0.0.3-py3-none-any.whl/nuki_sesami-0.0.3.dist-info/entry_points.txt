@@ -1,0 +1,2 @@
+[console_scripts]
+nuki-sesami = nuki_sesami/door_controller:main
