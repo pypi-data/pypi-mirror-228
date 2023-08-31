@@ -1,0 +1,9 @@
+voicevox_python/__init__.py,sha256=nH1ImCv-eNDKWZAQuHvto4ESNmL99tz5YAa14dC_rlU,110
+voicevox_python/model.py,sha256=hfqm66XbjjyvLiegJpLXI6FIKqJbGscsxtmh3XEFfdI,1264
+voicevox_python/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voicevox_python/query.py,sha256=2bzsJmjMkOoOz6rNrdxDfnn7XoKFB68JgNnhzYIxs34,2764
+voicevox_python/speaker.py,sha256=Q5r502hzwmHDEf1dkHbYuVaZ2ztV3ABRlDlLqKrTjSQ,4981
+voicevox_python-2023.8.30.23.49.dist-info/METADATA,sha256=li8HXSujUr-xJsqJf1Z5UeZ7Q2vDBXvjdZPMhKj1yPg,867
+voicevox_python-2023.8.30.23.49.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+voicevox_python-2023.8.30.23.49.dist-info/licenses/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+voicevox_python-2023.8.30.23.49.dist-info/RECORD,,
