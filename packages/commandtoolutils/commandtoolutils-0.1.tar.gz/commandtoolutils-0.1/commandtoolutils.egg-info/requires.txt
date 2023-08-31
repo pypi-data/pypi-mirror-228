@@ -1,0 +1,8 @@
+termcolor
+coverage
+twine
+gitignore_parser
+timeout_decorator
+twine
+wheel
+keyring

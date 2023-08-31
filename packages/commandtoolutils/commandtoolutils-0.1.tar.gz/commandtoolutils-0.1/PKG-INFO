@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: commandtoolutils
+Version: 0.1
+Summary: A featherlight utility package for creating interactive command line tools
+Home-page: https://github.com/jobordu/menu_utils
+Author: Jonathan Borduas
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# commandtoolutils
+
+`commandtoolutils` is a Python utility package for creating interactive command line menus.
+
+## Installation
+
+You can install the `commandtoolutils` package from GitHub using pip:
+
+```
+pip install git+https://github.com/jobordu/menutools.git
+```
+
+## Usage
+
+Here's a simple example that shows how you can use the `commandtoolutils` package:
+
+```python
+from commandtoolutils import menu, ask_questions
+
+def main():
+    # Define the menu structure
+    menu_structure = [
+        {
+            'message': 'Say Hello',
+            'function': say_hello,
+        },
+        {
+            'message': 'Sub Menu',
+            'function': menu,
+            'sub_menu': [
+                {
+                    'message': 'Say Hi',
+                    'function': say_hi,
+                },
+            ],
+        },
+        {
+            'message': 'Ask Questions',
+            'function': ask_some_questions,
+        }
+    ]
+
+    # Display the menu
+    menu(menu_structure)
+
+def say_hello():
+    print('Hello!')
+
+def say_hi():
+    print('Hi!')
+
+def ask_some_questions():
+    questions_and_actions = [
+        {
+            'question': 'Do you like Python?',
+            'function': say_yes,
+            'message': 'Great! You selected Yes.',
+        },
+        {
+            'question': 'Do you like Java?',
+            'function': say_no,
+            'message': 'Too bad! You selected No.',
+        }
+    ]
+    ask_questions(questions_and_actions)
+
+def say_yes():
+    print('Yes!')
+
+def say_no():
+    print('No!')
+
+if __name__ == '__main__':
+    main()
+```
+
+In this example, the `main` function defines the menu structure and then calls the `menu` function to display the menu. The `menu` function takes a list of dictionaries that define the menu options. Each dictionary can contain the following keys:
+
+- `message`: The text to display for the menu option.
+- `function`: The function to call when the menu option is selected.
+- `sub_menu`: A list of dictionaries that define a sub-menu.
+
+The `ask_questions` function takes a list of dictionaries that define a set of questions to ask the user. Each dictionary can contain the following keys:
+
+- `question`: The text of the question to ask.
+- `function`: The function to call if the user answers 'yes'.
+- `message`: The message to display if the user answers 'yes'.
+
+## License
+
+MIT
