@@ -1,0 +1,29 @@
+{% extends "layout.html" %} {% block content %} {{ project.content | safe }}
+<h2>Project Files</h2>
+<h3>Board</h3>
+<img
+  src="{{ build_url([project.slug, 'board.svg']) }}"
+  alt=" {{ project.title }} printed circuit board."
+/>
+<h3>BOM</h3>
+<table role="grid">
+  <thead>
+    <tr>
+      <th scope="col">Part</th>
+      <th scope="col">Value</th>
+      <th scope="col">Description</th>
+      <th scope="col">References</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for component in bom %}
+    <tr>
+      <td>{{ component.part }}</td>
+      <td>{{ component.value }}</td>
+      <td>{{ component.description }}</td>
+      <td>{{ bom[component] }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
