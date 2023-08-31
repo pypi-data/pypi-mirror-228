@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: coturn-ephemeral-credentials
+Version: 0.1.1
+Summary: Generate time limited, ephemeral, long term credentials to authenticate usage of a coturn server.
+Author-email: p4irin <139928764+p4irin@users.noreply.github.com>
+License: MIT License
+        
+        Copyright (c) 2023 p4irin
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/p4irin/coturn_ephemeral_credentials
+Project-URL: Bug Tracker, https://github.com/p4irin/coturn_ephemeral_credentials/issues
+Keywords: coturn,turn,stun,ice
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Topic :: Communications :: Internet Phone
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: build ==0.10.0 ; extra == 'dev'
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+Requires-Dist: bumpver >=2023.1126 ; extra == 'dev'
+
+# Coturn Ephemeral Credentials - v0.1.1
+
+Generate time limited, i.e. ephemeral, long term credentials to authenticate against a coturn server. The _default_ duration for the validity of the credentials is set to _one day_ as recommended in [A REST API For Access To TURN Services](https://datatracker.ietf.org/doc/html/draft-uberti-behave-turn-rest-00#section-2.1:~:text=ttl%3A%20the%20duration%20for%20which%20the%20username%20and%20password%20are%20valid%2C%0A%20%20%20%20%20%20in%20seconds.%20%20A%20value%20of%20one%20day%20(86400%20seconds)%20is%20recommended). The same document describes how to generate the _username_ and _password_ [here](https://datatracker.ietf.org/doc/html/draft-uberti-behave-turn-rest-00#section-2.1:~:text=username%3A%20the%20TURN,algorithm%0A%20%20%20%20%20%20and%20secret.).
+
+## Stack
+
+- Python 3.8.10 on Ubuntu 20.04.2 LTS
+
+## Installation
+
+### From PyPI
+
+```bash
+(venv) $ pip install coturn-ephemeral-credentials
+```
+
+### From GitHub
+
+```bash
+(venv) $ pip install git+https://github.com/p4irin/coturn_ephemeral_credentials.git
+```
+
+## Usage
+
+```python
+from coturn_ephemeral_credentials import generate
+
+credentials = generate(shared_secret='A shared secret with a coturn server')
+coturn_username = credentials['coturn_username']
+coturn_password = credentials['coturn_password']
+```
+
+## Reference
+
+- [A REST API For Access To TURN Services](https://datatracker.ietf.org/doc/html/draft-uberti-behave-turn-rest-00#section-2.1)
+- [coturn](https://github.com/coturn/coturn)
+- [RFC 5766. Traversal Using Relays around NAT (TURN):Relay Extensions to Session Traversal Utilities for NAT (STUN)](https://datatracker.ietf.org/doc/html/rfc5766)
+- [RFC 5389, Session Traversal Utilities for NAT (STUN)](https://datatracker.ietf.org/doc/html/rfc5389#section-10.2)
