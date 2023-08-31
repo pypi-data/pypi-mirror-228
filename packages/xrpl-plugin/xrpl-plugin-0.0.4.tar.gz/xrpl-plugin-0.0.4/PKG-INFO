@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: xrpl-plugin
+Version: 0.0.4
+Summary: XRPL Plugins
+Home-page: https://github.com/mvadari/xrpl-plugin
+Author: Mayukha Vadari
+Author-email: mvadari@ripple.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Python Plugins
+
+```bash
+pip install xrpl-plugin
+plugin-build path/to/plugin.py
+# edit rippled.cfg to include the plugin.xrplugin in a [plugins] stanza
+# run rippled with the `plugin` branch and submit plugin transactions to it
+```
