@@ -1,0 +1,9 @@
+sentry_plugin_dingtalk/__init__.py,sha256=7DfLBchBVe5zeukIWWe_ZdA6_C8ZVzG-9UVJudfLNBk,35
+sentry_plugin_dingtalk/forms.py,sha256=ScYASA2FVmZJwb9SUbq_Vsy91q60d2xKz_g5yB80Mvs,1802
+sentry_plugin_dingtalk/plugin.py,sha256=YkJ5u-xs9Dv5e9zounxf4BhMLxaJ5ZHzOSGfvnuQct4,5640
+sentry_plugin_dingtalk/template.py,sha256=5MBhA6W0MlvqDJ4WTNdPjX3LhJshyHQfxHaV5Lvq1T8,2524
+sentry_plugin_dingtalk-0.1.0.dist-info/METADATA,sha256=nkESk6jTSkFXnq8TDREWi2GA_gJtacan5W3a2ifzWC0,887
+sentry_plugin_dingtalk-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sentry_plugin_dingtalk-0.1.0.dist-info/entry_points.txt,sha256=0NYe0Zk_2uPWixGmJkFxjVBKbch6L_7QYLyazg2p4EQ,87
+sentry_plugin_dingtalk-0.1.0.dist-info/top_level.txt,sha256=-oxkylaD3ktYuA6BMTTg5Kb2XCCOpSPOStSrtHdIwYc,23
+sentry_plugin_dingtalk-0.1.0.dist-info/RECORD,,
