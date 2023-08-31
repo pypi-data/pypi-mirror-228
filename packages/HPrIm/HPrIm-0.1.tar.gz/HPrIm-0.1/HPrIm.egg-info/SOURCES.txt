@@ -1,0 +1,8 @@
+README.md
+setup.py
+HPrIm/__init__.py
+HPrIm.egg-info/PKG-INFO
+HPrIm.egg-info/SOURCES.txt
+HPrIm.egg-info/dependency_links.txt
+HPrIm.egg-info/requires.txt
+HPrIm.egg-info/top_level.txt
