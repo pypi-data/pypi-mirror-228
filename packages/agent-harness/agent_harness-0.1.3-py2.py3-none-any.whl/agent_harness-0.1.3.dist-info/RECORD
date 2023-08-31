@@ -1,0 +1,12 @@
+agent_harness/__init__.py,sha256=X6swxsAphGOvqKsOAXqX-KJoHsX0FBQHnVPjG7-HnS4,144
+agent_harness/agent_harness.py,sha256=enprOnn8p9W32nM4SKEqyWmqM2fg2ho0ftTM3DKMTLA,6530
+agent_harness/api_comms.py,sha256=OVmtEV3ddxji5l0ijnV62Z5lpax0_1uWZb6yyYHz7Ys,5533
+agent_harness/cli.py,sha256=Hdj_z_LD7EbuSznRXPAWiOE_TinFtWshT05Gf_u9vDo,417
+agent_harness/gitutil.py,sha256=W0eKoGIbqWlkxirB2DeLdWK9NZ76HcybGNCUszJ57Zs,7086
+agent_harness-0.1.3.dist-info/AUTHORS.rst,sha256=PskmlUJtZS8q-B0EXQzvuqjKJayzYN1anJIZ1dgNtUg,169
+agent_harness-0.1.3.dist-info/LICENSE,sha256=JcqrGaNqmvt4J6uWshZsAsW-yDpifgWkQnqVDU-bG9k,1077
+agent_harness-0.1.3.dist-info/METADATA,sha256=tQzcsLgN55BYR_ynJxyxkmUj57g5BhTZbQtyr3UvsI8,1953
+agent_harness-0.1.3.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+agent_harness-0.1.3.dist-info/entry_points.txt,sha256=k9YdXNsZYTtczxsf_Qo4ohmOfC4pjkZUehdvA_Urvho,58
+agent_harness-0.1.3.dist-info/top_level.txt,sha256=61Ot7iVUp4-7ZTb_p_NdF0Wq5UKk4Yi9EsbgRZh1p7U,14
+agent_harness-0.1.3.dist-info/RECORD,,
