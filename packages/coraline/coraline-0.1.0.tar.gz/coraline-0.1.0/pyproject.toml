@@ -1,0 +1,38 @@
+[tool.semantic_release]
+version_variable = [
+    "coraline/__init__.py:__version__",
+    "pyproject.toml:version"
+]
+branch = "main"
+upload_to_pypi = true
+upload_to_release = true
+build_command = "python -m pip install -U twine poetry && poetry build"
+
+[tool.poetry]
+name = "coraline"
+version = "0.1.0"
+description = "Use Pydantic Models to handle AWS DynamoDB tables"
+authors = ["Chris Maillefaud <chrismaille@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<=3.11"
+boto3 = "*"
+mypy-boto3-dynamodb = "*"
+pydantic = "*"
+stringcase = "*"
+loguru = "*"
+py-lamina = "*"
+stela = "*"
+asbool = "*"
+
+[tool.poetry.dev-dependencies]
+Faker = "*"
+pytest = "*"
+pytest-asyncio = "*"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
