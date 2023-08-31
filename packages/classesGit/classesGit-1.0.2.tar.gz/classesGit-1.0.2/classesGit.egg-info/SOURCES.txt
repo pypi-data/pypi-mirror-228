@@ -1,0 +1,11 @@
+setup.py
+./httpReq/Fetch/__init__.py
+./httpReq/gitGet/__init__.py
+./httpReq/gitHead/__init__.py
+./httpReq/gitPut/__init__.py
+./objectModels/optionsRepository/__init__.py
+./objectModels/pushRules/__init__.py
+classesGit.egg-info/PKG-INFO
+classesGit.egg-info/SOURCES.txt
+classesGit.egg-info/dependency_links.txt
+classesGit.egg-info/top_level.txt
