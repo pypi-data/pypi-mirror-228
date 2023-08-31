@@ -1,0 +1,2 @@
+[console_scripts]
+serializable_trees = serializable_trees.__main__:main
