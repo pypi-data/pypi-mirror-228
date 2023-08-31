@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: py-http-auto-test
+Version: 1.0.2
+Summary: Python HTTP automated testing facility
+Home-page: https://github.com/cosimo/py-http-test
+Author: Cosimo Streppone
+Author-email: cosimo@streppone.it
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Utilities
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: asyncio (==3.4.3)
+Requires-Dist: brotli (==1.0.9)
+Requires-Dist: certifi
+Requires-Dist: jinja2 (~=3.1.2)
+Requires-Dist: pycurl (~=7.45.2)
+Requires-Dist: pytest (~=7.4)
+Requires-Dist: pyyaml
+Requires-Dist: websockets (>=11)
+
+# Python HTTP automated testing facility
+
+Someday this file will contain some nice documentation.
+Someday. Not today.
+
+
