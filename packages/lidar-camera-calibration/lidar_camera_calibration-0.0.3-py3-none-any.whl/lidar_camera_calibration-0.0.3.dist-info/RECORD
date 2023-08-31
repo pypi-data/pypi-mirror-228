@@ -1,0 +1,9 @@
+lidar_camera_calibration/__init__.py,sha256=A7FEnNDGkv_o4k0HgCShrwmR8LhA9Ud8UTlPM34Jue4,46
+lidar_camera_calibration/fmin.py,sha256=OJSENJr_H_JIlYRZO1DRa9KYDlbmCPDFaITZ45YpzqI,7430
+lidar_camera_calibration/general.py,sha256=D_au4qz79W5QWRUoRf3YQA6p_Qfl81hsL167diBGj_I,7883
+lidar_camera_calibration/model.py,sha256=p3OVKue7xF5Ih5eHeJuKuOaSG2LI0qxWPyMwVHr7q3M,7202
+lidar_camera_calibration/rotations.py,sha256=uMegvYf0qoRjViabofeSopE3vReBR7kGXQ0e4IVcvD0,3393
+lidar_camera_calibration-0.0.3.dist-info/METADATA,sha256=_JS0oyIZpHTsIByp593neT3XpO3X9IugZPDG6kk1tls,798
+lidar_camera_calibration-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+lidar_camera_calibration-0.0.3.dist-info/top_level.txt,sha256=sD2q-Ay0cYEX4zak0HraDn24fvlhomKzof5mNfgDEyE,25
+lidar_camera_calibration-0.0.3.dist-info/RECORD,,
