@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: jamf-pro-sdk
+Version: 0.2a1
+Summary: Jamf Pro SDK for Python
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT No Attribution License (MIT-0)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: <4,>=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests <3,>=2.28.1
+Requires-Dist: pydantic <2,>=1.10.4
+Requires-Dist: dicttoxml <2,>=1.7.16
+Requires-Dist: defusedxml
+Provides-Extra: aws
+Requires-Dist: boto3 <2,>=1.26.45 ; extra == 'aws'
+Provides-Extra: dev
+Requires-Dist: boto3 <2,>=1.26.45 ; extra == 'dev'
+Requires-Dist: keyring >=23.13.1 ; extra == 'dev'
+Requires-Dist: polyfactory <3,>=2.1.1 ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: coverage[toml] ; extra == 'dev'
+Requires-Dist: pytest >=6 ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: deepdiff ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: autodoc-pydantic ; extra == 'dev'
+Requires-Dist: furo ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Provides-Extra: macos
+Requires-Dist: keyring >=23.13.1 ; extra == 'macos'
+Provides-Extra: webhooks
+Requires-Dist: polyfactory <3,>=2.1.1 ; extra == 'webhooks'
+
+# Jamf Pro SDK for Python
+
+A client library for the Jamf Pro APIs and webhooks.
+
+```python
+from jamf_pro_sdk import JamfProClient, BasicAuthProvider
+
+client = JamfProClient(
+    server="dummy.jamfcloud.com",
+    credentials=BasicAuthProvider("username", "password")
+)
+
+all_computers = client.pro_api.get_computer_inventory_v1()
+```
+
+Read the full documentation on [GitHub Pages](https://macadmins.github.io/jamf-pro-sdk-python/).
+
+## Installing
+
+Install from PyPI:
+
+```console
+% python -m pip install jamf-pro-sdk
+```
+
+The Jamf Pro SDK supports Python 3.9+.
