@@ -1,0 +1,8 @@
+asyncio==3.4.3
+brotli==1.0.9
+certifi
+jinja2~=3.1.2
+pycurl~=7.45.2
+pytest~=7.4
+pyyaml
+websockets>=11
