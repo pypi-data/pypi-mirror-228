@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+this_is_a_test_package1111.egg-info/PKG-INFO
+this_is_a_test_package1111.egg-info/SOURCES.txt
+this_is_a_test_package1111.egg-info/dependency_links.txt
+this_is_a_test_package1111.egg-info/not-zip-safe
+this_is_a_test_package1111.egg-info/top_level.txt
