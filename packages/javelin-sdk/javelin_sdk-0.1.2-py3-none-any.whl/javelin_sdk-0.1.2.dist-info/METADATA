@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: javelin-sdk
+Version: 0.1.2
+Summary: Python client for Javelin
+License: Apache-2.0
+Author: Sharath Rajasekar
+Author-email: sharath@getjavelin.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: httpx (>=0.24.0,<0.25.0)
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Description-Content-Type: text/markdown
+
+Javelin: An enterprise-scale, fast LLM gateway and router
+For more information visit: https://github.com/getjavelin/javelin
+
