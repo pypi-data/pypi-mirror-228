@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: jamf-pro-sdk
+Version: 0.2a1
+Summary: Jamf Pro SDK for Python
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT No Attribution License (MIT-0)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: <4,>=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: aws
+Provides-Extra: macOS
+Provides-Extra: webhooks
+Provides-Extra: dev
+License-File: LICENSE
+
+# Jamf Pro SDK for Python
+
+A client library for the Jamf Pro APIs and webhooks.
+
+```python
+from jamf_pro_sdk import JamfProClient, BasicAuthProvider
+
+client = JamfProClient(
+    server="dummy.jamfcloud.com",
+    credentials=BasicAuthProvider("username", "password")
+)
+
+all_computers = client.pro_api.get_computer_inventory_v1()
+```
+
+Read the full documentation on [GitHub Pages](https://macadmins.github.io/jamf-pro-sdk-python/).
+
+## Installing
+
+Install from PyPI:
+
+```console
+% python -m pip install jamf-pro-sdk
+```
+
+The Jamf Pro SDK supports Python 3.9+.
