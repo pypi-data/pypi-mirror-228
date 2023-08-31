@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: impyrial-akhedkar-talentumglobal
+Version: 0.2.0
+Summary: A package for converting imperial lengths and weights.
+Author: Amit
+License-File: LICENSE.txt
+Requires-Dist: numpy (>=1.10)
+Requires-Dist: pandas
+

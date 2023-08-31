@@ -1,0 +1,13 @@
+impyrial/__init__.py,sha256=7c-0AuwLEThp5PLtX8Wxo96bkuncvE10J_P9QFtcGLM,240
+impyrial/utils.py,sha256=YDy2_qLZtcrNm1qlndSFcQtuZV1wVHl7Rdg1Pky2IPc,457
+impyrial/length/__init__.py,sha256=RsJV4mmyys1JlIAo05lyTcQv8G1dNihI6CalE0JuPLU,141
+impyrial/length/api.py,sha256=v5_hk6dZ5ggehjTjdQgG1mFbQXGYicbn6ETX7p0tgbQ,1261
+impyrial/length/core.py,sha256=nQOXf0EqzjgF-I-Aj9nfHM_7QVK433x6-GYr1OhE-Qo,1435
+impyrial/weight/__init__.py,sha256=Z-H1rmu5NgE2NujVZW9G4tAVNHgtUXD-s1BPjt1ql8E,141
+impyrial/weight/api.py,sha256=bBSAqqHu2DPnPRfOxEWlmaIFIdN7GDoqH7XDKJfSbH8,1264
+impyrial/weight/core.py,sha256=cUj5uQoiYTpxYag0534L7nsNIlvOyIz-XfzOdP1fR7c,1461
+impyrial_akhedkar_talentumglobal-0.2.0.dist-info/LICENSE.txt,sha256=5BheVm9RdKexOGuUPINAdZWGbfLt36V6VgLp57Zbjpk,1093
+impyrial_akhedkar_talentumglobal-0.2.0.dist-info/METADATA,sha256=ODyvSCnhDr_4UfGQ6wXjhjgwwhZuHrtgGx_RKv0Rrws,232
+impyrial_akhedkar_talentumglobal-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+impyrial_akhedkar_talentumglobal-0.2.0.dist-info/top_level.txt,sha256=ObFzK08dyfHjcVUxK_F2TI6MWnO-e90AMnrGOUCiiO4,9
+impyrial_akhedkar_talentumglobal-0.2.0.dist-info/RECORD,,
