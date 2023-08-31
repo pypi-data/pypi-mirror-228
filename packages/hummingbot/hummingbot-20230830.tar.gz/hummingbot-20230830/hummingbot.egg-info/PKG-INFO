@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: hummingbot
+Version: 20230830
+Summary: Hummingbot
+Home-page: https://github.com/hummingbot/hummingbot
+Author: CoinAlpha, Inc.
+Author-email: dev@hummingbot.io
+License: Apache 2.0
+License-File: LICENSE
