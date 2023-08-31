@@ -1,0 +1,8 @@
+[console_scripts]
+coco_to_labelimg = label_convert.coco_to_labelimg:main
+coco_visual = label_convert.coco_visual:main
+darknet_to_coco = label_convert.darknet_to_coco:main
+labelimg_to_yolov5 = label_convert.labelimg_to_yolov5:main
+yolov5_to_coco = label_convert.yolov5_to_coco:main
+yolov5_yaml_to_coco = label_convert.yolov5_yaml_to_coco:main
+
