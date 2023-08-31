@@ -1,0 +1,11 @@
+skl2onnx>=1.12.0
+scikit-learn>=1.1.0
+numpy>=1.18.0
+onnx>=1.12.0
+onnxruntime>=1.12.1
+pandas>=1.0.0
+imbalanced-learn>=0.8.1
+pyarrow>=8.0.0
+optuna>=3.0.0
+packaging>=20.0.0
+phonnx>=0.0.1
