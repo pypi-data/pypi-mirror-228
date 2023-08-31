@@ -1,0 +1,8 @@
+numpy
+matplotlib
+pyvista
+ipywidgets
+trame
+trame-vtk
+trame-vuetify
+trame-plotly
