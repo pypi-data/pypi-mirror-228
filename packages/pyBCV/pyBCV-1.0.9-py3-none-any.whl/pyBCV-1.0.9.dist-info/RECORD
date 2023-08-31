@@ -1,0 +1,9 @@
+pyBCV/__init__.py,sha256=kPZTAlo8asiI9FnMfzulcjtGe7hhefyu_J5LC5151F0,38
+pyBCV/pyBCV.py,sha256=jpsVLJKTqPFl_Pw3Tbzh_Flit3fAyJqh5onyMSFhJxY,5122
+pyBCV/requests.py,sha256=gt6WtTYJ5TNrKmfYP4cntOVdcKF213hX3-iAs_PBI9M,449
+pyBCV/util.py,sha256=xRUz69s-amHSfxMyHV99_53j43iXzzB8T-QnFGL4erA,135
+pyBCV-1.0.9.dist-info/LICENSE,sha256=yhyzG4KlBwvAy1K47aCyZbF5x8p9Evp9ehLARqdm4mM,1094
+pyBCV-1.0.9.dist-info/METADATA,sha256=ef0fRUa7rXXH20KhM-WgAN5O53-6hfL-ewgbY8ow-kg,3565
+pyBCV-1.0.9.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyBCV-1.0.9.dist-info/top_level.txt,sha256=lmSpnf39p5nhU1AD7bYr8VERsutkAjoN25gojXaQh90,6
+pyBCV-1.0.9.dist-info/RECORD,,
