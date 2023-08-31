@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sanbercode-geometry
+Version: 0.0.1
+Summary: Geometry Package - Aplikasi training sanbercode BMKG
+Author: putuhendrawd
+Author-email: 99854901+putuhendrawd@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: matplotlib (>=3.7.2,<4.0.0)
+Requires-Dist: numpy (>=1.21,<2.0)
+Requires-Dist: pytest (>=5.2,<6.0)
+Requires-Dist: twine (>=4.0.2,<5.0.0)
+Description-Content-Type: text/markdown
+
+package geometry sebagai tugas kegiatan pelatihan sanbercode BMKG
+Putu Hendra Widyadharma
+30 Agustus 2023
