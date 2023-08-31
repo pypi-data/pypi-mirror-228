@@ -1,0 +1,9 @@
+jmake/__init__.py,sha256=4qfVi5quzrtetBsJiAp2aHWQ9zoi1nZ3EBdfV8QGY-k,282
+jmake/generator.py,sha256=o3d9A4P0pXQWAiT55L-0L1SPuJJnsn6cUg6wtosIcoo,13830
+jmake/jmake.py,sha256=f3qw8-zLBpmx98Wx-sJ25fKvj5W0PJIQA1dDRqVNh90,5851
+jmake/utils.py,sha256=hkO6QwuB84Xbr_RKub8xYEkgGQPZ473EEZZoWWGj-Mc,2205
+jmake-0.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+jmake-0.0.1.dist-info/METADATA,sha256=6kqVdOpuFj3pC2T6q-8_LeF6KXkFmH5Tf630lxcW3nU,13397
+jmake-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jmake-0.0.1.dist-info/top_level.txt,sha256=GeR703VlFurCIM6-u98vm4aWVg8wAtOvVz41iU0vwKk,6
+jmake-0.0.1.dist-info/RECORD,,
