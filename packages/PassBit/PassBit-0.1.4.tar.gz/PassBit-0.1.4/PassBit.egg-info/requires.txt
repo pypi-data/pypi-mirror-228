@@ -1,0 +1,7 @@
+argon2-cffi
+CTkMessagebox
+customtkinter
+pycryptodome
+pyotp
+pyperclip
+Requests
