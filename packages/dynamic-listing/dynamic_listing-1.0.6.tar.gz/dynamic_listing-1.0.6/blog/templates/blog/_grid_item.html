@@ -1,0 +1,31 @@
+<div class="col-md-4">
+  <div class="card card-stretch mb-2">
+    <div class="card-header">
+      <div class="card-title">
+        <h3 class="mb-0 text-gray-700">{{ item.id }}</h3>
+      </div>
+      {% if bulk_actions %}
+        {% include "dynamic_listing/partials/__bulk_actions_item_checkbox.html"  with item=object %}
+      {% endif %}
+
+    </div>
+    <div class="card-body">
+      <h3 class="mb-2 text-gray-700">{{ item.title }}</h3>
+      <p class="fs-6 text-gray-600">{{ item.content }}</p>
+
+      <div class="">
+        <p class="fw-bold text-gray-600">Tags:</p>
+        <div class="d-flex flex-wrap">
+          {% for tag in item.tags.all %}
+            <span class="badge badge-primary fs-8 me-2 mb-2">{{ tag.name }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="card-footer d-flex justify-content-between">
+      <p class="text-gray-600 fw-bold">Category: {{ item.category.name }}</p>
+
+      <p class="text-gray-600 fw-bold">Created At: {{ item.created_at|date:"SHORT_DATE_FORMAT" }}</p>
+    </div>
+  </div>
+</div>
