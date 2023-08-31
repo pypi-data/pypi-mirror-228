@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: deinterf
+Version: 0.0.1
+Summary: Compensation for magnetic interference from flight platform in aeromagnetic data
+Author-email: dorian <dorian.li@outlook.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: loguru
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Description-Content-Type: text/markdown
+
+# deinterf
+Compensation for magnetic interference from flight platform in aeromagnetic data
