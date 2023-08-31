@@ -1,0 +1,2 @@
+[console_scripts]
+osmcha = osmcha.scripts.cli:cli
