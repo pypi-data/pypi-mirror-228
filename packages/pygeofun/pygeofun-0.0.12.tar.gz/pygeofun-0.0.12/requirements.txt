@@ -1,0 +1,5 @@
+wheel
+setuptools
+cmake
+pybind11
+tomli

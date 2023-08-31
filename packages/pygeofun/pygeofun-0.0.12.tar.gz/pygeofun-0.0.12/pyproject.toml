@@ -1,0 +1,83 @@
+[tool.poetry]
+name = "pygeofun"
+version = "0.0.12"
+description = "Geographic Functions: geodesics and rhumblines, orthodromes and loxodromes"
+authors = [
+  "Jaap Versteegh <j.r.versteegh@gmail.com>",
+]
+packages = [
+  { include = "pygeofun", from = "src" },
+]
+include = [
+  { path = "requirements.txt", format = "sdist" },
+  { path = "src/geofun", format = "sdist" },
+  { path = "contrib/fmt", format = "sdist" },
+  { path = "contrib/geographiclib", format = "sdist" }
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: GIS"
+]
+readme = "README.rst"
+keywords = [
+  "geodesic",
+  "rhumb line",
+  "loxodrome",
+  "orthodrome",
+  "distance",
+  "azimuth"
+]
+homepage = "https://github.com/jrversteegh/geofun"
+repository = "https://github.com/jrversteegh/geofun"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.extras]
+docs = ["Sphinx"]
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^7.34.0"
+invoke = "^1.7.1"
+pytest = "^7.1.2"
+pybind11 = "^2.10.0"
+Sphinx = "^5.2.3"
+sphinx-rtd-theme = "^1.0.0"
+geographiclib = "^2.0"
+numpy = "^1.23.3"
+cmake = "^3.24.1.1"
+wheel = "^0.37.1"
+setuptools = "^65.4.1"
+tomli = "^2.0.1"
+poetry = "^1.2.1"
+black = "^22.10.0"
+flake8-black = "^0.3.3"
+flake8-isort = "^5.0.0"
+isort = "^5.10.1"
+pytest-cov = "^4.1.0"
+gcovr = "^6.0"
+
+[tool.poetry.build]
+script = "build.py"
+generate-setup-file = true
+
+[tool.black]
+extend_exclude = "contrib"
+
+
+[tool.isort]
+known_first_party = "src"
+extend_skip_glob = ["venv", ".venv", "contrib"]
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+log_file = "tests/logs/pytest.log"
+log_file_level = "DEBUG"
+log_file_format = "%(asctime)s - %(levelname)s - %(filename)s:%(lineno)s - %(name)s - %(message)s"
+
+[build-system]
+requires = ["cmake", "tomli",  "setuptools", "wheel", "pybind11", "poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
