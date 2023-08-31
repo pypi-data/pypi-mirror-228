@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: lemmy-image-purge
+Version: 1.0.0
+Summary: Purge Images from your Lemmy Instance
+License: MIT
+Author: Chris Pressland
+Author-email: mail@cpressland.io
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: pendulum (>=2.1.2,<3.0.0)
+Requires-Dist: psycopg2-binary (>=2.9.7,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.0.3,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: sqlalchemy (>=2.0.20,<3.0.0)
+Description-Content-Type: text/markdown
+
+# lemmy-image-purge
+
+A simple utility that aims to purge the content of a community from a lemmy instnace, specifically covering purging data from pictrs and the lemmy database.
+
+## Usage
+
+### Run via Docker
+
+Subtitute the values below with ones for your own instance
+
+```shell
+docker run -it --rm \
+    --network="lemmy" \
+    -e DATABASE_URL="postgresql://postgres@localhost:5432/lemmy" \
+    -e PICTRS_URL="http://pictrs/" \
+    -e PICTRS_API_KEY="aaaabbbbccccc1111222333" \
+    ghcr.io/devops-pizza/lemmy-image-purge:latest \
+    purge --community "https://lemmy.world/c/lemmyshitpost" --domain "devops.pizza" --days 7
+```
+
+### Run via pipx
+
+```shell
+pipx install lemmy-image-purge
+export DATABASE_URL="postgresql://postgres@localhost:5432/lemmy"
+export PICTRS_URL="http://pictrs/"
+export PICTRS_API_KEY="aaaabbbbccccc1111222333"
+lemmy-image-purge purge --community "https://lemmy.world/c/lemmyshitpost" --domain "devops.pizza" --days 7
+```
+
+### Run via Kubernetes
+
+```shell
+cat <EOF > job.yaml
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: lemmy-image-purge
+  namespace: lemmy
+spec:
+  template:
+    spec:
+      containers:
+      - name: app
+        image: ghcr.io/devops-pizza/lemmy-image-purge:latest
+        env:
+        - name: DATABASE_URL
+          value: postgresql://postgres@localhost:5432/lemmy
+        - name: PICTRS_URL
+          value: http://pictrs/
+        - name: PICTRS_API_KEY
+          value: aaaabbbbccccc1111222333
+        args: ["purge", "--community", "https://lemmy.world/c/lemmyshitpost", "--domain", "devops.pizza", "--days", "7"]
+      restartPolicy: Never
+  backoffLimit: 0
+EOF
+```
+
