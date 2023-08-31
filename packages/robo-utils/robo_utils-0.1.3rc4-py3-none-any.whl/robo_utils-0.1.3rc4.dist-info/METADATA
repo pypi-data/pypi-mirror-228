@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: robo_utils
+Version: 0.1.3rc4
+Summary: Useful functions for mobile robotics
+Keywords: robotics,mobile robotics,utilities
+Author: Mike Knerr
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Project-URL: homepage, https://github.com/mkner/robo-utils/
+
+**robo-utils** 
+
+useful functions for mobile robotics 
+and related applications
+
+
+Installation: 
+
+$ **pip** install robo-utils
+
+For documentation see https://robo-utils.readthedocs.io/en/latest/
+
+
+
+
+
+
