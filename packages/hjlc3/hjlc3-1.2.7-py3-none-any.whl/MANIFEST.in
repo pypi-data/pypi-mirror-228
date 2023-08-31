@@ -1,0 +1,12 @@
+global-include *.py *.pyc
+include *.rst
+include *.py
+include *.yaml
+include tox.ini
+include Makefile
+include .gitignore
+include appveyor.yml
+include .coveragerc
+
+# added by check_manifest.py
+include *.mk
