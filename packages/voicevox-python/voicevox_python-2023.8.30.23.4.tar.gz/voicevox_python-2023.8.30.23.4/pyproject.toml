@@ -1,0 +1,43 @@
+[project]
+name = "voicevox-python"
+version = "2023.8.30.23.4"
+description = "API wrapper for voicevox"
+license = "CC0-1.0"
+authors = [
+    { name = "Nakanishi", email = "45790603+Nakanishi123@users.noreply.github.com" },
+]
+dependencies = ["pydantic>=2", "requests>=2"]
+readme = "README.md"
+requires-python = ">= 3.8"
+classifiers = [
+    "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Nakanishi123/voicevox-python"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.black]
+line-length = 120
+
+[tool.pyright]
+pythonVersion = "3.8"
+typeCheckingMode = "basic"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "black>=23.7.0",
+    "pytest>=7.4.0",
+    "pyright>=1.1.324",
+    "hatchling>=1.18.0",
+    "build>=0.10.0",
+    "twine>=4.0.2",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
