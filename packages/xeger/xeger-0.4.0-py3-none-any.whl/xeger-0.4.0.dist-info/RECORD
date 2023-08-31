@@ -1,0 +1,9 @@
+xeger/__init__.py,sha256=LFGoPPjuR-L5baQCRe4bWMOw5D33NeryYcQ5QPYhFJE,48
+xeger/xeger.py,sha256=fA-zIJzP--98GjfQbeVd_eUA1JvDEEpec_OWYfWgnxc,5246
+xeger/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xeger/tests/test_xeger.py,sha256=K84sV3kOAGLcCyHe4MWJhM7zwFZ1ZCUef03MRWF6wZY,3211
+xeger-0.4.0.dist-info/LICENSE.txt,sha256=7dxNgdgvZC5KG9mZVmbKj88a_4pZstTSCxc5iNcJ2Kg,1620
+xeger-0.4.0.dist-info/METADATA,sha256=YB8Osw03In8f11HI_g90APuBevO0NHijol5v6NmFNKQ,1671
+xeger-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xeger-0.4.0.dist-info/top_level.txt,sha256=zNcKuP3PXFdNPPFaKbX-9w6GqyiyFoe1SQtcoMbwIng,6
+xeger-0.4.0.dist-info/RECORD,,
