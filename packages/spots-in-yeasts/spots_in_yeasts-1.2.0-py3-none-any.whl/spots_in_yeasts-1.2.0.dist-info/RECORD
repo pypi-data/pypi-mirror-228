@@ -1,0 +1,17 @@
+spots_in_yeasts/__init__.py,sha256=0t0T4IhHNrIRIYKi37zSZHsvdwecRDXtIu6vFPTao8c,127
+spots_in_yeasts/_reader.py,sha256=6ATbKlE4r4VQvTdIsHgoAXY7Sv-GmdNzdG0B2L5vIpI,5955
+spots_in_yeasts/_widget.py,sha256=Zornb-P0_-WcLqasG8xpXtGtCjfMCS1b5hKHMMrbgDU,25094
+spots_in_yeasts/formatData.py,sha256=7uEa1OBWRmyR8TUy7j7VwrGZZCC-sxnDkgT2iNRuUS4,3583
+spots_in_yeasts/napari.yaml,sha256=ib6M4s3o_nSru3K7dnCSpkWev-Q3Zt6dP65wQZwodGE,569
+spots_in_yeasts/siy-convert-format.py,sha256=yKbZFHfUIvkp7NLGwKZhlgeF0si3ATROw6dQZ4ybsYo,9740
+spots_in_yeasts/spotsInYeasts.py,sha256=XcmHYRTZc4EzXsILq3IIisK079CmEY2Xu8qRojc0NBU,36934
+spots_in_yeasts/test-nuclei.py,sha256=E1QL1N_yOOFcyKEe9lbYDq7QdvRTrmGxV0YpM4wjdIg,24090
+spots_in_yeasts/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spots_in_yeasts/_tests/test_spot_in_yeasts.py,sha256=I6905YCnLwxGfSFnue5ARqTtrm8Gwgq0-wx3i4hbTIY,1904
+spots_in_yeasts/_tests/test_widgets.py,sha256=bUEXPLqFHj-u6opLJypmf-6Xk4mzWzWozVB-gJM-vsI,3186
+spots_in_yeasts-1.2.0.dist-info/LICENSE,sha256=h_EpMsIMkEuPxwT6OH4TwQuz6vw7rFjkCgty7XgkOF0,1089
+spots_in_yeasts-1.2.0.dist-info/METADATA,sha256=hauwrWniAap7Z1T4jGQSzV5yjOt3BumZTA3fByEzIH8,10814
+spots_in_yeasts-1.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+spots_in_yeasts-1.2.0.dist-info/entry_points.txt,sha256=ZLh_7B7GtxNqZFJdvR2lPGOBlSVRUX6sysdk_M3b4vA,64
+spots_in_yeasts-1.2.0.dist-info/top_level.txt,sha256=dWPZvIv5gp55TMddzTlMkxUNZ8raN1qR5UHsQQ8VNNY,16
+spots_in_yeasts-1.2.0.dist-info/RECORD,,
