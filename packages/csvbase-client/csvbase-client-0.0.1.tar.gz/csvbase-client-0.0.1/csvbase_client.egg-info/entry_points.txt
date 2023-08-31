@@ -1,0 +1,2 @@
+[console_scripts]
+csvbase-client = csvbase_client.internals.cli:cli

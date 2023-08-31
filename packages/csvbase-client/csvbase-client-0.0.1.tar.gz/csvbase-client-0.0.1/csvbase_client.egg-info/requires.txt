@@ -1,0 +1,22 @@
+click
+platformdirs
+pyappcache
+requests
+toml
+
+[:python_version < "3.9"]
+importlib_resources
+
+[tests]
+black
+bpython
+mypy
+pytest
+ruff
+types-requests
+types-setuptools
+types-toml
+pandas
+pyarrow
+types-passlib
+pandas-stubs
