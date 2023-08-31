@@ -1,0 +1,1 @@
+{"version":3,"sources":["community-apps-fixes.css"],"names":[],"mappings":"AAAA,A,yBACI,yB,CACI,e,CACA,iB","file":"community-apps-fixes.css","sourcesContent":["@media (min-width: 768px) {\n    .aa-fittings-add-dropdown {\n        margin-bottom: 0;\n        margin-top: 0.8em;\n    }\n}\n"]}
