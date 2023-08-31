@@ -1,0 +1,74 @@
+[tool.poetry]
+name = "annofab-3dpc-editor-cli"
+version = "0.2.1"
+description = "Annofabの3次元プロジェクトを操作するためのCLIです。"
+authors = ["Kurusugawa Computer Inc."]
+repository="https://github.com/kurusugawa-computer/annofab-3dpc-editor-cli"
+readme="README.md"
+license = "MIT"
+classifiers = [
+        "Intended Audience :: Developers",
+        "Environment :: Console",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",        
+        "Programming Language :: Python :: 3.11",        
+        "Topic :: Utilities",
+        "Operating System :: OS Independent",
+]
+
+packages = [
+    { include = "anno3d" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+annofabapi = ">=0.65.0"
+dataclasses-json = "^0.5.7"
+fire = "^0.3.1"
+more-itertools = "^8.5.0"
+numpy = "^1.23.0"
+scipy = "^1.9.0"
+boto3 = "^1.17.20"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+mypy = "^0.991"
+flake8 = "^4.0.1"
+black = "^22.6.0"
+isort = "^5.10.1"
+pylint = "^2.9.3"
+# document
+sphinx = "^5.1.1"
+pydata-sphinx-theme = "^0.9.0"
+types-requests = "^2.25.0"
+myst-parser = "^0.18.1"
+
+[tool.black]
+line-length = 120
+exclude = '''
+(
+    migrations
+    | .mypy_cache
+    | .pytest_cache
+    | venv
+    | dist
+    | .git
+    | .idea
+    | .devcontainer
+)
+'''
+
+[tool.isort]
+include_trailing_comma = true
+line_length = 120
+multi_line_output = 3
+
+[tool.poetry.scripts]
+anno3d = "anno3d.app:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
