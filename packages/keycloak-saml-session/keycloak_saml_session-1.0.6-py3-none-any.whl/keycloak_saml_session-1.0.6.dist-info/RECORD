@@ -1,0 +1,10 @@
+keycloak_saml_session/__init__.py,sha256=qfeNb33aURabVzsbCzSBxug7Zkdegzy6tq15T2oP98A,147
+keycloak_saml_session/__main__.py,sha256=oz1SKa8KrEGXAJJgwYqkanGQUmzeBeEHo5ZStZrfkt4,136
+keycloak_saml_session/request.py,sha256=ujgcImh2lFO-MkzTP8uPdKV_-E2zLstdwuUHLjJ6VGo,3118
+keycloak_saml_session/session.py,sha256=rYPTXshTMiRHwKXuhpKqVsoRWWIwXXlYlP-t9ADJLFA,2607
+keycloak_saml_session-1.0.6.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keycloak_saml_session-1.0.6.dist-info/METADATA,sha256=tR8MHzfnuZhSmiuX8jvMDc41pWZzsTTlsYLfpQ1tz-8,646
+keycloak_saml_session-1.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+keycloak_saml_session-1.0.6.dist-info/entry_points.txt,sha256=6rkM1E9Fr2wymA5FcIBZGeDbfNoCDNh0cZBJfS2tUDk,78
+keycloak_saml_session-1.0.6.dist-info/top_level.txt,sha256=k6G4CZMUhqcSVuRTPlTGTbPl3pdiHxG2PifQccNwKQA,22
+keycloak_saml_session-1.0.6.dist-info/RECORD,,

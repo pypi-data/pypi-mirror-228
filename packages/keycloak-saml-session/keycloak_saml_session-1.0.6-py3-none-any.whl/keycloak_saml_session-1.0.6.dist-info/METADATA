@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: keycloak-saml-session
+Version: 1.0.6
+Summary: Utility lib to check SAML session on Keycloak
+Author-email: Bedino Tom <tb@mi4.fr>
+Project-URL: Homepage, https://github.com/Affimate/KeycloakSAMLSession
+Keywords: keycloak,saml,session
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyOpenSSL ==23.2.0
+Requires-Dist: requests ==2.31.0
+Provides-Extra: dev
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+# KeycloakSAMLSession
