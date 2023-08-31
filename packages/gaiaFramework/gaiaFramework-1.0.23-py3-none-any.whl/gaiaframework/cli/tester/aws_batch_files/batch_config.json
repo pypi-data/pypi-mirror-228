@@ -1,0 +1,69 @@
+{
+    "environment": "gaia-airflow-test",
+    "log_level": "warning",
+    "bucket_name": "gaia-aws-airflow-try",
+    "project_id": "google-project-id",
+    "region": "us-east1",
+    "template_id": "{name-your-service}-template",
+    "project_name": "{name-your-service}",
+    "target": "wf_dev",
+    "unique_iteration_id": "",
+    "unique_template_id": "",
+    "specific_jobs_to_run": [],
+    "force_remove_all_prerequisites": false,
+    "cluster_duration_sec": 3600,
+    "cluster_conf": {
+        "Name": "{name-your-service}-cluster",
+        "ReleaseLabel": "emr-6.12.0",
+        "Applications": [{"Name": "Spark"}],
+        "Configurations": [
+            {
+                "Classification": "spark-env",
+                "Configurations": [
+                    {
+                        "Classification": "export",
+                        "Properties": {"PYSPARK_PYTHON": "/usr/bin/python3.9"}
+                    }
+                ]
+            }
+        ],
+        "Instances": {
+            "InstanceGroups": [
+                {
+                    "Name": "Primary node",
+                    "Market": "SPOT",
+                    "InstanceRole": "MASTER",
+                    "InstanceType": "m1.medium",
+                    "InstanceCount": 1
+                }
+            ],
+            "KeepJobFlowAliveWhenNoSteps": true,
+            "TerminationProtected": false
+        },
+        "JobFlowRole": "EMR_EC2_DefaultRole",
+        "ServiceRole": "EMR_DefaultRole",
+        "LogUri": "s3://gaia-aws-airflow-try/logs/emr/",
+        "BootstrapActions": [
+            {
+                "Name": "init_actions",
+                "ScriptBootstrapAction": {
+                    "Args": [],
+                    "Path": ""
+                }
+            }
+        ]
+    },
+    "spark_properties": [
+        ["spark.pyspark.python", "python3"],
+        ["spark:spark.sql.execution.arrow.maxRecordsPerBatch", "10"],
+        ["spark:spark.driver.memory", "48"],
+        ["spark:spark.executor.memory", "8"],
+        ["spark:spark.executor.memoryOverhead", "8"],
+        ["spark:spark.sql.shuffle.partitions", "2000"],
+        ["spark.sql.parquet.columnarReaderBatchSize","1024"],
+        ["spark.hadoop.fs.gs.implicit.dir.repair.enable", "false"]
+    ],
+    "extra_job_params": {
+        "MODE": "MANUAL"
+    }
+}

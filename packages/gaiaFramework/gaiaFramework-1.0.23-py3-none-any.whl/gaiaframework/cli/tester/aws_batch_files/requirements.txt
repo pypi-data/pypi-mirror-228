@@ -1,0 +1,6 @@
+apache-airflow
+apache-airflow-providers-amazon==8.2.0
+apache-airflow[amazon]
+virtualenv
+pyspark
+markupsafe==2.0.1
