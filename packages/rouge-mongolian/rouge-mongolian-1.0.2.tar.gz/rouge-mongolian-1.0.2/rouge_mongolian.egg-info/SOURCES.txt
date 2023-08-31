@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+rouge_mongolian/__init__.py
+rouge_mongolian/rouge.py
+rouge_mongolian/rouge_score.py
+rouge_mongolian.egg-info/PKG-INFO
+rouge_mongolian.egg-info/SOURCES.txt
+rouge_mongolian.egg-info/dependency_links.txt
+rouge_mongolian.egg-info/requires.txt
+rouge_mongolian.egg-info/top_level.txt
