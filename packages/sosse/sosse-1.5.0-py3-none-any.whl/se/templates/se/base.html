@@ -1,0 +1,23 @@
+{% extends "se/base_raw.html" %}
+{% load static %}
+
+{% block body_base %}
+    <div id="top_bar">
+        <a href="/" id="logo">
+            <img src="{% static "se/logo.svg" %}">SOSSE
+        </a>
+        {% if title and not hide_title %}
+            <h3>{{ title }}</h3>
+        {% endif %}
+        {% include "se/main_menu.html" %}
+        {% block top_bar %}
+        {% endblock %}
+    </div>
+
+    {% block body_no_margin %}
+        <div style="padding: 20px 40px 20px 40px">
+            {% block body %}
+            {% endblock %}
+        </div>
+    {% endblock %}
+{% endblock %}

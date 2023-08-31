@@ -1,0 +1,24 @@
+<div id="top_bar_links">
+    <p style="color: #080; font-size: 13px">
+        {{ beautified_url }}
+    </p>
+    {{ doc.get_source_link }}
+    {% if other_links %}
+        {% for link in other_links %}
+            <a href="{{ link.href }}">{{ link.text }}</a>
+        {% endfor %}
+    {% endif %}
+    {% if 'se.view_document' in perms %}
+        <a href="{% url 'admin:se_document_change' doc.id %}">⭐ Administration</a>
+    {% endif %}
+    <a href="{% url 'search_redirect' %}?ft1=inc&ff1=lto_url&fo1=equal&fv1={{ doc.url|urlencode }}">🔗 Pages linking here</a>
+    <a href="{% url 'search_redirect' %}?ft1=inc&ff1=lby_url&fo1=equal&fv1={{ doc.url|urlencode }}">🔗 Links from this page</a>
+    {% if doc.redirect_url %}
+        <br/>
+        This page redirects to <a href="{{ www_redirect_url }}">{{ doc.redirect_url }}</a> · <a href="{{ doc.redirect_url }}">🌍</a></li>
+    {% endif %}
+    {% if doc.too_many_redirects %}
+        <br/>
+        Redirection was not followed, because the crawler was redirected too many times
+    {% endif %}
+</div>
