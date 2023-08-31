@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: very_corp_internal_package
+Version: 999999.0.1
+Summary: Very important internal package
+Project-URL: Homepage, https://sekurak.pl/
+Project-URL: Bug Tracker, https://sekurak.pl/
+Author-email: Mateusz Lewczak <leftarcode@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
