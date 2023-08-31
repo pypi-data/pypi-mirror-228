@@ -1,0 +1,2 @@
+[console_scripts]
+run = env_should_be:main
