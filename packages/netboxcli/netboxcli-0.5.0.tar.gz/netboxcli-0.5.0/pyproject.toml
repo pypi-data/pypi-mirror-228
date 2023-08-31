@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netboxcli"
+version = "0.5.0"
+authors = [
+  { name="kaio Guilherme", email="kaioguilherme444@outlook.com" },
+]
+description = "A Python package to interact with the NetBox API.\\nVersion 0.5.0\\n  - Resources:\\n    * organizations\\n    * Devices\\n    * Ipam\\n    * Virtualization\\n    * Extras"
+
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Kaioguilherme1/netbox-client"
+"Bug Tracker" = "https://github.com/Kaioguilherme1/netbox-client/issues"
+
