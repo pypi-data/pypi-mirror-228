@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: yuan_pkg
+Version: 0.0.0
+Home-page: https://github.com/yuanlonghao/yuan_pkg
+Author: Longhao Yuan
+Author-email: yuanlonghao1013@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a package.
