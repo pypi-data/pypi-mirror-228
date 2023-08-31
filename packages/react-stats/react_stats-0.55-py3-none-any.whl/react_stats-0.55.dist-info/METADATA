@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: react-stats
+Version: 0.55
+Requires-Dist: tabulate
+Requires-Dist: chardet
+Requires-Dist: pandas
+Requires-Dist: asciibars
+Requires-Dist: watchdog
+
