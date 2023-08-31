@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+tngparser/__init__.py
+tngparser/naming.py
+tngparser/parser.py
+tngparser.egg-info/PKG-INFO
+tngparser.egg-info/SOURCES.txt
+tngparser.egg-info/dependency_links.txt
+tngparser.egg-info/requires.txt
+tngparser.egg-info/top_level.txt
