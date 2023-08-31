@@ -1,0 +1,3 @@
+[console_scripts]
+ssprompt=ssprompt.console.application:main
+
