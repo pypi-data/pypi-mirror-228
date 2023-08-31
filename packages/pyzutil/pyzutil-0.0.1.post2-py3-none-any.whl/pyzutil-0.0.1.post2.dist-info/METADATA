@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pyzutil
+Version: 0.0.1.post2
+Summary: z/OS utilities for Python
+Home-page: https://github.com/daveyc/pyzutil
+Maintainer: David Crayford
+Maintainer-email: dcrayford@gmail.com
+License: MIT
+Platform: any
+Platform: none
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyzutil
+
+z/OS utilities for Python
+
+##  Building
+
+```shell
+python3 setup.py build
+
+# Install in editable mode (i.e. setuptools "develop mode") from the local project path
+pip3 install -e .
+```
+
+## Documentation
+
+This project uses the [Sphinx](https://www.sphinx-doc.org/en/master/) Python Documentation Generator and requires the [Press](https://pypi.org/project/sphinx-press-theme/) theme.
+
+To build the documentation run the following commands:
+```shell
+cd docs
+make clean html
+```
