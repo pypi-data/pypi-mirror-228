@@ -1,0 +1,36 @@
+image: python:3.10-buster
+
+stages:
+  - deploy
+
+before_script:
+   - pip install flit
+   - flit build --no-use-vcs
+
+# is commented due to some bugs, for now
+# deploy_staging:
+#   stage: deploy
+#   variables:
+#     FLIT_USERNAME: $STAGING_PAT_NAME
+#     FLIT_PASSWORD: $STAGING_PAT_TOKEN
+#     # FLIT_INDEX_URL: https://gitlab.com/api/v4/projects/${CI_PROJECT_ID}/packages/pypi
+#   script:
+#     - flit publish --no-use-vcs
+#   only:
+#     - master
+#   cache:
+#     paths:
+#       - dist/
+
+deploy_production:
+  stage: deploy
+  variables:
+    FLIT_USERNAME: __token__
+    FLIT_PASSWORD: $PRODUCTION_PYPI_TOKEN
+  script:
+    - flit publish
+  only:
+    - master
+  cache:
+    paths:
+      - dist/
