@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ethosai
+Version: 0.0.1
+Summary: Ethos SDK for Python
+Project-URL: Homepage, https://github.com/ethosai/ethos-python
+Project-URL: Bug Tracker, https://github.com/ethosai/ethos-python/issues
+Author-email: Ethos AI <sdk-owners@ethosai.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# ethos-python
