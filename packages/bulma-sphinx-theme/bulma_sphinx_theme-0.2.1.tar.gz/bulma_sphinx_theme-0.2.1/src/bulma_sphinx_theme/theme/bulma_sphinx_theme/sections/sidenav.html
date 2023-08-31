@@ -1,0 +1,19 @@
+<div class="sidenav-drawer">
+    {%- if theme_fix_navbar -%}
+    <div class="sidenav-brand">
+        <!-- {% include "components/brand.html" %} -->
+    </div>
+    {%- endif -%}
+
+    {% if "sidenav-panel.html" in sidebars %}
+    {%- include "sidenav-panel.html" %}
+    {% endif %}
+
+    <nav class="menu">
+        {%- for sidebar_section in sidebars %}
+        {% if sidebar_section != "sidenav-panel.html" %}
+        {%- include sidebar_section %}
+        {% endif %}
+        {%- endfor %}
+    </nav>
+</div>
