@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pymlfs
+Version: 0.1.0
+Summary: machine learning models from scratch
+License: MIT
+Author: Youssef Achenchabe
+Requires-Python: >=3.9,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.25.2)
+Requires-Dist: scipy (>=1.11.2,<2.0.0)
+Requires-Dist: torch (>=2.0.0,!=2.0.1)
+Requires-Dist: tqdm (>=4.66.1)
+Description-Content-Type: text/markdown
+
+# pymlfs
+
+pymlfs: Machine Learning From Scratch
+
+pymlfs implements classical machine learning models from scratch. Implementations are presented as simply as possible, as the library is designed for educational purposes. 
+
+## Installation
+
+```bash
+$ pip install pymlfs
+```
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`pymlfs` was created by Youssef Achenchabe. It is licensed under the terms of the MIT license.
