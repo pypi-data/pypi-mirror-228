@@ -1,0 +1,8 @@
+obspy
+fsspec==2022.11.0
+aiohttp
+pandas
+numpy
+lxml
+xarray
+tqdm
