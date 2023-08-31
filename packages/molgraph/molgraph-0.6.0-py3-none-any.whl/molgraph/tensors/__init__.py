@@ -1,0 +1,2 @@
+from molgraph.tensors.graph_tensor import GraphTensor
+from molgraph.tensors.graph_tensor import GraphTensorSpec
