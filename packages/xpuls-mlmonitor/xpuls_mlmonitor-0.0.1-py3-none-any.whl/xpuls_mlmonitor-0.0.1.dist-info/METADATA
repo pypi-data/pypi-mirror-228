@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: xpuls-mlmonitor
+Version: 0.0.1
+Summary: Automated telemetry and monitoring for ML & LLM Frameworks
+Home-page: https://github.com/xpuls-labs/xpuls-mlmonitor-python
+Author: Sai Sharan Tangeda
+Author-email: saisarantangeda@gmail.com
+License: Apache License 2.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opentelemetry-instrumentation-requests
+Requires-Dist: opentelemetry-api
+Requires-Dist: opentelemetry-sdk
+Requires-Dist: prometheus-client
+Requires-Dist: langchain
+Provides-Extra: all
+Requires-Dist: opentelemetry-instrumentation-requests ; extra == 'all'
+Requires-Dist: opentelemetry-api ; extra == 'all'
+Requires-Dist: opentelemetry-sdk ; extra == 'all'
+Requires-Dist: prometheus-client ; extra == 'all'
+Requires-Dist: langchain ; extra == 'all'
+Provides-Extra: langchain
+Requires-Dist: opentelemetry-instrumentation-requests ; extra == 'langchain'
+Requires-Dist: opentelemetry-api ; extra == 'langchain'
+Requires-Dist: opentelemetry-sdk ; extra == 'langchain'
+Requires-Dist: prometheus-client ; extra == 'langchain'
+Requires-Dist: langchain ; extra == 'langchain'
+
+# MLMonitor - Automatic Instrumentation for ML Frameworks
+
+
+## Usage Guide
+
+1. Install from PyPI
+2. Apply the command
