@@ -1,0 +1,10 @@
+transformers==4.27.4
+huggingface-hub
+chardet
+cchardet
+torch
+einops
+accelerate
+scipy
+peft
+bitsandbytes
