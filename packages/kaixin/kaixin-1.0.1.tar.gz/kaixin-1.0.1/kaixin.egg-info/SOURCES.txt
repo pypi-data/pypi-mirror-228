@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+kaixin/__init__.py
+kaixin/kaixin.py
+kaixin.egg-info/PKG-INFO
+kaixin.egg-info/SOURCES.txt
+kaixin.egg-info/dependency_links.txt
+kaixin.egg-info/top_level.txt
