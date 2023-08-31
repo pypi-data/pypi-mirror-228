@@ -1,0 +1,11 @@
+test_end_to_end.py,sha256=qNpdln0abUvy4OhLeDuQTt7YPkXD0BC-ATwLnj8zPIg,1941
+keycloak_saml_session/__init__.py,sha256=abYzrR_slP3upTbAg3D-_nBpQkHSsqhU0fGTZTJoZgg,151
+keycloak_saml_session/__main__.py,sha256=oz1SKa8KrEGXAJJgwYqkanGQUmzeBeEHo5ZStZrfkt4,136
+keycloak_saml_session/request.py,sha256=ujgcImh2lFO-MkzTP8uPdKV_-E2zLstdwuUHLjJ6VGo,3118
+keycloak_saml_session/session.py,sha256=-aCPWC4COnKqLMnfsCfAHWkFoPLqm-G37Ph7xSN0gms,2591
+keycloak_saml_session-1.0.7.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keycloak_saml_session-1.0.7.dist-info/METADATA,sha256=0cey4xLoQ1AZ5zJPSxKf53LtUs8AF5lM4NOrPL6yWGA,646
+keycloak_saml_session-1.0.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+keycloak_saml_session-1.0.7.dist-info/entry_points.txt,sha256=6rkM1E9Fr2wymA5FcIBZGeDbfNoCDNh0cZBJfS2tUDk,78
+keycloak_saml_session-1.0.7.dist-info/top_level.txt,sha256=rkXoG7wFO-7pjf7x3DyaCi6pQDXdd4FpfWdaWNWqLnY,38
+keycloak_saml_session-1.0.7.dist-info/RECORD,,
