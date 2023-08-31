@@ -1,0 +1,259 @@
+stages:
+    - code_quality
+    - quality
+    - requirements
+    - test
+
+include:
+    -   remote: 'https://api.r2devops.io/job/r/gitlab/dorianturba/r2devops_catalog/r2_metadata/black@latest.yaml'
+    -   remote: 'https://api.r2devops.io/job/r/gitlab/dorianturba/r2devops_catalog/r2_metadata/ruff@latest.yaml'
+    -   remote: 'https://api.r2devops.io/job/r/gitlab/dorianturba/r2devops_catalog/r2_metadata/pytest@latest.yaml'
+
+variables:
+    PACKAGE_NAME: "fake_session_maker"
+ruff:
+    variables:
+        IMAGE_TAG: "3.11"
+
+black:
+    variables:
+        IMAGE_TAG: "3.11"
+
+pytest:
+    variables:
+        IMAGE_TAG: "3.11"
+        PYTHON_SETUP: "pip install ${PROJECT_PATH}[TESTS]"
+
+pytest_310:
+    extends: pytest
+    variables:
+        IMAGE_TAG: "3.10"
+
+pytest_39:
+    extends: pytest
+    variables:
+        IMAGE_TAG: "3.9"
+
+pytest_38:
+    extends: pytest
+    variables:
+        IMAGE_TAG: "3.8"
+
+pytest_37:
+    extends: pytest
+    variables:
+        IMAGE_TAG: "3.7"
+
+.install_test: &install_test
+    - python --version  # Debug
+    - python -m venv venv --upgrade-deps || python -m venv venv
+    - source venv/bin/activate
+    - pip install .[TEST]
+
+.install_quality: &install_quality
+    - python --version  # Debug
+    - python -m venv venv --upgrade-deps || python -m venv venv
+    - source venv/bin/activate
+    - pip install .[QUALITY]
+
+.requirements_script: &requirements_script
+    - python --version  # Debug
+    - python -m venv venv --upgrade-deps || python -m venv venv
+    - source venv/bin/activate
+    - git config --global user.email "${GITLAB_USER_EMAIL}"
+    - git config --global user.name "${GITLAB_USER_NAME}"
+    - pip install .
+    - pip freeze > ${CI_JOB_NAME}.txt --exclude ${PACKAGE_NAME}
+    - git add ${CI_JOB_NAME}.txt
+    - git commit -m "Update ${CI_JOB_NAME}.txt" || true
+    - git fetch origin
+    - git rebase origin/${CI_COMMIT_BRANCH}
+    - git push https://:${PROJECT_ACCESS_TOKEN}@${CI_REPOSITORY_URL#*@} HEAD:"${CI_COMMIT_BRANCH}"
+
+flake8:
+    image: python:latest
+    stage: quality
+    before_script:
+        - *install_quality
+    script:
+        - flake8
+    only:
+        changes:
+            - src/**/*.py
+            - tests/**/*.py
+            - .gitlab-ci.yml
+
+black_old:
+    image: python:latest
+    stage: quality
+    before_script:
+        - *install_quality
+    script:
+        - black . --check --diff --quiet
+    only:
+        changes:
+            - src/**/*.py
+            - tests/**/*.py
+            - .gitlab-ci.yml
+
+mypy:
+    image: python:latest
+    stage: quality
+    before_script:
+        - *install_quality
+    script:
+        - mypy
+    only:
+        changes:
+            - src/**/*.py
+            - .gitlab-ci.yml
+
+requirements_py37:
+    image: python:3.7
+    stage: requirements
+    script:
+        - *requirements_script
+    only:
+        changes:
+            - src/**/*.py
+            - tests/**/*.py
+            - .gitlab-ci.yml
+
+requirements_py38:
+    image: python:3.8
+    stage: requirements
+    script:
+        - *requirements_script
+    only:
+        changes:
+            - src/**/*.py
+            - tests/**/*.py
+            - .gitlab-ci.yml
+
+
+requirements_py39:
+    image: python:3.9
+    stage: requirements
+    script:
+        - *requirements_script
+    only:
+        changes:
+            - src/**/*.py
+            - tests/**/*.py
+            - .gitlab-ci.yml
+
+
+requirements_py310:
+    image: python:3.10
+    stage: requirements
+    script:
+        - *requirements_script
+    only:
+        changes:
+            - src/**/*.py
+            - tests/**/*.py
+            - .gitlab-ci.yml
+
+
+requirements_py311:
+    image: python:3.11
+    stage: requirements
+    script:
+        - *requirements_script
+    only:
+        changes:
+            - src/**/*.py
+            - tests/**/*.py
+            - .gitlab-ci.yml
+
+
+#requirements_py312:
+#  image: python:3.12-rc
+#  stage: requirements
+#  allow_failure: true
+#  script:
+#    - *requirements_script
+#  only:
+#    changes:
+#      - "*.py"
+
+
+py37:
+    image: python:3.7
+    stage: test
+    needs: [ "requirements_py37" ]
+    before_script:
+        - *install_test
+    script:
+        - pytest
+    only:
+        changes:
+            - src/**/*.py
+            - tests/**/*.py
+            - .gitlab-ci.yml
+
+py38:
+    image: python:3.8
+    stage: test
+    needs: [ "requirements_py38" ]
+    before_script:
+        - *install_test
+    script:
+        - pytest
+    only:
+        changes:
+            - src/**/*.py
+            - tests/**/*.py
+            - .gitlab-ci.yml
+
+py39:
+    image: python:3.9
+    stage: test
+    needs: [ "requirements_py39" ]
+    before_script:
+        - *install_test
+    script:
+        - pytest
+    only:
+        changes:
+            - src/**/*.py
+            - tests/**/*.py
+            - .gitlab-ci.yml
+
+py310:
+    image: python:3.10
+    stage: test
+    needs: [ "requirements_py310" ]
+    before_script:
+        - *install_test
+    script:
+        - pytest
+    only:
+        changes:
+            - src/**/*.py
+            - tests/**/*.py
+            - .gitlab-ci.yml
+
+py311:
+    image: python:3.11
+    stage: test
+    needs: [ "requirements_py311" ]
+    before_script:
+        - *install_test
+    script:
+        - pytest
+    only:
+        changes:
+            - src/**/*.py
+            - tests/**/*.py
+            - .gitlab-ci.yml
+
+#py312:
+#  image: python:3.12-rc
+#  stage: test
+#  needs: ["requirements_py312"]
+#  allow_failure: true
+#  before_script:
+#    - *install_test
+#  script:
+#    - pytest
