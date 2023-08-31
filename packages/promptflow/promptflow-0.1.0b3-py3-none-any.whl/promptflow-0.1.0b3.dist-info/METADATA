@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: promptflow
+Version: 0.1.0b3
+Summary: Prompt flow Python SDK - build high-quality LLM apps
+Home-page: https://github.com/microsoft/promptflow
+Author: Microsoft Corporation
+Author-email: aml-pt-eng@microsoft.com
+License: MIT License
+Project-URL: Bug Reports, https://github.com/microsoft/promptflow/issues
+Project-URL: Source, https://github.com/microsoft/promptflow
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: <4.0,>=3.8
+Description-Content-Type: text/markdown
+License-File: NOTICE.txt
+Requires-Dist: openai (<0.28.0,>=0.27.8)
+Requires-Dist: flask (<3.0.0,>=2.2.3)
+Requires-Dist: dataset (<2.0.0,>=1.6.0)
+Requires-Dist: sqlalchemy (<2.0.0,>=1.4.48)
+Requires-Dist: pandas (<2.0.0,>=1.5.3)
+Requires-Dist: python-dotenv (<2.0.0,>=1.0.0)
+Requires-Dist: keyring (<25.0.0,>=24.2.0)
+Requires-Dist: pydash (<6.0.0,>=5.1.2)
+Requires-Dist: cryptography (<42.0.0,>=41.0.3)
+Requires-Dist: colorama (<0.5.0,>=0.4.6)
+Requires-Dist: tabulate (<1.0.0,>=0.9.0)
+Requires-Dist: filelock (<4.0.0,>=3.4.0)
+Requires-Dist: marshmallow (<4.0.0,>=3.5)
+Requires-Dist: pyyaml (<7.0.0,>=5.1.0)
+Requires-Dist: gitpython (<4.0.0,>=3.1.24)
+Provides-Extra: azure
+Requires-Dist: azure-core (<2.0.0,>=1.26.4) ; extra == 'azure'
+Requires-Dist: azure-storage-blob (<13.0.0,>=12.13.0) ; extra == 'azure'
+Requires-Dist: azure-identity (<2.0.0,>=1.12.0) ; extra == 'azure'
+Requires-Dist: azure-ai-ml (<2.0.0,>=1.9.0) ; extra == 'azure'
+Requires-Dist: pyjwt (<3.0.0,>=2.4.0) ; extra == 'azure'
+
+# Prompt flow
+
+[![Python package](https://img.shields.io/pypi/v/promptflow)](https://pypi.org/project/promptflow/)
+[![License: MIT](https://img.shields.io/github/license/microsoft/promptflow)](https://github.com/microsoft/promptflow/blob/main/LICENSE)
+
+> Welcome to join us to make Prompt flow better by
+> participating [discussions](https://github.com/microsoft/promptflow/discussions),
+> opening [issues](https://github.com/microsoft/promptflow/issues/new/choose),
+> submitting [PRs](https://github.com/microsoft/promptflow/pulls).
+
+**Prompt flow** is a suite of development tools designed to streamline the end-to-end development cycle of LLM-based AI applications, from ideation, prototyping, testing, evaluation to production deployment and monitoring. It makes prompt engineering much easier and enables you to build LLM apps with production quality.
+
+With prompt flow, you will be able to:
+
+- Create executable workflows that link LLMs, prompts, Python code and other tools together.
+- Debug and iterate your flows, especially the interaction with LLMs with ease.
+- Evaluate your flow's quality and performance with larger datasets.
+- Integrate the testing and evaluation into your CI/CD system to ensure quality of your flow.
+- Deploy your flow to the serving platform you choose or integrate into your app's code base easily.
+- (Optional but highly recommended) Collaborate with your team by leveraging the cloud version of [Prompt flow in Azure AI](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/overview-what-is-prompt-flow?view=azureml-api-2).
+
+## Get Started with Prompt flow ⚡
+
+Develop your LLM apps with Prompt flow: please start with our [docs](https://microsoft.github.io/promptflow) & [examples](https://github.com/microsoft/promptflow/blob/main/examples/README.md):
+- [First look at prompt flow](https://github.com/microsoft/promptflow/blob/main/examples/tutorials/get-started/quickstart.ipynb)
+- [Tutorial: Chat with PDF](https://github.com/microsoft/promptflow/blob/main/examples/tutorials/e2e-development/chat-with-pdf.md)
+
+
+# Release History
+
+## v0.1.0b3 (2023.08.30)
+
+- Minor bug fixes.
+
+## v0.1.0b2 (2023.08.29)
+
+- First preview version with major CLI & SDK features.
+
+### Features added
+- **pf flow**: init/test/serve/export
+- **pf run**: create/update/stream/list/show/show-details/show-metrics/visualize/archive/restore/export
+- **pf connection**: create/update/show/list/delete
+- Azure AI support:
+    - **pfazure run**: create/list/stream/show/show-details/show-metrics/visualize
+
+
+## v0.1.0b1 (2022.07.20)
+
+- Stub version in Pypi.
