@@ -1,0 +1,5 @@
+PyYAML
+biopython
+pyfaidx
+pyfiglet
+tqdm
