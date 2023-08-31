@@ -1,0 +1,10 @@
+modi_flows/README.md,sha256=rdH_Y_LG_pm5xq1Nb87xVbzxMd9cCKSgIATOXlhnsHc,8407
+modi_flows/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modi_flows/dynamics.py,sha256=KXtVRfjYrTChtkkgA3CCykhBe54YLxYQ68oN5InIa04,5178
+modi_flows/initialization.py,sha256=t4dWqSytCjlYtC-sczKWbT5weC6a7v6F-eBC2pWfxvk,9362
+modi_flows/main.py,sha256=HKNFu7hsC-hEm4knQm-2pjl19UIxW7kX3HNK3ToGmns,10003
+modi_flows-0.1.7.dist-info/LICENSE,sha256=g-DyduxPsBvFjpGoAu0GAmOvXy_-j7vpza92JzPsJaA,1113
+modi_flows-0.1.7.dist-info/METADATA,sha256=SaUmIyGDDkdeeal26eD3dob3n78W3YF3Wh2LJC3qnhU,6487
+modi_flows-0.1.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+modi_flows-0.1.7.dist-info/top_level.txt,sha256=z_NdcEPiKAeIEjVq_eTj9HMYNbGD9vpQ3--y14XfHVQ,11
+modi_flows-0.1.7.dist-info/RECORD,,
