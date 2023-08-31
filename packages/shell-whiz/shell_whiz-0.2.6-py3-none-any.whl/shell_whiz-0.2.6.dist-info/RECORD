@@ -1,0 +1,12 @@
+shell_whiz/argparse.py,sha256=COuAJ7MwE8le8-n2w2Xnkg0FRJxWPXSWE3K9i2Zp8nc,510
+shell_whiz/cli.py,sha256=zrGRxQcc91SK6oE5iY7RlUzDAlJCpxfxIlenpPJjJwY,6798
+shell_whiz/config.py,sha256=66HkhBbB9qxFHRaCuuwLr6yFOqL3kiXqR9JDD1EE_wE,1837
+shell_whiz/console.py,sha256=UpMqeJ0C8i0pkue1AHnnyyX0bFJ9zZeJ7HBR6yhuA8A,54
+shell_whiz/constants.py,sha256=IbxdJk-V6_hZotcVvr_yPH33ynXByrihn_zSodPBWsQ,207
+shell_whiz/exceptions.py,sha256=z_Mq_bMy1QJQ7bvMIYiKmzlgt2YE0Tt6o2ExNU18els,152
+shell_whiz/openai.py,sha256=QmE5YELCS6u7SZomPDtHvTPfV0eM2ddYFb9VtlHFTlE,9849
+shell_whiz-0.2.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+shell_whiz-0.2.6.dist-info/METADATA,sha256=WdbseVkvCwjsSFXeYoiOlbwhTB3SgZP4tD_zzCx_MX0,4111
+shell_whiz-0.2.6.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+shell_whiz-0.2.6.dist-info/entry_points.txt,sha256=gT5fAEmAenSEetU8E5qmspmVM8SBVtXDjDY3OaskCiA,41
+shell_whiz-0.2.6.dist-info/RECORD,,
