@@ -1,0 +1,3 @@
+[console_scripts]
+langchain-xfyun-server=langchain_xfyun.server:main
+
