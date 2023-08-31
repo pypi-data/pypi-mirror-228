@@ -1,0 +1,3 @@
+[console_scripts]
+repository_generator=repository_generator.generator:main
+
