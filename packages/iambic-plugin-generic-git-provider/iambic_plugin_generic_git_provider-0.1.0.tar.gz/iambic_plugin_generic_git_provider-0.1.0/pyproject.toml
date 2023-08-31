@@ -1,0 +1,47 @@
+[build-system]
+requires = [ "poetry-core",]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+# Ensure that all other pyproject.toml files in this repository have the same isort settings
+known_first_party = ["iambic"]
+src_paths = ["iambic","test","functional_tests","build_utils"]
+known_third_party = ["_pytest", "okta", "github", "pydantic", "rich"]
+profile = "black"
+add_imports = ["from __future__ import annotations"]
+skip_gitignore = true
+line_length = 88
+
+
+[tool.poetry]
+name = "iambic-plugin-generic-git-provider"
+packages = [
+    { include="iambic", from="." },
+]
+version = "0.1.0"
+license = "Apache-2.0"
+description = "Run iambic inside a AWS Lambda with generic git provider that supports repository clone via https"
+authors = ["Noq Software <hello@noq.dev>"]
+readme = "README.md"
+exclude = ["build_util/*"]
+include = []
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "^1.26.95"
+"ruamel.yaml" = "^0.17.21"
+iambic-core = "^0.11.73"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+flake8 = "^6.0.0"
+isort = "^5.12.0"
+pre-commit = "^3.2.0"
+pycryptodome = "^3.17"
+pytest = "^7.2.2"
+pytest-asyncio = "^0.21.0"
+pytest-cov = "^4.0.0"
+pytest-mock = "^3.10.0"
+pytest-xdist = "^3.2.1"
+pytest-rerunfailures = "^11.1.2"
+moto = {extras = ["all"], version = "^4.1.5"}
