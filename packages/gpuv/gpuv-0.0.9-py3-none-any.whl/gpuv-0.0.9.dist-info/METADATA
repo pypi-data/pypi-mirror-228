@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: gpuv
+Version: 0.0.9
+Summary: gpu visualization
+License: Apache License
+Author: CambioML
+Author-email: wanwanaiai45@gmail.com
+Maintainer: Jared Wilber
+Maintainer-email: jared@cambioml.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: flask (==2.3.3)
+Requires-Dist: flask-cors (==4.0.0)
+Requires-Dist: pynvml (==11.5.0)
+Requires-Dist: typer (==0.9.0)
+Description-Content-Type: text/markdown
+
+# gpuv
+Visual dashboard on top of nvidia-smi/gpustat.
+
+## pip install and use
+```
+pip3 install gpuv
+gpuv start
+```
+
+## dev setup and use
+```
+pip3 install poetry
+poetry install --no-root
+python -m gpuv -s
+```
+
+## Release python package:
+
+```
+poetry publish --build
+```
+Then find new version [here](https://pypi.org/project/gpuv/#history) and install.
+
