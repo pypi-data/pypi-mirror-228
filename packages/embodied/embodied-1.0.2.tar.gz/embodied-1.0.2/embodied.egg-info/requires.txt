@@ -1,0 +1,16 @@
+cloudpickle
+colored
+gputil
+msgpack
+numpy
+psutil
+ruamel.yaml
+tensorflow-cpu
+zmq
+
+[dreamerv3]
+chex
+jax[cuda12_pip]
+jaxlib
+optax
+tensorflow_probability
