@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: rouge-mongolian
+Version: 1.0.1
+Summary: 蒙古文ROUGE评价工具
+Author: Han yongshun
+Author-email: hys971030@163.com
+License: MIT
+Keywords: python,rouge,mongolian,windows,mac,linux
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+本工具包为蒙古文ROUGE评价指标工具。能够通过“᠃ “，”︖“，“！”等蒙古文的句子结尾符号来分割句子。
