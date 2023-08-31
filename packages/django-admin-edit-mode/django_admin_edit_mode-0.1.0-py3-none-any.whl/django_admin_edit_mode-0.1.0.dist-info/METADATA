@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: django-admin-edit-mode
+Version: 0.1.0
+Summary: Provides a possibility to open objects in django-admin in read-only mode by default, with a special button "Go to edit mode" to open the same change-object page in regular editable mode.
+License: MIT
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Django (>=2)
+Requires-Dist: django-spurl (==0.6.7)
+Description-Content-Type: text/markdown
+
+# djang-admin-edit-mode
+
+The intention of this library is provide a possibility to open objects in django-admin in read-only mode by default,
+with a special button "Go to edit mode" to open the same change-object page in regular editable mode.
+
+Why read-only mode in the beginning is needed ? For some applications, django-admin serves mostly for reading the info.
+Readonly mode looks better, doesn't allow to make some changes accidentially, and the page loads quicker (no need to load a list of choices for the fields).
+
+But despite this, sometimes you want to change the object. Then you can go to edit mode!
+
+
+## Installation
+
+* `pip install -e git+https://github.com/mihasK/djang-admin-edit-mode.git#egg=django_admin_edit_mode`
+* Add `'django_admin_edit_mode'` to `INSTALLED_APPS`, **before `'django.contrib.admin'`**. Order matters for template loading!
+* Install and add `'spurl'` to `INSTALLED_APPS`.
+* Check that `'APP_DIRS'` is `True` in `TEMPLATES` settings.
+
+
+## Usage
+
+Use the mixins for the model admins you want to have "readonly by default and edit by clicking button" mode:
+
+```python
+import django_admin_edit_mode.admin
+
+
+@admin.register(models.Respondent)
+class RespondentAdmin(django_admin_edit_mode.admin.EditModeAdminMixin,
+                      admin.ModelAdmin):
+    ...
+    
+```
+
