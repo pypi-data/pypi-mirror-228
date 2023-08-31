@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: steam-inventory
+Version: 1.0.0
+Summary: A simple python package that uses proxies to bypass steam's rate limits on their game inventory API.
+Home-page: https://github.com/purplebarber/steam-inventory
+Author: Purple Barber
+Author-email: 
+License: MIT
+Keywords: steam inventory,steam,steam inventory api,steam inventory api bypass,steam inventory bypass
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+
+UNKNOWN
+
