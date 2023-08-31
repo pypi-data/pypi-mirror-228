@@ -1,0 +1,9 @@
+investec_api_python/__init__.py,sha256=rFqy_k7A6lPFrXkoUYm6qDMgQRtyyRPDTD2NV0z9LxM,291
+investec_api_python/client.py,sha256=snYywJ8L7patdiszDLHLjA_yxtzRXKqG92cBkIMJeZg,790
+investec_api_python/http_api_client.py,sha256=nWIPmFBxWS8iHZPRVzBAz-vIsZNqA4AExA_7boZ47i8,3947
+investec_api_python/sa_card_code.py,sha256=O71yVXw4oBQI-OqhTiODlDR62qEOsyp3jhmeQIgLlEw,282
+investec_api_python/sa_pb_account_information.py,sha256=H2PWoi1lic3LjTZbxlmWCe44tFV-aFEzwKfyIAtZid8,2381
+investec_api_python-0.1.0.dist-info/LICENSE,sha256=DMVaC7GqJJPxpCktRaiDTPJejTPHeDisjHYqfIUlgt0,1066
+investec_api_python-0.1.0.dist-info/METADATA,sha256=N7soKGonGCNkJa2BTdKjIWfvkRuFDJtxlM3gwzn5vEg,6022
+investec_api_python-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+investec_api_python-0.1.0.dist-info/RECORD,,
