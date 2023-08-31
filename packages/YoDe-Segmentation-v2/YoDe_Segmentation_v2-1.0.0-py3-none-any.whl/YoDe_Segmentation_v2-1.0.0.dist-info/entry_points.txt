@@ -1,0 +1,2 @@
+[console_scripts]
+yode_seg = YODE_Segmentation.predict_molecular:run_main
