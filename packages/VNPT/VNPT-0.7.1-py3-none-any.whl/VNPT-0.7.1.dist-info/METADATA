@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: VNPT
+Version: 0.7.1
+Summary: A toolkit for noise project on python
+Home-page: https://github.com/Viyyy/NPT
+Author: Re.VI
+Author-email: another91026@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: pymssql
+Requires-Dist: pandas
+Requires-Dist: sqlalchemy
+
