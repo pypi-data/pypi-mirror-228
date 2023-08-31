@@ -1,0 +1,16 @@
+tc_aws_video/__init__.py,SHA256=h0AxxhdspLFICSV_m7Dj0rUg-q7sFaZUslYIeQqpUcM,1848
+tc_aws_video/s3_video_loader.py,SHA256=DmejNXJC9mSZUja4HIfduZH1vThwsM4mrUgb9NkDgQE,4039
+tc_aws_video/aws/__init__.py,SHA256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tc_aws_video/aws/bucket.py,SHA256=PIkjhwaeGXf9mc6I-PPcklZw6pg-BkR08bQQRfycC6Y,5803
+tc_aws_video/loaders/__init__.py,SHA256=EMTYSfM9a6M4bCvLonhu38Kd4TtQtAnNu9hkIID6wTI,2520
+tc_aws_video/loaders/s3_video_loader.py,SHA256=acSriFyMaMMe-5uZEhkKZhBi1WRjruEj133DJ7wcgBc,4203
+tests/__init__.py,SHA256=3fzR10uezX5C3CXI4fQCKE-dBvG-kCrx0FgySFzKU3k,3154
+tests/test_loader.py,SHA256=rL3DFzys7J83zB0BqFp0maw8LT6W8N2Ih7DHLJmTpZo,1248
+tests/test_s3_video_loader.py,SHA256=prUKce6q2Gga2Zjybj1Wi_G-utNQaSB4jFFdffZBFsw,1584
+tests/fixtures/__init__.py,SHA256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/fixtures/storage_fixture.py,SHA256=A7hnQufvqYqaBQg4FrGyAdu87Ao-pzdNnW-k4X7fLbs,879
+tc_aws_video-1.1.2.dist-info/LICENSE,SHA256=M6TwpgYlr87AprUSm3C6kCCw0aeEiWucoYT_8Y1hBSk,1071
+tc_aws_video-1.1.2.dist-info/METADATA,SHA256=J_594t1M-63cVadbglXguZ1f1fHBHRzpeR7hT2JQdVA,3097
+tc_aws_video-1.1.2.dist-info/WHEEL,SHA256=1VPi6hfNQaRRNuEdK_3dv9o8COtLGnHWJghhj4CQ28k,92
+tc_aws_video-1.1.2.dist-info/top_level.txt,SHA256=5_l0O24ri8byDomojZLrv-arGZokLP5eJQ6KVGa1k8o,19
+tc_aws_video-1.1.2.dist-info/RECORD,,
