@@ -1,0 +1,13 @@
+virtualenv_cache/__init__.py,sha256=oxu3ZToa9f8ehhYNFBhXNWW-fgdDbXMQKsnLWB1_xcE,510
+virtualenv_cache/_cache.py,sha256=17RkR_8wOH_cAuER9ZcFVDRdIoe18RCqXOqPD5su63k,6185
+virtualenv_cache/_config.py,sha256=kzTe7GKRZu7BRdzx8nunytlYXxC7WuuhUQZcoChrL8w,3569
+virtualenv_cache/_exceptions.py,sha256=UhumCLJZ9-LNM9TKh6C7ZNIPpElLrlrm5VbpPH65KTQ,410
+virtualenv_cache/cli.py,sha256=lc_oX7BtyOZbw0hfV_N6s5fkE-JBaxUabJDgALTFU-0,6495
+virtualenv_cache/utils.py,sha256=c7jr34bvSKuQvkmeAhAsFxddW7vKPamdKAvlV50aLB4,439
+virtualenv_cache/data/default_virtualenv_cache.toml.template,sha256=6J1Y0am5d5ldfoU-M2p7gnYj74_VbcRK8kz_j0Zedkw,406
+virtualenv_cache-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+virtualenv_cache-0.0.2.dist-info/METADATA,sha256=KUp_5m_WIFVhMxPPcnsb0U-hJFR8mmtA8UGeyG1itaQ,6522
+virtualenv_cache-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+virtualenv_cache-0.0.2.dist-info/entry_points.txt,sha256=WTZIrk5lvjSSW-k8ov1Ri9KZt1go7DXHWgShmxwva4Y,62
+virtualenv_cache-0.0.2.dist-info/top_level.txt,sha256=ODblepwew-UWzpLxN-0c0S-9wE1fG4ZlgnoNMN7y0zg,17
+virtualenv_cache-0.0.2.dist-info/RECORD,,

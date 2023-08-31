@@ -1,0 +1,2 @@
+[console_scripts]
+virtualenv-cache = virtualenv_cache.cli:cli
