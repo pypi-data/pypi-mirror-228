@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: comdinheiro
+Version: 0.1.6
+Summary: Interact with comdinheiro's API
+Home-page: https://github.com/thomas-yasuoka/comdinheiro
+Download-URL: https://github.com/thomas-yasuoka/comdinheiro/archive/refs/tags/v0.1.6.tar.gz
+Author: Thomas Yasuoka
+Author-email: thomas.yasuoka@outlook.com
+License: GNU General Public License v2 (GPLv2)
+Keywords: api,comdinheiro
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: numpy
+Requires-Dist: pandas
+
