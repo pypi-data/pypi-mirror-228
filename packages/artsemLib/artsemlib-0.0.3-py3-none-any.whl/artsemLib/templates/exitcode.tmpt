@@ -1,0 +1,98 @@
+Header
+%
+import logging
+import os.path
+from tinydb import TinyDB, Query
+
+
+# Auto-generated file. Modify install_dir/conf/exitcodes.csv instead
+
+__install_dir__ = ''
+
+def search_exitcode_by_id(exitcode: int) -> list:
+    assert __install_dir__ not in ['', None], "__install_dir__ not specified"
+    return TinyDB(os.path.join(*'../../config/db.json'.split('/'))).table('Exitcodes').search(Query().id == int(exitcode))
+
+
+def stringify_exitcode(exitcode: int, detail=None):
+    detail = f":\\n{detail}" if detail is not None else ''
+    if isinstance(exitcode, int):
+        excode = search_exitcode_by_id(exitcode)
+        if excode is None or len(excode) == 0:
+            raise ValueError(f"Specified ProbeID ({exitcode}) does not exists")
+            # logging.error(f"Specified ProbeID ({exitcode}) does not exists")
+        return f"{excode[0]['id']}: {excode[0]['desc']}{detail}"
+    else:
+        logging.error("Unexpected type for parameter 'exitcode'. Allowed: int")
+        return None
+
+
+def warning(exitcode, detail=None):
+    logging.error(stringify_exitcode(exitcode, detail))
+
+
+%%%
+ErrorClass
+%
+class &errlabel&(Exception):
+    def __init__(self, detail, kill=True):
+        logging.error("""&errid&:&errdesc&. """ + detail)
+        if kill:
+            exit(&errid&)
+%%%
+Probe
+%
+#!/usr/bin/env python3
+
+import json
+import logging
+import sys
+
+
+def _parse_args(argv):
+    try:
+        return {'epath': argv[1], '_conf': json.loads(sys.argv[2])}
+    except Exception:
+        logging.exception("Unexpected error parsing arguments")
+
+
+if __name__ == '__main__':
+    env = _parse_args(sys.argv)
+
+    # Do your magic here
+    raise NotImplementedError("TODO: implement the probe")
+%%%
+Parser
+%
+#!/usr/bin/env python3
+import json
+import logging
+import os.path
+import sys
+
+
+# import importlib
+# import sys
+# sys.path.append('..')
+# report = importlib.import_module('report', package='..')
+
+# from artsem import report
+
+def _parse_args(argv):
+    try:
+        return {
+            'source': argv[0],
+            'report_name': argv[2] if len(argv) >= 3 else '',
+            'template': argv[4] if len(argv) >= 4 else ''
+        }
+    except Exception:
+        logging.exception("Unexpected error parsing arguments")
+
+
+if __name__ == '__main__':
+    env = _parse_args(sys.argv)
+    # args = report.parse_args(__file__)
+    logging.debug(f"parser env: {env}")
+    # args.source, args.report_name, args.template
+
+    raise NotImplementedError(f"TODO: implement {os.path.basename(os.path.dirname(__file__))} formatter")
