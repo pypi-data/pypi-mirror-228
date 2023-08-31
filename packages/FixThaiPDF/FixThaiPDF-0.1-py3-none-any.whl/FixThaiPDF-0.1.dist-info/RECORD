@@ -1,0 +1,10 @@
+fixthaipdf/__init__.py,sha256=V9gO5ubDJMQFjWS0AvCrzK2krOmXq5pexaqzfHfluoU,633
+fixthaipdf/core.py,sha256=GpLbfNAjGF6RYxCf25uCw5VRfxDkywa6fyKcSoRChdY,3217
+fixthaipdf/dict.py,sha256=DgnJuf5wMm27Qywm2oPH9SUvJHHi1cvvPmll4CM68WE,4145
+tests/__init__.py,sha256=lJYbpxVmVbnhhGetCOt7HPW6n7mUMDUrfKYhTDitiC4,230
+tests/test_clean.py,sha256=ZykrfkjfzTLsZ5N_1rU2-mEaY6K89BZqluzN8MDrBF8,5151
+FixThaiPDF-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+FixThaiPDF-0.1.dist-info/METADATA,sha256=VA-kokfyu9YK__sKSccPjGs-8uZmI14X0J1ovwPGGh4,1855
+FixThaiPDF-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+FixThaiPDF-0.1.dist-info/top_level.txt,sha256=37N4KnHGRnGRCaZT-8gC8zyp02IDM_UOO3ZYTEHayEk,17
+FixThaiPDF-0.1.dist-info/RECORD,,
