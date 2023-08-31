@@ -1,0 +1,6 @@
+Fetch
+gitGet
+gitHead
+gitPut
+optionsRepository
+pushRules
