@@ -1,0 +1,11 @@
+{% extends "se/base.html" %}
+
+{% block top_bar %}
+    {% include "se/cached.html" %}
+{% endblock %}
+
+{% block body %}
+    {% if content %}
+        {{ content }}
+    {% endif %}
+{% endblock %}

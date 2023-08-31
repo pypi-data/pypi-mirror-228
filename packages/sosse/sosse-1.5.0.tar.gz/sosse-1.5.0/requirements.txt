@@ -1,0 +1,15 @@
+bs4
+cssutils
+defusedxml
+django<4
+django-uwsgi
+html5lib
+langdetect
+lxml
+pillow
+psycopg2
+publicsuffix2
+pygal
+python-magic
+requests
+selenium<4.11
