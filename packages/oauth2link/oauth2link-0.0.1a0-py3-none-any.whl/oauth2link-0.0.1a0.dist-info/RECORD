@@ -1,0 +1,17 @@
+oauth2link/__init__.py,sha256=fSJBHux8HGzVIIM1a0cw8GDDuRDxjrckEuc26v0k7bY,1119
+oauth2link/types.py,sha256=0BydkJTkf63XCzFoe8dCntH5FEMkpzGARLT5EIL8PvY,1165
+oauth2link/utils.py,sha256=7SiipbR2kQ27XLYiJTlkRXDtmkxW-Ag94evp5Ra1k-0,1717
+oauth2link/callback/__init__.py,sha256=WQWZgKq6nrTSwv1V0m8hF0p7RwmM_2fnteA2fUZDKxQ,1327
+oauth2link/callback/callback.py,sha256=ZnKqgP3vhuv71G4krvz8x8oDXYPY6uHMMmjX8HpxDSU,1743
+oauth2link/callback/github_callback.py,sha256=qRlL3Wgj7_a_Iyi58Gyp2lr-SebHtFTMJgKjHzqsx4I,1216
+oauth2link/callback/weibo_callback.py,sha256=IyOXjZsd6YC7CxT3-5paGBKF__cjI_qCWIlSlGXD-xQ,1215
+oauth2link/platform/__init__.py,sha256=jQqTQkxdZuy36mcqsRN19lpob8pBrJvknL8RYrsAfHQ,1273
+oauth2link/platform/github_platform.py,sha256=O2lyn6yzwtgRVGAV91RSTGSCnRtPuEU3MmBDusEG3s8,4762
+oauth2link/platform/platform.py,sha256=nx2NKF4N-YMG07_6xsGyWA_dnj6Smpxzb2WULIVM-r8,6339
+oauth2link/platform/weibo_platform.py,sha256=9bvw5twEiq7EkHAZxywSDS2XJSrAX2ySWWC_eT2SuZA,4881
+oauth2link/storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oauth2link-0.0.1a0.dist-info/LICENSE,sha256=FXr8F6wm6dk9rxduIjT7Ng9MfCPMstiIGjY3VJ6o9zI,1086
+oauth2link-0.0.1a0.dist-info/METADATA,sha256=OmyK1b8dsm3Xgrj1xl3Vm85h1e_K30k6tyKEjxUr7l8,2045
+oauth2link-0.0.1a0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+oauth2link-0.0.1a0.dist-info/top_level.txt,sha256=VnFizlBIbi03O-SW2RbK1gxp3BDrcuIsTQep80P_cGg,11
+oauth2link-0.0.1a0.dist-info/RECORD,,
