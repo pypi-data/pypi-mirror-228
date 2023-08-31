@@ -1,0 +1,16 @@
+py_tailwind_utils/__init__.py,sha256=81A8S5WbWV3Ij488ScWUWtbzB4b2atI2xl0ohWUjvYU,3836
+py_tailwind_utils/colors.py,sha256=PyFO3z5wS5elLSO8YseE7ioy1rZNbHdfjyeLKToCSxU,3808
+py_tailwind_utils/common.py,sha256=-TqUav-5myLJuesNPZrntppxi8Nl-VfG_NpKCMKLtC4,12504
+py_tailwind_utils/dpathutils.py,sha256=mFBJB9I_OvGa-inEtpverfe557PgQIZd7utN2dTh5wg,12119
+py_tailwind_utils/modifiers.py,sha256=IJ7hts6NP7kjzmKJILMD4arxO-eZRI7cXnW3cBXf0c8,2568
+py_tailwind_utils/palette-v2x.json,sha256=xwjP3MfLNzy906mG6H206hBFXOkaEpKqCKB_gl8hTbI,6210
+py_tailwind_utils/styClause.py,sha256=vcGbs9ozSaHUTwiLyfZU9XUFW62yBijZVplmarDOZlg,7178
+py_tailwind_utils/style_tags.py,sha256=8-KVgzjYJhJeOoQDVc2aAoilLE6q4Hv1CMb8eZAr_0g,5778
+py_tailwind_utils/style_values.py,sha256=WLrP3tIQ86p7XwLBxpXH4EBI16lmjylNKmqn6aKJiBA,10690
+py_tailwind_utils/style_values_noop.py,sha256=rGwQtire_cLQcqU64y5LOjq2fcTkk6Ep0nbM6-rTR-M,20786
+py_tailwind_utils/utils.py,sha256=YjlTTrWskPipa_zvFbh-Yg1lXzwaZyoBvY49Ye-EXI4,2532
+py_tailwind_utils/valuetags.py,sha256=utcY9Tp9gXYTuTuQu_plqu_4rNHuIAKtRGYfS7pMqWY,1655
+py_tailwind_utils-1.1.1.dist-info/LICENSE,sha256=bElVzU4_sOcbsOKkmACv0w0jiQZ8pjTIaTnTcBnGv0A,1070
+py_tailwind_utils-1.1.1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+py_tailwind_utils-1.1.1.dist-info/METADATA,sha256=kPljhvCPjs513oepbcOzAw68H5Molww9ink3Lz7xr_Y,48834
+py_tailwind_utils-1.1.1.dist-info/RECORD,,
