@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+gosimplepack/__init__.py
+gosimplepack/geometry.py
+gosimplepack/hello.py
+gosimplepack/operations.py
+gosimplepack.egg-info/PKG-INFO
+gosimplepack.egg-info/SOURCES.txt
+gosimplepack.egg-info/dependency_links.txt
+gosimplepack.egg-info/requires.txt
+gosimplepack.egg-info/top_level.txt

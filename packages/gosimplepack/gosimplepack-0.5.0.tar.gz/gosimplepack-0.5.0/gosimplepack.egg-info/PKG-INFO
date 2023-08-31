@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: gosimplepack
+Version: 0.5.0
+Summary: Simple project that do basic math calculation.
+Home-page: https://github.com/3ekodomo/gosimplepack
+Author: 3ekodomo
+Author-email: 3ekodomo@skiff.com
+Keywords: simple,pythonpackage,example,3ekodomo
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# simple heiiiioptgh package
+
+## usage example
+
+```py
+from gosimplepack import circle_area
+ans = circle_area(7)
+print(ans)
+```
+
+> 153.93804002589985
+
+## Other example
+### Addition
+
+```py
+from gosimplepack import add, subtract, divide
+addn = add(5, 6)
+print(addn)
+```
+
+> 11
+
+### Subtract
+
+```py
+from gosimplepack import add, subtract, divide
+subn = subtract(10, 6)
+print(subn)
+```
+
+> 4
+
+### multiply
+
+```py
+from gosimplepack import add, subtract, multiply
+subn = subtract(10, 6)
+print(subn)
+```
+
+> 60
+
+### divide
+
+```py
+from gosimplepack import add, subtract, multiply
+divn = divide(10, 6)
+print(divn)
+```
+
+> 1.6666666666666667
+
+made by [3ekodomo](https://github.com/3ekodomo).
