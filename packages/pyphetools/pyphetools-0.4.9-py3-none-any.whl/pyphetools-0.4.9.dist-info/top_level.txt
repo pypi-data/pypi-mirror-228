@@ -1,0 +1,4 @@
+build
+docs
+ppt_venv
+pyphetools
