@@ -1,0 +1,8 @@
+hoptex/__init__.py,sha256=B-S-Bd8GTJYkT0DoTU-v1zzBnbC23eMKw1aK1BBHrAg,115
+hoptex/configs.py,sha256=bG8GJxxo-D8n-oRw4dCrJmvtGCLMRkWGyWXzkAofsq8,1391
+hoptex/decorator.py,sha256=I41J3ObGIC3mDSaq8K0FFaA5CBJ926hss_u7riWh6v0,2653
+hoptex/hop_screen.py,sha256=8zTZpjoznjx857P-0rEdQZ5rePoAMaO83Vi0aKmpyFQ,1448
+hoptex/utils.py,sha256=4jOkh-_dAVc9KAIIkSbXoS6083gt6bPYsirssOkb05E,1183
+hoptex-0.1.0.dist-info/METADATA,sha256=5dfhDJdAJ5JspxaSFLbBTVp7RC7FkVIMgxwy73J96zc,4551
+hoptex-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+hoptex-0.1.0.dist-info/RECORD,,
