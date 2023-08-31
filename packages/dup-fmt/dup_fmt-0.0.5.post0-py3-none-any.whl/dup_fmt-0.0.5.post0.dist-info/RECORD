@@ -1,0 +1,13 @@
+dup_fmt/__about__.py,sha256=OK-6IrkrgaaXJIpprmiuF3bfjuWPa6GLB6IG9DCZd0w,92
+dup_fmt/__init__.py,sha256=HnJ4hZcaKg_wfcSa-uS3sbGRVVYR6Rc5KQIkJd55nvM,1089
+dup_fmt/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+dup_fmt/cli.py,sha256=q_8UncF9sZ7W6_3UOHS1jN-lqawZ07A-R8CnZeuX_lI,2336
+dup_fmt/exceptions.py,sha256=HkqeE72u4gFoXQXeN-LsduHPsQ7HUWoApDVf9XvHnrc,2198
+dup_fmt/formatter.py,sha256=lu6oU8fkKdxh58voBhpSkLTkZx4KLUNp0kTvwgQuJ8c,76669
+dup_fmt/objects.py,sha256=-urFpUTevzqe3bHiRXLy0xUrady1Dd2yv7alTD_Qgow,6548
+dup_fmt/utils.py,sha256=_0fzD0Lgh9HZ1OR1kfO1XHXKX-gte00xmrm7AprEOVI,485
+dup_fmt-0.0.5.post0.dist-info/METADATA,sha256=UlrUM131USzOE2R5ApmezpwcoRqaVcaEeaU49ejKIok,11224
+dup_fmt-0.0.5.post0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+dup_fmt-0.0.5.post0.dist-info/entry_points.txt,sha256=vDQTXF-jIDP-1WTK4wbOT3pj1tPKM2N0-xnr7GfJj1c,46
+dup_fmt-0.0.5.post0.dist-info/licenses/LICENSE,sha256=ya1kgjiTc2fqGDilFpcWcm_ImOAiZhRfctlAX-DsyW4,1073
+dup_fmt-0.0.5.post0.dist-info/RECORD,,
