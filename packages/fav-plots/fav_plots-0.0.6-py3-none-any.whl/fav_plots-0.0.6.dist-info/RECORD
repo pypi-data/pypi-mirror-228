@@ -1,0 +1,10 @@
+fav_plots/__init__.py,sha256=UwR0idQSHgdEemLAk-o2bPOXYWCj-lyyQzAPFRLbziA,21
+fav_plots/bars.py,sha256=BbJfLdahLFail8y-LB_NdUf_Bjs3HiwpYGKK56yj1p0,844
+fav_plots/box.py,sha256=RgrgVCP6KiCFEARo5ACYdgQWcuCgnElKBLti2utfX3Y,950
+fav_plots/lines.py,sha256=B_f4N3HkF23rzb_nvAuG-1pG5_M7f_umrfKAnt0vd1w,1217
+fav_plots/utils.py,sha256=vHBvacXPx-9PFKfWdzVClbJ_zQ8npemfou6rawpgrq0,163
+fav_plots-0.0.6.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+fav_plots-0.0.6.dist-info/METADATA,sha256=XD6CbiGPT0xylepTrn5AhE4q0SdXu5q6o2KgBz3HTTc,1180
+fav_plots-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fav_plots-0.0.6.dist-info/top_level.txt,sha256=cU3tvVXoWtfi3RBupqflgn0zh5-9Ee-y2b_LhFANuLY,10
+fav_plots-0.0.6.dist-info/RECORD,,
