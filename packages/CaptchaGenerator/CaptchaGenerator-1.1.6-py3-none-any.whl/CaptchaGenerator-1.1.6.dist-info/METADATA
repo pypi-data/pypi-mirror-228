@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: CaptchaGenerator
+Version: 1.1.6
+Summary: A library for captcha generator for Telegram bots
+Home-page: UNKNOWN
+Author: Sepehr0Day
+Author-email: sphrz2324@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow
+Requires-Dist: colorama
+Requires-Dist: gTTS
+
+<a href='https://github.com/Sepehr0Day/CaptchaGenerator'>Documents is Available on Github</a>
+
