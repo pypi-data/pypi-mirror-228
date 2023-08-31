@@ -1,0 +1,16 @@
+matspy/__init__.py,sha256=f_LnJHbT1bWGtqSp_KFaSLyMoaKE4nFM0RhFcb4g2TM,5608
+matspy/spy_renderer.py,sha256=Xl_xBNJrkemnqY9MYruOGchIE68A_N7kWz9IXieSeQM,8716
+matspy/adapters/__init__.py,sha256=BOXPaoI1P0m7btL6Sc1OVKhzyvvbHu086OrqsC0olDo,2897
+matspy/adapters/graphblas_driver.py,sha256=_B8Lr3UG0zwkiTPBlZLFiukUpgjV3EupmNsLELr1o7c,534
+matspy/adapters/graphblas_impl.py,sha256=xMpOI6XOKI-RMQLJtIgkZVVudFY1NMdzJRXsrZ2_-ek,2371
+matspy/adapters/numpy_driver.py,sha256=vOUwAHRF6-OLBCE-4fCixjdN7GrTkLsT6x3BRiVeuNo,514
+matspy/adapters/numpy_impl.py,sha256=tRoUkELq7aQDy7XvqVacqN07ZEfsiEnxOtBaJnSspyE,1601
+matspy/adapters/scipy_driver.py,sha256=85BXgukbQdhblXRPUsee9qcML0ad8mm12bPIx9MDEuM,521
+matspy/adapters/scipy_impl.py,sha256=nwzCmeUJijaNp_Cy7qT_MgbII235_oHVLczC3-LF8Bg,1848
+matspy/adapters/sparse_driver.py,sha256=RqLKk1x2mcMyNTa8gRn8aTjU0qqT0hOtRqoWZr1U9FY,537
+matspy/adapters/sparse_impl.py,sha256=7cCpFq6tZtpeJ4JrwIVYsff0ZbXnt6fecN61xSL-7Zo,2139
+matspy-0.7.dist-info/LICENSE.txt,sha256=Jn1rOt4na2FlVjoNSgWxibnsb7SREzEPyjQNe-BLkb0,1270
+matspy-0.7.dist-info/METADATA,sha256=eKGFcHiRCHro19rfNFN40CYRc7YwTGcBHivUi-_abAA,6182
+matspy-0.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+matspy-0.7.dist-info/top_level.txt,sha256=pvtxcnp7GLG9TvxfW06XOyyg6GfyXz22bGk7DBmGzTY,7
+matspy-0.7.dist-info/RECORD,,
