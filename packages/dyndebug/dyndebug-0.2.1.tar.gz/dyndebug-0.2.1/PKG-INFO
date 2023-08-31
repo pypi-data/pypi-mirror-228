@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: dyndebug
+Version: 0.2.1
+Summary: A library to dynamically enable debug through configuration
+License: MIT
+Author: aurecon
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# DynDebug - Dynamic Debug
+
+This library provides the ability to dynamically enable or disable debug through environment configuration.
+
+## Usage
+
+Use the factory method to create a debug instance.  You provide a `context` value which is used to enable/disable debug through configuration.
+```
+debug = Debug('MyContext1')
+```
+
+Use the debug instance to produce debug content
+```
+debug('This is some debug')    
+```
+
+Enable the debug at run time by setting the DEBUG environment property to the list of contexts for which you want debug enabled.
+```
+export DEBUG=MyContext1,MyContext2,...
+```
