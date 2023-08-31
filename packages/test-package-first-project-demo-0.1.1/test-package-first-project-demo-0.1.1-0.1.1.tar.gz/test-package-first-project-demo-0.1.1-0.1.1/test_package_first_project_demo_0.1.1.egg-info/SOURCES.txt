@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+my_package/__init__.py
+test_package_first_project_demo_0.1.1.egg-info/PKG-INFO
+test_package_first_project_demo_0.1.1.egg-info/SOURCES.txt
+test_package_first_project_demo_0.1.1.egg-info/dependency_links.txt
+test_package_first_project_demo_0.1.1.egg-info/top_level.txt
