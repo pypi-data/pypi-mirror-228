@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+pluginframeworksupports.egg-info/PKG-INFO
+pluginframeworksupports.egg-info/SOURCES.txt
+pluginframeworksupports.egg-info/dependency_links.txt
+pluginframeworksupports.egg-info/requires.txt
+pluginframeworksupports.egg-info/top_level.txt
