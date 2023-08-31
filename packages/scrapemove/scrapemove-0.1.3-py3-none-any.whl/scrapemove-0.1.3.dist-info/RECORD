@@ -1,0 +1,13 @@
+scrapemove/__init__.py,sha256=niqp0NB017UeFuqC61UE1j2EOGSaWMF9QsXYKj71DUQ,132
+scrapemove/cli.py,sha256=5c6D9nlq7qvGLhGsKr5lgNj6Jn9BE76OBcz--F6YugM,780
+scrapemove/models/__init__.py,sha256=QV6ZUGiXSiqyK58QqZaAmUAj1xHUPv33iZJtSVilDgU,354
+scrapemove/models/combined_details.py,sha256=JS3aSJrza5FqMV6j62dV8K62-ocowzMTvNslmFacqgo,366
+scrapemove/models/common.py,sha256=iMIggvdw5oDYPSd1p8MKQyWnwfHKuls1ZdxJENC7t5o,764
+scrapemove/models/property_details_screen.py,sha256=3HkzU2VfnzXOZTP0QwRNWQ9v5-QOn0Af71cijE9X__M,1722
+scrapemove/models/results_screen.py,sha256=4XMGncw8KB-VTCb1rEqYnR8QcwKUzeXl-tlLqpBqRFw,1737
+scrapemove/scrapemove.py,sha256=tbJE4E9Y6sgyTuKhwHLBc62-nBx47TRhhoOU8uuHocg,3679
+scrapemove-0.1.3.dist-info/entry_points.txt,sha256=V_Xcs8vxnqkpWqQtmfBEPd1VwN-XTxKSWCilIB5T7Sk,50
+scrapemove-0.1.3.dist-info/LICENSE,sha256=qCwsbwo31Y6w5jbSZNe3hELtVzlR8AI4KtAMtI1OALc,1068
+scrapemove-0.1.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+scrapemove-0.1.3.dist-info/METADATA,sha256=m2Sju1bGXpwjy8qGl7a-Xs4g4OMsiRzvb3Zx5KkQbW8,2207
+scrapemove-0.1.3.dist-info/RECORD,,
