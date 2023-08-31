@@ -1,0 +1,14 @@
+%YAML 1.2
+---
+disable_animation: false
+exclude: "[./.*, ./__*]"
+hardware: GPU
+include: "[./*, main.py, requirements.txt, pkglist.txt, conda_pkglist.txt]"
+log_level: INFO
+Item:
+    prompt: "str",
+    temperature: "Optional[float] = 0.5"
+    top_p: "Optional[float] = 0.75"
+    top_k: "Optional[float] = 40"
+    num_beams: "Optional[int] = 4"
+    max_new_tokens: "Optional[int] = 256"

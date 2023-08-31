@@ -1,0 +1,9 @@
+torch
+torchvison
+diffusers
+transformers
+bitsandbytes
+accelerate
+scipy
+safetensors
+xformers
