@@ -1,0 +1,132 @@
+{
+    "entity": {
+        "sensor": {
+            "humidity_1": {
+                "name": "Dr\u0117gm\u0117 1"
+            },
+            "humidity_10": {
+                "name": "Dr\u0117gm\u0117 10"
+            },
+            "humidity_2": {
+                "name": "Dr\u0117gm\u0117 2"
+            },
+            "humidity_3": {
+                "name": "Dr\u0117gm\u0117 3"
+            },
+            "humidity_4": {
+                "name": "Dr\u0117gm\u0117 4"
+            },
+            "humidity_5": {
+                "name": "Dr\u0117gm\u0117 5"
+            },
+            "humidity_6": {
+                "name": "Dr\u0117gm\u0117 6"
+            },
+            "humidity_7": {
+                "name": "Dr\u0117gm\u0117 7"
+            },
+            "humidity_8": {
+                "name": "Dr\u0117gm\u0117 8"
+            },
+            "humidity_9": {
+                "name": "Dr\u0117gm\u0117 9"
+            },
+            "humidity_indoor": {
+                "name": "Dr\u0117gm\u0117 patalpose"
+            },
+            "inside_temperature": {
+                "name": "Vidaus temperat\u016bra"
+            },
+            "last_rain": {
+                "name": "Paskutinis lietus"
+            },
+            "lifetime_rain": {
+                "name": "Lietus vis\u0105 gyvenim\u0105"
+            },
+            "monthly_rain": {
+                "name": "M\u0117nesio lietus"
+            },
+            "soil_humidity_1": {
+                "name": "Dirvo\u017eemio dr\u0117gm\u0117 1"
+            },
+            "soil_humidity_10": {
+                "name": "Dirvo\u017eemio dr\u0117gnumas 10"
+            },
+            "soil_humidity_2": {
+                "name": "Dirvo\u017eemio dr\u0117gm\u0117 2"
+            },
+            "soil_humidity_3": {
+                "name": "Dirvo\u017eemio dr\u0117gm\u0117 3"
+            },
+            "soil_humidity_4": {
+                "name": "Dirvo\u017eemio dr\u0117gm\u0117 4"
+            },
+            "soil_humidity_5": {
+                "name": "Dirvo\u017eemio dr\u0117gm\u0117 5"
+            },
+            "soil_humidity_6": {
+                "name": "Dirvo\u017eemio dr\u0117gnumas 6"
+            },
+            "soil_humidity_7": {
+                "name": "Dirvo\u017eemio dr\u0117gm\u0117 7"
+            },
+            "soil_humidity_8": {
+                "name": "Dirvo\u017eemio dr\u0117gnumas 8"
+            },
+            "soil_humidity_9": {
+                "name": "Dirvo\u017eemio dr\u0117gnumas 9"
+            },
+            "soil_temperature_1": {
+                "name": "Dirvo\u017eemio temperat\u016bra 1"
+            },
+            "soil_temperature_10": {
+                "name": "Dirvo\u017eemio temperat\u016bra 10"
+            },
+            "soil_temperature_2": {
+                "name": "Dirvo\u017eemio temperat\u016bra 2"
+            },
+            "soil_temperature_3": {
+                "name": "Dirvo\u017eemio temperat\u016bra 3"
+            },
+            "soil_temperature_4": {
+                "name": "Dirvo\u017eemio temperat\u016bra 4"
+            },
+            "soil_temperature_5": {
+                "name": "Dirvo\u017eemio temperat\u016bra 5"
+            },
+            "soil_temperature_6": {
+                "name": "Dirvo\u017eemio temperat\u016bra 6"
+            },
+            "soil_temperature_7": {
+                "name": "Dirvo\u017eemio temperat\u016bra 7"
+            },
+            "soil_temperature_8": {
+                "name": "Dirvo\u017eemio temperat\u016bra 8"
+            },
+            "soil_temperature_9": {
+                "name": "Dirvo\u017eemio temperat\u016bra 9"
+            },
+            "temperature_1": {
+                "name": "Temperat\u016bra 1"
+            },
+            "temperature_10": {
+                "name": "Temperat\u016bra 10"
+            },
+            "temperature_2": {
+                "name": "Temperat\u016bra 2"
+            },
+            "temperature_3": {
+                "name": "Temperat\u016bra 3"
+            },
+            "temperature_4": {
+                "name": "Temperat\u016bra 4"
+            },
+            "temperature_5": {
+                "name": "Temperat\u016bra 5"
+            },
+            "yearly_rain": {
+                "name": "Kasmetinis lietus"
+            }
+        }
+    }
+}

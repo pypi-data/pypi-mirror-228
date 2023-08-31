@@ -1,0 +1,26 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "altitude": "Ketinggian",
+                    "latitude": "Lintang",
+                    "longitude": "Bujur",
+                    "name": "Kunci API",
+                    "radius": "Radius"
+                },
+                "description": "Isi lokasi yang akan dilacak."
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "altitude": "Ketinggian",
+                    "radius": "Radius"
+                }
+            }
+        }
+    }
+}

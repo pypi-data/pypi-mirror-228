@@ -1,0 +1,30 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Der Dienst ist bereits konfiguriert",
+            "reauth_successful": "Die erneute Authentifizierung war erfolgreich"
+        },
+        "error": {
+            "cannot_connect": "Verbindung fehlgeschlagen",
+            "invalid_auth": "Ung\u00fcltige Authentifizierung"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "password": "Passwort",
+                    "totp_secret": "TOTP Secret (nur f\u00fcr einige Dienstprogramme, siehe Dokumentation)",
+                    "username": "Benutzername"
+                },
+                "title": "Integration erneut authentifizieren"
+            },
+            "user": {
+                "data": {
+                    "password": "Passwort",
+                    "totp_secret": "TOTP Secret (nur f\u00fcr einige Dienstprogramme, siehe Dokumentation)",
+                    "username": "Benutzername",
+                    "utility": "Verbrauchsname"
+                }
+            }
+        }
+    }
+}

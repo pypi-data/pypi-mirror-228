@@ -1,0 +1,9 @@
+{
+    "entity": {
+        "number": {
+            "detection_sensibility": {
+                "name": "Aptikimo jautrumas"
+            }
+        }
+    }
+}

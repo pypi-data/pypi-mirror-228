@@ -1,0 +1,18 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "password": "Slapta\u017eodis"
+                }
+            }
+        }
+    },
+    "entity": {
+        "number": {
+            "fan_speed": {
+                "name": "Ventiliatoriaus greitis"
+            }
+        }
+    }
+}
