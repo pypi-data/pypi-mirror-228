@@ -1,0 +1,7 @@
+bases/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bases/smartbase.py,sha256=l4b3rx1F4KqHsRxH3PNpUAOp6MyqLoQijaNU_TJxzFs,6476
+celery_smartbase-0.3.3.dist-info/LICENSE,sha256=89rM-RmFW2qbB-CYWoEfp14Wcs441pT38IoeFeiSpcQ,1071
+celery_smartbase-0.3.3.dist-info/METADATA,sha256=piIlUSxRj7-6AtHk9N3ya1fKQV_FSLx1gioARWN5LJo,3466
+celery_smartbase-0.3.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+celery_smartbase-0.3.3.dist-info/top_level.txt,sha256=0uhV24dDJaX1JGTWB5KLkztzdFo3M-j7hH5s4s031SQ,6
+celery_smartbase-0.3.3.dist-info/RECORD,,
