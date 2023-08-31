@@ -1,0 +1,2 @@
+[console_scripts]
+wsiprocess = wsiprocess.cli:main
