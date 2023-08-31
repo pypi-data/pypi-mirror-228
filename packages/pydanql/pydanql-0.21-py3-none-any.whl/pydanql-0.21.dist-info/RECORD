@@ -1,0 +1,10 @@
+pydanql/__init__.py,sha256=7qD6HhCg_soYgDjxIhRNYr6gPKliRnCKX4MwsKyM45U,40
+pydanql/base.py,sha256=i_eRd63M3NvtlF7EXsKBAS87YhOn_o6sFapcGoXUBfQ,3659
+pydanql/errors.py,sha256=G-c1ghigqxDS0dbTB2xJhy89LZuuOf1O7dSbuOXBZHw,296
+pydanql/model.py,sha256=vtEdhvbqdEFwguVP7xvITM-LdRhZXMyjg-ETdAA8N9Y,1084
+pydanql/table.py,sha256=t715snk3WJ0EppQl1WBC_RjbP7pz-2ChXeJ1AoBB-8I,12633
+pydanql-0.21.dist-info/LICENSE,sha256=-GBtOTFUr9pwZSYsJTTH5_DAyEfqvneO_kywY3ZvlGw,1078
+pydanql-0.21.dist-info/METADATA,sha256=ae7YNOkR6FHFxaums3VswdGaXckGSXi3c5hCXgk0e1k,2764
+pydanql-0.21.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pydanql-0.21.dist-info/top_level.txt,sha256=yOJsg1_ExqWi4Rs2BFMM0g6cvb1vyXgLsUH5prbQjDM,8
+pydanql-0.21.dist-info/RECORD,,
