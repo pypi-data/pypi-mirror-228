@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: aptos-indexer-protos
+Version: 0.1.0
+Summary: Code generated from protobuf definitions for the Aptos Indexer tech stack
+Home-page: https://github.com/aptos-labs/aptos-indexer-processors/tree/main/python/aptos-indexer-protos
+License: Apache-2.0
+Keywords: web3,aptos,blockchain,indexer
+Author: Aptos Labs
+Author-email: opensource@aptoslabs.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: grpcio (>=1.57.0,<2.0.0)
+Requires-Dist: grpclib (>=0.4.5,<0.5.0)
+Requires-Dist: protobuf (>=4.24.2,<5.0.0)
+Project-URL: Repository, https://github.com/aptos-labs/aptos-indexer-processors
+Description-Content-Type: text/markdown
+
+# Aptos Indexer Protos
+
+This repository contains the protobuf definitions for the Aptos Indexer tech stack.
+
+## Usage
+todo
+
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
+
