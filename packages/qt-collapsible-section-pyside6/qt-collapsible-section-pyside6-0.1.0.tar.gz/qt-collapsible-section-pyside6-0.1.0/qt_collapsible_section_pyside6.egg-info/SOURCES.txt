@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+qt_collapsible_section/Section.py
+qt_collapsible_section/__init__.py
+qt_collapsible_section_pyside6.egg-info/PKG-INFO
+qt_collapsible_section_pyside6.egg-info/SOURCES.txt
+qt_collapsible_section_pyside6.egg-info/dependency_links.txt
+qt_collapsible_section_pyside6.egg-info/requires.txt
+qt_collapsible_section_pyside6.egg-info/top_level.txt
