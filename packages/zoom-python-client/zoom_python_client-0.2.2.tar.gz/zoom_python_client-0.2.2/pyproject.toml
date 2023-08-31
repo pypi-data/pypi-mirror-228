@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "zoom-python-client"
+version = "0.2.2"
+authors = ["Rene Fernandez Sanchez <rene.fernandez@cern.ch>"]
+maintainers = [
+  "Rene Fernandez Sanchez <rene.fernandez@cern.ch>",
+  "Samuel Guillemet <samuel.guillemet@telecom-sudparis.eu>",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+exclude = ["tests*", "example*", ".github*", ".git*", ".vscode*"]
+description = "Zoom API client for Python using server to server tokens"
+homepage = "https://github.com/cern-vc/zoom-python-client"
+keywords = ["zoom", "api"]
+license = "MIT"
+packages = [{ include = "zoom_python_client" }]
+readme = "README.md"
+repository = "https://github.com/cern-vc/zoom-python-client"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-dotenv = "^1.0.0"
+requests = "^2.31.0"
+typing-extensions = "^4.7.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+flake8 = "^6.1.0"
+isort = "^5.12.0"
+pre-commit = "^3.3.3"
+mypy = "^1.5.1"
+mypy-extensions = "^1.0.0"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+responses = "^0.23.3"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/cern-vc/zoom-python-client/issues"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+
+no_strict_optional = true
+ignore_missing_imports = true
+files = "^(zoom_python_client/|tests/)"
