@@ -1,0 +1,13 @@
+vanna/__init__.py,sha256=0_pGkXjzpzvbgsgIDKBU56_xsX1wXz3c3ijKBM8xmEw,55766
+vanna/base.py,sha256=ZvHUH83eOyUhS6czM2iY8QIp7yqJOVD1wjrN-wpozZI,19101
+vanna/chromadb_vector.py,sha256=aukieJ_cnnlt-jssJkjyzfgwFBP_ccu1XRlgX-eDmig,3359
+vanna/exceptions.py,sha256=nJXmZ8YoEx60-9iQZI9ddmNCDtuKMI9gYOqApXoMJ6o,719
+vanna/local.py,sha256=37Xbe0-wk-4Ew6GNFT3edwjIUug1WPpAr0YkBWOR0GA,297
+vanna/mock.py,sha256=9If2l48VV9FMCCAn4sMz2R1-T58UQHYViFrI0qrATlQ,551
+vanna/openai_chat.py,sha256=LtEiBgXd-GytiPq-9MuuLcjsGc97E3MYzFdvyvaT6oc,6399
+vanna/openai_embeddings.py,sha256=F9PGlxvfaLIg29SPMZqX6svhYEmdjb-u8mVf7ifStvc,1065
+vanna/types.py,sha256=sqWDXhgl6ns0gbKfVqnnxGSZ4w9frlnOfDACf7-sm_I,4877
+vanna/utils.py,sha256=Q0H4eugPYg9SVpEoTWgvmuoJZZxOVRhNzrP97E5lyak,1472
+vanna-0.0.22.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+vanna-0.0.22.dist-info/METADATA,sha256=Y3KHf-1h6jIUUnO4P4OK6kgrdNNiRz6pIV1EDc3n6OU,7076
+vanna-0.0.22.dist-info/RECORD,,
