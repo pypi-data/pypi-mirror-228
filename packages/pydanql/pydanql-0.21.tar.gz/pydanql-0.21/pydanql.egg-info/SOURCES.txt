@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+pydanql/__init__.py
+pydanql/base.py
+pydanql/errors.py
+pydanql/model.py
+pydanql/table.py
+pydanql.egg-info/PKG-INFO
+pydanql.egg-info/SOURCES.txt
+pydanql.egg-info/dependency_links.txt
+pydanql.egg-info/requires.txt
+pydanql.egg-info/top_level.txt
+tests/test_base.py
