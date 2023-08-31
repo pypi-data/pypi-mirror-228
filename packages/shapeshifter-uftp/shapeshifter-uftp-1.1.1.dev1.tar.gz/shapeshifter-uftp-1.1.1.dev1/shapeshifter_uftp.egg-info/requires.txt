@@ -1,0 +1,16 @@
+xsdata[lxml]
+pynacl
+dnspython
+fastapi<0.100
+fastapi-xml
+requests
+uvicorn
+termcolor
+
+[dev]
+xmlschema
+pytest
+pytest-cov
+pylint
+sphinx
+sphinx-rtd-theme
