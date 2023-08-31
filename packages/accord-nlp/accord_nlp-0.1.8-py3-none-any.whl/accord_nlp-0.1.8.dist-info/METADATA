@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: accord-nlp
+Version: 0.1.8
+Summary: ACCORD - Information extraction from text
+Home-page: https://github.com/Accord-Project/NLP-Framework
+Author: Hansi Hettiarachchi
+Author-email: hansi.h.hettiarachchi@gmail.com
+Keywords: NLP,NER,Relation Extraction
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-learn
+Requires-Dist: statsmodels
+Requires-Dist: matplotlib
+Requires-Dist: openpyxl
+Requires-Dist: nltk
+Requires-Dist: transformers ==4.16.2
+Requires-Dist: seqeval
+Requires-Dist: tensorboardX
+Requires-Dist: wandb
+Requires-Dist: sentencepiece
+Requires-Dist: graphviz
+
+# NLP Framework
