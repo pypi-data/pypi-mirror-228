@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: py-fast-trie
+Version: 2.1.2
+Summary: Python library for tries with different grades of fastness.
+Author-email: Jeremy Brown <mischif@users.noreply.github.com>
+License: # The Prosperity Public License 3.0.0
+        
+        Contributor: Jeremy Brown
+        
+        Source Code: https://github.com/mischif/py-fast-trie
+        
+        ## Purpose
+        
+        This license allows you to use and share this software for noncommercial purposes for free and to try this software for commercial purposes for thirty days.
+        
+        ## Agreement
+        
+        In order to receive this license, you have to agree to its rules.  Those rules are both obligations under that agreement and conditions to your license.  Don't do anything with this software that triggers a rule you can't or won't follow.
+        
+        ## Notices
+        
+        Make sure everyone who gets a copy of any part of this software from you, with or without changes, also gets the text of this license and the contributor and source code lines above.
+        
+        ## Commercial Trial
+        
+        Limit your use of this software for commercial purposes to a thirty-day trial period.  If you use this software for work, your company gets one trial period for all personnel, not one trial per person.
+        
+        ## Contributions Back
+        
+        Developing feedback, changes, or additions that you contribute back to the contributor on the terms of a standardized public software license such as [the Blue Oak Model License 1.0.0](https://blueoakcouncil.org/license/1.0.0), [the Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html), [the MIT license](https://spdx.org/licenses/MIT.html), or [the two-clause BSD license](https://spdx.org/licenses/BSD-2-Clause.html) doesn't count as use for a commercial purpose.
+        
+        ## Personal Uses
+        
+        Personal use for research, experiment, and testing for the benefit of public knowledge, personal study, private entertainment, hobby projects, amateur pursuits, or religious observance, without any anticipated commercial application, doesn't count as use for a commercial purpose.
+        
+        ## Noncommercial Organizations
+        
+        Use by any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution doesn't count as use for a commercial purpose regardless of the source of funding or obligations resulting from the funding.
+        
+        ## Defense
+        
+        Don't make any legal claim against anyone accusing this software, with or without changes, alone or with other technology, of infringing any patent.
+        
+        ## Copyright
+        
+        The contributor licenses you to do everything with this software that would otherwise infringe their copyright in it.
+        
+        ## Patent
+        
+        The contributor licenses you to do everything with this software that would otherwise infringe any patents they can license or become able to license.
+        
+        ## Reliability
+        
+        The contributor can't revoke this license.
+        
+        ## Excuse
+        
+        You're excused for unknowingly breaking [Notices](#notices) if you take all practical steps to comply within thirty days of learning you broke the rule.
+        
+        ## No Liability
+        
+        ***As far as the law allows, this software comes as is, without any warranty or condition, and the contributor won't be liable to anyone for any damages related to this software or this license, under any kind of legal claim.***
+        
+Project-URL: repository, https://github.com/mischif/py-fast-trie
+Keywords: x-fast,y-fast,trie,data structures
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: ~=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE.md
+
+py-fast-trie
+============
+
+[![GitHub Workflow](https://img.shields.io/github/actions/workflow/status/mischif/py-fast-trie/ci.yaml?branch=master&logo=github&style=for-the-badge)](https://github.com/mischif/py-fast-trie/actions)
+[![Codecov](https://img.shields.io/codecov/c/github/mischif/py-fast-trie?logo=codecov&style=for-the-badge)](https://codecov.io/gh/mischif/py-fast-trie)
+[![Python Versions](https://img.shields.io/pypi/pyversions/py-fast-trie?style=for-the-badge)](https://pypi.org/project/py-fast-trie/)
+[![Package Version](https://img.shields.io/pypi/v/py-fast-trie?style=for-the-badge)](https://pypi.org/project/py-fast-trie/)
+
+py-fast-trie is a package that contains pure-Python implementations of an [X-fast Trie](https://en.wikipedia.org/wiki/X-fast_trie) and a [Y-fast trie](https://en.wikipedia.org/wiki/Y-fast_trie), as described in the [foundational paper](https://web.archive.org/web/20230818235641/https://users.cs.utah.edu/~pandey/courses/cs6968/spring23/papers/yfast.pdf).
+
+The most notable benefit of X-fast and Y-fast tries compared to more common data structures such as binary search trees is that searches are log-logarithmic in the cardinality of the universe as opposed to being logarithmic in the number of elements in the structure itself; For reference if you needed to store 2^20 items with a potential maximum value of 2^32 - 1, finding a particular item would take 20 operations in a red/black or AVL tree, but only 5 with an X-fast or Y-fast trie.
+
+Usage
+-----
+
+The interfaces of the X-fast and Y-fast tries are identical, the Y-fast trie is used here as an example.
+
+	>>> from py_fast_trie import YFastTrie
+	>>> t = YFastTrie(max_length=32)		# The library defaults to the machine's word size
+	>>> for i in range(10, 13):
+	...     t += i					# Value insertion/removal operations have intuitive
+	>>> t.min					# shorthands
+	10
+	>>> t += b'\x0d'				# The library can handle byte strings less than the
+	>>> t.max					# max length by treating them as integers
+	13
+	>>> for val in t:
+	...     print val
+	10
+	11
+	12
+	13
+	>>> t < 12					# Predecessor/successor queries have intuitive
+	11						# shorthands
+	>>> t > 0
+	10
+	t -= 13
+	>>> t > 12
+	>>>
