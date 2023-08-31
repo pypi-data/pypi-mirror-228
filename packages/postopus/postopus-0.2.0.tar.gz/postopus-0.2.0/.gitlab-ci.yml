@@ -1,0 +1,159 @@
+---
+
+# Official language image. Look for the different tagged releases at:
+# image: "python:latest"
+
+.setup_octopy_containers:
+  before_script:
+    - apt update -y -qq && apt install -y -qq libgl1 pandoc
+    - wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+    - bash miniconda.sh -b -p $HOME/miniconda
+    - source $HOME/miniconda/etc/profile.d/conda.sh
+    - conda create -y --name=postopus-$PTYHON_VERSION python=$PTYHON_VERSION -c conda-forge
+    - conda activate postopus-$PTYHON_VERSION
+    - python -v  # Print out Python version for debugging
+    - octopus --version
+    # Install dependencies for the testing environment
+    # and install postopus with dev dependencies
+    - pip install .[dev,docs]
+    # TODO START remove when ase is updated, afterwards install ase as a dependency
+    - TEST_POSTOPUS_ASE_COMPATIBILITY=1 pytest tests/test_ase.py
+    - pip install ase
+    - TEST_POSTOPUS_ASE_COMPATIBILITY=1 pytest tests/test_ase.py
+    - pip install git+https://gitlab.com/ase/ase.git@master
+    # TODO END remove when ase is updated and installed as a dependency
+    - invoke generatePytestData  # Generate data used for testing
+
+
+
+.setup_python_containers:
+  before_script:
+    - python -v                                   # Print out Python version for debugging
+    - apt update -y -qq && apt install -y -qq libgl1 pandoc
+    # Install dependencies for the testing environment
+    # and install postopus with dev dependencies
+    - pip install .[dev,docs]
+    # Generate data used for testing
+#    - invoke generatePytestData
+
+
+#.setup_miniconda_containers:
+#  before_script:
+#    - python -v                                   # Print out Python version for debugging
+#    # libgl required for mconda3.8
+#    - apt update --allow-releaseinfo-change -y -qq
+#    - apt install -y -qq libgl1
+#    - apt install -y -qq pandoc
+#    # Install dependencies for the testing environment and install postopus with dev
+#    # dependencies use `pip` in conda here, as Postopus has no direct conda building
+#    # support
+#    - pip install .[dev,docs]
+#    # Generate data used for testing.
+#    - invoke generatePytestData
+
+.setup_doc_containers: # we start from the octopus container
+  before_script:
+    - apt-get -y update && apt-get -y install python3
+    - apt install -y python3-pip
+    - python3 -v   # Print out Python version for debugging
+    - apt update -y -qq && apt install -y -qq libgl1 pandoc
+    - pip install .[docs]
+    - pip install git+https://gitlab.com/ase/ase.git@master
+    # Pull data used for testing
+    - invoke generatePytestData
+    - cd docs
+
+.test_script: &test_script
+  script:
+    - pytest --verbose --cov postopus --cov-report term-missing
+
+
+# Run in different environments.
+# Add mconda 310 when available
+## https://github.com/conda/conda/issues/11728
+#mconda39:
+#  image: continuumio/miniconda3:4.10.3p1
+#  extends: .setup_miniconda_containers
+#  <<: *test_script
+#
+#mconda38:
+#  image: continuumio/miniconda3:4.8.3
+#  extends: .setup_miniconda_containers
+#  <<: *test_script
+
+# TODO use images with newer octopus versions (12.2, 12.0) & one python version  (3.10)
+oct121_py38:
+  image: "fangohr/octopus:12.1"
+  variables:
+    PTYHON_VERSION: "3.8"
+  extends: .setup_octopy_containers
+  <<: *test_script
+
+oct121_py39:
+  image: "fangohr/octopus:12.1"
+  variables:
+    PTYHON_VERSION: "3.9"
+  extends: .setup_octopy_containers
+  <<: *test_script
+
+oct121_py310:
+  # Need to install netcdf-headers to pip install netcdf
+  # On Debian: - apt install -y libnetcdf-dev
+  image: "fangohr/octopus:12.1"
+  variables:
+    PTYHON_VERSION: "3.10"
+  extends: .setup_octopy_containers
+  <<: *test_script
+
+oct122_py310:
+  # Need to install netcdf-headers to pip install netcdf
+  # On Debian: - apt install -y libnetcdf-dev
+  image: "fangohr/octopus:12.2"
+  variables:
+    PTYHON_VERSION: "3.10"
+  extends: .setup_octopy_containers
+  <<: *test_script
+
+oct120_py310:
+  # Need to install netcdf-headers to pip install netcdf
+  # On Debian: - apt install -y libnetcdf-dev
+  image: "fangohr/octopus:12.0"
+  variables:
+    PTYHON_VERSION: "3.10"
+  extends: .setup_octopy_containers
+  <<: *test_script
+
+#pylatest:
+#  image: "python:latest"
+#  extends: .setup_python_containers
+#  <<: *test_script
+
+# NOTE: If docs and pylatest fail but all other jobs complete, check if there is a
+# new Python release. New release might break dependencies if wheels are not yet
+# available!
+docs:
+  image: "fangohr/octopus:12.1"
+  extends: .setup_doc_containers
+  script:
+    - make html        # -W turns warnings into errors. Maybe should
+    # add that at some point
+
+pages:
+  stage: deploy
+  image: "fangohr/octopus:12.1"
+  extends: .setup_doc_containers
+  script:
+    - make html        # -W turns warnings into errors. Maybe should
+    # add that at some point
+    - mv _build/html ../public
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
+
+pre-commit-check:
+  image: "python:3.10"
+  extends: .setup_python_containers
+  script:
+    - pre-commit run --all-files

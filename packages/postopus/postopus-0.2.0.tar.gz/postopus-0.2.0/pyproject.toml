@@ -1,0 +1,110 @@
+# https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "postopus"
+version = "0.2.0"
+description = "Postopus (the POST-processing of OctoPUS data) is an environment, written in python, that can help with the analysis of data that was computed using the Octopus package."
+readme = "PyPI-README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+
+authors = [
+    {name = "Daniel Bremer, Kevin Yanes Garcia, Martin Lang, Ashwin Kumar Karnad, Fabian Gropp, Sebastian Ohlmann, Hans Fangohr", email = "ssu-cs@mpsd.mpg.de"},
+    {name = "Daniel Bremer", email = "daniel.bremer@mpsd.mpg.de"},
+    {name = "Kevin Yanes Garcia", email = "kevin.yanes-garcia@mpsd.mpg.de"},
+    {name = "Martin Lang", email = "martin.lang@mpsd.mpg.de"},
+    {name = "Ashwin Kumar Karnad", email = "ashwin-kumar.karnad@mpsd.mpg.de"},
+    {name = "Fabian Gropp", email = "fabian.gropp@mpsd.mpg.de"},
+    {name = "Sebastian Ohlmann", email = "sebastian.ohlmann@mpcdf.mpg.de"},
+    {name = "Hans Fangohr", email = "hans.fangohr@mpsd.mpg.de"}
+]
+
+# TODO: Add or remove any?
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows", # TODO: Not sure?
+    "Operating System :: Unix",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Visualization"
+]
+
+dependencies = [
+    "numpy",
+    "netCDF4",
+    "pandas",
+    "prettytable",
+    "pyvista",
+    "xarray",
+    "psutil",
+    'importlib_resources; python_version < "3.9"'
+]
+
+[project.optional-dependencies]
+recommended = [
+    "jupyter",
+    "holoviews",
+    "matplotlib",
+    "selenium",
+    "xrft",
+    "ipykernel",
+]
+
+dev = [
+    "pre-commit",
+    "pytest",
+    "pytest-order",
+    "pytest-cov",
+    "twine",
+    "build",
+    "invoke",
+    "toml"
+]
+
+docs = [
+    # notebook dependencies (mainly plotting stuff)
+    "jupyter",
+    "holoviews",
+    "datashader",
+    "selenium",
+    "matplotlib",
+    # building notebooks in documentation
+    "sphinx",
+    "nbsphinx",
+    "sphinx_rtd_theme",
+    "ipykernel",
+    "xrft",
+    "invoke",
+    "toml"
+]
+
+[project.urls]
+documentation = "https://octopus-code.gitlab.io/postopus/index.html"
+repository = "https://gitlab.com/octopus-code/postopus"
+
+# TODO: Include postopus-ls as entry_point when implemented
+
+# see pytest -h
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = [
+    "tests"
+]
+
+# see https://pycqa.github.io/isort/docs/configuration/options
+[tool.isort]
+profile = "black"
+known_first_party = ["postopus"]
