@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "indoquake"
+version = "0.0.5"
+authors = [
+  { name="Danang Firmanto", email="danangfirmino26@gmail.com" },
+]
+description = "A Latest Earthquake Detection Package Taken Based on BMKG | Meteorological, Climatological, and Geophysical Agency"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/danangfir/indoquake"
+"Bug Tracker" = "https://github.com/danangfir/indoquake/issues"
