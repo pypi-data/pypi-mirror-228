@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: DynamicRoutingTask
+Version: 0.1.5
+Author-email: samgale <samg@alleninstitute.org>
+License: MIT
+Requires-Python: >=3.9
