@@ -1,0 +1,3 @@
+[console_scripts]
+larsespenssb-pypitemplate=larsespenssb_pypitemplate.__main__:main
+
