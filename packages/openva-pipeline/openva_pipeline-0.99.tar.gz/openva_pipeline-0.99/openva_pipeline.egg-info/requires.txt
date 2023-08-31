@@ -1,0 +1,4 @@
+pandas
+sqlcipher3
+requests
+pycrossva>=0.97

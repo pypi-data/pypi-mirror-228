@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sqlcipher3 = "*"
+pandas = "*"
+requests = "*"
+urllib3 = "*"
+numpy = ">=1.15.4"
+pycrossva = ">=0.97"
+pipfile = "*"
+certifi = ">=2023.7.22"
