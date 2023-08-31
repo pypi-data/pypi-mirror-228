@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""
+This module contains project version information.
+
+.. currentmodule:: syncdns.version
+.. moduleauthor:: pradhuman_baid 
+"""
+
+__version__ = "1.0.1"  #: the working version
+__release__ = "1.0.1"  #: the release version

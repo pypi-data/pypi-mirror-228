@@ -1,0 +1,10 @@
+syncdns/__init__.py,sha256=wJ8OsjS_iz3bebkDphSIdOr1CU26rXEaYY3v7PShezs,742
+syncdns/cli.py,sha256=n3HHuE_nMHov0XH_fml91g5OgT5IXbSgfZIRcaPQKco,2170
+syncdns/scan.py,sha256=Dw4baCmrSxcgzdXjcSw_tpuh4t4AX6I5etkmlHTWcZE,23191
+syncdns/version.py,sha256=AFBnIbu3VnCt8ClAcypBq6V1ELs5DRyslrDTm6p7BhY,268
+syncdns-1.0.1.dist-info/LICENSE,sha256=2N5ReRelkdqkR9a-KP-y-shmcD5P62XoYiG-miLTAzo,34519
+syncdns-1.0.1.dist-info/METADATA,sha256=z5XX5VTZladnQ_o12vZV4s6V4Ehw8Bf7WHNBoUhNCJs,16071
+syncdns-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+syncdns-1.0.1.dist-info/entry_points.txt,sha256=3P4Ykqno4ZB9_ai-pxPZTCZVaAKPupiQoKFaSEQ5aXk,44
+syncdns-1.0.1.dist-info/top_level.txt,sha256=HbKXqkMVKf_f1OuSwIS_KLM8BoPjjHZHz_xxnGZEH9U,8
+syncdns-1.0.1.dist-info/RECORD,,
