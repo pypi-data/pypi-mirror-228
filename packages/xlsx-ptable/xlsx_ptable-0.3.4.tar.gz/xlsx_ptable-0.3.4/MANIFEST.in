@@ -1,0 +1,10 @@
+exclude data/*.xlsx
+include data/*.md
+include data/*.log
+include data/template.json
+exclude sample/*
+
+
+
+
+
