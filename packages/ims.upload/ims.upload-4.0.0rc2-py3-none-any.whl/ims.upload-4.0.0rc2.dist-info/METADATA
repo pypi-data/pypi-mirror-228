@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ims.upload
+Version: 4.0.0rc2
+Summary: Chunked uploading for Plone
+Author-email: Eric Wohnlich <wohnlice@imsweb.com>
+License: GPL
+Project-URL: homepage, https://git.imsweb.com/plone/ims.upload
+Classifier: Framework :: Plone :: 6.0
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: plone
+Requires-Dist: collective.js.jqueryui
+Provides-Extra: test
+Requires-Dist: plone.app.testing ; extra == 'test'
+Requires-Dist: plone.mocktestcase ; extra == 'test'
+Requires-Dist: formencode ; extra == 'test'
+
