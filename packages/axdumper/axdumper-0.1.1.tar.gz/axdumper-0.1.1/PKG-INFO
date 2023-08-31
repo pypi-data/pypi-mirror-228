@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: axdumper
+Version: 0.1.1
+Summary: 
+Author: axdjuraev
+Author-email: axdjuraev@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# AxDumper
+
+a simple json dumpers
+
+
+## Usage
+
+```python
+    import json
+    from axdumper import some_cool_dumper
+
+    realy_not_dumpable_obj = RealyNotDumpableObj()
+
+    json.dumps(
+        realy_not_dumpable_obj, 
+        default=event_json_dumper, 
+        ensure_ascii=False, 
+        indent=4
+    )
+    
+    # And whoala! 🪄 
+```
+
+
