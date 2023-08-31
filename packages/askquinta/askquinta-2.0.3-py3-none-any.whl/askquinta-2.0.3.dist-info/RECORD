@@ -1,0 +1,17 @@
+askquinta/__init__.py,sha256=gObkGgVyRKbIzzNYE8ESMTpT-Po-3AKPnAeEhpgxspM,409
+askquinta/ETL/NLP.py,sha256=W2UEcIVwMqJCvlWGKErkq0qJdrnQPfTW6OMSyu0CKvM,11533
+askquinta/ETL/__init__.py,sha256=Ewg4FI6hOyPQ0Pa2kZHW5S0YBNcGvmIludbaVSlWwfk,247
+askquinta/blastmessage/Blast_Message.py,sha256=MUDvBj_aLRAxZY5LpaNQY0kctts4aN3ZN6E7VsYvKkI,8135
+askquinta/blastmessage/__init__.py,sha256=dThF38IfVIVAqq4wKMA2JZMv_ChZn2B0BUwbiE-BpQ4,276
+askquinta/connector/API.py,sha256=IlUoNWaufRWEGhW9v5wCxSTvy5p9tTMkpIqjay9reKI,1253
+askquinta/connector/ArangoDB.py,sha256=RT3n-RQjqdJ5qeh8wiufTppaq8GqMeP5-9yC8lJu0O8,5126
+askquinta/connector/MySQL.py,sha256=Yc1FfJI6MLuas08cqAJBARz_TTRV9lHNViYLqDYCMwU,5895
+askquinta/connector/__init__.py,sha256=b0jaPM16n9a5Viy_YXKqKKnX8L1YaI6rNyPMlFzZcC4,322
+askquinta/google/BQ.py,sha256=OMBh8wFuBxPqUXDuKS4EyGiA536QW62SGPGDzk-BRSQ,6832
+askquinta/google/Gsheet.py,sha256=rFhJwuTgL0Hoy02FFJTvB6OUYC1vj0pJz2CbDpzvx0Q,5704
+askquinta/google/__init__.py,sha256=8Y1uybqygwYcTwcF5Zlq55dktPHt7qXMnaN5dKt9yDI,281
+askquinta-2.0.3.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+askquinta-2.0.3.dist-info/METADATA,sha256=uj5B1-eI3AsWd_H0JTD2bc0r4N5jy56uUsr7h4LQ2S0,12041
+askquinta-2.0.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+askquinta-2.0.3.dist-info/top_level.txt,sha256=qx7JUlYyRBO3C--SqSC4WS_orgsfDNNuR03GaA2KEAI,10
+askquinta-2.0.3.dist-info/RECORD,,

@@ -1,0 +1,307 @@
+Metadata-Version: 2.1
+Name: askquinta
+Version: 2.0.3
+Summary: Package for daily usage of data team at Paper.id
+Home-page: https://github.com/paper-indonesia/composer
+Author: Paper Data Team
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 🗣️ askquinta: Data Handling and Messaging Library
+
+`askquinta` is a versatile Python library designed to simplify data handling tasks, including connecting to databases like BigQuery, Google Spreadsheets, MySQL, and ArangoDB. It also provides the ability to send messages through email, Slack, and Telegram. This library aims to streamline your data processing and communication workflows.
+
+## Installation 📩
+
+You can install `askquinta` using the following command:
+```bash
+!pip install git+https://token:<your-access-token>@github.com/paper-indonesia/askquinta.git
+```
+Since the repository on GitHub is private, an access token from each GitHub account is required.
+for more informations: [managing your personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+
+or for public version
+```bash
+!pip install askquinta
+```
+
+## Features
+
+### Connect to BigQuery 🗼
+The library allows you to connect to Google BigQuery and execute SQL queries.
+
+```python
+from askquinta import About_BQ
+
+"""
+    credentials_loc (str): The path to the directory containing credentials.
+        By default, the credentials_loc will be obtained from the environment variable 'bq_creds_file'|'bq_config_testing_google_cred_location'|bq_config_prod_google_cred_location.
+    project_id (str, optional): The Google Cloud project ID.
+        By default, the project_id will be obtained from the environment variable 'bq_projectid'|bq_config_testing_projectid|bq_config_prod_projectid.
+    location (str, optional): The Google Cloud project ID.
+        By default, the location will be obtained from the environment variable 'bq_location'|bq_config_location or will be 'asia-southeast1'
+"""
+
+#If environment variables are not set, you can set connection details manually
+BQ = About_BQ(project_id = 'your_projectid',
+                credentials_loc = '/path/to/credential_file.json',
+                location = 'database_location')
+
+#Set up the About_BQ object with environment variables if available
+#if not already yet
+import os
+os.environ['bq_creds_file'] = '/path/to/credential_file.json'
+os.environ['bq_projectid'] = 'your_projectid',
+os.environ['bq_location'] = 'database_location'
+BQ = About_BQ()
+
+#Pull Data
+query = '''select * from datascience_public.predicted_item_category limit 10'''
+df = BQ.to_pull_data(query = query)
+
+#Push Data
+BQ.to_push_data(data = df, dataset_name = 'datascience',table_name = 'testing_aril', if_exists = 'replace')
+
+#Update Data
+update_values = {'keys': "'value'"}
+condition = "key_condition = 'value_condition'"
+BQ.to_update_data(dataset_name='dataset_name', table_name='table_name', update_values=update_values, condition=condition, show = True)
+
+```
+
+### Connect to Gsheet 📋
+The library allows you to connect to Gsheet to pull, push and update data
+
+```python
+from askquinta import About_Gsheet
+
+"""
+    credentials_path (str): Path to the JSON credentials file.
+        By default, the credentials_path will be obtained from the environment variable 'gsheet_config_cred_location'
+"""
+
+#If environment variables are not set, you can set connection details manually
+credentials_path = '/path/to/credentials.json'
+gsheet = About_Gsheet(credentials_path = '/path/to/credentials.json')
+
+#if not already yet
+import os
+os.environ['gsheet_config_cred_location'] = '/path/to/credentials.json'
+gsheet = About_Gsheet()
+
+# Push data
+data_to_push = pd.DataFrame({'Column1': [1, 2, 3], 'Column2': ['A', 'B', 'C']})
+spreadsheet_name = 'Example Spreadsheet'
+worksheet_name = 'Example Worksheet'
+gsheet.to_push_data(data_to_push, spreadsheet_name, worksheet_name, append=True)
+
+# Pull data
+data_pulled = gsheet.to_pull_data(spreadsheet_name, worksheet_name)
+print(data_pulled)
+
+# Update data
+data_to_update = [['New Value 1', 'New Value 2']]
+cell_range = 'A1:B1'
+gsheet.to_update_data(data_to_update, spreadsheet_name, cell_range, worksheet_name)
+```
+
+### Connect to MySQL 🎡
+The library allows you to connect to MySQL and execute SQL queries.
+
+```python
+from askquinta import About_MySQL
+
+"""
+    host (str): The host IP or domain name for the MySQL server.
+        By default, the host will be obtained from the environment variable 'mysql_config_ip_host'.
+    port (int): The port number for the MySQL server.
+        By default, the port will be obtained from the environment variable 'mysql_config_ip_port'.
+    username (str): The username to connect to the MySQL server.
+        By default, the username will be obtained from the environment variable 'mysql_config_user_name'.
+    password (str): The password associated with the username.
+        By default, the password will be obtained from the environment variable 'mysql_config_user_password'.
+"""
+
+
+# Set up the About_MySQL object with environment variables if available
+MySQL = About_MySQL(database_name='database_name')
+
+# If environment variables are not set, you can set connection details manually
+MySQL = About_MySQL(
+     host='host',
+     port=123,  # Replace with an integer port number
+     username='your_username',
+     password='password',
+     database_name='database_name'
+ )
+
+query = """
+    SELECT *
+    FROM <your_table>
+    LIMIT 10
+"""
+
+result = MySQL.to_pull_data(query)
+result
+```
+
+### Connect to ArangoDB 🎠
+The library allows you to connect to ArangoDB and execute queries.
+
+```python
+from askquinta import About_ArangoDB
+
+"""
+    arango_url (str): The URL of the ArangoDB server.
+        By default, the arango_url will be obtained from the environment variable 'arango_replicate_config_url'.
+    username (str): The username to connect to the ArangoDB server.
+        By default, the username will be obtained from the environment variable 'arango_replicate_config_username'.
+    password (str): The password associated with the username.
+        By default, the password will be obtained from the environment variable 'arango_replicate_config_password'.
+"""
+# Set up the About_ArangoDB object with environment variables if available
+
+ArangoDB = About_ArangoDB()
+
+# If environment variables are not set, you can set connection details manually
+ArangoDB = About_ArangoDB(arango_url = 'https://link_arango',
+                          username = 'username',
+                          password = 'password')
+
+print('query to Arango')
+conn.to_pull_data(collection_name = 'collection_name',
+                  query = """FOR i IN <table on arango>
+                                RETURN i""",
+                  batch_size = 10)
+```
+
+### Blast Message ✉️
+The library allows you to send message using email and telegram
+
+```python
+from askquinta import About_Blast_Message
+"""
+    creds_email (str): The path to the file containing credentials in pickle format.
+        By default, the creds_email will be obtained from the environment variable 'blast_message_creds_email_file'.
+    token_telegram_bot (str, optional): Token Telegram Bot
+        By default, the token_telegram_bot will be obtained from the environment variable 'blast_message_token_telegram_bot'.
+
+"""
+#Telegram
+telegram = About_Blast_Message(token_telegram_bot = 'your_token_telegram_bot')
+telegram.send_message_to_telegram(to = 'chat_id', message = "message")
+
+#Email
+email = About_Blast_Message(creds_email = '/path/to/creds_file.pickle')
+email.send_message_to_email( to='recipient@example.com',
+                            subject='Hello',
+                            message='This is a test email.',
+                            cc='cc@example.com')
+
+#Slack
+slack = About_Blast_Message(token_slack_bot = 'token_slack_bot')
+slack.send_message_to_slack(to = 'channel_name or member id',message = message)
+
+```
+
+### API 🔥
+The askquinta library provides functionalities for interacting with various APIs developed by the data team. 
+Currently, the available model focuses on item classification.
+
+```python
+from askquinta import About_API
+
+"""
+    url (str): The URL of the prediction API.
+      By default, the url will be obtained from the environment variable 'api_url_item_classification'.
+"""
+
+# Set up the About_API object with environment variables if available
+api = About_API()
+
+# If environment variables are not set, you can set the API URL manually
+api = About_API(url="http://url_to_api/predict")
+
+# Example input data for item classification
+item_names = ['mobil honda', 'baju anak', 'pembersih lantai', 'okky jely drink']
+
+# Call the predict_item method to get predictions
+predictions = api.predict_item(item_names)
+```
+
+### NLP 🤟
+```python
+from askquinta import About_NLP
+
+nlp_instance = About_NLP()
+
+#----------Generate UUID----------
+uuid_result = nlp_instance.generate_uuid("example.com")
+print("Generated UUID:", uuid_result)
+
+#----------Clean Text---------
+dirty_text = "   This is Some Example Text with good 21 , the, Punctuation! And some stopwords.   "
+cleaned_text = nlp_instance.clean_text(dirty_text, remove_punctuation=True,remove_number=True, remove_stopwords=True)
+print("Cleaned Text:", cleaned_text)
+text = "Running wolves are better than running"
+
+##Use stemming
+cleaned_text_stemmed = nlp_instance.clean_text(text, apply_stemming=True, language = 'english')
+print("Steammed Text English:", cleaned_text_stemmed)
+
+##Use lemmatization
+cleaned_text_lemmatized = nlp_instance.clean_text(text, apply_lemmatization=True, language = 'english' )
+print("Lemmatized Text English:", cleaned_text_lemmatized)
+
+text = "kami berlari lari kesana kemari bermain dan berenang bersama budi"
+cleaned_text_stemmed = nlp_instance.clean_text(text, apply_stemming=True,language='indonesia')
+cleaned_text_lemmatized = nlp_instance.clean_text(text, apply_lemmatization=True ,language='indonesia')
+print("Steammed Text indo:", cleaned_text_stemmed)
+print("Lemmatized Text indo:", cleaned_text_lemmatized)
+
+#-------Hash Value---------
+original_value = "my_secret_password"
+hashed_value = nlp_instance.hash_value(original_value)
+print("Hashed value:", hashed_value)
+
+verified = nlp_instance.verify_hash('my_secret_password', hashed_value)
+print("verified value:", verified)
+
+
+#------Encode and Decode Base64-------
+encoded_value = nlp_instance.encode_base64(original_value)
+print("Encoded value:", encoded_value)
+decoded_value = nlp_instance.decode_base64(encoded_value)
+print("Decoded value:", decoded_value)
+
+#------Calculate Similarity Text Score-------
+text1 = "what do you mean?"
+text2 = "what do you need?"
+for i in ['jaccard', 'edit', 'cosine', 'levenshtein', 'jarowinkler', 'tfidf_cosine']:
+    score = nlp_instance.similarity_text_scoring(text1, text2, similarity_metric=i)
+    print(i,score)
+
+#------Translate Text--------
+text_to_translate = "Hello, how are you?"
+target_language = 'es'  # Spanish
+translated_text = nlp_instance.translate(text_to_translate, target_language = target_language)
+print("Translated text:", translated_text)
+
+#------Predict Sentiment--------
+sentiment_text = nlp_instance.sentiment(text_to_translate)
+print("Sentiment text:", sentiment_text)
+
+#--------Summarize Text---------
+
+summarized_text = nlp_instance.summarize_text(text = "your long text", ratio = 0.1)
+print(summarized_text)
+```
+
+## Contributing 👩🏻‍👨🏻‍👦🏻‍👧🏻
+
+Contributions to askquinta are welcome!
+
+If you find a bug or want to add new features, please submit a pull request on [GitHub](https://github.com/paper-indonesia/askquinta/tree/main).
