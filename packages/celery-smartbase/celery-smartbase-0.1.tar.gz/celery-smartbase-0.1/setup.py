@@ -1,0 +1,16 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='celery-smartbase',
+    version='0.1',
+    packages=find_packages(),
+    install_requires=[
+        'Django~=3.2.11',
+        'djangorestframework==3.13.1',
+        'django-model-utils==3.1.2',
+        'django-celery-results==2.2.0',
+        'django-celery-beat==2.2.1',
+        'kombu~=5.2.3',
+        'celery~=5.2.3',
+    ],
+)
