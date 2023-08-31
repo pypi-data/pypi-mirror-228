@@ -1,0 +1,4 @@
+thumbor<7,>=6.0.0
+botocore
+subprocess32
+tc_aws
