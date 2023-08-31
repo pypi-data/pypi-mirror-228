@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: gobigger
+Version: 0.2.1
+Summary: Go-Bigger: Multi-Agent Decision Intelligence Environment
+Author: OpenDILab
+License: Apache License, Version 2.0
+Keywords: Go-Bigger DI
+License-File: LICENSE
