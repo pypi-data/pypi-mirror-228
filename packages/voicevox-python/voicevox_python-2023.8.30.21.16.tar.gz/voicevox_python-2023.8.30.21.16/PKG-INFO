@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: voicevox-python
+Version: 2023.8.30.21.16
+Summary: API wrapper for voicevox
+Project-URL: Homepage, https://github.com/Nakanishi123/voicevox-python
+Author-email: Nakanishi <45790603+Nakanishi123@users.noreply.github.com>
+License-Expression: CC0-1.0
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: pydantic>=2
+Requires-Dist: requests>=2
+Description-Content-Type: text/markdown
+
+# voicevox-python
+
+## example
+
+```python
+from voicevox_python import Client, speaker2id
+
+speaker_id = speaker2id("ずんだもん", "ノーマル")
+client = Client()
+query = client.create_audio_query("こんにちは", speaker_id)
+audio = client.synthesis(query, speaker_id)
+with open("out.wav", mode="wb") as f:
+    f.write(audio)
+```
