@@ -1,0 +1,10 @@
+lxml
+loguru
+redis
+requests
+tqdm
+lxpy
+colorama
+xlrd
+pymysql
+undetected_chromedriver
