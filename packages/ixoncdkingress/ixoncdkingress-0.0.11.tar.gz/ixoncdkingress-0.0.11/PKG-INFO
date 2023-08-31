@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ixoncdkingress
+Version: 0.0.11
+Summary: IXON CDK Ingress used in Custom Backend Components(CBC) for the IXON Cloud
+Home-page: https://www.ixon.cloud/
+Author: IXON
+Author-email: development@ixon.cloud
+Requires-Python: >=3.9
+Provides-Extra: development
