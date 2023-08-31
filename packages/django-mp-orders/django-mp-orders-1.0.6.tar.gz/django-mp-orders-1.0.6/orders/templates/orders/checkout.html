@@ -1,0 +1,209 @@
+
+{% extends 'base.html' %}
+
+{% load i18n widget_tweaks thumbnail %}
+
+
+{% block meta_title %}
+    {% trans 'Order registration' %}
+{% endblock %}
+
+
+{% block search %}
+{% endblock %}
+
+
+{% block breadcrumbs %}
+{% endblock %}
+
+
+{% block content %}
+
+    {% if not request.cart.is_empty %}
+        <div class="container py-5">
+
+            <h2 class="title">
+                {% trans 'Order registration' %}
+            </h2>
+
+            <div class="row">
+                <div class="col-md-7">
+                    <form action="{{ request.get_full_path }}" method="post" novalidate data-role="checkout-form">
+                        {% csrf_token %}
+
+                        {% if form.non_field_errors %}
+                            <div class="alert alert-danger">
+                                {{ form.non_field_errors.as_text }}
+                            </div>
+                        {% endif %}
+
+                        <div class="row">
+                            <div class="col-md-6 mb-2 form-group">
+                                {{ form.first_name.label_tag }} *
+                                {{ form.first_name|add_class:"form-control" }}
+                                {{ form.first_name.errors }}
+                            </div>
+                            <div class="col-md-6 mb-2 form-group">
+                                {{ form.last_name.label_tag }} *
+                                {{ form.last_name|add_class:"form-control" }}
+                                {{ form.last_name.errors }}
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-2 form-group">
+                                {{ form.middle_name.label_tag }}
+                                {{ form.middle_name|add_class:"form-control" }}
+                                {{ form.middle_name.errors }}
+                            </div>
+                            <div class="col-md-6 mb-2 form-group">
+                                {{ form.mobile.label_tag }} *
+                                {{ form.mobile|add_class:"form-control" }}
+                                {{ form.mobile.errors }}
+                            </div>
+                        </div>
+
+                        <div class="mb-2 form-group">
+                            {{ form.payment_method.label_tag }} *
+                            {{ form.payment_method|add_class:"form-control" }}
+                            {{ form.payment_method.errors }}
+                        </div>
+
+                        <hr />
+
+                        <div class="mb-2 form-group">
+                            {{ form.delivery_method.label_tag }} *
+                            {{ form.delivery_method|add_class:"form-control" }}
+                            {{ form.delivery_method.errors }}
+                        </div>
+
+                        <div class="mb-2 form-group" data-role="novaposhta-delivery-types">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" checked name="novaposhtatype" value="" data-role="novaposhtaselfdelivery">
+                                    {% trans "Self delivery from warehouse" %}
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="novaposhtatype" value="">
+                                    {% trans "Delivery by courier" %}
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="mb-2 form-group">
+                            {{ form.city.label_tag }} *
+                            {{ form.city|add_class:"form-control" }}
+                            {{ form.city.errors }}
+                        </div>
+
+                        <div class="mb-2 form-group">
+                            <label for="{{ form.warehouse.auto_id }}">
+                                <span data-role="warehouse-label">
+                                    {{ form.warehouse.label_tag }}
+                                </span>
+                                <span data-role="address-label">
+                                    {% trans "Address" %}:
+                                </span> *
+                            </label>
+
+                            {{ form.warehouse|add_class:"form-control" }}
+                            {{ form.warehouse.errors }}
+                        </div>
+
+                        <div class="mb-2 form-group">
+                            {{ form.comment.label_tag }}
+                            {{ form.comment|add_class:"form-control"|attr:'rows:4' }}
+                            {{ form.comment.errors }}
+                        </div>
+
+                        <button type="submit" class="btn btn-block btn-success">
+                            <i class="fa fa-check"></i>
+                            {% trans 'Confirm order' %}
+                        </button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div>
+                        <h4>
+                            {% trans 'Products' %} ({{ request.cart.count }})
+                        </h4>
+                        <div style="max-height: 420px;overflow-y: auto;">
+                            {% for item in request.cart.items %}
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-3 col-xs-3">
+                                            {% include "products/logo.html" with product=item.product %}
+                                        </div>
+                                        <div class="col-9 col-xs-9">
+                                            <a href="{{ item.url }}">
+                                                <b>{{ item.name }}</b>
+                                            </a>
+                                            {% include "products/state.html" with product=item.product %}
+                                            {% include "products/manufacturer.html" with product=item.product %}
+                                            <div>
+                                                {% trans 'Price' %}: {{ item.printable_price }} <br />
+                                                {% trans 'Quantity' %}: {{ item.qty }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr />
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 p-t-10">
+                            {% trans 'To pay' %}
+                        </div>
+                        <div class="col-6">
+                            <h4>
+                                {{ request.cart.printable_total }}
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% else %}
+        <div class="container alert alert-info">
+            {% trans 'Cart is empty' %}.
+            <a href="{% url 'home' %}">
+                {% trans 'Continue shopping' %}
+            </a>
+        </div>
+    {% endif %}
+{% endblock %}
+
+
+{% block css %}
+    {{ block.super }}
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/checkout-page.css">
+{% endblock %}
+
+
+{% block js %}
+    {{ block.super }}
+
+    <script src="{{ STATIC_URL }}js/CheckoutPage.js"></script>
+
+    <script>
+        $('#{{ form.mobile.auto_id }}').mask('+380999999999');
+    </script>
+
+    <script>
+        (function ($) {
+            new MonoSubmitForm({
+                $form: $('[data-role=checkout-form]'),
+                btnText: "{% trans "Loading..." %}"
+            });
+
+            new CheckoutPage({
+                $deliveryMethod: $('#{{ form.delivery_method.auto_id }}'),
+                $city: $('#{{ form.city.auto_id }}'),
+                $warehouse: $('#{{ form.warehouse.auto_id }}'),
+            });
+        })(jQuery);
+    </script>
+{% endblock %}

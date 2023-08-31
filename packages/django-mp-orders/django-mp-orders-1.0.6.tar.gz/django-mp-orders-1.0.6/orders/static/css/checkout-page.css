@@ -1,0 +1,15 @@
+.checkout-autocomplete {
+    border: 1px solid #999;
+    background: #FFF;
+    overflow: auto;
+}
+
+.checkout-autocomplete > div {
+    padding: 6px 5px;
+    border-bottom: 1px solid #e8e0cf;
+    cursor: pointer;
+}
+
+.checkout-autocomplete > div:hover {
+    background: #ddd;
+}
