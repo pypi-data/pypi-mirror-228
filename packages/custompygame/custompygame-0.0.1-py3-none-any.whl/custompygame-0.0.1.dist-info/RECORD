@@ -1,0 +1,17 @@
+CustomPygame/.idea/.gitignore,sha256=4uN-1gxQ2OQcQqqfNQVkKl8WieZ_trx_6KBtqwmg-pY,50
+CustomPygame/.idea/inspectionProfiles/profiles_settings.xml,sha256=YXLFmX7rPNGcnKK1uX1uKYPN0fpgskYNe7t0BV7cqkY,174
+CustomPygame/.idea/misc.xml,sha256=oF6jLlf2nhj7aLY8Aga92n9hOLEbRei-Cb8agvrcEho,196
+CustomPygame/.idea/modules.xml,sha256=AAsY7Dz5xmsmcXhhFMc-g4gTjK06lzpakAmLhwrDXv8,275
+CustomPygame/.idea/MyEngine.iml,sha256=ozT8aS11PbFJo_dxaMRkQbV_M-G2rZeqfxs7ry8BWCM,291
+CustomPygame/.idea/workspace.xml,sha256=ovm4sXO-dctEQF_kwIALXGxP7W6Tw5ch1aKv9X-2V6E,6569
+CustomPygame/events.py,sha256=9weCnD9kgb3O-sutYKW4-Onl-9UWtrYQKO8xVSOdpXI,2383
+CustomPygame/screen.py,sha256=4y6BzCPGti7eCjlq0n3HqMtwA0jO4A0dRuZHV53xulY,1052
+CustomPygame/test.py,sha256=YkrxRScnmBAP3ri1tPV1rXd_BzGoR3HE49_Ff87IdlQ,522
+CustomPygame/Widgets/button.py,sha256=y4mG1HzaAVgDjmN7J-eQIlXG8fhx0LFARh8ts3l9UV0,3862
+CustomPygame/Widgets/check_box.py,sha256=TrELnAKjX91sxyMDRZc8Fo0Ib3ehY7I16nnCiV9i8Xc,10043
+CustomPygame/Widgets/combo_box.py,sha256=z0QJU_KwvO9FhlYE9jw1WlmIp8owonv02wB_gSqZ4_g,7465
+CustomPygame/Widgets/label.py,sha256=wuP8kbZRXAlAmM-MiK_MFJla7K-ohi_Or3WSbbqgbaQ,3852
+CustomPygame/Widgets/themes.py,sha256=XTVQ5K2Gn2YcGIXZ21jkyNion7SXghxOHQz16rVjFQ0,1800
+custompygame-0.0.1.dist-info/METADATA,sha256=y52cuzIpkXoycywixDkaTRjKfjWGrG7oYCUSgwAX5WI,361
+custompygame-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+custompygame-0.0.1.dist-info/RECORD,,
