@@ -1,0 +1,33 @@
+name: Bumps Version
+
+on:
+  pull_request:
+    branches:
+      - "main"
+    types:
+      - closed
+
+jobs:
+  check_pr:
+    if: github.event.pull_request.merged == true
+    uses: ./.github/workflows/check_pr.yaml
+
+  bump_version:
+    if: github.event.pull_request.merged == true
+    needs: [check_pr]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+      - name: Set Git config
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@doxtrings.bot
+      - name: Bump version
+        run: |
+          pip install bump-my-version
+          bump-my-version -v bump $PART
+        env:
+          PART: ${{ needs.check_pr.outputs.part }}

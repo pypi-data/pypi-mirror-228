@@ -1,0 +1,25 @@
+on:
+  workflow_call:
+    inputs:
+      python_version:
+        description: "Python version"
+        required: false
+        type: string
+        default: 3.9
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ inputs.python_version }}
+
+      - name: Install dependencies and lint
+        run: |
+          python -m venv .venv
+          source .venv/bin/activate
+          pip install --upgrade setuptools flit wheel
+          flit install --deps all
+          pre-commit run --all-files

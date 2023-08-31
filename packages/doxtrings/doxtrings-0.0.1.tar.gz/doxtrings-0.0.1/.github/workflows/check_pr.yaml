@@ -1,0 +1,37 @@
+name: Checks PR Title starts with [MAJOR] [MINOR] or [PATCH]
+
+on:
+  pull_request:
+    branches:
+      - "main"
+    types:
+      - opened
+      - edited
+      - synchronize
+      - reopened
+  workflow_call:
+    outputs:
+      part:
+        description: "The part to be used in bump-my-version"
+        value: ${{ jobs.check_pr.outputs.part }}
+
+jobs:
+  check_pr:
+    runs-on: ubuntu-latest
+    outputs:
+      part: ${{ steps.get_part.outputs.part }}
+    steps:
+      - id: get_part
+        run: |
+          PR_TYPE=$( echo "${{ github.event.pull_request.title }}" | grep -E -o "^\[(MAJOR|MINOR|PATCH)\]")
+
+          if [ "$PR_TYPE" = "[MAJOR]" ];then
+            echo "part=major" >> "$GITHUB_OUTPUT"
+          elif [ "$PR_TYPE" = "[MINOR]" ];then
+            echo "part=minor" >> "$GITHUB_OUTPUT"
+          elif [ "$PR_TYPE" = "[PATCH]" ];then
+            echo "part=patch" >> "$GITHUB_OUTPUT"
+          else
+            echo "Failed Pull Request check. Title does not start MAJOR, MINOR or PATCH."
+            exit 1
+          fi

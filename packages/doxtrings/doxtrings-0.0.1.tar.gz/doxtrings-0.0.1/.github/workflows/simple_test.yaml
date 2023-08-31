@@ -1,0 +1,13 @@
+name: Test doXtrings library
+
+on:
+  pull_request:
+    branches-ignore:
+      - "main"
+
+jobs:
+  lint:
+    uses: ./.github/workflows/lint.yaml
+
+  test:
+    uses: ./.github/workflows/test.yaml
