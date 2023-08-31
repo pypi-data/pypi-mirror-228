@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: treat
+Version: 0.2.0
+Summary: Delicious tests for Python
+License: MIT
+Author: Sébastien Eustace
+Author-email: sebastien@eustace.io
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: cleo (>=2.0.1)
+Requires-Dist: coverage (>=6.2)
+Requires-Dist: pprintpp (>=0.4.0)
+Requires-Dist: pytest (>=7.4.0)
