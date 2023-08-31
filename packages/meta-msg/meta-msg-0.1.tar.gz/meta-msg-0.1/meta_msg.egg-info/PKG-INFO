@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: meta-msg
+Version: 0.1
+Summary: Meta-msg it's an additional layer for your binary exchange systems. It lets you add status/error codes to your messages and raise/handle errors between microservices in traditional (pythonic) way.
+Home-page: https://github.com/RafRaf/meta-msg/
+Author: RafRaf
+Author-email: smartrafraf@gmail.com
+License: MIT
+Keywords: message,nats,rabbitmq
+License-File: LICENSE
+
+Meta-msg it's an additional layer for your binary exchange systems. It lets you add status/error codes to your messages and raise/handle errors between microservices in traditional (pythonic) way.
