@@ -1,0 +1,4 @@
+pyselector==0.0.18
+beautifulsoup4==4.12.2
+httpx==0.24.1
+html5lib==1.1
