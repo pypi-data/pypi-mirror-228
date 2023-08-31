@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: godspeedio
+Version: 0.1.1
+Summary: memory efficient, fast, and easy to use stream processing library
+Home-page: https://github.com/apburton84/godspeed
+Author: Anthony Burton
+Author-email: apburton84@gmail.com
+License: MIT
+Download-URL: https://codeload.github.com/apburton84/godspeed/zip/refs/heads/main
+Description: UNKNOWN
+Keywords: STREAM,PROCESSING,MEMORY,EFFICIENT,FAST,EASY,USE,LIBRARY
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Typing :: Typed
