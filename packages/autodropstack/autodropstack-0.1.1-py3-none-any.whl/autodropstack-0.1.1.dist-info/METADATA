@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: autodropstack
+Version: 0.1.1
+Summary: filo stack
+Author: thearyadev
+License-File: LICENSE
+
+# AutoDropStack
+
+Simple first in last out stack data structure
