@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gist-neko
+Version: 1.0
+Summary: CLI for downloading all gists from a specified user.
+Author: NecRaul
+Keywords: python,gists downloader,downloader,gists,gist-neko,kuroneko
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP
+License-File: LICENSE
+
+Download specified user's all gists at once. You can also use environment variables if you don't want to pass through arguments everytime you want to download a gist.
