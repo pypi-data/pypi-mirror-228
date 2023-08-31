@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "repository-generator"
+version = "0.1.7"
+description = ""
+authors = ["raviintelmatix <m.ravi@intelmatix.ai>"]
+readme = "README.md"
+packages = [{include = "repository_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.5.1"
+
+[tool.poetry.scripts]
+create = "repository_generator.generator:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
