@@ -1,0 +1,3 @@
+[console_scripts]
+ahoy = printrace.ahoy:main
+printr = printrace.printr:main
