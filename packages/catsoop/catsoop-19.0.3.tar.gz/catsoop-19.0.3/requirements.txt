@@ -1,0 +1,16 @@
+bs4
+cheroot
+filelock
+python-jose
+mistletoe
+mpmath
+ply
+pynacl
+websockets
+lxml
+pylti
+oauthlib
+unidecode
+ldap3
+black
+pytest
