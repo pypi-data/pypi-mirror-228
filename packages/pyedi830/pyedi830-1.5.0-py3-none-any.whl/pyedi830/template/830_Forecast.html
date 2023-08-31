@@ -1,0 +1,156 @@
+{% extends "layout.html" %}  
+{% block content %}
+    <h1 class="title">Planning Schedule with Release Capabilit</h1>
+    <!-- General Info Table -->
+    <table class="ui striped table title-table">
+        <thead>
+            <tr>
+                <th><h3>General Information</h3></th>
+            </tr>
+        </thead>
+    </table>
+    <table class="ui striped table general-info-table">
+        <thead>
+            <tr>
+                <th><h4>Document Information:</h4></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Transaction Purpose Code: {{ header["Transaction Purpose"] }}</td>
+                <td>Reference Number: {{ header["Reference ID"] }}</td>
+            </tr>
+            <tr>
+                <td>Schedule Horizon Start Date: {{ header["Start Date"]|datetime_format }}</td>
+                <td>Forecast Type: {{ header["Schedule Type"] }}</td>
+            </tr>
+            <tr>
+                <td>Schedule Horizon End Date: {{ header["End Date"]|datetime_format }}</td>
+                <td>Schedule Quantity: {{ header["Qty Type"] }}</td>
+            </tr>
+            <tr>
+                <td>Issue Date: {{ header["Create Date"]|datetime_format }}</td>
+                <td>Planning Schedule Type: {{ header["Planning Schedule Type"] }}</td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr>
+                <th><h4>Message To:</h4></th>
+                <th><h4>Buying Party (Purchaser):</h4></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ header["Supplier Name"] }}</td>
+                <td>{{ header["Buying Party Name"] }} (D-U-N-S+4: {{ header["Buying Party Location"] }}) </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Line Info Table -->
+    <table class="ui striped table title-table">
+        <thead>
+            <tr>
+                <th><h3>Line Information</h3></th>
+            </tr>
+        </thead>
+    </table>
+    
+    {% for line_key, line in lines_df.iterrows() %}
+    {% if line_key > 0 %}
+        <div class="ui fitted divider"></div>
+    {% endif %}
+    <!-- Line General Info Table -->
+    <table class="ui striped table line-info-table">
+        <thead>
+            <tr>
+                <th><p class="line-item-title">Line Item</p></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th><h4>Part Numbers</h4></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>GTIN 14-digit Data Structure</td>
+                <td>{{ line["GTIN"] }}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>End-Item Description</td>
+                <td>{{ line["Item Description"] }}</td>
+                <td></td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr>
+                <th><h4>Item Physical Details:</h4></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pack: {{ line["Pack Qty"] }}</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- FST list of a Line -->
+    {% for fst_key, fst in line_key|get_fst_iterrows %}
+    <table class="ui striped table line-info-table">
+        <thead>
+            <tr>
+                <th><h4>Forecast Schedule</h4></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><h4>Quan</h4></td>
+                <td><h4>Timing</h4></td>
+                <td><h4>When</h4></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>{{ fst["Qty"] }}</td>
+                <td>{{ fst["Forecast Type"] }}: {{ fst["Forecast Timing"] }}</td>
+                <td>{{ fst["Start Date"]|datetime_format }}</td>
+                <td>{{ fst["End Date"]|datetime_format }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- SDQ list of a FST -->
+    <table class="ui striped table line-info-table">
+        <thead>
+            <tr>
+                <th><h4>Destination Quantities</h4></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for sdq_key, sdq in line_key|get_sdq_iterrows(fst_key) %}
+            <tr>
+                <td>D-U-N-S+4, D-U-N-S Number with Four Character Suffix: {{ sdq["Store"] }}: {{ sdq["Qty per Store #"] }} {{ sdq["Qty per Store UOM"] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endfor %}
+    {% endfor %}
+    <!-- Line Count Info -->
+    <table class="ui striped table line-count-table">
+        <tbody>
+            <tr>
+                <td><span class="sub-title-2">Line Count:</span> {{ org_header["CTT01"] }}</td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
