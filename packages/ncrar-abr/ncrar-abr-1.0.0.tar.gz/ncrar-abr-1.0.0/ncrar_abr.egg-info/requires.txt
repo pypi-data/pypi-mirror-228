@@ -1,0 +1,7 @@
+atom
+enaml[qt6-pyside]
+numpy
+scipy
+pandas
+matplotlib
+openpyxl
