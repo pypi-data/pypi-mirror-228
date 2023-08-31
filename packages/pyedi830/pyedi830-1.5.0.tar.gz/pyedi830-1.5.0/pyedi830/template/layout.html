@@ -1,0 +1,152 @@
+<html>
+  <link rel="stylesheet" href = "https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  <style type="text/css">
+    @page {
+      @top-right {
+        content: "Page " counter(page) " of " counter(pages);
+        font-size: 12pt;
+        margin-top: 10mm;
+        margin-right: 10mm;
+      }
+    }
+    input[type="checkbox"][readonly] {
+      pointer-events: none;
+    }
+    input[type="text"][readonly] {
+      pointer-events: none;
+      border: 0;
+    }
+    .text-danger {
+      color:orangered;
+    }
+    .text-success {
+      color:mediumseagreen;
+    }
+    .text-warning {
+      color: orange;
+    }
+    a.selected {
+      background-color: 4183c4;
+      color: #fff;
+      padding: 2px 5px;
+    }
+    a.unselected {
+      text-decoration: underline;
+      padding: 2px 4px;
+    }
+    .title {
+      margin-top: 2rem!important;
+    }
+    table.title-table {
+      background-color: white!important;
+    }
+    table.title-table tr,
+    table.title-table td,
+    table.title-table th {
+      background-color: white!important;
+    }
+    table.general-info-table {
+      border-collapse: collapse!important; 
+      border: none!important;
+      background-color: white!important;
+      table-layout: fixed;
+      width: 100%;  /* Ensure that the table takes up the full width of its container */
+    }
+    table.general-info-table tr {
+      border: none!important;
+      background-color: white!important;
+    }
+    table.general-info-table th {
+      border: none!important;
+      padding: 0.35em 0.5em!important;
+      background-color: white!important;
+      width: 50%;
+    }
+    table.general-info-table td {
+      border: none!important;
+      padding: 0.35em 0.35em 0.5em 1.5em!important;
+      width: 50%;
+    }
+
+    table.line-info-table {
+      border-collapse: collapse!important; 
+      border: none!important;
+      background-color: white!important;
+      table-layout: fixed;
+      width: 100%;
+    }
+    table.line-info-table tr {
+      border: none!important;
+      background-color: white!important;
+    }
+    table.line-info-table th {
+      border: none!important;
+      padding: 0.35em 0.5em!important;
+      background-color: white!important;
+    }
+    table.line-info-table td {
+      border: none!important;
+      padding: 0.35em 0.35em 0.5em 1.5em!important;
+      background-color: white!important;
+    }
+    .line-sub-title {
+      padding: 0.35em 0.35em 0.5em 1em!important;
+    }
+
+    table.line-count-table {
+      border-collapse: collapse!important; 
+      border: none!important;
+      background-color: white!important;
+      table-layout: fixed;
+      width: 100%;
+    }
+    table.line-count-table tr {
+      border: none!important;
+      background-color: white!important;
+    }
+    table.line-count-table td {
+      border: none!important;
+      padding: 0.35em 0.5em!important;
+      background-color: white!important;
+    }
+    .sub-title-1 {
+      font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+      line-height: 1.28571429em;
+      margin: calc(2rem - 0.14285714em) 0 1rem;
+      font-weight: 700;
+      padding: 0;
+    }
+    .sub-title-2 {
+      font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+      line-height: 1.28571429em;
+      margin: calc(2rem - 0.14285714em) 0 1rem;
+      font-weight: 700;
+      padding: 0;
+    }
+    .sub-title-3 {
+      font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+      line-height: 1.28571429em;
+      margin: calc(2rem - 0.14285714em) 0 1rem;
+      font-weight: 700;
+      padding: 0;
+    }
+    .line-item-title {
+      color: rgba(0,0,0,.4)
+    }
+  </style>
+  <head>
+    <title>830 Forecast Readable</title>
+  </head>
+  <body>
+    <div class="ui container">
+      {% block content %}
+      {% endblock %}
+    </div>
+  </body>
+  <footer>
+    <div class="ui container t2">
+      <h6>© 2023 Liaison Technologies, Inc., All Rights Reserved.</h6>
+    </div>
+  </footer>
+</html>
