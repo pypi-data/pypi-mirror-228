@@ -1,0 +1,17 @@
+<td>{{ item.id }}</td>
+
+<td class="text-start">{{ item.title }}</td>
+
+<td class="text-center">
+  {{ item.content|truncatechars:60 }}
+</td>
+
+<td class="text-center">{{ item.category.name }}</td>
+
+<td class="text-center">
+  {% for tag in item.tags.all %}
+    <span class="badge badge-primary me-2">{{ tag.name }}</span>
+  {% endfor %}
+</td>
+
+<td class="text-end">{{ item.created_at|date:"Y/m/d" }}</td>

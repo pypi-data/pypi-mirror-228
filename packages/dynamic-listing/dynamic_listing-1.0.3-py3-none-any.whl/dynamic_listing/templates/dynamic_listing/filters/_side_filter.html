@@ -1,0 +1,9 @@
+{% load i18n %}
+
+{% if filter.side|length %}
+  <div class="card card-flush">
+    <div class="card-body">
+      {% include 'dynamic_listing/filters/__as_list.html' %}
+    </div>
+  </div>
+{% endif %}

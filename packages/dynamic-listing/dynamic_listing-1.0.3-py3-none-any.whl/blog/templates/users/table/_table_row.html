@@ -1,0 +1,15 @@
+<td>{{ item.id }}</td>
+
+<td class="text-start">
+  <a href="{% url "blog:user-details" item.id %}">{{ item.get_full_name }}</a>
+</td>
+
+<td class="text-center">
+  {{ item.email }}
+</td>
+
+<td class="text-center">{{ item.is_active }}</td>
+
+<td class="text-center">
+  {{ item.date_joined|date:"d/m/Y" }}
+</td>

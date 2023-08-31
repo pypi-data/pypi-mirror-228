@@ -1,0 +1,9 @@
+{% for field in filter.side %}
+  <div class="mb-5">
+    <label for="filter-id-{{ field.attrs.name }}"
+           class="fw-bold fs-5 mb-3">{{ field.attrs.label }}</label>
+    <div class="scroll mh-200px pt-2">
+      {% include field.template_name with attrs=field.attrs %}
+    </div>
+  </div>
+{% endfor %}

@@ -1,0 +1,24 @@
+<div class="card mb-5">
+  <div class="card-body">
+    <div class="d-flex align-items-start">
+      {% if bulk_actions %}
+        {% include "dynamic_listing/partials/__bulk_actions_item_checkbox.html"  with item=object %}
+      {% endif %}
+      <div class="w-100 ms-4">
+        <h1 class="mb-2 text-gray-700"><span>{{ item.id }}</span> - {{ item.title }}</h1>
+        <p class="fs-6 text-gray-600">{{ item.content }}</p>
+        <p class="mb-3">
+          <span class="fw-bold text-gray-600">Tags:</span>
+          {% for tag in item.tags.all %}
+            <span class="badge badge-primary me-2">{{ tag.name }}</span>
+          {% endfor %}
+        </p>
+        <div class="d-flex justify-content-between">
+          <p class="text-gray-600 fw-bold mb-0">Category: {{ item.category.name }}</p>
+
+          <p class="text-gray-600 fw-bold mb-0">Created At: {{ item.created_at|date:"SHORT_DATE_FORMAT" }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
