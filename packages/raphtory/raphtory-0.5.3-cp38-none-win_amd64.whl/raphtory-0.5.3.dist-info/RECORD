@@ -1,0 +1,9 @@
+raphtory-0.5.3.dist-info/METADATA,sha256=l77-Y3trbt4uX0eXl47U4E8a52ykThGxrLnMLBNoER0,12868
+raphtory-0.5.3.dist-info/WHEEL,sha256=3p9Aa6S8vhScNiebMsz7h3T_B1WG3JUrjAAE9iGrxjo,94
+raphtory/graphqlclient.py,sha256=tMrmL6enqeav-ehtoyx9q4fcNQTsg8-mHYx97P1Yjqk,4079
+raphtory/graphqlserver.py,sha256=5-aEgsWwOYvJsHJF--wXlGmtsfu2_JnbjwaY7CDrec8,3379
+raphtory/nullmodels.py,sha256=zcM7l2pwuLfXJL46AX0kDQ_lYoOw7ILwlY63748X-ek,4227
+raphtory/vis.py,sha256=ux-aThjJaMj9jdtXPQiMKSvh4yEUN8RN7_Nkob82us4,7724
+raphtory/__init__.py,sha256=7K__8It_WshxYG3Oj1bwKawHINK-W2Fg2B7bgvrnFNE,579
+raphtory/raphtory.cp38-win_amd64.pyd,sha256=ztxMM2kGQshCDikLGDmViCo3n6LZQHZPNohsZAXxcmU,22852608
+raphtory-0.5.3.dist-info/RECORD,,
