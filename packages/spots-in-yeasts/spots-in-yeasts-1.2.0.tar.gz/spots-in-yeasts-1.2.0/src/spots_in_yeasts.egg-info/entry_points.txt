@@ -1,0 +1,2 @@
+[napari.manifest]
+spots-in-yeasts = spots_in_yeasts:napari.yaml
