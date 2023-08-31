@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lain-shorten
+Version: 1.2
+Summary: URL Shortener using s.lain.la API.
+Author: NecRaul
+Keywords: python,link shortener,shortener,lain,lain.la,s.lain.la
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP
+License-File: LICENSE
+
+s.lain.la can shorten URLs using curl. I tend to forget the curl syntax and arguments quite easily so I made a Python package to streamline things.
