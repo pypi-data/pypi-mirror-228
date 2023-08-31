@@ -1,0 +1,3 @@
+[console_scripts]
+ahoy = react_stats.ahoy:main
+printr = react_stats.printr:main
