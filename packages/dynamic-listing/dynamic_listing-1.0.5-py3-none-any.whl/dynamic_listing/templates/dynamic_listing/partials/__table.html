@@ -1,0 +1,32 @@
+<div class="table-responsive">
+  <table class="table align-middle table-row-dashed fs-6 gy-5" id="kt_customers_table">
+    <thead>
+    <tr class="text-start text-gray-400 fw-bold fs-7 text-uppercase gs-0">
+      {% if bulk_actions %}
+        <th class="w-10px pe-2">
+          {% include "dynamic_listing/partials/__bulk_actions_header_checkbox.html" %}
+        </th>
+      {% endif %}
+      {% for  name, text, class in columns %}
+        <th class="{{ class }}">{{ text }}</th>
+      {% endfor %}
+    </tr>
+    </thead>
+    <tbody class="fw-semibold text-gray-600">
+    {% for object in object_list %}
+      <tr>
+        {% if bulk_actions %}
+          <td>
+            {% include "dynamic_listing/partials/__bulk_actions_item_checkbox.html"  with item=object %}
+          </td>
+        {% endif %}
+        {% if load_rows_from_template %}
+          {% include row_template_name with item=object %}
+        {% else %}
+          {% for cell in row %}{{ cell }}{% endfor %}
+        {% endif %}
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
