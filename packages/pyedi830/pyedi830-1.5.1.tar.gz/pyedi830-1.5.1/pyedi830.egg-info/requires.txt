@@ -1,0 +1,4 @@
+colorama
+pandas
+jinja2
+weasyprint
