@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-group-whitelist
+Version: 0.8.1
+Summary: 适用于NoneBot2的群聊白名单
+Home-page: https://github.com/Rikka-desu/nonebot_plugin_group_whitelist
+Author-Email: 轩某 <xuan_mou@outlook.com>
+License: MIT
+Project-URL: Homepage, https://github.com/Rikka-desu/nonebot_plugin_group_whitelist
+Requires-Python: >=3.8
+Requires-Dist: nonebot2>=2.0.0
+Requires-Dist: nonebot-plugin-localstore>=0.5.0
+Description-Content-Type: text/markdown
+
+## nonebot_plugin_group_whitelist
+适用于 [Nonebot2](https://github.com/nonebot/nonebot2) 的群聊白名单插件
+
+
+### 安装
+- 使用 nb-cli
+```
+nb plugin install nonebot_plugin_group_whitelist
+```
+ - 使用pip
+```
+pip install nonebot_plugin_group_whitelist
+```
+
+### 使用
+以下命令需要配置命令前缀与命令分隔符，默认为”/“和”.“<br>
+可以参考[命令前缀](https://nb2.baka.icu/docs/next/appendices/config#command-start-%E5%92%8C-command-separator)
+自行配置
+```
+/whitelist.add <群号> 添加白名单
+/whitelist.remove <移除白名单> 添加白名单
+/whitelist.lookup 列出白名单
+```
