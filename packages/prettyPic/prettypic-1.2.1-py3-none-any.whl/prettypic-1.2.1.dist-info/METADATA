@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: prettyPic
+Version: 1.2.1
+Summary: Takes a picture and finds the best color equality using machine learning. The use case this was built for was album cover backdrops, but others exist.
+Home-page: https://github.com/msherburne/prettyPic
+License: MIT
+Keywords: image,pretty,python3,color
+Author: msherburne
+Author-email: mathieusherburne@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Pillow (>=10.0.0,<11.0.0)
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: pytest (>=7.4.0,<8.0.0)
+Requires-Dist: scikit-learn (>=1.3.0,<2.0.0)
+Project-URL: Documentation, https://github.com/msherburne/prettyPic
+Project-URL: Repository, https://github.com/msherburne/prettyPic
+Description-Content-Type: text/markdown
+
+# prettyPic
+A fairly simple image utility library that has one single purpose: to extract the dominant color from an image.
+
+## Installation
+```bash
+pip install prettyPic
+```
+
+## Usage
+```python
+from prettypic import color_from_image
+
+color = color_from_image('path/to/image.png')
+print(color.color)
+```
+### KMeans or DBSCAN
+```python
+from prettypic import color_from_image
+
+color = color_from_image('path/to/image.png', algorithm='kmeans')
+# or
+color = color_from_image('path/to/image.png', algorithm='dbscan')
+```
+#### Response
+```python
+color.color # (r, g, b)
+color.color_as_image # PIL.Image
+color.color_as_rgb # rgb(rrr, ggg, bbb)
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
