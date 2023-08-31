@@ -1,0 +1,11 @@
+setup.py
+iJustWantTemplating/__init__.py
+iJustWantTemplating/custom_asserts.py
+iJustWantTemplating/custom_datatypes.py
+iJustWantTemplating/custom_errors.py
+iJustWantTemplating/iJWT.py
+iJustWantTemplating/regex_expressions.py
+iJustWantTemplating.egg-info/PKG-INFO
+iJustWantTemplating.egg-info/SOURCES.txt
+iJustWantTemplating.egg-info/dependency_links.txt
+iJustWantTemplating.egg-info/top_level.txt
