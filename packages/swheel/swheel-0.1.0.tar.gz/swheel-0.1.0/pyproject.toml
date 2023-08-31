@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "swheel"
+version = "0.1.0"
+description = "This app builds your python project"
+authors=["Caique ONzx <caiqueonz777@gmail.com>"]
+readme = "README.md"
+license = "LICENSE.txt"
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core", "wheel", "setuptools >= 42"]
+build-backend = "poetry.core.masonry.api"
+
+
