@@ -1,0 +1,10 @@
+/env/
+/env37/
+/build/
+/htmlcov/
+*.lock
+*.py[cod]
+*.egg-info/
+.cache/
+.mypy_cache/
+/upload.sh
