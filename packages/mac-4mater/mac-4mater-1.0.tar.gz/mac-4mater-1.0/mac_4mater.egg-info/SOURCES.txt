@@ -1,0 +1,6 @@
+mac_4mater.py
+setup.py
+mac_4mater.egg-info/PKG-INFO
+mac_4mater.egg-info/SOURCES.txt
+mac_4mater.egg-info/dependency_links.txt
+mac_4mater.egg-info/top_level.txt
