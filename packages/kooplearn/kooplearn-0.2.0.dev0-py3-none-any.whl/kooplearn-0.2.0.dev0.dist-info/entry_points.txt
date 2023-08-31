@@ -1,0 +1,2 @@
+[console_scripts]
+kooplearn-dashboard = kooplearn._src.dashboard.app:main
