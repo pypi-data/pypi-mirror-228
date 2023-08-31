@@ -1,0 +1,10 @@
+{
+    "$id": "models-directory/pb/qm/abin/definitions",
+    "tags": {},
+    "augmentations": {},
+    "modifiers": {
+        "enum": [
+            "multi-reference"
+        ]
+    }
+}
