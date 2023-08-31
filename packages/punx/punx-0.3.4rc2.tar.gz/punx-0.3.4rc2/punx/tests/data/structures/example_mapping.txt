@@ -1,0 +1,120 @@
+C:\Users\Pete\Documents\eclipse\punx\src\punx\data\example_mapping.nxs : NeXus data file
+  entry1:NXentry
+    @NX_class = NXentry
+    entry_identifier:NX_CHAR = [u'24737']
+    experiment_identifier:NX_CHAR = [u'mt9396-1']
+      @target = /entry1/experiment_identifier
+    program_name:NX_CHAR = [u'GDA 9.0.0']
+    scan_command:NX_CHAR = [u'Mapping Scan']
+    scan_identifier:NX_CHAR = [u'aa-bb-cc-dd-ee']
+    title:NX_CHAR = [u'Example Mapping Scan']
+    data:NXdata
+      @NX_class = NXdata
+      @signal = data
+      @axes = ['x_stage_set', 'y_stage_set', 't_stage_set', 'energy']
+      @t_stage_indices = [0 1 2]
+      @x_stage_indices = [0 1 2]
+      @y_stage_indices = [0 1 2]
+      @energy_indices = [3]
+      @t_stage_set_indices = [2]
+      @x_stage_set_indices = [1]
+      @y_stage_set_indices = [0]
+      data --> ['/entry1/instrument/fluo/data']
+      energy --> ['/entry1/instrument/fluo/energy']
+      t_stage --> ['/entry1/sample/transformations/t_stage']
+      t_stage_set --> ['/entry1/sample/t_stage_set']
+      x_stage --> ['/entry1/sample/transformations/x_stage']
+      x_stage_set --> ['/entry1/sample/x_stage_set']
+      y_stage --> ['/entry1/sample/transformations/y_stage']
+      y_stage_set --> ['/entry1/sample/y_stage_set']
+    instrument:NXinstrument
+      @NX_class = NXinstrument
+      I0:NXmonitor
+        @NX_class = NXmonitor
+        data:NX_INT16[10,12,5] = [ ... ]
+        transformations --> ['/entry1/instrument/trans/transformations']
+      It:NXmonitor
+        @NX_class = NXmonitor
+        data:NX_INT16[10,12,5] = [ ... ]
+        transformations --> ['/entry1/instrument/trans/transformations']
+      diff:NXdetector
+        @NX_class = NXdetector
+        @signal = data
+        data:NX_INT16[10,12,5,6,8] = [ ... ]
+          @interpretation = image
+        transformations --> ['/entry1/instrument/fluo/transformations']
+        x_pixel_size:NX_FLOAT64 = 1.0
+          @units = um
+        y_pixel_size:NX_FLOAT64 = 1.0
+          @units = um
+      fluo:NXdetector
+        @NX_class = NXdetector
+        @signal = data
+        @axes = ['.', '.', '.', 'energy']
+        @energy_indices = 3
+        data:NX_INT16[10,12,5,24] = [ ... ]
+          @interpretation = spectrum
+          @target = /entry1/instrument/fluo/data
+        energy:NX_INT16[24] = [ ... ]
+          @units = keV
+          @target = /entry1/instrument/fluo/energy
+        transformations:NXtransformations
+          @NX_class = NXtransformations
+          @target = /entry1/instrument/fluo/transformations
+          detector_arm:NX_INT16[10,12,5] = [ ... ]
+            @depends_on = .
+            @transformation_type = translation
+      trans:NXmonitor
+        @NX_class = NXmonitor
+        data:NX_INT16[10,12,5] = [ ... ]
+        transformations:NXtransformations
+          @NX_class = NXtransformations
+          @target = /entry1/instrument/trans/transformations
+          monitor_arm:NX_INT16[10,12,5] = [ ... ]
+            @depends_on = .
+            @transformation_type = translation
+    sample:NXsample
+      @NX_class = NXsample
+      @depends_on = t_stage
+      t_stage_set:NX_INT16[5] = [ ... ]
+        @target = /entry1/sample/t_stage_set
+      x_stage_set:NX_INT16[10] = [ ... ]
+        @target = /entry1/sample/x_stage_set
+      y_stage_set:NX_INT16[12] = [ ... ]
+        @target = /entry1/sample/y_stage_set
+      transformations:NXtransformations
+        @NX_class = NXtransformations
+        t_stage:NX_INT16[10,12,5] = [ ... ]
+          @depends_on = x_stage
+          @target = /entry1/sample/transformations/t_stage
+          @transformation_type = rotation
+        x_stage:NX_INT16[10,12,5] = [ ... ]
+          @depends_on = y_stage
+          @transformation_type = translation
+          @target = /entry1/sample/transformations/x_stage
+        y_stage:NX_INT16[10,12,5] = [ ... ]
+          @depends_on = .
+          @transformation_type = translation
+          @target = /entry1/sample/transformations/y_stage
+    user:NXuser
+      @NX_class = NXuser
+      @target = /entry1/user
+      username:NX_CHAR = [u'ssg37927']
+  entry_micro:NXentry
+    @NX_class = NXentry
+    experiment_identifier --> ['/entry1/experiment_identifier']
+    program_name:NX_CHAR = [u'Microscope Software 1.0.0']
+    title:NX_CHAR = [u'White image of scan']
+    user --> ['/entry1/user']
+    data:NXdata
+      @NX_class = NXdata
+      @signal = data
+      @axes = ['.', 'image_x', 'image_y']
+      @image_x_indices = 1
+      @image_y_indices = 2
+      data:NX_INT16[4,64,48] = [ ... ]
+        @interpretation = rgba-image
+      image_x:NX_INT16[64] = [ ... ]
+        @units = mm
+      image_y:NX_INT16[48] = [ ... ]
+        @units = mm
