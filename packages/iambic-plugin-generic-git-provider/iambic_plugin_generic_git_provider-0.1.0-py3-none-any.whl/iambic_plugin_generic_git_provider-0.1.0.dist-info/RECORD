@@ -1,0 +1,9 @@
+iambic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iambic/plugins/v0_1_0/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iambic/plugins/v0_1_0/generic_git_provider/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iambic/plugins/v0_1_0/generic_git_provider/aws_lambda_handler.py,sha256=uNNVonpxZBGnhiG1yM0BuG0prYp74XCgIpRbe7Ug2GE,6642
+iambic/plugins/v0_1_0/generic_git_provider/generic_git_client.py,sha256=P3lk8K1NJowLY4gBpixqQpKfpcF_P2AvYeMWtCPuowU,1644
+iambic_plugin_generic_git_provider-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+iambic_plugin_generic_git_provider-0.1.0.dist-info/METADATA,sha256=wgfhYuRkTgQ2Iw04hA82-_hr5_B47KPtsuUDhzA2sY0,2721
+iambic_plugin_generic_git_provider-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+iambic_plugin_generic_git_provider-0.1.0.dist-info/RECORD,,
