@@ -1,0 +1,6 @@
+PyYAML
+docker
+h5py
+matplotlib
+numpy
+scikit-learn
