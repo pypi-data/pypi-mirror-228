@@ -1,0 +1,14 @@
+ptable/__init__.py,sha256=HO0XAfNArC0cuvNsr1z_d_IgZhFmKCQaC6Vae_vN2sw,164
+ptable/sheet.py,sha256=Zs92QiJJkHBag0Xr6LbFLUEEJK9D1wbKjjDhSJgbvAQ,6067
+ptable/table.py,sha256=zD6TNQNRK_lRynVAQlk03HrcCAWprPnz_bJkdBxjdlE,15152
+ptable/table_attr.py,sha256=yZRipi1NfnqpY8hRuBWpF2O-KNcvUzaDUarNyYTUaGk,5210
+ptable/table_merge.py,sha256=asFkY3pUZdUlTVcYIA8s-hYXBbLnnKRUBMRb3IFsI-I,5424
+test/__init__.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+test/run_test.py,sha256=lBgl4XG27cl5OoSAKIUFzRhIxcoQb6TPEplydrskiTg,234
+test/test_sheet.py,sha256=Kj7sbl0jREMjJBqgx7w9J9bGobFokbcplpS4Gu9KyOo,814
+test/test_table.py,sha256=0fFJC-uCuwB-GRoPyQTW9i-YYy51LCK2r1q4I7z0n9A,15005
+test/test_table_merge.py,sha256=JKdnJJkG3RuKiY50sQUU_7zzzUK6pfMVfmoDZUQVr4E,4206
+xlsx_ptable-0.3.4.dist-info/METADATA,sha256=XNWFkkl5SYY6hYocCW-6DeyHU3dr4zqnQHkkeK1l3_g,4586
+xlsx_ptable-0.3.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+xlsx_ptable-0.3.4.dist-info/top_level.txt,sha256=cr30CDqyUsEFuXVt149ZvVd4v6ss5OBk5NMp434twfE,12
+xlsx_ptable-0.3.4.dist-info/RECORD,,
