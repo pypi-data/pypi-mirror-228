@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: PVplr-stGNN
+Version: 0.1.15
+Summary: PV Performance Loss Rate Estimation using Spatio-temporal Graph Neural Networks
+Author: Yangxin Fan, Xuanji Yu, Raymond Wieser, Yinghui Wu, Roger French
+Author-email: Yangxin Fan <yxf451@case.edu>
+License: BSD License (BSD-3)
+Project-URL: Homepage, https://github.com/Yangxin666/STD-GAE
+Project-URL: Bug Tracker, https://github.com/Yangxin666/STD-GAE/issues
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: happybase
+Requires-Dist: pyarrow
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: python-decouple
+Requires-Dist: hdfs
+Requires-Dist: paramiko
+Requires-Dist: torch-geometric
+Provides-Extra: dev
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+## This is the root folder of the PVplr-stGNN Package.
+This repository contains the full source PVplr-stGNN package. The package contains the PV-stGAE for missingness data detection and imputation and PV-DynGNN for PLR estimation.
+
+
+License
+This work is legally bound by the following software license: BSD-3-Clause 1
+Please see the LICENSE.txt file, in the root of this repository, for further details.
+
