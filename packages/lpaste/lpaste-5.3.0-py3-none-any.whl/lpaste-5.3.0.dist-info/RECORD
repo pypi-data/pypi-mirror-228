@@ -1,0 +1,11 @@
+lpaste/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lpaste/__main__.py,sha256=yT060wOrMSnt55n9cq8GHsTw0zQ0-z23EfR9LKTzOic,70
+lpaste/clipboard.py,sha256=-TRK81Z2TNPOmAVlr1AvflEor3G7biP0QoAHzfDM0yQ,1698
+lpaste/lpaste.py,sha256=320FlVnEQd6KBF7Y_Wt6hl0QuRd09fCH295rpTY1pF8,6323
+lpaste/source.py,sha256=W5KhHEP8MmhJ1-lqjE71CN_h0JX6t61m1G-GAbcquXU,2117
+lpaste-5.3.0.dist-info/LICENSE,sha256=htoPAa6uRjSKPD1GUZXcHOzN55956HdppkuNoEsqR0E,1023
+lpaste-5.3.0.dist-info/METADATA,sha256=2D0tzJfh99bHCf7mRSpXSQvN9F85nc0A2A6vFfeL67c,2510
+lpaste-5.3.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+lpaste-5.3.0.dist-info/entry_points.txt,sha256=l0nMBjRd-S0mcIxZqso-1wFuApAToQO6V0QGUSBwZZ0,46
+lpaste-5.3.0.dist-info/top_level.txt,sha256=h12XOwt4c81ImcRWtC7DEVC-dgHNa57wt73bYoJ34UQ,7
+lpaste-5.3.0.dist-info/RECORD,,
