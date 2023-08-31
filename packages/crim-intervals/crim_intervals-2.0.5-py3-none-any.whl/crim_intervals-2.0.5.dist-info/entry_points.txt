@@ -1,0 +1,3 @@
+[console_scripts]
+intervals=intervals.main:main
+
