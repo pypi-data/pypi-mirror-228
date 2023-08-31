@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+eqldata/__init__.py
+eqldata/__version__.py
+eqldata/client.py
+eqldata.egg-info/PKG-INFO
+eqldata.egg-info/SOURCES.txt
+eqldata.egg-info/dependency_links.txt
+eqldata.egg-info/requires.txt
+eqldata.egg-info/top_level.txt

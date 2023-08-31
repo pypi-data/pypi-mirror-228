@@ -1,0 +1,7 @@
+__title__ = "eqldata"
+__description__ = "The official Python client for the Eql RT Data"
+__url__ = "https://equalsolution.com"
+__version__ = "1.3"
+__author__ = "Equalsolution"
+__author_email__ = "info@equalsolution.com"
+__license__ = "MIT"
