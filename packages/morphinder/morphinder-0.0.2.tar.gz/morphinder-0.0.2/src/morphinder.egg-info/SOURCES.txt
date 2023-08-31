@@ -1,0 +1,16 @@
+CITATION.cff
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/morphinder/__init__.py
+src/morphinder/conf.py
+src/morphinder/morphinder.py
+src/morphinder.egg-info/PKG-INFO
+src/morphinder.egg-info/SOURCES.txt
+src/morphinder.egg-info/dependency_links.txt
+src/morphinder.egg-info/not-zip-safe
+src/morphinder.egg-info/requires.txt
+src/morphinder.egg-info/top_level.txt

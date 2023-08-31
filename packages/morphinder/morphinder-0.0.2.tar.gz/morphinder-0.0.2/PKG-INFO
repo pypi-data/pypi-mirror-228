@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: morphinder
+Version: 0.0.2
+Summary: From gloss to lexicon ID
+Home-page: https://github.com/fmatter/morphinder
+Author: Florian Matter
+Author-email: fmatter@mailbox.org
+Project-URL: Bug Tracker, https://github.com/fmatter/morphinder/issues
+Keywords: linguistics,lexicon
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: publishing
+License-File: LICENSE
+
+# morphinder
+
+Identify form-meaning pairs "in the wild" using a lexicon.
+
+![License](https://img.shields.io/github/license/fmatter/morphinder)
+[![Linting](https://img.shields.io/github/actions/workflow/status/fmatter/morphinder/lint.yml?branch=main&label=linting)](https://github.com/fmatter/morphinder/actions/workflows/lint.yml)
+[![PyPI](https://img.shields.io/pypi/v/morphinder.svg)](https://pypi.org/project/morphinder)
+![Versions](https://img.shields.io/pypi/pyversions/morphinder)
