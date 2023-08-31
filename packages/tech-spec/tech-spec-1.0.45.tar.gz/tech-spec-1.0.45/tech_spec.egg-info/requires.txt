@@ -1,0 +1,5 @@
+typer[all]
+astor
+pyyaml
+jsonschema
+dependency-injector

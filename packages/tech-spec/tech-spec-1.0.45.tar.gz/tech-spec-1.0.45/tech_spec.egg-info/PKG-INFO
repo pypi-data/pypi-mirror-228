@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: tech-spec
+Version: 1.0.45
+Summary: Tech spec for code generation
+Author: Vladimir Vojtenko
+Author-email: vladimirdev635@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+
+# Tech spec
