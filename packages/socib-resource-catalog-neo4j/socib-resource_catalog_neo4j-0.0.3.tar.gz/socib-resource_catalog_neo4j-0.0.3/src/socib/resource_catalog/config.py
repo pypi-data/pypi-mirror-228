@@ -1,0 +1,14 @@
+#!/usr/bin/env python3 
+# -*- coding: utf-8 -*-
+
+DEFAULT_PERMISSION = "public"
+DEFAULT_VISIBILITY = "public"
+
+MODEL_SETTING_OFFLINE = True
+MODEL_SETTING_UID_DOMAIN = "https://resources.socib.es"
+MODEL_SETTING_SAVE_RAWID = True
+
+MODEL_MODE_OFFLINE = MODEL_SETTING_OFFLINE
+MODEL_DIRECT_MODE = True
+
+
