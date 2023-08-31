@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: denku
+Version: 0.0.3
+Summary: Custom CV functions.
+Home-page: https://github.com/TheDenk/denku
+Author: Karachev Denis
+Author-email: welcomedenk@gmail.com
+License: Apache
+Description: ## DENK UTILS
+        
+        Custom CV functions.
+        
+        
+        ## Getting Started
+        ```
+        pip install denku
+        ```
+        
+        
+        ## Contacts
+        <p>Issues should be raised directly in the repository. For professional support and recommendations please <a>welcomedenk@gmail.com</a>.</p>
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
