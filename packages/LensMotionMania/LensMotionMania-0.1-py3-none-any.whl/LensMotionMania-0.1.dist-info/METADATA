@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: LensMotionMania
+Version: 0.1
+Summary: Dip package for images and videos 
+Home-page: https://github.com/snmahsa/ImageToolkit
+Author: Mahsa Sanaei
+Author-email: mahsasanaei.n@gmail.com
+License: UNKNOWN
+Keywords: Image Processing,Machine Learning,Deep Learning,Noises,Filters,Image
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: ImageHash (==4.3.1)
+Requires-Dist: Pillow (==9.5.0)
+Requires-Dist: PyWavelets (==1.4.1)
+Requires-Dist: Pygments (==2.15.1)
+Requires-Dist: asttokens (==2.2.1)
+Requires-Dist: backcall (==0.2.0)
+Requires-Dist: certifi (==2023.7.22)
+Requires-Dist: charset-normalizer (==3.1.0)
+Requires-Dist: comm (==0.1.3)
+Requires-Dist: contourpy (==1.1.0)
+Requires-Dist: cycler (==0.11.0)
+Requires-Dist: debugpy (==1.6.7)
+Requires-Dist: decorator (==5.1.1)
+Requires-Dist: deprecation (==2.1.0)
+Requires-Dist: executing (==1.2.0)
+Requires-Dist: fonttools (==4.40.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: imageio (==2.31.1)
+Requires-Dist: img2pdf (==0.4.4)
+Requires-Dist: ipykernel (==6.23.3)
+Requires-Dist: ipython (==8.14.0)
+Requires-Dist: jedi (==0.18.2)
+Requires-Dist: jupyter-client (==8.3.0)
+Requires-Dist: jupyter-core (==5.3.1)
+Requires-Dist: kiwisolver (==1.4.4)
+Requires-Dist: lazy-loader (==0.3)
+Requires-Dist: lxml (==4.9.3)
+Requires-Dist: matplotlib-inline (==0.1.6)
+Requires-Dist: matplotlib (==3.7.1)
+Requires-Dist: nest-asyncio (==1.5.6)
+Requires-Dist: networkx (==3.1)
+Requires-Dist: numpy (==1.25.0)
+Requires-Dist: opencv-python (==4.7.0.72)
+Requires-Dist: packaging (==23.1)
+Requires-Dist: parso (==0.8.3)
+Requires-Dist: pexpect (==4.8.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: pikepdf (==8.1.1)
+Requires-Dist: platformdirs (==3.8.0)
+Requires-Dist: prompt-toolkit (==3.0.38)
+Requires-Dist: psutil (==5.9.5)
+Requires-Dist: ptyprocess (==0.7.0)
+Requires-Dist: pure-eval (==0.2.2)
+Requires-Dist: pyparsing (==3.1.0)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pyzmq (==25.1.0)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: scikit-image (==0.21.0)
+Requires-Dist: scipy (==1.11.1)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: stack-data (==0.6.2)
+Requires-Dist: tifffile (==2023.7.18)
+Requires-Dist: tornado (==6.3.3)
+Requires-Dist: traitlets (==5.9.0)
+Requires-Dist: urllib3 (==2.0.3)
+Requires-Dist: wcwidth (==0.2.6)
+
+UNKNOWN
+

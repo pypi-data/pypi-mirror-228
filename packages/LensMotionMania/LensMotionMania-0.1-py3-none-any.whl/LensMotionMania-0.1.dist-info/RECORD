@@ -1,0 +1,16 @@
+LensMotionMania/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LensMotionMania/dependencies.py,sha256=2R0g8uK70YrQdREmBtPC0HX6ydytz0P9SaOoB26TLNs,190
+LensMotionMania/display.py,sha256=WiyGHQaWBHw22kjvu0Bm3YOAdfLfqisBMADj1upr_t4,2177
+LensMotionMania/filters.py,sha256=NmbWI5CQBklh9ZdPUm8whmfaXvEeKpk94SqBz6yy7jo,3629
+LensMotionMania/io.py,sha256=1PuTvcqm-D3ysEjeeBgea81WejvMbrL5ZWWCTtPUseY,2059
+LensMotionMania/noises.py,sha256=kFeRIld74XOueRSJKfsLrnmWWC20qOR-_mU94nc9eWA,7130
+LensMotionMania/report.py,sha256=As5EdIZUKCk6zLp6pasm7E2k_lmADWR58H8zJJ6kEoQ,1406
+LensMotionMania/Utils/__init__.py,sha256=chla0aDPXx4t1o1WJD78KvXSsxDZ9-FTqVTqBFHH418,42
+LensMotionMania/Utils/check.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LensMotionMania/Utils/color.py,sha256=ZwtPpeaLS5bHuwJ-n7ddBnn0aNU6bcT20nYG2pxooWA,1282
+LensMotionMania/Utils/transform.py,sha256=hv5jMRh9Ap1tqH2n0Ke8YEkIZE4RyTFr_HCESuq6I2c,687
+LensMotionMania-0.1.dist-info/LICENSE,sha256=xGsGUoAIL7HYyEqjdZ8qIj_YJ-5iVZNQRqI2Cq7zQjo,1069
+LensMotionMania-0.1.dist-info/METADATA,sha256=vHBoaN9En1lTCJaBi7-FzIC9uXsGsc13t6NDswBu7m8,2319
+LensMotionMania-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+LensMotionMania-0.1.dist-info/top_level.txt,sha256=Ual-cIBZrDb5W_o0hby-E4-WbK8z5GO72-ULXGlOM8E,16
+LensMotionMania-0.1.dist-info/RECORD,,
