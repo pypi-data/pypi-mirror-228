@@ -1,0 +1,2 @@
+[console_scripts]
+cassette = cassette.main:main
