@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+jump2odps/__init__.py
+jump2odps.egg-info/PKG-INFO
+jump2odps.egg-info/SOURCES.txt
+jump2odps.egg-info/dependency_links.txt
+jump2odps.egg-info/requires.txt
+jump2odps.egg-info/top_level.txt
+jump2odps/computing/__init__.py
+jump2odps/computing/api.py
+jump2odps/computing/client.py
+jump2odps/computing/data_types.py
