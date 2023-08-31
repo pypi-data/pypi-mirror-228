@@ -1,0 +1,12 @@
+contextfree/__init__.py,sha256=Uoce7VUclGcnMgtpW340NL_N7OMShIFilIlYL1r_V4Q,326
+contextfree/_transform.py,sha256=xPIwvi0iV0xCuFIVzmoOg9AybK0DfIMDhgzguhIYmYM,4715
+contextfree/_version.py,sha256=EpPGibfzqLNQ2JcOHIj7MpaDW6SIjX6cXPieTp0udvM,57
+contextfree/color.py,sha256=Xb1ZKIyA_kLotkLPGgs9nbaAUyaTfH1exE0u7OpM4hI,455
+contextfree/core.py,sha256=B0QSS4ozxMsMaJKXqg4xqqTIHjWfFTuerYW_Smt2t8k,6292
+contextfree/random.py,sha256=_6FOBoTew9xepqFWNtIrPc1nH5yoeS-uCWIvcuoV2Gw,435
+contextfree/shapes.py,sha256=RcvXa1I0T4jw6Kog1ZZOvU29fsZDIbACxiBCX_t1xs0,1033
+contextfree-0.3.5.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+contextfree-0.3.5.dist-info/METADATA,sha256=gXxOSLc6UAgaJr4QhVCFFNzd8WchU3IJLwGplcJRvZw,2550
+contextfree-0.3.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+contextfree-0.3.5.dist-info/top_level.txt,sha256=aNznvqmEuVHEv1IJaFMyaY0xl5Gs1o_8N06N9udlIhE,12
+contextfree-0.3.5.dist-info/RECORD,,
