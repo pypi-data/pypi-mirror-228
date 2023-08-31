@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: SieveAI
+Version: 0.5.20230830171400
+Summary: An automated drug discovery pipeline
+Home-page: https://github.com/VishalKumarSahu/SieveAI
+Author: Vishal Kumar Sahu
+Author-email: mail@vishalkumarsahu.in
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SieveAI
+An automated drug discovery pipeline
+
+## Features
+
+## Quick installation and usage
+* `pip install SieveAI`
+* `sieveai -h`
+
+## 0.5.20230606
+* Bug Fixes
+
+## 0.1.20210630
+* Version 0.1
+
+# Copyright
+&copy; Vishal Kumar Sahu, 2023
+
+

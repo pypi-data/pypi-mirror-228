@@ -1,0 +1,4 @@
+[console_scripts]
+sieveai = sieveai:dock
+sieveai-rescore = sieveai:rescore
+
