@@ -1,0 +1,8 @@
+README.md
+setup.py
+react_stats.egg-info/PKG-INFO
+react_stats.egg-info/SOURCES.txt
+react_stats.egg-info/dependency_links.txt
+react_stats.egg-info/entry_points.txt
+react_stats.egg-info/requires.txt
+react_stats.egg-info/top_level.txt

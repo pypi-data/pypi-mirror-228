@@ -1,0 +1,5 @@
+tabulate
+chardet
+pandas
+asciibars
+watchdog
