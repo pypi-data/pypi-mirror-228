@@ -1,0 +1,6 @@
+pyOpenSSL==23.2.0
+requests==2.31.0
+
+[dev]
+pip-tools
+pytest

@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/keycloak_saml_session/__init__.py
+src/keycloak_saml_session/__main__.py
+src/keycloak_saml_session/request.py
+src/keycloak_saml_session/session.py
+src/keycloak_saml_session.egg-info/PKG-INFO
+src/keycloak_saml_session.egg-info/SOURCES.txt
+src/keycloak_saml_session.egg-info/dependency_links.txt
+src/keycloak_saml_session.egg-info/entry_points.txt
+src/keycloak_saml_session.egg-info/requires.txt
+src/keycloak_saml_session.egg-info/top_level.txt
+tests/test_end_to_end.py
