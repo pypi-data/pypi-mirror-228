@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: pyption
+Version: 1.0.0
+Summary: type Option, Some contains some value and Nothing contains absolutely nothing.
+Home-page: https://github.com/luwqz1/telegrinder_templating
+License: MIT
+Keywords: python,option type,rust option,some nothing
+Author: Georgy Kritov
+Author-email: howluwqz1@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: typing-extensions (>=4.7.1,<5.0.0)
+Project-URL: Repository, https://github.com/luwqz1/telegrinder_templating
+Description-Content-Type: text/markdown
+
+# pyption
+
+type Option, Some contains some value and Nothing contains absolutely nothing.
+
+
+Install using PyPI:
+
+```
+pip install pyption
+```
+
+* type `Option` -> *Some[*`Value`*]* | *NothingType*
+* *Some(`value: Value`)*
+* *NothingType()*
+* *Nothing* -> `singleton`
+  
+Option methods:
+* unwrap
+* unwrap_or
+* unwrap_or_other
+* map
+* map_or
+* map_or_else
+* expect
+
+Simple example:
+
+```python
+import typing
+
+from pyption import Some, Nothing, Option
+
+T = typing.TypeVar("T")
+
+
+def cast_obj(obj: object, tp: type[T]) -> Option[T]:
+    try:
+        return Some(tp(obj))
+    except (TypeError, ValueError):
+        return Nothing
+
+
+assert cast_obj("123", int).unwrap() == 123  # ok, some value!
+assert cast_obj(123, tuple[int]).unwrap_or(tuple()) == tuple()  # ok, alternate value!
+assert cast_obj((("name", "Max",),), dict[str, str]).map(lambda d: d["name"]).unwrap() == "Max"  # ok, some value from map!
+assert cast_obj(999, set[int])  # fail, nothing!
+```
+
+Example usage [*HERE*](https://github.com/luwqz1/pyption/blob/main/example.py)
+
