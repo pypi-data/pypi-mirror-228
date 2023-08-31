@@ -1,0 +1,14 @@
+kumade/__init__.py,sha256=H2O6B1kYjeCe-oQm9WMSG1CTJLuxJsY0BHHlEY9eigE,276
+kumade/builder.py,sha256=-Aw3_MXosJrcoG567uGcEm2bKuMVV3WQduudXgTNzbU,3384
+kumade/cli.py,sha256=1mEYnxzVBxGxnIcU2lTlwXKD5mu8XeC4xE1PWLeLHyc,5259
+kumade/decorator.py,sha256=IAmzKCaDfWQcD0kKJIPkOD2z-Jek_kQgi3YLx86JEHU,3035
+kumade/manager.py,sha256=lSBJdVObcK-Kfs37fXXJzYzDjetZ2W-_0_jJlowtT40,1215
+kumade/runner.py,sha256=tISfRp2uPTJD_1bSXqv3oXAbOJD2cQARVQYqwMpTVZc,1772
+kumade/task.py,sha256=Jz0IXNj9H812qnWwBXFv1yr6XbhgFizqiwl7xMVxAZw,498
+kumade/utility.py,sha256=ARAhVto9oI4BfjGMsoKmPt7zLZzvpRM-YKxQ0P3gfAA,1114
+kumade-0.1.0.dist-info/LICENSE,sha256=ueleQzwMpKT85c7lHSvz7LkHETerxUXPNXmYBy6p6dM,1064
+kumade-0.1.0.dist-info/METADATA,sha256=uIc5j45AYGgFyX1p0Foz2Os-3Cs9LuCdJwLQZVoYw5w,3424
+kumade-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+kumade-0.1.0.dist-info/entry_points.txt,sha256=bkNBj_szXjn1L98gAGFuSgooUXvwNwRdrnUIKIm7jQ4,43
+kumade-0.1.0.dist-info/top_level.txt,sha256=4_cg16t8SiqeopnynaBdA0ZPkzDwAFBO4osihnJuffc,7
+kumade-0.1.0.dist-info/RECORD,,
