@@ -1,0 +1,16 @@
+fcc2zim/__about__.py,sha256=LGVQyDsWifdACo7qztwb8RWWHds1E7uQ-ZqD8SAjyw4,22
+fcc2zim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fcc2zim/__main__.py,sha256=xAJusA8CQ688uQrAITIqN7IdjmE-Epn7L_zYpAWnVI8,75
+fcc2zim/build.py,sha256=0auS_fYwc_iNN0yvHt2i7bnvz-gCEdMt1uB2AeAYIaE,3158
+fcc2zim/challenge.py,sha256=25D-rLPCjPQ6Yj0UE9Xjyrnz99Gdd_HRQCKCY48lz88,1135
+fcc2zim/constants.py,sha256=fDySkvKNj8nwzC7lZ4n1rWkNZv2qEjO1Sp1TiWyPyvg,691
+fcc2zim/entrypoint.py,sha256=jTiRubA-QgafW3ubGi5l77yig_gKQB89OPNzrRsPR6U,4725
+fcc2zim/fetch.py,sha256=85Or8L5AAyuAKqnHI1y0NYOcl8oW64dUDO8FqyDENow,1360
+fcc2zim/prebuild.py,sha256=MDQQiC3hqQLjzWJgfws1KIOYDvLqEMcnnRzy7qMJkBg,4652
+fcc2zim/scraper.py,sha256=0jsXCTrOnstWsJz4uroUfNrOZgF7R9TtzXez0VBcalo,5713
+fcc2zim/zimscraperlib_fork.py,sha256=hRla3YnrCbzDhQ9_rI53i9w4Ho6kbGhP79Wm7PNlWas,2699
+fcc2zim/assets/fcc_48.png,sha256=tOWZsRnDT8g1gR-9gjxpTWvSn7ctN6HSkmmlpbTzhR4,1660
+fcc2zim-1.1.0.dist-info/METADATA,sha256=gZsW28rv42sgLUN0uV9ZaS83R264s8tGdrQlB390DS4,5114
+fcc2zim-1.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+fcc2zim-1.1.0.dist-info/entry_points.txt,sha256=HXubJCeNQmd12kUxEyrmQh0Xqqt5rg5M6dU9pWmSzM0,52
+fcc2zim-1.1.0.dist-info/RECORD,,
