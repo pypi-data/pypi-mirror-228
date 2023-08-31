@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: goldenset
+Version: 0.0.1
+Summary: goldenset
+Author-email: Johannes Messner <messnerjo@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
