@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: mt-engines
+Version: 1.0.0
+Summary: 机翻引擎
+Author: os_linzy
+Author-email: 1269125170@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: tencentcloud-sdk-python-common
+Requires-Dist: tencentcloud-sdk-python-tmt
+Requires-Dist: pandas
+Requires-Dist: deep-translator
+
+## 快速上手
+
+```Python
+# 导入翻译类
+from mt_engines import MTTranslator
+# 初始化翻译引擎,Deepl和Tencent需传入key，Google则不需key
+translator = MTTranslator('Google', key='**')
+# 单个文本翻译
+result = translator.translate('待翻文本','zh-CN','en')
+# 多个待翻译文本
+result = translator.pool_translate(['待翻文本1','待翻文本2','待翻文本3'],'zh-CN','en')
+# 导入待翻译文件
+translator.load_file('翻译表.xlsx')
+# 翻译加载的文件，第3个参数为元组，输入待翻译文件的起始行，终止行，原文列，译文列
+translator.translate_file('zh-CN','en',(1,'auto',1,2))
+# 启用均衡算法进行批量机翻
+result = translator.compress_translate(    ['待翻文本1','待翻文本2','待翻文本3'],    'zh-CN',    'en',     thread_num=3,     max_words=2000)
+# 在文件翻译中启用均衡算法
+result = translator.translate_file('zh-CN','en',(1,'auto',1,2),compress=True)
+```
