@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+sciodps/__init__.py
+sciodps.egg-info/PKG-INFO
+sciodps.egg-info/SOURCES.txt
+sciodps.egg-info/dependency_links.txt
+sciodps.egg-info/requires.txt
+sciodps.egg-info/top_level.txt
+sciodps/computing/__init__.py
+sciodps/computing/api.py
+sciodps/computing/client.py
+sciodps/computing/data_types.py
