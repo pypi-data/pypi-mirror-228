@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gobigger
+Version: 0.2.1
+Summary: Go-Bigger: Multi-Agent Decision Intelligence Environment
+Author: OpenDILab
+License: Apache License, Version 2.0
+Keywords: Go-Bigger DI
+License-File: LICENSE
+Requires-Dist: easydict
+Requires-Dist: gym (>=0.15.3)
+Requires-Dist: pygame (>=2.0.0)
+Requires-Dist: pytest (>=5.0.0)
+Requires-Dist: opencv-python
+Requires-Dist: numpy (>=1.10)
+Requires-Dist: numexpr
+Requires-Dist: lz4
+
