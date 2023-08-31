@@ -1,0 +1,15 @@
+discoverable_tph_280/.config.yaml,sha256=R5FzFvLmlRYucoA-KoFXEqPWYs5XKU6ZTblInRN6eyc,232
+discoverable_tph_280/__init__.py,sha256=31hj_jFfjxgN069oyeV3qiyxtZRVkDsndWSmubuow_8,153
+discoverable_tph_280/__main__.py,sha256=KKQ4JMo54bPnyk39KVpEKS-wl5bdEoI5SSlGJjsqr5o,1977
+discoverable_tph_280/barometer.py,sha256=9I6mqfiMq-Uhqy3PSu4avDUYvx3UgrXbstvYyzkqy-U,1282
+discoverable_tph_280/base.py,sha256=IPl25TcIITetHguRjky6MMjum02hFqykNGtCQc8_ThM,1638
+discoverable_tph_280/bme_280.py,sha256=xxIplUzAISRmn6F_vSOPDkVx3a_VHfLfCLuL12vNi3Q,611
+discoverable_tph_280/config.py,sha256=NTDJRsjbQVyTxnaLAfW6yhdVaa4-eA3yHLbRTLQsgoU,2025
+discoverable_tph_280/hygrometer.py,sha256=lA4_d7yucTzJISUVE1r_ezGwj9czTjlVUjx_uCLTnR8,1246
+discoverable_tph_280/logging.conf,sha256=ItD4-gIiMEEKKq4l0u72D19l2KtstSkTFhi23OZIP0Y,436
+discoverable_tph_280/thermometer.py,sha256=gam9QWOiQVbfCCvkCDdyWwpFwsbpr-unR0ADgDIb76E,1322
+discoverable_tph_280/util.py,sha256=jXolVOM9gnfb23B_ZM3aBaVlEzz1WbmBKYysnvTM-RM,333
+discoverable_tph_280-0.1.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+discoverable_tph_280-0.1.8.dist-info/METADATA,sha256=Py_5hYxkZtxij7HKPNJL7y7NBrFercSM3jK0cH6FdPI,5698
+discoverable_tph_280-0.1.8.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+discoverable_tph_280-0.1.8.dist-info/RECORD,,
