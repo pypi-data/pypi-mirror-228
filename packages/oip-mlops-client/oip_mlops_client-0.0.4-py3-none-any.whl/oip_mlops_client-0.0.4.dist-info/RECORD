@@ -1,0 +1,9 @@
+oip_mlops_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oip_mlops_client/lib.py,sha256=R6sVGGyf5N1kWiiTMc87DkFPhaoZ5p80UJFKklCsRVM,6217
+oip_mlops_client/mlops.py,sha256=oaXWLHiQQeb7XDGP5x4WggdEIIU7R-ksW1GKXx9IB9I,9379
+oip_mlops_client/rest.py,sha256=rJUTM7WiCNuv3Vu6um-n5P8vlcVXwR6bzZmGk5BvH_s,5458
+oip_mlops_client/wavfile.py,sha256=MCG-9SU-0U5qsNMSpxiWqfIItTpy-tRnC5NxQRGRKlo,21094
+oip_mlops_client-0.0.4.dist-info/METADATA,sha256=-_e2OJ0o8xVcIfv-C_2SjrWyu_e5-iXurAKOL6KNs-0,5631
+oip_mlops_client-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+oip_mlops_client-0.0.4.dist-info/top_level.txt,sha256=r_y2iLkNUM3CawOJNoJSos20pzFbSZXrLWY8fTrjeJE,17
+oip_mlops_client-0.0.4.dist-info/RECORD,,
