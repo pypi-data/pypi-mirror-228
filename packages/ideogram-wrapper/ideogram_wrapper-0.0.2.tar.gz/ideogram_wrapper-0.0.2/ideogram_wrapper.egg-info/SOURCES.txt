@@ -1,0 +1,7 @@
+setup.py
+ideogram_wrapper/__init__.py
+ideogram_wrapper.egg-info/PKG-INFO
+ideogram_wrapper.egg-info/SOURCES.txt
+ideogram_wrapper.egg-info/dependency_links.txt
+ideogram_wrapper.egg-info/requires.txt
+ideogram_wrapper.egg-info/top_level.txt
