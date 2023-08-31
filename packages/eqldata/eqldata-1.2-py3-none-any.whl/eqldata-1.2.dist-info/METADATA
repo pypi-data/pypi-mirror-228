@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: eqldata
+Version: 1.2
+Summary: A Python package for subscribing to instruments data.
+Home-page: http://equalsolution.com/
+Author: EQLSOLUTION
+Author-email: info@equalsolution.com
+License: MIT
+Requires-Dist: websockets
+
