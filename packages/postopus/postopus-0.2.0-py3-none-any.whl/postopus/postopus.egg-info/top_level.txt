@@ -1,0 +1,12 @@
+__init__
+_ase_compatibility
+bin
+datacontainers
+documentation
+examples
+files
+namespace_utils
+octopus_inp_parser
+octopus_run
+plotters
+utils
