@@ -1,0 +1,11 @@
+PicFetch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PicFetch/dependencies.py,sha256=D6iyqrLrZZE4G1oGJHTBDYo2gc9jdHOcKeZDc7EoZgo,225
+PicFetch/path.py,sha256=oP3HGlA9jxc4v_O6Je3Tg8IeK8KH3JW7uPj1rkNkr_Y,291
+PicFetch/read.py,sha256=kROTcRDuNPP3LrpudNTniyYZ0hXHum3jgg0WjrMcmEs,1138
+PicFetch/show.py,sha256=PqRQOI-NsdrG4JqfIf61wve3v-7rUc1_qmlhjHye5aM,472
+PicFetch/upload.py,sha256=rS0vnqHKqysVIhmj3JJVd8VIjzvpL2JhATqJTuln5p0,1257
+PicFetch-0.1.dist-info/LICENSE,sha256=xGsGUoAIL7HYyEqjdZ8qIj_YJ-5iVZNQRqI2Cq7zQjo,1069
+PicFetch-0.1.dist-info/METADATA,sha256=XHPwZf8U5gqZcq93qcEnuVZBdQt4GyIt3YyZZVVaEaQ,1880
+PicFetch-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PicFetch-0.1.dist-info/top_level.txt,sha256=nSiJJVgddVJzgHvdn9yJ8yTBs2JIzWhQcR1_peBAeC4,9
+PicFetch-0.1.dist-info/RECORD,,
