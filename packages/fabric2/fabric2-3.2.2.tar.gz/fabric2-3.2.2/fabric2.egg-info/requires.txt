@@ -1,0 +1,9 @@
+invoke>=2.0
+paramiko>=2.4
+decorator>=5
+deprecated>=1.2
+
+[pytest]
+pytest>=7
+
+[testing]
