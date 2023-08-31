@@ -1,0 +1,10 @@
+mvsdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mvsdk/api/__init__.py,sha256=gLUYm04RsLaS2Zywjkfa_Z-1tEgZq8BzjIK3B_Jikc4,5751
+mvsdk/rest/__init__.py,sha256=SLO-EDjrvPRTAUrB5NzRVD5g6KmWviv3rJzcfUjbLu0,2910
+mvsdk/rest/asset/__init__.py,sha256=y8ns6Fi_pHHFLuD4jhD9td2ZDlC999ZEj3bcBGkaawo,3356
+mvsdk/rest/connect/__init__.py,sha256=gDn03kLe16Hfv2BJK_fCzpl-CVqvLaTbhOeBkHVq-Jc,1147
+mvsdk/rest/keyword/__init__.py,sha256=Z3zwr4kKh4zDs82MgbeJOryHNBNU7MBLkfOoczv8b8Q,1719
+mvsdk-0.0.4.post2308302320.dist-info/METADATA,sha256=U8aK07eJQQSohhCofRvTFTWCO529twkk5o4xuF_jJpw,363
+mvsdk-0.0.4.post2308302320.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+mvsdk-0.0.4.post2308302320.dist-info/top_level.txt,sha256=5nTGofrSp1NEjm18_siI6n-jMRlgFxsMUVk7sdBRkqU,6
+mvsdk-0.0.4.post2308302320.dist-info/RECORD,,
