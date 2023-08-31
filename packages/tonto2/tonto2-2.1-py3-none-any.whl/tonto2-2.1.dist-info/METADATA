@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tonto2
+Version: 2.1
+Summary: Tonto2 is a personal address-list, calendar, notepad, and so much more.
+Keywords: Lists,Calendars,Appointments,Contacts,Addresses,Telephone Numbers,Phone Numbers,People,Bookmarks,Favorites,Passwords,Notes,Cardfiles,Bibliography,Bibliographies
+Author-email: Chuck Rhode <CRhode@LacusVeris.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Home, https://LacusVeris.com/Tonto2/Docs/en
+
+# example-package
+
