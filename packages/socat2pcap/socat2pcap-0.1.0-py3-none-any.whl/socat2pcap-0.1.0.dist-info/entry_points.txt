@@ -1,0 +1,2 @@
+[console_scripts]
+socat2pcap = socat2pcap.main:main

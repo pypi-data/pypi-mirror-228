@@ -1,0 +1,11 @@
+socat2pcap/pcap.py,sha256=0aFd3w-y-GHrz7WbYZsFRia4Or0TApdYvfI3cXerg-g,2728
+socat2pcap/__main__.py,sha256=1mY-FLWSQFh3XDtiMmkXeRWQ1kH7NtnMk_QRCyjNWms,116
+socat2pcap/main.py,sha256=CucKetfInXySvRzdgJNCIv-VvBfHDobPQYRBBeFrp9c,2527
+socat2pcap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+socat2pcap/socat.py,sha256=QeG8IV_yLz_ykHFgtq_luHqF_XZ1Sk4OF7DmyOAj64o,1437
+socat2pcap/common.py,sha256=2IHOGot1XPzAhHm5oG0-093BxYOT0bk8Do1uP_iw4r0,431
+socat2pcap-0.1.0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+socat2pcap-0.1.0.dist-info/entry_points.txt,sha256=G5gsIH_pc_6lNCdM0S1p1NOhA0DdBRxip-4pBnVf-oQ,51
+socat2pcap-0.1.0.dist-info/METADATA,sha256=WIkPEO8B-fdrS0akSbGTCvvM_eQ2W_M5sf2aXC4aVdA,1478
+socat2pcap-0.1.0.dist-info/WHEEL,sha256=Y_gqjhOVhlFW10kLGMoxj-_ywJsG0ivt9jkquoec2pI,76
+socat2pcap-0.1.0.dist-info/RECORD,,
