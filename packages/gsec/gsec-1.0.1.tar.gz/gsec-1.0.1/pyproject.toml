@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gsec"
+version = "1.0.1"
+authors = [
+  { name="rooyca", email="rooyca@gmail.com" },
+]
+description = "Store secrets in a git repository. (Use under your OWN risk)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+homepage = "https://github.com/rooyca/git-secret"
+issues = "https://github.com/rooyca/git-secret/issues"
+
+[project.scripts]
+gsec = "src.main:cli"
