@@ -1,0 +1,9 @@
+aiopcli/__init__.py,sha256=zcDhJt0ZS8mVZ6WKCWy4PT5u4ogmw39KkkZd7EKPmcQ,159
+aiopcli/artifacts.py,sha256=q_uvZriD1IMOWwf9kihciSYfB3nAAEmPvHZMr8dB12M,3209
+aiopcli/cli.py,sha256=BAA01yA8JclM8EoGIdJOUCflFrdJjqC6FRoV1YRB10c,13184
+aiopcli/custom_image.py,sha256=ev45RVCkgUuZhn51euz-V308CkJpvDyJEkacopugD34,4560
+aiopcli/utils.py,sha256=09nVpzzc5rz1KVvoqF72EWG3e2XYWde744hhRYP9__M,814
+aiopcli-1.0.0a1.dist-info/entry_points.txt,sha256=QmziD5AlNsesUltof2anO1W52Wn8UMRRi-hyI2-jvHo,39
+aiopcli-1.0.0a1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+aiopcli-1.0.0a1.dist-info/METADATA,sha256=tLOgvGRSAlJv2gbqDkeJ5mzjntUiasUwinKeQr0B0tc,4660
+aiopcli-1.0.0a1.dist-info/RECORD,,
