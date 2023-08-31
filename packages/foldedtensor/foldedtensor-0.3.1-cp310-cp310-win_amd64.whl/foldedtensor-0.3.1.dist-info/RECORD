@@ -1,0 +1,11 @@
+foldedtensor/_C.cp310-win_amd64.pyd,sha256=mBOPoGmmbvlmYWijHe12CRH_baAnR_P6tKDCKc7lh5g,131584
+foldedtensor/__init__.py,sha256=55NV1re9L5gmJBwQarN57b8mzKfwyo-qxXG1w8BZIo4,11674
+foldedtensor/functions.cpp,sha256=DKXjZgLQJc8ujJEZaUly6Y5XwTKWfzyLtsmzCJSgGlk,11364
+tests/conftest.py,sha256=ofe4wihtPheh5N4XbOqihAYpbVJvmLj566hBnza0H_4,231
+tests/test_folded_tensor.py,sha256=nrqLH8AOvjnMcS2hDeIRkU5fnynuMAflJrTDOsX9TRY,9301
+tests/test_multiprocessing.py,sha256=p8jML6WAFEuHOfSmjoXRr7RXwbBA6x-dqIUq6SHLPaM,2016
+foldedtensor-0.3.1.dist-info/LICENSE,sha256=xZ9Nc7dM4WrxGP1Of1DoJ0JpG-UzmjhEOe3ieM8YuA8,1496
+foldedtensor-0.3.1.dist-info/METADATA,sha256=bRrFn4h-nlZpUhLrfTqtglqNN2W4VHsyd06Jk8sxB88,6461
+foldedtensor-0.3.1.dist-info/WHEEL,sha256=yrvteVAZzxQvtDnzdCRh4dP01sPIxYhLXIXplC7o50E,102
+foldedtensor-0.3.1.dist-info/top_level.txt,sha256=ODzup8any9F023nWTAEVTHGAVFJAxM9MD9RTeFfaYW0,36
+foldedtensor-0.3.1.dist-info/RECORD,,
