@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: YoDe_Segmentation_v2
+Version: 1.0.1
+Home-page: https://github.com/OneChorm/YoDe-Segmentation
+Author: zconechorm
+Author-email: Email:zconechorm@163.com
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# YoDe-Segmentation
+**An open sourced software for automatic chemical molecular structure maps extraction.**
+
+## Project link
+https://github.com/OneChorm/YoDe-Segmentation \
+Please raise issues on the project link if you encounter any problems.
+
+## Author info
+Author: OneChorm \
+Email: zconechorm@163.com
+
+## Acknowledgement
+The software will be subject to usage restrictions under the MIT license.
