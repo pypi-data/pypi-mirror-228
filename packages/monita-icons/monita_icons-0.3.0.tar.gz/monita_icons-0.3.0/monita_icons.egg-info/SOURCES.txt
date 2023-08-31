@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+vendor_list.json
+./monita_icons/vendor_map.json
+./monita_icons.egg-info/PKG-INFO
+./monita_icons.egg-info/SOURCES.txt
+./monita_icons.egg-info/dependency_links.txt
+./monita_icons.egg-info/top_level.txt
+monita_icons/monita_icons.py
+monita_icons/vendor_map.json
+monita_icons.egg-info/PKG-INFO
+monita_icons.egg-info/SOURCES.txt
+monita_icons.egg-info/dependency_links.txt
+monita_icons.egg-info/top_level.txt
