@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: SnapChatBot
+Version: 1.0.1
+Keywords: snapchat,bot,snapchatbot
+Requires-Dist: selenium
+Requires-Dist: pyvirtualdisplay
+
