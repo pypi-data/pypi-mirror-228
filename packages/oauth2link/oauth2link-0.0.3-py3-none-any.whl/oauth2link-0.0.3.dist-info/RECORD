@@ -1,0 +1,16 @@
+oauth2link/__init__.py,sha256=MBX2oV9-dSOFgqInnwXhm8X2HOkD5qrxiKzC6gNidbo,1095
+oauth2link/types.py,sha256=xC1BOvoqSaPvLssp_m47U2ZjmnJkvqcFsxAZNq2Uhsg,1137
+oauth2link/utils.py,sha256=GVtt0o0ZaajbkYLd4kafSPFF6EHSUTD_ykG3PFQ4zdw,1666
+oauth2link/callback/__init__.py,sha256=MsO0FyxUvMF6dUUB6F9qzt7jAIzsMlqxoaJGLUdoSXk,1299
+oauth2link/callback/callback.py,sha256=brk-vmh5cpnHRf11bgUz2sBGYszeBO2axT6tNZoNQbg,1694
+oauth2link/callback/github_callback.py,sha256=oH3PDuecHNnFghkZcZtLyi_241KZTXmxPtxCbosMfIA,1187
+oauth2link/callback/weibo_callback.py,sha256=aaHldnjkevGXjTZaKyTcAhdhGZcT3Ax2uPmsLTspivE,1186
+oauth2link/platform/__init__.py,sha256=cBLdLktQ8-pVsgIuaX3oJKAJIAQ8SFES9Sv34CYseXE,1279
+oauth2link/platform/github_platform.py,sha256=xiRdnwp5GI4Jjj_sA2ARGK1KW50lfWlABhmz2sot7TY,3643
+oauth2link/platform/platform.py,sha256=gMVyFABdg683mzyk3AD7u84qqlXVJlHecFA9ZAdORJ8,7244
+oauth2link/platform/weibo_platform.py,sha256=jPjvGGIrPaIfAABI6JKVbQG8hstpn71n2nRKjeYmL-I,3757
+oauth2link-0.0.3.dist-info/LICENSE,sha256=TttW6oKBrp4ogKtx8Dqwnf2-VTp26Geg7mKiiCQHJCQ,1065
+oauth2link-0.0.3.dist-info/METADATA,sha256=_lLGOT-f9EKF8vEomFbAS2AzGBEV4i7Izp0xml-6YkI,2084
+oauth2link-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+oauth2link-0.0.3.dist-info/top_level.txt,sha256=VnFizlBIbi03O-SW2RbK1gxp3BDrcuIsTQep80P_cGg,11
+oauth2link-0.0.3.dist-info/RECORD,,
