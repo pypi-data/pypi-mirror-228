@@ -1,0 +1,17 @@
+name: punx
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - h5py >=3
+  - hdf5plugin
+  - lxml
+  - numpy
+  - python >=3.8
+  - pip
+  - pyqt =5
+  - pyRestTable
+  - requests
+  - sip
