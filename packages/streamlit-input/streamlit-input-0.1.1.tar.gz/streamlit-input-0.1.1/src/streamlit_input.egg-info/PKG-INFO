@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: streamlit-input
+Version: 0.1.1
+Summary: This a general streamlit input widget, that supports additional input types.
+Author: akbor
+Author-email: noemail@example.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# streamlit-input
+
+This a general streamlit input widget, that supports additional input types.
+
+## Installation instructions 
+
+```sh
+pip install streamlit-input
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from st_input import st_input
+
+value = st_input()
+
+st.write(value)
