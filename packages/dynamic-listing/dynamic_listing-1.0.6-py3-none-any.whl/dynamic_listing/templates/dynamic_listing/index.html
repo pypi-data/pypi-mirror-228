@@ -1,0 +1,53 @@
+{% extends "base_template/base.html" %}
+
+{% block title %}
+  {{ title }}
+{% endblock %}
+
+{% if not factory and media %}
+  {% block styles %}
+    {{ media.render_css|join:''|safe }}
+  {% endblock %}
+{% endif %}
+
+{% if not factory and media %}
+  {% block scripts %}
+    {{ media.render_js|join:''|safe }}
+  {% endblock %}
+{% endif %}
+
+{% if modals_template_name %}
+  {% block modals %}
+    {% if modals_template_name %}
+      {% include modals_template_name %}
+    {% endif %}
+  {% endblock %}
+{% endif %}
+
+{% block content %}
+  <form data-toggle="filters">
+    <div id="dynamic-listing" class="{{ container_class }}">
+
+      {% if header_template_name %}
+        {% include header_template_name %}
+      {% endif %}
+
+      <div class="row">
+        {% if filter %}
+          <div class="col-md-2 col-lg-3">
+            {% include "dynamic_listing/filters/_side_filter.html" %}
+          </div>
+        {% endif %}
+
+        <div class="{% if filter %}col-md-10 col-lg-9{% else %}col-12{% endif %}">
+          {% if filter %}
+            {% include "dynamic_listing/filters/_top_filter.html" %}
+          {% endif %}
+          {% include "dynamic_listing/partials/_listing_inner.html" %}
+        </div>
+      </div>
+    </div>
+  </form>
+{% endblock %}
+
+

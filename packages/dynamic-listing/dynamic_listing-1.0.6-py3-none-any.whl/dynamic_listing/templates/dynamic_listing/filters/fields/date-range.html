@@ -1,0 +1,25 @@
+<div class="form-floating">
+
+  <input type="hidden"
+         id="filter-id-{{ attrs.name }}-from"
+         name="{{ attrs.name }}_after"
+         data-range-from="{{ attrs.name }}"
+         value="{{ attrs.value.range_form }}">
+
+  <input type="hidden"
+         id="filter-id-{{ attrs.name }}-to"
+         name="{{ attrs.name }}_before"
+         data-range-to="{{ attrs.name }}"
+         value="{{ attrs.value.range_form }}">
+
+  <input type="text"
+         id="filter-id-{{ attrs.name }}"
+         data-name="{{ attrs.name }}"
+         data-date-range-filter="true"
+         value="{{ attrs.value.value }}"
+         class="form-control form-control-solid"
+         placeholder="{{ attrs.label }}"/>
+
+  <label for="filter-id-{{ attrs.name }}"
+         class="required">{{ attrs.label }}</label>
+</div>
