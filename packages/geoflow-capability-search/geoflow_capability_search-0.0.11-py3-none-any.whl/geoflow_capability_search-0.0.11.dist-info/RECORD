@@ -1,0 +1,12 @@
+my_component/__init__.py,sha256=ljVKcYP2i3biJVa4am1EhMN4g7ISDXZ2VIyHS7Z_ziE,6823
+my_component/frontend/build/asset-manifest.json,sha256=Iy3lcaesf38aQVY_k1pkbTAx-gSuzJib93l5Q8iwlIQ,221
+my_component/frontend/build/bootstrap.min.css,sha256=hTwg6axJ8dAPmGVJmYTrsQS3JhKWA0skJ-td54UbEOk,197459
+my_component/frontend/build/index.html,sha256=piVzFL0tzDJn0SDVt7p-nkATNlnErKUuCj6bD-BuOik,492
+my_component/frontend/build/static/js/main.a796075f.js,sha256=QLZGhZ0lX_Q6PkALjjwSfpcas8InwfdNTM8yGlFkovU,869280
+my_component/frontend/build/static/js/main.a796075f.js.LICENSE.txt,sha256=6yGnhJ7BiVi6kMxq7kZjQu41PEmrTN8c-Z-0PPVTP-Y,2692
+my_component/frontend/build/static/js/main.a796075f.js.map,sha256=koCQGFQ1jlIJnMrx8zz-tUcvg4iGO0mRMg64VpRJ6p0,4055215
+geoflow_capability_search-0.0.11.dist-info/LICENSE,sha256=9VDWIUfeWnnobvVpN2KtC5cHaNpAmxhdjyF4LivEPNw,1063
+geoflow_capability_search-0.0.11.dist-info/METADATA,sha256=-su0ekyWzsh49_CgXrQV4ZwJHHsMUhaw9ZOX9lce4Vg,2249
+geoflow_capability_search-0.0.11.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+geoflow_capability_search-0.0.11.dist-info/top_level.txt,sha256=esO6Xp9oWXMveNn3mP2NWiVjBJuyWBiFmsjjHhKY5LE,13
+geoflow_capability_search-0.0.11.dist-info/RECORD,,
