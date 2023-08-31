@@ -1,0 +1,16 @@
+flippy/__init__.py,sha256=Ccw837qwoi57_POIzKmHOJcCG2BNG2aQmsUmeDBWEtU,201
+flippy/apps.py,sha256=BavPXY_5m5HMqUMQNpGSqsmDVWr0G-7wd1u1Las9_oM,144
+flippy/backends/__init__.py,sha256=lntn2OUuLiuOUNAa-8dTyNNB3RltFI1rgbP20zTKzcs,238
+flippy/backends/django.py,sha256=5sSPpnLccFVX0ebShkbZbOWiti8EN_nSXTR0tGG6jmk,5291
+flippy/backends/flipper_cloud.py,sha256=I9pGlnZ-v9SofDXAt4jNS-z-psceCe_OjdJzkN003bs,6534
+flippy/backends/memory.py,sha256=i4-TBaqMejCOyxRfexl99_OYKKRy7upEp0ZrZSNAtPg,4404
+flippy/core.py,sha256=54biJQ-282sF_DHYRDXXj46bJ2scAQoBdWFXyb0tPt0,5368
+flippy/exceptions.py,sha256=AVkxD6RjsdWnSmC0oBTF5DajdsDvQxqtw2Zu-MyX0yA,480
+flippy/flippy.py,sha256=y5rZGqiuf82bhCfjItmUzc7eySbKdadzKFxSr-ZN-14,4991
+flippy/gates.py,sha256=aq1K-7xmZtDKkKFHu7BNoU9naJCEsOJ9ByLKtVbKsGY,2988
+flippy/migrations/0001_initial.py,sha256=R5cAy1762JPt7jdAOzsnh8W7tIJV2tG0do95qF9C6SU,2280
+flippy/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flippy/models.py,sha256=KRNA1Fk1IHKOHpJgj5hzUIYrCE6IY_b9YU0ZjjBR-p0,2174
+django_flippy-0.7.0.dist-info/METADATA,sha256=3OXLSsNFjUtEEWL1iw8cyW6Tx-PuayOp846tOK5mVV8,1167
+django_flippy-0.7.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+django_flippy-0.7.0.dist-info/RECORD,,

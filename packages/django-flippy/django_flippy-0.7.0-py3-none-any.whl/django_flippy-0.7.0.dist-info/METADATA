@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: django-flippy
+Version: 0.7.0
+Summary: A [Flipper Cloud](https://www.flippercloud.io/) package for Django apps.
+Home-page: https://github.com/vtbassmatt/django-flippy
+License: MIT
+Author: Matt Cooper
+Author-email: vtbassmatt@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Dist: django (>=4.2.4,<5.0.0)
+Requires-Dist: httpx (>=0.24.1,<0.25.0)
+Project-URL: Repository, https://github.com/vtbassmatt/django-flippy.git
+Description-Content-Type: text/markdown
+
+# django-flippy
+
+A [Flipper Cloud](https://www.flippercloud.io/) package for Django apps.
+
+## Testing
+
+We test with `pytest`.
+By default, tests which require an active Flipper Cloud account aren't run.
+You can run them with `pytest -m flippercloud`.
+Note that you must set `FLIPPER_CLOUD_TOKEN` in your environment for them to run.
+
