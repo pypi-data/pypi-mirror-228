@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sanbercode-geometry"
+version = "0.0.2"
+description = "Geometry Package - Aplikasi training sanbercode BMKG"
+authors = ["putuhendrawd <99854901+putuhendrawd@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "sanber_training", from = "src"},
+            {include = "sanber_geometry", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^5.2"
+matplotlib = "^3.7.2"
+numpy = "^1.21"
+twine = "^4.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
