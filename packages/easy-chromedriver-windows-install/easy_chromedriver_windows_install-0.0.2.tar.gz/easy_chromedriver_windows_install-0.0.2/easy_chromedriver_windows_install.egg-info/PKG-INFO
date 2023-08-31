@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: easy-chromedriver-windows-install
+Version: 0.0.2
+Summary: Download chromedriver easily on Windows
+Author: Luan Grabher
+Author-email: luanggcontato@gmail.com
+License: MIT License
+Keywords: chromedriver selenium webdriver
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python Easy Chromedriver Windows Install
+
+This is a simple python package to install chromedriver on windows. Easy to use with selenium.
+
+Use this pip command to install:
+
+```pip install easy-chromedriver-windows-install```
+
+### Example
+
+```python
+from easy_chromedriver_windows_install import install_chromedriver
+
+install_chromedriver() # install chromedriver
+```
