@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "serializable-trees"
+dynamic = ["version"]
+description = "Serializable tree datatypes for Python"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = ["json", "yaml", "tree", "node", "datatype"]
+authors = [
+  {name = "Rainer Schwarzbach", email = "undisclosed@example.com"},
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Software Development :: Libraries",
+]
+
+dependencies = [
+  "PyYAML>=6.0.1",
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/blackstream-x/serializable-trees"
+Documentation = "https://blackstream-x.gitlab.io/serializable-trees"
+CI = "https://gitlab.com/blackstream-x/serializable-trees/-/pipelines"
+"Bug Tracker" = "https://gitlab.com/blackstream-x/serializable-trees/-/issues"
+"Source Code" = "https://gitlab.com/blackstream-x/serializable-trees.git"
+
+[project.scripts]
+serializable_trees = "serializable_trees.__main__:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "serializable_trees.__version__"}

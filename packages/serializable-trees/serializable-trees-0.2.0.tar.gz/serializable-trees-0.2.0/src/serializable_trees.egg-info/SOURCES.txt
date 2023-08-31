@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/serializable_trees/__init__.py
+src/serializable_trees/__main__.py
+src/serializable_trees/nodes.py
+src/serializable_trees/trees.py
+src/serializable_trees.egg-info/PKG-INFO
+src/serializable_trees.egg-info/SOURCES.txt
+src/serializable_trees.egg-info/dependency_links.txt
+src/serializable_trees.egg-info/entry_points.txt
+src/serializable_trees.egg-info/requires.txt
+src/serializable_trees.egg-info/top_level.txt
+tests/test_main.py
+tests/test_nodes.py
+tests/test_trees.py
