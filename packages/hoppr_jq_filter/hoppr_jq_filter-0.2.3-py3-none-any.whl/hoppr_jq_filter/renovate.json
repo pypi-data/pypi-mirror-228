@@ -1,0 +1,42 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "enabled": true,
+    "extends": [
+      "config:base",
+      ":automergeAll",
+      ":gitSignOff",
+      ":dependencyDashboard",
+      ":semanticCommitTypeAll(chore)"
+    ],
+    "gitLabAutomerge": true,
+    "gitLabIgnoreApprovals": true,
+    "labels": ["Bot"],
+    "packageRules": [
+      {
+        "matchManagers": ["regex"],
+        "semanticCommitType": "fix"
+      },
+      {
+        "registryUrls": ["https://gitlab.com"],
+        "matchDatasources": ["gitlab-tags"]
+      },
+      {
+        "matchDatasources": ["docker"],
+        "groupName": "image-tag updates"
+      }
+    ],
+    "regexManagers": [
+        {
+            "fileMatch": [".(.yml|.yaml)$", ".(.md)$"],
+            "matchStrings": [
+              "SEMANTIC_RELEASE_TAG: (\"|`)(?<currentValue>.+?)(\"|`)",
+              "SEMANTIC_RELEASE_TAG.*(\"|`)(?<currentValue>.+?)(\"|`)"
+            ],
+            "depNameTemplate": "lmco/robots/semantic-release-image",
+            "datasourceTemplate": "gitlab-tags"
+          }
+      
+    ]
+  }
+  
+  

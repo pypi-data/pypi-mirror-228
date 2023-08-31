@@ -1,0 +1,3 @@
+[hoppr.plugin]
+hoppr_jq_filter=hoppr_jq_filter.plugin:JQFilterPlugin
+
