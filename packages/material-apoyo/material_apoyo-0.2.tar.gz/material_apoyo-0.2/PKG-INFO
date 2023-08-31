@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: material_apoyo
+Version: 0.2
+Summary: Para ser usado como ejemplo en el Material de Apoyo 5
+Home-page: https://github.com/Pabloinz/material_apoyo
+Author: Pablo Inzunza
+Author-email: pabloinzm@gmail.com
+License: MIT
+Download-URL: https://github.com/Pabloinz/material_apoyo/archive/refs/tags/v0.2.zip
+Description: UNKNOWN
+Keywords: ejemplo
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10

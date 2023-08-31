@@ -1,0 +1,1 @@
+from material_apoyo.funciones import revisar_alarma
