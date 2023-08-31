@@ -1,0 +1,56 @@
+{% load i18n static %}
+
+{% if factory %}
+  {% if media %}
+    {{ media }}
+  {% endif %}
+
+  {% if modals_template_name %}
+    {% include modals_template_name %}
+  {% endif %}
+
+  {% if header_template_name %}
+    {% include header_template_name %}
+  {% endif %}
+
+  {% if filter or bulk_actions %}
+    {% include 'dynamic_listing/filters/_top_filter.html' %}
+  {% endif %}
+{% endif %}
+
+
+{% if listing_type == 'table' %}
+  <div class="card">
+    <div class="card-body py-5">
+      {% if object_list|length > 0 %}
+        {% include "dynamic_listing/partials/__table.html" %}
+        {% include "dynamic_listing/partials/__pagination.html" %}
+      {% else %}
+        {% include 'dynamic_listing/partials/__no_data.html' %}
+      {% endif %}
+    </div>
+  </div>
+
+{% elif listing_type == 'list' %}
+  {% if object_list|length > 0 %}
+    <div id="{{ list_id }}_object_list" data-list-id="{{ list_id }}">
+      {% for object in object_list %}
+        {% include item_template_name with item=object %}
+      {% endfor %}
+    </div>
+    {% include "dynamic_listing/partials/__pagination.html" %}
+  {% else %}
+    {% include 'dynamic_listing/partials/__no_data.html' %}
+  {% endif %}
+{% elif listing_type == 'grid' %}
+  {% if object_list|length > 0 %}
+    <div class="row">
+      {% for object in object_list %}
+        {% include item_template_name with item=object %}
+      {% endfor %}
+    </div>
+    {% include "dynamic_listing/partials/__pagination.html" %}
+  {% else %}
+    {% include 'dynamic_listing/partials/__no_data.html' %}
+  {% endif %}
+{% endif %}
