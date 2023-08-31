@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mvsdk
+Version: 0.0.4.post2308302320
+Summary: MediaValet Python SDK
+Home-page: https://github.com/armstro-ca/mvsdk
+Author: James Armstrong
+Author-email: j@armstro.ca
+License: MIT
+Project-URL: Bug Tracker, https://github.com/armstro-ca/mvsdk/issues
+Description-Content-Type: text/markdown
+
+# mvsdk
+MediaValet SDK
