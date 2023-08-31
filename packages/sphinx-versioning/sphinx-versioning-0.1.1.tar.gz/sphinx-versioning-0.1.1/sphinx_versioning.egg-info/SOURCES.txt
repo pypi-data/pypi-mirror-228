@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+scripts/sphinx-version
+sphinx_versioning/__init__.py
+sphinx_versioning/sphinx_versioning.py
+sphinx_versioning.egg-info/PKG-INFO
+sphinx_versioning.egg-info/SOURCES.txt
+sphinx_versioning.egg-info/dependency_links.txt
+sphinx_versioning.egg-info/requires.txt
+sphinx_versioning.egg-info/top_level.txt
