@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pysigma-pipeline-windows
+Version: 1.1.1
+Summary: pySigma Windows processing pipelines
+Home-page: https://github.com/SigmaHQ/pySigma-pipeline-windows
+License: LGPL-2.1-only
+Author: frack113
+Author-email: frack113@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pysigma (>=0.10.2,<0.11.0)
+Project-URL: Repository, https://github.com/SigmaHQ/pySigma-pipeline-windows
