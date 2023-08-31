@@ -1,0 +1,18 @@
+{% if theme_sidenav_panel or theme_sidenav_panel_wrapped_items %}
+{%- set icon_class = "level-item icon" -%}
+<div class="sidenav-panel">
+    {% for panel_item in theme_sidenav_panel %}
+    {%- include panel_item %}
+    {%- endfor %}
+
+    {% if theme_sidenav_panel_wrapped_items %}
+    <div class="level">
+        <div class="level-left">
+            {% for wrapped_item in theme_sidenav_panel_wrapped_items %}
+            {%- include wrapped_item %}
+            {%- endfor %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endif %}
