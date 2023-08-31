@@ -1,0 +1,7 @@
+README
+setup.cfg
+setup.py
+progr.egg-info/PKG-INFO
+progr.egg-info/SOURCES.txt
+progr.egg-info/dependency_links.txt
+progr.egg-info/top_level.txt
