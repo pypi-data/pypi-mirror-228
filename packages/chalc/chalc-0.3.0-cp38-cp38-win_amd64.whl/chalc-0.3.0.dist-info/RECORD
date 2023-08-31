@@ -1,0 +1,11 @@
+chalc/__init__.py,sha256=R4jBMwKmjGG-qCYAZkcoJSwa7NSc4sSJr48vicLcoAg,253
+chalc/_version.cp38-win_amd64.pyd,sha256=n6dP8OAU3oZuvN5EooO0I12WyuKK5mXdtSTZQ9d4v-A,102400
+chalc/chromatic.cp38-win_amd64.pyd,sha256=wftimqmjvTYE8ntYw4btvCEHjB9ceqAJCHF_GLw3kRg,715264
+chalc/filtration.cp38-win_amd64.pyd,sha256=OvA0SjQpZifAHIAqc3oq9EMsVP71kIJvrz8ffinu6mI,210944
+chalc/gmp-10.dll,sha256=SBuBOggbBubKcKd2a749IN1fZPf_-ef2WqOLdGnTeVg,420864
+chalc/mpfr-6.dll,sha256=jcEE98sH5mZ93plX9ic6Bi8ERVdfyUI2qzLcy4insNE,413184
+chalc-0.3.0.dist-info/COPYING,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+chalc-0.3.0.dist-info/METADATA,sha256=W1PB4cwyL1NyeDkZcCyGZzkL7JcwiRu2uO9dY9tjvVQ,429
+chalc-0.3.0.dist-info/WHEEL,sha256=rjmE6jOYKSgS2T4NpCJJtLEPSybiWFu39x_TGcEjjFE,94
+chalc-0.3.0.dist-info/top_level.txt,sha256=tVtYforZ_xPmAlFijY1M_2Yt1FDjWKJ8jsVHiTW8r44,6
+chalc-0.3.0.dist-info/RECORD,,
