@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: aigc-evals
+Version: 0.0.2
+Summary: aigc_evals
+Home-page: https://github.com/ssbuild/aigc_evals
+Author: ssbuild
+Author-email: 9727464@qq.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Dist: mypy
+Requires-Dist: openai (>=0.27.2)
+Requires-Dist: tiktoken
+Requires-Dist: blobfile
+Requires-Dist: backoff
+Requires-Dist: numpy
+Requires-Dist: snowflake-connector-python[pandas]
+Requires-Dist: pandas
+Requires-Dist: datasets
+Requires-Dist: fire
+Requires-Dist: pydantic
+Requires-Dist: tqdm
+Requires-Dist: nltk
+Requires-Dist: filelock
+Requires-Dist: mock
+Requires-Dist: langdetect
+Requires-Dist: termcolor
+Requires-Dist: lz4
+Requires-Dist: pyzstd
+Requires-Dist: pyyaml
+Requires-Dist: sacrebleu
+Requires-Dist: matplotlib
+Requires-Dist: pytest
+Requires-Dist: setuptools-scm
+Requires-Dist: langchain
+Requires-Dist: types-PyYAML
+
+torch_training: https://github.com/ssbuild/aigc_evals.git
+
+

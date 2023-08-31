@@ -1,0 +1,3 @@
+[console_scripts]
+exec_aigc_evals = aigc_evals.cli.exec_aigc_evals:main
+
