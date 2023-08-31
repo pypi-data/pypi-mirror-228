@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ideogram-wrapper
+Version: 0.0.2
+Summary: Generates images from Ideogram API using textual prompts.
+Author: Flowese
+Requires-Dist: requests (==2.31.0)
+
