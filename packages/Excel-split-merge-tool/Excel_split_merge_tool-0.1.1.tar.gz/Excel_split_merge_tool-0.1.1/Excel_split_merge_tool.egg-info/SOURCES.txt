@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+Excel_split_merge_tool/ExcelSplitMergeTool.py
+Excel_split_merge_tool/__init__.py
+Excel_split_merge_tool.egg-info/PKG-INFO
+Excel_split_merge_tool.egg-info/SOURCES.txt
+Excel_split_merge_tool.egg-info/dependency_links.txt
+Excel_split_merge_tool.egg-info/requires.txt
+Excel_split_merge_tool.egg-info/top_level.txt
+Excel_split_merge_tool/resources/config.json
