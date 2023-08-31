@@ -1,0 +1,11 @@
+datatoolz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datatoolz/filesystem.py,sha256=ePCV-h7XqtLo-GclxrDgA7X_A3UuB2F76pdnQ1uD7ws,4415
+datatoolz/filtering.py,sha256=E-R08UUK21OrdnqgG3Q6SIjvgu8L9pUIhc9J1Zlx_gQ,4323
+datatoolz/io.py,sha256=mKbsOYoKjepxia3CEzxhpnshHEB651qOa7T8gPz3idk,8139
+datatoolz/logging.py,sha256=vmrWfOO626IPfUlula72daLTWV5ns_0oEtbyv0AaceE,3371
+datatoolz/utils.py,sha256=XQvBf1AektURCgSGo8TMPUAlyhH17YLVBlxYR5gx61w,2206
+data_toolz-0.1.11.dist-info/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+data_toolz-0.1.11.dist-info/METADATA,sha256=tHLOcsSdM_Mr0vlM6nBeKiPpj5otgkSDGQPDtWYVGcY,3631
+data_toolz-0.1.11.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+data_toolz-0.1.11.dist-info/top_level.txt,sha256=VUkGk8ZxniKmNWHmmaDJiaOzs8w2S2z0hhSsy0ISs8Y,10
+data_toolz-0.1.11.dist-info/RECORD,,
