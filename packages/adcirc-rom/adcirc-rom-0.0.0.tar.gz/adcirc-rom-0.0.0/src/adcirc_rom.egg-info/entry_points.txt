@@ -1,0 +1,2 @@
+[console_scripts]
+arom = adcirc_rom.cli:cli

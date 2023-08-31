@@ -1,0 +1,18 @@
+netCDF4
+scikit-learn
+global-land-mask
+xgboost
+geopandas
+scipy
+h5py
+fire
+alive-progress
+tensorflow
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
