@@ -1,0 +1,10 @@
+coraline/__init__.py,sha256=97gOAgun7zXOtY-adahL636w7MrHA5TAZ7S-ZifAsEY,536
+coraline/config.py,sha256=d_FmXq4YhCwFuE2ZsGYeHTR8Nx82qMMEIH6V95opAYM,571
+coraline/exceptions.py,sha256=wyaGb_w3ayL7IvLQTlOktr1Cu4SnXlY-nXcoOrKzjRo,131
+coraline/field.py,sha256=Oz86kgQG5M5srGw9-CSCjNFqFpMMd-Uhro5nz3dOiio,622
+coraline/model.py,sha256=uWbpmmqPk0W20hGDXOnpbeB3QyDWPahb9f2rWa-IvHU,10563
+coraline/types.py,sha256=KxGSwBbVSvVpbah4UgJWrFfiS-YP5Vn-Par2XMKmEtA,193
+coraline-0.1.4.dist-info/LICENSE,sha256=O5z54Tw5BGPKwgNZnxEbxbqxkpNg01rQ2DMiTnBkzpI,1064
+coraline-0.1.4.dist-info/METADATA,sha256=bsggDJNLCek5Z22cTdGCNVmSpw9M6oAg8m-lhOG6Yes,5725
+coraline-0.1.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+coraline-0.1.4.dist-info/RECORD,,
