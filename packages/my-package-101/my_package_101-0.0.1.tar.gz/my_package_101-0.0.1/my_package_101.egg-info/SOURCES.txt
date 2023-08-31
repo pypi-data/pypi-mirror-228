@@ -1,0 +1,11 @@
+LICENSE
+pyproject.toml
+setup.py
+my_package/__init__.py
+my_package/module.py
+my_package_101.egg-info/PKG-INFO
+my_package_101.egg-info/SOURCES.txt
+my_package_101.egg-info/dependency_links.txt
+my_package_101.egg-info/desktop.ini
+my_package_101.egg-info/top_level.txt
+tests/test_module.py
