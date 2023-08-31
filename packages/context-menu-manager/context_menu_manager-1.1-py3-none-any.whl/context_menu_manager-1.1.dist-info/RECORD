@@ -1,0 +1,9 @@
+context_menu_manager/__init__.py,sha256=ScbzvhEZXnGbORM-oaciygLpARiPF5kcE4at0_B-Esg,67
+context_menu_manager/context_option.py,sha256=KEMh6k1w7U_bBHlN5Mi2Q7glugGYUeagtqhhgHB5RSY,3628
+context_menu_manager/resources/__init__.py,sha256=W1RHKsws0UQmlLlDpOUuvRtVz4gFQ4uKOqCy_GFwrg4,68
+context_menu_manager/resources/contexts.py,sha256=mpwR4oE6TGevLgsubfm0gyOnixf2RB9l2CRH2go8rIg,271
+context_menu_manager/resources/permissions.py,sha256=y3_y2aH4883_Q-mi19ButgHV25W3cEyafyyEy20EyFs,148
+context_menu_manager-1.1.dist-info/METADATA,sha256=BEkX3_Cf-oqy93aW5hdTn0w6xkmwQ1A1Z7mTkJTjlLw,276
+context_menu_manager-1.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+context_menu_manager-1.1.dist-info/top_level.txt,sha256=JtO2Ye9DEZe4duANVmYiuZhExyPydTN6mViJTe3ri0o,21
+context_menu_manager-1.1.dist-info/RECORD,,
