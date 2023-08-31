@@ -1,0 +1,8 @@
+claude2_api/__init__.py,sha256=1HWVVR65Vqu8wYnkt7w_jgpObSiANaEvHLTaKvJu1XQ,268
+claude2_api/client.py,sha256=xQ5k7EJxmYFTRY0uZrgXa9h4X83wk1f6RQ74SWI1mys,14035
+claude2_api/session.py,sha256=kft6Lthr8zGniwhC56lbhgB80gRqUBO8CREQd8ANrTg,5231
+unofficial_claude2_api-0.1.7.dist-info/LICENSE,sha256=bFeDN2prmHzD0Xems_GH6ueGTzi0r5HA0fD5QjN6xT8,1071
+unofficial_claude2_api-0.1.7.dist-info/METADATA,sha256=TGj80CUCC3cGQHmr1FSC6wraQ73GY91JJBfRa0coLMM,6257
+unofficial_claude2_api-0.1.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+unofficial_claude2_api-0.1.7.dist-info/top_level.txt,sha256=kZMgmc1-R9zh3tG00kyhbCGipEZ1Qu5Q6XOe0lxeCTk,12
+unofficial_claude2_api-0.1.7.dist-info/RECORD,,
