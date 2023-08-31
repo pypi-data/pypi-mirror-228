@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+turbosms/__init__.py
+turbosms.egg-info/PKG-INFO
+turbosms.egg-info/SOURCES.txt
+turbosms.egg-info/dependency_links.txt
+turbosms.egg-info/requires.txt
+turbosms.egg-info/top_level.txt
+turbosms/management/__init__.py
+turbosms/management/commands/__init__.py
+turbosms/management/commands/send_test_sms.py
