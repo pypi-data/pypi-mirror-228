@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+windows_pathlib/__init__.py
+windows_pathlib/main.py
+windows_pathlib.egg-info/PKG-INFO
+windows_pathlib.egg-info/SOURCES.txt
+windows_pathlib.egg-info/dependency_links.txt
+windows_pathlib.egg-info/top_level.txt
