@@ -1,0 +1,9 @@
+lemmy_image_purge/__init__.py,sha256=pP969cmbSV0jKy0CjQsT1J1PS9XSD6DkBfXh1_ElN8I,47
+lemmy_image_purge/cli.py,sha256=2rgbTDCG3aRu7gNOd028k59U69y-QXOL4m00Pi1DaBk,1033
+lemmy_image_purge/main.py,sha256=_h9FMJvLxmPNYUinlZ00WC71pv_efgUAWjiBMyObSYQ,3178
+lemmy_image_purge/settings.py,sha256=FSkBPRG5Yj2sy6O5wWjY5IcIf9x_7m5JBJaYAJzbP-M,488
+lemmy_image_purge-1.0.0.dist-info/LICENSE,sha256=uN968xDhHLPMc69L3ALrlblDu0Ox7DPyUxolLorUaqI,1072
+lemmy_image_purge-1.0.0.dist-info/METADATA,sha256=QHJtZwz7cqam1BeDnzPJ9FKcr9WFSufe1N-3sxRVsVw,2318
+lemmy_image_purge-1.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+lemmy_image_purge-1.0.0.dist-info/entry_points.txt,sha256=q4VL5zMiMpWG-gVeoSIdE2AGyC9a6P7egjFRGVmm9RE,63
+lemmy_image_purge-1.0.0.dist-info/RECORD,,

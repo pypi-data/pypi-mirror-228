@@ -1,0 +1,3 @@
+[console_scripts]
+lemmy-image-purge=lemmy_image_purge.cli:cli
+
