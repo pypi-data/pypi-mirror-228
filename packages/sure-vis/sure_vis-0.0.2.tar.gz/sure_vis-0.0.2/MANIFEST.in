@@ -1,0 +1,2 @@
+include sure_vis/vis/dist/sure.js
+include sure_vis/sample_data/diabetes.json

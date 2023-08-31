@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sure-vis
+Version: 0.0.2
+Summary: sure_vis. A tool to generate and visualize interpretable surrogate rules for classification models in Jupyter Notebooks
+Home-page: https://github.com/junyuanjun/sure_vis
+Author: Jun Yuan, Brian Barr, Kyle Overton, Enrico Bertini
+Author-email: junyuan@nyu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# sure_vis
+Python library for surrogate rule visualization and exploration. 
+
+
+
+
