@@ -1,0 +1,17 @@
+soccerxcomm/__init__.py,sha256=PsIvRIcv13Jx9FLNXp1-ZH6ghzqq1jI5bN5M7jNWhF4,627
+soccerxcomm/client.py,sha256=5Zk-5c4_Ai_8arK17IqMPYxgmdUvb6eYjOfKyQsDsEI,10282
+soccerxcomm/game_info.py,sha256=cJwRfLV8xWXUG5eQY_ipgd7lXll_rwJuL7bhHJ4bcSU,886
+soccerxcomm/game_stage_kind.py,sha256=ndk0vrCUqSupuKYBOeq2W8Rtq-K8rE_MmrztSXQVgPg,432
+soccerxcomm/http_client.py,sha256=0Rb4FqmZ8WE8ON3658CD7yvudCAvF9wgFmKegiRQeDY,3247
+soccerxcomm/http_server.py,sha256=4rORf78dSt4tpPbkdbg_NJwVyPRXSOAWW73QLQYaArs,4740
+soccerxcomm/logger.py,sha256=OZtNM9Q-2R9bbhXMpFfnqIUKZuMN0gJNWnhpW413JlM,1889
+soccerxcomm/message.py,sha256=kOdV3g5HQ5nTX-2lF9fliv65BgvDLt_GDaSOSHf3fTg,2321
+soccerxcomm/network_client_interface.py,sha256=p7iqUm7lMp_luHt5JrxKGgU0vbo2Eu-E2xRe7ysKt38,998
+soccerxcomm/network_server_interface.py,sha256=gF0D0JHsBERLlHJbjkqRcz7mXRged_nyqWCx62MLr88,1342
+soccerxcomm/robot_control.py,sha256=68QSlQdP2XLLVP1PAhBuAa77I9SP92SEU4_4qhyELy4,2188
+soccerxcomm/robot_status.py,sha256=ES0r7k-ODfmfuZypbjxlLpuqnJy6NU0Yuw3ODaLuq78,1301
+soccerxcomm/server.py,sha256=oVlWRLznRMcuIdpMkI3WnXwaGomw5_U8BvJYt8IbqB8,10213
+soccerxcomm-0.3.0.dist-info/LICENSE,sha256=LKVMJiZ8y1n2JtXaIrLtJz51g3n9o_cKV07XWxBLAsI,1092
+soccerxcomm-0.3.0.dist-info/METADATA,sha256=e2g-QzbMqNuyN0Lv-rsjjTZ2arETW_vtu4Yd22po_O4,1372
+soccerxcomm-0.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+soccerxcomm-0.3.0.dist-info/RECORD,,

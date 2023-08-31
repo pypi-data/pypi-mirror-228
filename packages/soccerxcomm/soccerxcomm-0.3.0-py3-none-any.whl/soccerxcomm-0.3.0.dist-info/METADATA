@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: soccerxcomm
+Version: 0.3.0
+Summary: A Python library for communication between SoccerX platform and the agents
+License: MIT
+Author: Zijian Zhang
+Author-email: futrime@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.4,<4.0.0)
+Requires-Dist: jsonschema (>=4.17.3,<5.0.0)
+Requires-Dist: numpy (>=1.24.3,<2.0.0)
+Requires-Dist: pymongo (>=4.3.3,<5.0.0)
+Requires-Dist: termcolor (>=2.3.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# SoccerXComm
+
+SoccerXComm is a Python library for communication between SoccerX platform and the agents.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install.
+
+```shell
+pip install soccerxcomm
+```
+
+## Usage
+
+See the [documentation](https://moshumanoid.github.io/SoccerXComm/) for more information.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT License](https://choosealicense.com/licenses/mit/)
+
