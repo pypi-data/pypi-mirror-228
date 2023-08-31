@@ -1,0 +1,3 @@
+[console_scripts]
+dependency_inspector=dependency_inspector.main:main
+
