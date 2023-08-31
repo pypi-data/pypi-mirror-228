@@ -1,0 +1,11 @@
+tabulate
+faker
+numpy
+num2words
+tqdm
+timeout-decorator
+
+[tests]
+pytest
+coverage
+pytest-cov
