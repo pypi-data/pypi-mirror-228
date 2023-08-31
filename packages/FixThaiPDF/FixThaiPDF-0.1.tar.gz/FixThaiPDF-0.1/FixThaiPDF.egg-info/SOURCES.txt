@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+FixThaiPDF.egg-info/PKG-INFO
+FixThaiPDF.egg-info/SOURCES.txt
+FixThaiPDF.egg-info/dependency_links.txt
+FixThaiPDF.egg-info/not-zip-safe
+FixThaiPDF.egg-info/requires.txt
+FixThaiPDF.egg-info/top_level.txt
+fixthaipdf/__init__.py
+fixthaipdf/core.py
+fixthaipdf/dict.py
+tests/__init__.py
+tests/test_clean.py
