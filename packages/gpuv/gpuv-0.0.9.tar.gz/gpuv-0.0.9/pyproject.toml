@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "gpuv"
+version = "0.0.9"
+description = "gpu visualization"
+authors = ["CambioML <wanwanaiai45@gmail.com>"]
+maintainers = [
+    "Jared Wilber <jared@cambioml.com>",
+    "Jojo Ortiz <ortiz.jroman@gmail.com>",
+    "Rachel Hu <goldpiggy@berkeley.edu>"
+]
+license = "Apache License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pynvml = "11.5.0"
+flask = "2.3.3"
+flask-cors = "4.0.0"
+typer = "0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+gpuv = "gpuv.cli:cli"
