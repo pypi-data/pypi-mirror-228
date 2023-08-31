@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: statsbombpy-local
+Version: 0.1.0
+Summary: statsbombpy uses local open-data
+Author: tanzhijian
+Author-email: tanzhijianorg@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: requests-mock (>=1.11.0,<2.0.0)
+Requires-Dist: statsbombpy (>=1.11.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# statsbombpy-local
+
+statsbombpy uses local open-data.
+
+If you have [open-data](https://github.com/statsbomb/open-data) downloaded locally, you can use it.
+
