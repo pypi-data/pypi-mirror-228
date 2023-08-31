@@ -1,0 +1,5 @@
+setup.py
+glr_utilities.egg-info/PKG-INFO
+glr_utilities.egg-info/SOURCES.txt
+glr_utilities.egg-info/dependency_links.txt
+glr_utilities.egg-info/top_level.txt
