@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: repository-generator
+Version: 0.1.1
+Summary: 
+Author: raviintelmatix
+Author-email: m.ravi@intelmatix.ai
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+"""
+The project creates repository for a data science project.
+"""
+
