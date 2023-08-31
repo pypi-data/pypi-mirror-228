@@ -1,0 +1,207 @@
+src/addict_tracking_changes:0: [E902] FileNotFoundError: [Errno 2] No such file or directory: 'src/addict_tracking_changes'
+1     E902 FileNotFoundError: [Errno 2] No such file or directory: 'src/addict_tracking_changes'
+src/py_tailwind_utils/common.py:53: [F841] local variable 'op' is assigned to but never used
+src/py_tailwind_utils/common.py:139: [F841] local variable 'fres' is assigned to but never used
+src/py_tailwind_utils/common.py:147: [E711] comparison to None should be 'if cond is None:'
+src/py_tailwind_utils/common.py:180: [C901] 'remove_from_twtag_list' is too complex (12)
+src/py_tailwind_utils/common.py:190: [E721] do not compare types, use 'isinstance()'
+src/py_tailwind_utils/common.py:220: [C901] 'add_to_twtag_list_internal' is too complex (18)
+src/py_tailwind_utils/common.py:245: [F841] local variable 'tagclass' is assigned to but never used
+src/py_tailwind_utils/common.py:266: [E721] do not compare types, use 'isinstance()'
+src/py_tailwind_utils/dpathutils.py:1: [W291] trailing whitespace
+src/py_tailwind_utils/dpathutils.py:38: [E302] expected 2 blank lines, found 1
+src/py_tailwind_utils/dpathutils.py:57: [E241] multiple spaces after ','
+src/py_tailwind_utils/modifiers.py:19: [E722] do not use bare 'except'
+src/py_tailwind_utils/styClause.py:19: [C901] 'to_json' is too complex (16)
+src/py_tailwind_utils/styClause.py:38: [E722] do not use bare 'except'
+src/py_tailwind_utils/styClause.py:81: [E722] do not use bare 'except'
+src/py_tailwind_utils/styClause.py:95: [C901] 'to_clause' is too complex (20)
+src/py_tailwind_utils/styClause.py:111: [E722] do not use bare 'except'
+src/py_tailwind_utils/style_values.py:51: [E741] ambiguous variable name 'l'
+src/py_tailwind_utils/style_values.py:56: [E741] ambiguous variable name 'l'
+src/py_tailwind_utils/style_values.py:80: [E741] ambiguous variable name 'l'
+src/py_tailwind_utils/style_values.py:263: [E741] ambiguous variable name 'l'
+src/py_tailwind_utils/style_values.py:287: [E741] ambiguous variable name 'l'
+src/py_tailwind_utils/style_values_noop.py:4: [E402] module level import not at top of file
+src/py_tailwind_utils/style_values_noop.py:5: [E402] module level import not at top of file
+src/py_tailwind_utils/style_values_noop.py:6: [E402] module level import not at top of file
+src/py_tailwind_utils/style_values_noop.py:1085: [E303] too many blank lines (3)
+src/py_tailwind_utils/valuetags.py:3: [W291] trailing whitespace
+4     C901 'remove_from_twtag_list' is too complex (12)
+1     E241 multiple spaces after ','
+1     E302 expected 2 blank lines, found 1
+1     E303 too many blank lines (3)
+3     E402 module level import not at top of file
+1     E711 comparison to None should be 'if cond is None:'
+2     E721 do not compare types, use 'isinstance()'
+4     E722 do not use bare 'except'
+5     E741 ambiguous variable name 'l'
+3     F841 local variable 'op' is assigned to but never used
+2     W291 trailing whitespace
+src/py_tailwind_utils/common.py:53: [F841] local variable 'op' is assigned to but never used
+src/py_tailwind_utils/common.py:139: [F841] local variable 'fres' is assigned to but never used
+src/py_tailwind_utils/common.py:147: [E711] comparison to None should be 'if cond is None:'
+src/py_tailwind_utils/common.py:180: [C901] 'remove_from_twtag_list' is too complex (12)
+src/py_tailwind_utils/common.py:190: [E721] do not compare types, use 'isinstance()'
+src/py_tailwind_utils/common.py:220: [C901] 'add_to_twtag_list_internal' is too complex (18)
+src/py_tailwind_utils/common.py:245: [F841] local variable 'tagclass' is assigned to but never used
+src/py_tailwind_utils/common.py:266: [E721] do not compare types, use 'isinstance()'
+src/py_tailwind_utils/dpathutils.py:1: [W291] trailing whitespace
+src/py_tailwind_utils/dpathutils.py:38: [E302] expected 2 blank lines, found 1
+src/py_tailwind_utils/dpathutils.py:57: [E241] multiple spaces after ','
+src/py_tailwind_utils/modifiers.py:19: [E722] do not use bare 'except'
+src/py_tailwind_utils/styClause.py:19: [C901] 'to_json' is too complex (16)
+src/py_tailwind_utils/styClause.py:38: [E722] do not use bare 'except'
+src/py_tailwind_utils/styClause.py:81: [E722] do not use bare 'except'
+src/py_tailwind_utils/styClause.py:95: [C901] 'to_clause' is too complex (20)
+src/py_tailwind_utils/styClause.py:111: [E722] do not use bare 'except'
+src/py_tailwind_utils/style_values.py:51: [E741] ambiguous variable name 'l'
+src/py_tailwind_utils/style_values.py:56: [E741] ambiguous variable name 'l'
+src/py_tailwind_utils/style_values.py:80: [E741] ambiguous variable name 'l'
+src/py_tailwind_utils/style_values.py:263: [E741] ambiguous variable name 'l'
+src/py_tailwind_utils/style_values.py:287: [E741] ambiguous variable name 'l'
+src/py_tailwind_utils/style_values_noop.py:4: [E402] module level import not at top of file
+src/py_tailwind_utils/style_values_noop.py:5: [E402] module level import not at top of file
+src/py_tailwind_utils/style_values_noop.py:6: [E402] module level import not at top of file
+src/py_tailwind_utils/style_values_noop.py:1085: [E303] too many blank lines (3)
+src/py_tailwind_utils/valuetags.py:3: [W291] trailing whitespace
+4     C901 'remove_from_twtag_list' is too complex (12)
+1     E241 multiple spaces after ','
+1     E302 expected 2 blank lines, found 1
+1     E303 too many blank lines (3)
+3     E402 module level import not at top of file
+1     E711 comparison to None should be 'if cond is None:'
+2     E721 do not compare types, use 'isinstance()'
+4     E722 do not use bare 'except'
+5     E741 ambiguous variable name 'l'
+3     F841 local variable 'op' is assigned to but never used
+2     W291 trailing whitespace
+src/py_tailwind_utils/common.py:58: [C901] '_IDivExpr.evaluate' is too complex (11)
+src/py_tailwind_utils/common.py:82: [W293] blank line contains whitespace
+src/py_tailwind_utils/common.py:169: [F841] local variable 'fres' is assigned to but never used
+src/py_tailwind_utils/common.py:177: [E711] comparison to None should be 'if cond is None:'
+src/py_tailwind_utils/common.py:197: [W293] blank line contains whitespace
+src/py_tailwind_utils/common.py:199: [E303] too many blank lines (2)
+src/py_tailwind_utils/common.py:211: [C901] 'remove_from_twtag_list' is too complex (12)
+src/py_tailwind_utils/common.py:221: [E721] do not compare types, use 'isinstance()'
+src/py_tailwind_utils/common.py:251: [C901] 'add_to_twtag_list_internal' is too complex (17)
+src/py_tailwind_utils/common.py:276: [W293] blank line contains whitespace
+src/py_tailwind_utils/common.py:278: [F841] local variable 'tagclass' is assigned to but never used
+src/py_tailwind_utils/common.py:278: [E303] too many blank lines (2)
+src/py_tailwind_utils/common.py:281: [W293] blank line contains whitespace
+src/py_tailwind_utils/common.py:282: [W291] trailing whitespace
+src/py_tailwind_utils/common.py:292: [W293] blank line contains whitespace
+src/py_tailwind_utils/common.py:298: [E721] do not compare types, use 'isinstance()'
+src/py_tailwind_utils/common.py:314: [E303] too many blank lines (2)
+src/py_tailwind_utils/dpathutils.py:25: [W291] trailing whitespace
+src/py_tailwind_utils/dpathutils.py:35: [E127] continuation line over-indented for visual indent
+src/py_tailwind_utils/dpathutils.py:36: [E127] continuation line over-indented for visual indent
+src/py_tailwind_utils/dpathutils.py:37: [E124] closing bracket does not match visual indentation
+src/py_tailwind_utils/dpathutils.py:43: [E303] too many blank lines (3)
+src/py_tailwind_utils/dpathutils.py:57: [W293] blank line contains whitespace
+src/py_tailwind_utils/dpathutils.py:74: [W293] blank line contains whitespace
+src/py_tailwind_utils/dpathutils.py:85: [W293] blank line contains whitespace
+src/py_tailwind_utils/dpathutils.py:91: [W293] blank line contains whitespace
+src/py_tailwind_utils/dpathutils.py:100: [W293] blank line contains whitespace
+src/py_tailwind_utils/dpathutils.py:114: [W293] blank line contains whitespace
+src/py_tailwind_utils/dpathutils.py:120: [W293] blank line contains whitespace
+src/py_tailwind_utils/dpathutils.py:122: [W293] blank line contains whitespace
+src/py_tailwind_utils/dpathutils.py:137: [W293] blank line contains whitespace
+src/py_tailwind_utils/dpathutils.py:138: [W291] trailing whitespace
+src/py_tailwind_utils/dpathutils.py:140: [C901] 'dsearch' is too complex (13)
+src/py_tailwind_utils/dpathutils.py:142: [W291] trailing whitespace
+src/py_tailwind_utils/dpathutils.py:155: [E722] do not use bare 'except'
+src/py_tailwind_utils/dpathutils.py:161: [E265] block comment should start with '# '
+src/py_tailwind_utils/dpathutils.py:163: [E271] multiple spaces after keyword
+src/py_tailwind_utils/dpathutils.py:174: [E271] multiple spaces after keyword
+src/py_tailwind_utils/dpathutils.py:185: [W293] blank line contains whitespace
+src/py_tailwind_utils/dpathutils.py:189: [E302] expected 2 blank lines, found 1
+src/py_tailwind_utils/dpathutils.py:191: [E265] block comment should start with '# '
+src/py_tailwind_utils/dpathutils.py:192: [E221] multiple spaces before operator
+src/py_tailwind_utils/dpathutils.py:197: [E722] do not use bare 'except'
+src/py_tailwind_utils/dpathutils.py:204: [E722] do not use bare 'except'
+src/py_tailwind_utils/dpathutils.py:206: [W293] blank line contains whitespace
+src/py_tailwind_utils/dpathutils.py:214: [E271] multiple spaces after keyword
+src/py_tailwind_utils/dpathutils.py:216: [E221] multiple spaces before operator
+src/py_tailwind_utils/dpathutils.py:218: [E225] missing whitespace around operator
+src/py_tailwind_utils/dpathutils.py:219: [E221] multiple spaces before operator
+src/py_tailwind_utils/dpathutils.py:221: [E271] multiple spaces after keyword
+src/py_tailwind_utils/dpathutils.py:222: [E271] multiple spaces after keyword
+src/py_tailwind_utils/dpathutils.py:224: [F631] assertion is always true, perhaps remove parentheses?
+src/py_tailwind_utils/dpathutils.py:230: [E111] indentation is not a multiple of 4
+src/py_tailwind_utils/dpathutils.py:231: [E111] indentation is not a multiple of 4
+src/py_tailwind_utils/dpathutils.py:232: [E111] indentation is not a multiple of 4
+src/py_tailwind_utils/dpathutils.py:233: [E111] indentation is not a multiple of 4
+src/py_tailwind_utils/dpathutils.py:233: [E272] multiple spaces before keyword
+src/py_tailwind_utils/dpathutils.py:233: [E271] multiple spaces after keyword
+src/py_tailwind_utils/dpathutils.py:234: [E111] indentation is not a multiple of 4
+src/py_tailwind_utils/dpathutils.py:235: [E111] indentation is not a multiple of 4
+src/py_tailwind_utils/dpathutils.py:235: [E225] missing whitespace around operator
+src/py_tailwind_utils/dpathutils.py:236: [E111] indentation is not a multiple of 4
+src/py_tailwind_utils/dpathutils.py:236: [E221] multiple spaces before operator
+src/py_tailwind_utils/dpathutils.py:237: [W293] blank line contains whitespace
+src/py_tailwind_utils/dpathutils.py:238: [W291] trailing whitespace
+src/py_tailwind_utils/dpathutils.py:241: [E265] block comment should start with '# '
+src/py_tailwind_utils/dpathutils.py:246: [W293] blank line contains whitespace
+src/py_tailwind_utils/dpathutils.py:252: [W293] blank line contains whitespace
+src/py_tailwind_utils/dpathutils.py:255: [W293] blank line contains whitespace
+src/py_tailwind_utils/dpathutils.py:260: [F841] local variable 'keyidx_is_idx' is assigned to but never used
+src/py_tailwind_utils/dpathutils.py:262: [E722] do not use bare 'except'
+src/py_tailwind_utils/dpathutils.py:265: [W291] trailing whitespace
+src/py_tailwind_utils/dpathutils.py:266: [W293] blank line contains whitespace
+src/py_tailwind_utils/dpathutils.py:277: [E302] expected 2 blank lines, found 1
+src/py_tailwind_utils/dpathutils.py:296: [E241] multiple spaces after ','
+src/py_tailwind_utils/dpathutils.py:347: [E302] expected 2 blank lines, found 1
+src/py_tailwind_utils/dpathutils.py:348: [E265] block comment should start with '# '
+src/py_tailwind_utils/dpathutils.py:349: [E265] block comment should start with '# '
+src/py_tailwind_utils/dpathutils.py:351: [E265] block comment should start with '# '
+src/py_tailwind_utils/dpathutils.py:353: [W293] blank line contains whitespace
+src/py_tailwind_utils/modifiers.py:44: [E722] do not use bare 'except'
+src/py_tailwind_utils/styClause.py:46: [C901] 'to_json' is too complex (16)
+src/py_tailwind_utils/styClause.py:65: [E722] do not use bare 'except'
+src/py_tailwind_utils/styClause.py:108: [E722] do not use bare 'except'
+src/py_tailwind_utils/styClause.py:122: [C901] 'to_clause' is too complex (20)
+src/py_tailwind_utils/styClause.py:138: [E722] do not use bare 'except'
+src/py_tailwind_utils/style_tags.py:94: [W293] blank line contains whitespace
+src/py_tailwind_utils/style_values.py:76: [E741] ambiguous variable name 'l'
+src/py_tailwind_utils/style_values.py:81: [E741] ambiguous variable name 'l'
+src/py_tailwind_utils/style_values.py:105: [E741] ambiguous variable name 'l'
+src/py_tailwind_utils/style_values.py:216: [E302] expected 2 blank lines, found 1
+src/py_tailwind_utils/style_values.py:219: [W293] blank line contains whitespace
+src/py_tailwind_utils/style_values.py:220: [E302] expected 2 blank lines, found 1
+src/py_tailwind_utils/style_values.py:296: [E741] ambiguous variable name 'l'
+src/py_tailwind_utils/style_values.py:320: [E741] ambiguous variable name 'l'
+src/py_tailwind_utils/style_values_noop.py:28: [E402] module level import not at top of file
+src/py_tailwind_utils/style_values_noop.py:29: [E402] module level import not at top of file
+src/py_tailwind_utils/style_values_noop.py:30: [E402] module level import not at top of file
+src/py_tailwind_utils/style_values_noop.py:535: [E302] expected 2 blank lines, found 1
+src/py_tailwind_utils/style_values_noop.py:549: [E302] expected 2 blank lines, found 1
+src/py_tailwind_utils/style_values_noop.py:559: [E305] expected 2 blank lines after class or function definition, found 0
+src/py_tailwind_utils/style_values_noop.py:563: [E303] too many blank lines (3)
+src/py_tailwind_utils/style_values_noop.py:868: [W293] blank line contains whitespace
+src/py_tailwind_utils/style_values_noop.py:869: [W293] blank line contains whitespace
+src/py_tailwind_utils/style_values_noop.py:871: [E303] too many blank lines (3)
+src/py_tailwind_utils/style_values_noop.py:1149: [E303] too many blank lines (3)
+src/py_tailwind_utils/valuetags.py:27: [W291] trailing whitespace
+6     C901 '_IDivExpr.evaluate' is too complex (11)
+7     E111 indentation is not a multiple of 4
+1     E124 closing bracket does not match visual indentation
+2     E127 continuation line over-indented for visual indent
+4     E221 multiple spaces before operator
+2     E225 missing whitespace around operator
+1     E241 multiple spaces after ','
+6     E265 block comment should start with '# '
+6     E271 multiple spaces after keyword
+1     E272 multiple spaces before keyword
+7     E302 expected 2 blank lines, found 1
+7     E303 too many blank lines (2)
+1     E305 expected 2 blank lines after class or function definition, found 0
+3     E402 module level import not at top of file
+1     E711 comparison to None should be 'if cond is None:'
+2     E721 do not compare types, use 'isinstance()'
+8     E722 do not use bare 'except'
+5     E741 ambiguous variable name 'l'
+1     F631 assertion is always true, perhaps remove parentheses?
+3     F841 local variable 'fres' is assigned to but never used
+7     W291 trailing whitespace
+26    W293 blank line contains whitespace

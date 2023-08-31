@@ -1,0 +1,5 @@
+-i https://pypi.org/simple
+addict-tracking-changes==1.0.6; python_version >= '3.11'
+aenum==3.1.15
+dpath==2.1.6; python_version >= '3.7'
+json-fix==0.5.2; python_version >= '3.6'
