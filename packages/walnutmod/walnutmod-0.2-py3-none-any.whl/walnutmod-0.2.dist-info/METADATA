@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: walnutmod
+Version: 0.2
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: pyfiglet
+Requires-Dist: colorama
+Requires-Dist: qrcode
+Requires-Dist: Pillow
+Requires-Dist: tqdm
+Requires-Dist: wget
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: rarfile
+
