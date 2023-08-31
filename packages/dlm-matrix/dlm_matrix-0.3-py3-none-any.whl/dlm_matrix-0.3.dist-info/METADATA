@@ -1,0 +1,171 @@
+Metadata-Version: 2.1
+Name: dlm-matrix
+Version: 0.3
+Summary: A Divergent Language Matrix
+Home-page: https://github.com/diomandeee/dl_matrix
+Author: Mohamed Diomande
+Author-email: gdiomande7907@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp ==3.8.5
+Requires-Dist: aiosignal ==1.3.1
+Requires-Dist: altair ==5.1.0
+Requires-Dist: ansi2html ==1.8.0
+Requires-Dist: async-timeout ==4.0.3
+Requires-Dist: attrs ==23.1.0
+Requires-Dist: blinker ==1.6.2
+Requires-Dist: blis ==0.7.10
+Requires-Dist: cachetools ==5.3.1
+Requires-Dist: catalogue ==2.0.9
+Requires-Dist: certifi ==2023.7.22
+Requires-Dist: charset-normalizer ==3.2.0
+Requires-Dist: click ==8.1.7
+Requires-Dist: confection ==0.1.1
+Requires-Dist: contourpy ==1.1.0
+Requires-Dist: cycler ==0.11.0
+Requires-Dist: cymem ==2.0.7
+Requires-Dist: Cython ==0.29.36
+Requires-Dist: dash ==2.13.0
+Requires-Dist: dash-core-components ==2.0.0
+Requires-Dist: dash-html-components ==2.0.0
+Requires-Dist: dash-table ==5.0.0
+Requires-Dist: datasets ==2.14.4
+Requires-Dist: dill ==0.3.7
+Requires-Dist: filelock ==3.12.3
+Requires-Dist: Flask ==2.2.5
+Requires-Dist: fonttools ==4.42.1
+Requires-Dist: frozenlist ==1.4.0
+Requires-Dist: fsspec ==2023.6.0
+Requires-Dist: gitdb ==4.0.10
+Requires-Dist: GitPython ==3.1.32
+Requires-Dist: hdbscan ==0.8.33
+Requires-Dist: huggingface-hub ==0.16.4
+Requires-Dist: idna ==3.4
+Requires-Dist: importlib-metadata ==6.8.0
+Requires-Dist: itsdangerous ==2.1.2
+Requires-Dist: Jinja2 ==3.1.2
+Requires-Dist: joblib ==1.3.2
+Requires-Dist: jsonschema ==4.19.0
+Requires-Dist: jsonschema-specifications ==2023.7.1
+Requires-Dist: kiwisolver ==1.4.5
+Requires-Dist: langcodes ==3.3.0
+Requires-Dist: llvmlite ==0.40.1
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: MarkupSafe ==2.1.3
+Requires-Dist: matplotlib ==3.7.2
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: mpmath ==1.3.0
+Requires-Dist: multidict ==6.0.4
+Requires-Dist: multiprocess ==0.70.15
+Requires-Dist: murmurhash ==1.0.9
+Requires-Dist: nest-asyncio ==1.5.7
+Requires-Dist: networkx ==3.1
+Requires-Dist: nltk ==3.8.1
+Requires-Dist: numba ==0.57.1
+Requires-Dist: numpy ==1.24.4
+Requires-Dist: openai ==0.27.9
+Requires-Dist: packaging ==23.1
+Requires-Dist: pandas ==2.0.3
+Requires-Dist: pathy ==0.10.2
+Requires-Dist: Pillow ==9.5.0
+Requires-Dist: plotly ==5.16.1
+Requires-Dist: preshed ==3.0.8
+Requires-Dist: prompt-toolkit ==3.0.39
+Requires-Dist: protobuf ==4.24.2
+Requires-Dist: pyarrow ==13.0.0
+Requires-Dist: pydantic ==1.10.12
+Requires-Dist: pydeck ==0.8.0
+Requires-Dist: Pygments ==2.16.1
+Requires-Dist: Pympler ==1.0.1
+Requires-Dist: pynndescent ==0.5.10
+Requires-Dist: pyparsing ==3.0.9
+Requires-Dist: python-dateutil ==2.8.2
+Requires-Dist: pytz ==2023.3
+Requires-Dist: pytz-deprecation-shim ==0.1.0.post0
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: referencing ==0.30.2
+Requires-Dist: regex ==2023.8.8
+Requires-Dist: requests ==2.31.0
+Requires-Dist: retrying ==1.3.4
+Requires-Dist: rich ==13.5.2
+Requires-Dist: rpds-py ==0.10.0
+Requires-Dist: safetensors ==0.3.3
+Requires-Dist: scikit-learn ==1.3.0
+Requires-Dist: scipy ==1.11.2
+Requires-Dist: sentence-transformers ==2.2.2
+Requires-Dist: sentencepiece ==0.1.99
+Requires-Dist: six ==1.16.0
+Requires-Dist: smart-open ==6.3.0
+Requires-Dist: smmap ==5.0.0
+Requires-Dist: spacy ==3.6.1
+Requires-Dist: spacy-legacy ==3.0.12
+Requires-Dist: spacy-loggers ==1.0.4
+Requires-Dist: srsly ==2.4.7
+Requires-Dist: streamlit ==1.26.0
+Requires-Dist: sympy ==1.12
+Requires-Dist: tenacity ==8.2.3
+Requires-Dist: thinc ==8.1.12
+Requires-Dist: threadpoolctl ==3.2.0
+Requires-Dist: tiktoken ==0.4.0
+Requires-Dist: tokenizers ==0.13.3
+Requires-Dist: toml ==0.10.2
+Requires-Dist: toolz ==0.12.0
+Requires-Dist: torch ==2.0.1
+Requires-Dist: torchvision ==0.15.2
+Requires-Dist: tornado ==6.3.3
+Requires-Dist: tqdm ==4.66.1
+Requires-Dist: transformers ==4.32.1
+Requires-Dist: typer ==0.9.0
+Requires-Dist: typing-extensions ==4.7.1
+Requires-Dist: tzdata ==2023.3
+Requires-Dist: tzlocal ==4.3.1
+Requires-Dist: umap-learn ==0.5.3
+Requires-Dist: urllib3 ==2.0.4
+Requires-Dist: validators ==0.21.2
+Requires-Dist: wasabi ==1.1.2
+Requires-Dist: wcwidth ==0.2.6
+Requires-Dist: Werkzeug ==2.2.3
+Requires-Dist: xxhash ==3.3.0
+Requires-Dist: yarl ==1.9.2
+Requires-Dist: zipp ==3.16.2
+
+# Divergent Language Matrix
+
+## Description
+The Divergent Language Matrix is a novel approach designed to analyze and understand the intricate structures and dynamics within digital conversations. This repository contains the code and documentation necessary to implement the Divergent Language Matrix framework, allowing you to explore conversations in a new and comprehensive way.
+
+## Introduction
+In the realm of digital communication, understanding conversations goes beyond the surface-level exchange of messages. The Divergent Language Matrix framework recognizes conversations as dynamic systems, governed by evolving production rules that shape their evolution. This approach provides a deeper insight into the complexities of conversations by considering various factors such as semantic content, contextual embeddings, and hierarchical relationships.
+
+## Formulation
+Divergent Language Matrix (DLM) is designed to generate a lower-dimensional representation of complex, hierarchical text data, such as conversations. The algorithm preserves both semantic and structural relationships within the data, allowing for more efficient analysis and visualization. 
+
+1. Text Preprocessing and Conversion to Parts:
+    * Split each message 𝑀ᵢⱼ into smaller parts: 𝑃ᵢⱼ = {𝑃ᵢⱼ₁, 𝑃ᵢⱼ₂, ..., 𝑃ᵢⱼₖ}.
+    * Maintain the order and relationships between the parts.
+
+2. Creating Contextual Embeddings with Transformers:
+    * For each part 𝑃ᵢⱼₖ, compute its contextual embedding using a transformer model: 𝐸(𝑃ᵢⱼₖ).
+
+3. Construct Multi-level Hierarchical Representation:
+    * Assign coordinates (𝑥, 𝑦, 𝑧, 𝑡) to each part 𝑃ᵢⱼₖ within its conversation 𝐶ᵢ.
+    * Derive 𝑥, 𝑦, and 𝑧 coordinates, capturing part's position among parent and sibling parts.
+    * Update the 𝑡 coordinate based on the temporal order of parts.
+
+4. Dynamic Message Ordering:
+    * Order the parts within each conversation 𝐶ᵢ based on contextual similarity or attention weights: 𝑂(𝑃ᵢⱼ).
+
+5. Dimensionality Reduction with UMAP:
+    * Create a joint representation by combining the contextual embeddings and hierarchical coordinates of the parts within each conversation 𝐶ᵢ.
+    * Apply UMAP to reduce the dimensionality of the joint representation while preserving semantic and structural relationships.
+
+6. Clustering and Final Representation:
+    * Utilize advanced clustering techniques, such as HDBSCAN, on the reduced-dimensional representation.
+    * Form clusters based on contextual embeddings and hierarchical representation to organize parts into coherent conversations.
+    * Group similar parts together to capture thematic similarities and facilitate analysis.
+
