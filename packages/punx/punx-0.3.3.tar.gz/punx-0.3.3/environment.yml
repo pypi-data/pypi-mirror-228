@@ -1,0 +1,20 @@
+name: punx
+
+# conda env create --force -n punx --force -f ./environment.yml --solver=libmamba
+# conda activate punx
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - h5py >=3
+  - hdf5plugin
+  - lxml
+  - numpy
+  - python >=3.8
+  - pip
+  - pyqt =5
+  - pyRestTable
+  - requests
+  - sip

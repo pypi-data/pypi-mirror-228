@@ -1,0 +1,88 @@
+C:\Users\Pete\Documents\eclipse\punx\src\punx\main.py
+
+!!! WARNING: this program is not ready for distribution.
+
+
+console> punx validate C:\Users\Pete\Documents\eclipse\punx\src\punx\data\writer_1_3.hdf5
+data file: C:\Users\Pete\Documents\eclipse\punx\src\punx\data\writer_1_3.hdf5
+NeXus definitions (branch): master, dated 2018-05-16 02:07:48, sha=2dc081ee4265eebf80a953080a2ed275c1799a21
+
+findings
+============================ ====== ==================================== =============================================
+address                      status test                                 comments                                     
+============================ ====== ==================================== =============================================
+/                            TODO   NeXus base class                     NXroot: more validations needed              
+/                            OK     known NXDL                           NXroot: recognized NXDL specification        
+/                            OK     NeXus base class                     NXroot: known NeXus base class               
+/                            OK     NeXus default plot                   found by v3: /Scan/data/counts               
+/Scan                        TODO   NeXus base class                     NXentry: more validations needed             
+/Scan                        OK     group in base class                  not defined: NXroot/Scan                     
+/Scan                        OK     known NXDL                           NXentry: recognized NXDL specification       
+/Scan                        OK     NeXus base class                     NXentry: known NeXus base class              
+/Scan                        OK     NXDL group in data file              found:  in /Scan/data                        
+/Scan                        NOTE   validItemName                        relaxed pattern: [A-Za-z_][\w_]*             
+/Scan@NX_class               OK     validItemName                        pattern: NX.+                                
+/Scan@NX_class               OK     attribute value                      recognized NXDL base class: NXentry          
+/Scan@NX_class               OK     known attribute                      known: NXentry@NX_class                      
+/Scan/data                   TODO   NeXus base class                     NXdata: more validations needed              
+/Scan/data                   OK     validItemName                        strict pattern: [a-z_][a-z0-9_]*             
+/Scan/data                   OK     group in base class                  defined: NXentry/data                        
+/Scan/data                   OK     known NXDL                           NXdata: recognized NXDL specification        
+/Scan/data                   OK     NeXus base class                     NXdata: known NeXus base class               
+/Scan/data@NX_class          OK     validItemName                        pattern: NX.+                                
+/Scan/data@NX_class          OK     attribute value                      recognized NXDL base class: NXdata           
+/Scan/data@NX_class          OK     known attribute                      known: NXdata@NX_class                       
+/Scan/data@axes              TODO   attribute value                      implement                                    
+/Scan/data@axes              OK     validItemName                        strict pattern: [a-z_][a-z0-9_]*             
+/Scan/data@axes              OK     known attribute                      known: NXdata@axes                           
+/Scan/data@signal            OK     validItemName                        strict pattern: [a-z_][a-z0-9_]*             
+/Scan/data@signal            OK     valid name @signal=counts            strict pattern: [a-z_][a-z0-9_]*             
+/Scan/data@signal            OK     attribute value                      found: @signal=counts                        
+/Scan/data@signal            OK     known attribute                      known: NXdata@signal                         
+/Scan/data@signal            OK     value of @signal                     found: /Scan/data/counts                     
+/Scan/data@signal            OK     NeXus default plot v3, NXdata@signal correct default plot setup in /NXentry/NXdata
+/Scan/data@two_theta_indices TODO   attribute value                      implement                                    
+/Scan/data@two_theta_indices OK     validItemName                        strict pattern: [a-z_][a-z0-9_]*             
+/Scan/data@two_theta_indices OK     known attribute                      unknown: NXdata@two_theta_indices            
+/Scan/data/counts            OK     validItemName                        strict pattern: [a-z_][a-z0-9_]*             
+/Scan/data/counts            OK     field in base class                  not defined: NXdata/counts                   
+/Scan/data/counts@units      TODO   attribute value                      implement                                    
+/Scan/data/counts@units      OK     validItemName                        strict pattern: [a-z_][a-z0-9_]*             
+/Scan/data/two_theta         OK     validItemName                        strict pattern: [a-z_][a-z0-9_]*             
+/Scan/data/two_theta         OK     field in base class                  not defined: NXdata/two_theta                
+/Scan/data/two_theta@units   TODO   attribute value                      implement                                    
+/Scan/data/two_theta@units   OK     validItemName                        strict pattern: [a-z_][a-z0-9_]*             
+============================ ====== ==================================== =============================================
+
+
+summary statistics
+======== ===== =========================================================== =========
+status   count description                                                 (value)  
+======== ===== =========================================================== =========
+OK       33    meets NeXus specification                                   100      
+NOTE     1     does not meet NeXus specification, but acceptable           75       
+WARN     0     does not meet NeXus specification, not generally acceptable 25       
+ERROR    0     violates NeXus specification                                -10000000
+TODO     7     validation not implemented yet                              0        
+UNUSED   0     optional NeXus item not used in data file                   0        
+COMMENT  0     comment from the punx source code                           0        
+OPTIONAL 38    allowed by NeXus specification, not identified              99       
+         --                                                                         
+TOTAL    79                                                                         
+======== ===== =========================================================== =========
+
+<finding>=99.125000 of 72 items reviewed
+
+console> punx tree C:\Users\Pete\Documents\eclipse\punx\src\punx\data\writer_1_3.hdf5
+C:\Users\Pete\Documents\eclipse\punx\src\punx\data\writer_1_3.hdf5 : NeXus data file
+  Scan:NXentry
+    @NX_class = NXentry
+    data:NXdata
+      @NX_class = NXdata
+      @signal = counts
+      @axes = two_theta
+      @two_theta_indices = 0
+      counts:NX_INT32[31] = [1037, 1318, 1704, '...', 1321]
+        @units = counts
+      two_theta:NX_FLOAT64[31] = [17.92608, 17.92591, 17.92575, '...', 17.92108]
+        @units = degrees
