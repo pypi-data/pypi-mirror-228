@@ -1,0 +1,15 @@
+gamma/__init__.py,sha256=XXcSFJoi-ILqx-hkUpsOAG6RK7m77REfIz-b3_BhFKM,41
+gamma/base.py,sha256=Qw-Pl0qAANFYXcrx4td1K2vl_6kXHzI4KdtIUvI5nlg,2131
+gamma/errors.py,sha256=aD936NOpDEMbApC3yHZiOHtsEjraojIzczwtIs1DmXM,97
+gamma/models.py,sha256=QRapEQlGo_dC8XXxb85hijm2oj-rSvL7GnESqbBnutc,374
+gamma/table.py,sha256=N8GO5EB1w_jyXZTXiuyDgjOnR6znkbXONSOef4Tzp0c,7867
+pydanql/__init__.py,sha256=7qD6HhCg_soYgDjxIhRNYr6gPKliRnCKX4MwsKyM45U,40
+pydanql/base.py,sha256=i_eRd63M3NvtlF7EXsKBAS87YhOn_o6sFapcGoXUBfQ,3659
+pydanql/errors.py,sha256=G-c1ghigqxDS0dbTB2xJhy89LZuuOf1O7dSbuOXBZHw,296
+pydanql/model.py,sha256=vtEdhvbqdEFwguVP7xvITM-LdRhZXMyjg-ETdAA8N9Y,1084
+pydanql/table.py,sha256=t715snk3WJ0EppQl1WBC_RjbP7pz-2ChXeJ1AoBB-8I,12633
+pydanql-0.2.dist-info/LICENSE,sha256=-GBtOTFUr9pwZSYsJTTH5_DAyEfqvneO_kywY3ZvlGw,1078
+pydanql-0.2.dist-info/METADATA,sha256=_Y_WqjF-ZSfvG6JnM3ytqhwOuqQDOdSQPKaXfppTvKU,2713
+pydanql-0.2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+pydanql-0.2.dist-info/top_level.txt,sha256=yOJsg1_ExqWi4Rs2BFMM0g6cvb1vyXgLsUH5prbQjDM,8
+pydanql-0.2.dist-info/RECORD,,
