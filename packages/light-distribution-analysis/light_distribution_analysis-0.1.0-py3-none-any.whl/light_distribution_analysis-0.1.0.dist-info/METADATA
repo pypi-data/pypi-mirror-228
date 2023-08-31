@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: light-distribution-analysis
+Version: 0.1.0
+Summary: Analyze the flux of images based on wavelength and frequency
+Author: Viktor Veselov
+Author-email: lipovkaviktor@yahoo.com
+Project-URL: Bug Tracker, https://github.com/SweatyCrayfish/light-distribution-analysis/issues
+Project-URL: Source Code, https://github.com/SweatyCrayfish/light-distribution-analysis
+Keywords: light distribution analysis flux wavelength frequency images
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+# Light-Distribution-Analysis
+
+## Overview
+
+Light-Distribution-Analysis is a Python package that enables you to analyze the flux of images based on their wavelength and frequency. By utilizing OpenCV, NumPy, and Matplotlib, this package provides a simple yet effective way to process and save images as well as calculate flux values.
+
+## Features
+
+- Convert RGB images to wavelength and frequency representations.
+- Calculate the flux of images in terms of both wavelength and frequency.
+- Save processed images and flux values.
+- Export flux data to a CSV file for further analysis.
+
+## Installation
+
+To install Light-Distribution-Analysis, run the following command in your terminal:
+
+```bash
+pip install light-distribution-analysis
