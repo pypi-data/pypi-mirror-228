@@ -1,0 +1,15 @@
+swarkn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swarkn/aws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swarkn/aws/s3.py,sha256=QqMH-tTT1e7TCuAO7CCNQXiI-bDHcciBNddvPUo1_HU,778
+swarkn/charting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swarkn/charting/colors.py,sha256=zWKdP1m9sBdbS8gQpKykIVXEIRKGR9kQyccIeiJ6sjs,292
+swarkn/charting/plotly_utils.py,sha256=PWQlvH7wKHu_x-x3MCC18AxRnQol2Sc2m4RbHLVIcmY,3275
+swarkn/collections.py,sha256=_wF_zo7KOIg0cw1oUOYn5ZrQBhE_-ZW7-mPJ5edWgQA,1097
+swarkn/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swarkn/db/postgres.py,sha256=o3tE72AtgepDkx2PywyXd41-RWlP8RegfvsWZyIuytc,8855
+swarkn/db/sql.py,sha256=IlQgpGPV_PbfqDEaXNS6tKjmyj0iX504nSSFtuMCT_I,838
+swarkn/helpers.py,sha256=00PKBNhTnXIyQrdNGmqqbV8dFxtSRyu_WjJ1gsd7UNo,1198
+swarkn/strings.py,sha256=zVB4sAzXyg_fjpEhNngrVOYlKZymdgrikcVv9BRY274,143
+swarkn-0.1.2.dist-info/METADATA,sha256=9t-OPm6zg2d-hXn7zTdXA9G3z8I-szDy2DmUYEiC7K0,384
+swarkn-0.1.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+swarkn-0.1.2.dist-info/RECORD,,
