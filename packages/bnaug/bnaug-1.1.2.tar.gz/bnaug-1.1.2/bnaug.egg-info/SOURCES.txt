@@ -1,0 +1,13 @@
+README.md
+setup.py
+bnaug/__init__.py
+bnaug/randaug.py
+bnaug/sentence.py
+bnaug/util.py
+bnaug.egg-info/PKG-INFO
+bnaug.egg-info/SOURCES.txt
+bnaug.egg-info/dependency_links.txt
+bnaug.egg-info/requires.txt
+bnaug.egg-info/top_level.txt
+tests/test.py
+tests/test_randaug.py
