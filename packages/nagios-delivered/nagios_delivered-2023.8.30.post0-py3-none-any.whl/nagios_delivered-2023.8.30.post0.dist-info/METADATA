@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nagios-delivered
+Version: 2023.8.30.post0
+Summary: A Package to Read Checks off of an S3 bucket rather than. Local Process
+Author-email: Chris Halbersma <chris@halbersma.us>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: botocore
+Requires-Dist: json-fix
+
+# nagios-delivered
+
+Nagios Plugin to Parse Files "delivered" as json check files. Goal is to be a less brainhurt way to do
+[NRDP](https://exchange.nagios.org/directory/Addons/Passive-Checks/NRDP--2D-Nagios-Remote-Data-Processor/details)
+with the idea that I should be able to extend this to things like S3, apis etc...
