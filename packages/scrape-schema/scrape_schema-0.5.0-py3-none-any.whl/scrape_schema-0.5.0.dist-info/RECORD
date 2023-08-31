@@ -1,0 +1,15 @@
+scrape_schema/__init__.py,sha256=lJgth3y3DI7Gmrqcsz53aP3Ojs2IMIqcyLakK45Yw1I,267
+scrape_schema/_logger.py,sha256=ipBOCNTSC2gBJumWMgR6BIDg5rHFREEM_9IAQ1rkVkY,485
+scrape_schema/_protocols.py,sha256=Ct5naYcgqgpn02YtIkV63gNy_gwL2PGM-1zwFMVVS3I,2055
+scrape_schema/_typing.py,sha256=ka55gpncL2_ArASh3Rn2XQjKXN-row_NYU1iUmNs1sA,638
+scrape_schema/base.py,sha256=yWRL5arkEhpBlA-NW00i_EEAzHuu4GTyxqd6VDFHapU,21087
+scrape_schema/field.py,sha256=L-hKCdwYsl8r7ii4HkP9bYnBgnd8bCMnZ7MRuQd96Wc,8854
+scrape_schema/nested.py,sha256=e98DJcddvZcaHXrRlIBSpkZ4WKlYSMEfGP2KStnveUs,2185
+scrape_schema/type_caster.py,sha256=Wob2hd_GUPHA3r9uCgmEwdADRz7D0_bu0X_wSl9V-4c,3549
+scrape_schema/special_methods/__init__.py,sha256=OAMariEBBWagrUXRSLt0z1dwbLGVEGbrDO9Yfkd-Pis,919
+scrape_schema/special_methods/base.py,sha256=6aRz75YYeS-wGa4ky4q9c7HWtkJg7hu-JM62ctNraaw,3005
+scrape_schema/special_methods/methods.py,sha256=XvNvpXloAWGCib7KMWYek6gvXOyDLjFy3UYNyUI9ITQ,2559
+scrape_schema-0.5.0.dist-info/METADATA,sha256=3wKFAYTCmHp6DuHbGnwA28iSk8cNVhtTJT9suSiOKsg,12660
+scrape_schema-0.5.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+scrape_schema-0.5.0.dist-info/licenses/LICENSE,sha256=CbdAh_yYjgt6zKWhr-VSj1qx7JxxJaf8Hotm0DtJbMg,1063
+scrape_schema-0.5.0.dist-info/RECORD,,
