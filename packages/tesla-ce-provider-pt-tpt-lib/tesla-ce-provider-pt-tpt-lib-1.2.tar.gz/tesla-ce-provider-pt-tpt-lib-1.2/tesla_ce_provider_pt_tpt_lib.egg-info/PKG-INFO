@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tesla-ce-provider-pt-tpt-lib
+Version: 1.2
+Summary: TeSLA Plagiarism Tool (TPT)
+Home-page: https://github.com/tesla-ce/provider-pt-tpt-service
+Author: Xavier Baro <xbaro@uoc.edu>, David Gañan <dganan@uoc.edu>, Roger Muñoz <rmunozber@uoc.edu>
+Author-email: xbaro@uoc.edu, dganan@uoc.edu, rmunozber@uoc.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Framework :: Pytest
+Requires-Python: >=3.6
+License-File: LICENSE
+
+long_description
+
