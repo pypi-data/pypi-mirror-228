@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+CaptchaGenerator/CaptchaGenerator.py
+CaptchaGenerator.egg-info/PKG-INFO
+CaptchaGenerator.egg-info/SOURCES.txt
+CaptchaGenerator.egg-info/dependency_links.txt
+CaptchaGenerator.egg-info/requires.txt
+CaptchaGenerator.egg-info/top_level.txt
