@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+easy_chromedriver_windows_install/__init__.py
+easy_chromedriver_windows_install/easy_chromedriver_windows_install.py
+easy_chromedriver_windows_install.egg-info/PKG-INFO
+easy_chromedriver_windows_install.egg-info/SOURCES.txt
+easy_chromedriver_windows_install.egg-info/dependency_links.txt
+easy_chromedriver_windows_install.egg-info/requires.txt
+easy_chromedriver_windows_install.egg-info/top_level.txt
