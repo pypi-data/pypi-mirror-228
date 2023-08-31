@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Mensajes-JuanKaDrako
+Version: 5.0
+Summary: Un paquete para saludar y despedir
+Home-page: 
+Author: Juan Camilo Martínez
+Author-email: jcmartinezp06@gmail.com
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Mensajes
+
+El Paquete de mensajeria para pruebas de Juan Camilo MartÃ­nez

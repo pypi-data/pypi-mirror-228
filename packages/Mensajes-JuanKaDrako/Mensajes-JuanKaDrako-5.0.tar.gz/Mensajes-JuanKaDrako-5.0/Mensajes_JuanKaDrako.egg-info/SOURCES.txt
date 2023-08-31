@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+Mensajes/__init__.py
+Mensajes/adios/__init__.py
+Mensajes/adios/despedida.py
+Mensajes/hola/__init__.py
+Mensajes/hola/saludos.py
+Mensajes_JuanKaDrako.egg-info/PKG-INFO
+Mensajes_JuanKaDrako.egg-info/SOURCES.txt
+Mensajes_JuanKaDrako.egg-info/dependency_links.txt
+Mensajes_JuanKaDrako.egg-info/top_level.txt
+tests/__init__.py
+tests/test_adios.py
+tests/test_hola.py
