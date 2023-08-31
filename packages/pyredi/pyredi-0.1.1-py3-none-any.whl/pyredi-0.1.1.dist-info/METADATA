@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pyredi
+Version: 0.1.1
+Summary: Python package for REDi - Resilient Design for the Next Generation of Buildings
+License: Apache 2.0 - See LICENSE.txt
+Author: Stevan.Gavrilovic
+Author-email: stevan.gavrilovic@arup.com
+Requires-Python: >=3.9,<3.13
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: pytest (>=7.4.0,<8.0.0)
+Requires-Dist: scipy (>=1.11.2,<2.0.0)
+Requires-Dist: simplejson (>=3.19.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+# PyREDi
+ 
+## Official REDi™ Python Package
+
+Please see visit the [REDi documentation](https://sgavrilovicarup.github.io/REDi-docs/) for the latest information.
+
+Created at [Arup](https://www.arup.com) in San Francisco. 
+
+### Install
+
+```
+pip install pyredi
+```
+
+### Usage
+
+PyREDi [usage documentation](https://sgavrilovicarup.github.io/REDi-docs/#usage/).
+
+**Note:** Tested for Python 3.11. May work with other versions as well. 
+
+### Python version created and maintained by: 
+
+Dr. Stevan Gavrilovic, Arup, Risk + Resilience Team, San Francisco
+
+[Contact Us](mailto:stevan.gavrilovic@arup.com)
+
+
