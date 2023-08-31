@@ -1,0 +1,2 @@
+from .model import SemanticGuidedHumanMattingInference
+from .onnx import SemanticGuidedHumanMattingONNX
