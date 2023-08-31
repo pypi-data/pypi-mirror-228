@@ -1,0 +1,14 @@
+setup.py
+src/SnapChatBot/__init__.py
+src/SnapChatBot/cli.py
+src/SnapChatBot/cli_commands.py
+src/SnapChatBot/exceptions.py
+src/SnapChatBot/functions.py
+src/SnapChatBot/main.py
+src/SnapChatBot/snapchat.py
+src/SnapChatBot/snapfunctions.py
+src/SnapChatBot.egg-info/PKG-INFO
+src/SnapChatBot.egg-info/SOURCES.txt
+src/SnapChatBot.egg-info/dependency_links.txt
+src/SnapChatBot.egg-info/requires.txt
+src/SnapChatBot.egg-info/top_level.txt
