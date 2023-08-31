@@ -1,0 +1,10 @@
+LICENSE,sha256=7Lnd39gi_KpXB2olVG8Xphb_b__amIzKyF5-beD7fhE,1502
+vzenith_camera/__init__.py,sha256=MFafhtQvwAK0Wv8KDfkgDfuQOIwRwVe0KykWNr5EgdU,32
+vzenith_camera/camera.py,sha256=GI6L3Qf9qYbrDYOruFrbehIfyT9uAkekZaFlPYAY774,2286
+vzenith_camera/emitter.py,sha256=2sJBWPpyENGr1dggSzU8IDFaaonCwWN7ddci-YfOYSs,623
+vzenith_camera/socket.py,sha256=cKgsZ3XufAdDbiwrWextYubEb5JhkJah3arwxe8_gIY,2827
+vzenith_camera/types.py,sha256=1zyrcOc3cC3NlMhpb0pT9JBQ_PhLWgT0-c8MAiXHRks,219
+vzenith_camera-0.2.0.dist-info/LICENSE,sha256=7Lnd39gi_KpXB2olVG8Xphb_b__amIzKyF5-beD7fhE,1502
+vzenith_camera-0.2.0.dist-info/METADATA,sha256=7xONghr4uNbHiH5L-K2Pbdn0axmMsFZuAgpzIH9IbWo,2666
+vzenith_camera-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+vzenith_camera-0.2.0.dist-info/RECORD,,
