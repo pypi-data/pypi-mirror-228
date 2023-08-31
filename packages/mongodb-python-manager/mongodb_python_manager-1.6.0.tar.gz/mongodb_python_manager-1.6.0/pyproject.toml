@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mongodb-python-manager"
+version = "1.6.0"
+description = "The `MongoDBManager` class is a wrapper around the `pymongo` package, designed to simplify the usage of MongoDB in Python applications. It provides convenient methods for connecting to a MongoDB cluster, accessing a specific database and collection, and performing common CRUD operations."
+authors = ["louis_giron <louis@giron-dom.eu>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "mongodb_python_manager"}]
+
+[tool.poetry.dependencies]
+python = "^3.9 || ^3.10"
+structlog = "^23.1.0"
+pandas = "^2.0.3"
+pymongo = "^4.4.1"
+python-dotenv = "^1.0.0"
+tqdm = "^4.65.0"
+pytest = "^7.4.0"
+twine = "^4.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
