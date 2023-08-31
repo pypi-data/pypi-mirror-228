@@ -1,0 +1,2 @@
+[console_scripts]
+patternengine-example = patternengine.example:main
