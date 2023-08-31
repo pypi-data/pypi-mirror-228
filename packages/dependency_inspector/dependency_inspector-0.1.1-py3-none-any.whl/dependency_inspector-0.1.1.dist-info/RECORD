@@ -1,0 +1,10 @@
+dependency_inspector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dependency_inspector/main.py,sha256=pHPtfVgUJC77E_UDSfUdmR5fxvldl2DXRcM7j8wOcu0,2413
+dependency_inspector/model.py,sha256=CmJpZtui4fV83Iy_JcfiObjmXmrHBipUl8M-CplpkiY,1575
+dependency_inspector/provider.py,sha256=w48peFTLxvFaq30q205DUjCwmyT-QfmED0hlOql48Ns,2008
+dependency_inspector/registry.py,sha256=unq6ONKAC4MVepHX3jPDzLHcJzDrVoS-87zioJgC0qA,703
+dependency_inspector-0.1.1.dist-info/LICENSE,sha256=YN7VTfvU4qsEYXr6aYM-GKqESspmuYK7qzt670Pi5m0,1063
+dependency_inspector-0.1.1.dist-info/METADATA,sha256=afCPpT5nM-c98ekttB3hIS_lU7HYCb5YkVEBUaJ-lUc,2697
+dependency_inspector-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+dependency_inspector-0.1.1.dist-info/entry_points.txt,sha256=4o8rE1T3PPa8FiAq4-PXgVq8FCeAvYrAi76JvEnNmZY,71
+dependency_inspector-0.1.1.dist-info/RECORD,,
