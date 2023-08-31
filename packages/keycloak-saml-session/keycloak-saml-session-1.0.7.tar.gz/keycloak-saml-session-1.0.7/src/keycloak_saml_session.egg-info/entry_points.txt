@@ -1,0 +1,2 @@
+[console_scripts]
+keycloak_saml_session = keycloak_saml_session.__main__:main
