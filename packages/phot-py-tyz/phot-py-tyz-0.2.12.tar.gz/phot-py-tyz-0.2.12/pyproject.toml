@@ -1,0 +1,10 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+
+    # 以下两个依赖只有当有 C extensions 代码的时候需要
+    # "ninja",
+    # "cmake>=3.12",
+]
+build-backend = "setuptools.build_meta"
