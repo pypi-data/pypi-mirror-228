@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+src/boost_art_mongoutils.egg-info/PKG-INFO
+src/boost_art_mongoutils.egg-info/SOURCES.txt
+src/boost_art_mongoutils.egg-info/dependency_links.txt
+src/boost_art_mongoutils.egg-info/not-zip-safe
+src/boost_art_mongoutils.egg-info/requires.txt
+src/boost_art_mongoutils.egg-info/top_level.txt
+src/mongoutils/__init__.py
+src/mongoutils/mongoutils.py
