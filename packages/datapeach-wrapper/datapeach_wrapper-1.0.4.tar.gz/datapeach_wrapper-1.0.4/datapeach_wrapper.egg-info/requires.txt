@@ -1,0 +1,7 @@
+mysql.connector
+nbconvert
+nbformat
+pandas
+pulsar
+pyyaml
+requests
