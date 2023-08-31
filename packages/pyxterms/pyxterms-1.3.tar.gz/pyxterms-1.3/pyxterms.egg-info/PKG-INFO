@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pyxterms
+Version: 1.3
+Summary: A python module to customize terminal and add coloring.
+Home-page: https://github.com/lutherantz/pyxterms
+Author: akamedagoat
+Author-email: akamecanic@gmail.com
+License-File: LICENCE.md

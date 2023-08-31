@@ -1,0 +1,9 @@
+LICENCE.md
+README.md
+setup.py
+pyxterms/__init__.py
+pyxterms/pyxterms.py
+pyxterms.egg-info/PKG-INFO
+pyxterms.egg-info/SOURCES.txt
+pyxterms.egg-info/dependency_links.txt
+pyxterms.egg-info/top_level.txt
