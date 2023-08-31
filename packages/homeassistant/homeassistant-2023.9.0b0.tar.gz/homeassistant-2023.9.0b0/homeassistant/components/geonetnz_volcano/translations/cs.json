@@ -1,0 +1,14 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Poloha je ji\u017e nastavena"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "radius": "Polom\u011br"
+                }
+            }
+        }
+    }
+}

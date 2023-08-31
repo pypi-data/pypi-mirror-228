@@ -1,0 +1,30 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Service is already configured",
+            "reauth_successful": "Re-authentication was successful"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "password": "Password",
+                    "totp_secret": "TOTP Secret (only for some utilities, see documentation)",
+                    "username": "Username"
+                },
+                "title": "Reauthenticate Integration"
+            },
+            "user": {
+                "data": {
+                    "password": "Password",
+                    "totp_secret": "TOTP Secret (only for some utilities, see documentation)",
+                    "username": "Username",
+                    "utility": "Utility name"
+                }
+            }
+        }
+    }
+}

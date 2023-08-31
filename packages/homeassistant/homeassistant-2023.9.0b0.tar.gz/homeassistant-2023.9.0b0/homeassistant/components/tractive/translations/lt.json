@@ -1,0 +1,13 @@
+{
+    "entity": {
+        "sensor": {
+            "activity": {
+                "name": "Veikla",
+                "state": {
+                    "good": "Gerai",
+                    "ok": "GERAI"
+                }
+            }
+        }
+    }
+}

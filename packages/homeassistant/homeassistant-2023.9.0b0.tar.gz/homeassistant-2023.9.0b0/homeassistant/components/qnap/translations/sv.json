@@ -1,0 +1,15 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "password": "L\u00f6senord",
+                    "port": "Port",
+                    "ssl": "Aktivera SSL",
+                    "username": "Anv\u00e4ndarnamn",
+                    "verify_ssl": "Verifiera SSL"
+                }
+            }
+        }
+    }
+}

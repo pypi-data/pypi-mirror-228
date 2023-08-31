@@ -1,0 +1,25 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "Det gick inte att ansluta: {error}"
+        },
+        "step": {
+            "confirm": {
+                "description": "Vill du konfigurera {name}?"
+            },
+            "user": {
+                "data": {
+                    "address": "Enhet"
+                },
+                "description": "V\u00e4lj en enhet att konfigurera"
+            }
+        }
+    },
+    "entity": {
+        "switch": {
+            "state": {
+                "name": "\u00d6ppen"
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "menu_options": {
+                    "event": "\u012evyki\u0173 grup\u0117"
+                }
+            }
+        }
+    },
+    "entity_component": {
+        "_": {
+            "state": {
+                "off": "I\u0161jungta"
+            }
+        }
+    }
+}

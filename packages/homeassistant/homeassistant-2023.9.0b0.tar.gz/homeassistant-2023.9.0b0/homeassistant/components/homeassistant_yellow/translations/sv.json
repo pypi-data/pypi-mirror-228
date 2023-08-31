@@ -1,0 +1,94 @@
+{
+    "options": {
+        "abort": {
+            "addon_info_failed": "Misslyckades med att h\u00e4mta information om Silicon Labs Multiprotokoll till\u00e4gg",
+            "addon_install_failed": "Misslyckades att installera till\u00e4gget f\u00f6r Silicon Labs Multiprotokoll.",
+            "addon_set_config_failed": "Misslyckades med att spara konfigurationen f\u00f6r Silicon Labs Multiprotokoll",
+            "addon_start_failed": "Misslyckades att starta till\u00e4gget f\u00f6r Silicon Labs Multiprotokoll.",
+            "not_hassio": "H\u00e5rdvaruinst\u00e4llningarna kan endast bli konfigurerade p\u00e5 HassOS-installationer.",
+            "read_hw_settings_error": "Misslyckades med att l\u00e4sa h\u00e5rdvaruinst\u00e4llningarna",
+            "write_hw_settings_error": "Misslyckades med att skriva h\u00e5rdvaruinst\u00e4llningar",
+            "zha_migration_failed": "ZHA migreringen misslyckades"
+        },
+        "error": {
+            "unknown": "Ov\u00e4ntat fel"
+        },
+        "progress": {
+            "install_addon": "Var god v\u00e4nta medan installationen av till\u00e4gget f\u00f6r Silicon Labs Multiprotokoll slutf\u00f6rs. Detta kan ta flera minuter.",
+            "start_addon": "Var god v\u00e4nta medan till\u00e4gget f\u00f6r Silicon Labs Multiprotokoll startar. Detta kan ta n\u00e5gra sekunder."
+        },
+        "step": {
+            "addon_installed_other_device": {
+                "title": "St\u00f6d f\u00f6r Multiprotokoll \u00e4r redan aktiverat av annan enhet"
+            },
+            "addon_menu": {
+                "menu_options": {
+                    "reconfigure_addon": "Omkonfigurera st\u00f6d f\u00f6r multiprotokoll p\u00e5 IEEE 802.15.4 radio",
+                    "uninstall_addon": "Ta bort st\u00f6d f\u00f6r multiprotokoll p\u00e5 IEEE 802.15.4 radio."
+                }
+            },
+            "addon_not_installed": {
+                "data": {
+                    "enable_multi_pan": "Aktivera st\u00f6d f\u00f6r multiprotokoll"
+                },
+                "description": "N\u00e4r multiprotokollst\u00f6d \u00e4r aktiverat kan {hardware_name} s IEEE 802.15.4-radio anv\u00e4ndas f\u00f6r b\u00e5de Zigbee och Thread (anv\u00e4nds av Matter) samtidigt. Om radion redan anv\u00e4nds av ZHA Zigbee-integrationen, kommer ZHA att konfigureras om f\u00f6r att anv\u00e4nda multiprotokoll-firmware. \n\n Obs: Detta \u00e4r en experimentell funktion.",
+                "title": "Aktivera st\u00f6d f\u00f6r multiprotokoll p\u00e5 IEEE 802.15.4 radion"
+            },
+            "change_channel": {
+                "data": {
+                    "channel": "Kanal"
+                },
+                "title": "Omkonfigurera st\u00f6d f\u00f6r multiprotokoll p\u00e5 IEEE 802.15.4 radio"
+            },
+            "hardware_settings": {
+                "data": {
+                    "disk_led": "Disk LED",
+                    "heartbeat_led": "Heartbeat LED",
+                    "power_led": "Str\u00f6m LED"
+                },
+                "title": "Konfigurera h\u00e5rdvaruinst\u00e4llningar"
+            },
+            "install_addon": {
+                "title": "Installationen av till\u00e4gget f\u00f6r Silicon Labs Multiprotokoll har startat"
+            },
+            "main_menu": {
+                "menu_options": {
+                    "hardware_settings": "Konfigurera h\u00e5rdvaruinst\u00e4llningar",
+                    "multipan_settings": "Konfigurera IEEE 802.15.4 radio multiprotokoll st\u00f6d"
+                }
+            },
+            "notify_channel_change": {
+                "description": "Kanalbyte f\u00f6r Zigbee och Thread \u00e4r p\u00e5b\u00f6rjat och kommer vara klart om {delay_minutes} minuter.",
+                "title": "Kanalbyte p\u00e5b\u00f6rjat"
+            },
+            "notify_unknown_multipan_user": {
+                "description": "Home Assistant kan sj\u00e4lv byta kanaler f\u00f6r otbr och zha. Om du konfigurerat andra integrationer att anv\u00e4nda radion, t.ex. Zigbee2MQTT, s\u00e5 kommer du beh\u00f6va st\u00e4lla in kanalen i den integrationen efter att du slutf\u00f6rt denna guide.",
+                "title": "Manuell konfiguration kan beh\u00f6vas"
+            },
+            "reboot_menu": {
+                "description": "Inst\u00e4llningarna har \u00e4ndrats, men de nya inst\u00e4llningarna kommer inte att tr\u00e4da i kraft f\u00f6rr\u00e4n systemet har startat om",
+                "menu_options": {
+                    "reboot_later": "Starta om manuellt senare",
+                    "reboot_now": "Starta om nu"
+                },
+                "title": "Omstart kr\u00e4vs"
+            },
+            "reconfigure_addon": {
+                "data": {
+                    "channel": "Kanal"
+                },
+                "title": "Omkonfigurera st\u00f6d f\u00f6r multiprotokoll p\u00e5 IEEE 802.15.4 radio"
+            },
+            "show_revert_guide": {
+                "description": "Om du vill byta till enbart Zigbee-firmware, v\u00e4nligen slutf\u00f6r f\u00f6ljande manuella steg: \n\n * Ta bort till\u00e4gget f\u00f6r Silicon Labs Multiprotokoll \n\n * Flasha Zigbee-firmware, f\u00f6lj guiden p\u00e5 https://github.com/NabuCasa/silabs-firmware/wiki/Flash-Silicon-Labs-radio-firmware-manually. \n\n * Konfigurera om ZHA f\u00f6r att migrera inst\u00e4llningarna till den \u00e5terflashade radion",
+                "title": "Multiprotokoll st\u00f6d \u00e4r aktiverat f\u00f6r denna enheten"
+            },
+            "start_addon": {
+                "title": "Silicon Labs Multiprotokoll till\u00e4gg startar"
+            },
+            "uninstall_addon": {
+                "title": "Ta bort st\u00f6d f\u00f6r multiprotokoll p\u00e5 IEEE 802.15.4 radio."
+            }
+        }
+    }
+}

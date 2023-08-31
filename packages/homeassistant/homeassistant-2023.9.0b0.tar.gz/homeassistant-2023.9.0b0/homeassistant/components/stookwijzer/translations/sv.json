@@ -1,0 +1,22 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "location": "Plats"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "stookwijzer": {
+                "state": {
+                    "blauw": "Bl\u00e5",
+                    "oranje": "Orange",
+                    "rood": "R\u00f6d"
+                }
+            }
+        }
+    }
+}

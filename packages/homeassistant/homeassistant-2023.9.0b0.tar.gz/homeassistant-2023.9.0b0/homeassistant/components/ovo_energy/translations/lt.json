@@ -1,0 +1,18 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "password": "Slapta\u017eodis"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "last_gas_start_time": {
+                "name": "Paskutinis duj\u0173 paleidimo laikas"
+            }
+        }
+    }
+}

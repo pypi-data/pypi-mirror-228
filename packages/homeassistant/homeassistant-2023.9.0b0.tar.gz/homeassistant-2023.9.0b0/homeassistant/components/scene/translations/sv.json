@@ -1,0 +1,13 @@
+{
+    "services": {
+        "apply": {
+            "description": "Aktiverar en scen med konfiguration.",
+            "fields": {
+                "entities": {
+                    "description": "Lista \u00f6ver entiteter och deras m\u00e5ltillst\u00e5nd."
+                }
+            }
+        }
+    },
+    "title": "Scenario"
+}
