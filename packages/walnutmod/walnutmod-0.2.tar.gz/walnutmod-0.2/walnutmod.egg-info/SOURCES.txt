@@ -1,0 +1,10 @@
+setup.py
+module/__init__.py
+module/ascii_art.txt
+module/fakehacker.txt
+module/walnutmod.py
+walnutmod.egg-info/PKG-INFO
+walnutmod.egg-info/SOURCES.txt
+walnutmod.egg-info/dependency_links.txt
+walnutmod.egg-info/requires.txt
+walnutmod.egg-info/top_level.txt
