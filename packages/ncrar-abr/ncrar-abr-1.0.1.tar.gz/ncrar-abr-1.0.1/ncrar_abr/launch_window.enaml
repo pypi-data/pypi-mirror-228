@@ -1,0 +1,277 @@
+from pathlib import Path
+import subprocess
+
+from atom.api import Atom, Bool, Enum, Int, List, Str, Typed
+
+from enaml.core.api import Looper
+from enaml.layout.api import align, grid, hbox, spacer, vbox
+from enaml.stdlib.fields import IntField
+from enaml.stdlib.message_box import warning, information
+from enaml.validator import Validator
+from enaml.widgets.api import (CheckBox, Container, Field, FileDialogEx,
+                               HGroup, Label, MainWindow, ObjectCombo,
+                               PushButton)
+
+from ncrar_abr import main_icon
+from ncrar_abr.parsers import PARSER_MAP
+
+
+class Settings(Atom):
+
+    analyzer = Str()
+    waves = List()
+    filter_data = Bool(True)
+    filter_lb = Int(300)
+    filter_ub = Int(3000)
+    parser = Enum(*list(PARSER_MAP.keys()))
+
+    calibration_file = Str()
+    latency_file = Str()
+    study_folder = Str()
+
+    def get_state(self):
+        return {m: getattr(self, m) for m in self.members().keys()}
+
+    def set_state(self, state):
+        for k, v in state.items():
+            try:
+                setattr(self, k, v)
+            except AttributeError:
+                pass
+
+    def get_default_args(self, waves=True):
+        args = ['--parser', self.parser, '--user', self.analyzer]
+
+        if self.calibration_file:
+            args.extend(['--calibration', self.calibration_file])
+        if self.latency_file:
+            args.extend(['--latency', self.latency_file])
+        if self.filter_data:
+            args.extend(['--highpass', str(self.filter_lb)])
+            args.extend(['--lowpass', str(self.filter_ub)])
+        else:
+            args.append('--nofilter')
+        if waves:
+            if self.waves:
+                args.append('--waves')
+                args.extend(str(w) for w in self.waves)
+            else:
+                args.append('--threshold-only')
+        return args
+
+    def launch_basic(self):
+        args = ['ncrar-abr-gui']
+        args.extend(self.get_default_args())
+        result = subprocess.check_output(args)
+
+    def launch_batch(self):
+        args = ['ncrar-abr-batch', '--skip-errors', self.study_folder]
+        args.extend(self.get_default_args())
+        result = subprocess.check_output(args)
+        if result.decode().strip() == 'No files to process':
+            mesg = 'No ABR experiments found in {}'.format(self.study_folder)
+            raise ValueError(mesg)
+
+    def launch_export(self, output_file):
+        args = ['ncrar-abr-aggregate', self.study_folder, output_file]
+        result = subprocess.check_output(args)
+
+    def launch_compare(self):
+        args = ['ncrar-abr-compare', self.study_folder]
+        args.extend(self.get_default_args(waves=False))
+        print(' '.join(args))
+        result = subprocess.check_output(args)
+
+
+class AnalyzerValidator(Validator):
+
+    def validate(self, text):
+        return bool(text)
+
+
+enamldef LaunchWindow(MainWindow): window:
+
+    title = 'ABR analysis'
+    icon = main_icon
+    attr settings
+
+    Container:
+
+        constraints << [
+            vbox(
+                hbox(a_label, a_field),
+                hbox(p_label, p_field),
+                hbox(calfile_label, calfile_field, calfile_button, calfile_clear_button),
+                hbox(latency_label, latency_field, latency_button, latency_clear_button),
+                hbox(m_label, waves),
+                hbox(do_filter, filter_lb, l_filter_to, filter_ub, l_filter_end),
+                hbox(study_label, study_field, study_button),
+                hbox(b_basic, b_loop, b_export, b_compare),
+            ),
+            align('width', a_label, m_label, p_label, calfile_label, latency_label, do_filter),
+            align('left', a_field, p_field, calfile_field, latency_field, waves, filter_lb),
+            align('width', b_basic, b_loop),
+            align('v_center', m_label, waves),
+            align('v_center', calfile_label, calfile_field, calfile_button),
+            align('v_center', latency_label, latency_field, latency_button),
+            align('v_center', study_label, study_field, study_button),
+            align('width', b_basic, b_loop, b_export, b_compare),
+            align('width', study_button, latency_clear_button, latency_button, calfile_clear_button, calfile_button),
+            study_button.width == 60,
+        ]
+
+        Label: a_label:
+            text = 'Analyzer'
+
+        Field: a_field:
+            text := settings.analyzer
+            validator = AnalyzerValidator()
+            placeholder = 'Your name or initials. Be consistent.'
+
+        Label: m_label:
+            text = 'Measure waves'
+            align = 'center'
+
+        Label: p_label:
+            text = 'File format'
+
+        ObjectCombo: p_field:
+            items << list(PARSER_MAP.keys())
+            selected := settings.parser
+            to_string << PARSER_MAP.get
+
+        HGroup: waves:
+            spacing = 0
+            padding = 0
+            trailing_spacer = spacer(0)
+            Looper:
+                iterable << range(1, 6)
+                CheckBox:
+                    text = str(loop_item)
+                    checked << loop_item in settings.waves[:]
+                    checked ::
+                        if checked:
+                            settings.waves.append(loop_item)
+                        else:
+                            settings.waves.remove(loop_item)
+
+        CheckBox: do_filter:
+            text = 'Filter?'
+            checked := settings.filter_data
+
+        Label: l_filter_to:
+            text = 'to'
+            enabled << do_filter.checked
+
+        Label: l_filter_end:
+            text = 'Hz'
+            enabled << do_filter.checked
+
+        IntField: filter_lb:
+            enabled << do_filter.checked
+            value := settings.filter_lb
+
+        IntField: filter_ub:
+            enabled << do_filter.checked
+            value := settings.filter_ub
+
+        Label: calfile_label:
+            text = 'Calibration file'
+
+        Label: calfile_field:
+            text << settings.calibration_file
+
+        PushButton: calfile_button:
+            text = 'Open'
+            clicked ::
+                filters =['Spreadsheet (*.csv, *.xls, *.xlsx)']
+                result = FileDialogEx.get_open_file_name(
+                    parent=window, current_path=settings.calibration_file,
+                    name_filters=filters)
+                if result:
+                    settings.calibration_file = result
+
+        PushButton: calfile_clear_button:
+            text = 'Clear'
+            clicked ::
+                settings.calibration_file = ''
+
+        Label: latency_label:
+            text = 'Latencies file'
+
+        Label: latency_field:
+            text << settings.latency_file
+
+        PushButton: latency_button:
+            text = 'Open'
+            clicked ::
+                filters =['Spreadsheet (*.csv, *.xls, *.xlsx)']
+                result = FileDialogEx.get_open_file_name(
+                    parent=window, current_path=settings.latency_file,
+                    name_filters=filters)
+                if result:
+                    settings.latency_file = result
+
+        PushButton: latency_clear_button:
+            text = 'Clear'
+            clicked ::
+                settings.latency_file = ''
+
+        Label: study_label:
+            text = 'Study folder'
+
+        Label: study_field:
+            text << settings.study_folder
+
+        PushButton: study_button:
+            text = 'Open'
+            clicked ::
+                result = FileDialogEx.get_existing_directory(
+                    parent=window, current_path=settings.study_folder)
+                if result:
+                    settings.study_folder = result
+
+        PushButton: b_basic:
+            text = 'Launch basic'
+            enabled << bool(settings.analyzer)
+            clicked ::
+                try:
+                    settings.launch_basic()
+                except Exception as e:
+                    mesg = 'Unable to start program.\n{}'.format(e)
+                    warning(window, 'Error', mesg)
+
+        PushButton: b_loop:
+            text = 'Launch batch'
+            enabled << bool(settings.analyzer) and bool(settings.study_folder)
+            clicked ::
+                try:
+                    settings.launch_batch()
+                except Exception as e:
+                    mesg = 'Unable to start program.\n{}'.format(e)
+                    warning(window, 'Error', mesg)
+
+        PushButton: b_export:
+            text = 'Export analysis'
+            enabled << bool(settings.study_folder)
+            clicked ::
+                result = FileDialogEx.get_save_file_name(
+                    parent=window, current_path=settings.study_folder,
+                    name_filters=['Excel Spreadsheet (*.xlsx)'])
+                if result:
+                    try:
+                        settings.launch_export(result)
+                        information(window, 'Results saved', f'Exported results to {result}')
+                    except Exception as e:
+                        mesg = 'Unable to start program.\n{}'.format(e)
+                        warning(window, 'Error', mesg)
+
+        PushButton: b_compare:
+            text = 'Compare raters'
+            enabled << bool(settings.study_folder)
+            clicked ::
+                try:
+                    settings.launch_compare()
+                except Exception as e:
+                    mesg = 'Unable to start program.\n{}'.format(e)
+                    warning(window, 'Error', mesg)

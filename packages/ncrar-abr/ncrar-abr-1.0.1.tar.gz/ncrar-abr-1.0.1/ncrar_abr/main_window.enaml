@@ -1,0 +1,325 @@
+import logging
+log = logging.getLogger(__name__)
+
+import os.path
+from pathlib import Path
+import urllib.request
+
+from enaml.application import deferred_call
+from enaml.core.api import Looper
+from enaml.layout.api import align, hbox, InsertItem, InsertTab, spacer, vbox
+from enaml.qt.QtCore import Qt
+from enaml.stdlib.dialog_buttons import DialogButton
+from enaml.stdlib.message_box import critical, information, warning, question
+from enaml.widgets.api import (Action, ActionGroup, CheckBox, Container,
+                               DockArea, DockItem, GroupBox, Label, Feature, Form,
+                               HGroup, MainWindow, Menu, MPLCanvas,
+                               ObjectCombo, ProgressBar, PushButton,
+                               ToolButton, VGroup)
+
+from ncrar_abr import main_icon
+from ncrar_abr.datatype import Point
+
+
+def bind(figure, presenter):
+    i = Interactor(presenter)
+    figure.canvas.mpl_connect('key_press_event', lambda e: i.key_press(e))
+    figure.canvas.mpl_connect('pick_event', lambda e: i.pick_event(e))
+    figure.canvas.mpl_connect('motion_notify_event', lambda e: i.motion_notify(e))
+    figure.canvas.mpl_connect('button_release_event', lambda e: i.button_release(e))
+
+
+class ABRCanvas(MPLCanvas):
+
+    def set_focus(self):
+        try:
+            self.figure.canvas.setFocus(Qt.OtherFocusReason)
+        except:
+            pass
+
+
+class Interactor:
+
+    def __init__(self, presenter):
+        self.selected_point = None
+        self.presenter = presenter
+
+    def pick_event(self, event):
+        for i, line_plot in enumerate(self.presenter.plots):
+            if line_plot.plot == event.artist:
+                self.presenter.current = i
+            for point, point_plot in line_plot.point_plots.items():
+                if point_plot.plot == event.artist:
+                    self.selected_point = point
+                    self.presenter.toggle = point
+                    self.presenter.current = i
+                    return
+
+    def button_release(self, event):
+        self.selected_point = None
+
+    def motion_notify(self, event):
+        if self.selected_point is not None:
+            self.presenter.set_selected_point(event.xdata)
+
+    def key_press(self, event):
+        shift_peaks = '!@#$%'
+        try:
+            if event.key == 'down':
+                self.presenter.current -= 1
+            elif event.key == 'up':
+                self.presenter.current += 1
+            elif event.key in ('-', '_'):
+                self.presenter.scale *= 1.1
+            elif event.key in ('=', '+'):
+                self.presenter.scale *= 0.9
+            elif event.key == 'i':
+                self.presenter.guess()
+            elif event.key == 'u':
+                self.presenter.update_point()
+            elif event.key == 's':
+                self.presenter.save()
+                if not self.presenter.batch_mode:
+                    information(None, 'Data', 'Analysis saved to file.')
+                elif (self.presenter.current_model + 1) == len(self.presenter.unprocessed):
+                    information(None, 'Data', 'No more datasets to analyze.')
+            elif event.key == 'right':
+                self.presenter.move_selected_point(('zero_crossing', 1))
+            elif event.key == 'left':
+                self.presenter.move_selected_point(('zero_crossing', -1))
+            elif event.key == 'alt+right':
+                self.presenter.move_selected_point(('time', 1e-5))
+            elif event.key == 'alt+left':
+                self.presenter.move_selected_point(('time', -1e-5))
+            elif event.key == 'shift+right':
+                self.presenter.move_selected_point(('time', 1e-6))
+            elif event.key == 'shift+left':
+                self.presenter.move_selected_point(('time', -1e-6))
+            elif event.key == 'n':
+                self.presenter.normalized = not self.presenter.normalized
+            elif event.key in ('1', '2', '3', '4', '5'):
+                self.presenter.toggle = int(event.key), Point.PEAK
+            elif event.key in ('shift+1', 'shift+2', 'shift+3', 'shift+4', 'shift+5'):
+                self.presenter.toggle = int(event.key[-1]), Point.VALLEY
+            elif event.key in shift_peaks:
+                point = shift_peaks.index(event.key) + 1
+                self.presenter.toggle = point, Point.VALLEY
+            elif event.key in ('delete', 'backspace'):
+                self.presenter.toggle_selected_point_unscorable()
+            elif event.key == 'pagedown':
+                self.presenter.load_next()
+            elif event.key == 'pageup':
+                self.presenter.load_prior()
+            elif event.key == 'shift+up':
+                self.presenter.top += 0.01
+            elif event.key == 'shift+down':
+                self.presenter.top -= 0.01
+            elif event.key == 'shift+alt+up':
+                self.presenter.bottom += 0.01
+            elif event.key == 'shift+alt+down':
+                self.presenter.bottom -= 0.01
+        except Exception as e:
+            log.exception(e)
+            critical(None, 'Error', str(e))
+
+
+def get_rater(filename):
+    rater = filename.stem.rsplit('-', 2)[1]
+    if rater.endswith('kHz'):
+        return 'Unknown rater'
+    return rater
+
+
+enamldef MPLContainer(Container): di:
+
+    attr presenter
+    attr analyzed_filenames = []
+    attr interactive = True
+
+    constraints = [
+        vbox(
+            hbox(spacer, load, clear, unscorable),
+            canvas
+        ),
+        load.width == 200,
+    ]
+
+    ToolButton: load:
+        enabled << interactive
+        text = 'Load analysis'
+        popup_mode = 'instant'
+        Menu:
+            Looper: looper:
+                iterable << analyzed_filenames[:]
+                Action:
+                    text << get_rater(loop_item)
+                    triggered ::
+                        presenter.load_analysis(loop_item)
+                        canvas.set_focus()
+
+    ToolButton: clear:
+        enabled << interactive
+        text = 'Clear'
+        popup_mode = 'instant'
+        Menu:
+            Action:
+                text = 'All'
+                triggered ::
+                    presenter.clear_points()
+                    canvas.set_focus()
+            Action:
+                text = 'Peaks'
+                triggered::
+                    presenter.clear_peaks()
+                    canvas.set_focus()
+            Action:
+                text = 'Valleys'
+                triggered ::
+                    presenter.clear_valleys()
+                    canvas.set_focus()
+
+    ToolButton: unscorable:
+        enabled << interactive
+        text = 'Mark unscorable'
+        popup_mode = 'instant'
+        Menu:
+            Action:
+                text = 'All peaks at this level and lower'
+                triggered ::
+                    presenter.mark_unscorable('descending')
+                    canvas.set_focus()
+
+            Action:
+                text = 'All peaks at all levels'
+                triggered::
+                    presenter.mark_unscorable('all')
+                    canvas.set_focus()
+
+    ABRCanvas: canvas:
+        figure << presenter.figure
+        toolbar_visible = False
+        initialized ::
+            if interactive:
+                deferred_call(bind, figure, presenter)
+                deferred_call(self.set_focus)
+
+
+enamldef SerialWindow(MainWindow):
+
+    alias presenter: container.presenter
+
+    initial_size = (600, 900)
+    title = 'ABR batch mode'
+    icon = main_icon
+
+    initialized ::
+        try:
+            presenter.load_next()
+        except Exception as e:
+            deferred_call(critical, None, 'Error', str(e))
+
+    Container:
+        constraints = [
+            vbox(
+                label,
+                container,
+            )
+        ]
+
+        Label: label:
+            text << 'Progress ({} of {}): {} {} kHz' \
+                .format(presenter.current_model + 1,
+                        len(presenter.unprocessed),
+                        os.path.basename(presenter.model.filename),
+                        presenter.model.freq)
+
+        MPLContainer: container:
+            padding = 0
+
+
+enamldef MPLDockItem(DockItem):
+
+    alias presenter: container.presenter
+    alias analyzed_filenames: container.analyzed_filenames
+
+    MPLContainer: container:
+        pass
+
+
+def fmt_freq(x):
+    if x == 0:
+        return 'click'
+    return f'{x * 1e-3:.2f} kHz'
+
+
+def add_dock_item(dock_area, model, path, presenter, analyzed_filenames):
+    title = '{} - {}'.format(os.path.basename(path), fmt_freq(model.freq))
+    name = title.replace(' ', '_')
+    items = dock_area.dock_items()
+    item_titles = [item.title for item in items]
+    if title in item_titles:
+        raise ValueError('File is already open')
+
+    n_items = len(items)
+    target = items[-1].name if n_items else ''
+    item = MPLDockItem(dock_area,
+                       name=name,
+                       title=title,
+                       presenter=presenter,
+                       analyzed_filenames=analyzed_filenames)
+    op = InsertTab(item=item.name, target=target)
+    deferred_call(dock_area.update_layout, op)
+
+
+def load_files(parser, filenames, dock_area):
+    from ncrar_abr.presenter import WaveformPresenter
+    messages = []
+    for filename, frequencies in filenames:
+        try:
+            for model in parser.load(filename, frequencies):
+                try:
+                    analyzed_filenames = parser.find_analyzed_files(model.filename, model.freq)
+                    presenter = WaveformPresenter(parser)
+                    add_dock_item(dock_area, model, filename, presenter, analyzed_filenames)
+                    presenter.load(model)
+                except Exception as e:
+                    messages.append(f'{filename} {fmt_freq(model.freq)}: {e}')
+        except Exception as e:
+            log.exception(e)
+            messages.append(f'{filename}: {e}')
+
+    if messages:
+        critical(None, 'Files', '\n'.join(messages))
+
+
+enamldef DNDWindow(MainWindow):
+
+    attr parser
+    icon = main_icon
+
+    initial_size = (600, 900)
+    title = 'ABR analysis'
+
+    Container:
+
+        DockArea: dock_area:
+            name = 'dock_area'
+            features = Feature.DropEnabled
+
+            drag_enter => (event):
+                if event.mime_data().has_format('text/uri-list'):
+                    event.accept_proposed_action()
+
+            drop => (event):
+                text = event.mime_data().data('text/uri-list').decode('utf-8')
+                filenames = []
+                for t in text.strip().split('\n'):
+                    t = urllib.parse.unquote(t).strip()
+                    fragments = urllib.parse.urlsplit(t)
+                    path = Path(urllib.request.url2pathname(fragments.path))
+                    filenames.append((path, None))
+                load_files(parser, filenames, dock_area)
+
+
+def mpl_connect(figure, event, handler):
+    figure.canvas.mpl_connect(event, handler)

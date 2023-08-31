@@ -1,0 +1,55 @@
+[project]
+name = "ncrar-abr"
+description = "Evoked potential analysis software"
+requires-python = ">=3.9"
+license = {file = "LICENSE.txt"}
+readme = "README.md"
+authors = [
+    {name = "Brad Buran", email="bburan@alum.mit.edu"},
+    {name = "Brad Buran", email="buran@ohsu.edu"},
+    {name = "Brad Buran", email="bradley.buran@va.gov"},
+]
+maintainers = [
+    {name = "Brad Buran", email="bburan@alum.mit.edu"},
+    {name = "Brad Buran", email="buran@ohsu.edu"},
+    {name = "Brad Buran", email="bradley.buran@va.gov"},
+]
+dependencies = [
+	"atom",
+	"enaml[qt6-pyside]",
+	"numpy",
+	"scipy",
+	"pandas",
+	"matplotlib",
+    "openpyxl",
+    "pyshortcuts",
+]
+dynamic = ["version"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+]
+
+[project.urls]
+homepage = "https://github.com/NCRAR/ncrar-abr"
+documentation = "https://github.com/NCRAR/ncrar-abr"
+repository = "https://github.com/NCRAR/ncrar-abr"
+
+[project.scripts]
+ncrar-abr = "ncrar_abr.app:main_launcher"
+ncrar-abr-aggregate = "ncrar_abr.app:main_aggregate"
+ncrar-abr-gui = "ncrar_abr.app:main_gui"
+ncrar-abr-batch = "ncrar_abr.app:main_batch"
+ncrar-abr-compare = "ncrar_abr.app:main_compare"
+ncrar-abr-make-shortcuts = "ncrar_abr.app:make_shortcuts"
+
+[build-system]
+requires = ["setuptools>=61.2", "wheel", "setuptools_scm[toml]>=3.4.3"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "ncrar_abr/version.py"
+
+[tool.setuptools.packages.find]
+exclude = ["packaging"]
