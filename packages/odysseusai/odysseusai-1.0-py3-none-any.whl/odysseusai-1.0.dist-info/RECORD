@@ -1,0 +1,16 @@
+odysseusai/__init__.py,sha256=VaOCC2DQJZHMlvAOt0EF-bYUhE1S7ULCfXtfsTEx8mw,122
+odysseusai/evaluation.py,sha256=A5Zc--kJICsUpsh1BCBJms41QbyYrRojRQTu9S5gFd8,6516
+odysseusai/example.py,sha256=XJLWOSHGT9h7jnRbMB6-u8ooUyTlR3Fk8gJrjnefZIY,1109
+odysseusai/llms.py,sha256=uEInfuBVGXpyenm_IEZQ8H8XikOwQnVdR6shX2gBqpg,1746
+odysseusai/logging_llm.py,sha256=n_G-0_tjIMoQ9fIDtvBrNEULpEKh8zQT0ooin9463OI,4845
+odysseusai/utils.py,sha256=84nCn5DD9uYnQY0StDsujSLxOctgysNUeNUDH2_3_PU,891
+src/__init__.py,sha256=vD4xpNHRFO9rhNYzz2cNBof4kItjvgYXd6YI1rpcePI,58
+src/evaluation.py,sha256=A5Zc--kJICsUpsh1BCBJms41QbyYrRojRQTu9S5gFd8,6516
+src/example.py,sha256=XJLWOSHGT9h7jnRbMB6-u8ooUyTlR3Fk8gJrjnefZIY,1109
+src/llms.py,sha256=uEInfuBVGXpyenm_IEZQ8H8XikOwQnVdR6shX2gBqpg,1746
+src/logging_llm.py,sha256=n_G-0_tjIMoQ9fIDtvBrNEULpEKh8zQT0ooin9463OI,4845
+src/utils.py,sha256=84nCn5DD9uYnQY0StDsujSLxOctgysNUeNUDH2_3_PU,891
+odysseusai-1.0.dist-info/METADATA,sha256=_fEca9EeCx-HPXQkaTykuXP6Pb9ug58Cq684b-B19OE,931
+odysseusai-1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odysseusai-1.0.dist-info/top_level.txt,sha256=eU7S0fcZ91mk0FiuQvR4UkcjGOE3UsI6kXdhSI2bcIE,11
+odysseusai-1.0.dist-info/RECORD,,
