@@ -1,0 +1,9 @@
+myllm/__init__.py,sha256=WWFtuFSMiC10Afk9tag5LPrzg53gkCQbI0Jba0AGnkQ,97
+myllm/config.py,sha256=HVkSFflY87KnRlpGeo9UBiWW-ugQGkid8Be140vRXNo,757
+myllm/default_settings.toml,sha256=MCaO4pjVBX92uTQg3DW1lyTe8sUGYD3mWvhe4doWFzc,2063
+myllm/main.py,sha256=rhnbyunf7D8xvzL83YASR9hky-zkRTP__GLyDQs_r7A,3382
+myllm/myllm.toml,sha256=MCaO4pjVBX92uTQg3DW1lyTe8sUGYD3mWvhe4doWFzc,2063
+myllm-1.2.37.dist-info/LICENSE,sha256=Ym-WJCFdWfn0XKn-qLQI-u5nxBJX6F2kl-hPeRJp1fI,1064
+myllm-1.2.37.dist-info/METADATA,sha256=NFnwoqGYtgweob9yCi2sAzfIrO8IkPhIy3rJ9QmiByA,3129
+myllm-1.2.37.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+myllm-1.2.37.dist-info/RECORD,,
