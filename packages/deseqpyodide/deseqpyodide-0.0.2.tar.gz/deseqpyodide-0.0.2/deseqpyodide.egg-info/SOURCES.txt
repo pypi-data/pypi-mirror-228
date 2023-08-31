@@ -1,0 +1,5 @@
+setup.py
+deseqpyodide.egg-info/PKG-INFO
+deseqpyodide.egg-info/SOURCES.txt
+deseqpyodide.egg-info/dependency_links.txt
+deseqpyodide.egg-info/top_level.txt
