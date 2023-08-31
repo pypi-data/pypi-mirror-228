@@ -1,0 +1,14 @@
+ibmcloudant/__init__.py,sha256=oxf146NLfp76P7eB5mRH80V91di2K5nMvo7IzTgCNO4,1651
+ibmcloudant/cloudant_base_service.py,sha256=9WqBddqun3N-9LSfcucjhCjEEYVO7tQrz-A27j47zZ4,6630
+ibmcloudant/cloudant_v1.py,sha256=uHWZrsebgTL4cttWTfPTk4eMNUWLmdHsVXKyZOt-c_8,746253
+ibmcloudant/common.py,sha256=Jeg17DozvAgnIrbFKwYz6kC5DbPJGUaEQzP8enCUZEM,1811
+ibmcloudant/couchdb_session_authenticator.py,sha256=UwJX7JGRUseaGI2wHWR47yxLP33HkCvYLY4Aj-lO4dQ,3396
+ibmcloudant/couchdb_session_get_authenticator_patch.py,sha256=tDF4WqOu3ByMKdnQsDI1IHpzigr9XMfgfvq1qsaj5nA,1543
+ibmcloudant/couchdb_session_token_manager.py,sha256=j8t5P0UVNUrRSXYOoAMlCgXXSjBFrUCAIRbHTu0j6hg,3609
+ibmcloudant/version.py,sha256=DicPTAgA12wiJye9JWahIEwho9V7MGSzWNsF6Ks5C3E,655
+ibmcloudant/features/__init__.py,sha256=uWEle2u2Mug6RhyMrlOkEhyPae0mfBgsflZ7kfbCTYM,606
+ibmcloudant/features/changes_follower.py,sha256=q23XkSUTGwc0XKM8apPzEJQLIT-I8ll_C_d_GI-SsJk,16957
+ibmcloudant-0.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ibmcloudant-0.5.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+ibmcloudant-0.5.0.dist-info/METADATA,sha256=lVU6d8H7gHZSnveyr-a7V6EyQmbdY2iJ2VXh7eHe4Ew,44174
+ibmcloudant-0.5.0.dist-info/RECORD,,
