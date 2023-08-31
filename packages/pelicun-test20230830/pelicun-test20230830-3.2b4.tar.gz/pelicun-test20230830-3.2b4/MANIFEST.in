@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+recursive-include pelicun *.py
+recursive-exclude pelicun/examples *
+recursive-exclude pelicun/tests *
+recursive-exclude pelicun/htmlcov *
+recursive-exclude pelicun/resources *
+recursive-exclude pelicun/settings *
+recursive-include pelicun/settings *.json

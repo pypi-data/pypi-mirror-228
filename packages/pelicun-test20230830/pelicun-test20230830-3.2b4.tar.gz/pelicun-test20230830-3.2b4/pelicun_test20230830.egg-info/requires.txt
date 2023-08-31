@@ -1,0 +1,8 @@
+numpy<2.0,>=1.22.0
+scipy<2.0,>=1.7.0
+pandas<2.0,>=1.4.0
+tables>=3.7.0
+requests>=2.0.0
+
+[testing]
+pytest
