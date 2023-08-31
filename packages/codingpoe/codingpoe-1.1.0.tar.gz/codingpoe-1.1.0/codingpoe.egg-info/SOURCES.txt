@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+codingpoe/__init__.py
+codingpoe/api.py
+codingpoe/proxies.py
+codingpoe/queries.py
+codingpoe.egg-info/PKG-INFO
+codingpoe.egg-info/SOURCES.txt
+codingpoe.egg-info/dependency_links.txt
+codingpoe.egg-info/requires.txt
+codingpoe.egg-info/top_level.txt
