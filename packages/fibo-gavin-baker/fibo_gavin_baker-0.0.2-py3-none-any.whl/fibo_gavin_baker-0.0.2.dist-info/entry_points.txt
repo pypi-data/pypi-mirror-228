@@ -1,0 +1,2 @@
+[console_scripts]
+fibo_gavin_baker = fibo_gavin_baker.fibo_gavin_baker:main
