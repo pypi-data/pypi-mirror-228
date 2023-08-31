@@ -1,0 +1,26 @@
+<script type="text/javascript">
+	var djangoUrlPatterns = {{ url_templates_obj|safe }};
+	
+	function reverse_url(name, kwargs) {
+		if (typeof(name) !== 'string') {
+			throw new Error("TypeError: 'name' must be a string.");
+		}
+		if (!!kwargs && typeof(kwargs) !== 'object') {
+			throw new Error("TypeError: 'kwargs' must be an object.");
+		}
+		
+		try {
+			let pattern = djangoUrlPatterns[name];
+			if (!!kwargs) {
+				for (kwarg of kwargs.keys()) {
+					pattern = pattern.replace('{' + kwarg + '}', kwargs[kwarg]);
+				}
+				return pattern;
+			} else {
+				return pattern;
+			}
+		} catch (e) {
+			console.error(e)
+		}
+	}
+</script>
