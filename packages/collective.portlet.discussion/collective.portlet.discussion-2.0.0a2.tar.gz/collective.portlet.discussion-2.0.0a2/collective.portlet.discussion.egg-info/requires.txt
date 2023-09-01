@@ -1,0 +1,7 @@
+setuptools
+plone.api
+plone.app.discussion
+six
+
+[test]
+plone.app.testing

@@ -1,0 +1,152 @@
+Metadata-Version: 2.1
+Name: collective.portlet.discussion
+Version: 2.0.0a2
+Summary: A simple Plone portlet to show a list of comments
+Home-page: https://github.com/collective/collective.portlet.discussion
+Author: RedTurtle Technology
+Author-email: sviluppoplone@redturtle.it
+Maintainer: Maurits van Rees
+Maintainer-email: m.van.rees@zestsoftware.nl
+License: GPL
+Keywords: discussion portlet comments
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: 5.2
+Classifier: Framework :: Plone :: 6.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*
+Provides-Extra: test
+
+Introduction
+============
+
+This is a portlet is a plugin for `plone.app.discussion <https://pypi.org/project/plone.app.discussion>`_
+that shows last comments in the portal.
+
+You can select to filter comments by state (if comments are moderated) and also a starting path for searches.
+
+Dependencies
+============
+
+This product has been tested on Plone 5.2 and 6.0, Python 2 and 3.
+
+Credits
+=======
+
+Developed with the support of `Regione Emilia Romagna`__; Regione Emilia Romagna supports the `PloneGov initiative`__.
+
+__ http://www.regione.emilia-romagna.it/
+__ http://www.plonegov.it/
+
+Authors
+=======
+
+This product was developed by RedTurtle Technology team.
+
+.. image:: http://www.redturtle.it/redturtle_banner.png
+   :alt: RedTurtle Technology Site
+   :target: http://www.redturtle.it/
+
+Maintainers
+===========
+
+This product is maintained for Plone 5.2 and higher by Maurits van Rees, Zest Software.
+
+Changelog
+=========
+
+2.0.0a2 (2023-08-31)
+--------------------
+
+- Fix CI, test on all supported combinations:
+  Plone 5.2 on Python 2.7 and 3.8.
+  Plone 6.0 on Python 3.8-3.11.
+  [maurits]
+
+- Explicitly load CMFCore permissions early.
+  This avoids a startup error, depending on the order the packages are loaded.
+  [maurits]
+
+
+2.0.0a1 (2022-06-13)
+--------------------
+
+- Removed workflows: the default Plone 5.2+ ones are the same or better.
+  Fixes `issue 3 <https://github.com/collective/collective.portlet.discussion/issues/3>`_.
+  [maurits]
+
+- Moved to the `Plone collective <https://github.com/collective/collective.portlet.discussion>`_.
+  See `small discussion <https://github.com/RedTurtle/collective.portlet.discussion/pull/5>`_.
+  [maurits]
+
+- Add 5.2 and 6.0 compatibility, on Python 2 and 3.  [maurits]
+
+- Drop Plone 3 and 4 compatibility.  [maurits]
+
+
+1.2.6 (2019-05-13)
+------------------
+
+- Support Dexterity in the folder widget to show comments only for a specific subtree in the site. [fredvd]
+
+
+1.2.5 (2017-04-28)
+------------------
+
+- Fix translations for discussion_list_search. [fredvd]
+
+
+1.2.4 (2017-01-25)
+------------------
+
+- Add Dutch translations
+  [fredvd]
+
+
+1.2.3 (2016-04-04)
+------------------
+
+- Fixed tests [cekk]
+- Bugfix, isAnon missing [tobiasherp]
+- pep8ification, formatting [tobiasherp]
+
+
+1.2.2 (2013-11-07)
+------------------
+
+- Fixed imports in template [andrea]
+
+
+1.2.1 (2013-07-26)
+------------------
+
+- Added class tile to portlet header [andrea]
+
+
+1.2.0 (2013-06-26)
+------------------
+
+- Added support for Site Administrator role [keul]
+
+1.1.0 (2012-11-23)
+------------------
+
+* Added new workflows for Discussion Items [micecchi]
+* Plone 4 compatibility [micecchi]
+
+1.0.1 (2011-07-10)
+------------------
+
+* Fixed filtered results [micecchi]
+
+1.0.0 (2011-01-20)
+------------------
+
+* Initial release [micecchi]
