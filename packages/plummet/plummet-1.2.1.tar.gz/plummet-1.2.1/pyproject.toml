@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "plummet"
+version = "1.2.1"
+description = "Utilities for testing with pendulum timestamps"
+authors = ["Tucker Beck <tucker.beck@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/dusktreader/plummet"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pendulum = ">=2"
+py-buzz = ">=3.1"
+time-machine = {version = ">=2", optional = true}
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^6.2.5"
+pytest-random-order = "^1.0.4"
+ruff = "^0.0.286"
+mypy = "^0.910"
+
+[tool.poetry.extras]
+time-machine = ["time-machine"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--random-order"
+testpaths = ["tests"]
+
+[[tool.mypy.overrides]]
+module = [ "time_machine" ]
+ignore_missing_imports = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
