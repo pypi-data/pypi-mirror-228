@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: pbi-load-test
+Version: 0.1.0
+Summary: 
+Author: Léo Grosjean
+Author-email: leo.grosjean@servier.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: azure-identity (>=1.14.0,<2.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: selenium (>=4.11.2,<5.0.0)
+Description-Content-Type: text/markdown
+
+# pbi-load-test tools
+
+
+## ChromeDrier
+
+Download the driver corresponding to your OS [here](https://chromedriver.storage.googleapis.com/index.html?path=114.0.5735.90/) and put it at this folder root.
+
+## `PBIReport.JSON` file
+
+Example: https://github.com/microsoft/PowerBI-Tools-For-Capacities/blob/master/RealisticLoadTestTool/DemoLoadTest2/PBIReport.JSON
+
+```json
+reportParameters={
+	"reportUrl":"https://app.powerbi.com/reportEmbed?reportId=36621bde-4614-40df-8e08-79481d767bcb&groupId=dfbfe8ab-b93b-4345-8a43-655697ff36dd&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVVTLU5PUlRILUNFTlRSQUwtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQifQ%3d%3d",
+	"pageName": "ReportSectiond1b63329887eb2e20791",
+	"bookmarkList": [""],
+	"sessionRestart":100,
+	"filters": [
+		{
+			"filterTable":"DimProductCategory",
+			"filterColumn":"Product Category",
+			"isSlicer":true,
+			"filtersList":["Accessories","Bikes","Clothing"]
+		},
+		{
+			"filterTable":"DimSalesTerritory",
+			"filterColumn":"SalesTerritoryCountry",
+			"isSlicer":true,
+			"filtersList":[
+				"United States",
+				"France",
+				["Australia","Canada","United Kingdom","United States"],
+				["France","Germany"]
+			]
+		},
+		{
+			"filterTable":"DimDate",
+			"filterColumn":"Quarter",
+			"isSlicer":false,
+			"filtersList":["Q1","Q2","Q3","Q4"]
+		}
+	],
+	"thinkTimeSeconds":1
+ };
+```
+
+## Resources
+
+- About PowerBI embedding in JavaScript:
+  - https://powerbi.microsoft.com/fr-fr/blog/intro-pbi-js-api/
+  - https://learn.microsoft.com/en-us/javascript/api/overview/powerbi/embed-report
+  - https://learn.microsoft.com/en-us/javascript/api/overview/powerbi/configure-report-settings
+
+
+- About Selenium:
+  - https://www.selenium.dev/documentation/webdriver/getting_started/first_script/
+  - https://www.lambdatest.com/blog/selenium-wait-for-page-to-load/
