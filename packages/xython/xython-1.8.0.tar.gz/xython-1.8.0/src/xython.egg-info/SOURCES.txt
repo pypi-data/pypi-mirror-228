@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+src/xython.egg-info/PKG-INFO
+src/xython.egg-info/SOURCES.txt
+src/xython.egg-info/dependency_links.txt
+src/xython.egg-info/not-zip-safe
+src/xython.egg-info/top_level.txt
