@@ -1,0 +1,15 @@
+docs/__init__.py,sha256=G0jbqZzwWT6wuivkBVPcV_JuXcfcrdPT6TBx4XDwUao,32
+label_studio_sdk/__init__.py,sha256=xv7xRbNKbTGyCXmuU1w3LK4BFfnS018efo6quuk05H0,150
+label_studio_sdk/client.py,sha256=uoV7-CiEqoPBo3oQJwkKwuBVENz1_ALERDi8HpE8CDE,13423
+label_studio_sdk/data_manager.py,sha256=n00_1jAlSJKp3_l2NRGQqiBkKH5pdYeQnlAlopGJ9Xg,7904
+label_studio_sdk/project.py,sha256=V10KVtoW-MbokjbUP64UzjI0QnxUY1ztwhHPDMFmefQ,76603
+label_studio_sdk/users.py,sha256=h-hA2IsKHQz_pafxWC8moCXvaSmWT5WGtKi-qbCKJXM,1356
+label_studio_sdk/utils.py,sha256=Cr0W4KCtkWHr9uHQOUOnClL5O_LCUK53wVSzEE9qUjg,4518
+label_studio_sdk/workspaces.py,sha256=tVNhEqBaxarTYMtSxX2p9e2QyRkIwZE1uQKIZPv1EmA,1912
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=2FETX3X7TBnDhrVtH-BR3qXd0wMwOgRMsxKFG6euhIw,1065
+label_studio_sdk-0.0.32.dist-info/LICENSE,sha256=lyszEV775P2PLmRYrU2TOQZ79PS2IPIiTyQEXU18IvA,11342
+label_studio_sdk-0.0.32.dist-info/METADATA,sha256=pdCLUgj8-i3BIcGJUw3_FcFoNaxClgkMQwhuXFKwAIU,647
+label_studio_sdk-0.0.32.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+label_studio_sdk-0.0.32.dist-info/top_level.txt,sha256=mVmxb3x6QpfhhaZnTzqSRDcuCrFZSqH42wJ1Sd_0prQ,28
+label_studio_sdk-0.0.32.dist-info/RECORD,,
