@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.py
+.github/workflows/ci.yml
+src/tinyalign/__init__.py
+src/tinyalign/_core.pyi
+src/tinyalign/_core.pyx
+src/tinyalign/_version.py
+src/tinyalign/_version.pyi
+src/tinyalign/py.typed
+src/tinyalign.egg-info/PKG-INFO
+src/tinyalign.egg-info/SOURCES.txt
+src/tinyalign.egg-info/dependency_links.txt
+src/tinyalign.egg-info/top_level.txt
+tests/test_core.py
