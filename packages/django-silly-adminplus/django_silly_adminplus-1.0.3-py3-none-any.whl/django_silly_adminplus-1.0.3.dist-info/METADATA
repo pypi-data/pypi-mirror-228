@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: django-silly-adminplus
+Version: 1.0.3
+Summary: Add quickly a new page to your admin site
+Home-page: https://github.com/byoso/django-silly-adminplus
+Author: Vincent Fabre
+Author-email: peigne.plume@gmail.com
+License: MIT
+Keywords: django adminplus admin
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: flamewok >=1.2.1
+
+# Django Silly Adminplus
+
+*Add quick and easy a customizable page to the admin*
+
+Adminplus will add a button 'Admin+' in the admin interface, that leads to
+a template, you can then easily edit this template to add functionnalities to your admin interface.
+
+[Read the wiki](https://github.com/byoso/django-silly-adminplus/wiki)
+
+

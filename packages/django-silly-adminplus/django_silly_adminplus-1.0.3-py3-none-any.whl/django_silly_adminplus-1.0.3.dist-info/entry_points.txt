@@ -1,0 +1,3 @@
+[console_scripts]
+django_silly_adminplus = django_silly_adminplus.cmd:cmd
+
