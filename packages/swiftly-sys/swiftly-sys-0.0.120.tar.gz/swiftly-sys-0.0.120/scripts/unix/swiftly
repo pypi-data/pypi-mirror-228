@@ -1,0 +1,418 @@
+#!/bin/bash
+
+source swiftly-utils.sh
+
+# Define functions for each command
+activate() {
+    if ! is_sourced; then
+        echo -e "run this command as 'source swiftly activate'"
+        exit 1  # If sourced, use 'return'. If run as a script, use 'exit'.
+    fi
+
+    # Check if the project is already activated
+    if [[ "$SWIFTLY_ACTIVATED" == "true" ]]; then
+        echo "Swiftly project already activated."
+        return
+    fi
+
+    # Run check_swiftly from swiftly.core.main.py
+    python3 -c "from swiftly.core.main import check_swiftly; check_swiftly()"
+    result=$(read_cli_result)
+
+    # Handle the result
+    case $result in
+        "makealive")
+            makealive  # Assuming you have an init function defined elsewhere in your script
+            return 0  # Exit after initialization
+            ;;
+        "exit")
+            return 0
+            ;;
+        "continue")
+            # Continue with the rest of the script
+            ;;
+        *)
+            echo "Unexpected result from check_swiftly: $result"
+            return 1
+            ;;
+    esac
+
+    # update swiftly
+    python3 -c "from swiftly.core.main import update_swiftly; update_swiftly()"
+
+    # get swiftly project name
+    project_name=$(python3 -c "from swiftly.utils.get import get_name; print(get_name())")
+    export SWIFTLY_PROJECT_NAME="$project_name"
+    export SWIFTLY_PROJECT_LOCATION="$(pwd)"
+
+    # Modify the shell prompt
+    export OLD_PS1="$PS1"  # Store the current PS1 value
+
+    # git pull
+    python3 -c "from swiftly.utils.git import git_pull; git_pull()"
+
+    # get swiftly project runtime
+    runtime=$(python3 -c "from swiftly.utils.get import get_runtime; print(get_runtime())")
+
+    # Source the appropriate script and run the activate function
+    source "swiftly-${runtime}.sh"
+    "activate_${runtime}"  # This will call a function like activate_python, activate_node, etc. based on the runtime
+
+    PS1="(swiftly ${SWIFTLY_PROJECT_NAME}) $OLD_PS1"
+    export SWIFTLY_ACTIVATED=true
+}
+
+deactivate() {
+    if ! is_sourced; then
+        echo -e "run this command as 'source swiftly deactivate'"
+        exit 1  # If sourced, use 'return'. If run as a script, use 'exit'.
+    fi
+
+    # Check if the project is not activated
+    if [[ "$SWIFTLY_ACTIVATED" != "true" ]]; then
+        echo "Swiftly project is not activated."
+        return
+    fi
+
+    # Get the runtime
+    runtime=$(python3 -c "from swiftly.utils.get import get_runtime; print(get_runtime())")
+
+    # Source the appropriate script and run the deactivate function
+    source "swiftly-${runtime}.sh"
+    "deactivate_${runtime}"  # This will call a function like deactivate_python, deactivate_node, etc. based on the runtime
+
+    # Restore the original PS1 value
+    PS1="$OLD_PS1"
+    unset OLD_PS1
+
+    # Unset the SWIFTLY_ACTIVATED variable
+    unset SWIFTLY_ACTIVATED
+
+    # Unset SWIFTLY specific variables
+    unset SWIFTLY_PROJECT_NAME
+    unset SWIFTLY_PROJECT_LOCATION
+
+    # Unset functions
+    unset -f activate
+    unset -f init
+    unset -f makeapp
+    unset -f run
+    unset -f install
+    unset -f uninstall
+    unset -f add_framework
+    unset -f custom
+}
+
+
+init() {
+    # Ensure the command is sourced
+    if ! is_sourced; then
+        echo -e "run this command as 'source swiftly init'"
+        exit 1  # If sourced, use 'return'. If run as a script, use 'exit'.
+    fi
+
+    # Check if the provided argument is a Git URL.
+    git_project=$(python3 -c "from swiftly.utils.check import is_git_url; print(is_git_url('$1'))")
+
+    # If it's a Git URL, clone the repository, change directory to the project, and activate it.
+    if [[ "$git_project" == "True" ]]; then
+        git_project_name=$(python3 -c "from swiftly.core.main import get_git_name; print(get_git_name('$1'))")
+        git clone "$@"
+        cd "$git_project_name"
+        activate
+        return 0
+    fi
+
+    # Check if the current directory is an existing swiftly project.
+    result=$(python3 -c "from swiftly.utils.check import is_swiftly; print(is_swiftly())")
+
+    # If it's an existing swiftly project, activate it.
+    case $result in
+        "False")
+            ;;
+        "True")
+            activate
+            echo "You can use 'source swiftly activate' to activate an existing swiftly project 😎"
+            return 0
+            ;;
+        *)
+            echo "Unexpected result from is_swiftly: $result"
+            return 1
+            ;;
+    esac
+
+    # Get or confirm the project name.
+    local project_name="$1"
+    if [[ -z "$project_name" ]]; then
+        python3 -c "from swiftly.core.main import init; init()"
+    else
+        python3 -c "from swiftly.core.main import init; init('$project_name')"
+    fi
+
+    # Parse the result to extract the project name and associated runtime/frameworks.
+    local result_str="$(read_cli_result)"
+    local project_name="${result_str%%<=====>*}"
+    local rf_str="${result_str##*<=====>}"
+    
+    local runtime="${rf_str%%,*}"
+    local rest_frameworks="${rf_str#*,}"
+
+    # Split rest_frameworks only if it has more than one element
+    if [[ "$rest_frameworks" != "$runtime" ]]; then
+        local frameworks=$(echo $rest_frameworks | tr ',' ' ')
+    else
+        local frameworks=""
+    fi
+
+    # Change directory to the project directory.
+    cd "$project_name"
+
+    # Source the runtime's script and initialize it.
+    source "swiftly-${runtime}.sh"
+    "init_${runtime}"
+
+    # Loop through frameworks, source their scripts, and add them.
+    if [[ "$frameworks" != "" ]]; then
+        for framework in $frameworks; do
+            source "swiftly-${runtime}-${framework}.sh"
+            "add_framework_${framework}"
+        done
+    fi
+
+    # Activate the project.
+    activate
+
+    makeapp "$project_name" -confirmed
+}
+
+
+makeapp() {
+    local confirmed="False"
+    local app_name="$1"
+
+    # Check for -confirm argument
+    for arg in "$@"; do
+        if [[ "$arg" == "-confirmed" ]]; then
+            confirmed="True"
+            break
+        fi
+    done
+
+    if [[ "$SWIFTLY_ACTIVATED" != "true" ]]; then
+        echo "No swiftly project activated 🫢"
+        return 1
+    fi
+
+    # Check if an app name has been provided
+    if [[ -z "$app_name" || "$app_name" == "-confirm" ]]; then
+        python3 -c "from swiftly.core.main import makeapp; makeapp(confirmed=$confirmed)"
+    else
+        python3 -c "from swiftly.core.main import makeapp; makeapp('$app_name', confirmed=$confirmed)"
+    fi
+
+    # Parse the result to extract the project name and associated runtime/frameworks.
+    local result_str="$(read_cli_result)"
+    local app_name="${result_str%%<=====>*}"
+    local rf_str="${result_str##*<=====>}"
+    
+    local runtime="${rf_str%%,*}"
+    local rest_frameworks="${rf_str#*,}"
+    
+    # Split rest_frameworks only if it has more than one element
+    if [[ "$rest_frameworks" != "$runtime" ]]; then
+        local frameworks=$(echo $rest_frameworks | tr ',' ' ')
+    else
+        local frameworks=""
+    fi
+
+    # Source the runtime's script and initialize it.
+    source "swiftly-${runtime}.sh"
+    makeapp_${runtime} "$app_name"
+
+    # Loop through frameworks, source their scripts, and add them.
+    if [[ "$frameworks" != "" ]]; then
+        for framework in $frameworks; do
+            source "swiftly-${runtime}-${framework}.sh"
+            makeapp_${runtime}_${framework} "$app_name"
+        done
+    fi
+
+    python3 -c "from swiftly.utils.do import add_app; add_app('$app_name')"
+}
+
+
+
+run() {
+    if [[ "$SWIFTLY_ACTIVATED" != "true" ]]; then
+        echo "No swiftly project activated 🫢"
+        return 1
+    fi
+
+    # Check if an app name has been provided
+    local arg="$@"
+
+    # Run run() from swiftly.core.main.py and pass app_name as a parameter if available
+    if [[ -z "$arg" ]]; then
+        python3 -c "from swiftly.core.main import run; run()"
+    else
+        python3 -c "from swiftly.core.main import run; run('$arg')"
+    fi
+
+    execute=$(read_cli_result)
+
+    if [[ "$execute" == "exit" ]]; then
+        echo "What you tryna run bro! 🤔"
+        return 1
+    fi
+
+    source "swiftly-${execute}.sh"
+
+    # Replace '-' with '_' and call the appropriate function
+    run_function_name="run_${execute//-/_}"
+    $run_function_name "$@"
+}
+
+install() {
+    # Check if the project is already activated
+    if [[ "$SWIFTLY_ACTIVATED" != "true" ]]; then
+        echo "No swiftly project activated."
+        return
+    fi
+
+    # get swiftly project runtime
+    runtime=$(python3 -c "from swiftly.utils.get import get_runtime; print(get_runtime())")
+
+    # Source the appropriate script and run the activate function
+    source "swiftly-${runtime}.sh"
+    install_pkg_${runtime} "$@"  # This will call a function like activate_python, activate_node, etc. based on the runtime
+}
+
+uninstall() {
+    # Check if the project is already activated
+    if [[ "$SWIFTLY_ACTIVATED" != "true" ]]; then
+        echo "No swiftly project activated."
+        return
+    fi
+
+    # get swiftly project runtime
+    runtime=$(python3 -c "from swiftly.utils.get import get_runtime; print(get_runtime())")
+
+    # Source the appropriate script and run the activate function
+    source "swiftly-${runtime}.sh"
+    uninstall_pkg_${runtime} "$@"  # This will call a function like activate_python, activate_node, etc. based on the runtime
+}
+
+add_framework() {
+    # Check if the project is already activated
+    if [[ "$SWIFTLY_ACTIVATED" != "true" ]]; then
+        echo "No swiftly project activated."
+        return
+    fi
+    
+    local name="$1"
+    if [[ -z "$name" ]]; then
+        python -c "from swiftly.core.main import add_new_framework; add_new_framework()"
+    else
+        python -c "from swiftly.core.main import add_new_framework; add_new_framework('$name')"
+    fi
+
+    framework=$(read_cli_result)
+
+    if [[ "$framework" == "exit" ]]; then
+        return 0
+    fi
+
+    runtime=$(python3 -c "from swiftly.utils.get import get_runtime; print(get_runtime())")
+
+    # Source the framework shell script and run the add_framework function
+    source "swiftly-${runtime}-${framework}.sh"
+    add_framework_${framework}
+
+    python -c "from swiftly.utils.do import add_framework; add_framework('$framework')"
+}
+
+
+makealive() {
+    if ! is_sourced; then
+        echo -e "run this command as 'source swiftly makealive'"
+        exit 1  # If sourced, use 'return'. If run as a script, use 'exit'.
+    fi
+
+    result=$(python3 -c "from swiftly.utils.check import is_swiftly; print(is_swiftly())")
+
+    # If it's an existing swiftly project, activate it.
+    case $result in
+        "False")
+            ;;
+        "True")
+            echo "This already seems to be a swiftly project, we will activate it for you 🤘"
+            activate
+            echo "You can use 'source swiftly activate' to activate an existing swiftly project 😎"
+            return 0
+            ;;
+        *)
+            echo "Unexpected result from is_swiftly: $result"
+            return 1
+            ;;
+    esac
+    
+    python3 -c "from swiftly.core.main import makealive; makealive()"
+
+    # Parse the result to extract the project name and associated runtime/frameworks.
+    local result_str="$(read_cli_result)"
+    local project_name="${result_str%%<=====>*}"
+    local rf_str="${result_str##*<=====>}"
+
+    local runtime="${rf_str%%,*}"
+    local rest_frameworks="${rf_str#*,}"
+
+    # Split rest_frameworks only if it's different from the runtime (i.e., there are frameworks present)
+    if [[ "$rest_frameworks" != "$runtime" ]]; then
+        local frameworks=$(echo $rest_frameworks | tr ',' ' ')
+    else
+        local frameworks=""
+    fi
+
+    # Source the runtime's script and initialize it.
+    source "swiftly-${runtime}.sh"
+    "makealive_${runtime}"
+
+    # Loop through frameworks, if any, source their scripts, and add them.
+    for framework in $frameworks; do
+        source "swiftly-${runtime}-${framework}.sh"
+        "add_framework_${framework}"
+    done
+
+    # Activate the project.
+    activate
+    makeapp "$project_name" -confirmed
+}
+
+# Function to handle custom commands
+custom() {
+    # Check if the project is already activated
+    if [[ "$SWIFTLY_ACTIVATED" != "true" ]]; then
+        echo "No swiftly project activated."
+        return
+    fi
+
+    python -c "from swiftly.core.main import custom; custom('$1')"
+
+    local result_str="$(read_cli_result)"
+    local filename="${result_str%%<=====>*}"
+    local function_name="${result_str##*<=====>}"
+
+    # Source the appropriate shell file
+    source "swiftly-${filename}.sh"
+
+    # Call the function
+    $function_name "${@:1}"  # Pass all arguments after the first one to the function
+}
+
+# Check if a function exists and call it, otherwise call the custom function
+if declare -f "$1" > /dev/null; then
+    "$@"
+else
+    custom "$@"
+fi
+
