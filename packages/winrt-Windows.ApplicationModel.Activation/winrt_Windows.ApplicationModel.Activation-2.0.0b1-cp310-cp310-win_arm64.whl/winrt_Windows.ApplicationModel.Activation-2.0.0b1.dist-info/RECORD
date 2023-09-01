@@ -1,0 +1,7 @@
+winrt/_winrt_windows_applicationmodel_activation.cp310-win_arm64.pyd,sha256=es0zFmN8Cc9qsv4wixgyk2WIS_mwi0Ev-tmJ9VPqEeA,1111552
+winrt/_winrt_windows_applicationmodel_activation.pyi,sha256=sRMteFQItGgiXk0nFkQbshU9A_OAs20GHgMBrQx3w9k,65554
+winrt/windows/applicationmodel/activation/__init__.py,sha256=at5oD7N367U1_rvX4wpm5AcdIvu_jrDUlJEPGg00DI0,18972
+winrt_Windows.ApplicationModel.Activation-2.0.0b1.dist-info/METADATA,sha256=uw5F5J63M9e-6CvTmlltWhoRkykGDkxSlrX2Ri-QIuA,3085
+winrt_Windows.ApplicationModel.Activation-2.0.0b1.dist-info/WHEEL,sha256=xf1vZoKIpO1cLg5WwAWrBbvGdHO1sKgyQ3dGDiVHgEU,102
+winrt_Windows.ApplicationModel.Activation-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.Activation-2.0.0b1.dist-info/RECORD,,
