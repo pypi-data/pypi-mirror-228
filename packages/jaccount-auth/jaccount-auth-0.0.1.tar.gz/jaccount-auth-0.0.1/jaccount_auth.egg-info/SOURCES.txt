@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+jaccount_auth/__init__.py
+jaccount_auth/ascii.py
+jaccount_auth/asyncio.py
+jaccount_auth.egg-info/PKG-INFO
+jaccount_auth.egg-info/SOURCES.txt
+jaccount_auth.egg-info/dependency_links.txt
+jaccount_auth.egg-info/requires.txt
+jaccount_auth.egg-info/top_level.txt
