@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: polymaps
+Version: 0.0.107
+Summary: A simple Python package to preprocess and postprocess LAMMPS simulations for polymers and small molecules
+Home-page: https://gitlab.com/doublylinkedlist/polymaps/
+Author: Xiaoli Yan
+Author-email: xyan11@uic.edu
+License: MIT
