@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: excel-split-merge-tool
+Version: 1.0.0
+Home-page: https://github.com/Armynous/split_n_merge_excelfile.git
+Author: Pongpol Prommacharoen
+Author-email: pongpol095@gmail.com
+Requires-Dist: bleach >=6.0.0
+Requires-Dist: build >=0.10.0
+Requires-Dist: certifi >=2023.7.22
+Requires-Dist: charset-normalizer >=3.2.0
+Requires-Dist: colorama >=0.4.6
+Requires-Dist: docutils >=0.20.1
+Requires-Dist: et-xmlfile >=1.1.0
+Requires-Dist: idna >=3.4
+Requires-Dist: importlib-metadata >=6.8.0
+Requires-Dist: jaraco.classes >=3.3.0
+Requires-Dist: keyring >=24.2.0
+Requires-Dist: markdown-it-py >=3.0.0
+Requires-Dist: mdurl >=0.1.2
+Requires-Dist: more-itertools >=10.1.0
+Requires-Dist: numpy >=1.25.2
+Requires-Dist: openpyxl >=3.1.2
+Requires-Dist: packaging >=23.1
+Requires-Dist: pandas >=2.1.0
+Requires-Dist: pkginfo >=1.9.6
+Requires-Dist: Pygments >=2.16.1
+Requires-Dist: pyproject-hooks >=1.0.0
+Requires-Dist: python-dateutil >=2.8.2
+Requires-Dist: pytz >=2023.3
+Requires-Dist: pywin32-ctypes >=0.2.2
+Requires-Dist: readme-renderer >=41.0
+Requires-Dist: requests >=2.31.0
+Requires-Dist: requests-toolbelt >=1.0.0
+Requires-Dist: rfc3986 >=2.0.0
+Requires-Dist: rich >=13.5.2
+Requires-Dist: six >=1.16.0
+Requires-Dist: tomli >=2.0.1
+Requires-Dist: tqdm >=4.66.1
+Requires-Dist: twine >=4.0.2
+Requires-Dist: tzdata >=2023.3
+Requires-Dist: urllib3 >=2.0.4
+Requires-Dist: webencodings >=0.5.1
+Requires-Dist: zipp >=3.16.2
+
