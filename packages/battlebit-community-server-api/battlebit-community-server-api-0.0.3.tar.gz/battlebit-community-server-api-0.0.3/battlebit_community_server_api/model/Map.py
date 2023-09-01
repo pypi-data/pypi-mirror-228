@@ -1,0 +1,28 @@
+from enum import StrEnum
+
+
+class Map(StrEnum):
+    AZAGOR = "Azagor"
+    BASRA = "Basra"
+    CONSTRUCTION = "Construction"
+    DISTRICT = "District"
+    DUSTY_DEW = "Dustydew"
+    EDUARDOVO = "Eduardovo"
+    FRUGIS = "Frugis"
+    ISLE = "Isle"
+    LONOVO = "Lonovo"
+    MULTU_ISLANDS = "MultuIslands"
+    NAMAK = "Namak"
+    OIL_DUNES = "OilDunes"
+    RIVER = "River"
+    SALHAN = "Salhan"
+    SANDY_SUNSET = "SandySunset"
+    TENSA_TOWN = "TensaTown"
+    VALLEY = "Valley"
+    WAKISTAN = "Wakistan"
+    WINE_PARADISE = "WineParadise"
+    OLD_MULTU_ISLANDS = "Old_MultuIslands"
+    OLD_DISTRICT = "Old_District"
+    OLD_EDUARDOVO = "Old_Eduardovo"
+    OLD_NAMAK = "Old_Namak"
+    OLD_OIL_DUNES = "Old_OilDunes"
