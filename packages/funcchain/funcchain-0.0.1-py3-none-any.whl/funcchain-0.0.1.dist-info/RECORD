@@ -1,0 +1,9 @@
+funcchain/__init__.py,sha256=rFMBmCIPUzMdqhqKl67gylRrFBJpNEwoXUum47JPpSE,143
+funcchain/config.py,sha256=0JVv47OpwPzsSZ7CN6v3n4rL7gJrIwfv788swZkre5c,682
+funcchain/parser.py,sha256=kE6jNNpli7KUpYg8shCf2Oxx0w-TbfDgTS6vv2rMs70,3215
+funcchain/shortcuts.py,sha256=VRkuNxLd7YhyIbB2z6WoFGUIMXxHLU65Zc-YAx5xidc,4762
+funcchain/utils.py,sha256=prTUoqRcFN5OEzO_17cYY17vXPNmzs6WhjjA_c1gjJQ,1408
+funcchain-0.0.1.dist-info/LICENSE,sha256=MQqW1rlGCixFuYmkFAVHLRJpFQtvT0RQnUI-Q30bCco,1064
+funcchain-0.0.1.dist-info/METADATA,sha256=qJiS7GnfTSw9ToH-sfsWxUZgGWB6orc4LND2UgOtVEU,671
+funcchain-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+funcchain-0.0.1.dist-info/RECORD,,
