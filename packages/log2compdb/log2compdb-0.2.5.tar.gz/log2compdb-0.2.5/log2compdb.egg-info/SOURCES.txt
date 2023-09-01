@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+log2compdb/__init__.py
+log2compdb/__main__.py
+log2compdb.egg-info/PKG-INFO
+log2compdb.egg-info/SOURCES.txt
+log2compdb.egg-info/dependency_links.txt
+log2compdb.egg-info/entry_points.txt
+log2compdb.egg-info/requires.txt
+log2compdb.egg-info/top_level.txt
+tests/test_blackmagic.py
