@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: openjd-sessions
+Version: 0.0.0
+License: Apache-2.0
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.9
+License-File: LICENSE
+
