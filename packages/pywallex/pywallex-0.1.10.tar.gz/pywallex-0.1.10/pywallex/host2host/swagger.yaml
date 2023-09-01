@@ -1,0 +1,887 @@
+openapi: 3.0.3
+info:
+  title: Wallex API
+  description: ""
+  version: 1.0.0
+servers:
+  - url: https://wallex.online
+tags:
+  - name: exchange
+    description: |-
+      Сервис приема платежей
+
+        Флоу для p2p оплат:
+        1. /exchange/create/{id} - создать оплату
+        2. /exchange/offers - получить список предложений
+        3. /exchange/buy - запустить сделку
+        4. /exchange/get_payment_credentials - получение реквезитов оплаты
+        5. /exchange/get - получение статуса оплаты
+
+        Методы confirm и cancel используются для демо оплат. При использовании метода /exchange/create_deal/{id} объединяются шаги 1-4
+
+  - name: payout
+    description: Выплаты
+paths:
+  /exchange/create/{id}:
+    post:
+      tags:
+        - exchange
+      summary: Создание заявки на оплату
+      parameters:
+        - name: id
+          in: path
+          description: ID мерчанта
+          required: true
+          schema:
+            type: string
+            example: 1000
+          example: 1000
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                client:
+                  type: string
+                  description: Адрес электронной почты клиента
+                  example: test@test.ru
+                product:
+                  type: string
+                  description: Назначение или оплата или название продукта
+                  example: Invoice #12
+                price:
+                  type: integer
+                  description: Цена за одну единицу, умноженная на 100 (если цена составляет 110,55 евро, это значение будет 11055)
+                  example: 11055
+                quantity:
+                  type: integer
+                  description: Количество, если больше 1, то конечная сумма будет равна количеству*цена
+                  example: 1
+                currency:
+                  type: string
+                  description: Код криптовалюты для оплаты (например usdt)
+                  example: usdt
+                fiat_currency:
+                  type: string
+                  description: Код фиатной валюты (rub, uah, kzt, try) для оплаты, по умолчанию - rub
+                  example: rub
+                uuid:
+                  type: string
+                  description: Уникальный номер платежа в вашей системе. Если вы не используете идентификаторы, просто задайте случайное значение в этом параметре. В случае повторного запроса с таким идентификатором будет возвращен результат первого запроса
+                  example: 12124234
+                language:
+                  type: string
+                  description: Язык транзакции, по умолчанию - ru
+                  example: ru
+                message:
+                  type: string
+                  description: Краткое сообщение пользователю будет будет отправлено по электронной почте при оплате
+                  example: test
+                description:
+                  type: string
+                  description: Краткое описание услуги, будет показано в форме оплаты
+                  example: test
+                card_number:
+                  type: string
+                  description: Номер карты получателя платежа (Используется только для эквайринга), поле не обязательное
+                sign:
+                  type: string
+                  description: "Цифровая подпись данных, строка sha1-кэша, состоящая из спецификации всех параметров запроса и вашего СЕКРЕТНОГО КЛЮЧА: sha1(client+product+price+quantity+currency+fiat_currency+uuid+language+message+description+SecretKey)"
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    description: ID оплаты
+                    example: 100
+        '400':
+          description: Invalid request
+        '404':
+          description: not found
+        '500':
+          description: Server error
+      security:
+        - api_key: [ ]
+  /exchange/create_deal/{id}:
+    post:
+      tags:
+        - exchange
+      summary: Создание заявки на оплату
+      parameters:
+        - name: id
+          in: path
+          description: ID мерчанта
+          required: true
+          schema:
+            type: string
+            example: 1000
+          example: 1000
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                client:
+                  type: string
+                  description: Адрес электронной почты клиента
+                  example: test@test.ru
+                product:
+                  type: string
+                  description: Назначение или оплата или название продукта
+                  example: Invoice #12
+                price:
+                  type: integer
+                  description: Цена за одну единицу, умноженная на 100 (если цена составляет 110,55 евро, это значение будет 11055)
+                  example: 11055
+                quantity:
+                  type: integer
+                  description: Количество, если больше 1, то конечная сумма будет равна количеству*цена
+                  example: 1
+                currency:
+                  type: string
+                  description: Код криптовалюты для оплаты (например usdt)
+                  example: usdt
+                fiat_currency:
+                  type: string
+                  description: Код фиатной валюты (rub, uah, kzt, try) для оплаты, по умолчанию - rub
+                  example: rub
+                uuid:
+                  type: string
+                  description: Уникальный номер платежа в вашей системе. Если вы не используете идентификаторы, просто задайте случайное значение в этом параметре
+                  example: 12124234
+                language:
+                  type: string
+                  description: Язык транзакции, по умолчанию - ru
+                  example: ru
+                message:
+                  type: string
+                  description: Краткое сообщение пользователю будет будет отправлено по электронной почте при оплате
+                  example: test
+                description:
+                  type: string
+                  description: Краткое описание услуги, будет показано в форме оплаты
+                  example: test
+                card_number:
+                  type: string
+                  description: Номер карты получателя платежа (Используется только для эквайринга), поле не обязательное
+                payment_method_id:
+                  type: string
+                  description: "Код метода оплаты, допустимые значения:
+                    335 - Сбер
+                    338 - Tinkoff
+                    378 - Приватбанк
+                    435 - Абанк24
+                    394 - Monobank
+                    352 - ПУМБ
+                    438 - Банк Власний Рахунок
+                    439 - Изибанк
+                    440 - Банк кредит Днипро
+                    441 - Банк Пивденный
+                    442 - Кредит Агриколь
+                    443 - ОТП банк
+                    330 - Райффазен
+                    444 - Кредо Банк
+                    445 - Идеа Банк
+                    446 - СпортБанк
+                    447 - Таскомбанк
+                    353 - Укрсиббанк
+                    437 - NEO
+                    448 - CONCORD
+                    449 - Любой банк
+                    450 - С карты на крату"
+                sign:
+                  type: string
+                  description: "Цифровая подпись данных, строка sha1-кэша, состоящая из спецификации всех параметров запроса и вашего СЕКРЕТНОГО КЛЮЧА: sha1(client+product+price+quantity+currency+fiat_currency+uuid+language+message+description+payment_method_id+SecretKey)"
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    description: ID оплаты
+                    example: 100
+                  status:
+                    type: integer
+                    description: "| Статус оплаты:
+                                        0 - Новая
+                                        1 - Обработка
+                                        2 - Переход на 3DS
+                                        3 - Ошибка/отмена
+                                        4 - Успех"
+                    example: 0
+                  deal_info:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                      amount:
+                        type: number
+                        description: Сумма к оплате в крипте
+                      cost:
+                        type: number
+                        description: Сумма к оплате в фиате
+                      paymentCredentials:
+                        type: string
+                        description: Платежные данные
+        '400':
+          description: Invalid request
+        '404':
+          description: not found
+        '500':
+          description: Server error
+      security:
+        - api_key: [ ]
+  /exchange/offers:
+    get:
+      tags:
+        - exchange
+      summary: Получение списка офферов
+      parameters:
+        - name: id
+          in: query
+          description: ID оплаты
+          required: true
+          schema:
+            type: string
+            example: 1000
+          example: 1000
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ads:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          description: ID предложения
+                        payment_method:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                              description: Код платежного метода
+                            name:
+                              type: string
+                              description: Название платежного метода
+                        paymentUrl:
+                          type: string
+                          description: Ссылка на иконку платежного метода
+                        escrow_time:
+                          type: integer
+                          description: Время на оплату в минутах
+                          example: 20
+                        isOnline:
+                          type: boolean
+                          description: Флаг что трейдер онлайн
+                        service:
+                          type: string
+                          description: Название сервиса оплаты
+                        price:
+                          type: string
+                          description: Курс покупки
+                        payment_credentials:
+                          type: string
+                          description: Реквизиты огплаты
+                        userId:
+                          type: string
+                          description: Код пользователя
+                        fiatCurrency:
+                          type: string
+                          description: Фиатная валюта
+                          example: rub
+                        amount:
+                          type: number
+                          description: Сумма для оплаты
+                  success:
+                    type: boolean
+                    description: Флаг успешного выполнения
+                    example: true
+      security:
+        - api_key: [ ]
+  /exchange/buy:
+    post:
+      tags:
+        - exchange
+      summary: Старт покупки крипты за фиат по офферу из метода  /exchange/offers
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: string
+                  description: ID завяки на оплату
+                  example: 1000
+                buyId:
+                  type: string
+                  description: ID оффера
+                  example: 123123
+                service:
+                  type: string
+                  description: Поле service из оффера
+                  example: simplyex
+
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    description: Флаг успеха операции
+                    example: true
+                  dealId:
+                    type: integer
+                    description: Код сделки
+                    example: 23
+      security:
+        - api_key: [ ]
+  /exchange/buy_fiat:
+    post:
+      tags:
+        - exchange
+      summary: Эквайринг, отправка данных карты покупателя
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: string
+                  description: ID завяки на оплату
+                  example: 1000
+                buyId:
+                  type: string
+                  description: ID оффера
+                  example: 123123
+                service:
+                  type: string
+                  description: Поле service из оффера
+                  example: acquiring
+                cardNumber:
+                  type: string
+                  description: Номер карты, принимается только Visa/Mastercard
+                  example: 4542454245424542
+                expires:
+                  type: string
+                  description: Срок действия карты
+                  example: "03/24"
+                cvc:
+                  type: string
+                  description: CVC карты
+                  example: "000"
+                checkEmail:
+                  type: string
+                  description: Email для отправки чека
+                  example: test@test.ru
+                cardTo:
+                  type: string
+                  description: Номер карты получателя платежа (только для эквайринга)
+
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    description: Код оплаты для эквайринга
+                    example: 12
+                  success:
+                    type: boolean
+                    description: Флаг успеха операции
+                    example: true
+      security:
+        - api_key: [ ]
+  /exchange/acquiring:
+    get:
+      tags:
+        - exchange
+      summary: Получение информации по эквайрингу
+      parameters:
+        - name: id
+          in: query
+          description: ID оплаты
+          required: true
+          schema:
+            type: string
+            example: 1000
+          example: 1000
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    description: Код оплаты полученный в методе buy_fiat
+                    example: 12
+                  currency:
+                    type: string
+                    description: Валюта оплаты
+                    example: rub
+                  amount:
+                    type: number
+                    description: Сумма оплаты
+                    example: 1000
+                  status:
+                    type: integer
+                    description: "| Статус оплаты:
+                    0 - Новая
+                    1 - Обработка
+                    2 - Переход на 3DS
+                    3 - Ошибка/отмена
+                    4 - Успех"
+                    example: 0
+                  uuid:
+                    type: string
+                    description: UUID оплаты (для H2H не требуется)
+                  card_to:
+                    type: string
+                    description: Карта с которой идет перевод
+                  created_at:
+                    type: string
+                    description: Дата создания заявки
+                    example: 2023-03-24
+                  bank_error_code:
+                    type: string
+                    description: Код ошибки банка вслучае отказа
+      security:
+        - api_key: [ ]
+  /exchange/get:
+    get:
+      tags:
+        - exchange
+      summary: Получение информации по p2p сделке
+      parameters:
+        - name: id
+          in: query
+          description: ID оплаты
+          required: true
+          schema:
+            type: string
+            example: 1000
+          example: 1000
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: integer
+                    description: Статус оплаты (0 - новая оплата, 2 - время оплаты вышло, 3 - ожидает обработки зачисление через блокчейн, 4 - оплата успешно прошлаб 5 - отправка callback партнеру)
+                    example: 0
+                  dealInfo:
+                    type: object
+                    description: Информация по p2p сделке
+                    properties:
+                      id:
+                        type: string
+                        description: ID p2p сделки
+                      status:
+                        type: integer
+                        description: Статус p2p сделки
+                      amount:
+                        type: string
+                        description: Сумма покупаемой крипты
+                      cost:
+                        type: string
+                        description: Сумма к оплате в фиате
+                  paymentUrl:
+                    type: string
+                    description: Иконка метода оплаты
+                  paymentName:
+                    type: string
+                    description: Название метода оплаты
+                  endPayTime:
+                    type: string
+                    description: Дата завершения оплаты
+
+      security:
+        - api_key: [ ]
+  /exchange/get_payment_credentials:
+    get:
+      tags:
+        - exchange
+      summary: Получение реквизитов для оплаты в фиате
+      parameters:
+        - name: id
+          in: query
+          description: ID оплаты
+          required: true
+          schema:
+            type: string
+            example: 1000
+          example: 1000
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  paymentCredentials:
+                    type: string
+                    description: Реквизиты
+                    example: "3423423523424234"
+                  cardholderName:
+                    type: string
+                    description: Имя держателя карты
+                  shortCode:
+                    type: string
+                    description: ""
+                  bicCode:
+                    type: string
+                    description: BIC для переводов евро
+                  paymentComment:
+                    type: string
+                    description: Комментарий к переводу
+                  success:
+                    type: boolean
+                    example: true
+      security:
+        - api_key: [ ]
+  /exchange/address:
+    get:
+      tags:
+        - exchange
+      summary: Получение реквизитов для оплаты в крипте
+      parameters:
+        - name: id
+          in: query
+          description: ID оплаты
+          required: true
+          schema:
+            type: string
+            example: 1000
+          example: 1000
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  address:
+                    type: string
+                    description: Адрес для оплаты
+                    example: TPSRF36pAQaWxbqYNBG24PumTDbBFfjaGM
+                  currency:
+                    type: string
+                    description: Название кпритовалюты
+                    example: usdt
+      security:
+        - api_key: [ ]
+  /exchange/confirm:
+    post:
+      tags:
+        - exchange
+      summary: Подтверждение оплаты в фиате
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: string
+                  description: ID завяки на оплату
+                  example: 1000
+                buyId:
+                  type: string
+                  description: ID оффера
+                  example: 123123
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+      security:
+        - api_key: [ ]
+  /exchange/cancel:
+    post:
+      tags:
+        - exchange
+      summary: Отмена оплаты
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: string
+                  description: ID завяки на оплату
+                  example: 1000
+                buyId:
+                  type: string
+                  description: ID оффера
+                  example: 123123
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+      security:
+        - api_key: [ ]
+  /exchange/history:
+    get:
+      tags:
+        - exchange
+      summary: Получение истории по переводам
+      parameters:
+        - name: wallet
+          in: query
+          description: Валюта - rub, eur, usdt
+          required: false
+          schema:
+            type: string
+            example: rub
+          example: rub
+        - name: from
+          in: query
+          description: Дата начала фильтра (YYYY-mm-dd)
+          schema:
+            type: string
+            example: "2023-04-04"
+          required: false
+        - name: to
+          in: query
+          description: Дата конца фильтра (YYYY-mm-dd)
+          schema:
+            type: string
+            example: "2023-04-24"
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    description: ID транзакции
+                    example: 10
+                  wallet:
+                    type: string
+                    description: Валюта (rub. eur, usdt)
+                    example: usdt
+                  address:
+                    type: string
+                    description: Криптоадрес для перевода
+                  amount:
+                    type: string
+                    description: Сумма
+                  hash:
+                    type: string
+                    description: Хеш тразакции в блокчейне
+                  created_at:
+                    type: string
+                    description: Дата создания
+                  status:
+                    type: integer
+                    description: Статус операции 0 - неуспешна, 1 - успешна
+                    example: 1
+                  type:
+                    type: integer
+                    description: Тип тразакции 0 - блокчейн, 1 - p2p, 3 - ОТС
+                    example: 1
+                  commission:
+                    type: string
+                    description: Комиссия
+                    example: "0.1"
+                  demo:
+                    type: boolean
+                    description: Флаг демо транзакций
+                    example: false
+                  payment_id:
+                    type: integer
+                    description: ID оплаты (если это вывод, то всегда значение 1600)
+                    example: 1600
+                  withdrawal_id:
+                    type: integer
+                    description: ID выплаты (для оплат null)
+                    example: 1254
+                  uuid:
+                    type: string
+                    description: Внешний код либо короткое описание withdrawal, convert
+                    example: withdrawal
+      security:
+        - api_key: [ ]
+
+  /payout/balance:
+    post:
+      tags:
+        - payout
+      summary: Получение баланса
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                merchant:
+                  type: integer
+                  description: ID мерчанта из ЛК
+                  example: 1
+                sign:
+                  type: string
+                  description: "Цифровая подпись данных, строка sha1-кэша, состоящая из спецификации всех параметров запроса и вашего СЕКРЕТНОГО КЛЮЧА: sha1(merchat++SecretKey)"
+      responses:
+        200:
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  crypto:
+                    type: array
+                    description: Балланс по крпте
+                    items:
+                      type: object
+                      properties:
+                        name:
+                          type: string
+                          description: Навзвание криптовалюты
+                          example: usdt
+                        balance:
+                          type: number
+                          description: Баланс
+                          example: 100
+                  p2p:
+                    type: array
+                    description: Баланс p2p кошелька
+                    items:
+                      type: object
+                      properties:
+                        name:
+                          type: string
+                          description: Навзвание криптовалюты
+                          example: usdt
+                        balance:
+                          type: number
+                          description: Баланс
+                          example: 100
+                  acquiring:
+                    type: array
+                    description: Баланс по эквайрингу
+                    items:
+                      type: object
+                      properties:
+                        name:
+                          type: string
+                          description: Навзвание криптовалюты
+                          example: rub
+                        balance:
+                          type: number
+                          description: Баланс
+                          example: 100
+                  payout:
+                    type: array
+                    description: Выплатной баланс
+                    items:
+                      type: object
+                      properties:
+                        name:
+                          type: string
+                          description: Навзвание криптовалюты
+                          example: usdt
+                        balance:
+                          type: number
+                          description: Баланс
+                          example: 100
+      security:
+        - api_key: [ ]
+  /payout/to_pay_balance:
+    post:
+      tags:
+        - payout
+      summary: Отправка USDT c p2p или крипто баланса на выплатной баланс
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                merchant:
+                  type: integer
+                  description: ID мерчанта из ЛК
+                  example: 1
+                amount:
+                  type: number
+                  description: Сумма перевода
+                  example: 125
+                sign:
+                  type: string
+                  description: "Цифровая подпись данных, строка sha1-кэша, состоящая из спецификации всех параметров запроса и вашего СЕКРЕТНОГО КЛЮЧА: sha1(merchat++SecretKey)"
+      responses:
+        200:
+
+      security:
+        - api_key: [ ]
+components:
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: X-Api-Key
+      in: header
