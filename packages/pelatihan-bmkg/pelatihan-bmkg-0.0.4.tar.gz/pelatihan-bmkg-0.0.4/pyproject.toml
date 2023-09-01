@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ummu"
+version = "0.1.0"
+description = ""
+authors = ["ummu"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+matplotlib = "3.7.2"
+pytest = "7.4.0"
+twine = "4.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
