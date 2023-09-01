@@ -1,0 +1,7 @@
+README.md
+setup.py
+binlog2sql_util/__init__.py
+binlog2sql_util.egg-info/PKG-INFO
+binlog2sql_util.egg-info/SOURCES.txt
+binlog2sql_util.egg-info/dependency_links.txt
+binlog2sql_util.egg-info/top_level.txt
