@@ -1,0 +1,16 @@
+Click>=8.0.0
+colorama>=0.4.0
+
+[download]
+mutagen
+yt-dlp
+
+[full]
+mutagen
+yt-dlp
+rapidfuzz
+ytmusicapi
+
+[spotify]
+rapidfuzz
+ytmusicapi
