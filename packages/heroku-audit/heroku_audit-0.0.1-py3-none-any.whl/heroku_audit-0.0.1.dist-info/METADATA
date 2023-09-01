@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: heroku-audit
+Version: 0.0.1
+Summary: Command-line tool for reporting on specific attributes of a Heroku environment.
+Author-email: Jake Howard <jake.howard@torchbox.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Topic :: Utilities
+Classifier: Topic :: System :: Systems Administration
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Typing :: Typed
+Requires-Dist: heroku3
+Requires-Dist: typer
+Requires-Dist: rich
+Requires-Dist: ruff ; extra == "dev"
+Requires-Dist: mypy ; extra == "dev"
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: types-requests ; extra == "dev"
+Project-URL: Changelog, https://github.com/torchbox/heroku-audit/releases
+Project-URL: Issues, https://github.com/torchbox/heroku-audit/issues
+Project-URL: Source, https://github.com/torchbox/heroku-audit
+Provides-Extra: dev
+
+# Heroku-audit
+
+Command-line tool for reporting on specific attributes of a Heroku environment.
+
+## Components
+
+- Apps
+- Users
+- Environment Variables
+- Heroku Postgres
+- Heroku Data for Redis
+
+## Installation
+
+```
+$ pip install heroku-audit
+```
+
+Alternatively, you can download the pre-compiled binary from the releases.
+
+## Usage
+
+Note: See `heroku-audit --help` for further details.
+
+Authentication is handled through the `$HEROKU_API_KEY` environment variable, which must be set to a valid Heroku API key.
+
+Each components is its own sub-command, containing a number of pre-made reports. `heroku-audit --list` will list all available commands.
+
+To audit for a single team, add `--team=<team>`.
+
+### Output Format
+
+By default, a pretty table is output, for easy consumption by humans. `--format` can be specified to all commands to change the format:
+
+- `table` (Default)
+- `csv`
+- `json`
+
+Progress output is automatically removed when running non-interactively.
+

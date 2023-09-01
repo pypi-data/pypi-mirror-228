@@ -1,0 +1,3 @@
+[console_scripts]
+heroku-audit=heroku_audit.cli:app
+
