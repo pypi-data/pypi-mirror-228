@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: AnkiConverters
+Version: 0.1.1
+Summary: AnkiConverters.
+Home-page: https://bitbucket.org/Beniamin/ankiconverters
+License: MIT
+Author: Beniamin Kalinowski
+Author-email: beniamin.kalinowski@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://bitbucket.org/Beniamin/ankiconverters

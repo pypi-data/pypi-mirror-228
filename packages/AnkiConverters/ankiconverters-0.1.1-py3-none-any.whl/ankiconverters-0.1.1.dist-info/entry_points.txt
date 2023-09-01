@@ -1,0 +1,4 @@
+[console_scripts]
+angielski2anki=ankiconverters.angielski2anki:__main__
+wiersze2anki=ankiconverters.wiersze2anki:__main__
+
