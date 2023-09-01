@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+datasette_proxy_image_tags/__init__.py
+datasette_proxy_image_tags.egg-info/PKG-INFO
+datasette_proxy_image_tags.egg-info/SOURCES.txt
+datasette_proxy_image_tags.egg-info/dependency_links.txt
+datasette_proxy_image_tags.egg-info/entry_points.txt
+datasette_proxy_image_tags.egg-info/requires.txt
+datasette_proxy_image_tags.egg-info/top_level.txt
