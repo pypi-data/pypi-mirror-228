@@ -1,0 +1,17 @@
+odoo/addons/migration_wordpress/__init__.py,sha256=Qj-rd_mkodv2XUZbTDS4eR0GOXUpbm5GuY7IjE34w-s,20
+odoo/addons/migration_wordpress/__manifest__.py,sha256=U3dki8AzKCG3McZLaXQGiDJpaqsIngrOhXwN5vEQL0U,650
+odoo/addons/migration_wordpress/controllers/__init__.py,sha256=yOHNZm_ZjPI2TywkyAVTTj5JaNghV7jQEcJLIUaQqQA,18
+odoo/addons/migration_wordpress/controllers/main.py,sha256=WIbTlxdivEJ7SBFidCb05qsXXpNGIuk77cowey93Kc0,4260
+odoo/addons/migration_wordpress/data/res_groups.xml,sha256=FVFRpztyheD8RddwMTUYYOYT1vSNjREJ16X9E0jB3k0,307
+odoo/addons/migration_wordpress/models/__init__.py,sha256=5NgbOGAoz03--0nk7xfHSeTohfwTf5Uhuu0jNHfvzJA,68
+odoo/addons/migration_wordpress/models/migration_import_wordpress.py,sha256=tZozAz7jUQWQUTgFD6r1gUDw7zZDbilhBzJ_DMIzFBA,9435
+odoo/addons/migration_wordpress/models/website_page.py,sha256=3uiUEVMv2dlIvIKh8rydIE3eXyZP55Tuek6KIbFHA9k,238
+odoo/addons/migration_wordpress/security/ir.model.access.csv,sha256=kRsN4zcQTU_kHhvnu5kOoMv-_t9Zfp4mwMZ-HICvIX0,204
+odoo/addons/migration_wordpress/static/description/1.jpg,sha256=s7tZl9RpEqmxZEKmuNk9HfJWT0VXE-wW_DhUE1glHoU,140837
+odoo/addons/migration_wordpress/static/description/index.html,sha256=1JQ2MlfozmF62MkyCqD2SXd-c2B37NmIn01EONJnPAU,833
+odoo/addons/migration_wordpress/views/menus.xml,sha256=38Yz_miob0FcxXMCNvPiftpykwZDuqGKuzEWnl-rD2c,429
+odoo/addons/migration_wordpress/views/migration_import_wordpress_views.xml,sha256=sScWYS0pVOpoc1Cik__1vhGgUzoBkuMElaIj0vcNFok,1767
+odoo14_addon_migration_wordpress-14.0.1.0.0.dist-info/METADATA,sha256=ZIYUuygYL2Jkzf8rbMQ99up6chUC1rMI9eei2kMFWjI,552
+odoo14_addon_migration_wordpress-14.0.1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo14_addon_migration_wordpress-14.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_migration_wordpress-14.0.1.0.0.dist-info/RECORD,,
