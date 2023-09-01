@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: weaviate_filter
+Version: 0.0.1
+Summary: A package for creating GraphQL filters for Weaviate
+Home-page: https://github.com/wjbmattingly/weaviate-filter
+Author: WJB Mattingly
+License: MIT
+Requires-Python: >=3.6
