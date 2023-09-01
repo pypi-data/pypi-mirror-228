@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: kante
+Version: 0.1.6
+Summary: 
+License: MIT
+Author: jhnnsrs
+Author-email: jhnnsrs@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: authentikate (>=0.1.4)
+Requires-Dist: channels (>=4.0.0,<5.0.0)
+Requires-Dist: koherent (>=0.1.1)
+Requires-Dist: strawberry-graphql (>=0.199.2,<0.200.0)
+Description-Content-Type: text/markdown
+
+# placeholder for now
+
