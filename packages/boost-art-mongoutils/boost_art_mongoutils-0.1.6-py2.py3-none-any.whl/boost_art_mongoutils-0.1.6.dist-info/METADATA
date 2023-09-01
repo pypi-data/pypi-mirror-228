@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: boost-art-mongoutils
+Version: 0.1.6
+Summary: "A useful module"
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pymongo (==3.12.3)
+Requires-Dist: dnspython (==2.1.0)
+
+UNKNOWN
+
