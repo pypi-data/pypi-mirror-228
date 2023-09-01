@@ -1,0 +1,17 @@
+{
+  "domain": "software",
+  "skill": "project_manager",
+  "contexts": [
+    "requirements/meeting_requirements"
+  ],
+  "tasks": [
+    {
+      "type": "Task",
+      "name": "requirements/meeting_objectives_analysis",
+      "title": "Meeting objectives analysis",
+      "required_contexts": [
+        "requirements/meeting_requirements"
+      ]
+    }
+  ]
+}
