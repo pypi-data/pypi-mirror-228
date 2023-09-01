@@ -1,0 +1,6 @@
+setup.py
+my_api_pkg/my_api_pkg.py
+my_api_pkg.egg-info/PKG-INFO
+my_api_pkg.egg-info/SOURCES.txt
+my_api_pkg.egg-info/dependency_links.txt
+my_api_pkg.egg-info/top_level.txt
