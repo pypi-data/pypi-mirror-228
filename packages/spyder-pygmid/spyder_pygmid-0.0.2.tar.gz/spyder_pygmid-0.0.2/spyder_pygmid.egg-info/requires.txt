@@ -1,0 +1,4 @@
+pygmid
+qtpy
+qtawesome
+spyder>=5.0.1
