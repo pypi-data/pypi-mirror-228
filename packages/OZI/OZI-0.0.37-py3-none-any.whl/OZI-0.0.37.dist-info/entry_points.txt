@@ -1,0 +1,3 @@
+[console_scripts]
+ozi-new = ozi.new:main
+
