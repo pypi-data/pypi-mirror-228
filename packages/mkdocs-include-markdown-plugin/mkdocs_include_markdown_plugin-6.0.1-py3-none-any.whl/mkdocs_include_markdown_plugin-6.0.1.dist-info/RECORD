@@ -1,0 +1,14 @@
+mkdocs_include_markdown_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_include_markdown_plugin/cache.py,sha256=RN5HfTuJ_nAyytfX71y4p-csQsGmdGnVea5c7UIOl8c,2771
+mkdocs_include_markdown_plugin/config.py,sha256=MY3wzqfujPBNdg50qzBpkFIerExn_9Ktyavm3ipLCDk,1756
+mkdocs_include_markdown_plugin/directive.py,sha256=hsovgJfLy7HnFWF-uSPU8jV6tj2nOQ98ZnPXIJQljn0,7449
+mkdocs_include_markdown_plugin/event.py,sha256=eU3nLc5_-Omd5XzCLiXh6thJAuid-Z2-Y3Njl-_f0rc,23764
+mkdocs_include_markdown_plugin/files_watcher.py,sha256=GDEPSj2CHjBQV4Auu7_4RK8JhVpxeZBmhrok_vqC59A,287
+mkdocs_include_markdown_plugin/plugin.py,sha256=0OPt27QXiz-QWnPLowZV1gSRxvZG8XCrEE7DrtSUZVE,3718
+mkdocs_include_markdown_plugin/process.py,sha256=ePBd_jMC3huBY_5GrpXzwVrERX1GkfLlpYB7bBhWEWs,14414
+mkdocs_include_markdown_plugin/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_include_markdown_plugin-6.0.1.dist-info/METADATA,sha256=2fzqMFfIfbkITNwLnn2qJRbLeXmgjNNz4j9Wit80EM4,11072
+mkdocs_include_markdown_plugin-6.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+mkdocs_include_markdown_plugin-6.0.1.dist-info/entry_points.txt,sha256=WEL5m7sw5ZMBwmdOs5S_9mGoZfLCaUDPkDKw7CUk16Q,96
+mkdocs_include_markdown_plugin-6.0.1.dist-info/licenses/LICENSE,sha256=d3MolmZ_-5-o5EvHFp6u0NWmwOcygLKa1TAnUB1fr8k,11365
+mkdocs_include_markdown_plugin-6.0.1.dist-info/RECORD,,
