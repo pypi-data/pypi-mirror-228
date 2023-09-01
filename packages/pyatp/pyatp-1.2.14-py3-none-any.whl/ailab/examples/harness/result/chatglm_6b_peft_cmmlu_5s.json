@@ -1,0 +1,488 @@
+{
+  "results": {
+    "Cmmlu-agronomy": {
+      "acc": 0.26627218934911245,
+      "acc_stderr": 0.03410167836676975,
+      "acc_norm": 0.26627218934911245,
+      "acc_norm_stderr": 0.03410167836676975
+    },
+    "Cmmlu-anatomy": {
+      "acc": 0.19594594594594594,
+      "acc_stderr": 0.032737996420279705,
+      "acc_norm": 0.19594594594594594,
+      "acc_norm_stderr": 0.032737996420279705
+    },
+    "Cmmlu-ancient_chinese": {
+      "acc": 0.22560975609756098,
+      "acc_stderr": 0.032738974545663414,
+      "acc_norm": 0.22560975609756098,
+      "acc_norm_stderr": 0.032738974545663414
+    },
+    "Cmmlu-arts": {
+      "acc": 0.43125,
+      "acc_stderr": 0.039275949840189166,
+      "acc_norm": 0.43125,
+      "acc_norm_stderr": 0.039275949840189166
+    },
+    "Cmmlu-astronomy": {
+      "acc": 0.26666666666666666,
+      "acc_stderr": 0.03453131801885416,
+      "acc_norm": 0.26666666666666666,
+      "acc_norm_stderr": 0.03453131801885416
+    },
+    "Cmmlu-business_ethics": {
+      "acc": 0.31100478468899523,
+      "acc_stderr": 0.03209666953348979,
+      "acc_norm": 0.31100478468899523,
+      "acc_norm_stderr": 0.03209666953348979
+    },
+    "Cmmlu-chinese_civil_service_exam": {
+      "acc": 0.325,
+      "acc_stderr": 0.037144541740773654,
+      "acc_norm": 0.325,
+      "acc_norm_stderr": 0.037144541740773654
+    },
+    "Cmmlu-chinese_driving_rule": {
+      "acc": 0.3816793893129771,
+      "acc_stderr": 0.04260735157644561,
+      "acc_norm": 0.3816793893129771,
+      "acc_norm_stderr": 0.04260735157644561
+    },
+    "Cmmlu-chinese_food_culture": {
+      "acc": 0.27941176470588236,
+      "acc_stderr": 0.038618823893117264,
+      "acc_norm": 0.27941176470588236,
+      "acc_norm_stderr": 0.038618823893117264
+    },
+    "Cmmlu-chinese_foreign_policy": {
+      "acc": 0.4766355140186916,
+      "acc_stderr": 0.04851124172329673,
+      "acc_norm": 0.4766355140186916,
+      "acc_norm_stderr": 0.04851124172329673
+    },
+    "Cmmlu-chinese_history": {
+      "acc": 0.39009287925696595,
+      "acc_stderr": 0.027182408040188052,
+      "acc_norm": 0.39009287925696595,
+      "acc_norm_stderr": 0.027182408040188052
+    },
+    "Cmmlu-chinese_literature": {
+      "acc": 0.24019607843137256,
+      "acc_stderr": 0.02998373305591362,
+      "acc_norm": 0.24019607843137256,
+      "acc_norm_stderr": 0.02998373305591362
+    },
+    "Cmmlu-chinese_teacher_qualification": {
+      "acc": 0.3687150837988827,
+      "acc_stderr": 0.03616164325045813,
+      "acc_norm": 0.3687150837988827,
+      "acc_norm_stderr": 0.03616164325045813
+    },
+    "Cmmlu-clinical_knowledge": {
+      "acc": 0.26582278481012656,
+      "acc_stderr": 0.028756799629658335,
+      "acc_norm": 0.26582278481012656,
+      "acc_norm_stderr": 0.028756799629658335
+    },
+    "Cmmlu-college_actuarial_science": {
+      "acc": 0.3018867924528302,
+      "acc_stderr": 0.044801270921106716,
+      "acc_norm": 0.3018867924528302,
+      "acc_norm_stderr": 0.044801270921106716
+    },
+    "Cmmlu-college_education": {
+      "acc": 0.34579439252336447,
+      "acc_stderr": 0.0461969359662258,
+      "acc_norm": 0.34579439252336447,
+      "acc_norm_stderr": 0.0461969359662258
+    },
+    "Cmmlu-college_engineering_hydrology": {
+      "acc": 0.25471698113207547,
+      "acc_stderr": 0.0425201622376331,
+      "acc_norm": 0.25471698113207547,
+      "acc_norm_stderr": 0.0425201622376331
+    },
+    "Cmmlu-college_law": {
+      "acc": 0.28703703703703703,
+      "acc_stderr": 0.043733130409147614,
+      "acc_norm": 0.28703703703703703,
+      "acc_norm_stderr": 0.043733130409147614
+    },
+    "Cmmlu-college_mathematics": {
+      "acc": 0.21904761904761905,
+      "acc_stderr": 0.040556911537178254,
+      "acc_norm": 0.21904761904761905,
+      "acc_norm_stderr": 0.040556911537178254
+    },
+    "Cmmlu-college_medical_statistics": {
+      "acc": 0.33962264150943394,
+      "acc_stderr": 0.04621678759968267,
+      "acc_norm": 0.33962264150943394,
+      "acc_norm_stderr": 0.04621678759968267
+    },
+    "Cmmlu-college_medicine": {
+      "acc": 0.2673992673992674,
+      "acc_stderr": 0.026836713439088864,
+      "acc_norm": 0.2673992673992674,
+      "acc_norm_stderr": 0.026836713439088864
+    },
+    "Cmmlu-computer_science": {
+      "acc": 0.3627450980392157,
+      "acc_stderr": 0.03374499356319355,
+      "acc_norm": 0.3627450980392157,
+      "acc_norm_stderr": 0.03374499356319355
+    },
+    "Cmmlu-computer_security": {
+      "acc": 0.32748538011695905,
+      "acc_stderr": 0.035993357714560276,
+      "acc_norm": 0.32748538011695905,
+      "acc_norm_stderr": 0.035993357714560276
+    },
+    "Cmmlu-conceptual_physics": {
+      "acc": 0.3333333333333333,
+      "acc_stderr": 0.039013715732043486,
+      "acc_norm": 0.3333333333333333,
+      "acc_norm_stderr": 0.039013715732043486
+    },
+    "Cmmlu-construction_project_management": {
+      "acc": 0.23741007194244604,
+      "acc_stderr": 0.036220593237998276,
+      "acc_norm": 0.23741007194244604,
+      "acc_norm_stderr": 0.036220593237998276
+    },
+    "Cmmlu-economics": {
+      "acc": 0.2830188679245283,
+      "acc_stderr": 0.03583711288976434,
+      "acc_norm": 0.2830188679245283,
+      "acc_norm_stderr": 0.03583711288976434
+    },
+    "Cmmlu-education": {
+      "acc": 0.294478527607362,
+      "acc_stderr": 0.03581165790474082,
+      "acc_norm": 0.294478527607362,
+      "acc_norm_stderr": 0.03581165790474082
+    },
+    "Cmmlu-electrical_engineering": {
+      "acc": 0.31976744186046513,
+      "acc_stderr": 0.0356654553808481,
+      "acc_norm": 0.31976744186046513,
+      "acc_norm_stderr": 0.0356654553808481
+    },
+    "Cmmlu-elementary_chinese": {
+      "acc": 0.32142857142857145,
+      "acc_stderr": 0.029478349466054984,
+      "acc_norm": 0.32142857142857145,
+      "acc_norm_stderr": 0.029478349466054984
+    },
+    "Cmmlu-elementary_commonsense": {
+      "acc": 0.3434343434343434,
+      "acc_stderr": 0.03383201223244442,
+      "acc_norm": 0.3434343434343434,
+      "acc_norm_stderr": 0.03383201223244442
+    },
+    "Cmmlu-elementary_information_and_technology": {
+      "acc": 0.36134453781512604,
+      "acc_stderr": 0.031204691225150016,
+      "acc_norm": 0.36134453781512604,
+      "acc_norm_stderr": 0.031204691225150016
+    },
+    "Cmmlu-elementary_mathematics": {
+      "acc": 0.32608695652173914,
+      "acc_stderr": 0.030977823685622338,
+      "acc_norm": 0.32608695652173914,
+      "acc_norm_stderr": 0.030977823685622338
+    },
+    "Cmmlu-ethnology": {
+      "acc": 0.2518518518518518,
+      "acc_stderr": 0.03749850709174021,
+      "acc_norm": 0.2518518518518518,
+      "acc_norm_stderr": 0.03749850709174021
+    },
+    "Cmmlu-food_science": {
+      "acc": 0.3076923076923077,
+      "acc_stderr": 0.03873144730600104,
+      "acc_norm": 0.3076923076923077,
+      "acc_norm_stderr": 0.03873144730600104
+    },
+    "Cmmlu-genetics": {
+      "acc": 0.2727272727272727,
+      "acc_stderr": 0.03366618544627456,
+      "acc_norm": 0.2727272727272727,
+      "acc_norm_stderr": 0.03366618544627456
+    },
+    "Cmmlu-global_facts": {
+      "acc": 0.3691275167785235,
+      "acc_stderr": 0.039666889413968794,
+      "acc_norm": 0.3691275167785235,
+      "acc_norm_stderr": 0.039666889413968794
+    },
+    "Cmmlu-high_school_biology": {
+      "acc": 0.33136094674556216,
+      "acc_stderr": 0.03631548844087169,
+      "acc_norm": 0.33136094674556216,
+      "acc_norm_stderr": 0.03631548844087169
+    },
+    "Cmmlu-high_school_chemistry": {
+      "acc": 0.2727272727272727,
+      "acc_stderr": 0.038911438636713876,
+      "acc_norm": 0.2727272727272727,
+      "acc_norm_stderr": 0.038911438636713876
+    },
+    "Cmmlu-high_school_geography": {
+      "acc": 0.2966101694915254,
+      "acc_stderr": 0.042227768322336254,
+      "acc_norm": 0.2966101694915254,
+      "acc_norm_stderr": 0.042227768322336254
+    },
+    "Cmmlu-high_school_mathematics": {
+      "acc": 0.2804878048780488,
+      "acc_stderr": 0.03518700228801578,
+      "acc_norm": 0.2804878048780488,
+      "acc_norm_stderr": 0.03518700228801578
+    },
+    "Cmmlu-high_school_physics": {
+      "acc": 0.2545454545454545,
+      "acc_stderr": 0.04172343038705383,
+      "acc_norm": 0.2545454545454545,
+      "acc_norm_stderr": 0.04172343038705383
+    },
+    "Cmmlu-high_school_politics": {
+      "acc": 0.3356643356643357,
+      "acc_stderr": 0.03962800523347342,
+      "acc_norm": 0.3356643356643357,
+      "acc_norm_stderr": 0.03962800523347342
+    },
+    "Cmmlu-human_sexuality": {
+      "acc": 0.31746031746031744,
+      "acc_stderr": 0.041634530313028585,
+      "acc_norm": 0.31746031746031744,
+      "acc_norm_stderr": 0.041634530313028585
+    },
+    "Cmmlu-international_law": {
+      "acc": 0.2864864864864865,
+      "acc_stderr": 0.03333068663336699,
+      "acc_norm": 0.2864864864864865,
+      "acc_norm_stderr": 0.03333068663336699
+    },
+    "Cmmlu-journalism": {
+      "acc": 0.37209302325581395,
+      "acc_stderr": 0.03696369368553605,
+      "acc_norm": 0.37209302325581395,
+      "acc_norm_stderr": 0.03696369368553605
+    },
+    "Cmmlu-jurisprudence": {
+      "acc": 0.30900243309002434,
+      "acc_stderr": 0.022820611641536453,
+      "acc_norm": 0.30900243309002434,
+      "acc_norm_stderr": 0.022820611641536453
+    },
+    "Cmmlu-legal_and_moral_basis": {
+      "acc": 0.5046728971962616,
+      "acc_stderr": 0.0342579392828164,
+      "acc_norm": 0.5046728971962616,
+      "acc_norm_stderr": 0.0342579392828164
+    },
+    "Cmmlu-logical": {
+      "acc": 0.3170731707317073,
+      "acc_stderr": 0.04212955964853051,
+      "acc_norm": 0.3170731707317073,
+      "acc_norm_stderr": 0.04212955964853051
+    },
+    "Cmmlu-machine_learning": {
+      "acc": 0.3114754098360656,
+      "acc_stderr": 0.0420996926731014,
+      "acc_norm": 0.3114754098360656,
+      "acc_norm_stderr": 0.0420996926731014
+    },
+    "Cmmlu-management": {
+      "acc": 0.32857142857142857,
+      "acc_stderr": 0.032489397968768416,
+      "acc_norm": 0.32857142857142857,
+      "acc_norm_stderr": 0.032489397968768416
+    },
+    "Cmmlu-marketing": {
+      "acc": 0.32222222222222224,
+      "acc_stderr": 0.03492970288642683,
+      "acc_norm": 0.32222222222222224,
+      "acc_norm_stderr": 0.03492970288642683
+    },
+    "Cmmlu-marxist_theory": {
+      "acc": 0.37037037037037035,
+      "acc_stderr": 0.03521938531140516,
+      "acc_norm": 0.37037037037037035,
+      "acc_norm_stderr": 0.03521938531140516
+    },
+    "Cmmlu-modern_chinese": {
+      "acc": 0.28448275862068967,
+      "acc_stderr": 0.04207160755584021,
+      "acc_norm": 0.28448275862068967,
+      "acc_norm_stderr": 0.04207160755584021
+    },
+    "Cmmlu-nutrition": {
+      "acc": 0.3103448275862069,
+      "acc_stderr": 0.03855289616378948,
+      "acc_norm": 0.3103448275862069,
+      "acc_norm_stderr": 0.03855289616378948
+    },
+    "Cmmlu-philosophy": {
+      "acc": 0.3142857142857143,
+      "acc_stderr": 0.045521571818039494,
+      "acc_norm": 0.3142857142857143,
+      "acc_norm_stderr": 0.045521571818039494
+    },
+    "Cmmlu-professional_accounting": {
+      "acc": 0.32571428571428573,
+      "acc_stderr": 0.03552759084811122,
+      "acc_norm": 0.32571428571428573,
+      "acc_norm_stderr": 0.03552759084811122
+    },
+    "Cmmlu-professional_law": {
+      "acc": 0.2796208530805687,
+      "acc_stderr": 0.030971033440870904,
+      "acc_norm": 0.2796208530805687,
+      "acc_norm_stderr": 0.030971033440870904
+    },
+    "Cmmlu-professional_medicine": {
+      "acc": 0.2579787234042553,
+      "acc_stderr": 0.022593550801056267,
+      "acc_norm": 0.2579787234042553,
+      "acc_norm_stderr": 0.022593550801056267
+    },
+    "Cmmlu-professional_psychology": {
+      "acc": 0.3275862068965517,
+      "acc_stderr": 0.030879845620960845,
+      "acc_norm": 0.3275862068965517,
+      "acc_norm_stderr": 0.030879845620960845
+    },
+    "Cmmlu-public_relations": {
+      "acc": 0.3448275862068966,
+      "acc_stderr": 0.0361373041527912,
+      "acc_norm": 0.3448275862068966,
+      "acc_norm_stderr": 0.0361373041527912
+    },
+    "Cmmlu-security_study": {
+      "acc": 0.2962962962962963,
+      "acc_stderr": 0.03944624162501116,
+      "acc_norm": 0.2962962962962963,
+      "acc_norm_stderr": 0.03944624162501116
+    },
+    "Cmmlu-sociology": {
+      "acc": 0.3230088495575221,
+      "acc_stderr": 0.031175070714705388,
+      "acc_norm": 0.3230088495575221,
+      "acc_norm_stderr": 0.031175070714705388
+    },
+    "Cmmlu-sports_science": {
+      "acc": 0.3393939393939394,
+      "acc_stderr": 0.03697442205031596,
+      "acc_norm": 0.3393939393939394,
+      "acc_norm_stderr": 0.03697442205031596
+    },
+    "Cmmlu-traditional_chinese_medicine": {
+      "acc": 0.2756756756756757,
+      "acc_stderr": 0.03294252220324153,
+      "acc_norm": 0.2756756756756757,
+      "acc_norm_stderr": 0.03294252220324153
+    },
+    "Cmmlu-virology": {
+      "acc": 0.28994082840236685,
+      "acc_stderr": 0.03500638924911013,
+      "acc_norm": 0.28994082840236685,
+      "acc_norm_stderr": 0.03500638924911013
+    },
+    "Cmmlu-world_history": {
+      "acc": 0.39751552795031053,
+      "acc_stderr": 0.038689221123968776,
+      "acc_norm": 0.39751552795031053,
+      "acc_norm_stderr": 0.038689221123968776
+    },
+    "Cmmlu-world_religions": {
+      "acc": 0.34375,
+      "acc_stderr": 0.03766668927755763,
+      "acc_norm": 0.34375,
+      "acc_norm_stderr": 0.03766668927755763
+    }
+  },
+  "versions": {
+    "Cmmlu-agronomy": 1,
+    "Cmmlu-anatomy": 1,
+    "Cmmlu-ancient_chinese": 1,
+    "Cmmlu-arts": 1,
+    "Cmmlu-astronomy": 1,
+    "Cmmlu-business_ethics": 1,
+    "Cmmlu-chinese_civil_service_exam": 1,
+    "Cmmlu-chinese_driving_rule": 1,
+    "Cmmlu-chinese_food_culture": 1,
+    "Cmmlu-chinese_foreign_policy": 1,
+    "Cmmlu-chinese_history": 1,
+    "Cmmlu-chinese_literature": 1,
+    "Cmmlu-chinese_teacher_qualification": 1,
+    "Cmmlu-clinical_knowledge": 1,
+    "Cmmlu-college_actuarial_science": 1,
+    "Cmmlu-college_education": 1,
+    "Cmmlu-college_engineering_hydrology": 1,
+    "Cmmlu-college_law": 1,
+    "Cmmlu-college_mathematics": 1,
+    "Cmmlu-college_medical_statistics": 1,
+    "Cmmlu-college_medicine": 1,
+    "Cmmlu-computer_science": 1,
+    "Cmmlu-computer_security": 1,
+    "Cmmlu-conceptual_physics": 1,
+    "Cmmlu-construction_project_management": 1,
+    "Cmmlu-economics": 1,
+    "Cmmlu-education": 1,
+    "Cmmlu-electrical_engineering": 1,
+    "Cmmlu-elementary_chinese": 1,
+    "Cmmlu-elementary_commonsense": 1,
+    "Cmmlu-elementary_information_and_technology": 1,
+    "Cmmlu-elementary_mathematics": 1,
+    "Cmmlu-ethnology": 1,
+    "Cmmlu-food_science": 1,
+    "Cmmlu-genetics": 1,
+    "Cmmlu-global_facts": 1,
+    "Cmmlu-high_school_biology": 1,
+    "Cmmlu-high_school_chemistry": 1,
+    "Cmmlu-high_school_geography": 1,
+    "Cmmlu-high_school_mathematics": 1,
+    "Cmmlu-high_school_physics": 1,
+    "Cmmlu-high_school_politics": 1,
+    "Cmmlu-human_sexuality": 1,
+    "Cmmlu-international_law": 1,
+    "Cmmlu-journalism": 1,
+    "Cmmlu-jurisprudence": 1,
+    "Cmmlu-legal_and_moral_basis": 1,
+    "Cmmlu-logical": 1,
+    "Cmmlu-machine_learning": 1,
+    "Cmmlu-management": 1,
+    "Cmmlu-marketing": 1,
+    "Cmmlu-marxist_theory": 1,
+    "Cmmlu-modern_chinese": 1,
+    "Cmmlu-nutrition": 1,
+    "Cmmlu-philosophy": 1,
+    "Cmmlu-professional_accounting": 1,
+    "Cmmlu-professional_law": 1,
+    "Cmmlu-professional_medicine": 1,
+    "Cmmlu-professional_psychology": 1,
+    "Cmmlu-public_relations": 1,
+    "Cmmlu-security_study": 1,
+    "Cmmlu-sociology": 1,
+    "Cmmlu-sports_science": 1,
+    "Cmmlu-traditional_chinese_medicine": 1,
+    "Cmmlu-virology": 1,
+    "Cmmlu-world_history": 1,
+    "Cmmlu-world_religions": 1
+  },
+  "config": {
+    "model": "hf-chatglm",
+    "model_args": "pretrained='/data1/cgzhang6/models/chatglm-6b',add_special_tokens=True,trust_remote_code=True,dtype='float16',use_accelerate=False,peft=/data1/cgzhang6/finetuned_models/my_chatglm_6b_model",
+    "num_fewshot": 5,
+    "batch_size": 2,
+    "batch_sizes": [],
+    "device": "cuda:5",
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {},
+    "cost_time": "1:06:32.791558"
+  }
+}
