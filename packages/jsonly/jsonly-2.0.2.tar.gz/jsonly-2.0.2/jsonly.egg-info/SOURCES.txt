@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+jsonly/__init__.py
+jsonly/client.py
+jsonly/connect.py
+jsonly/convert.py
+jsonly/error.py
+jsonly.egg-info/PKG-INFO
+jsonly.egg-info/SOURCES.txt
+jsonly.egg-info/dependency_links.txt
+jsonly.egg-info/top_level.txt
