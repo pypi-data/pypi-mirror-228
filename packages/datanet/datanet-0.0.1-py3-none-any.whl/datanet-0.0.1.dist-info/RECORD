@@ -1,0 +1,10 @@
+datanet/__init__.py,sha256=Bik8aJciUx2SsHOlHFdziYWQft-SNbc9S7_7sszNo_I,403
+datanet/computing/__init__.py,sha256=WVBaSRKmsbruOQSokJ3ukFH4kCVViCP5q0xCb43jdvI,79
+datanet/computing/api.py,sha256=_drgh9Ay0oLKOB-vm0s8PlJ4MRWF2aGBr3hSj276CuI,3718
+datanet/computing/client.py,sha256=fWcxvP15lCVZr14gATmCB2xCoKKvLJLP_GDBsFFN-vY,2516
+datanet/computing/data_types.py,sha256=m8kuOIxfRRrxYSc_ZLkCZkr9n_uzdJSa2NQhqVjmkTM,1216
+datanet-0.0.1.dist-info/LICENSE,sha256=HWUOk43zPisdc1T56Vn-3qePN2AIfb_b8ArlwmRiPzk,1070
+datanet-0.0.1.dist-info/METADATA,sha256=xK3XD8ndbTgH6g4pzJaUN5maVNtXuZTqpGXZaOE_ZUY,3588
+datanet-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+datanet-0.0.1.dist-info/top_level.txt,sha256=UUktbalG2HSyQkaav8MSOaDmOhQ9-bGERexZeIhf6b8,8
+datanet-0.0.1.dist-info/RECORD,,
