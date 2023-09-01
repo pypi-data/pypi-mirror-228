@@ -1,0 +1,7 @@
+setup.py
+chat_trainer_akki/__init__.py
+chat_trainer_akki.egg-info/PKG-INFO
+chat_trainer_akki.egg-info/SOURCES.txt
+chat_trainer_akki.egg-info/dependency_links.txt
+chat_trainer_akki.egg-info/requires.txt
+chat_trainer_akki.egg-info/top_level.txt
