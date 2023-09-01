@@ -1,0 +1,7 @@
+flask
+pyyaml
+torxtools
+
+[celery]
+celery
+redis
