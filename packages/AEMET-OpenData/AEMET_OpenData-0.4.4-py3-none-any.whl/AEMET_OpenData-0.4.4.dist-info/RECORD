@@ -1,0 +1,14 @@
+aemet_opendata/__init__.py,sha256=w5B7NLiHypjC7oDNO3or0bmfBNr-FzSOrDxEzg_UG3A,76
+aemet_opendata/const.py,sha256=unUAU6Ez9EkOFZoTraNwzvXnd8r1QsvlU4hiy_CUC2k,5898
+aemet_opendata/exceptions.py,sha256=CAfMb_CRG6T5LOQfpJ8sQMDVryw-KTagfe4T6ygqARs,662
+aemet_opendata/forecast.py,sha256=abL-bft-eJxCz5GI-mWxKEjWKWAsH8h8FsLdRR0kx3I,20917
+aemet_opendata/helpers.py,sha256=mYHTFNNT0Ao7c5JijMuTAikPHZF1FvnY5UEfoT8NZCE,3550
+aemet_opendata/interface.py,sha256=TC-i099csRDbRoBt_Jn8uUUGOOxUT5icMrko0y4Vgag,17856
+aemet_opendata/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aemet_opendata/station.py,sha256=IKOkOy7CzGJ2-NTdpLf5YBYXGgcH7Jo_ee0RO4OSSMo,9712
+aemet_opendata/town.py,sha256=HQjz6R0ski83aYEtYPbr3maThzA8qQF9Er5TKl8miPU,10575
+AEMET_OpenData-0.4.4.dist-info/LICENSE.md,sha256=rvi0Iit50Nv2vxfP_3HJCmpruJF6QWKr5Be0ae0i2i4,17895
+AEMET_OpenData-0.4.4.dist-info/METADATA,sha256=rUnfxzhXOjUvEe9zOkxYo6QWA5UyxSo5vm7H-6Qi_j4,2476
+AEMET_OpenData-0.4.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+AEMET_OpenData-0.4.4.dist-info/top_level.txt,sha256=IKEL-TNlxlBUwK8eRbdndn2n_oPd47U1tfsROSDs7bI,15
+AEMET_OpenData-0.4.4.dist-info/RECORD,,
