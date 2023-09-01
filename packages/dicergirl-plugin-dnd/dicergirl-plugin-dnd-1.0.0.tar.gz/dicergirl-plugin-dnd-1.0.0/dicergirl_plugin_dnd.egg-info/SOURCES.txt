@@ -1,0 +1,11 @@
+setup-dnd.py
+dicergirl/dnd/__init__.py
+dicergirl/dnd/adventurer.py
+dicergirl/dnd/dndcards.py
+dicergirl/dnd/dndutils.py
+dicergirl/dnd/nbhandlers.py
+dicergirl_plugin_dnd.egg-info/PKG-INFO
+dicergirl_plugin_dnd.egg-info/SOURCES.txt
+dicergirl_plugin_dnd.egg-info/dependency_links.txt
+dicergirl_plugin_dnd.egg-info/requires.txt
+dicergirl_plugin_dnd.egg-info/top_level.txt
