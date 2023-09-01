@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: char_range
+Version: 0.0.1
+Summary: Generates an iterator for characters from `start` to `end`, inclusive
+Author-email: Brendan Innes <author@example.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# char_range
+Inspired by https://stackoverflow.com/questions/7001144/range-over-character-in-python
