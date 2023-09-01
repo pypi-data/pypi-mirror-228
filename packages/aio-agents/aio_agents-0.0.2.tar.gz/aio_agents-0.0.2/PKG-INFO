@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: aio-agents
+Version: 0.0.2
+Summary: Opinionated template for building llm agents
+Author: Oscar Bahamonde
+Author-email: oscar.bahamonde@aiofauna.com
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiofauna (>=0.1.82,<0.2.0)
+Requires-Dist: aiohttp-cors (>=0.7.0,<0.8.0)
+Requires-Dist: aioredis (>=2.0.1,<3.0.0)
+Requires-Dist: boto3 (>=1.28.30,<2.0.0)
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: celery (>=5.3.1,<6.0.0)
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: lxml (>=4.9.3,<5.0.0)
+Requires-Dist: markdown-it-py[linkify] (>=3.0.0,<4.0.0)
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: openai (>=0.27.8,<0.28.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: pydub (>=0.25.1,<0.26.0)
+Requires-Dist: pypdf (>=3.15.2,<4.0.0)
+Requires-Dist: scipy (>=1.11.2,<2.0.0)
+Requires-Dist: spacy (>=3.6.1,<4.0.0)
+Requires-Dist: tiktoken (>=0.4.0,<0.5.0)
+Requires-Dist: uvicorn (>=0.23.2,<0.24.0)
+Description-Content-Type: text/markdown
+
+# Aio Agents
+
+An opinionated template for build llm agents using aiofauna framework.
