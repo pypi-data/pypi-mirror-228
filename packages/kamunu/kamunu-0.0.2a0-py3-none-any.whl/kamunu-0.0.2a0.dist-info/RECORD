@@ -1,0 +1,13 @@
+kamunu/Kamunu.py,sha256=P18evCRuixr0iHVw3iNcmSqCnlwjQ6MIt8Nex9kXp8o,18879
+kamunu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kamunu/_version.py,sha256=aUDki5FYNeJS6_gsZgzFFyOnqIqYYV8cgI8McG9Rm6Q,87
+kamunu/db.py,sha256=kVUvuvwq3x0jECxRwrZe1iSf9BM4EP8w_W94xb1a5fM,496
+kamunu/enrichment.py,sha256=BOHYBexnUcg1pVDLAGV7HCdEV-NplO6486mleVwe20E,3578
+kamunu/extract_data.py,sha256=7tCWC8D_6A0CP-xLopplzXQNwvuoMq-xEr2Wf_jVk4Y,3741
+kamunu/kamunu_main.py,sha256=B_vea4CNSrztplvtpBzp-0HUq9O5KALHBtBMNBi3D_M,7963
+kamunu/local_search.py,sha256=1DIf6Xiamj3LOVfSVyUWNRj4dn35YhM1nUsJj4qHTc4,6405
+kamunu-0.0.2a0.data/scripts/kamunu_run,sha256=vO2d6hNP7Af40a-09JKyrNN7W6xmpl6ro1nuhL475so,1193
+kamunu-0.0.2a0.dist-info/METADATA,sha256=3HcTkrqLg1es3ZI0xz49f9LljEr9sHl_WAfeos5cGfc,1441
+kamunu-0.0.2a0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+kamunu-0.0.2a0.dist-info/top_level.txt,sha256=4_01KkMkPIabTKkhkF-i01zTiyNbv-ik0JNrFZ_Vc98,7
+kamunu-0.0.2a0.dist-info/RECORD,,
