@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/denfaktorial/__init__.py
+src/denfaktorial/denfaktorial.py
+src/denfaktorial.egg-info/PKG-INFO
+src/denfaktorial.egg-info/SOURCES.txt
+src/denfaktorial.egg-info/dependency_links.txt
+src/denfaktorial.egg-info/top_level.txt
+test/test.py
