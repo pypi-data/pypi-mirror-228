@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: pyreydenx
+Version: 1.0.0
+Summary: Reyden-X is an automated service for promoting live broadcasts on external sites with integrated system of viewers and views management.
+Home-page: https://github.com/pixel365/pyreydenx
+Download-URL: https://github.com/pixel365/pyreydenx/archive/master.zip
+Author: pixel365
+Author-email: pixel.365.24@gmail.com
+Maintainer-email: Ruslan Semagin <pixel.365.24@gmail.com>
+Project-URL: Documentation, https://api.reyden-x.com/docs
+Project-URL: Source, https://github.com/pixel365/pyreydenx
+Keywords: reydenx,twitch,trovo,youtube,vkplay,goodgame
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pydantic
+
+# REYDEN-X
+
+###### Reyden-X is an automated service for promoting live broadcasts on external sites with integrated system of viewers and views management.
+
+- [Website](https://reyden-x.com/en)
+
+- [API Documentation](https://api.reyden-x.com/docs)
+
+### Installation
+
+```bash
+pip install pyreydenx
+```
+
+### Environment Variables
+
+- REYDENX_EMAIL - Email (Optional)
+- REYDENX_PASSWORD - Password (Optional)
+
+### Quickstart
+
+```python
+from pyreydenx import Client
+
+from pyreydenx.user import User
+from pyreydenx.order import Order
+
+client = Client('email', 'password')
+
+print(User.account(client))
+print(User.balance(client))
+
+print(Order.details(client, 12345))
+print(Order.get_orders(client, None))
+```
