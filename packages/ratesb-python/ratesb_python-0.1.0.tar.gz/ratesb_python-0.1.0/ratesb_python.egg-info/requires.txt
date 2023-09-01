@@ -1,0 +1,5 @@
+antimony
+numpy
+sbmlkinetics
+sympy
+python-libsbml
