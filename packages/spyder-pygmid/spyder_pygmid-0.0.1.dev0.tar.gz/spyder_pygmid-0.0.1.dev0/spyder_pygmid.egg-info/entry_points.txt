@@ -1,0 +1,2 @@
+[spyder.plugins]
+spyder_pygmid = spyder_pygmid.spyder.plugin:PyGMIDPlugin
