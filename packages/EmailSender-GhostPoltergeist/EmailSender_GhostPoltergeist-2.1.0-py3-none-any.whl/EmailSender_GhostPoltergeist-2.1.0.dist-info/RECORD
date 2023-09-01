@@ -1,0 +1,14 @@
+EmailSender/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+EmailSender/config.py,sha256=MxPHdrRKeCXQWqGYrjU7XoxZ8qCa_kBnXgMcwCn2ot4,82
+EmailSender/sender.py,sha256=FsxhqTbL0IrSiYwO1bmFgbl-XDGuSJP-P3htfRvym2k,2592
+EmailSenderVaryTest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+EmailSenderVaryTest/config.py,sha256=MxPHdrRKeCXQWqGYrjU7XoxZ8qCa_kBnXgMcwCn2ot4,82
+EmailSenderVaryTest/sender.py,sha256=FsxhqTbL0IrSiYwO1bmFgbl-XDGuSJP-P3htfRvym2k,2592
+EmailSender_GhostPoltergeist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+EmailSender_GhostPoltergeist/config.py,sha256=s0StcBU8QOaZRUN_qgUXXA7VlOVF0xo5zwWZvR9leUI,41
+EmailSender_GhostPoltergeist/sender.py,sha256=f5uQGtG114QETFBrXKVVBNk4HvLR4-v7z0bWUtHPQlE,2510
+EmailSender_GhostPoltergeist-2.1.0.dist-info/LICENSE.txt,sha256=Y7Tl-HkbkCuc_K3woIfbxKgy5wqXeawJTT9Gys-PH2E,1078
+EmailSender_GhostPoltergeist-2.1.0.dist-info/METADATA,sha256=2m9uwS68X_g0LnYWLo4WR5l4MvSS-xR8qqKM2QWGodA,282
+EmailSender_GhostPoltergeist-2.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+EmailSender_GhostPoltergeist-2.1.0.dist-info/top_level.txt,sha256=Ga3lz8tF1M4z0k1ybudqoWPMKv3_-u1bl6DkOh9bgMk,29
+EmailSender_GhostPoltergeist-2.1.0.dist-info/RECORD,,
