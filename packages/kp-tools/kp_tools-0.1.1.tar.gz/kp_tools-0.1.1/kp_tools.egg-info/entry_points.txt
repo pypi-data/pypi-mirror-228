@@ -1,0 +1,2 @@
+[console_scripts]
+process-braker = kp_tools.process_braker:main

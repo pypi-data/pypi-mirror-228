@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kp_tools
+Version: 0.1.1
+Summary: Kocher Pipeline Tools
+Home-page: https://github.com/kocherlab/kocher_pipeline_tools
+License: MIT
+Project-URL: Code, https://github.com/kocherlab/kocher_pipeline_tools
+Project-URL: Issue tracker, https://github.com/kocherlab/kocher_pipeline_tools/issues
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Kocher lab pipeline tools
+=========================
+
+Scripts to include in pipeline images
