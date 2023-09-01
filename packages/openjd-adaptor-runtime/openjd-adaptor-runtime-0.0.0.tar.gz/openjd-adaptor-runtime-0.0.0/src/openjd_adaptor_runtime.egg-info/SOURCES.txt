@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/openjd/adaptor_runtime/__init__.py
+src/openjd_adaptor_runtime.egg-info/PKG-INFO
+src/openjd_adaptor_runtime.egg-info/SOURCES.txt
+src/openjd_adaptor_runtime.egg-info/dependency_links.txt
+src/openjd_adaptor_runtime.egg-info/top_level.txt
