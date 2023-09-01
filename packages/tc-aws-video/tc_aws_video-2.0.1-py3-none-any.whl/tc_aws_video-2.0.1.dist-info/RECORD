@@ -1,0 +1,14 @@
+tc_aws_video/__init__.py,sha256=h0AxxhdspLFICSV_m7Dj0rUg-q7sFaZUslYIeQqpUcM,1848
+tc_aws_video/aws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tc_aws_video/aws/bucket.py,sha256=EUOciUUB1U8B1kxKuBwtM0o4EbY2_-QOfq3wwXuwr1M,4762
+tc_aws_video/loaders/__init__.py,sha256=snb8-YtAdOz8FMFlNwbLBJYALqioV2QumBmlzmZWTG4,155
+tc_aws_video/loaders/s3_video_loader.py,sha256=Z4yIULGjOx5GhCpaAzwUKpg0vUgEXRNJ8icmEzoFZnk,8094
+tests/__init__.py,sha256=h4_qg3Z_jWd3qR-GVgBeFkkm2m1A8EgEHHqMxX702vQ,3157
+tests/test_s3_video_loader.py,sha256=_f8A6AzQBvCFDkDYzS3BcmhDi5nWlIQf3x4GzR1Uixo,3590
+tests/fixtures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/fixtures/storage_fixture.py,sha256=jqwr0WqKG2s86caFNlGG2giGxcynJhjw9poTz4YK9pQ,888
+tc_aws_video-2.0.1.dist-info/LICENSE,sha256=M6TwpgYlr87AprUSm3C6kCCw0aeEiWucoYT_8Y1hBSk,1071
+tc_aws_video-2.0.1.dist-info/METADATA,sha256=5LXd9LK-nfb7voRSuLK2QhQuO0AySwLAL_wopxI95bM,3722
+tc_aws_video-2.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tc_aws_video-2.0.1.dist-info/top_level.txt,sha256=5_l0O24ri8byDomojZLrv-arGZokLP5eJQ6KVGa1k8o,19
+tc_aws_video-2.0.1.dist-info/RECORD,,
