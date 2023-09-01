@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+dekeyrej_pages.egg-info/PKG-INFO
+dekeyrej_pages.egg-info/SOURCES.txt
+dekeyrej_pages.egg-info/dependency_links.txt
+dekeyrej_pages.egg-info/requires.txt
+dekeyrej_pages.egg-info/top_level.txt
+pages/__init__.py
+pages/displaypage.py
+pages/serverpage.py
