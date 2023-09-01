@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+qrcode_img/__init__.py
+qrcode_img/qrcode_img.py
+qrcode_img.egg-info/PKG-INFO
+qrcode_img.egg-info/SOURCES.txt
+qrcode_img.egg-info/dependency_links.txt
+qrcode_img.egg-info/not-zip-safe
+qrcode_img.egg-info/requires.txt
+qrcode_img.egg-info/top_level.txt
