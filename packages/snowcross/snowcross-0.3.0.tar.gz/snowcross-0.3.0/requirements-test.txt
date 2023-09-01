@@ -1,0 +1,10 @@
+setuptools>=45
+black
+pylint
+pytest>=6.2.5
+pytest-mock
+mypy
+# AWS
+moto[glue,s3,sts,ssm]
+botocore-stubs
+boto3-stubs[s3,ssm,ecr]
