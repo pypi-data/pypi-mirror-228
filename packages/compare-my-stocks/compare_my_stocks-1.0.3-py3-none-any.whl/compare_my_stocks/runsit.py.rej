@@ -1,0 +1,25 @@
+diff a/src/compare_my_stocks/runsit.py b/src/compare_my_stocks/runsit.py	(rejected hunks)
+@@ -2,20 +2,14 @@ import sys
+ import time
+ from functools import partial
+ 
+-import matplotlib
+-#from matplotlib import pyplot as plt
+-from PySide6.QtGui import QGuiApplication
+-from PySide6.QtWidgets import QApplication
+-from matplotlib import pyplot as plt
+-from engine.compareengine import CompareEngine
+-from engine.parameters import Parameters
++
++
+ #import Qt
+ from common.common import InputSourceType, Types, UniteType
+ from config import config
+ 
+ USEWX, USEWEB, USEQT, SIMPLEMODE = config.USEWX, config.USEWEB, config.USEQT, config.SIMPLEMODE
+-if USEQT:
+-    from PySide6.QtWidgets import QApplication
++
+ 
+ def selectmode():
+     matplotlib.interactive(True)
