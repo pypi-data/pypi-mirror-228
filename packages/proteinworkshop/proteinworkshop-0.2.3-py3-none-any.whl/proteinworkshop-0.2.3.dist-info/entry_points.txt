@@ -1,0 +1,6 @@
+[console_scripts]
+finetune_workshop=proteinworkshop.finetune:_main
+install_pyg_workshop=proteinworkshop.scripts.install_pyg:_install_pyg
+train_workshop=proteinworkshop.train:_main
+workshop=proteinworkshop.scripts.cli:main
+
