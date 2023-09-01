@@ -1,0 +1,12 @@
+fontconfig/fontconfig.c,sha256=CPSx4Q1Owd35wXCwUyEkQwAXOrR6cvmE2tG8_SyiTZ4,1048122
+fontconfig/_fontconfig.pxd,sha256=bUOrW8o1afGBs7ZdbSvABU6vAcjVGIrdD6xWUpJpuSQ,18028
+fontconfig/__init__.py,sha256=O91eoDo_GvWZnJKIJzQayhRepPDUib_y6I4btLSu_wE,74
+fontconfig/fontconfig.cpython-311-darwin.so,sha256=75hKqCRyNp9OGVLF79k_ZMnMF9rvss4n8BOE5CotStY,255120
+fontconfig/fontconfig.pyx,sha256=In5SSJaYEnKjMWApE7-fhCgVy42BexxAyTWs3OU-q30,20556
+fontconfig/.dylibs/libpng16.16.dylib,sha256=MV0GOtL6exlGx9U0ajIe-4ug_ce7ZPLuGswXzcTW3zE,209152
+fontconfig/.dylibs/libfreetype.6.dylib,sha256=3kao0V_i7iPv1FXrRYz6nyACbvZ3mikOiizadwIIWdw,672896
+fontconfig/.dylibs/libfontconfig.1.dylib,sha256=R1CoowPBiH2ijvSYY8oYBjukMN00H8rI46_lVlW4nus,305328
+fontconfig_py-0.1.0.dist-info/RECORD,,
+fontconfig_py-0.1.0.dist-info/WHEEL,sha256=Wg7v1eDgTipWtMVX72mi8x7raivlw8ZexNSkHBBOtGw,107
+fontconfig_py-0.1.0.dist-info/LICENSE.txt,sha256=9XsGO6217UoyJ0MM33hbMEy32CP3F2ygv15jNkv8grs,1071
+fontconfig_py-0.1.0.dist-info/METADATA,sha256=0ExA-PMinAEIJDyA_pH7Is_q0T8FfXoKav-DT_l2qjY,1195
