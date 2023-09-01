@@ -1,0 +1,14 @@
+fastapi_sqlalchemy/__init__.py,sha256=mHdggis6szoYhw7f1ss3BlmDSkOgYm8xyhmN1cJGo2U,197
+fastapi_sqlalchemy/decorators.py,sha256=fwHqgMHkEvbLcxkBeaOIMItzWYD4xXYhQs8rgTcV9iY,482
+fastapi_sqlalchemy/exceptions.py,sha256=IonRgRbiamYm64QxLgj_h191HZm-IE8PWEU7CyAgDg0,3535
+fastapi_sqlalchemy/extensions.py,sha256=AD1jI5COAs-JHTRayGIDeDLGOBncTRqaZcPN5Wn8szM,9256
+fastapi_sqlalchemy/middleware.py,sha256=KpMrmBQ9o8UvVb5uBaB65zIN9rVTa8i9-DqZMaXD26w,3258
+fastapi_sqlalchemy/middleware_new.py,sha256=oMGREi9vXxNHu-6cH4SS6HbJU1r_W3QarUB-zW7Ihcs,1374
+fastapi_sqlalchemy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_sqlalchemy/sqlalchemy_types.py,sha256=9h1-WL-CrOLCwdZbHo_AycubYtdjBsmvHA4ysCKtoxY,115
+fastapi_sqlalchemy/types.py,sha256=LDhKL9w0PWPlsCSZxIXYU9gZNHAZ8PtceOxZ6ePTMx8,3599
+FastAPI_SQLAlchemy_improved-0.4.0.dist-info/LICENSE,sha256=YY3IapUKYmnrFbJ2S0155eRK3qVSuuUFHIuV0OuwXWA,1094
+FastAPI_SQLAlchemy_improved-0.4.0.dist-info/METADATA,sha256=ax-RYwaVnoMBrSVtyGdW6ZkxeU2a1f1z4699qoD-puQ,9659
+FastAPI_SQLAlchemy_improved-0.4.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+FastAPI_SQLAlchemy_improved-0.4.0.dist-info/top_level.txt,sha256=u463V6wiHVDm9KNqgG7kXaPhROcINdxu1sKyF1gfug4,19
+FastAPI_SQLAlchemy_improved-0.4.0.dist-info/RECORD,,
