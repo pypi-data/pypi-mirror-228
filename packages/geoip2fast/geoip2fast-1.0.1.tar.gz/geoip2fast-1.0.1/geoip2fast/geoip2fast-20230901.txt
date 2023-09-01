@@ -1,0 +1,2 @@
+Current IPv4 coverage: 99.53% (4274917339 IPs in 434459 networks) [2.74604 sec]
+342408f7687a1b795ccdac6f2b78bf3b  geoip2fast-20230901.dat.gz

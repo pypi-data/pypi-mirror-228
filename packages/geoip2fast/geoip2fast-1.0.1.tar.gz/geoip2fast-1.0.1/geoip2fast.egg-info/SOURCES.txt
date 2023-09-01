@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+geoip2fast/__init__.py
+geoip2fast/geoip2fast-20230901.txt
+geoip2fast/geoip2fast.dat.gz
+geoip2fast/geoip2fast.py
+geoip2fast.egg-info/PKG-INFO
+geoip2fast.egg-info/SOURCES.txt
+geoip2fast.egg-info/dependency_links.txt
+geoip2fast.egg-info/top_level.txt
+geoip2fast/tests/geoip2fast_test.py
+geoip2fast/tests/geoipcli.py
+geoip2fast/tests/speed_test.py
