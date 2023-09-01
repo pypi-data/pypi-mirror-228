@@ -1,0 +1,1 @@
+from excel_split_merge_tool.resources.configs import Configs
