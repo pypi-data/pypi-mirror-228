@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+vatvie/__init__.py
+vatvie/vies_request.py
+vatvie.egg-info/PKG-INFO
+vatvie.egg-info/SOURCES.txt
+vatvie.egg-info/dependency_links.txt
+vatvie.egg-info/requires.txt
+vatvie.egg-info/top_level.txt
