@@ -1,0 +1,11 @@
+earthkit/climate/__init__.py,sha256=K_hpmuxMfQW67mVQWK9QfsvEef1dEsGDHDCvl5cUm5I,1397
+earthkit/climate/aggregate.py,sha256=toHoqvhlpCdUvrtFQZuqH8_xX93YzFmDew1YCXamp4Q,14165
+earthkit/climate/climatology.py,sha256=PRc5onQjCaN69S1glR6QolAC4MvY_1JNKiJrYSAUF9E,9077
+earthkit/climate/shapes.py,sha256=g3gRTwkkz38tkFkfSB4LQ65oIyVPVAe-osdvtszUKB4,18632
+earthkit/climate/tools.py,sha256=aJ24dqpXRRdlafnEJJeX6iCnwNsH_F67nkMdigpSvJA,7791
+earthkit/climate/version.py,sha256=UZYS-MA7iyfWanO2IwRtqfBcIluyzv7Uvh4Fh39zGJ0,72
+earthkit_climate-0.0.4.dist-info/LICENSE,sha256=EXa9TeBMc3bjJ8QjcgV6rl6rc7tLDFdHIMzFD6ougSU,11382
+earthkit_climate-0.0.4.dist-info/METADATA,sha256=plZre1DFLIVYgBHIkaRyUL_UqpjI1-S8O4EbF68KSRo,15385
+earthkit_climate-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+earthkit_climate-0.0.4.dist-info/top_level.txt,sha256=rlHOKqOMbPp3ZOnnqxjzxP3k_XvdR3AeH_mQLzGAVBI,9
+earthkit_climate-0.0.4.dist-info/RECORD,,
