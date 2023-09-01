@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+pyproject.toml
+gage.egg-info/PKG-INFO
+gage.egg-info/SOURCES.txt
+gage.egg-info/dependency_links.txt
+gage.egg-info/top_level.txt
