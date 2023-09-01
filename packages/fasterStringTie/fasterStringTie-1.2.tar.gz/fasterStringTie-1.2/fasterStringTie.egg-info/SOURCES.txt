@@ -1,0 +1,8 @@
+setup.py
+fasterStringTie/__init__.py
+fasterStringTie/fasterStringTie.py
+fasterStringTie.egg-info/PKG-INFO
+fasterStringTie.egg-info/SOURCES.txt
+fasterStringTie.egg-info/dependency_links.txt
+fasterStringTie.egg-info/entry_points.txt
+fasterStringTie.egg-info/top_level.txt

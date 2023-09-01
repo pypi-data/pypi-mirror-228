@@ -1,0 +1,2 @@
+[console_scripts]
+fasterStringTie = fasterStringTie.script:main
