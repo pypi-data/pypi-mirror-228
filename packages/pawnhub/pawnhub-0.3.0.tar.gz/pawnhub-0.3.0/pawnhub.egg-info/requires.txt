@@ -1,0 +1,9 @@
+click
+click_log
+confuse
+rich
+pawnstore==0.2.2
+
+[test]
+coverage>5
+pytest>=6
