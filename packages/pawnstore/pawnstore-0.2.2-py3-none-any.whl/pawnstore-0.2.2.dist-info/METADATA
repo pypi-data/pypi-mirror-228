@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pawnstore
+Version: 0.2.2
+Summary: Chess library to import your PGN games in a local database
+Home-page: https://github.com/KraYmer/pawnstore
+Author: Fabrice Laporte
+Author-email: kraymer@gmail.com
+License: MIT
+Keywords: chess
+Platform: ALL
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Environment :: Console
+Classifier: Topic :: Games/Entertainment :: Board Games
+Requires-Python: >=3.6
+Requires-Dist: berserk
+Requires-Dist: confuse
+Requires-Dist: peewee
+Requires-Dist: python-chess
+Requires-Dist: requests
+Provides-Extra: test
+Requires-Dist: coverage >5 ; extra == 'test'
+Requires-Dist: pytest >=6 ; extra == 'test'
+Requires-Dist: tox >=3 ; extra == 'test'
+
+[![](https://pepy.tech/badge/pawnstore)](https://pepy.tech/project/pawnstore)
+
+
+# pawnstore ♟
+
+> **/pɔːnstɔʁ/** :
+>
+>    *n.* chess library to import your PGN games in a local database
+>  
+>    Portmanteau word from :
+>    1. *pawns*: defined by Philidor as *\"The soul of chess\"*
+>    2. *datastore*: repository for persistently storing and managing collections of data
+
+## Features
+
+-   centralized access to your online and OTB chess games
+-   chess.com and lichess.org importers
+-   user-centric data representation to facilitate extraction of your
+    own statistics
+
+## Example
+
+    >>> import pawnstore as ps
+    >>> from pawnstore.models import Panwstore
+    >>>
+    >>> store = Pawnstore(chesscom=("neTinquietePas", "xxx"),
+        lichess=("kraymer", "xxx"))
+    >>> for game in store.filter(white=True).limit(3):
+        print(game)
+    neTinquietePas x rms1952
+    neTinquietePas x AnselmoBarrena
+    neTinquietePas x samisamuel
+    >>> print(game.as_dict().keys())
+    dict_keys(['id', 'slug', 'analysis', 'eco', 'eco_name', 'elo', 'moves', 'num_moves', 'opp_elo', 'opp_name', 'pgn', 'result', 'termination', 'speed', 'term', 'timestamp', 'user', 'accuracy', 'time_control', 'website', 'white'])
