@@ -1,0 +1,5 @@
+berserk
+confuse
+peewee
+python-chess
+requests

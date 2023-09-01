@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pawnstore/__init__.py
+pawnstore/chesscom.py
+pawnstore/lichess.py
+pawnstore/models.py
+pawnstore/services.py
+pawnstore.egg-info/PKG-INFO
+pawnstore.egg-info/SOURCES.txt
+pawnstore.egg-info/dependency_links.txt
+pawnstore.egg-info/requires.txt
+pawnstore.egg-info/top_level.txt
