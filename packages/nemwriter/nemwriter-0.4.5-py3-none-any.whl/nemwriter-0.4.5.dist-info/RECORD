@@ -1,0 +1,9 @@
+nemwriter/__init__.py,sha256=ThQaqUQ8rv1_SH-THDdVVqxuUTuUmSemGltJxK7NC94,292
+nemwriter/nem12_writer.py,sha256=FQd3qSYj0Y2mfTJ2RKmmrM8-6DfD2QQLlZ5e5Ip8VVE,12146
+nemwriter/nem13_writer.py,sha256=6OsJqQ_R5jJptWPHpu_xN_KJHh3_xZcPk58XxQuRijg,4601
+nemwriter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nemwriter/version.py,sha256=ErkLkI2TDBX1OIqi2GGa20CPeu4ZculEi-XffRbLU6M,22
+nemwriter-0.4.5.dist-info/LICENSE,sha256=7f-NxGSeI9hiN9ukAOCadO9h3H0vm_1dUeIkrkWy6sI,1066
+nemwriter-0.4.5.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+nemwriter-0.4.5.dist-info/METADATA,sha256=p5BMzzR3r58CtiRl2zawv_JanxbeAHgG-uKQ4aNmu5g,4525
+nemwriter-0.4.5.dist-info/RECORD,,
