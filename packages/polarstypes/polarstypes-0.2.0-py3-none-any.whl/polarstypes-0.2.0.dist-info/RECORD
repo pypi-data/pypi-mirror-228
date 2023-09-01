@@ -1,0 +1,9 @@
+polarstypes/__init__.py,sha256=_zORCCh4ztI32JnHB2UHlud9BvYwAopZrof6Pa2jkYo,115
+polarstypes/compress.py,sha256=r_Zo6Ws7PljBi_Vl_AHUeBL-mxAfKEjMlAgYP9bIz8s,641
+polarstypes/integers.py,sha256=cX01IQZcrXew9ukcwUy1h-X9t9Yl0YZVhTQwWpsMqNo,3852
+polarstypes/relaxed_concat.py,sha256=XoaUfj9VouIZ2qnec6NUmGSznYs1zFcNjXJgY_nA0_M,845
+polarstypes/strings.py,sha256=QXNB9ghn9tPqWcCdd-XcNjyEoeIxnErCI3uzZAaEFfI,1962
+polarstypes-0.2.0.dist-info/LICENSE,sha256=l8ndYsZ7a_d7yDGJXe9oHLsPrBXotdhxTfKIOc0ez2E,1071
+polarstypes-0.2.0.dist-info/METADATA,sha256=c6ClngwMhGzjLTRoVwZqnFciXYlrngNhJkrv2jwR8-g,1201
+polarstypes-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+polarstypes-0.2.0.dist-info/RECORD,,
