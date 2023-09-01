@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+hypervise/__init__.py
+hypervise/base.py
+hypervise.egg-info/PKG-INFO
+hypervise.egg-info/SOURCES.txt
+hypervise.egg-info/dependency_links.txt
+hypervise.egg-info/top_level.txt
