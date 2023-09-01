@@ -1,0 +1,9 @@
+README.md
+setup.py
+weaviate_filter/__init__.py
+weaviate_filter/filter.py
+weaviate_filter.egg-info/PKG-INFO
+weaviate_filter.egg-info/SOURCES.txt
+weaviate_filter.egg-info/dependency_links.txt
+weaviate_filter.egg-info/requires.txt
+weaviate_filter.egg-info/top_level.txt
