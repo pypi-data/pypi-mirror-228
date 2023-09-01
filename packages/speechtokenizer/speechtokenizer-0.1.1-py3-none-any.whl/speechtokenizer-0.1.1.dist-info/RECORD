@@ -1,0 +1,17 @@
+speechtokenizer/__init__.py,sha256=BxREknwrMVIpvQ4EmCLvEzcXkhaxtlcz1XkUz8WtKH0,57
+speechtokenizer/model.py,sha256=Egt66gjZtqiIo3v_k3waYsdYjbZ_yE_bdc3wR6XVmbU,6311
+speechtokenizer/modules/__init__.py,sha256=-WZaj9798kDLblLgFepmekXhKNse2mjlfGr9bsJfSCQ,471
+speechtokenizer/modules/conv.py,sha256=NBYCgZ3wGoASNwG10xSF5AGCrUnQF6rGXqvGdekwqrU,10731
+speechtokenizer/modules/lstm.py,sha256=M5DqE3j--DW3OtX0g5KyWue6tgiu4aqAmburlt_YNoE,946
+speechtokenizer/modules/norm.py,sha256=I9VyfDYr_NQ-6LopclMba2OZGpdMEakVaxeRNM4sh9M,843
+speechtokenizer/modules/seanet.py,sha256=oR3xfWMrBeoDEVEt0kiMka_1jUztC0zpdANyogSQXgY,13082
+speechtokenizer/quantization/__init__.py,sha256=NMgGvByvyLg1kmtvZFC-52n5XrRnzxwZtEJ-ndflW7w,271
+speechtokenizer/quantization/ac.py,sha256=e5vlb9GrnSzSBWfB_elRToYTW7xKCJG5nxaCKCxHqVc,12953
+speechtokenizer/quantization/core_vq.py,sha256=ergpxHZXrBjZUwWxO_z6uDaQVTfzh-XIWrWCJWWeMRY,13467
+speechtokenizer/quantization/distrib.py,sha256=fSPh4i2U1UmIw2Fd3kPzKoeqgdmH8K3hZhKmc2U3ZA4,4150
+speechtokenizer/quantization/vq.py,sha256=3vc3kzODdZq6fvJ5xhM6liXo6PvfdKSBEiy-o7hcmcs,4393
+speechtokenizer-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+speechtokenizer-0.1.1.dist-info/METADATA,sha256=zX2zqEPDeSebHOzWc_y5ANWgUJ6_lt9vjo2Gs3fTsFo,4136
+speechtokenizer-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+speechtokenizer-0.1.1.dist-info/top_level.txt,sha256=OUNrUST0F0ATDlU1h21IaSCVTR63rBvdgZQjK54G9Ao,16
+speechtokenizer-0.1.1.dist-info/RECORD,,
