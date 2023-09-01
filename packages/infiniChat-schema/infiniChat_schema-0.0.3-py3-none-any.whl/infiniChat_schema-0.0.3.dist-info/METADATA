@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: infiniChat-schema
+Version: 0.0.3
+Author-email: Mike Artemiev <mixartemev@gmail.com>
+Project-URL: Homepage, https://gitlab.com/infiniChat/schema
+Project-URL: Repository, https://gitlab.com/infiniChat/schema
+Requires-Python: >=3.11
+Requires-Dist: tortoise-api-model
+Requires-Dist: python-dotenv
+
