@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: vatvie
+Version: 0.7
+Summary: A Python library for checking VAT numbers using the VIES SOAP API
+Home-page: https://github.com/OleynikovNikolay/vatvie
+Author: Nikolay Oleynikov
+Author-email: nikolay.oleynikov96@gmail.com
+License: MIT License
+Download-URL: https://github.com/OleynikovNikolay/vatvie/archive/refs/tags/v_01.tar.gz
+Keywords: VAT,SOAP,API
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+License-File: LICENSE.txt
+
+The objective of this library is to allow companies involved in the intra-Community supply of goods or of services to obtain confirmation of the validity of the VAT identification number of any specified person, in accordance to article 31 of Council Regulation (EC) No. 904/2010 of 7 October 2010.
+
