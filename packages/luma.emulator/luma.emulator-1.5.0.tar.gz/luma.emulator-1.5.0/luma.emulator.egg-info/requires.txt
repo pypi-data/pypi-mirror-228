@@ -1,0 +1,14 @@
+luma.core>=2.4.0
+pygame
+
+[docs]
+sphinx>=1.5.1
+
+[qa]
+flake8
+rstcheck
+
+[test]
+pytest
+pytest-cov
+pytest-timeout
