@@ -1,0 +1,16 @@
+demicode/__init__.py,sha256=3wVEs2QD_7OcTlD97cZdCeizd2hUbJJ0GeIO8wQIjrk,22
+demicode/__main__.py,sha256=HK3zKIS1yA53ijZuzpmpTSQmW-X8Z1r4Ru7qOb_F_fc,554
+demicode/codepoint.py,sha256=mGW4I7q2dHK2vrXyLUbWPGahztl922tDpu0bmB6OmYg,6433
+demicode/darkmode.py,sha256=0dP3Hawf-47sFd7LU2UwWn2LP8Yo5C1I4k25FjS3ceA,1990
+demicode/display.py,sha256=CTmRM6N0NEzlZ2P8abZ62rRyn0fgE9-bb8oT75cT2iI,15557
+demicode/model.py,sha256=IdjW0NGuUcL-4_BBi1BjFGh7ODh-LJrHjtu-QwFMVoE,11210
+demicode/parser.py,sha256=OTiQEUwmI9AvgjjeE8JkJj3lSu5oxsdtqdExx3HMLko,3432
+demicode/render.py,sha256=l8DRrR7f-q1dr68ppRCUIdwsPz7tQ93JPTRYm26FvMk,5516
+demicode/selection.py,sha256=GV1YDjydMaNlhBSHBsRaO9H5Eo8oNC9gSTmSigEQpk4,5448
+demicode/tool.py,sha256=b3BY6CxJ07sM0-iLyBjn39sFymiX4FkFeBbPW-owTpA,10464
+demicode/ucd.py,sha256=KQ0oSqWvras5HLm7h74JqtpbklyzhGYQ-3pLBtIIy1U,33264
+demicode-0.3.0.dist-info/entry_points.txt,sha256=E3Rl8-attFEBzjUv3d5TwxZRGbNqOHfEi98jtRbCJN0,51
+demicode-0.3.0.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+demicode-0.3.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+demicode-0.3.0.dist-info/METADATA,sha256=8BHzkZq-SJR-QxX-jyp2BlagGk7QTuJNsEnkB2xvh8w,16996
+demicode-0.3.0.dist-info/RECORD,,
