@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "spacy-setfit"
+version = "0.1.5"
+description = ""
+authors = ["davidberenstein1957 <david.m.berenstein@gmail.com>"]
+readme = "README.md"
+packages = [{include = "spacy_setfit"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+spacy = "^3"
+setfit = "^0.7"
+rich = "^13"
+
+[tool.poetry.plugins]
+
+[tool.poetry.plugins."spacy_factories"]
+"spacy" = "spacy_setfit.__init__:create_setfit_model"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.2"
+ruff = "^0.0.272"
+black = "^23.3.0"
+pre-commit = "^3.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
