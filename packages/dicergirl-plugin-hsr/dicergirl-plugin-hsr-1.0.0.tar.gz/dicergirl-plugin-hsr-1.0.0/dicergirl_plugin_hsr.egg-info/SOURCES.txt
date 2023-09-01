@@ -1,0 +1,10 @@
+setup-hsr.py
+dicergirl/hsr/__init__.py
+dicergirl/hsr/hsrcards.py
+dicergirl/hsr/nbhandlers.py
+dicergirl/hsr/trailblazer.py
+dicergirl_plugin_hsr.egg-info/PKG-INFO
+dicergirl_plugin_hsr.egg-info/SOURCES.txt
+dicergirl_plugin_hsr.egg-info/dependency_links.txt
+dicergirl_plugin_hsr.egg-info/requires.txt
+dicergirl_plugin_hsr.egg-info/top_level.txt
