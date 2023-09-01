@@ -1,0 +1,7 @@
+setup.py
+sysadms_sdk/__init__.py
+sysadms_sdk/hello.py
+sysadms_sdk.egg-info/PKG-INFO
+sysadms_sdk.egg-info/SOURCES.txt
+sysadms_sdk.egg-info/dependency_links.txt
+sysadms_sdk.egg-info/top_level.txt
