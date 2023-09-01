@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/char_range/__init__.py
+src/char_range/char_range.py
+src/char_range.egg-info/PKG-INFO
+src/char_range.egg-info/SOURCES.txt
+src/char_range.egg-info/dependency_links.txt
+src/char_range.egg-info/top_level.txt
