@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cyberdockerutilstoto
+Version: 0.2
+Description-Content-Type: text/markdown
+
+```bash
+pip install cyberdockerutilstoto
+```
+
+```python
+from docker_utils.library import Docker
+docker = Docker('../')
+
+print('docker.project_directory', docker.project_directory)
+print('docker.branch_name', docker.branch_name)
+print('docker.bucket_name', docker.bucket_name)
+print('docker.project_name', docker.project_name)
+print('docker.debug', docker.debug)
+```
