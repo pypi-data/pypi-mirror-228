@@ -1,0 +1,23 @@
+python-dateutil<3.0,>=2.7
+urllib3<3.0,>=1.23
+
+[:python_version >= "3.12"]
+setuptools>=40.4.3
+
+[excel]
+openpyxl<4.0,>=3.0
+
+[pandas]
+
+[pandas:platform_python_implementation == "CPython" and python_version < "3.12"]
+pandas<3.0,>=0.23.2
+
+[polars]
+
+[polars:platform_python_implementation == "CPython" and python_version < "3.12"]
+polars<0.20,>=0.17.3
+
+[pyarrow]
+
+[pyarrow:platform_python_implementation == "CPython" and python_version < "3.12"]
+pyarrow<14.0,>=2.0
