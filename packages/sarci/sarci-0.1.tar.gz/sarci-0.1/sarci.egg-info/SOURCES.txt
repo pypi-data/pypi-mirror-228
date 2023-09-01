@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+sarci.egg-info/PKG-INFO
+sarci.egg-info/SOURCES.txt
+sarci.egg-info/dependency_links.txt
+sarci.egg-info/top_level.txt
