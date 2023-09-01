@@ -1,0 +1,3 @@
+[console_scripts]
+isocomp=isocomp:__main__.main
+
