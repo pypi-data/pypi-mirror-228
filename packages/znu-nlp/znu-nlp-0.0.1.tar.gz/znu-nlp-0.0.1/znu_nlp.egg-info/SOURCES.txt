@@ -1,0 +1,9 @@
+README.md
+setup.py
+znu-nlp/__init__.py
+znu-nlp/module_call.py
+znu_nlp.egg-info/PKG-INFO
+znu_nlp.egg-info/SOURCES.txt
+znu_nlp.egg-info/dependency_links.txt
+znu_nlp.egg-info/requires.txt
+znu_nlp.egg-info/top_level.txt
