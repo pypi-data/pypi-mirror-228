@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+easyenvi/__init__.py
+easyenvi/disk.py
+easyenvi/file_manager.py
+easyenvi/gcloud.py
+easyenvi/sharepoint.py
+easyenvi.egg-info/PKG-INFO
+easyenvi.egg-info/SOURCES.txt
+easyenvi.egg-info/dependency_links.txt
+easyenvi.egg-info/top_level.txt
