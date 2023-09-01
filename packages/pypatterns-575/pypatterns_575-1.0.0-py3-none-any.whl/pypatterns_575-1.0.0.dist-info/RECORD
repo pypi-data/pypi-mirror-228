@@ -1,0 +1,10 @@
+pypatterns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypatterns/alphabet_patterns/__init__.py,sha256=Th_hNYjKovwK42GQ2kJEgdnbl_c8eA9B6kbVrs5ONJ0,9006
+pypatterns/get_pattern_code/__init__.py,sha256=0bfC20UmieIMB0gE1JBVfoO5RDTq-M7TAuWggYxQqpI,28807
+pypatterns/number_patterns/__init__.py,sha256=LnRilpdTLMRLS5yhbjyHmrMHCviTfQjc3M1QW4A6r2E,11764
+pypatterns/star_patterns/__init__.py,sha256=IpIA-XFB_YjTT1lXjyNKNAZAz6aV17or1tdYBf6cVDQ,32476
+pypatterns_575-1.0.0.dist-info/LICENSE,sha256=wgoWtZ5fnT5BGC1LriNx5TtWx64sKNMMkTMLJ4WdZ0Q,35141
+pypatterns_575-1.0.0.dist-info/METADATA,sha256=I8HicQss_T98Bgl56CP9PAf2g15TChilBlDJ_fPzkF4,34686
+pypatterns_575-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pypatterns_575-1.0.0.dist-info/top_level.txt,sha256=QsSt7sAVtYr6l9j98_63An8mrkFyDsSZxTth9IJ9xWk,11
+pypatterns_575-1.0.0.dist-info/RECORD,,
