@@ -1,0 +1,15 @@
+bkwmediatools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bkwmediatools/code/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bkwmediatools/code/BKWMediaTool.py,sha256=BhVjMbtm6ecSRMP6W5NtoTq8pMRGxg6ItZsshaO1s5w,8579
+bkwmediatools/code/media_filtering.py,sha256=1qQAfyw4UCqoZAJOrkkaylT3rwd_yIBu7LI4JJ7Xj5E,19923
+bkwmediatools/code/media_pipeline.py,sha256=_EfG98SPv4VNA9cPBakg0CQjrYly7o57PNEewACsDCQ,8012
+bkwmediatools/code/media_retrieval.py,sha256=haxY_d2hXChyYPrxdc_in-M7zEWwxjsg9juDePy2AUs,9847
+bkwmediatools/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bkwmediatools/resources/marine_life_sea_sports_related_words.pkl,sha256=TxGTw5vTe25Tb2Vi2g9z0ZSHz503nKGYAjgbrPjP7Co,2113
+bkwmediatools/resources/non_maritime_words.pkl,sha256=JZRYR1LkictYjDJQbKbPEUrEpwAL80UJ2gtje2AD-u8,5049
+bkwmediatools/resources/stop_words_v1.pkl,sha256=q3v_Nk34JtLL1hgXHQv3zesrQ0Od1X6VXBLMYqgZ-XI,1714
+bkwmediatools/resources/Word2Vec Trained Model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bkwmediatools/resources/Word2Vec Trained Model/w2v_model.model,sha256=d_KR5NEUy2iXGrqcx8cHdx_SWcwyF1k0p2N69BEZglY,42880244
+bkwmediatools-0.1.1.dist-info/METADATA,sha256=jvoe7CyR9PHjQUcKnvDg0WJbjYMj8EkITAQLwaZraKE,7630
+bkwmediatools-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+bkwmediatools-0.1.1.dist-info/RECORD,,
