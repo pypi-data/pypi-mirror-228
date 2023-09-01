@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/django_random_id.py
+src/django_random_id.egg-info/PKG-INFO
+src/django_random_id.egg-info/SOURCES.txt
+src/django_random_id.egg-info/dependency_links.txt
+src/django_random_id.egg-info/requires.txt
+src/django_random_id.egg-info/top_level.txt
