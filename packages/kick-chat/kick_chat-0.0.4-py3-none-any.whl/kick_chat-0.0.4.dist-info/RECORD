@@ -1,0 +1,10 @@
+kick_chat/client.py,sha256=j5NOLXggNQlfYNdCNnSIiJAx-rA_1OOHs9Hvpim3K94,2150
+kick_chat/constants.py,sha256=yu-G1S6DBTNRnm5iX-6vSucg5YxHIWQj_8iogj34asU,129
+kick_chat/main.py,sha256=p7AqUsYiY93zaxJ_DIL8q1dk7yZnw3EyGZ-q-LpzHok,395
+kick_chat/utils.py,sha256=GkoZHg0wX5Y_BxqwETgSW_0w1oIUmNR9Uzi2boDACtU,106
+kick_chat-0.0.4.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+kick_chat-0.0.4.dist-info/METADATA,sha256=wcidgoUjjRx792XNqGDz9LUiRjb4j-iqGC8S_mDQG5k,1107
+kick_chat-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+kick_chat-0.0.4.dist-info/entry_points.txt,sha256=UadfwjSIJB3BnTpQJHUz7uixvc6GyV7vmADhVz5uHqc,50
+kick_chat-0.0.4.dist-info/top_level.txt,sha256=UDeFMlwrvj7X9lTf9PQyWiAqw1Lh_EzldSs6dVa6WJ4,10
+kick_chat-0.0.4.dist-info/RECORD,,
