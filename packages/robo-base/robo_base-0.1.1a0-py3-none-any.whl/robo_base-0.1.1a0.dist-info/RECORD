@@ -1,0 +1,6 @@
+robo_base/__init__.py,sha256=foTcVOqJtfT1L0Buv7hbKwwL3L6Kgh7bVhZNd3AmPEc,196
+robo_base/object.py,sha256=LAKn3p4MPc_dlmtjzzeW4cJHtIxhXHeJM6uYLd3pYkw,2237
+robo_base/system.py,sha256=RBPi8SRFU0VQux2GI5jn6spHfmm29GoY7zruZ7Z0MYs,1053
+robo_base-0.1.1a0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+robo_base-0.1.1a0.dist-info/METADATA,sha256=4V6-qeF23oMUEb75oFhDA3qPipmzY-5M2a6ByzXeNHA,459
+robo_base-0.1.1a0.dist-info/RECORD,,
