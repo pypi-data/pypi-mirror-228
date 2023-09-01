@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: hurray
+Version: 1.0.0
+Summary: Simple collection of wrappers around Python's builtin 'array' module
+Author: SyberiaK, trag1c, CircuitSacul, Micael Jarniac, bswck
+License: MIT License
+        
+        Copyright (c) 2023 SyberiaK
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/SyberiaK/hurray
+Project-URL: Issues, https://github.com/SyberiaK/hurray/issues
+Classifier: Development Status :: 6 - Mature
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# hurray
+
+[![PyPI release]][pypi] 
+[![Python supported versions]][pypi]
+[![License]](./LICENSE)
+
+hurray is a simple package containing a collection of wrappers around Python's builtin 'array' module.
+
+```python
+from hurray import ShortArray, UIntArray, ULongArray
+
+arr1 = ShortArray([-4, -3, -2, -1, 0, 1, 2, 3, 4])
+arr2 = UIntArray([100_000, 100_001, 100_002, 100_003, 100_004])
+empty = ULongArray()
+
+print(arr1)  # array('h', [-4, -3, -2, -1, 0, 1, 2, 3, 4])
+print(arr2)  # array('I', [100000, 100001, 100002, 100003, 100004])
+print(empty.itemsize)  # 4
+```
+
+*Special thanks to [trag1c], [CircuitSacul], [Micael Jarniac], [bswck] for helping to make this silly package.*
+
+[pypi]: https://pypi.org/project/hurray/
+[PyPI Release]: https://img.shields.io/pypi/v/hurray.svg?label=pypi&color=green
+[Python supported versions]: https://img.shields.io/pypi/pyversions/hurray.svg?label=%20&logo=python&logoColor=white
+[License]: https://img.shields.io/pypi/l/hurray.svg?style=flat&label=license
+
+[trag1c]: https://github.com/trag1c
+[CircuitSacul]: https://github.com/CircuitSacul
+[Micael Jarniac]: https://github.com/MicaelJarniac
+[bswck]: https://github.com/bswck

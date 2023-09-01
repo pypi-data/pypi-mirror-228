@@ -1,0 +1,8 @@
+LICENSE
+README.md
+hurray.py
+pyproject.toml
+hurray.egg-info/PKG-INFO
+hurray.egg-info/SOURCES.txt
+hurray.egg-info/dependency_links.txt
+hurray.egg-info/top_level.txt
