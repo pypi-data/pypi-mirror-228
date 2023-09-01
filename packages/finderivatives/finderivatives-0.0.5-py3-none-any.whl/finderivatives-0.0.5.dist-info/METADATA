@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: finderivatives
+Version: 0.0.5
+Summary: Financial derivatives package
+Author-email: Daniel Chaparro <daniel.chaparro.ds@gmail.com>
+Project-URL: Homepage, https://github.com/danielctds/pkg_finderivatives
+Project-URL: Bug Tracker, https://github.com/danielctds/pkg_finderivatives/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+# Libreria de  derivados financieros
+
+### Bienvenidos
+
+hola ***mundo***, este un es una distribución con aplicaciones de derivados financieros
