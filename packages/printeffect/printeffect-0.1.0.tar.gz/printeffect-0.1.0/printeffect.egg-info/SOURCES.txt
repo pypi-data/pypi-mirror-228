@@ -1,0 +1,7 @@
+setup.py
+printeffect/__init__.py
+printeffect/printeffect.py
+printeffect.egg-info/PKG-INFO
+printeffect.egg-info/SOURCES.txt
+printeffect.egg-info/dependency_links.txt
+printeffect.egg-info/top_level.txt
