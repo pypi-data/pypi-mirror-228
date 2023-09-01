@@ -1,0 +1,6 @@
+[console_scripts]
+cutcutcodec = cutcutcodec.__main__:main
+cutcutcodec-test = cutcutcodec.testing.runtests:test
+
+[gui_scripts]
+cutcutcodec-qt = cutcutcodec.gui.__main__:main
