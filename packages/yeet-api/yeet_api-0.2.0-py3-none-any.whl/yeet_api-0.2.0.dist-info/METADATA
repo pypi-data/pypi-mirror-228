@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: yeet-api
+Version: 0.2.0
+Summary: Core API for yeet tools
+License: MIT
+Author: YeetCode Developers
+Author-email: YeetCode-devs@protonmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: gitpython (>=3.1.31,<4.0.0)
+Description-Content-Type: text/markdown
+
+# yeet-api
+Welcome to `yeet-api`! This is where the API used by (the upcoming) yeet-cli
+resides. This API is written in Python and is aimed to be as friendly as
+possible towards the community, so you can build your own tools, too.
+
+_Note that currently `yeet-api` is in major development, and is currently
+unstable to be used._
+
+## Contribution
+To contribute, please make sure you have black installed,
+and preferably, use our provided pre-commit hook to run
+black automatically before commiting.
+```bash
+# To install the pre-commit hook:
+poetry run install-hook
+```
+
