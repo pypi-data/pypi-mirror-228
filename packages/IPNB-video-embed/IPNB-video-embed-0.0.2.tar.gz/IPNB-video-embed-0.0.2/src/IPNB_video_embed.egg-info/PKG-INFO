@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: IPNB-video-embed
+Version: 0.0.2
+Summary: Package that can help you to embed videos in your notebook
+Home-page: https://github.com/avsk80/IPNB-video-embed
+Author: avsk80
+Author-email: avskkrish80@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/avsk80/IPNB-video-embed/issues
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Provides-Extra: testing
+License-File: LICENSE
+
+# IPNB-video-embed
+
+[![Python application](https://github.com/avsk80/IPNB-video-embed/actions/workflows/ci.yml/badge.svg)](https://github.com/avsk80/IPNB-video-embed/actions/workflows/ci.yml)
