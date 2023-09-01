@@ -1,0 +1,1 @@
+from server_register_nomodel import start as server_start
