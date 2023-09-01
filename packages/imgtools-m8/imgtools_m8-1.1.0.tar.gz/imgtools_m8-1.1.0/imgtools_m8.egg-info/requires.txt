@@ -1,0 +1,7 @@
+opencv-contrib-python>=4.7.0.72
+ve_utils>=2.5.3
+numpy>=1.25.0
+
+[TEST]
+pytest>=7.1.2
+coverage
