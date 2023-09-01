@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+streamlit_table_update_create_scenario.egg-info/PKG-INFO
+streamlit_table_update_create_scenario.egg-info/SOURCES.txt
+streamlit_table_update_create_scenario.egg-info/dependency_links.txt
+streamlit_table_update_create_scenario.egg-info/requires.txt
+streamlit_table_update_create_scenario.egg-info/top_level.txt
