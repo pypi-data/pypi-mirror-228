@@ -1,0 +1,17 @@
+[package]
+name = "vtracerpy"
+version = "0.1.2"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "vtracerpy"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.19.0"
+clap = "2.33.3"
+image = "0.23.10"
+visioncortex = { version = "0.8.0" }
+fastrand = "1.8"
+numpy = "0.19.0"
