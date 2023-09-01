@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: json-editor-pyside6
+Version: 1.0.3
+Summary: Visual JSON Editor written in Qt
+Home-page: https://github.com/eyalk11/json-editor-pyside6
+Author: Richard Brenick, Eyal Karni
+Author-email: RichardBrenick@gmail.com, eyalk5@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# JSON-Editor-PySide6
+Visual JSON Editor written in Qt
+
+# NOTE
+
+Adapted to pyside6 from [JSON-Editor](https://github.com/rBrenick/json-editor).
+
+Check out his version! 
+This version is meant mainly to be used inside compare-my-stocks. 
+
+
