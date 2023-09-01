@@ -1,0 +1,17 @@
+our1314/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+our1314/cv/OpencvMouseSelect.py,sha256=w4gjYOMpit6tLAF7AX7Eqn0oiyPlUGPSUbefWHq002k,1326
+our1314/cv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+our1314/cv/halcon_templatematch.py,sha256=q9yj-DyFZz0M7Jr6oyMgiSMErjosNjyETqUFQ7Edbek,1776
+our1314/work/Utils.py,sha256=vYSiV-AuRN2zjEriYkMplgWiXHTqUxhCYoUmPnDagF8,6065
+our1314/work/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+our1314/work/exportsd.py,sha256=TQI7w-dz__lorXL-jMlkJ5Ib14GSlGSLoc2I3_tcVu4,1430
+our1314/work/ext_transform.py,sha256=tkkniPDa07eVyk3FgPi_xg4qsKs0aW6j5PHrimasuw8,8084
+our1314/work/halcon2opencv.py,sha256=IGnUtia3ocwBtsljJCppPTA62PCtkAzqN4BHT_-cZ2Y,760
+our1314/work/importsd.py,sha256=WkiAQpC3p3e3qory1tpNlXDqkA4TilssW2wbPAdck18,2370
+our1314/work/mathexp.py,sha256=zYbBUxWqcyZ7BJNrRBzM5qwhgxcBL8DOnih63NxZucs,1424
+our1314/work/torchsharp_export.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+our1314-0.1.30.dist-info/LICENSE,sha256=-NLjGGyXk44yr3T3rY9Hffy52F2Ie3dzDztqRa7jFDo,1082
+our1314-0.1.30.dist-info/METADATA,sha256=gxvQgWzuRp8yOP7JUmF4jcBvzQIA5IsAMhJR77v8Ts4,266
+our1314-0.1.30.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+our1314-0.1.30.dist-info/top_level.txt,sha256=BNWlwCPcF01ErkTQlQoDFg4A96dFPsKojuFoAu_af-A,8
+our1314-0.1.30.dist-info/RECORD,,
