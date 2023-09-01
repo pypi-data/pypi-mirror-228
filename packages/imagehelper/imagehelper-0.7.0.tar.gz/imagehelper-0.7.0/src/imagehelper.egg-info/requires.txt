@@ -1,0 +1,8 @@
+envoy
+Pillow
+typing_extensions
+
+[testing]
+boto3
+pytest
+requests
