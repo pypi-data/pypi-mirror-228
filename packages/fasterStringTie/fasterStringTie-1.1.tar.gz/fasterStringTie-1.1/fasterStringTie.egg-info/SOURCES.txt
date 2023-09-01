@@ -1,0 +1,5 @@
+setup.py
+fasterStringTie.egg-info/PKG-INFO
+fasterStringTie.egg-info/SOURCES.txt
+fasterStringTie.egg-info/dependency_links.txt
+fasterStringTie.egg-info/top_level.txt
