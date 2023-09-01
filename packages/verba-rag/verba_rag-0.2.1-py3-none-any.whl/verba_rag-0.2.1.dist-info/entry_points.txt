@@ -1,0 +1,3 @@
+[console_scripts]
+verba = verba_rag.server.cli:cli
+verba-ingest = verba.ingestion.cli:cli
