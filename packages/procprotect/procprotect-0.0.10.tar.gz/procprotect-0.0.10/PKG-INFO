@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: procprotect
+Version: 0.0.10
+Summary: A package to protect your app from debugging and other attacks.
+Home-page: https://github.com/cookie0o
+Author: cookie0_o
+Author-email: cookie0o@protonmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<div align=center>
+  
+  # ProcProtect v0.0.10
+  
+  **A package to get the current doomsday-clock time.**
+</div>
+
+## +Info and usage:
+go to the wiki on the Github Page.  
+(or click [here](https://github.com/cookie0o/ProcProtect/wiki))
+
+## +Install:
+**manually**
+- Download project
+- cd in the project dir with the console
+- run: `pip install . --upgrade`
+- your done!
+
+**install with pip**
+- run: `pip install procprotect`
+- your done!
+
+
+### author:
+@cookie0o on github

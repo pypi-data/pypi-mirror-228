@@ -1,0 +1,1 @@
+from procprotect.package_main import *
