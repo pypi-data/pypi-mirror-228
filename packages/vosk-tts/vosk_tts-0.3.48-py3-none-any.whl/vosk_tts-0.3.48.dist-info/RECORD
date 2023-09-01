@@ -1,0 +1,11 @@
+vosk_tts/__init__.py,sha256=OVQsWlFF68si4rKJFtCcwlX--LYc7CSCOn1Kg8Uibvg,42
+vosk_tts/cli.py,sha256=38-XjpiIuAw-9ja0W3XadRV-dI-p-GlfypdfZm-A8Pg,1769
+vosk_tts/g2p.py,sha256=u1aKRW-G3Cwmtviy3pDNePTSkNvemNKw-tQTankT9lQ,2400
+vosk_tts/model.py,sha256=HLbSR54ZCMCWH4d5zZA7LrQc3kweyCCV4i-bpiUTMd8,5604
+vosk_tts/synth.py,sha256=_RJ8PwVbx4Tb5F_Wu8R4wzf3KE83oRJ0608C_jLdy-o,1807
+vosk_tts-0.3.48.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vosk_tts-0.3.48.dist-info/METADATA,sha256=cBk98IQ-lk5wdTBSHfu_0yq2hVxJuoILfFlk4sgt_og,1970
+vosk_tts-0.3.48.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+vosk_tts-0.3.48.dist-info/entry_points.txt,sha256=K-WoVxWxiIH_T7nNvqtPI5ycsSwtaNCvQXq6_r9dvlI,48
+vosk_tts-0.3.48.dist-info/top_level.txt,sha256=FaXgnbIzrcWwBJp-TwQ-5Dxee0iOHHgdNsxrdg6CQww,9
+vosk_tts-0.3.48.dist-info/RECORD,,
