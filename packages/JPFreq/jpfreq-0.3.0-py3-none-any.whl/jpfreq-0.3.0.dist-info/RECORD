@@ -1,0 +1,15 @@
+jpfreq/__init__.py,sha256=XeU2H9WWQuSCOBxGpBp9hhbYCmaXarhnprZJwcgI40Y,37
+jpfreq/jp_frequency_list.py,sha256=kJhdiAYKdIw0S-F4H6Xecxb0po3XfsZSc0wHe5z_QvU,13625
+jpfreq/kanji.py,sha256=-2xqMJNl3Jx_Epqx89dGkoymhIG2jSAC5K0Jj07MLrk,1565
+jpfreq/main.py,sha256=aEJ8YAbRkKeYiyXgPK59hFCuxtnOTR56o9dgd-eSN40,2191
+jpfreq/text_info.py,sha256=wQh0kMJooJOWiZSdJgl9Dx_PjWa7XKPdf8H0hIJuvNc,1949
+jpfreq/util.py,sha256=H9tXX8KDGYQSwRCrSeKPgKzOarGiE6Kux4_HrLlzPxo,1542
+jpfreq/word.py,sha256=bdaqTpHaaL7t8U2swBcaEghkP0J5aGlP8Xf5W7WZRSc,3481
+jpfreq/word_slot.py,sha256=aCSOmHgFdDX0_Eric01V9KAKXuQwXZLAjH2Nh4uAAfc,3718
+jpfreq/exporters/__init__.py,sha256=36XwhCFr2kFzenOdlvSMVNqttOtz_MwA26xFR2NzmG4,62
+jpfreq/exporters/iexporter.py,sha256=YUsS2EfkGjOa7VQqd02nnx1eULWSDhux5W2cU8ww_tk,570
+jpfreq/exporters/json.py,sha256=reqQHEmP1iheW3Fa5r9hrnuFItssT6MyKv-m9Bzd0Mo,2233
+jpfreq-0.3.0.dist-info/METADATA,sha256=fMeJ_FSX3Er9yBSVomBORBvJJTMV6sAkbYhr5cToL7w,4611
+jpfreq-0.3.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jpfreq-0.3.0.dist-info/licenses/LICENSE,sha256=nJi27K447GNNGOu4lc3V9us3rEIPqcMlmApZkseCMIU,1077
+jpfreq-0.3.0.dist-info/RECORD,,
