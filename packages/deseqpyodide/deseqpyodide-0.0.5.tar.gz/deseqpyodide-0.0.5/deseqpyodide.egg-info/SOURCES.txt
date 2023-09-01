@@ -1,0 +1,13 @@
+setup.py
+deseqpyodide/__init__.py
+deseqpyodide/__version__.py
+deseqpyodide/dds.py
+deseqpyodide/ds.py
+deseqpyodide/grid_search.py
+deseqpyodide/preprocessing.py
+deseqpyodide/utils.py
+deseqpyodide.egg-info/PKG-INFO
+deseqpyodide.egg-info/SOURCES.txt
+deseqpyodide.egg-info/dependency_links.txt
+deseqpyodide.egg-info/requires.txt
+deseqpyodide.egg-info/top_level.txt
