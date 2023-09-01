@@ -1,0 +1,7 @@
+README.md
+setup.py
+pykit_us.egg-info/PKG-INFO
+pykit_us.egg-info/SOURCES.txt
+pykit_us.egg-info/dependency_links.txt
+pykit_us.egg-info/not-zip-safe
+pykit_us.egg-info/top_level.txt
