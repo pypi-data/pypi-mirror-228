@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: l1test\n"
+"Language: fr\n"
+
+#: ../thonnycontrib/plugin_loader.py:83
+msgid "Run all tests"
+msgstr "Exécuter tous les tests"
+
+#: ../thonnycontrib/plugin_loader.py:92
+msgid "Run tests for ..."
+msgstr "Exécuter les tests pour ..."
+
+#: ../thonnycontrib/plugin_loader.py:100
+msgid "Generate a docstring"
+msgstr "Générer une docstring"
+
+#: ../thonnycontrib/plugin_loader.py:108
+msgid "Generate a __main__"
+msgstr "Générer un __main__"
+
+#: ../thonnycontrib/properties.py:33
+msgid "Place the red tests on the top"
+msgstr "Placer les tests rouges en haut"
+
+#: thonnycontrib/properties.py:34
+msgid "Resume original order"
+msgstr "Reprendre l'ordre original"
+
+#: thonnycontrib/properties.py:35
+msgid "Show only red tests"
+msgstr "Afficher uniquement les tests rouges"
+
+#: thonnycontrib/properties.py:36
+msgid "Show all the tests"
+msgstr "Afficher tous les tests"
+
+#: thonnycontrib/properties.py:37
+msgid "Group by verdicts"
+msgstr "Grouper par verdicts"
+
+#: thonnycontrib/properties.py:38
+msgid "Expand all functions"
+msgstr "Déplier toutes les fonctions"
+
+#: thonnycontrib/properties.py:39
+msgid "Fold all functions"
+msgstr "Replier toutes les fonctions"
+
+#: thonnycontrib/properties.py:40
+msgid "Update the font"
+msgstr "Mettre à jour la police"
+
+#: thonnycontrib/properties.py:41
+msgid "Inrease row height"
+msgstr "Augmenter la hauteur de la ligne"
+
+#: thonnycontrib/properties.py:42
+msgid "Decrease row height"
+msgstr "Diminuer la hauteur de la ligne"
+
+#: thonnycontrib/properties.py:43
+msgid "Clear"
+msgstr "Effacer"
+
+#: thonnycontrib/properties.py:46
+msgid "Executing tests in progress"
+msgstr "Exécution des tests en cours"
+
+#: thonnycontrib/properties.py:49
+msgid "No test found !"
+msgstr "Aucun test trouvé !"
+
+#: thonnycontrib/properties.py:57
+msgid "Cannot generate the docstring :"
+msgstr "Impossible de générer le docstring :"
+
+#: thonnycontrib/properties.py:59
+#, python-format
+msgid "Cannot run %s :"
+msgstr "Impossible d'exécuter %s :"
+
+#: thonnycontrib/utils.py:265
+#, python-format
+msgid "The file \"%s\" cannot be imported.\n\nPlease, be sure that the extension of the file is `.py`"
+msgstr "Le fichier \"%s\" ne peut pas être importé.\n\nVeuillez vous assurer que l'extension du fichier est `.py`"
+
+#: thonnycontrib/utils.py:268
+#, python-format
+msgid "Cannot found the file `%s`"
+msgstr "Impossible de trouver le fichier `%s`"
+
+#: thonnycontrib/utils.py:269
+#, python-format
+msgid "Error when importing the module \"%s\":\n"
+msgstr "Erreur lors de l'importation du module \"%s\":\n"
+
+#: thonnycontrib/l1test_configuration/l1test_options.py:63
+msgid "Generate the docstring automatically after a line break at a function name."
+msgstr "Générer le docstring automatiquement après un saut de ligne au niveau du nom d'une fonction."
+
+#: thonnycontrib/l1test_configuration/l1test_options.py:66
+msgid "Import the module executed in the shell."
+msgstr "Importer le module exécuté dans le shell."
+
+#: thonnycontrib/l1test_configuration/l1test_options.py:69
+#, python-format
+msgid "Fold all function in %s view."
+msgstr "Fermer toutes les fonctions dans la vue %s."
+
+#: thonnycontrib/l1test_configuration/l1test_options.py:72
+#, python-format
+msgid "Expand only red functions in %s view."
+msgstr "Ouvrir uniquement les fonctions rouges dans la vue %s."
+
+#: thonnycontrib/l1test_configuration/l1test_options.py:75
+#, python-format
+msgid "Open failed tests in %s view."
+msgstr "Ouvrir les tests échoués dans la vue %s."
+
+#: thonnycontrib/l1test_configuration/l1test_options.py:78
+msgid "Highlight failed tests (only those that throw an exception)."
+msgstr "Mettre en évidence les tests échoués (seulement ceux qui génèrent une exception)."
+
+#: thonnycontrib/l1test_configuration/l1test_options.py:81
+msgid "Place the error view at the bottom of the Thonny IDE (next to the `Shell` view). By default, the error view is placed below the `L1Test` view. Thonny must be restarted after having modified this option."
+msgstr "Placer la vue des erreurs en bas de l'IDE Thonny (à côté de la vue `Shell`). Par défaut, la vue des erreurs est placée sous la vue `L1Test`. Ne pas oublier de redémarrer Thonny après avoir modifié cette option."
+
+#: thonnycontrib/l1test_frontend/l1test_runner.py:82
+msgid "No editor found !\n\nPlease open an editor before running the tests."
+msgstr "Aucun éditeur trouvé !\n\nVeuillez ouvrir un éditeur avant de lancer les tests."
+
+#: thonnycontrib/l1test_frontend/l1test_runner.py:92
+msgid "The file is not saved.\n\nConsider to save the file before running the tests."
+msgstr "Le fichier n'est pas enregistré.\n\nEnvisagez d'enregistrer le fichier avant de lancer les tests."
+
+#: thonnycontrib/l1test_frontend/l1test_runner.py:100
+msgid "The editor is empty!\n"
+msgstr "L'éditeur est vide!\n"
+
+#: thonnycontrib/l1test_frontend/l1test_runner.py:129
+msgid "The backend is not ready yet !"
+msgstr "Le backend n'est pas encore prêt !"
+
+#: thonnycontrib/l1test_frontend/l1test_runner.py:137
+msgid "Waiting for the backend to restart completely ..."
+msgstr "En attente du redémarrage complet du backend ..."
+
+#: thonnycontrib/l1test_frontend/l1test_runner.py:144
+msgid "Coudn't restart the backend.\nPlease restart with the 'Stop' button !"
+msgstr "Impossible de redémarrer le backend.\nVeuillez redémarrer avec le bouton 'Stop' !"
+
+#: thonnycontrib/l1test_frontend/l1test_runner.py:357
+msgid "Starting executing tests ..."
+msgstr "Démarrage de l'exécution des tests ..."
+
+#: thonnycontrib/l1test_frontend/l1test_treeview.py:656
+msgid "passed"
+msgstr "réussi"
+
+#: thonnycontrib/l1test_frontend/l1test_treeview.py:667
+msgid "Tests run"
+msgstr "Tests exécutés"
+
+#: thonnycontrib/l1test_frontend/l1test_treeview.py:673
+msgid "Success"
+msgstr "Succès"
+
+#: thonnycontrib/l1test_frontend/l1test_treeview.py:676
+msgid "Failures"
+msgstr "Échecs"
+
+#: thonnycontrib/l1test_frontend/l1test_treeview.py:679
+msgid "Errors"
+msgstr "Erreurs"
+
+#: thonnycontrib/l1test_frontend/l1test_treeview.py:682
+msgid "Empty"
+msgstr "Vide"
+
+#: thonnycontrib/main_generator/main_generator.py:25
+msgid "already exists"
+msgstr "existe déjà"
+
+#: thonnycontrib/main_generator/main_generator.py:26
+msgid "generated"
+msgstr "généré"
+
+#: ../thonnycontrib/main_generator/main_generator.py:112
+msgid "line"
+msgstr "ligne"
+
+#: ../thonnycontrib/backend/verdicts/ExampleVerdict.py:45
+msgid "for"
+msgstr "pour"
+
+#: ../thonnycontrib/backend/verdicts/ExceptionVerdict.py:17
+msgid "Test raises exception"
+msgstr "Test a levé une exception"
+
+#: ../thonnycontrib/backend/verdicts/FailedVerdict.py:24
+msgid "Test failed"
+msgstr "Test échoué"
+
+#: ../thonnycontrib/backend/verdicts/FailedVerdict.py:21
+msgid "Expected"
+msgstr "Attendu"
+
+#: ../thonnycontrib/backend/verdicts/FailedVerdict.py:21
+msgid "Got"
+msgstr "Obtenu"
+
+#: ../thonnycontrib/backend/verdicts/PassedSetupVerdict.py:15
+msgid "Execution succeed"
+msgstr "Exécution réussie"
+
+#: ../thonnycontrib/backend/verdicts/PassedVerdict.py:17
+msgid "Test OK"
+msgstr "Test OK"
+
+#: ../thonnycontrib/backend/verdicts/FailedWhenExceptionExpectedVerdict.py:14
+msgid "was not raised by"
+msgstr "n'a pas été levée par"
