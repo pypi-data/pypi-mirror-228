@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: BioLizardStylePython
+Version: 0.0.11
+Summary: Enhance plots with the signature Biolizard aesthetic for matplotlib and seaborn.
+Project-URL: Homepage, https://github.com/lizard-bio/nature-grade-visualization-playground/tree/main
+Author: Robbe Neirynck
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: matplotlib>=3.7.1
+Requires-Dist: numpy>=1.24.30
+Requires-Dist: pillow>=9.4.0
+Description-Content-Type: text/markdown
+
+# BioLizardStylePython
+
+## Introduction
+
+This package enables users to generate matplotlib and seaborn graphs featuring the signature Biolizard aesthetic. The package comes with an integrated stylesheet, offers a qualitative color map, and registers both a divergent and sequential color map. Additionally, it includes a function to append a unique Biolizard footer and source text to your plots.
+ 
+
+## More Information
+
+For detailed information on installation, usage, and more, please refer to 'In Action file' in the [Nature Grade Visualization Playground GitHub repository](https://github.com/lizard-bio/nature-grade-visualization-playground).
+
+

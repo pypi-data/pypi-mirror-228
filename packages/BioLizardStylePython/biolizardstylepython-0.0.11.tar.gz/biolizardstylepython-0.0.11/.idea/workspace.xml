@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1bac6bee-046c-4164-902d-bf23141f13d2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/BioLizardStylePython/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/BioLizardStylePython/utils.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UbelBJogoCeOfJTVIj6Pd0iSnR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bac6bee-046c-4164-902d-bf23141f13d2" name="Changes" comment="" />
+      <created>1693212855884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693212855884</updated>
+      <workItem from="1693212857213" duration="6083000" />
+      <workItem from="1693222812891" duration="1114000" />
+      <workItem from="1693227301911" duration="595000" />
+      <workItem from="1693229255358" duration="172000" />
+      <workItem from="1693230340256" duration="81000" />
+      <workItem from="1693230597196" duration="239000" />
+      <workItem from="1693230992035" duration="680000" />
+      <workItem from="1693233278757" duration="862000" />
+      <workItem from="1693234905695" duration="272000" />
+      <workItem from="1693235356156" duration="1629000" />
+      <workItem from="1693296475816" duration="222000" />
+      <workItem from="1693297958910" duration="151000" />
+      <workItem from="1693393699459" duration="9000" />
+      <workItem from="1693472530541" duration="130000" />
+      <workItem from="1693472977642" duration="555000" />
+      <workItem from="1693474625642" duration="703000" />
+      <workItem from="1693476232606" duration="130000" />
+      <workItem from="1693476680646" duration="391000" />
+      <workItem from="1693477096522" duration="23000" />
+      <workItem from="1693477433356" duration="1069000" />
+      <workItem from="1693480568340" duration="596000" />
+      <workItem from="1693481274024" duration="56000" />
+      <workItem from="1693481871423" duration="157000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../TestingNewPackageProject/main.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
