@@ -1,0 +1,9 @@
+README.md
+setup.py
+parsecfi/__init__.py
+parsecfi/parsecfi.py
+parsecfi.egg-info/PKG-INFO
+parsecfi.egg-info/SOURCES.txt
+parsecfi.egg-info/dependency_links.txt
+parsecfi.egg-info/requires.txt
+parsecfi.egg-info/top_level.txt
