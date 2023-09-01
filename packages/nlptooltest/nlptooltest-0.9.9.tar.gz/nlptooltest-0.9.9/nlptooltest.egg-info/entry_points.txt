@@ -1,0 +1,10 @@
+[console_scripts]
+arabi_ner = CLI.arabiner.bin.infer:main
+sina_alma_multi_word = CLI.morphology.ALMA_multi_word:main
+sina_arStrip = CLI.utils.arStrip:main
+sina_implication = CLI.utils.implication:main
+sina_jaccard = CLI.utils.jaccard:main
+sina_morph_analyze = CLI.morphology.morph_analyzer:main
+sina_sentence_tokenize = CLI.utils.sentence_tokenizer:main
+sina_transliterate = CLI.utils.text_transliteration:main
+
