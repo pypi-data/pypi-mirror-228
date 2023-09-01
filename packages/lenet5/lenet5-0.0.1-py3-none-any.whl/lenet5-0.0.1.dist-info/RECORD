@@ -1,0 +1,7 @@
+lenet5/__init__.py,sha256=iCcJ2swTU_yw6MSyDlBacHQ9dj3G6E91Ygn5kNF6tEw,73
+lenet5/model.py,sha256=ElGcFPxg0gUlvDtP0P7eImFH839TzGojHQetWJHSpgQ,1514
+lenet5/training.py,sha256=oie-ViuPeEg9eHNjaAv_wLpLpCRxv-Sfk639hjF8iaM,1311
+lenet5-0.0.1.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+lenet5-0.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+lenet5-0.0.1.dist-info/METADATA,sha256=6YlKmsvduviNRtt6SZ2S6XwdTvlnBWNl_9eAsoY6Dls,1394
+lenet5-0.0.1.dist-info/RECORD,,
