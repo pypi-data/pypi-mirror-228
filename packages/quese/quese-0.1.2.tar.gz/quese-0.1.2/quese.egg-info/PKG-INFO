@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: quese
+Version: 0.1.2
+Summary: Package that make easier the searching process in pyhton, through Embeddings and Semantic Similarity
+Author: Arnau Canela
+Author-email: arnau.canela22@gmail.com
+License: MIT
+Keywords: searching,search,embeddings,intelligent search,similarity search,embedding search,sentence transformer search,searcher,semantic similarity,sentence similarity
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# QUESE
+
+"Quese" allows you implement in an easy way a Search Algoritm, based on Embeddings and Semantic Similarity, in your Python apps.
+The module provides a function called search_by_embeddings(), with several params to customize the searching process.
+
+## INSTALLATION
+
+You can install "quese" with pip:
+
+```bash
+pip install quese
+```
+## EXAMPLE WITH BY
+```
+from quese import search_by_embeddings
+
+data_ = [
+    {
+        "title": "UX Designer",
+        "tags": "Designer"
+    },
+    {
+        "title": "Senior Accounter",
+        "tags": "Accounter" 
+    },
+    {
+        "title": "Product Manager",
+        "tags": "Managment" 
+    }
+]
+
+results = search_by_embeddings(data=data_, query="Manager", by="title")
+#Results will return a LIST with the dictionaries whose title is Semantically Similar to the query: "Manager", so in this case, the last dictionary: "Product Manager".
+print(results)
+```
+## PARAMS
+
+#### __data__:
+It's the first param, it's **REQUIRED**, and it must be a **list of dictionaries**.
+
+#### __query__:
+It's the second param, it's **REQUIRED** as well, and it represent the query you want to pass.<br>
+Type: **string**
+
+#### __by__:
+It's the third param, it's **only REQUIRED if you don't pass the "template" param**, and it represent the value of your dictionaries that you are searching for.<br>
+For example, if you want to search in  a list of products, your "by" param could be the prop "name" of each product.<br>
+Type: **string**
+
+#### __template__:
+It's **only REQUIRED if you don't pass the "by" param**, and it's similar to "by", but allow you to search by a customized string for each dictionary in your data list.<br>
+For example, if you want to search in a list of products, your "template" param could be a string like this: "{name}, seller: {seller}".
+Notice that you have to define your props **between "{}"**, as you can see in the example with the variables **"name"** and **"seller"**.<br>
+Type: **string**
+
+#### __accuracy__:
+It's **optional**, and it represents the similarity that the dictionary must have with the query to be considered a result.<br>
+**The default value is 0.4**, wich works good with almost all the models. However, if you want to change it, we don't recommend to set vary high values or very low values, the range **0.3-0.6** should be enought.<br> 
+Type: **float number between 0-1**
+
+#### __model__:
+It's **optional**, and it represents the **embedding model** you want to use.<br>
+The default model is **'sentence-transformers/all-MiniLM-L6-v2'**. You can use an other model like 'sentence-transformers/all-mpnet-base-v2', but take care because **if the model don't work with sentence-transformers this package will not work with it**.<br>
+Type: **string**
+
+## EXAMPLE WITH TEMPLATE
+```
+from quese import search_by_embeddings
+
+data_ = [
+    {
+        "title": "UX Designer",
+        "tags": "Designer"
+    },
+    {
+        "title": "Senior Accounter",
+        "tags": "Accounter" 
+    },
+    {
+        "title": "Product Manager",
+        "tags": "Managment" 
+    }
+]
+
+results = search_by_embeddings(data=data_, query="Manager", template="{title}, {tags}")
+#Results will return a LIST with the dictionaries whose title and tags are Semantically Similar to the query: "Manager", so in this case, the last dictionary: "Product Manager".
+print(results)
+```
+
+
+
