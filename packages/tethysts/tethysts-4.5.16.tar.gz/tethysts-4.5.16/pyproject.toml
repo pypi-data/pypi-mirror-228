@@ -1,0 +1,56 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tethysts"
+version = '4.5.16'
+description = "tethys time series S3 extraction"
+readme = "README.rst"
+license = "Apache-2.0"
+authors = [
+    { name = "Mike Kittridge", email = "mullenkamp1@gmail.com" },
+]
+keywords = [
+    "tethys",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Scientific/Engineering :: Hydrology",
+]
+dependencies = [
+    "h5netcdf>=1.1.0",
+    "hdf5tools>=0.2.4",
+    "orjson",
+    "pandas<2",
+    "pydantic<2",
+    "requests",
+    "s3tethys>=0.0.8",
+    "scipy",
+    "shapely>=2.0.1",
+    "tethys-data-models>=0.4.11",
+    "xarray>=2022.3.0",
+    "zstandard",
+]
+
+[project.urls]
+Homepage = "https://github.com/tethys-ts/tethysts"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/tethysts",
+]
+
+[tool.hatch.envs.default]
+python = "3.9"
+dependencies = [
+  "spyder-kernels==2.4",
+  "matplotlib",
+  "coverage[toml]>=6.5",
+  "pytest",
+]
+
