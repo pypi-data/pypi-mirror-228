@@ -1,0 +1,5 @@
+tensorflow
+pyvista>=0.37
+numpy>=1.19
+pint>=0.18
+cmrseq>=0.17
