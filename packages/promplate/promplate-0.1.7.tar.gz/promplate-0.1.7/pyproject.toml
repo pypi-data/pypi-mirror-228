@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "promplate"
+version = "0.1.7"
+description = "cross-language prompt engineering framework"
+authors = ["Muspi Merol <admin@muspimerol.site>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiofiles = "^23.2"
+httpx = "^0.24"
+openai = "^0.27"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
