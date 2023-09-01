@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+asdasdcolbytest/__init__.py
+asdasdcolbytest.egg-info/PKG-INFO
+asdasdcolbytest.egg-info/SOURCES.txt
+asdasdcolbytest.egg-info/dependency_links.txt
+asdasdcolbytest.egg-info/not-zip-safe
+asdasdcolbytest.egg-info/top_level.txt
