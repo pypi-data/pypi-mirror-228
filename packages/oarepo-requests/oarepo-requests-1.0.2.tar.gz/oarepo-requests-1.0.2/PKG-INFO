@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: oarepo-requests
+Version: 1.0.2
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+License-File: LICENSE
+
+# OARepo requests
