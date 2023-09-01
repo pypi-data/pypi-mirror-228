@@ -1,0 +1,3 @@
+[console_scripts]
+nsgr_job = pynsgr.commands.nsgr_job:main
+nsgr_submit = pynsgr.commands.nsgr_submit:main

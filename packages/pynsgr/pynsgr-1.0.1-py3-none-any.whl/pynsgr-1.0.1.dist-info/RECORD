@@ -1,0 +1,12 @@
+pynsgr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynsgr/client.py,sha256=vlfc8Irs-0xtiO2Oa9HlzSAmf5GGQ60hlDCd8A-u8Qk,21118
+pynsgr/pyjavaproperties.py,sha256=t_9cRcEbogd6g1n6PnR97BzW7GigiWiY6T1iV9gPB9Y,13132
+pynsgr/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynsgr/commands/nsgr_job.py,sha256=BvRm6ZUTc4Dv6ael2aA3UqzNLvp0qRDQsAQBJc_m724,4766
+pynsgr/commands/nsgr_submit.py,sha256=CJixipteQ7_UAka9lhCXegp9oi133Ezhvf4ptNU8dZ8,4015
+pynsgr-1.0.1.dist-info/LICENSE,sha256=55FnnyIbjX-hqNFFFEwRQ0vlyghAkU9bET3EDjgrMHA,1072
+pynsgr-1.0.1.dist-info/METADATA,sha256=b1B7zEySHkNzyQ6vYQwAgDF2plhz7E1H1ZdqL55dFY4,2252
+pynsgr-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pynsgr-1.0.1.dist-info/entry_points.txt,sha256=mG8hDd8JpIcOKj8cRgGvCqpHFo0zcFXdZlus2Kcl1eA,106
+pynsgr-1.0.1.dist-info/top_level.txt,sha256=3NCjWgAhONR8oq6hS_ul0YdnpEa9fIA4LSxXZpBeXZA,7
+pynsgr-1.0.1.dist-info/RECORD,,
