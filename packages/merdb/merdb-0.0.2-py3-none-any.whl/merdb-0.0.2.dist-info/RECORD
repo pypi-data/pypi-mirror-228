@@ -1,0 +1,15 @@
+merdb-0.0.2.dist-info/METADATA,sha256=nvMP37CtgPfUt4_83dvkguOATt9yZRkeERjXAi8Q77k,1695
+merdb-0.0.2.dist-info/WHEEL,sha256=1D4d-_ODszlK6-qFybc5BLF-ZhZvee-uKVh2hLa3IIc,90
+merdb/__init__.py,sha256=b60NR30zHBTdnzWFoR0MstyDXXskVG2Y_8OGVMieytA,148
+merdb/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+merdb/api/base.py,sha256=ocD_5-CZ7K0QhxrOHxRFi9IMtmWCJc9BdXd1yGqQbes,2626
+merdb/api/common.py,sha256=0XkiSe1qRPBiKJATs1W-5ky0kWJsJuaIgKytRXJBGHA,751
+merdb/api/pipe.py,sha256=WnjNLvRJucskevMWFQEp8ldWR4_js2yY6RKX5r0XYIY,392
+merdb/api/tacit.py,sha256=pc45cvgEI58nDCxe3Gp5T7fUahrVcy6QxfacO5ui_Qw,1385
+merdb/api/tacit_interactive.py,sha256=2M-zpuJruolmg8m2QsjI-0T3Dhcb5gXkmPJPp4eSZkQ,2551
+merdb/core.py,sha256=jF1xDhqq6ZBWqjLegQNRe4d4rJ4ubIt4osBExI4TUkY,4595
+merdb/interactive.py,sha256=7PDyvUb6dB_0klowFfcM3DIpnkkfrTY8LRZFzGM1bEM,36
+merdb/qlang.py,sha256=5I2bDRhN5RxoDWdHQHb53EB7-xGEWKXxoI-bjQIG2iI,2032
+merdb/resource/__init__.py,sha256=xK22wpXbZxTt_Bb_HeCgvHP5sJ3mO0j7PIj50r-n_EU,96
+merdb/resource/modin_resource.py,sha256=ZZIpvLATxz6Op57lGHaGXf8F0EPhI1eiPoHdT93_WTI,7690
+merdb-0.0.2.dist-info/RECORD,,
