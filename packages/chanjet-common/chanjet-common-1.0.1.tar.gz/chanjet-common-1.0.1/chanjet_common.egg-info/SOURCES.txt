@@ -1,0 +1,5 @@
+setup.py
+chanjet_common.egg-info/PKG-INFO
+chanjet_common.egg-info/SOURCES.txt
+chanjet_common.egg-info/dependency_links.txt
+chanjet_common.egg-info/top_level.txt
