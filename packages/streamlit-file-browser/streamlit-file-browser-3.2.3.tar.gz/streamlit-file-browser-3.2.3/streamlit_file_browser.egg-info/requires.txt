@@ -1,0 +1,9 @@
+pandas
+filetype
+binaryornot
+wcmatch
+streamlit-molstar>=0.4.4
+streamlit-antd
+streamlit-embeded
+streamlit>=0.63
+pymatgen
