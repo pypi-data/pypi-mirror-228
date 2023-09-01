@@ -1,0 +1,8 @@
+ltctplugin/terminal/__init__.py,sha256=tMZM4oZJU0VyOvupzNSEMbta96I9uQA8f6-dmcp3Sg0,648
+ltctplugin/terminal/gui.py,sha256=zDktgtugUuyXbSYsvHKLcSgHdDwQqcvVDUbdLQ0Eelk,13875
+ltctplugin/terminal/terminal.wxui,sha256=-fDkhmpglxq3ws0nCDLL1WmkselgswVvOQeUQMdPTQ4,4217
+ltctplugin/terminal/terminal.xrc,sha256=lzOWIXrLKEVIOMOrj2pZmAS8yXPphpg_D_FvbGN2D50,5485
+ltctplugin/terminal/work.py,sha256=8TivAoJH6UegKA7TCCYkIGrDvjR8zQrZPC3ZPHG4Bng,3744
+ltchiptool_terminal-1.2.1.dist-info/METADATA,sha256=eOvOI2s8TKCLNCzA-lr5SnJyx1HDBLgjNFJ0be7sKxQ,712
+ltchiptool_terminal-1.2.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ltchiptool_terminal-1.2.1.dist-info/RECORD,,
