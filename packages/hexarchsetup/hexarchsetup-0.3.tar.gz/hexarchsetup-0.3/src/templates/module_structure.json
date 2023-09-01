@@ -1,0 +1,24 @@
+{
+    "core": {
+        "application_services": {
+            "{module_name}_services.py": "Coordinates domain and adapter layers for actions from this module"
+        },
+        "domain": {
+            "interfaces": {
+                "{module_name}_interface.py": "Defines abstract methods for interactions related to the domain from this module"
+            },
+            "models": {
+                "{module_name}.py": "Holds the core domain logic and entities for this module"
+            }
+        }
+    },
+    "modules": {
+        "{module_name}": {
+            "api": {
+                "routes.py": "Define the HTTP endpoints (GET, POST, etc.) for this module",
+                "schemas.py": "Defines Pydantic models for data validation and serialization for this module"
+            },
+            "services.py": "Here you will implement the core business logic for that module"
+        }
+    }
+}

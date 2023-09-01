@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: hexarchsetup
+Version: 0.3
+Summary: Automatically generate a hexagonal architecture project structure in Python.         Easily customizable to include user-defined modules.
+Author: Éric Dominguez Morales
+Author-email: ericdominguezm@gmail.com
+License-File: LICENSE
