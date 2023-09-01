@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: premium
+Version: 23.8.31.19
+Summary: Python AI toolkits
+Home-page: https://github.com/
+Author: sK9xTFBq0H
+Author-email: google@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: smart-open
+Requires-Dist: optuna
+Requires-Dist: jieba
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: transformers
+Requires-Dist: fasttext
+Requires-Dist: classifiercluster
+Requires-Dist: jiwer
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pytorch-lightning
+
