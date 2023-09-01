@@ -1,0 +1,11 @@
+odoo/addons/migration_wordpress_blog/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/migration_wordpress_blog/__manifest__.py,sha256=G7Lc_jB4bFWCKDYkqelR8NDL-BfIkhsMXH1Yt-J3HeE,564
+odoo/addons/migration_wordpress_blog/models/__init__.py,sha256=b6U0iRGjTJWtyARjfpKsRYFgnP1swroegfXUew0IMaY,41
+odoo/addons/migration_wordpress_blog/models/migration_import_wordpress.py,sha256=07q9tVYnLA8kJTmZ2Minxs5SURijTTAO3f1UrBfL6sU,3909
+odoo/addons/migration_wordpress_blog/static/description/1.jpg,sha256=s7tZl9RpEqmxZEKmuNk9HfJWT0VXE-wW_DhUE1glHoU,140837
+odoo/addons/migration_wordpress_blog/static/description/index.html,sha256=kMjet9FxU8ZDwu3H3yyspz0BJXKUUED_lW1505ofXeA,634
+odoo/addons/migration_wordpress_blog/views/migration_import_wordpress_views.xml,sha256=2VroLx5P8taqjyR34xJ6sMFh3l5JIkt6f24BLfeamj8,844
+odoo14_addon_migration_wordpress_blog-14.0.1.0.0.dist-info/METADATA,sha256=Kklp9leIBU6yGHyAPlx2JEbU6t-7loboTTr0CB4KtZw,580
+odoo14_addon_migration_wordpress_blog-14.0.1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo14_addon_migration_wordpress_blog-14.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_migration_wordpress_blog-14.0.1.0.0.dist-info/RECORD,,
