@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: unirec
+Version: 0.0.1a2
+Summary: A compact recommender library for universal recommendation systems
+Home-page: 
+Author: Jianxun Lian
+Author-email: jialia@microsoft.com
+License: MIT
+Keywords: recommender system,deep learning,pytorch
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: torch <=1.13.1,>=1.10.0
+Requires-Dist: debugpy >=1.6.3
+Requires-Dist: feather-format >=0.4.1
+Requires-Dist: numba >=0.56.3
+Requires-Dist: pandas >=1.5.1
+Requires-Dist: pyarrow >=10.0.0
+Requires-Dist: scikit-learn >=1.1.3
+Requires-Dist: scipy >=1.9.3
+Requires-Dist: setproctitle >=1.3.2
+Requires-Dist: swifter >=1.3.4
+Requires-Dist: tqdm >=4.64.1
+Requires-Dist: wandb >=0.14.2
+Requires-Dist: tensorboard >=2.13.0
+Requires-Dist: cvxpy ==1.3.1
+Requires-Dist: onnxruntime >=1.15.1
+Requires-Dist: accelerate >=0.20.3
+Requires-Dist: pytest >=7.3.1
+
+Project UniRec: A compact recommender library for universal recommendation systems.
+
+
+How to contribute to this repo:
+    (1) create your branch, naming in the format of {your_alias}/dev
+    (2) send a pull request (PR) to merge your branch to dev.  (Never merge to master!) 
+    (3) ask team members to review the PR.
+
+Data format:
+Userid and itemid are indexed from 1, because we spare index 0 for padding.  Format protocol please refer to UniRec/unirec/constants/protocols.py
+
+
+## Installation 
+
+### Installation from PyPI
+
+1. Ensure that [PyTorch](https://pytorch.org/get-started/previous-versions/) with CUDA supported (version 1.10.0-1.13.1) is installed:
+
+
+    ```shell
+    pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+
+    python -c "import torch; print(torch.__version__)"
+    ```
+
+2. Install `unirec` with pip:
+
+    ```shell
+    pip install unirec
+    ```
+
+    Check if `unirec` is installed sucessfully:
+
+    ```shell
+    python -c "from unirec.utils import general; print(general.get_local_time_str())"
+    ```
