@@ -1,0 +1,10 @@
+group_size: -1
+n_items: 3544
+n_neg_test_from_sampling: 0
+n_neg_train_from_sampling: 0
+n_neg_valid_from_sampling: 0
+n_users: 806016
+test_file_format: user-item
+train_file_format: user-item_seq
+user_history_file_format: user-item
+valid_file_format: user-item
