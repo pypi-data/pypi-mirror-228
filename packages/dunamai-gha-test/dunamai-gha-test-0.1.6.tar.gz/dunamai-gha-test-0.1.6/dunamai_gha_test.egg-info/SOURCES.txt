@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+dunamai-gha-test/__init__.py
+dunamai_gha_test.egg-info/PKG-INFO
+dunamai_gha_test.egg-info/SOURCES.txt
+dunamai_gha_test.egg-info/dependency_links.txt
+dunamai_gha_test.egg-info/requires.txt
+dunamai_gha_test.egg-info/top_level.txt
