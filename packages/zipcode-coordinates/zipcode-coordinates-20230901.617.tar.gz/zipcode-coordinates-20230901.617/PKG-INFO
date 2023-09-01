@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: zipcode-coordinates
+Version: 20230901.617
+Summary: Automatically updated map of German zip codes (PLZ) and corresponding geo coordinates.
+Author-email: Philipp Bosch <hello@pb.io>
+Project-URL: Homepage, https://github.com/selfmade-energy/zipcode-coordinates
+Project-URL: Bug Tracker, https://github.com/selfmade-energy/zipcode-coordinates/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Automatically updated map of German zip codes and corresponding geo coordinates
+
+The `zipcode_coordinates` module provides a map of German zip codes and their corresponding geo coordinates directly taken from [Geonames]. The package is automatically updated daily.
+
+Available on [PyPI].
+
+[Geonames]: https://www.geonames.org/
+[PyPI]: https://pypi.org/pypi/zipcode-coordinates/
+
+
+
+[![Build status](https://github.com/selfmade-energy/zipcode-coordinates/workflows/zipcoode_coordinates%20build/badge.svg)](https://github.com/selfmade-energy/zipcode-coordinates/actions)
+
+[![PyPI](https://img.shields.io/pypi/v/zipcode-coordinates?logo=pypi)](https://pypi.org/pypi/zipcode-coordinates/)
+
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/zipcode-coordinates?color=red)](https://pypi.org/pypi/zipcode-coordinates/)
+
+Usage
+-----
+
+tbc.
