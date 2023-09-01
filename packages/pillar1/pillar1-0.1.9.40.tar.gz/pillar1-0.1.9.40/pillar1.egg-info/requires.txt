@@ -1,0 +1,6 @@
+ipywidgets
+google-cloud-aiplatform
+boto3
+pyspark
+protobuf==4.23.4
+openai==0.27.8
