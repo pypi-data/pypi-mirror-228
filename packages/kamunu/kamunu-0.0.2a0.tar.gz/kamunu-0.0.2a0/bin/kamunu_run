@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+import argparse
+import kamunu.kamunu_main as kamunu_main
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Kamunu Search Tool")
+
+    parser.add_argument("-S", "--single", type=str,
+                        help="Search for a single organization",
+                        required=False)
+
+    parser.add_argument("-O", "--origin", type=str,
+                        help="Set manually the source for single ejecution",
+                        required=False)
+
+    parser.add_argument("-M", "--multiple", type=str,
+                        help="Search for multiple organizations from a JSON file",
+                        required=False)
+
+    return parser.parse_args()
+
+
+def main():
+    args = parse_args()
+
+    if args.single and args.origin:
+        search = kamunu_main.single_organization(args.single, args.origin)
+        return search
+    elif args.single:
+        search = kamunu_main.single_organization(args.single, "single_search")
+        return search
+    elif args.multiple:
+        kamunu_main.multiple_organizations(args.multiple)
+    else:
+        print("Please provide valid command-line arguments.")
+
+
+if __name__ == '__main__':
+    main()

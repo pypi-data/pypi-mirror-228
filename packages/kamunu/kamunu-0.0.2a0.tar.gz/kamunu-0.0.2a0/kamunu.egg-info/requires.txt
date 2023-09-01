@@ -1,0 +1,11 @@
+pymongo
+requests
+beautifulsoup4
+langdetect
+fuzzywuzzy
+python-Levenshtein
+unidecode
+deep-translator
+translators
+nltk
+html5lib
