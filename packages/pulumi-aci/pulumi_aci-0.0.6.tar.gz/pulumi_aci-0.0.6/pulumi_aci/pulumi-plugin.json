@@ -1,0 +1,5 @@
+{
+  "resource": true,
+  "name": "aci",
+  "server": "github://api.github.com/netascode"
+}
