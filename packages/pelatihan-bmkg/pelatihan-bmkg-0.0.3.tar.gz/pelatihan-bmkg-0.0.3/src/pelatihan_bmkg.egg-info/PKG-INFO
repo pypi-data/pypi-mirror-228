@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pelatihan-bmkg
+Version: 0.0.3
+Summary: aplikasi pertama
+Home-page: https://gitlab.com/ummumf/pelatihan_bmkg
+Author: ummu
+Author-email: author@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+aplikasi pertama
+
