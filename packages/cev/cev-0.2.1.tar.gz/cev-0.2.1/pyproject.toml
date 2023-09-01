@@ -1,0 +1,95 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cev"
+description = "comparative embedding visualization"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "Trevor Manz" },
+    { name = "Fritz Lekschas" },
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "anywidget>=0.2.3",
+    "cev-metrics>=0.1.2",
+    "ipywidgets>=8.0.0",
+    "jinja2>=3.0.0",
+    "jupyter-scatter>=0.14.0",
+    "pandas>=1.0",
+]
+dynamic = ["version"]
+
+# https://peps.python.org/pep-0621/#dependencies-optional-dependencies
+[project.optional-dependencies]
+dev = [
+    "black[jupyter]",
+    "jupyterlab",
+    "pytest",
+    "rich",
+    "ruff",
+]
+notebooks = [
+    "pyarrow",
+    "fastparquet",
+    "matplotlib",
+]
+
+[project.urls]
+homepage = "https://github.com/OzetteTech/comparative-embedding-visualization"
+
+[tool.hatch.build]
+sources = ["src"]
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.envs.default]
+python = "3.10"
+features = ["dev", "notebooks"]
+
+[tool.hatch.envs.default.scripts]
+fmt = [
+    "black .",
+    "ruff --fix .",
+]
+check = [
+    "black --check --diff .",
+    "ruff .",
+]
+test = "pytest --color=yes"
+
+[[tool.hatch.envs.test.matrix]]
+python = ["38", "39", "310", "311"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py38"
+extend-select = [
+    "E",    # style errors
+    "F",    # flake
+    # "D",    # pydocstyle
+    "I001", # isort
+    "UP",   # pyupgrade
+    "RUF",  # ruff-specific rules
+]
+ignore = ["E501"] # ignore line-length, enforced by black
+
+# https://docs.pytest.org/en/latest/customize.html
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = ["tests"]
+filterwarnings = [
+    "ignore:Jupyter is migrating its paths:DeprecationWarning",
+    "ignore:Deprecated in traitlets 4.1, use the instance .metadata:DeprecationWarning",
+]

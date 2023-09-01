@@ -1,0 +1,11 @@
+__pycache__/
+node_modules/
+data/
+.snakemake/
+.ipynb_checkpoints/
+*.egg-info/
+src/cev/_version.py
+.vite
+dist/
+mair/
+.DS_Store
