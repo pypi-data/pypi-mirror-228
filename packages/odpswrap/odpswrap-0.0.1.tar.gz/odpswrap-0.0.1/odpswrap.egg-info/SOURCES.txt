@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+odpswrap/__init__.py
+odpswrap.egg-info/PKG-INFO
+odpswrap.egg-info/SOURCES.txt
+odpswrap.egg-info/dependency_links.txt
+odpswrap.egg-info/requires.txt
+odpswrap.egg-info/top_level.txt
+odpswrap/computing/__init__.py
+odpswrap/computing/api.py
+odpswrap/computing/client.py
+odpswrap/computing/data_types.py
