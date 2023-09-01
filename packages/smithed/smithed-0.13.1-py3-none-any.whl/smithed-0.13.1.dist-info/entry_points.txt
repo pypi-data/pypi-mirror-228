@@ -1,0 +1,6 @@
+[beet]
+commands=weld.toolchain.cli
+
+[console_scripts]
+weld=weld.toolchain.cli:cli
+
