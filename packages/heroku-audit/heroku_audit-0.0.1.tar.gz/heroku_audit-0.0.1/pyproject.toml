@@ -1,0 +1,71 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "heroku-audit"
+description = "Command-line tool for reporting on specific attributes of a Heroku environment."
+authors = [
+    {name = "Jake Howard", email = "jake.howard@torchbox.com"},
+]
+dynamic = ["version"]
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved",
+    "License :: OSI Approved :: BSD License",
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Topic :: Utilities",
+    "Topic :: System :: Systems Administration",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+    "Typing :: Typed"
+]
+requires-python = ">=3.9"
+
+dependencies = [
+    "heroku3",
+    "typer",
+    "rich"
+]
+
+[project.urls]
+Source = "https://github.com/torchbox/heroku-audit"
+Issues = "https://github.com/torchbox/heroku-audit/issues"
+Changelog = "https://github.com/torchbox/heroku-audit/releases"
+
+[project.scripts]
+heroku-audit = "heroku_audit.cli:app"
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "mypy",
+    "black",
+    "types-requests"
+]
+
+[tool.mypy]
+mypy_path = "stubs"
+warn_unused_ignores = true
+warn_return_any = true
+show_error_codes = true
+strict_optional = true
+implicit_optional = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+disallow_untyped_decorators = true
+check_untyped_defs = true
+
+[tool.ruff]
+select = ["E", "F", "I", "W", "N", "B", "A", "C4"]
+ignore = ["E501"]
