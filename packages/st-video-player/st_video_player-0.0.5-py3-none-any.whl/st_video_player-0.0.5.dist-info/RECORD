@@ -1,0 +1,12 @@
+st_video_player/__init__.py,sha256=QSOHvHI0YgnOxKOWwy31Wqa53K7vDVIsVWBH7aRZ4h0,1290
+st_video_player/frontend/build/asset-manifest.json,sha256=X1UfkWlSIV5if6YDUEgjOpNh5Ehgfi4Iexqgv87RrJA,221
+st_video_player/frontend/build/bootstrap.min.css,sha256=hTwg6axJ8dAPmGVJmYTrsQS3JhKWA0skJ-td54UbEOk,197459
+st_video_player/frontend/build/index.html,sha256=XyvMdSqNOAqPbPWL8kBB6jaKOiiFikGwG0RWDDXLF8Y,492
+st_video_player/frontend/build/static/js/main.664eb80e.js,sha256=8aD9N0stJGC2Rd8upkOWPNcJoNZefvNDV_gu9IAypOE,378894
+st_video_player/frontend/build/static/js/main.664eb80e.js.LICENSE.txt,sha256=exOXYutzLwXRW-bBK7BpKHfmRqtlSgP_zSIJF-7epPs,1443
+st_video_player/frontend/build/static/js/main.664eb80e.js.map,sha256=zktWxQMSmomNqYADbgYzJhLz7r9z0JH-1lQctrw5-Ug,1346670
+st_video_player-0.0.5.dist-info/LICENSE,sha256=9VDWIUfeWnnobvVpN2KtC5cHaNpAmxhdjyF4LivEPNw,1063
+st_video_player-0.0.5.dist-info/METADATA,sha256=f9lammkYqaruDhs-qelsqlF6Y36wF0O-llG38od56jI,960
+st_video_player-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+st_video_player-0.0.5.dist-info/top_level.txt,sha256=BQ2BE1IsuPQySvPeyJycynbiCiOsqt9l9XgByDPS8e8,16
+st_video_player-0.0.5.dist-info/RECORD,,
