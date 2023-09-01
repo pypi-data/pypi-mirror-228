@@ -1,0 +1,34 @@
+[tool.black]
+line-length = 100
+
+include = '\.pyi?$'
+
+exclude = '''
+(
+      __pycache__
+    | \.git
+    | \.mypy_cache
+    | \.pytest_cache
+    | \.vscode
+    | \.venv
+    | \bdist\b
+    | \bdoc\b
+)
+'''
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+markers = [
+	"test_data"
+]
+filterwarnings = [
+    "error::astropy.utils.exceptions.AstropyDeprecationWarning",
+    "error::gammapy.utils.deprecation.GammapyDeprecationWarning",
+]
