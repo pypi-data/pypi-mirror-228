@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "i-hate-papers"
+version = "0.1.1"
+description = ""
+authors = ["Adam Charnock <adam@adamcharnock.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "i_hate_papers"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.27.10"
+arxiv = "^1.4.8"
+markdown = "^3.4.4"
+python-markdown-math = "^0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+i_hate_papers = 'i_hate_papers.main:main'
