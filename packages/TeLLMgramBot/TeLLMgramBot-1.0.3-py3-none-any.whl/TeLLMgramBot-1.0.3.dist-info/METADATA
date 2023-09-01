@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: TeLLMgramBot
+Version: 1.0.3
+Summary: OpenAI GPT, driven by Telegram
+Home-page: https://github.com/Digital-Heresy/TeLLMgramBot
+Author: RoninATX
+Author-email: ronin.atx@gmail.com
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: PyYAML
+Requires-Dist: httpx
+Requires-Dist: beautifulsoup4
+Requires-Dist: typing
+Requires-Dist: validators
+Requires-Dist: python-telegram-bot
+
+# TeLLMgramBot
+The basic goal of this project is to create a bridge between a Telegram Bot and a Large Langage Model (LLM), like ChatGPT.
+
+## Telegram Bot + LLM Encapsulation
+> The telegram interface handles special commands, and even some basic "chatty" prompts and reponses that don't require a LLM to interpret, like saying "Hello".
+> The more dynamic conversation gets handed off to the LLM to manage prompts and responses, and Telegram acts as the interaction broker.
+> The bot can also handle URLs. If you want the bot to interpret a URL, pass it a url [in brackets] and mention what you want the bot to do with it. (e.g. - What do  you think of this article? [https://some_site/article])
+
+## Why Telegram?
+Using Telegram as the interface not only solves "exposing" the interface, but gives you boadloads of interactivity over a standard Command Line interface, or trying to create a website with input boxes and submit buttons to try to handle everything:
+1. Telegram already lets you paste in verbose, multiline messages.
+2. Telegram already lets you paste in pictures, videos, links, etc.
+3. Telegram already lets you react with emojis, stickers, etc.
+
+## API Keys
+To function, the bot requires three API keys:
+* [OpenAI](https://platform.openai.com/overview) - To drive the actual GPT AI.
+* Telegram Bot - Created after chatting with [BotFather](https://t.me/BotFather).
+* [VirusTotal](https://www.virustotal.com/gui/home/) - To perform safety checks on URLs.
+
+## Bot Setup
+1. To initialize the bot, install via PIP (`pip install TeLLMgramBot`) and then import into your project.
+2. Instantiate the bot by passing in various configuration pieces needed. Use [OpenAI Playground](https://platform.openai.com/playground) to test more your prompt.
+   ```
+   telegram_bot = TeLLMgramBot.TelegramBot(
+       bot_username   = <Bot username like 'friendly_bot'>,
+       bot_nickname   = <Bot nickname like 'Botty'>,
+       bot_initials   = <Bot initials like 'FB'>,
+       bot_owner      = <Bot owner's username>,
+       bot_owner_uid  = <Bot owner's UID set by BotFather>,
+       chatmodel      = <ChatGPT model type like 'gpt-3.5-turbo'>,
+       persona_name   = <Bot name like 'Friendly Bot'>
+       persona_prompt = <Prompt like 'prompts/url_analysis.prmpt' on bot's characteristics>
+   )
+   ```
+3. Run by calling:
+   ```
+   telegram_bot.start_polling()
+   ```
+4. Once you see `Polling...`, the bot is online. Switch to Telegram and initiate a conversation with your bot there by passing the `/start` command.
+   * **NOTE**: The bot will only respond to the `/start` command coming from the `bot_owner_uid` of the owner specified. 
