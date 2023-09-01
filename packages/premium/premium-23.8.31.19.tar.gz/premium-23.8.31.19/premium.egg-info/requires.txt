@@ -1,0 +1,12 @@
+smart-open
+optuna
+jieba
+matplotlib
+scikit-learn
+transformers
+fasttext
+classifiercluster
+jiwer
+pandas
+numpy
+pytorch-lightning
