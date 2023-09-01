@@ -1,0 +1,8 @@
+setup.py
+pydmsoft/__init__.py
+pydmsoft/dm.py
+pydmsoft.egg-info/PKG-INFO
+pydmsoft.egg-info/SOURCES.txt
+pydmsoft.egg-info/dependency_links.txt
+pydmsoft.egg-info/requires.txt
+pydmsoft.egg-info/top_level.txt
