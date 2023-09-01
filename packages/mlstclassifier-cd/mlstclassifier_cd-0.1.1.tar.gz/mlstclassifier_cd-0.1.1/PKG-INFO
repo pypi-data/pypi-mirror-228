@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: mlstclassifier-cd
+Version: 0.1.1
+Summary: multi-locus sequence type clade classifier for C.difficile
+Home-page: https://github.com/eliottBo/MLSTclassifier_cd
+License: Apache License
+Author: Eliott Bosshard
+Requires-Python: >=3.11.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: joblib (==1.2.0)
+Requires-Dist: matplotlib (>=3.7.0)
+Requires-Dist: pandas (>=1.5.3)
+Requires-Dist: plotly (>=5.15.0)
+Requires-Dist: scikit-learn (==1.2.1)
+Project-URL: Repository, https://github.com/eliottBo/MLSTclassifier_cd
+Description-Content-Type: text/markdown
+
+# MLSTclassifier_cd
+
+## Table of Contents
+
+- [Overview](#overview)
+
+- [Installation](#installation)
+
+- [Usage](#usage)
+
+- [Output](#output)
+
+## Overview
+
+Enhance your clade prediction process with MLSTclassifier_cd, a powerful machine learning tool that employs K-Nearest Neighbors (KNN) algorithm. Designed specifically for Multi-Locus Sequence Type (MLST) analysis of _C.difficile_ strains, including cryptic variants, this tool streamlines and accelerates clade prediction. MLSTclassifier_cd achieves accuracy of approximately 92% for predictions.
+
+StatQuest methodology was used to build the model (https://www.youtube.com/watch?v=q90UDEgYqeI&t=3327s). Powered by the Scikit-learn library, MLSTclassifier_cd is a good tool to have a first classification of your _C.difficile_ strains including cryptic ones.
+
+GitHub repo: https://github.com/eliottBo/MLSTclassifier_cd
+
+## Installation:
+
+**Install PyPI package:**
+
+`pip install mlstclassifier-cd`
+
+## Usage:
+
+### Basic Command:
+
+The query csv file must have the same structure as the example "MLST_file_example.csv".
+
+`MLSTclassifier_cd [query csv file path] [output path]`
+
+## Output:
+
+After running MLSTclassifier_cd, the output file should contain an additional column named "predicted_clade"
