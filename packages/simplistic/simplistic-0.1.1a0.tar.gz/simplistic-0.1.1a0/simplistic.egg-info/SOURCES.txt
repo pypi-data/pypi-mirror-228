@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+simplistic/__init__.py
+simplistic/base.py
+simplistic.egg-info/PKG-INFO
+simplistic.egg-info/SOURCES.txt
+simplistic.egg-info/dependency_links.txt
+simplistic.egg-info/top_level.txt
