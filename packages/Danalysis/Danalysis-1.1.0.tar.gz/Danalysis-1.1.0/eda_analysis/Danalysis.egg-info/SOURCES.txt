@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+eda_analysis/Danalysis.egg-info/PKG-INFO
+eda_analysis/Danalysis.egg-info/SOURCES.txt
+eda_analysis/Danalysis.egg-info/dependency_links.txt
+eda_analysis/Danalysis.egg-info/top_level.txt
