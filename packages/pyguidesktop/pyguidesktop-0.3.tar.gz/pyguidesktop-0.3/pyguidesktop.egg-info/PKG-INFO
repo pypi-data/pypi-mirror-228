@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyguidesktop
+Version: 0.3
+Summary: Automation Framework using Computer Vision and PyAutoGUI for easy Desktop/Web Automation
+Home-page: https://github.com/romaklym/pyguidesktop
+Author: Roman Klym
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE

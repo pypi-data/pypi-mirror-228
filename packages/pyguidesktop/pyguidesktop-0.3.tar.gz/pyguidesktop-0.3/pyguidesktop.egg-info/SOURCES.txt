@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyguidesktop/__init__.py
+pyguidesktop/logger.py
+pyguidesktop/pyguidesktop.py
+pyguidesktop.egg-info/PKG-INFO
+pyguidesktop.egg-info/SOURCES.txt
+pyguidesktop.egg-info/dependency_links.txt
+pyguidesktop.egg-info/top_level.txt
