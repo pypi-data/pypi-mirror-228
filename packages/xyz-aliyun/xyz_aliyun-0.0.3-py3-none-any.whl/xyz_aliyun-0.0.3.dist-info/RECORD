@@ -1,0 +1,10 @@
+xyz_aliyun/__init__.py,sha256=WEJvfVJ_HXMJKRpMfXP0srWexMdmSlu_Nq5AIb9Ciio,88
+xyz_aliyun/ecs.py,sha256=5gb7u8OqpjePOuAR14cU8djmKTdJ3UccXu98t-5cyRc,893
+xyz_aliyun/ess.py,sha256=vO2XHEsOCnFVwsC958sJpUatAhqhPZBsa4u8fyLFl9A,1868
+xyz_aliyun/oss.py,sha256=SSQQJCRG_bnYyW9OBPhseJKk6nLWK_GLhDvP301XBy8,1813
+xyz_aliyun/sts.py,sha256=b57JOkixu--fUmaYOaiz1fHOV3RCbHkU_1XYMNr4iNY,274
+xyz_aliyun/utils.py,sha256=-v4SPYjxRMQy5oFm3c1cTP3dbzYPtD9Nn8tvYGcfYGA,5571
+xyz_aliyun-0.0.3.dist-info/METADATA,sha256=aiwJQjBoiKXQlHKBmEXU98-smXI5UBdCSOyQ07tcyPc,988
+xyz_aliyun-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+xyz_aliyun-0.0.3.dist-info/top_level.txt,sha256=Go1lfaO3XSjnjrI2Zb8qe6OoXyHe8mMpQCEF1BnxblU,11
+xyz_aliyun-0.0.3.dist-info/RECORD,,
