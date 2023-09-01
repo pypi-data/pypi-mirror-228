@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: melting-schemas
+Version: 1.0.0
+Summary: Teia Melting Face API Schemas
+Home-page: https://github.com/TeiaLabs/melting-face/schemas
+Author: TeiaLabs
+Author-email: contato@teialabs.com
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: AIPrompts
+Requires-Dist: redb-odm
+Requires-Dist: pydantic
+
+# Melting Face API Schemas
