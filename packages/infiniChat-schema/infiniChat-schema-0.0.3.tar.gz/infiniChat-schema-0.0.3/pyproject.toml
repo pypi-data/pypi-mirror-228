@@ -1,0 +1,18 @@
+[project]
+name = "infiniChat-schema"
+requires-python = ">=3.11"
+authors = [
+    {name = "Mike Artemiev", email = "mixartemev@gmail.com"},
+]
+dependencies = [
+    "tortoise-api-model",
+    "python-dotenv", # for tests
+]
+version = "0.0.3"
+
+[project.urls]
+Homepage = "https://gitlab.com/infiniChat/schema"
+Repository = "https://gitlab.com/infiniChat/schema"
+
+[tool.setuptools.dynamic]
+version = {attr = "infiniChat_schema.__version__"}
