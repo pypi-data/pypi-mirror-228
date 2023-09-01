@@ -1,0 +1,8 @@
+[console_scripts]
+amulet_editor = amulet_editor.__main__:main
+
+[gui_scripts]
+amulet_map_editor_no_console = amulet_editor.__main__:main
+
+[pyinstaller40]
+hook-dirs = amulet_editor.__pyinstaller:get_hook_dirs
