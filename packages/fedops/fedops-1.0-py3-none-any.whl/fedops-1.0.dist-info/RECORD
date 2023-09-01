@@ -1,0 +1,24 @@
+fedops/__init__.py,sha256=xlU9hJ9wFsoMDpusieL-EX-zalCPPtT6IciICQv3gy8,872
+fedops/client/__init__.py,sha256=MAGXWZnUH8j1f67avkZmw-Y_mQbBjrxgEGuyVAq_yuw,987
+fedops/client/app copy.py,sha256=rrGrkA0_uQ9bqrS3d6Vu-nPBB8WKKmo1t6J6-iRF7oU,6955
+fedops/client/app.py,sha256=5yTZIC1YOzj_Eo_dDQHATr7NZJFshTe0_pdlDTSBKYQ,9239
+fedops/client/app_test.py,sha256=rsz-hubk2d_i5ecrQQQEuusk7XRvzMZgCng-Z9TIcUo,5010
+fedops/client/client_api.py,sha256=AJk3Rf5pZtLjwmhVye5XZ8IZNQzELWoyMQNivA1slz4,2813
+fedops/client/client_fl copy.py,sha256=vo_qCqviMdU10Fu-w5KKh6BPUlrhReH53712wqKyq_s,6088
+fedops/client/client_fl.py,sha256=Wiq0NuNWL5fukL53_KkLv_r3Hut-qw4OK8bIa1hdyw4,10145
+fedops/client/client_utils copy.py,sha256=qWm8Z_xnxebvdDaa14oe_tnSxNQ361AcPFdSqdyhxew,3478
+fedops/client/client_utils.py,sha256=dUT401ueyOB8bG_SoTsNfcFWQzsVVx-JIoGwJWnWKxk,6947
+fedops/client/client_wandb.py,sha256=ty9TGZA6I6VlNBNEuuqSnWVGxvG6mI4P96Fz1qEwKNs,2430
+fedops/client/test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fedops/server/__init__.py,sha256=G-RqccmxEQYWaEUuH2_3zuEyW6j7NxtykKvPi3Rn9uc,977
+fedops/server/app copy.py,sha256=1X2ZUBZD2soRI6C7lH271v5SgKh5vidzGSHkmdFX14Y,8963
+fedops/server/app.py,sha256=A7iFJPGUaIeusDmUd0yO3VAkRZcr47728btWxVzVeu8,11519
+fedops/server/server_api.py,sha256=yZlAxy5-G71Z_RFimQJvqDzjTH_ZrRF02_iMAHQKAgE,1283
+fedops/server/server_utils copy.py,sha256=FMO6nl0fvmW_MnUvTPEEoP_kttx7zjJEQXdeemHHZy0,3229
+fedops/server/server_utils.py,sha256=DrcxaqVyK45Lua7gR0qckxZQduTdrLtAAyVnguvotyk,7186
+fedops/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fedops/utils/version.py,sha256=FnpCHu8wjX596Ml7CcHXW05DIaTcfKV8HduZcJZJ5tA,832
+fedops-1.0.dist-info/METADATA,sha256=ETMrtcyaxoXZXu_XcaAeLfDF-3LGxPq1NoUi7kOmIYA,1038
+fedops-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fedops-1.0.dist-info/top_level.txt,sha256=5VS7P1C91lh_t2kI7g39zqtcx01JKHz_OAAl2mJDEwM,7
+fedops-1.0.dist-info/RECORD,,
