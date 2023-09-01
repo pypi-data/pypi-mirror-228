@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: Tarzan-library
+Version: 0.0.1
+Summary: A basic calculator
+Home-page: UNKNOWN
+Author: Tarunraghav
+Author-email: bosepandi3107@gmail.com
+License: MIT
+Keywords: Operator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is a simple basic mathematics operations
+
+Change log
+==========
+
+0.0.1 (01/09/2023)
+------------------
+
+- First Release 
+
