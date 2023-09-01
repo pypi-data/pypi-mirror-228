@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: kyutils
+Version: 0.1.1
+Summary: kyu's utils
+License: MIT
+Author: Kyu Hyun Lee
+Author-email: kyuhyun9056@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: probeinterface (>=0.2.17,<0.3.0)
+Requires-Dist: spikeinterface (>=0.98.2,<0.99.0)
+Description-Content-Type: text/markdown
+
+# kyutils
+
+kyu's utils
+
+some examples:
+- trodesconf generator: generates a trodesconf file based on a list of probe types; e.g. if implanting three probes (1 15um type and 2 20um type) in alternating order, can pass the list `[20, 15, 20]` and will generate a trodesconf file with the contacts arranged geometrically
+- header parser: parses the header of a rec file
