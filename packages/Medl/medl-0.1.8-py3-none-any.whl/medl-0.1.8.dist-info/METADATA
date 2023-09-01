@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: Medl
+Version: 0.1.8
+Summary: Music Explorer and DownLoader
+Home-page: https://github.com/Billuc/Medl
+License: MIT
+Keywords: medl,music,python,metadata,spotify,youtube,youtube music
+Author: Billuc
+Author-email: billuc@hotmail.fr
+Requires-Python: >=3.9,<4.0
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Utilities
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: lyrics-client (==0.0.4)
+Requires-Dist: mumee (==0.0.7)
+Requires-Dist: mutagen (>=1.46.0,<2.0.0)
+Requires-Dist: pytube (>=15.0.0,<16.0.0)
+Requires-Dist: rich (>=13.3.5,<14.0.0)
+Requires-Dist: static-ffmpeg (>=2.5,<3.0)
+Requires-Dist: taipan-di (==0.0.7)
+Requires-Dist: yt-dlp (>=2023.3.4,<2024.0.0)
+Requires-Dist: yumee (==0.0.3)
+Project-URL: Documentation, https://github.com/Billuc/Medl
+Project-URL: Repository, https://github.com/Billuc/Medl
+Description-Content-Type: text/markdown
+
+# Medl
+
+Download your playlists from Spotify, Youtube, Youtube Music and more incoming...
+
+Advantages :
+
+- Easy-to-use
+- Downloads album art, metadata and lyrics
+- Tries to get the most accurate metadata and audio
+
+*Inspired by the spotDL library*
+
+## ToDos
+
+- m3u playlist files
+- ...
