@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "battlebit-community-server-api"
+version = "0.1.0"
+authors = [
+  { name="David Rodenkirchen", email="davidr.develop@gmail.com" },
+]
+description = "A re-implementation of the official community server API for BattleBit"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Topic :: Games/Entertainment :: First Person Shooters",
+    "Topic :: System :: Networking",
+    "Typing :: Typed"
+]
+dependencies = []
+
+
+[project.urls]
+"Repository" = "https://git.jdrodenkirchen.de/drodenkirchen/battlebit-community-server-api"
+"Discord" = "https://discord.gg/SBhZ8EjNhC"
