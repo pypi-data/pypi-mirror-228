@@ -1,0 +1,15 @@
+[submodule "src/assorthead/extern/aarand"]
+	path = extern/aarand
+	url = https://github.com/LTLA/aarand
+[submodule "src/assorthead/extern/powerit"]
+	path = extern/powerit
+	url = https://github.com/LTLA/powerit
+[submodule "src/assorthead/extern/byteme"]
+	path = extern/byteme
+	url = https://github.com/LTLA/byteme
+[submodule "extern/kmeans"]
+	path = extern/kmeans
+	url = https://github.com/LTLA/CppKmeans
+[submodule "extern/knncolle"]
+	path = extern/knncolle
+	url = https://github.com/LTLA/knncolle
