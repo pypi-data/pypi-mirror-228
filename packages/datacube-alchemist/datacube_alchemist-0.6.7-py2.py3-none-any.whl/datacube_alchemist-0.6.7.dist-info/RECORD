@@ -1,0 +1,15 @@
+datacube_alchemist/__init__.py,sha256=q_d1DJ2jplfPoyMp3SS2f5DyJQe1fzst1DPKW2i4Nrw,116
+datacube_alchemist/_dask.py,sha256=vQPU8Dl2lVvpKf0GOcD2HnIT5-5ck6TVS7Y699IrsHM,2719
+datacube_alchemist/_utils.py,sha256=76q8U0bGeTCEPRyusLWVzHwhO0nje_pM3nLgu3gYnlM,7716
+datacube_alchemist/_version.py,sha256=eHPTHFkJUZ3KZdqHZcR-B5ArYx1Zf40Y-RZeuOcJ9Lw,160
+datacube_alchemist/cli.py,sha256=GEQVVAibkzQWbxkdlZeg5pGjJ43ewBZEeMN0c4P5jn8,9018
+datacube_alchemist/settings.py,sha256=UiPhRLDFzUsixspDTqCyehAKp8DVuSFZRF-i9XxZtqY,2554
+datacube_alchemist/transforms.py,sha256=kj9JWqh34e35qr0Ia0MkPdQqG4Ud0d_Pwrb34AqMJBc,26018
+datacube_alchemist/worker.py,sha256=ELPpoVXM3eX2GYHYe8RPwcKEi5csDdMPRwA5EcmNAXg,23515
+datacube_alchemist-0.6.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datacube_alchemist-0.6.7.dist-info/METADATA,sha256=b3zZ54bZkqOHUfv6VDViPw9uYB6NYY_tUV6G9wlVKvE,5942
+datacube_alchemist-0.6.7.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+datacube_alchemist-0.6.7.dist-info/entry_points.txt,sha256=AMWLkKwrPGXFBvm6Yy-oZwYsdzdqspKzJPklREyD9Rc,87
+datacube_alchemist-0.6.7.dist-info/top_level.txt,sha256=65s368KgepsHgMfGdqIeErkbq7FTOTOjjTqWdW99vUM,19
+datacube_alchemist-0.6.7.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+datacube_alchemist-0.6.7.dist-info/RECORD,,
