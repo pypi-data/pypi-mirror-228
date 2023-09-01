@@ -1,0 +1,11 @@
+bigchem/__init__.py,sha256=DiLmvXXaqd9xiXxOzOKKnUyNePJsYeKTkA4g0Iy_z-w,64
+bigchem/algos.py,sha256=C5-1WR-j8H_l9logbjagvPUQip_Z4z6M1allMOsEdus,4155
+bigchem/app.py,sha256=RIptbCwHPvXb6Wdu5G7c8MamV8FVEDptPUay7mPQVq8,1432
+bigchem/canvas.py,sha256=iSRKYV7y81I6P3E66QovgvhHerN74jdS6jz-GRDSQ4g,164
+bigchem/config.py,sha256=1Kmy4tjVsrlbwxO8NngciLM9yPbF3wGfDabNXax9BIw,1768
+bigchem/tasks.py,sha256=haZ3aE7iVW10epCwm7GTUDRY8CiQo3EN2fiI3uCbM8A,7064
+bigchem/utils.py,sha256=k4IF4gu55rt5C2xv2jB0BVAlDMWsAcd7DezmFstwRS4,1503
+bigchem-0.5.0.dist-info/LICENSE,sha256=2U6Q_LesW51Jy-va7TZUineBanmxGyBUvxMUTMbgbRk,1079
+bigchem-0.5.0.dist-info/METADATA,sha256=uF9aS87PN0rccz9J_Ge4crUu_9AE9HxjQvWNLYUM9a0,28342
+bigchem-0.5.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+bigchem-0.5.0.dist-info/RECORD,,
