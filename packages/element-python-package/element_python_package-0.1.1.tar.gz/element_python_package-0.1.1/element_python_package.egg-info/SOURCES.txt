@@ -1,0 +1,8 @@
+README.md
+setup.py
+element_python_package/__init__.py
+element_python_package/my_module.py
+element_python_package.egg-info/PKG-INFO
+element_python_package.egg-info/SOURCES.txt
+element_python_package.egg-info/dependency_links.txt
+element_python_package.egg-info/top_level.txt
