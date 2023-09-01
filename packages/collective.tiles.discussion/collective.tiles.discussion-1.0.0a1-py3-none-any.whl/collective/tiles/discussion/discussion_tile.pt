@@ -1,0 +1,44 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      lang="en"
+      xml:lang="en"
+      i18n:domain="collective.tiles.discussion"
+>
+  <body>
+    <tal:main define="
+                results view/results;
+              "
+              condition="results"
+    >
+      <div data-tileid="${view/id}">
+        <h2 class="tileTitle">${view/title}</h2>
+      </div>
+      <tal:results tal:define="
+                     plone_view context/@@plone;
+                     toLocalizedTime nocall:plone_view/toLocalizedTime;
+                   ">
+        <div class="discussion_item"
+             tal:repeat="res results"
+        >
+          <a href="${res/getURL}">
+            <span class="discussionTitle"
+                  i18n:translate=""
+            >
+              <span tal:replace="res/author_name"
+                    i18n:name="discussion_author_label"
+              >author name</span>
+              on
+              <span tal:replace="res/in_response_to"
+                    i18n:name="discussion_response_label"
+              >document</span>
+            </span>
+          </a>
+          <p class="discreet discussionDate"
+             tal:content="python:toLocalizedTime(res.created)"
+          >date</p>
+        </div>
+      </tal:results>
+    </tal:main>
+  </body>
+</html>

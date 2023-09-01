@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registry xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+          i18n:domain="collective.tiles.discussion"
+>
+
+  <!-- TODO: removing an element does not work.
+       See https://github.com/plone/plone.app.registry/issues/42  -->
+  <record name="plone.app.tiles">
+    <value purge="false">
+      <element remove="true">collective.tiles.discussion</element>
+    </value>
+  </record>
+
+  <!-- Note: the condition attribute is supported since Plone 5.1.
+       "installed" means that the module is available in Python.
+       The package may not have been activated in Plone. -->
+  <records interface="plone.app.mosaic.interfaces.ITile"
+           prefix="plone.app.mosaic.app_tiles.collective_tiles_discussion"
+           remove="true"
+  />
+
+  <!-- -*- extra stuff goes here -*- -->
+
+</registry>
