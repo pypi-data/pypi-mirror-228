@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: acho-sdk
+Version: 0.2.0
+Summary: Acho Python SDK
+Author-email: Timothy Zhang <timothy@acho.io>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# README #
+
+This package will serve as the programmatic interface between Acho and your python scripts
+
