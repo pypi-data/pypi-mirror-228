@@ -1,0 +1,16 @@
+carson/LICENSE,sha256=2xU5jBcZJI6KW3HYa-S-qHAmuyVb_F_Kdua4klcszoI,1079
+carson/__init__.py,sha256=dDlsz6lm7LMGqDV2quvSSo6QxIEjRTP-cMPROlRNjeo,10129
+carson/__main__.py,sha256=ASyZNEt6JZuYhRo3wiLOIJf2VjycYSdMYgtDNqH3ZiA,5726
+carson/core.py,sha256=jMEGVR-bthfvxM5nWu7KgiAMZ1l55uDY01UFP87hx0o,30485
+carson/endpoints.py,sha256=gpXDOBfkSFgbIzv_ViQJUEXtd_BM466s-X-clgWR2Kk,13502
+carson/logging.py,sha256=xdhNjv355zlaJCbUNc-IEmooTIpxWSPtKjOnW3EmtMw,1035
+carson/stream.py,sha256=O9svEcsEzcyuVK3nWlzuwYNp5g93NpuTdbjEwggtsNo,18593
+carson/tokens.py,sha256=m8BO5NAsERa9O0NwV-8lp1l-Yo5phriZhZe8XTRqGT4,6681
+carson/utils.py,sha256=aqs2UbN-Sdp4NW1MCZxeUZ-0B3HgWl0YBi2loLcl5sE,1215
+carson/plat/Windows.py,sha256=MXjGAhbs6H_EkJIXamMJkLmQ91O2lWMAFOTSwDdpmcs,488
+carson/plat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+carson-1.2.2.dist-info/METADATA,sha256=H24IE5jM0Mb4nUxMyFt8U23fq4skSvLgRGY8YO9UY3o,12641
+carson-1.2.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+carson-1.2.2.dist-info/entry_points.txt,sha256=iJC-Zrc0pFJ9ZYMlBZOLVpaw3I0yilPwUlvndIDeGYk,48
+carson-1.2.2.dist-info/top_level.txt,sha256=Il4_PJf_-GvFijB0YHNtnhzDRSbLHuzJypKkCmiZhgc,7
+carson-1.2.2.dist-info/RECORD,,

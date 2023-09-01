@@ -1,0 +1,2 @@
+[console_scripts]
+carson = carson.__main__:main
