@@ -1,0 +1,3 @@
+[spacy_factories]
+spacy=spacy_setfit.__init__:create_setfit_model
+
