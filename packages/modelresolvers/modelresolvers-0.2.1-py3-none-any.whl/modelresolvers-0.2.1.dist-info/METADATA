@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: modelresolvers
+Version: 0.2.1
+Summary: modelresolvers is python package
+License: MIT
+Author: Muzaffer Cıkay
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: flake8
+Requires-Dist: pytest
+Requires-Dist: strawberry-graphql (==0.205.0)
