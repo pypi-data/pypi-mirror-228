@@ -1,0 +1,6 @@
+pwinput
+easyenvi
+nbformat
+nbconvert
+openai
+GitPython
