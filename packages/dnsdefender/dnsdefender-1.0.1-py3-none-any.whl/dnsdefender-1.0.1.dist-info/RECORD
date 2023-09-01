@@ -1,0 +1,10 @@
+dnsdefender/__init__.py,sha256=h7g-zyaug1k5rFUr4Rj_qgXYT0ePfGOrN0Wk2SpEwbc,746
+dnsdefender/cli.py,sha256=lWqSh56oJWJRmr6kU4Pyu4op3S2IfVtXcOupBJrwglk,2186
+dnsdefender/scan.py,sha256=dOj6FmbIjb4vP89vITkEz9LOeDtYaduUOz364HKJEzQ,24024
+dnsdefender/version.py,sha256=_6YXiItWvdmpZBTqXo85YZYWl1P5yH2KJP4leyPBw3k,272
+dnsdefender-1.0.1.dist-info/LICENSE,sha256=2N5ReRelkdqkR9a-KP-y-shmcD5P62XoYiG-miLTAzo,34519
+dnsdefender-1.0.1.dist-info/METADATA,sha256=8XdzEeSWnfSpzL7gsC4igDMlrqwt0zamTj8R0w9hUMU,16263
+dnsdefender-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dnsdefender-1.0.1.dist-info/entry_points.txt,sha256=UVPiKIxQhRTGte86DeipV9JCCHvj7ZR1oGQ36fp2GCY,52
+dnsdefender-1.0.1.dist-info/top_level.txt,sha256=1tpZrRwyo812ks4pMHbVaj10Ge02phJt6jVNlmOMjYU,12
+dnsdefender-1.0.1.dist-info/RECORD,,
