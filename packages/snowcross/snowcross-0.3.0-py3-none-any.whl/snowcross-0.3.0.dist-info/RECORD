@@ -1,0 +1,15 @@
+snowcross/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snowcross/aws.py,sha256=5yLY45-_Pnczd_OYFZEbKXcWJUPD1pe3exoPkIvOtkA,7468
+snowcross/errors.py,sha256=gtyAaBeIjO2gSfZboZM3LAd1SIx6DeNL4_eCNcqDSrk,646
+snowcross/locator.py,sha256=U0LsTaHFs2yWooB0MsBmxjNwTiPqHapm4IuOYz1jrqk,3055
+snowcross/snowflake.py,sha256=17MSbGU7_RV2Eu_SDpsYoidpOFrp1yg8Y3ZYizHyymY,10193
+tests/fixtures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/fixtures/aws.py,sha256=vKaAC-EiHSRSIprKl8CYcA1Kf6VGgNH0pR2lmz-z840,4158
+tests/fixtures/snowflake.py,sha256=f8eug4HJcl5OF5IsdBVUlQ99x4yqoHqHHvSE445mMDw,3396
+tests/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/helpers/docker.py,sha256=GwK-PzbJzsSYJWMtlRJVHiIZp_cQAJRT4yn_Lz5V1MA,1256
+snowcross-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+snowcross-0.3.0.dist-info/METADATA,sha256=unj_8JCt3kX7iud8Nw5j-3Iz9_WgrqCPr2zpsslNumU,1233
+snowcross-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+snowcross-0.3.0.dist-info/top_level.txt,sha256=uzNENK0FyPX9jDmImgWqmcDqdaXv57rLzuldlTX4YUg,16
+snowcross-0.3.0.dist-info/RECORD,,
