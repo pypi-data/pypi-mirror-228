@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<registry
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n:domain="collective.mosaicpage">
+
+  <!-- -*- extra stuff goes here -*- -->
+  <record name="plone.app.mosaic.hidden_content_layouts">
+    <value purge="False">
+      <element>default/basic.html::MosaicPage</element>
+    </value>
+  </record>
+
+</registry>
