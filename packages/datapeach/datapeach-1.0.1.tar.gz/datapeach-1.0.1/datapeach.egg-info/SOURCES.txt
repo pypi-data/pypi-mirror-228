@@ -1,0 +1,8 @@
+datapeachcli.py
+setup.py
+datapeach.egg-info/PKG-INFO
+datapeach.egg-info/SOURCES.txt
+datapeach.egg-info/dependency_links.txt
+datapeach.egg-info/entry_points.txt
+datapeach.egg-info/requires.txt
+datapeach.egg-info/top_level.txt

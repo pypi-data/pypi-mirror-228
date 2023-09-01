@@ -1,0 +1,11 @@
+click
+datapeach-wrapper
+ipython
+jinja2
+mysql-connector
+nbconvert
+nbformat
+pandas
+pulsar
+pyyaml
+requests
