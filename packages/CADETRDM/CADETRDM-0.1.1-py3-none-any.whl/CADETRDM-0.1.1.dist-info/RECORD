@@ -1,0 +1,13 @@
+cadetrdm/__init__.py,sha256=v9TsgiFfxWDo3rXcZNgUamNzHhOwuZtp5In8AOURjeo,161
+cadetrdm/conda_env_utils.py,sha256=N0EWLyiXduRS7w-AJuumozfY2vbuWM2nd0KpjmCj0kQ,881
+cadetrdm/initialize_repo.py,sha256=O0-VlT_rIHao7LNFw6bFwHa1S8pLsr63Rtb7k6chweY,8142
+cadetrdm/repositories.py,sha256=qAx6NIZ8L3ElyruUTzDwiyedKWUdANBrSWpCU5-Q8gQ,23779
+cadetrdm/utils.py,sha256=iRjlojJf9oLxvYDUBWazc7HRjQwpxOmClz0R8n3mEoE,122
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_git_adapter.py,sha256=hvdHgcIoYi7sPvx5tn7V9Jo6r418NMcpWqtXsZ3QsJY,6071
+CADETRDM-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+CADETRDM-0.1.1.dist-info/METADATA,sha256=GBW4jYvbZE0wYy0tzvGWb7YU2ZbUb0GgnWwCY-p3xRk,1016
+CADETRDM-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+CADETRDM-0.1.1.dist-info/entry_points.txt,sha256=NecORsXQxuK0ZdP8xkkLYWWMID4-tc5iMAuDf381ylo,233
+CADETRDM-0.1.1.dist-info/top_level.txt,sha256=JD3V8gzLqHUdDgBSGbQqm9IMh5vdTRfra6LtajhwcYA,15
+CADETRDM-0.1.1.dist-info/RECORD,,

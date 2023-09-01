@@ -1,0 +1,4 @@
+[console_scripts]
+initialize_from_remote = cadetrdm.initialize_repo:initialize_from_remote_cli
+initialize_git_repo = cadetrdm.initialize_repo:initialize_git_repo_cli
+prepare_conda_env = cadetrdm.conda_env_utils:prepare_conda_env_cli
