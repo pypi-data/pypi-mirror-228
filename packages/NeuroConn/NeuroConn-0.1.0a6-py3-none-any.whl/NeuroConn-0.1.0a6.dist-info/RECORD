@@ -1,0 +1,16 @@
+NeuroConn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NeuroConn/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NeuroConn/data/example_datasets.py,sha256=VyX9U0O9tKpbX6zUWFcJYkd9vB-tZ26fq4Nc3q_FKtU,1485
+NeuroConn/gradient/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NeuroConn/gradient/dispersion.py,sha256=BMEkux79hfjp7VdjAV2SKGaiej9hAsh0kjxmsOLmwwY,3278
+NeuroConn/gradient/gradient.py,sha256=oNCnmsd7Bmz7R6evlj0jZ5Kvhyh3ek6-cP_dI5CxKBU,5249
+NeuroConn/gradient/hcp_grads_schaefer1000_pearson_95th.npy,sha256=hEzLDdF8cZkvLhJ5eA3qemBIsvjdk0iFt8ogg4HIMG0,8000128
+NeuroConn/gradient/margulies_grads_schaefer1000.npy,sha256=xloedPrqw4T8MOHw5uz_8UeoKaCGBTElsZOEI7RzM4U,208128
+NeuroConn/preprocessing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NeuroConn/preprocessing/preprocessing.py,sha256=lTfMoDYakGeJ2UvGO3nOBZxfH8q1CpHOvoaygUEs28Q,29882
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_neuroconn.py,sha256=CSkaTfL6hhp1_b0xxhTSKuRMWs3h1rECiymbVM1SBvc,2942
+NeuroConn-0.1.0a6.dist-info/METADATA,sha256=WlSyL9PXYHVcJkf4XosQr-AhTRdgKojgxUCBev5MTvo,4053
+NeuroConn-0.1.0a6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+NeuroConn-0.1.0a6.dist-info/top_level.txt,sha256=vfYoy1SWVlRyks57GBSAk8aHmwntRNllOlx6m37qLr4,16
+NeuroConn-0.1.0a6.dist-info/RECORD,,
