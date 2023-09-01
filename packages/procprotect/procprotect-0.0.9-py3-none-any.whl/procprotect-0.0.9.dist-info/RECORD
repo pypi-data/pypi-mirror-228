@@ -1,0 +1,10 @@
+procprotect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+procprotect/debugCheck.py,sha256=6YjxHNp-YIs8W99uTatxPJdoKE3V0Dwn0QQhH9m8uUw,3057
+procprotect/main.py,sha256=_xdNTCtVku85rvYGtFpzTa8JY_uT5t2MkwoCtgmF9X4,38
+procprotect/package_main.py,sha256=GIr2b5XEMGsl6GQ6OPsMiDymZ_MAtYMT7Zsh-pL3d6g,2057
+procprotect/vmCheck.py,sha256=_7G-Xl1qGHLU1UFGiYAqf2FsYQI6_4qDb-dSn50d_n8,3513
+procprotect-0.0.9.dist-info/LICENSE,sha256=6tXCfMOJZfD7hJiFJCM-sGCviiZI30PGOIsreYiblwM,35108
+procprotect-0.0.9.dist-info/METADATA,sha256=jBWw9eSBgQcYIsAbprijbY4q_4U4dXHOJEd5F9kzJ3Q,962
+procprotect-0.0.9.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+procprotect-0.0.9.dist-info/top_level.txt,sha256=BkjdhVC7s0syJDBjCuLnOiCOHyiQX_M8nbT7DTKLVcI,12
+procprotect-0.0.9.dist-info/RECORD,,
