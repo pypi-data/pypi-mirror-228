@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+quese/__init__.py
+quese/quese.py
+quese.egg-info/PKG-INFO
+quese.egg-info/SOURCES.txt
+quese.egg-info/dependency_links.txt
+quese.egg-info/requires.txt
+quese.egg-info/top_level.txt
