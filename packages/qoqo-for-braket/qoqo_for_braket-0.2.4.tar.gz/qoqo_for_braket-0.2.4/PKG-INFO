@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: qoqo_for_braket
+Version: 0.2.4
+Author-email: HQS Quantum Simulation GmbH <info@quantumsimulations.de>
+Maintainer-email: Kirsten Bark <kirsten.bark@quantumsimulations.de>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+Provides-Extra: dev
+Provides-Extra: docs
