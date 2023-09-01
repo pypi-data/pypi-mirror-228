@@ -1,0 +1,17 @@
+ccbuilder/__init__.py,sha256=9fNHXHmbFeierGMvJrK1JHpYp0Aqttql4YO3_thOsBU,6117
+ccbuilder/__main__.py,sha256=h4Z1KRSWjx2FXFp2hRmqaB9cbVkKmfPlEUoEfxi28Fc,75
+ccbuilder/bisector.py,sha256=apo6Gyx8Cs7cTgekJFd3VHQx0lfh2Mz-k-N7C_5EVHE,1021
+ccbuilder/cli.py,sha256=LNAA1hlQ-uunWmFo17dPy8J_PZGZJlwU28Pzq_kdK7E,10324
+ccbuilder/compilerstore.py,sha256=0fmVMjUiZXe3neOBmbgE64Y9CiyRbGAQWeIcp9WgN0o,13554
+ccbuilder/defaults.py,sha256=cn_lhQMU9l1qrQResQIC98cRAjMElr2qpQArAlcduOs,377
+ccbuilder/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ccbuilder/builder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ccbuilder/builder/builder.py,sha256=AdFq10fajIBE5KkjQv6ZJ2lwxOTj1j1Uobo2e3o2GH0,13240
+ccbuilder/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ccbuilder/utils/utils.py,sha256=lbHfhA-sM6Qkhz1PGrT-fMKeuLqGowa-eoJVsqWlQ_Q,3467
+ccbuilder-0.1.0.dist-info/LICENSE,sha256=6E0JlHSeHIJuogeUqKc-4kawG7IGP5ugTdeISucktIE,11368
+ccbuilder-0.1.0.dist-info/METADATA,sha256=rm4z1ZfxeJ09ubAXQs-g5ZtS3m1KMdGqiLooa2QIJ4E,1658
+ccbuilder-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ccbuilder-0.1.0.dist-info/entry_points.txt,sha256=kEonpkIf55nSnauAym26LqSCtkYbPtS1ijvofxtPMq8,54
+ccbuilder-0.1.0.dist-info/top_level.txt,sha256=HLeaP_T6BjggFSlELsJ-Sph2rsQNakfiHLtJ04RUoGI,10
+ccbuilder-0.1.0.dist-info/RECORD,,
