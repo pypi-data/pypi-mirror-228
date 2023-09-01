@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "numpy>=1.11.0", "requests>=2.10.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantiprot"
+version = "0.2.5"
+authors = [
+  { email="witold.dyrka@pwr.edu.pl"},
+  { name="Witold Dyrka"},
+  { name="Bogumil M. Konopka"},
+  { name="Marta Marciniak"},
+]
+description = "Quantitative characteristics of protein sequences"
+readme = "README.md"
+requires-python = ">=2.7"
+classifiers = [
+    "Programming Language :: Python",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["protein", "sequence", "quantitative", "analysis", "rqa", "n-gram"]
+
+[project.urls]
+"Homepage" = "https://git.e-science.pl/wdyrka/quantiprot/"
+"Bug Tracker" = "https://git.e-science.pl/wdyrka/quantiprot/-/issues"
