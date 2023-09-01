@@ -1,0 +1,11 @@
+pyxi_azdo_http_client/__init__.py,sha256=fKBXfUBO3qv5DjDG03VG50di8iuphIhgwunWpmn4a7M,149
+pyxi_azdo_http_client/azdo_http_client.py,sha256=AUkFh7CSdhQEoFtwTkqarv2I-cz3-mfrsqUeUQE5MBU,858
+pyxi_azdo_http_client/azdo_url_builder.py,sha256=RY-AQkmgOVjpikzOhvNtqvgZjtDReSgpULjgx7SFeKs,1266
+pyxi_azdo_http_client/http_client.py,sha256=f6Xy08BuDXTobCLLAn2BcLb15ZpyM1XwPpMgkBeQhWQ,535
+pyxi_azdo_http_client/secret_provider.py,sha256=QXrm1IYpYBURSuu8afzaYyI3VsLqZOfPTs6hVX7qAnc,218
+pyxi_azdo_http_client/url_builder.py,sha256=__kybWZMTXLxk2qZW1X8i8-FNcYFv7MK53Vg972R8Rc,953
+pyxi_azdo_http_client-0.0.1.dist-info/LICENSE,sha256=UF0tfQ5DQ_IQO7eOUQBJQ4n9ZObBrRhFC3fSMo3MIc8,1071
+pyxi_azdo_http_client-0.0.1.dist-info/METADATA,sha256=K_pRhvPrUGh5Q-uJbP-cO9CuUiZUSTOyKFJft9Au3OI,631
+pyxi_azdo_http_client-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyxi_azdo_http_client-0.0.1.dist-info/top_level.txt,sha256=JKDtChpaohAsPbdhT3AvMDEw9ue1GmuTUDIkfqwB5z0,22
+pyxi_azdo_http_client-0.0.1.dist-info/RECORD,,
