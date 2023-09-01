@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+pure/__init__.py
+pure/metrics.py
+pure/report.py
+pure/sql_connector.py
+pure/utils.py
+pure_data.egg-info/PKG-INFO
+pure_data.egg-info/SOURCES.txt
+pure_data.egg-info/dependency_links.txt
+pure_data.egg-info/requires.txt
+pure_data.egg-info/top_level.txt
