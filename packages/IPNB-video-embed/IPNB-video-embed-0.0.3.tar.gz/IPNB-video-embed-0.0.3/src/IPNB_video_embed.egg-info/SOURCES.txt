@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/IPNB_video_embed.egg-info/PKG-INFO
+src/IPNB_video_embed.egg-info/SOURCES.txt
+src/IPNB_video_embed.egg-info/dependency_links.txt
+src/IPNB_video_embed.egg-info/requires.txt
+src/IPNB_video_embed.egg-info/top_level.txt
+src/IPNBvideoembed/__init__.py
+src/IPNBvideoembed/custom_exception.py
+src/IPNBvideoembed/logger.py
+src/IPNBvideoembed/site.py
+src/IPNBvideoembed/youtube.py
