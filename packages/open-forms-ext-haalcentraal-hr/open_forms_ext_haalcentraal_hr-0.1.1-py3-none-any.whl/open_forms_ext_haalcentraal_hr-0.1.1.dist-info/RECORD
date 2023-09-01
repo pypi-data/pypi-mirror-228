@@ -1,0 +1,16 @@
+prefill_haalcentraalhr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prefill_haalcentraalhr/admin.py,sha256=Viq7XFaA08zHI-9uO091HDuxFkiOWOCrd4n1P41yMvY,222
+prefill_haalcentraalhr/apps.py,sha256=iYOi2LEg-wsCwyLRRFcOyJ3uXm9f1PydKc6o8JbAZLI,300
+prefill_haalcentraalhr/constants.py,sha256=4MguSCIZsCL3VZZ2e1PSbXW9TlqHYd5uJem3-0f8Zrk,10484
+prefill_haalcentraalhr/models.py,sha256=BM-ItxVAjPufCijiD-NDswf3HMUseN9s4u4Anpwajjo,1386
+prefill_haalcentraalhr/plugin.py,sha256=WMzcMdOvXEWd_GfDri38x6GGZlDUsrIBq4zSoB1vd4M,4000
+prefill_haalcentraalhr/migrations/0001_initial.py,sha256=p-HS5uWjk6ZHycqMcJxiZBMeD3qOAJyPVrVLTUuig1Q,1262
+prefill_haalcentraalhr/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prefill_haalcentraalhr/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prefill_haalcentraalhr/tests/test_plugin.py,sha256=1_f5vBn_K1po6tweFMqLVoXsfpd-NwOrrJqF-aOm664,6296
+prefill_haalcentraalhr/tests/test_plugin_with_token_exchange.py,sha256=Sr9WqOaP35fYQASTXe3C9_7Er0EQKGEf-2NmcccaiB4,3352
+open_forms_ext_haalcentraal_hr-0.1.1.dist-info/LICENSE,sha256=sYoo3F1HQB_81P4FIf1t0L8dv4UnKkx9tvCx5_R6Mro,1052
+open_forms_ext_haalcentraal_hr-0.1.1.dist-info/METADATA,sha256=lHfKkVADJ7PvGhLsQMSZZeQbXEGAed1sWxlqwAZYFDY,5540
+open_forms_ext_haalcentraal_hr-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+open_forms_ext_haalcentraal_hr-0.1.1.dist-info/top_level.txt,sha256=yXyLmIj8Q5EfAxUx_0xu1WtgeIkKFM8-uOYWmsd1Kss,23
+open_forms_ext_haalcentraal_hr-0.1.1.dist-info/RECORD,,
