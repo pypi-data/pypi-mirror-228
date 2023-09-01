@@ -1,0 +1,7 @@
+winrt/_winrt_windows_ai_machinelearning_preview.cp39-win_arm64.pyd,sha256=yNFY9YvGx9MaN2lOpZn7JklwbclFFC2BIN74Ixo-leg,271360
+winrt/_winrt_windows_ai_machinelearning_preview.pyi,sha256=CJKhqB2KwvjnlBxIyEMWbxBwjrWx7HdgrIXx-DBcF7Y,9116
+winrt/windows/ai/machinelearning/preview/__init__.py,sha256=onUPPNn96kgVIbp04-rw3wrAxTc4T1niyaqbNYCxKHI,2623
+winrt_Windows.AI.MachineLearning.Preview-2.0.0b1.dist-info/METADATA,sha256=QpBAn5jo6WhKyNZcKyvg50rMZaN4cmAI62j3JhOzzrw,1376
+winrt_Windows.AI.MachineLearning.Preview-2.0.0b1.dist-info/WHEEL,sha256=PrHTG687fNsk7jS4Y-tLXN-3gpnf3wReNnzEPkeWHK0,100
+winrt_Windows.AI.MachineLearning.Preview-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.AI.MachineLearning.Preview-2.0.0b1.dist-info/RECORD,,
