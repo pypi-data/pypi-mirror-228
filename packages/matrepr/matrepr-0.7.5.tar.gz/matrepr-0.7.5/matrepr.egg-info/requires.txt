@@ -1,0 +1,12 @@
+tabulate
+
+[supported]
+scipy
+numpy
+python-graphblas
+sparse
+
+[test]
+pytest
+html5lib
+scipy
