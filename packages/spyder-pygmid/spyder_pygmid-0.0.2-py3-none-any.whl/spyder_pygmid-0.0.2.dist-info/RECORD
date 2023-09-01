@@ -1,0 +1,15 @@
+pygmid_plugin/__init__.py,sha256=STMha-MifC_M4DdL4Gvq3-baXxEmMm8NaTaxzz_hNhc,337
+pygmid_plugin/spyder/__init__.py,sha256=30yaChDK9qS1v136Z268JxwX9uIpoAGvhxteJ1eTUfA,352
+pygmid_plugin/spyder/api.py,sha256=jqopqeWXEio4lgK1ml1XligaTtlniXgZ9Oeu7F0A1mY,313
+pygmid_plugin/spyder/plugin.py,sha256=tyYkmVQXdPYL-zDmAls34g7aQgyRTvYvvSEDPmkhuVA,1983
+spyder_pygmid/__init__.py,sha256=8kThfsm7JhDTsyLP7wfhKR9Y-LbmXy1-MIPhqi9ZXi8,332
+spyder_pygmid/spyder/__init__.py,sha256=30yaChDK9qS1v136Z268JxwX9uIpoAGvhxteJ1eTUfA,352
+spyder_pygmid/spyder/api.py,sha256=jqopqeWXEio4lgK1ml1XligaTtlniXgZ9Oeu7F0A1mY,313
+spyder_pygmid/spyder/plugin.py,sha256=0lAZpgSj-kKhkMq9Buu5quDcb3Mkotieh9Fn2799JyY,1983
+spyder_pygmid-0.0.2.dist-info/AUTHORS.md,sha256=7meqdq3Hn3mjuWVkE4XbrTX0c1SxRM1YoRrO1kNVaNg,175
+spyder_pygmid-0.0.2.dist-info/LICENSE.txt,sha256=Y6yzOinH3JOmUAAYkbeixA0ojDlYj8noHZet6mk-6ok,590
+spyder_pygmid-0.0.2.dist-info/METADATA,sha256=AWafE4UMyGiPXtJfh2zWIA8cicw6aaV2S6fvfzFMOVQ,2498
+spyder_pygmid-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+spyder_pygmid-0.0.2.dist-info/entry_points.txt,sha256=Y92pIRUavKRy1Aqgk4VaXF3aYyY96hU57kdMVZqfotE,74
+spyder_pygmid-0.0.2.dist-info/top_level.txt,sha256=SkQUuDLGizIUAWHzklbO-2u-UQyT6LRb1hYfwLr1goU,14
+spyder_pygmid-0.0.2.dist-info/RECORD,,
