@@ -1,0 +1,2 @@
+[console_scripts]
+guardduty-runbooks = guardduty_runbooks.cli:main
