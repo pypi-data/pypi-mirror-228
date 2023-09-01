@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: webcoreframe
+Version: 2023.8.31.post17
+Summary: web develop core frame
+Home-page: https://gitee.com/bean_jun/webcoreframe
+Author: Bean-jun
+Author-email: 1342104001@qq.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: Flask >=2.3.2
+Requires-Dist: Flask-RESTful >=0.3.9
+Requires-Dist: Flask-SQLAlchemy >=3.0.5
+Requires-Dist: pycryptodome >=3.17
+Requires-Dist: redis >=4.5.4
+Requires-Dist: APScheduler >=3.10.1
+Requires-Dist: PyJWT >=2.6.0
+Requires-Dist: Flask-Mail >=0.9.1
+Requires-Dist: Flask-Limiter >=3.3.1
+
+# webcoreframe
+
+### 一、相关配置
+
+```python
+# 秘钥
+SECRET_KEY = "SECRETKEY"
+
+# 数据库连接配置
+SQLALCHEMY_DATABASE_URI = "sqlite:///project.db"
+
+# 邮箱配置
+MAIL_SERVER = "smtp.163.com"
+MAIL_PORT = 465
+MAIL_USE_SSL = True
+MAIL_USERNAME = "17371438227@163.com"
+MAIL_PASSWORD = os.getenv("MAIL_PASSWORD", "")
+MAIL_RECV_LIST = ["1342104001@qq.com"]
+
+# redis连接
+REDIS_URL = "redis://:@127.0.0.1:6379/0"
+
+# 验证登录接口白名单
+VALIDATE_LOGIN_INTERFACE_WHITE = ("health_check", )
+
+# 用户模型
+CORE_USER_MODEL = "dao.models.User"
+```
+
