@@ -1,0 +1,103 @@
+{% include 'header.html' %}
+
+{# NOTE: All reusable modules and all related stuff like css are dynamically connecting as ES6 modules, inside the code #}
+
+{# TODO: It's possible to dynamically load all required styles using `CommonHelpers.addCssStyle` method. #}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/comments.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/comments-filters.css') }}">
+
+<div id="comments-root" class="comments-root container empty loading role-{{ config.role }}">
+
+  {% include 'navigation.html' %}
+
+  <div class="common-page-header">
+    <h3 class="title">
+      Comments
+      {# // TODO: It's possible to have here `tools tools-wrapper tools-icon` elements #}
+    </h3>
+  </div>
+
+  <div class="filters">
+    <div id="sortThreadsItem" class="filter-item">
+      <label for="sortThreadsBy">Sort threads by:</label>
+      <select id="sortThreadsBy" onChange="CommentsPage.handlers.handleSortThreadsByChange(this)">
+        <option value="modifiedDate" selected>Modified date</option>
+        <option value="name">Name</option>
+      </select>
+      <span class="filter-inline">
+        <input type="checkbox" name="sortThreadsReversed" id="sortThreadsReversed"
+          onChange="CommentsPage.handlers.handleSortThreadsReversedChange(this)"
+        />
+        <label for="sortThreadsReversed">Reversed</label>
+    </div>
+    <div id="filterByStateItem" class="filter-item notByMyThreads">
+      <label for="filterByState">Resolved state:</label>
+      <select id="filterByState" size="5" onChange="CommentsPage.handlers.handleFilterByStateChange(this)">
+        <option value="none" selected>All</option>
+        <option value="resolved">Resolved</option>
+        <option value="open">Open</option>
+      </select>
+    </div>
+    <div id="filterByUsersItem" class="filter-item notByMyThreads">
+      <label for="filterByUsers">Filter by user:</label>
+      <select id="filterByUsers" multiple onChange="CommentsPage.handlers.handleFilterByUserChange(this)">
+      </select>
+    </div>
+    <div id="filterByProcessesItem" class="filter-item notByMyThreads">
+      <label for="filterByProcesses">Filter by process:</label>
+      <select id="filterByProcesses" multiple onChange="CommentsPage.handlers.handleFilterByProcessChange(this)">
+      </select>
+    </div>
+    <div id="filterActions" class="filter-item">
+      {# NOTE: Trying to align all the elements by the top emulating empty leading label.
+         TODO: Use special class like 'filter-item-without-label`.
+      #}
+      <label>&nbsp;</label>
+      <button id="filterByMyThreads" onClick="CommentsPage.handlers.handleFilterByMyThreads(this)">
+        <i id="filterByMyThreadsIcon" class="fa fa-check"></i>
+        My threads
+      </button>
+      <button id="resetFilters" onClick="CommentsPage.handlers.handleResetFilters(this)">
+        Reset all filters
+      </button>
+      <button id="expandCollapseAll" onClick="CommentsPage.handlers.handleExpandAllThreads(this)">
+        Expand/collapse all
+      </button>
+    </div>
+  </div>
+
+  <div id="thread-comments" class="thread-comments"><!-- Placeholder for ThreadComments component --></div>
+
+  <div id="comments-tableau" class="comments-tableau">
+    <div id="comments-error" class="error">Error<!-- Error text comes here --></div>
+    <div id="loader-splash" class="loader-splash full-cover bg-white"><div class="loader-spinner"></div></div>
+  </div>
+
+  <div class="comments-not-inited">Component is initializing...</div>
+
+</div>
+
+<!-- Start page scripts -->
+<script type="module">
+
+  // Core module
+  import { CommentsPage } from '/assets/modules/pages/CommentsPage/CommentsPage.js';
+
+  /** Global variables for compare tables feature (via global variable `sharedParams`)...
+   * @type {TSharedParams} - See `bw_matchbox/assets/modules/pages/CommentsPage/@types/TSharedParams.d.ts`
+   */
+  const sharedParams = {
+    base_url: '{{ base_url }}',
+    currentRole: '{{ config.role }}',
+    // DEBUG: See updating of current user in `CommentsPagePrepareLoadedData:makeDerivedData` for debug mode
+    currentUser: '{{ config.user }}',
+  };
+
+  // Export to global scope (to access from generated html code handlers).
+  window.CommentsPage = CommentsPage;
+
+  // Start core module...
+  CommentsPage.start(sharedParams);
+
+</script>
+{% include 'footer.html' %}
