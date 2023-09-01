@@ -1,0 +1,1 @@
+ADDPROCESS=[ r'C:\\Users\\ekarni\\AppData\\Local\\Programs\\Python\\Python39\\python.exe',r'C:\Users\ekarni\compare-my-stocks\src\compare_my_stocks\ibsrv.py']
