@@ -1,0 +1,125 @@
+DG Python SDK
+===================================
+
+ dougong sdk 工具类
+
+安装
+-----
+远程下载并安装：
+
+`pip install dg-sdk`
+
+
+简介
+------
+
+为了提高客户接入的便捷性，本系统提供 SDK 方式介入，使用本 SDK 将极大的简化开发者的工作，开发者将无需考虑通信、签名、验签等，只需要关注业务参数的输入。
+
+
+
+使用方法
+--------
+
+* 初始化SDK
+
+未入网前，可使用以下测试商户参数进行开发测试
+
+.. code:: Python
+
+    import dg_sdk
+
+    huifu_id = "6666000108854952"
+    sys_id = "6666000108854952"
+    product_id = "YYZY"
+    private_key= "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCxtfk3rjwdpBV81WBy5jIMcDLFdvHckhjGXkmWfaBn7euPRyetEhS4inpr7EvQ5KDUXNBPljI2NVhG/LEGZKvau1MW8j3t7dJ3gWafuVGsCiLJHU79sIRHf11nKOTykX5WxB/7MMwRnZsECuaZyCk7WPuSAlznqbDJdrZTzHhjQzMhjto1qD6+vc0OxyaBFlOY9piBtEfecsvD+6GfQ8exFqwzblJm9iZPYw02DaeUDLFO9Umn7i7gShlj/1Hh8nEM7YitpF/p26o+MC9LHWbIjgzjvNVhSRVmbvWys+3S11Zm/vux6Yzfk0H3fqrksAKSEkLEtEoYKS4wKjHdecztAgMBAAECggEACy1g4WmqCks5tsJM8K0d1L5x0w2qJK9js4ZWpop8Pk0ulbJqAm6ysvCyxnr0Qc0/eFvmFjtiKRqt1LksATTvwjAqB7Vww7hDlpSi+cTUKDfy/CdFwpsJlt2h6E0gKUmRYq+vO0NUcn8xMs3ktyNpxHvSRtqzMTbxEZrP2PFxWPzUKGNyk53FTlJ64YCoGQqWeGhA5LO6QLPHlAxIrvRf9B5dtXQr5XZXVqS9MwjtsRPvQPWiFXxlzvhJRcL/wXehcNextHzpMMgX/idB3HIpIl6XXLKiFUR4rBDJIMiQjQvS6zz2l1zpiJ0vWujVa3IY+PNefRA2ttg1DeC19GYa2QKBgQDh7AkJ7wut7p4qYAdcFEDVhFgP5mnSRyOBGWmClHYE4RIFplPiv4yO0fttAjFuCg4Zaxq49BuV3zshWOEIr72VK6wMa6Z+QbfXNr/1DT6nW+ktgXTw2G9Ts/nZiMrpcsbl7qvwChfJAPvEwnyP7Ckmd9t2WbQisuYZc+Vu8znO7wKBgQDJXskTiExEipQSOcVH5cX/ExVyj9MoLjmJhy3WTTDzGafgEoOPOfej2ZCgF6gCwugXJr+rtgdOpASk8WPACaCePdjdgQ2NVhSfV3op3TtvhgAPf3iI/zCVkZM4I1iZs6KjdHstLCKyAzCFBsowkPbfZBlFX4eO7Bk6XcIZ6x2h4wKBgQDcH64C5s4bb2beZOhm2Dj/kU54V4l93+CBFjCOkXaYdG+p35DWWspqEcCHSt68l8F7FLdZxEbodTPY3w+L9iejI4UkKPN1CzVD1U2dR4VnbY85zmwRiuCVzsM/KCCE61dOi4ktfbgFGhc1dEYHuROzLo8/tlFkiajW3eyLeSM3MwKBgATL3iw57d8gEeDRQXKx9WJa+QLOjDAD0dkFwEC/e+/+Z3I93qZVsiFT+E7n4VeXfuG2SZB0eH4WCApJuZ+EWzAJtxWnkkQQjdMxyTYgD99bKLs1xRA2S9j0K7aFmQGoNrJ//sMXrwfgbZJtk/lOKqMthjCR0u/DjeJHA22MnRsTAoGADXzJs/of0JExvQWwfdIUnSEPs/PgTrrJpo+CAdXnagYHF+InrmvIcNwx6ZzIs+9aGwUt0d/YsSpJkHMfAtTwZjB7sSw8Cg5DZ179Jy3YkKhFPvZv2ZCANa5J74HZNQUrUUL6O4FouZUiLwFlq8YuUPRtkAjYwyS/jwUbhJzqZhQ="
+    public_key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkMX8p3GyMw3gk6x72h20NOk3L9+Nn9mOVP6+YoBwCe7Zs4QmYrA/etFRZw2TQrSc51wgtCkJi1/x8Wl7maPL1uH2+77JFlPv7H/F4Lr2I2LXgnllg6PtwOSw/qvGYInVVB4kL85VQl0/8ObyxBUdJ43I0z/u8hJb2gwujSudOGizbeqQXAYrwcNy+e+cjodpPy9unpJjBfa4Wz2eVLLvUYYKZKdRn6pZR2cQsMBvL30K4cFlZqlJ9iP2hTG3gaiZJ9JrjTigwki0g9pbTDXiPACfuF1nOeObvLD22zBbgn1kwgfsqoG67z7g84u2jvfUFCzX1JRgd0xfNorTRkS2RQIDAQAB"
+    dg_sdk.DGClient.mer_config = dg_sdk.MerConfig(private_key, public_key, sys_id, product_id, huifu_id)
+
+
+* 通用方式调用 request_post
+
+SDK 调用方法不区分接口版本，SDK 内部会根据接口地址内是否带有 "V2" 来判定接口版本号，进行加签验签逻辑的区分。
+
+以聚合正扫接口为例，根据接口文档说明，构建请求参数体，详细信息参见[接口文档](https://paas.huifu.com/partners/api/#/smzf/api_jhzs)
+传入请求参数与请求地址。
+
+.. code:: Python
+
+    required_params = {
+        "trade_type": "A_NATIVE",
+        "trans_amt": "1.00",
+        "goods_desc": "goods_desc",
+    }
+    url = "https://api.huifu.com/v2/trade/payment/jspay"
+    result = dg_sdk.dg_tools.request_post(url, required_params)
+
+
+
+* 其他调用方式
+
+除了通用调用方法之外，SDK 提供了一种更便捷的方法， 根据具体的接口地址会有对应的请求类
+
+以 [聚合正扫](https://paas.huifu.com/partners/api/#/smzf/api_jhzs) 为例，接口请求 URL 为 https://api.huifu.com/v2/trade/payment/jspay
+可构建 request 类 V2TradePaymentJspayRequest，然后发起请求
+
+使用方法如下所示：
+
+.. code:: Python
+
+    # 接口请求对象
+    request = dg_sdk.V2TradePaymentJspayRequest()
+    request.req_date = ""
+    request.req_seq_id = ""
+    request.huifu_id = "6666000108854952"
+    request.trade_type = "A_NATIVE"
+    request.trans_amt = "0.10"
+    request.goods_desc = "商品测试"
+    # 所有非必填字段字典
+    extend_infos = build_extend_infos()
+    result = request.post(extend_infos)
+    print(result)
+
+sdk request类根据请求接口地址的 URL 以驼峰命名，具体使用类名请参考接口文档对应的请求地址，如 sdk 版本更新不及时不存在对应的request 类，推荐使用通用请求方法
+
+* 工具类 DGTools
+
+sdk 另外提供一些常用工具方法
+
+校验签名 - verify_sign
+
+此方法为返回报文签名验签，将返回data 按字母顺序排序后组成json 字符串，使用根据 RSA2 算法使用公钥进行验签
+
+示例：
+
+.. code:: Python
+
+    sign = "OUotiU75VW7SdEwLIZX3gAqSgZk8hCjE7r01WQr8mDdm23B+zd58r8HNWvE9BWV+mTwZ2iAOSuht9SOGM+spSYFANa3VIqMZzGim3y4aZmptQTTptNcclocsWyocn78efdAuTcGvf5dhUc6/Ue1oYV+BVhphYPmkKUKfxpEvBEvw/vlpsCu0I0Dx/k7kN6IaxY6mODypFmDtnEaZbkGaxbh8yxH1lJDn5/91YfD6vpK+sRJXiVXLzDK13BPAjQ3RAlFUxHJ8LPJbWQQpABQ94Gd1TTc/bfOluqUwJJbofC7WZiIOW6MKsa9gL5Y6lmbqFcMBKfvexJ0SlRFLWvSkQg=="
+    data = {'bank_code': '10000', 'bank_message': 'Success', 'hf_seq_id': '002900TOP2B220511142822P984ac132ff400000', 'huifu_id': '6666000108854952', 'qr_code': 'https://qr.alipay.com/bax04465kcijedllqhuq004b', 'req_date': '20220511', 'req_seq_id': '202205111428211506200', 'resp_code': '00000100', 'resp_desc': '下单成功', 'trade_type': 'A_NATIVE', 'trans_amt': '1.00', 'trans_stat': 'P'}
+    result = dg_sdk.DGTools.verify_sign(data, sign)
+
+校验 webhook 返回报文签名 - verify_webhook_sign
+
+此方法为异步回调验签方法，将返回 data 字符串与商户配置的key 组合后进行md5计算，返回的md5值与回调sign的比较结果
+
+示例：
+
+.. code:: Python
+
+    data = {'bank_code': '10000', 'bank_message': 'Success', 'hf_seq_id': '002900TOP2B220511142822P984ac132ff400000', 'huifu_id': '6666000108854952', 'qr_code': 'https://qr.alipay.com/bax04465kcijedllqhuq004b', 'req_date': '20220511', 'req_seq_id': '202205111428211506200', 'resp_code': '00000100', 'resp_desc': '下单成功', 'trade_type': 'A_NATIVE', 'trans_amt': '1.00', 'trans_stat': 'P'}
+    sign = "d41e8d9bb6e58b489071152838a45b1a"
+    result = dg_sdk.DGTools.verify_webhook_sign(json.dumps(data),key="test_key",sign=sign)
+
+使用公钥加密敏感信息 - encrypt_with_public_key
+
+不传公钥默认使用 SDK 初始化传入的公钥
+
+示例：
+
+.. code:: Python
+
+    result = dg_sdk.DGTools.encrypt_with_public_key("OrignalString")
+
+
+详情参考 SDK 接入说明_
+
+.. _接入说明: https://paas.huifu.com/docs/partners/devtools/#/sdk_python
