@@ -1,0 +1,5 @@
+===========================
+collective.cleanuprevisions
+===========================
+
+User documentation
