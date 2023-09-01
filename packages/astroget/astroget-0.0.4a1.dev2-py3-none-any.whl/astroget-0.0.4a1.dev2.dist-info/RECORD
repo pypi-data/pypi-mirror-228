@@ -1,0 +1,11 @@
+astroget/Results.py,sha256=wkWuvhJpWY0sLudvR48hhulZTuz7-GOxoiqPLBJ3Hps,2390
+astroget/__init__.py,sha256=S9k5WNhNmnAyJKsS81nrZb0erXgmgtjf9pztezx_bV8,1054
+astroget/client.py,sha256=JUVoAOFplwA3qrI8dJ8RvYu8JFWX3SYlNe4xR-GDc-M,15567
+astroget/exceptions.py,sha256=aRpzLJ7r0yIaEaJOhIAQ5pGHnHN802OwUcFtOXoBzWI,3417
+astroget/experimental.py,sha256=EpF7u_MNsRRbNHFYJCp1GOVSjwu7pUXEejbmVSAW6V4,12523
+astroget/foo.py,sha256=Rqxe7GLdRNBzrKwKZPWDQQdOw1OYyIfrGZqyRdWToF0,4443
+astroget/utils.py,sha256=5CuaVZykolXJjEM3mcSHYrCXOkAt_ecEaiERiaB-FK8,2394
+astroget-0.0.4a1.dev2.dist-info/METADATA,sha256=_31-yhOkBsP1VsZFQ8rpU1MJ0-FO8Z5RWMET7EqG2Co,774
+astroget-0.0.4a1.dev2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+astroget-0.0.4a1.dev2.dist-info/licenses/LICENSE,sha256=e0FNTRFk8c_8g0mSuWyB9TRKiY1w_tGQzGCOhjqY9Ec,1561
+astroget-0.0.4a1.dev2.dist-info/RECORD,,
