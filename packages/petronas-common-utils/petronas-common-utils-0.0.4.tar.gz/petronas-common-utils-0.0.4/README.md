@@ -1,0 +1,42 @@
+# Petronas Common Utils
+
+Welcome to the **Petronas Common Utils** repository. Here, you'll find essential source codes for basic and common utilities that can be applied accross multiple fields and areas within Petronas.
+
+## Features
+
+1. **Gas**
+
+Within this category, you'll find functionalities tailored for the _natural gas refining_ sector. Some key components include:
+
+* _Natural Gas_ - Allows you to define a gas and its composition and other functionalities such as unit conversion, gas treatment or gas blending.
+  Here's an example for unit conversion:
+
+  ``` python
+    from petronas_common_utils.gas.natural_gas import NaturalGas, Component
+
+
+    # Create natural gas object
+    natural_gas = NaturalGas()
+    natural_gas.add_component(Component.C1, 0.9)
+    natural_gas.add_component(Component.C2, 0.05)
+    natural_gas.add_component(Component.C3, 0.03)
+    natural_gas.add_component(Component.C4, 0.01)
+    natural_gas.add_component(Component.C5, 0.005)
+    natural_gas.add_component(Component.CO2, 0.035)
+    natural_gas.build()
+
+    # Calculate amount for given component for a total flow of 10 tph
+    calculated_amount = natural_gas.get_amount(component=Component.C1, total_flow=(10, 'tph'), to_units='mmscfd')
+  ```
+
+2. **More categories and functionalities to be added soon.**
+
+## Installation and usage
+
+To install this package, simply use `pip install petronas-common-utils`.
+
+**Additional detailed documentation on the different modules is expected to be included in subsequent versions**.
+
+## Contribution
+
+We welcome contributions! If you'd like to add new functionalities or improve existing ones, please follow our _contribution guidelines_.
