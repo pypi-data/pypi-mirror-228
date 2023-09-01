@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ComicallyDumb
+Version: 0.1.0
+Summary: Simplistically dumb functions and classes. In case you haven't caught on, this is a joke, don't use this for actual calculations.
+Home-page: https://github.com/Arnav-MaIhotra/complex_mathematics
+Author: Arnav Malhotra
+Author-email: emumalhotra@gmail.com
+License: MIT
+Requires-Dist: numpy
+
+Many advanced math features and topics like linear algebra, geometry, calculus, algebra, and machine learning algorithms.
