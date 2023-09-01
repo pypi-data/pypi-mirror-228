@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: syftcli
+Version: 0.1.8
+Summary: Command line utility for Syft
+Author: OpenMined <info@openmined.org>
+Description-Content-Type: text/plain
+Provides-Extra: dev
+Provides-Extra: build
