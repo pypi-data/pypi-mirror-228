@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: changyong
+Version: 1.0.1
+Requires-Dist: redis
+Requires-Dist: requests
+Requires-Dist: asyncio
+Requires-Dist: urllib3
+Requires-Dist: pymongo
+Requires-Dist: w3lib
+Requires-Dist: aiohttp
+Requires-Dist: cryptography ==38.0.4
+Requires-Dist: setuptools ==57.5.0
+Requires-Dist: setup.py
+Requires-Dist: pymysql
+Requires-Dist: html
+Requires-Dist: jieba ==0.42.1
+Requires-Dist: csv
+Requires-Dist: baidu-aip
+
