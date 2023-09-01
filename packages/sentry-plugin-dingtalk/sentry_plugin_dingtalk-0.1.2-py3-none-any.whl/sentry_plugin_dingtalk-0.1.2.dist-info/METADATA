@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: sentry-plugin-dingtalk
+Version: 0.1.2
+Summary: A Sentry extension which send errors stats to dingtalk
+Author: ding
+Author-email: ding@ding.com
+License: MIT
+Keywords: sentry dingtalk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sentry >=9.0.0
+Requires-Dist: requests
+
+# sentry-plugin-dingtalk
+
+> Sentry 钉钉通知插件
+
+## 安装
+
+新版本在 self-hosted 目录的 `sentry/enhance-image.sh` 中加入 `pip install sentry-plugin-dingtalk`  
+老版本在 onpremise 目录的 `sentry/requirements.txt` 中添加 `sentry-plugin-dingtalk`  
+
+**如果新版本中已经在使用 requirements.txt 配置了，那保持原状，在 requirements.txt 添加即可**
+
+然后执行:
+
+```sh
+docker-compose down
+./install.sh
+docker-compose up -d
+```
+
+## 使用
+
+在项目的所有集成页面找到 `DingTalk-EX` 插件，启用，并设置模板
