@@ -1,0 +1,3 @@
+[console_scripts]
+image-format-converter=image_format_converter.converter:main
+
