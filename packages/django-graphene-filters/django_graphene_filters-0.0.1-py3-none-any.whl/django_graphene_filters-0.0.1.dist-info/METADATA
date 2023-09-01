@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: django-graphene-filters
+Version: 0.0.1
+Summary: Advanced auto related filters for Graphene Django
+Home-page: https://github.com/riodw/django-graphene-filters
+Keywords: django,graphene,filters,related
+Author: Rio Weber
+Author-email: riodweber@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Django (>=3,<4.3)
+Requires-Dist: anytree (>=2.8.0,<3.0.0)
+Requires-Dist: django-filter (>=21.1,<22.0)
+Requires-Dist: graphene (>=2.1.9,<4)
+Requires-Dist: graphene-django (>=3.0.0,<4.0.0)
+Requires-Dist: psycopg2-binary (>=2.9.3,<3.0.0)
+Requires-Dist: stringcase (>=1.2.0,<2.0.0)
+Requires-Dist: wrapt (>=1.14.0,<2.0.0)
+Project-URL: Repository, https://github.com/riodw/django-graphene-filters
+Description-Content-Type: text/markdown
+
+# Django Graphene Filters
+
+This package contains advanced filters for [graphene-django](https://github.com/graphql-python/graphene-django).
+
+# Installation
+
+```shell
+# pip
+pip install django-graphene-filters
+# poetry
+poetry add django-graphene-filters
+```
+
