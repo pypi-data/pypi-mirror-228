@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: estratega-utils
+Version: 1.3
+Summary: Utilidades varias
+Author: Ivan Sayavedra
+Author-email: <isayavedra@estrategasoftware.com.ar>
+Keywords: python,estratega utils
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: pydantic
+Requires-Dist: pymysql
+
+Funciones y clases con utilidades para agilizar y optimizar la escritura de código.
