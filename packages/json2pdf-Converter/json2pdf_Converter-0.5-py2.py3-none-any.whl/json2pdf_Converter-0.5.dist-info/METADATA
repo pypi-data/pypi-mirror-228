@@ -1,0 +1,161 @@
+Metadata-Version: 2.1
+Name: json2pdf-Converter
+Version: 0.5
+Summary: A package to convert JSON to PDF.
+Author: Jigyashu Nager
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: jinja2
+Requires-Dist: PyPDF2
+Requires-Dist: pdfkit
+
+```markdown
+# json2pdf_converter
+
+`json2pdf_converter` is a Python package that simplifies the process of converting JSON data into PDF files using a specified HTML template. This is particularly useful for creating dynamic PDF reports or documents from structured JSON data.
+
+## Installation
+
+You can easily install the `json2pdf_converter` package using pip:
+
+```bash
+pip install json2pdf_converter
+```
+
+## Usage
+
+To generate a PDF from your JSON data, follow these steps:
+
+### 1. Import Necessary Modules
+
+Start by importing the essential modules required to work with the `json2pdf_converter` package and process JSON data.
+
+```python
+from json2pdf_converter import generate
+import json
+```
+
+### 2. Load JSON Data
+
+Read your JSON data from a file. Replace `'path\to\your\data.json'` with the actual file path of your JSON data. The `json.load()` function is used to parse the JSON content from the file and store it in the `data` variable.
+
+```python
+json_file_path = r'path\to\your\data.json'
+
+# Open the JSON file for reading
+with open(json_file_path, 'r') as json_file:
+    data = json.load(json_file)
+```
+
+### 3. Configure Options for PDF Generation
+
+Set up the options required for generating the PDF. These options control various aspects of the PDF output:
+
+- `encoding`: The character encoding of the PDF (e.g., UTF-8).
+- `margin-top`, `margin-right`, `margin-bottom`, `margin-left`: The margins around the content on the PDF page.
+- `footer-right`: The content to display on the right side of the footer.
+- `footer-font-size`: The font size of the footer text.
+- `orientation`: The page orientation (Portrait or Landscape).
+- `page-size`: The page size (A4, Letter, etc.).
+
+```python
+options = {
+    'encoding': 'UTF-8',
+    'margin-top': '0px',
+    'margin-right': '30px',
+    'margin-bottom': '30px',
+    'margin-left': '30px',
+    'footer-right': "Page [page] of [topage]",
+    'footer-font-size': "9",
+    'orientation': 'Portrait',
+    'page-size': 'A4',
+}
+```
+
+### 4. Define Data Variables
+
+Create a dictionary named `data_variables` to hold your JSON data. This data will be passed to the HTML template during the PDF generation process.
+
+```python
+data_variables = {
+    "data": data
+}
+```
+
+### 5. Define Custom Functions If Any
+
+Create a array name `custom_filter_functions` to hold your custom data manipulating functions. This will be passed to HTML template like this:-
+
+```python
+def add_content1(function1, name):
+    print(function1, name)
+    return f"AddedByFunction+{name}"
+def add_content2(function2, age):
+    return f"AddedByFunction+{age}"
+
+custom_filter_functions = [ add_content1, add_content2 ]
+```
+
+You also need to add these functions in your HTML template, and do remember the first params passed in the function is mandatory it will allow the function to call, so each and every time pass a single useless params like function1, function2, etc.
+
+```html
+{% for person in data %}
+{% set content1 = "function1" | add_content1(person.name) %}
+{% set content2 = "function2" | add_content2(person.age) %}
+<tr>
+    <td>{{ person.name }}{{content1}}</td>
+    <td>{{ person.age }}{{content1}}</td>
+    <td>{{ person.location }}{{content1}}</td>
+</tr>
+{% endfor %}
+```
+
+### 6. Generate PDF
+
+Generate the PDF file from your JSON data and the HTML template. This involves several parameters:
+
+- `json_file_path`: Path to the JSON file containing data.
+- `template_directory_path`: Directory where your HTML template is located.
+- `output_html_path`: Directory where the intermediate HTML file will be saved.
+- `output_pdf_path`: Directory where the final PDF file will be saved.
+- `options`: PDF generation options set earlier.
+- `template_name`: Name of the HTML template file.
+- `data_variables`: Dictionary containing your JSON data.
+- `custom_filter_functions`: Add custom functions to your HTML template as per your need and pass them in this array variable for calling them while creating pdf.
+
+```python
+template_directory = r'path\to\your\template\directory'
+template_name = "table.html"
+output_html_path = r'path\to\output\html'
+new_pdf_path = r'path\to\output\pdf'
+
+generate(
+    json_file_path= json_file_path, 
+    template_directory_path= template_directory, 
+    output_html_path=output_html_path, 
+    output_pdf_path=new_pdf_path, 
+    options=options,
+    template_name=template_name,
+    data_variables=data_variables,
+    custom_filter_functions=custom_filter_functions
+)
+
+```
+
+### 7. Replace File Paths
+
+Finally, replace the placeholder file paths with actual paths relevant to your project. Update the paths to point to your JSON data file, template directory, and output directories.
+
+Replace `path\to\your\data.json`, `path\to\your\template\directory`, `path\to\output\html`, and `path\to\output\pdf` with the correct file paths.
+
+## License
+
+This package is released under the [MIT License](https://opensource.org/licenses/MIT).
+```
+
+This enhanced version provides an in-depth explanation of the options used for PDF generation, helping users understand how to tailor the PDF output according to their needs.
