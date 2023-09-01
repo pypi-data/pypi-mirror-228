@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/python-publish.yml
+rpst.egg-info/PKG-INFO
+rpst.egg-info/SOURCES.txt
+rpst.egg-info/dependency_links.txt
+rpst.egg-info/requires.txt
+rpst.egg-info/top_level.txt
