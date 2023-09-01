@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+table_update_create_scenario/__init__.py
+table_update_create_scenario.egg-info/PKG-INFO
+table_update_create_scenario.egg-info/SOURCES.txt
+table_update_create_scenario.egg-info/dependency_links.txt
+table_update_create_scenario.egg-info/requires.txt
+table_update_create_scenario.egg-info/top_level.txt
