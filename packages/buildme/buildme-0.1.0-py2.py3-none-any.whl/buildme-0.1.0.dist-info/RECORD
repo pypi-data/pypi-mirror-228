@@ -1,0 +1,10 @@
+buildme/__init__.py,sha256=GhrKt3Jk_zZztDTxhUron8Br164PKZrHWNnZO0rzzBo,101
+buildme/cli.py,sha256=O43tAZPGC2_R6yv_qDOYhQZ0KA1Bn8Wr21TvGOOzrpY,1315
+buildme/core.py,sha256=J9WN-8hEeFYnwP4LLQTa1BhCZIb49XAPBDUb9wgMZ60,941
+buildme/hfuncs.py,sha256=8-ebmFa0bcICXZ9A0ds7z67TrtDOdefDv9vNlyk2blA,207
+buildme-0.1.0.dist-info/LICENSE,sha256=mAWzNThHbdv5vrGts3vQ5pwkVpIM2vfB7Kn0qPPf754,1071
+buildme-0.1.0.dist-info/METADATA,sha256=wc1KfzTwzlx6CNnjnM52VrbjJhWJ9nQhfz2-R5unuuQ,3403
+buildme-0.1.0.dist-info/WHEEL,sha256=m9WAupmBd2JGDsXWQGJgMGXIWbQY3F5c2xBJbBhq0nY,110
+buildme-0.1.0.dist-info/entry_points.txt,sha256=zU7Quxg4-Qu9mZeahOMQTfzK4KT2MELLmGgPNC0nbFU,45
+buildme-0.1.0.dist-info/top_level.txt,sha256=BM8774QFfzUiAC42K1QrCtLjnFybbLWVT0SYITwBAhM,8
+buildme-0.1.0.dist-info/RECORD,,
