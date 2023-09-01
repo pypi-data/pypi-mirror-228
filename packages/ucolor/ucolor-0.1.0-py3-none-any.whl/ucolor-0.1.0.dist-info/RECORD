@@ -1,0 +1,8 @@
+ucolor/__init__.py,sha256=zBpVuCxkNSfJGmSvrEqMac7z-MbUYzUYhwB3ZJlfypo,628
+ucolor/color_hsla.py,sha256=kA-k9UTTEIyYMxncJzESSCPCed2NraGhYEEG0SMg78A,5176
+ucolor/color_rgba.py,sha256=1CKYiHTX8GupAlPX0T3mwRC2ACRUQw45gIiDc5ZVzuQ,5101
+ucolor/convert.py,sha256=tsdExX8vEanDUlMbVBV9tV865t0ic8DoWnrA4sI5zFM,3165
+ucolor/utils.py,sha256=vRRd5GLLKdk6nsVLvuVGdS22cxksa7zrMFceHV_fmrk,658
+ucolor-0.1.0.dist-info/METADATA,sha256=PS_wYyP-MmggjiYxLGEypGxTzPaRQ-0rMKO6fKiYJGc,2505
+ucolor-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ucolor-0.1.0.dist-info/RECORD,,
