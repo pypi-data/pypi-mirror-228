@@ -1,0 +1,38 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "dynadojo"
+
+authors = [{name = "Logan Mondal Bhamidipaty <loganmb@stanford.edu>, Tommy Anthony Bruzzese <tbru@stanford.edu>, Max Kanwal <kanwal@stanford.edu>, Rami Ratl Mrad <ramiratlmrad@berkeley.edu>"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = ["networkx",
+    "tqdm>=4.65.0",
+    "numpy>=1.23.5",
+    "torch>=2.0.1",
+    "torchdiffeq>=0.2.3",
+    "joblib>=1.2.0",
+    "keras>=2.12.0",
+    "tensorflow",
+    "seaborn>=0.12.2",
+    "scipy>=1.10.1",
+    "scikit-learn>=1.2.2",
+    "cellpylib",
+    "matplotlib",
+    "pandas",
+    "ndlib",
+    "pydmd",
+    "pysindy",
+    "setuptools"]
+
+[project.optional-dependencies]
+nbody = [
+    "rebound"
+]
+
+[project.urls]
+Home = "https://github.com/FlyingWorkshop/dynadojo/"
