@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pterobot
+Version: 0.0.1
+Summary: A Discord bot for viewing and controlling Pterodactyl servers
+Project-URL: Homepage, https://github.com/iamkubi/pterobot
+Project-URL: Bug Tracker, https://github.com/iamkubi/pterobot/issues
+Author-email: Ryan Kubiak <ryan@kubiq.io>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# pterobot
+
+PteroBot is a Discord bot that can be used to view and control your 
+Pterodactyl game servers.
+
+PteroBot also has a hosted version in addition to the open source 
+self-hosted version.  To join PteroBot to your server immediately navigate 
+to https://pterobot.net.
+
+## Getting Started
+
+There are a few easy ways to get started using PteroBot.
+
+### Install from pip
+
+Install from pip by running `pip install pterobot`
+
+### Using Docker
+
+Get the Docker image from `ghcr.io/iamkubi/pterobot`
+
+### Using Pterodactyl
+
+Get the Pterodactyl egg from `https://github.com/iamkubi/eggs/pterobot`

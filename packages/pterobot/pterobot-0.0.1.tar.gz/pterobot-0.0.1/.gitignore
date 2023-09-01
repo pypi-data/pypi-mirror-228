@@ -1,0 +1,2 @@
+# Ignore the settings file which contains secrets
+pterobot/settings.py
