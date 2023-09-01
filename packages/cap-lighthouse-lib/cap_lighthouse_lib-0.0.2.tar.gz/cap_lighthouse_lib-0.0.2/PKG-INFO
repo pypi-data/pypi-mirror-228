@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cap_lighthouse_lib
+Version: 0.0.2
+Summary: Robot Frameowrk custom keywords
+Author-email: Pallav Kumar <pallav.kumar@capillarytech.com>
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# cap-tsf-lib
+Custom keywords for ROBOT framework
