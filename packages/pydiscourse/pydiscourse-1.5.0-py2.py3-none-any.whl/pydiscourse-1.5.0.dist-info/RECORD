@@ -1,0 +1,12 @@
+pydiscourse/__init__.py,sha256=KBRzrhUN0XO80HZT6tlNnZRlWXaERsc_DDe4O78HmoU,146
+pydiscourse/client.py,sha256=3ptw6RgaMv-_-qdX9KepIaqoosk-JOunP1UROav6Gsk,42322
+pydiscourse/exceptions.py,sha256=L4NL9GcWldxhJHRvlzgRXehKNTHKZsMuXCuNYfz_oPw,511
+pydiscourse/main.py,sha256=jQMf1vQRvaTv7rano_NWX1yABJf5plKxOay5I5nWBBA,2563
+pydiscourse/sso.py,sha256=ZkGzakOzdchDaYvU8ET02oSMRRYppfmgOF8D7U9WxLo,3253
+pydiscourse-1.5.0.dist-info/AUTHORS,sha256=WTjnGzsVWoQbM7iBsjHTTcHNTwPSPCXyD8_CrjICbzc,325
+pydiscourse-1.5.0.dist-info/LICENSE,sha256=5XMN8K68xQd63wPRiqhu574zvVMqpMXbJF_jYb9b_qY,1072
+pydiscourse-1.5.0.dist-info/METADATA,sha256=BNnoEbkk_BudKV9W248Te-vUhxpclFI5xArjp9HRoVo,4859
+pydiscourse-1.5.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+pydiscourse-1.5.0.dist-info/entry_points.txt,sha256=NhUPs8caW_hUOFYyOZqBUCDxUilJIGeVFx8sdr-l_sE,57
+pydiscourse-1.5.0.dist-info/top_level.txt,sha256=KhxgIgd-nl0QRmV9VzaRwk10uZ-fmojQ7ID6v3xzO_4,12
+pydiscourse-1.5.0.dist-info/RECORD,,
