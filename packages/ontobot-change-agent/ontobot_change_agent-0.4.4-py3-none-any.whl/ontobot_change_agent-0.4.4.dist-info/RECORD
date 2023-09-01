@@ -1,0 +1,11 @@
+ontobot_change_agent/__init__.py,sha256=60nUT-70IAhLH3IfqSB8EIY33_pJsgCR3bdJtjSXl9o,349
+ontobot_change_agent/__main__.py,sha256=K_OYCRmHjMlUqurqW1oxWcj_5CyERJlROsJoAYfxodk,337
+ontobot_change_agent/api.py,sha256=A5E-cCVCZJfl5U-LKsxGqVoSsLlwdNQBZ-9s4YtccjY,9311
+ontobot_change_agent/cli.py,sha256=ckIcCbr1UMcwezBgCMhvd_Mz71fURM_s3qFwsj5Pl14,7346
+ontobot_change_agent/constants.py,sha256=9dhGI56bCrazUt0hl7ExaXCEJLx70h88AKIAqYGc6GY,211
+ontobot_change_agent/version.py,sha256=cVC0bGamtIronp-qI_JvgquP0km47z_GkvViywT2mRc,1189
+ontobot_change_agent-0.4.4.dist-info/LICENSE,sha256=L2qvGyv7UPsoxIaJSGMAcXi3xGgP1CatEx2PivT_cbk,1070
+ontobot_change_agent-0.4.4.dist-info/METADATA,sha256=Sw04d3WUapWs-7eitOisCauxyNYO-WBdxn-T5oyDDCw,1623
+ontobot_change_agent-0.4.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ontobot_change_agent-0.4.4.dist-info/entry_points.txt,sha256=ykUOPFrf7ToqzG4VcS6ULmW9XuIqoRpOzgex8i-dtdk,57
+ontobot_change_agent-0.4.4.dist-info/RECORD,,
