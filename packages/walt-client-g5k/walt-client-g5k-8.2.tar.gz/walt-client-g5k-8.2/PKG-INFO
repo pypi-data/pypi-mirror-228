@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: walt-client-g5k
+Version: 8.2
+Summary: WalT control tool -- Grid'5000 plugin.
+Home-page: https://walt-project.liglab.fr
+Author: WalT developers
+Author-email: walt-contact@univ-grenoble-alpes.fr
+License: 3-Clause BSD
+Keywords: WalT testbed
