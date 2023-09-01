@@ -1,0 +1,11 @@
+hdx/database/__init__.py,sha256=zifJwPlJ6jb-uA-7Zzw2JAr8ysv-uehVTPlmS3H-Xj0,5318
+hdx/database/_version.py,sha256=uxdUP2EJfIHE92xBh1ljjCSRK8pFwGeUVLbLJGFWX18,160
+hdx/database/dburi.py,sha256=hNksrjaCC7AtD_M5ef0DCjkS0rJCofQqdXVD2BHBIGc,2938
+hdx/database/no_timezone.py,sha256=jawupasbCwNo-lDbX24CtxaSilb6LS-jLx-wZAa58nM,1129
+hdx/database/postgresql.py,sha256=9VlcdHhBURZPDaazj1kEq8gA4hUFJY-5hIN9uzibOlM,969
+hdx/database/utils.py,sha256=6lLymWriMFCq8BZgrDt4V5z14GR3PbvG_WXZeBc99Ws,415
+hdx/database/with_timezone.py,sha256=GUUylmTwQHp22yedmCVKpVJzvjWgdS9lg9KeqciNJkY,235
+hdx_python_database-1.2.7.dist-info/METADATA,sha256=92g_voZmxfDZIE3AEjwQbwW18W8T4wBDq82CEoxNdr0,2738
+hdx_python_database-1.2.7.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+hdx_python_database-1.2.7.dist-info/licenses/LICENSE,sha256=wc-4GpMn-ODs-U_bTe1YCiPVgvcjzrpYOx2wPuyAeII,1079
+hdx_python_database-1.2.7.dist-info/RECORD,,
