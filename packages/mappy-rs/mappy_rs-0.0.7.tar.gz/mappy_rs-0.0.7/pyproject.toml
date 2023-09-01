@@ -1,0 +1,48 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "mappy-rs"
+requires-python = ">=3.8"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+version = "0.0.7"
+license = {text = "BSD 3-Clause License"}
+description = "A multithreaded python wrapper for rust bindings of minimap2."
+authors = [
+    { name = "Rory Munro",  email = "rory.munro@nottingham.ac.uk"},
+    { name = "Alexander Payne", email = "alexander.payne@nottingham.ac.uk" }
+]
+
+maintainers = [
+    { name = "Rory Munro",  email = "rory.munro@nottingham.ac.uk"},
+]
+homepage = "https://github.com/adoni5/mappy-rs"
+keywords = ["alignment", "bioinformatics", "python", "rust", "minimap2"]
+
+[project.optional-dependencies]
+tests = ["pytest"]
+dev = ["mappy-rs[tests]", "pre-commit"]
+benchmark = ["mappy_rs[dev]", "pytest-benchmark[histogram]", "mappy"]
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 79
+target-version = ["py38"]

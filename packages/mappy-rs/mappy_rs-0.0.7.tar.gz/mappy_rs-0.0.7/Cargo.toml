@@ -1,0 +1,43 @@
+[package]
+name = "mappy-rs"
+version = "0.0.7"
+edition = "2021"
+authors = ["Rory Munro <roryjmunro1@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "Python Bindings to multithreaded rust minimap2"
+repository = "https://github.com/adoni5/mappy-rs"
+categories = ["science"]
+keywords = ["bioinformatics", "fasta", "alignment", "fastq"]
+exclude = [
+	"**/*.fasta",
+	"libsfasta/test_data/",
+	"*.profdata",
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "mappy_rs"
+
+[dependencies]
+libc = "0.2"
+pyo3 = { version = "0.19" }
+crossbeam = "0.8.2"
+fnv = "1.0.7"
+ctrlc = {version = "3.4.0", features = ["termination"] }
+itertools = "0.10.5"
+minimap2-sys = { path = "local_dependencies/minimap2-sys", features = ["simde"] }
+minimap2 = { path = "local_dependencies/minimap2", features = ["simde"] }
+[features]
+extension-module = ["pyo3/extension-module"]
+default = ["extension-module"]
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units  = 1
+
+[profile.dev]
+debug = true
+
+[profile.dev.package."*"]
+opt-level = 3
