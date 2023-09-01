@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+deaddrops/__init__.py
+deaddrops/database.py
+deaddrops/submit.py
+deaddrops.egg-info/PKG-INFO
+deaddrops.egg-info/SOURCES.txt
+deaddrops.egg-info/dependency_links.txt
+deaddrops.egg-info/requires.txt
+deaddrops.egg-info/top_level.txt
