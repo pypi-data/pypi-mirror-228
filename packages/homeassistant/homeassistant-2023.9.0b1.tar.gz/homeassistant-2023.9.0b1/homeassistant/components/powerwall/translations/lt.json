@@ -1,0 +1,26 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "grid_status": {
+                "name": "Tinklo b\u016bsena"
+            },
+            "status": {
+                "name": "B\u016bsena"
+            }
+        },
+        "sensor": {
+            "charge": {
+                "name": "\u012ekrauti"
+            },
+            "load_instant_power": {
+                "name": "Apkrovos galia"
+            },
+            "load_instant_voltage": {
+                "name": "Apkrovos \u012ftampa"
+            },
+            "solar_instant_voltage": {
+                "name": "Saul\u0117s \u012ftampa"
+            }
+        }
+    }
+}
