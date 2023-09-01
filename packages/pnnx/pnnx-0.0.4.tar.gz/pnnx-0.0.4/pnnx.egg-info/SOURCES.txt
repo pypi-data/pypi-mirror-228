@@ -1,0 +1,13 @@
+README.md
+setup.py
+pnnx/__init__.py
+pnnx/wrapper.py
+pnnx.egg-info/PKG-INFO
+pnnx.egg-info/SOURCES.txt
+pnnx.egg-info/dependency_links.txt
+pnnx.egg-info/top_level.txt
+pnnx/bin/pnnx-20230816-macos/pnnx
+pnnx/bin/pnnx-20230816-ubuntu/pnnx
+pnnx/bin/pnnx-20230816-windows/pnnx.exe
+tests/test_pnnx_package.py
+tests/test_pnnx_wrapper.py
