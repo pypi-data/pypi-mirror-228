@@ -1,0 +1,9 @@
+kelvin/app/__init__.py,sha256=J-BXOEyPTY77Iu740Nhh86FUepvgr9QttQK81mT_lMg,110
+kelvin/app/client.py,sha256=4w_jTb_3vqSUSoCRfcP4S821qI4hUx47Ny8JHALazrk,8939
+kelvin/app/filters.py,sha256=wqXGY-56L-cyKUsiZn9T6_2JZtD_H3nSFzMRG4qRYH4,637
+kelvin/app/logs.py,sha256=Y73KWAqCe3_85gj6F-R9SuUMMZSt7xVwFGeQF0Bt2fA,741
+kelvin/app/stream.py,sha256=x6tQp34UMwIEN26FY_ecouaZJyDwUBTcHTAYSsfdU14,2515
+kelvin_python_sdk-0.0.2.dist-info/METADATA,sha256=VWP4OYIeKQ21fS0fJZXP_Q-hiQDIRynNE5Zr2oOOX10,2079
+kelvin_python_sdk-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+kelvin_python_sdk-0.0.2.dist-info/top_level.txt,sha256=_6yecVlTrSwEnjc4lO27C8g1RL1Rey_1FVZgL4PjUYY,7
+kelvin_python_sdk-0.0.2.dist-info/RECORD,,

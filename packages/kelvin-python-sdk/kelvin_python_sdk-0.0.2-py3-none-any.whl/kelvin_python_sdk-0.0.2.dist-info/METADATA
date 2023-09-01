@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: kelvin-python-sdk
+Version: 0.0.2
+Summary: Kelvin Python SDK
+Author-email: Kelvin Inc <engineering@kelvininc.com>
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: <3.11,>=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: black ==22.3.0
+Requires-Dist: click ==8.0.4
+Requires-Dist: click-shell ==2.1
+Requires-Dist: cloudevents ==1.2.0
+Requires-Dist: deprecation ==2.1.0
+Requires-Dist: dnspython ==2.4.2
+Requires-Dist: email-validator ==2.0.0.post2
+Requires-Dist: idna ==3.4
+Requires-Dist: isort ==5.10.1
+Requires-Dist: kelvin-sdk-datatype ==7.13.2
+Requires-Dist: mypy-extensions ==1.0.0
+Requires-Dist: orjson ==3.6.9
+Requires-Dist: packaging ==23.1
+Requires-Dist: pathspec ==0.11.2
+Requires-Dist: platformdirs ==3.10.0
+Requires-Dist: pydantic[email] ==1.10.12
+Requires-Dist: pyyaml ==6.0.1
+Requires-Dist: structlog ==23.1.0
+Requires-Dist: tomli ==2.0.1
+Requires-Dist: typing-extensions ==4.7.1
+Requires-Dist: wheel ==0.41.2
+Requires-Dist: xdg ==6.0.0
+Provides-Extra: format
+Requires-Dist: isort ; extra == 'format'
+Requires-Dist: black ; extra == 'format'
+Provides-Extra: lint
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: flake8-pyproject ; extra == 'lint'
+Requires-Dist: mypy ; extra == 'lint'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-asyncio ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+
+# README #
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+### What is this repository for? ###
+
+* Quick summary
+* Version
+* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+
+### How do I get set up? ###
+
+* Summary of set up
+* Configuration
+* Dependencies
+* Database configuration
+* How to run tests
+* Deployment instructions
+
+### Contribution guidelines ###
+
+* Writing tests
+* Code review
+* Other guidelines
+
+### Who do I talk to? ###
+
+* Repo owner or admin
+* Other community or team contact
