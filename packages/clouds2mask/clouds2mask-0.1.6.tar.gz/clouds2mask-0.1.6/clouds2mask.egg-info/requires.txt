@@ -1,0 +1,4 @@
+fastai>=2.7
+timm>=0.9
+tqdm>=4.0
+rasterio>=1.3
