@@ -1,0 +1,7 @@
+plumbum>=1.7.2
+commonmark>=0.7.5
+pygments>=2.2.0
+walt-common==8.2
+
+[g5k]
+walt-client-g5k==8.2
