@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: digyrunner_robotframework
+Version: 0.0.1
+Summary: DigyRunner for Robot Framework
+Home-page: https://github.com/Digy4/digyrunner-robotframework
+Author: Digy4
+Author-email: shafi.khan@digy4.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# digyrunner-robotframework
+DigyRunner for Robot Framework

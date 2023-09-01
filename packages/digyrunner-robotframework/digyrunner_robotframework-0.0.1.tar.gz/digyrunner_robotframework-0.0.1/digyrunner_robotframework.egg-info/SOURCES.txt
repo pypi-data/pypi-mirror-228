@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+digyrunner_robotframework.egg-info/PKG-INFO
+digyrunner_robotframework.egg-info/SOURCES.txt
+digyrunner_robotframework.egg-info/dependency_links.txt
+digyrunner_robotframework.egg-info/top_level.txt
