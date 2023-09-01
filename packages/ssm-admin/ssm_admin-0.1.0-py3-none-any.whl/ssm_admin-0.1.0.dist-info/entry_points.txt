@@ -1,0 +1,3 @@
+[console_scripts]
+ssm-admin=ssm_admin.ssm_admin:app
+
