@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+setup.py
+nsimport/__init__.py
+nsimport/_bootstrap.py
+nsimport/_bootstrap_external.py
+nsimport/abc.py
+nsimport/machinery.py
+nsimport/metadata.py
+nsimport/nsimporter_internal.py
+nsimport/resources.py
+nsimport/util.py
+nsimport.egg-info/PKG-INFO
+nsimport.egg-info/SOURCES.txt
+nsimport.egg-info/dependency_links.txt
+nsimport.egg-info/top_level.txt
