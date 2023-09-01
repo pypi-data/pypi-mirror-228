@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: haplot
+Version: 0.0.1
+Summary: A package for genomic data visualization
+Home-page: https://github.com/swu1019lab/haplot
+Author: XiaoDong Li
+Author-email: lxd1997xy@163.com
+License: BSD 3-clause
+Platform: UNKNOWN
+Requires-Python: >=3.10
+License-File: LICENSE
+
+UNKNOWN
+
