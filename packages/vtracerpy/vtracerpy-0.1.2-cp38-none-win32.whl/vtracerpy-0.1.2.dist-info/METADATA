@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: vtracerpy
+Version: 0.1.2
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: Python binding for vtracer. image to svg.
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# vtracerpy
+Python binding for [vtracer](https://github.com/visioncortex/vtracer).
+
+[![CI](https://github.com/orange0-jp/vtracerpy/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/orange0-jp/vtracerpy/actions/workflows/CI.yml)
+[![PyPI](https://img.shields.io/pypi/v/vtracerpy)](https://pypi.org/project/vtracerpy/)
+## Install
+### from pypi
+```bash
+pip install vtracerpy
+```
+
+### from source
+Install rust.
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source "$HOME/.cargo/env"
+rustup -V
+```
+Install maturin
+```bash
+pip install maturin
+```
+### build
+```
+git clone https://github.com/orange0-jp/vtracerpy.git
+cd vtracerpy
+maturin build -i python3 --release
+pip install .
+```
+
+## Usage
+```python
+from pathlib import Path
+from vtracerpy import image_to_svg
+import cv2
+img = cv2.cvtColor(cv2.imread('test/mask.png', colormode='color'), cv2.COLOR_BGR2RGB)
+result = image_to_svg(img)
+Path("mask.svg").write_text(result, encoding="utf-8")
+```
+
+## Args
+```python
+def image_to_svg(image: np.ndarray,
+                 colormode: str = 'color',
+                 color_precision: int = 8,
+                 layer_difference: int = 16,
+                 hierarchical: str = 'stacked',
+                 path_precision: int = 8,
+                 mode: str = 'spline',
+                 corner_threshold: int = 60,
+                 length_threshold: float = 4.0,
+                 max_iterations: int = 10,
+                 splice_threshold: int = 45,
+                 filter_speckle: int = 4)->str:
+    """
+    Convert an image to SVG format with specified parameters.
+
+    Parameters:
+    - image: (np.ndarray)The input image with shape (H,W,3) to be converted to SVG format.
+    - colormode (str, optional): True color image `color` (default) or Binary image `bw`.
+    - color_precision (int, optional): Number of significant bits to use in an RGB channel. Defaults to 8.
+    - layer_difference (int, optional): Color difference between gradient layers. Defaults to 16.
+    - hierarchical (str, optional): Hierarchical clustering. Can be `stacked` (default) or non-stacked `cutout`. Only applies to color mode.
+    - path_precision (int, optional): Parameter not described in provided options. Defaults to 8.
+    - mode (str, optional): Curve fitting mode. Can be `pixel`, `polygon`, `spline`. Defaults to 'spline'.
+    - corner_threshold (int, optional): Minimum momentary angle (degree) to be considered a corner. Defaults to 60.
+    - length_threshold (float, optional): Perform iterative subdivide smooth until all segments are shorter than this length. Defaults to 4.0.
+    - max_iterations (int, optional): Parameter not described in provided options. Defaults to 10.
+    - splice_threshold (int, optional): Minimum angle displacement (degree) to splice a spline. Defaults to 45.
+    - filter_speckle (int, optional): Discard patches smaller than X px in size. Defaults to 4.
+
+    Returns:
+    - str: The SVG representation of the input image.
+    """
+```
+
+## Development
+init maturin project
+```bash
+maturin new --name vtracerpy --mixed -b pyo3 vtracerpy
+```
+build
+```
+maturin develop
+pip install .
+```
+
