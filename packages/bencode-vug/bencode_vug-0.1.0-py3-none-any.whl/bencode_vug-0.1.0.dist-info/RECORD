@@ -1,0 +1,8 @@
+bencode/__init__.py,sha256=jwbce5n--WP0AiTpM3sy84GlFUkOIImUbIjVkpDJZ5Q,705
+bencode/decode.py,sha256=k1lzDOaJ2MDfpfQy-_Ak6pF9qQze9DdivrhrLYcVmyo,3585
+bencode/encode.py,sha256=hPPK8D-h-stL9mNixZtjwLmDAKM8WFyYkl2JAgkClJo,2325
+bencode_vug-0.1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+bencode_vug-0.1.0.dist-info/METADATA,sha256=o0d37f4lFgx-MGQQCjfdcJ2Tr8BtnsZCRzQ4THvzPkY,42192
+bencode_vug-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+bencode_vug-0.1.0.dist-info/top_level.txt,sha256=8zgQOxcH1jTWWz5GkFrerik9YUm6K7GwOGJ3C4SgSC8,8
+bencode_vug-0.1.0.dist-info/RECORD,,
