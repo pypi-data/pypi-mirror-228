@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: skynet-ml
+Version: 0.0.1
+Summary: A hand made machine learning library from scratch, by Thiago Macedo
+Home-page: https://github.com/pypa/sampleproject
+Author: Thiago Macedo
+Author-email: thialmacedo@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# skynet
