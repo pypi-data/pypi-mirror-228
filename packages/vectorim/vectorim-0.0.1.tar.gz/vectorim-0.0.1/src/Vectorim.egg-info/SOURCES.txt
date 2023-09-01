@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/Vectorim.egg-info/PKG-INFO
+src/Vectorim.egg-info/SOURCES.txt
+src/Vectorim.egg-info/dependency_links.txt
+src/Vectorim.egg-info/requires.txt
+src/Vectorim.egg-info/top_level.txt
+src/vectorim/__init__.py
+src/vectorim/vectorim.py
+src/vectorim.egg-info/PKG-INFO
+src/vectorim.egg-info/SOURCES.txt
+src/vectorim.egg-info/dependency_links.txt
+src/vectorim.egg-info/requires.txt
+src/vectorim.egg-info/top_level.txt
+tests/test_search.py
