@@ -1,0 +1,27 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "image_format_converter"
+version = "0.1.1"
+description = "A lightweight Python package that converts images in a directory from one format to another while preserving their dimensions."
+authors = ["Carlos Aponte <carlos@caponte.io>"]
+readme = "README.md"
+homepage = "https://github.com/0xCaponte/image_format_converter"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+Pillow = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+coverate = "*"
+
+[tool.poetry.scripts]
+image-format-converter = 'image_format_converter.converter:main'
