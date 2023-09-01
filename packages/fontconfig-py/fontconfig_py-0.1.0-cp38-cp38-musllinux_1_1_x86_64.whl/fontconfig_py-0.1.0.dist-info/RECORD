@@ -1,0 +1,14 @@
+fontconfig_py.libs/libfreetype-ac556f54.so.6.20.1,sha256=Ec_sqZs_GvVqgaxlrU8dzoySgByz5brcADH2BO9CVls,4207337
+fontconfig_py.libs/libexpat-b8b0ae40.so.1.6.12,sha256=X3I-yFZ6dnQjBqM0IAb-Zo58BhcVPQ61coFX8hww5wM,145889
+fontconfig_py.libs/libfontconfig-119dec07.so.1.12.0,sha256=0dSYWoaVwfGurOkUDHn3G1zZsTZmpO7rjGFuDCJo9VE,1312377
+fontconfig_py.libs/libintl-d577eeb2.so.8.1.7,sha256=NwGkPQefR0TBzCNR2eMQgT3BJMqUEQxu3w1fCBVOVsQ,46401
+fontconfig_py.libs/libbz2-e55174b0.so.1.0.8,sha256=nLQu8p2AuUOP8XKyFjOxRcuzbTMhNmeEMKDgu4ZqMzI,62697
+fontconfig_py-0.1.0.dist-info/RECORD,,
+fontconfig_py-0.1.0.dist-info/WHEEL,sha256=jp_1Xt0JbpYs3IHj4wXIPtIC_EYCgThRRhsq6DLtwkE,107
+fontconfig_py-0.1.0.dist-info/LICENSE.txt,sha256=9XsGO6217UoyJ0MM33hbMEy32CP3F2ygv15jNkv8grs,1071
+fontconfig_py-0.1.0.dist-info/METADATA,sha256=0ExA-PMinAEIJDyA_pH7Is_q0T8FfXoKav-DT_l2qjY,1195
+fontconfig/__init__.py,sha256=O91eoDo_GvWZnJKIJzQayhRepPDUib_y6I4btLSu_wE,74
+fontconfig/_fontconfig.pxd,sha256=bUOrW8o1afGBs7ZdbSvABU6vAcjVGIrdD6xWUpJpuSQ,18028
+fontconfig/fontconfig.pyx,sha256=In5SSJaYEnKjMWApE7-fhCgVy42BexxAyTWs3OU-q30,20556
+fontconfig/fontconfig.cpython-38-x86_64-linux-gnu.so,sha256=DOUEUNodZUmv5BtVYgY_R-DTPIRBBccs3pYHC9Ov6Xc,1810721
+fontconfig/fontconfig.c,sha256=CPSx4Q1Owd35wXCwUyEkQwAXOrR6cvmE2tG8_SyiTZ4,1048122
