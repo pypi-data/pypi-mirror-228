@@ -1,0 +1,10 @@
+datafind/__init__.py,sha256=n1bnYdeb_bNDBKASWGywTRa0Ne9hMAkal3AuVZJgovI,5
+datafind/asimov.py,sha256=tycVPoG-m9W2MlqqGsm8d3-m2Nb6UuNCtYBXPjbsh3Q,6581
+datafind/datafind_template.yml,sha256=DJp4q8Misoe5Seq18JJESJ1JZP2T7P-wz73G8bNLRb0,1273
+datafind/main.py,sha256=zDqLq1YsYTbdfGn1HeNoo6uARbZYihusZtAT7SO9jhk,8030
+asimov_gwdata-0.2.0.dist-info/LICENSE,sha256=5RlX3cNPEWzfEzTPf4ycmQinjZqfntR0JHX7qj2I6Jc,1065
+asimov_gwdata-0.2.0.dist-info/METADATA,sha256=QVodAR6oAwqFOwZVobSO0cfiqqa8p88WL3kEQVoTJFk,1627
+asimov_gwdata-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+asimov_gwdata-0.2.0.dist-info/entry_points.txt,sha256=jNf59fztTd1aeq1YvjDVeAR_7kLytCjHilxpuMceJsc,104
+asimov_gwdata-0.2.0.dist-info/top_level.txt,sha256=WSEvN02yzSsi4_pFrF8gxOmFA7zSB6uCmlfKhqCcsUQ,9
+asimov_gwdata-0.2.0.dist-info/RECORD,,
