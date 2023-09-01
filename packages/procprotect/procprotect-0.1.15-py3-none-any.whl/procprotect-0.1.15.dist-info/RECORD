@@ -1,0 +1,12 @@
+procprotect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+procprotect/debugCheck.py,sha256=P7kcQdUl_THUzZwwWa3ct9PKQ6AqSLvNswzegfNP4mc,3058
+procprotect/main.py,sha256=jFbdPhOtvexblgNqnigE4fU7MxISaYt5bWMUqyRSLVA,2140
+procprotect/vmCheck.py,sha256=78iRBbSVor_ISimJN94SBRi148AUpSInDukOVHPWuOQ,3436
+procprotect/lists/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+procprotect/lists/default_debugCheck.py,sha256=1djZWKxvWRT3eBbrYCkBzjXchcAPa1up-GOx6LGTT-Q,1982
+procprotect/lists/default_vmCheck.py,sha256=cOBe8oBCUif8D4pm8-BJDWXCgDNyOZ6eaGoqfy1ukvo,2611
+procprotect-0.1.15.dist-info/LICENSE,sha256=6tXCfMOJZfD7hJiFJCM-sGCviiZI30PGOIsreYiblwM,35108
+procprotect-0.1.15.dist-info/METADATA,sha256=kzdU2gtCdFLV4Lsb-KwjX4It9QNAqMlzViz_gs9LjEg,1063
+procprotect-0.1.15.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+procprotect-0.1.15.dist-info/top_level.txt,sha256=BkjdhVC7s0syJDBjCuLnOiCOHyiQX_M8nbT7DTKLVcI,12
+procprotect-0.1.15.dist-info/RECORD,,
