@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: temperature-expansion-kit-plugin
+Version: 0.0.1
+Home-page: 
+Author: Cam Davidson-Pilon
+Author-email: cam@pioreactor.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: adafruit-circuitpython-max31865
+
+## Pioreactor Temperature Expansion Kit Plugin
+
+This is the necessary software to use the [Pioreactor Temperature Expansion Kit](https://pioreactor.com).
+
