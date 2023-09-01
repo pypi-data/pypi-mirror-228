@@ -1,0 +1,7 @@
+setup.py
+ComicallyDumb/__init__.py
+ComicallyDumb.egg-info/PKG-INFO
+ComicallyDumb.egg-info/SOURCES.txt
+ComicallyDumb.egg-info/dependency_links.txt
+ComicallyDumb.egg-info/requires.txt
+ComicallyDumb.egg-info/top_level.txt
