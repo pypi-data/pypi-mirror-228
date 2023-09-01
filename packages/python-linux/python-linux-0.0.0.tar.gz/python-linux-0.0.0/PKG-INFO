@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: python-linux
+Version: 0.0.0
+Summary: Human friendly interface to linux subsystems using python
+Author-email: Jose Tiago Macara Coutinho <coutinhotiago@gmail.com>
+License: GPL-3.0-or-later
+Project-URL: Documentation, https://github.com/tiagocoutinho/python-linux
+Project-URL: Homepage, https://github.com/tiagocoutinho/python-linux
+Project-URL: Source, https://github.com/tiagocoutinho/python-linux
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Multimedia :: Video :: Capture
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: build
+Provides-Extra: dev
+Provides-Extra: test
+
+# Linux python
+
+Human friendly interface to linux subsystems using python.
