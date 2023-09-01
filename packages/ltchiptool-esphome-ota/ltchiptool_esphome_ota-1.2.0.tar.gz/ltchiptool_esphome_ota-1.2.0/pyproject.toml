@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ltchiptool-esphome-ota"
+version = "1.2.0"
+description = "ESPHome OTA uploader plugin for ltchiptool"
+authors = ["Kuba Szczodrzyński <kuba@szczodrzynski.pl>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "ltctplugin/esphomeota" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+zeroconf = "^0.88.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+isort = "^5.12.0"
+autoflake = "^2.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
