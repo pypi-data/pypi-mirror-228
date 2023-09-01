@@ -1,0 +1,8 @@
+LICENCE.txt
+README.md
+setup.py
+tmath/__init__.py
+tmath.egg-info/PKG-INFO
+tmath.egg-info/SOURCES.txt
+tmath.egg-info/dependency_links.txt
+tmath.egg-info/top_level.txt
