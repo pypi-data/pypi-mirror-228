@@ -1,0 +1,11 @@
+_re2.cp38-win_amd64.pyd,sha256=I7iDpJigc9fjnEo3RRubPDT6cd_Y1oWVM7G2L3Ayz2w,575488
+re2.py,sha256=wA5qpeY1m3PlnWJ7020lDDpFehLg8VLMy2wkwqriog8,18159
+google_re2-1.1.data/platlib/.load-order-google_re2-1.1,sha256=n-lMmL2J3eIdOk_F03dugJB2RiFnp0cQSTyRpsxnD9k,98
+google_re2-1.1.data/platlib/msvcp140-26084a3f6a06ca080f78273bcdc7bfc6.dll,sha256=7FK3VWFW3K6unFY4IOM-PV5H1NFinMeJpX1YtxDYoPw,621960
+google_re2-1.1.data/platlib/vcruntime140_1-5ef4a010b0e9816fc465577d19d72f2a.dll,sha256=sdO2s83rW3uBh3Z82GEAt2Iz57u5rPVsZPgojzSyaco,36728
+google_re2-1.1.dist-info/DELVEWHEEL,sha256=ETXJV-qKuFy-o1Cz3Ls_NdSQbA39zYUFeHUdWe3TTec,199
+google_re2-1.1.dist-info/LICENSE,sha256=UDuzzGa9Xw0HDKa7cAKqZ4QDJ5zzqN5kjzK23fyUAYQ,1585
+google_re2-1.1.dist-info/METADATA,sha256=pHZ9VVpD2g321rJAcLh2s8F4iqbP3dHXbHkNNo6EoJ8,2213
+google_re2-1.1.dist-info/WHEEL,sha256=VirvQtqIB15shtYeSRr-ThVy5tNcAAZEu9vaVOLTyX0,110
+google_re2-1.1.dist-info/top_level.txt,sha256=-68pj14yD7p0WrE0v9RCDXTHx_WdghsWCieA3utx3N4,9
+google_re2-1.1.dist-info/RECORD,,
