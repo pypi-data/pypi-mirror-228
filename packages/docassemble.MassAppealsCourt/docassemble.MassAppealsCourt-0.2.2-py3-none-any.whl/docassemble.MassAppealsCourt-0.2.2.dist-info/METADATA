@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: docassemble.MassAppealsCourt
+Version: 0.2.2
+Summary: A docassemble extension for working with the Massachusetts Appeals Court
+Home-page: https://corutformsonline.org
+Author: Quinten Steenhuis
+Author-email: massaccess@suffolk.edu
+License: The MIT License (MIT)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: docassemble.MAVirtualCourt >=1.0.22
+
+# docassemble.MassAppealsCourt
+
+A docassemble extension.
+
+## Author
+
+System Administrator, admin@admin.com
+
