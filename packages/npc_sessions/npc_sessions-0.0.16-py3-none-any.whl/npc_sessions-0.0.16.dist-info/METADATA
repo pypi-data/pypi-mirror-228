@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: npc-sessions
+Version: 0.0.16
+Summary: Tools and interfaces for working with behavior and epyhys sessions from the Mindscope Neuropixels team, in the cloud.
+Author-email: Ben Hardcastle <ben.hardcastle@alleninstitute.org>
+License: MIT
+Project-URL: Repository, https://github.com/AllenInstitute/npc_sessions
+Project-URL: Issues, https://github.com/AllenInstitute/npc_sessions/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: npc-lims >=0.1.0
+Requires-Dist: polars[all] >=0.18.14
+Requires-Dist: h5py >=3.9.0
+Requires-Dist: pandas[aws,excel,fss,hdf5,performance,plot] >=2.0.3
+Requires-Dist: universal-pathlib >=0.1.1
+Requires-Dist: s3fs >=2023.6.0
+Requires-Dist: pynwb >=2.5.0
+Requires-Dist: crc32c >=2.3.post0
+Requires-Dist: rich >=13.5.2
+Requires-Dist: zarr >=2.16.1
+Requires-Dist: wavpack-numcodecs >=0.1.4
+Requires-Dist: matplotlib >=3.7.2
+Requires-Dist: scipy >=1.9.3
+Requires-Dist: DynamicRoutingTask >=0.1.7
+Requires-Dist: numba >=0.57.1
+Requires-Dist: jupyter >=1.0.0
+Requires-Dist: ipywidgets >=8.1.0
+Requires-Dist: ipympl >=0.9.3
+Requires-Dist: opencv-python-headless >=4.8.0.76
+Requires-Dist: python-dotenv >=1.0.0
+Requires-Dist: ndx-events >=0.2.0
+Requires-Dist: SimpleITK >=2.2.1
+Requires-Dist: pyarrow >=13.0.0
+Provides-Extra: onsite
+Requires-Dist: np-session >=0.6.34 ; extra == 'onsite'
+
+# npc_sessions
+**n**euro**p**ixels **c**loud **sessions**
+	
+Tools for accessing data and metadata for behavior and epyhys sessions from the
+Mindscope Neuropixels team - in the cloud.
+
+[![Python
+Versions](https://img.shields.io/pypi/pyversions/npc_sessions.svg)](https://pypi.python.org/pypi/npc-sessions/)
+
+## quickstart
+
+```bash
+pip install npc_sessions
+```
+
+Get some minimal info on all the tracked sessions available to work with:
+```python
+>>> from npc_sessions import tracked as tracked_sessions;
+
+# each record in the sequence has info about one session:
+>>> tracked_sessions[0]._fields
+('session', 'subject', 'date', 'idx', 'project', 'is_ephys', 'is_sync', 'allen_path')
+>>> tracked_sessions[0].is_ephys
+True
+>>> all(s.date.year >= 2022 for s in tracked_sessions)
+True
+
+```
