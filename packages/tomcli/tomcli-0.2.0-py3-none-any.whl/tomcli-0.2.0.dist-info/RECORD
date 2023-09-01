@@ -1,0 +1,12 @@
+tomcli/__init__.py,sha256=PLanYRGqJdyfQrtPhswdq5h4eGYn7L2sCQZ3RwRj3Zc,204
+tomcli/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tomcli/toml.py,sha256=GNt98BVDODRWJOraBu3w-H-3tVX2XtbwPHEQlbwofCU,5983
+tomcli/cli/__init__.py,sha256=5gk-tyUH0_BmawPE6QriL8VAqIII8F-_t7xmVrs1A9w,82
+tomcli/cli/_util.py,sha256=HTLaBfo335JuEMdXSHa41roZwsNEZiFkIYYvnPKv1as,635
+tomcli/cli/get.py,sha256=XatY9UtX7PdNK1Flh25Xu2rmFkvwFy4PxBWH3soNnks,1527
+tomcli/cli/set.py,sha256=ECNTF4LC68hD7XuqP-g6XeXMag7IR0k3NJ6oGyKkaHI,10369
+tomcli-0.2.0.dist-info/METADATA,sha256=Vb-I98F1R4wAuIMTpIHhqOIR_g5h3dlxI4kpKQzm_4A,3457
+tomcli-0.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+tomcli-0.2.0.dist-info/entry_points.txt,sha256=GgKYg00P-gbgoxrJ5Jf6pgkhhWypIThwRxgc8d8qQ04,82
+tomcli-0.2.0.dist-info/licenses/LICENSES/MIT.txt,sha256=uF3NPkU9BZglUsUrX8ngvdbSPG-OhEuYSoivMlcLDMA,1078
+tomcli-0.2.0.dist-info/RECORD,,
