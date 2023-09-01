@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: element-python-package
+Version: 0.2.4
+Summary: A simple example package
+Home-page: UNKNOWN
+Author: Sharadind Peddiraju
+Author-email: sharadind.pv@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+
+UNKNOWN
+
