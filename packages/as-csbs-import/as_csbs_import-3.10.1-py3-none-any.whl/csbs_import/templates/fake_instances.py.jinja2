@@ -1,0 +1,18 @@
+# {{generated}}
+
+from os import environ
+
+from ophyd.sim import make_fake_device
+
+from .assemblies import *
+
+PVPREFIX = environ.get("PVPREFIX", "")
+
+{% for node in opa.children recursive %}
+{%-   if node.isAssembly() -%}
+{{node.fqn(opa=False)|varname}} = make_fake_device({{node.fqn(opa=False)|classname}})(PVPREFIX, name="{{node.fqn(opa=False)|varname}}")
+{%    elif node.isLeaf() -%}
+
+{%    endif -%}
+{{loop(node.children)}}
+{%- endfor -%}

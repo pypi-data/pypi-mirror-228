@@ -1,0 +1,48 @@
+# {{generated}}
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+
+@dataclass(frozen=True)
+class Device:
+    name: str
+    type: str
+    pv: str
+
+
+@dataclass(frozen=True)
+class Assembly:
+    name: str
+    description: str
+    children: list[Assembly|Device]
+
+    def __getattr__(self, name):
+      for child in self.children:
+        if child.name == name:
+          return child
+      raise AttributeError(f"{type(self).__name__} '{self.description}' has no attribute '{name}'")
+
+
+{% macro printnode(node, parent, depth) -%}
+{% set indent = "  " * depth %}
+{%- if node.isAssembly() -%}
+{%    if parent.description is defined %}{{indent}}# parent: {{parent.description|varname}}
+{% endif %}
+{{indent}}Assembly(name="{{node.description|varname}}", description="{{node.description}}", children=[
+{%    for child in node.children -%}
+{{printnode(child, node, (depth + 1))}}
+{%-   endfor -%}
+{{indent}}]),
+{%  elif node.isLeaf() -%}
+{{indent}}Device(name="{{node.description|varname(prefix=parent.description)}}", pv="{{node.name}}", type="{{node.typeName()}}"),
+{%  endif -%}
+{%- endmacro -%}
+
+{{opa.shortname|varname}} = \
+  Assembly(name="{{opa.shortname}}", description="{{opa.name}}", children = [
+{% for child in opa.children -%}
+{{printnode(child, opa, 2)}}
+{%- endfor -%}
+
+])

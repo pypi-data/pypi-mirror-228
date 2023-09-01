@@ -1,0 +1,3 @@
+[console_scripts]
+csbs-import=csbs_import.cli:run
+

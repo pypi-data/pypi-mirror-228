@@ -1,0 +1,16 @@
+csbs_import/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csbs_import/cli.py,sha256=L3XG5BGoofphoypkvKi-GLFeForR2r6dZSlO-Jmytv0,3216
+csbs_import/generator.py,sha256=duKtPt4RchVi5ZP-kmy5pFXehhuaRS_Gb9-zYyGkWG4,4904
+csbs_import/lib.py,sha256=uxNVPwgvO083-dnRzIjKXExFMs0rVid1Ps4gdelo9jI,3837
+csbs_import/models.py,sha256=9tRF0aGTKcmKI89yZ7ngSRLsRyn9qmBm3dIS80XQEwI,3691
+csbs_import/templates/assemblies.py.jinja2,sha256=DECINLAszt1XEGh1Jq0f1mT-8ItUbhg2m4tuxOFTpRw,632
+csbs_import/templates/assembly_tree.py.jinja2,sha256=396kLLocy-vdNzN0mVEtpji5J8UmQ4JGX8b8dx1Di94,1697
+csbs_import/templates/fake_instances.py.jinja2,sha256=A_S2Y1WzYNtfthTjXP5xBvo8sTNQVOs58AFVh6vwFnA,441
+csbs_import/templates/info.py.jinja2,sha256=IIK0viYDezMVeqkc8BIQ7933_AAmFgDFBcdTi229F2Y,1301
+csbs_import/templates/instances.py.jinja2,sha256=ffNHCqnZt2kZT-i17ihjEnIxBwqs1hUw0AmsO7iYkUk,383
+csbs_import/templates/mock.py.jinja2,sha256=74H3Qyp2Wa5BZQz-vb3dRaXXp89LxMuAs5rMkRfwm1Q,467
+csbs_import/version.py,sha256=7GVrP9As1FZwCikhd45YWPHhEiMaTqaVZq7Xn3jMnz8,105
+as_csbs_import-3.10.1.dist-info/METADATA,sha256=Qk-Yj_OsmJnsdVp8qJ0Hlw-hvaQro1AQprvSSLPiGjA,1821
+as_csbs_import-3.10.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+as_csbs_import-3.10.1.dist-info/entry_points.txt,sha256=lwe9O_D4Gk130vz4t2HLjQqU0hMUu5u4aCDlhe49Oq0,51
+as_csbs_import-3.10.1.dist-info/RECORD,,

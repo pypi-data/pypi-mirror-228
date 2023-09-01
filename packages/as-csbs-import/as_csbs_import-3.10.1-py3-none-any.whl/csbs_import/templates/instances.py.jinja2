@@ -1,0 +1,16 @@
+# {{generated}}
+
+from os import environ
+
+from .assemblies import *
+
+PVPREFIX = environ.get("PVPREFIX", "")
+
+{% for node in opa.children recursive %}
+{%-   if node.isAssembly() -%}
+{{node.fqn(opa=False)|varname}} = {{node.fqn(opa=False)|classname}}(PVPREFIX, name="{{node.fqn(opa=False)|varname}}")
+{%    elif node.isLeaf() -%}
+
+{%    endif -%}
+{{loop(node.children)}}
+{%- endfor -%}

@@ -1,0 +1,48 @@
+# {{generated}}
+
+import ophyd
+
+{% for import in ophyd_imports %}
+import {{import}}
+{% endfor %}
+
+{% if component_factory.module %}
+import {{component_factory.module}}
+{% endif %}
+
+{% if mixins_import %}
+import {{mixins_import}}
+{% endif %}
+
+def default_component_factory(fqn: str, device: ophyd.Device, name: str):
+    return ophyd.Component(device, name, lazy=True)
+
+{% if mixins_import %}
+def mixin(classname: str):
+    """
+    Mixin superclass selector. If there's a mixin class, subclass from it.
+    Allows users of these generated classes to customise them without subclassing.
+    """
+    return getattr(beamline.devices.mixins, f"{classname}_Mixin", ophyd.Device)
+{% endif %}
+
+{% for node in opa.topologicalSort() %}
+{%   if node.isAssembly() %}
+
+class {{ node.fqn()|classname }}({% if mixins_import %}mixin("{{ node.fqn()|classname }}"){% else %}ophyd.Device{% endif %}):
+    """{{node.description}}"""
+{%     for child in node.children|sort(attribute='description') if child.isLeaf() %}
+{% set cls = ophydClassLookup(child.typeName()) %}
+    {{child.description|varname(prefix=node.description)}} = {{component_factory.module}}.{{component_factory.callable}}(fqn="{{child.fqn_dotted_var()}}", device={{cls.__module__}}.{{cls.__name__}}, name="{{child.name}}")
+{%     endfor %}
+{%     for child in node.children|sort(attribute='description') if child.isAssembly() %}
+{%       if loop.first %}
+
+    def __init__(self, prefix="", **kwargs):
+        super().__init__(prefix, **kwargs)
+{%       endif %}
+{%        set name = child.description|varname(prefix=node.description) %}
+        self.{{name}} = {{ child.fqn()|classname }}(name="{{name}}")
+{%     endfor %}
+{%   endif %}
+{% endfor %}

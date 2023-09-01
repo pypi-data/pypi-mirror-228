@@ -1,0 +1,15 @@
+# {{generated}}
+
+from caproto.server import PVGroup, SubGroup
+
+{% for import in mock_imports %}
+import {{import}}
+{% endfor %}
+
+class {{opa.shortname}}(PVGroup):
+{% for node in opa.topologicalSort() if node.isLeaf() %}
+  {%-    set cls = mockClassLookup(node.typeName()) -%}
+  {%-   if cls is not none %}
+    {{node.fqn(opa=False)|varname(prefix=node.description)}} = SubGroup({{cls.__module__}}.{{cls.__name__}}, prefix="{{node.name}}")
+{%    endif -%}
+{% endfor %}

@@ -1,0 +1,22 @@
+# {{generated}}
+
+import ophyd
+
+{% for import in ophyd_imports %}
+import {{import}}
+{% endfor %}
+
+{% for node in opa.children recursive %}
+{%   if node.isAssembly() %}
+class {{node.fqn(opa=False)|classname }}(ophyd.Device):
+    """{{node.description}}"""
+{%     for child in node.children|sort(attribute='description') %}
+{%       if child.isLeaf() %}
+{% set cls = ophydClassLookup(child.typeName()) %}
+    {{child.description|varname(prefix=node.description)}} = ophyd.Component({{cls.__module__}}.{{cls.__name__}}, "{{child.name}}", lazy=True)
+{%       endif %}
+{%     endfor %}
+
+{% endif %}
+{{loop(node.children)}}
+{%- endfor -%}
