@@ -1,0 +1,9 @@
+google_benchmark/__init__.py,sha256=hhsBYHvTYpC1y7LBgKfxZiPOAVRfOHzQ_fsHf9PBF_A,4625
+google_benchmark/_benchmark.cp310-win_amd64.pyd,sha256=amPCIn07QbgmZrL1LQlYtF96z9aq3ENQyDrt_lImmRU,367104
+google_benchmark/example.py,sha256=ZimlDT1CPqVkfSQUrCp4OMxrlK3qtAEBI9blDZ4AxCg,3994
+google_benchmark-1.8.3.dist-info/AUTHORS,sha256=rRpYQRfunm-taXqzv0rI7TN7MORLERyhfhE5tBFftqI,2709
+google_benchmark-1.8.3.dist-info/LICENSE,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+google_benchmark-1.8.3.dist-info/METADATA,sha256=LYHLUMMAR8UY1tO8KiQk3ftE9mGB7J7KI4WxGJ3ANLs,22328
+google_benchmark-1.8.3.dist-info/WHEEL,sha256=yrvteVAZzxQvtDnzdCRh4dP01sPIxYhLXIXplC7o50E,102
+google_benchmark-1.8.3.dist-info/top_level.txt,sha256=Cy-NqfgaD1XqpQwE9czm2fxEFK4F99WMj1NtIonvWpE,17
+google_benchmark-1.8.3.dist-info/RECORD,,
