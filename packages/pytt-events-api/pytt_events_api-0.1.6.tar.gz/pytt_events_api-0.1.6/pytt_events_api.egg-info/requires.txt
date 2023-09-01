@@ -1,0 +1,7 @@
+email-validator
+ipaddress
+phonenumbers
+pydantic
+pydantic[dotenv]
+pytest
+requests
