@@ -1,0 +1,1 @@
+from intelligentsales_logger import igs_logger
