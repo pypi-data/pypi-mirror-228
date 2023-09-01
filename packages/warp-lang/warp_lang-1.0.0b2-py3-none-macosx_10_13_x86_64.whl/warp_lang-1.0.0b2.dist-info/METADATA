@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: warp-lang
+Version: 1.0.0b2
+Summary: A Python framework for high-performance simulation and graphics programming
+Author-email: NVIDIA <mmacklin@nvidia.com>
+License: NVSCL
+Project-URL: GitHub, https://github.com/NVIDIA/warp
+Project-URL: Documentation, https://nvidia.github.io/warp
+Project-URL: Changelog, https://github.com/NVIDIA/warp/blob/main/CHANGELOG.md
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE.md
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: nvtx ; extra == 'dev'
+Requires-Dist: furo ; extra == 'dev'
+
