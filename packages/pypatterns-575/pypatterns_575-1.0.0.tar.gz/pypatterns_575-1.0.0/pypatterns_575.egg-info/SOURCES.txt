@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+pypatterns/__init__.py
+pypatterns/alphabet_patterns/__init__.py
+pypatterns/get_pattern_code/__init__.py
+pypatterns/number_patterns/__init__.py
+pypatterns/star_patterns/__init__.py
+pypatterns_575.egg-info/PKG-INFO
+pypatterns_575.egg-info/SOURCES.txt
+pypatterns_575.egg-info/dependency_links.txt
+pypatterns_575.egg-info/requires.txt
+pypatterns_575.egg-info/top_level.txt
