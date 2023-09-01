@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maibenchai"
+version = "0.1"
+description = "A simple package for LLM application evaluation."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    {name = "maibench", email = "support@maibench.ai"}
+]
+requires-python = ">=3.7.1"
+dependencies = [
+    "requests>=2.31.0",
+    "openai>=0.27.2"
+]
+
+[project.urls]
+Homepage="https://maibench.ai"
+Repository="https://github.com/maibench/maibench"
