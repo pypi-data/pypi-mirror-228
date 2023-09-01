@@ -1,0 +1,15 @@
+pytest>=3
+requests
+crds
+
+[all]
+astropy
+
+[docs]
+numpydoc
+sphinx_rtd_theme>1.2.0
+sphinx-automodapi
+
+[test]
+astropy
+pytest-astropy-header

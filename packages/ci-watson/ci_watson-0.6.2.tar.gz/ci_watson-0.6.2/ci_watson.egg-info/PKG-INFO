@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ci-watson
+Version: 0.6.2
+Summary: CI helper for STScI Jenkins
+Home-page: https://github.com/spacetelescope/ci_watson
+Author: STScI
+Author-email: help@stsci.edu
+License: BSD
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Provides-Extra: test
+Provides-Extra: docs
+License-File: LICENSE.md
+
+# ci_watson
+
+[![CI Status](https://github.com/spacetelescope/ci_watson/workflows/CI/badge.svg)](https://github.com/spacetelescope/ci_watson/actions)
+[![Documentation Status](https://readthedocs.org/projects/ci-watson/badge/?version=latest)](https://ci-watson.readthedocs.io/en/latest/?badge=latest)
+
+CI helper for STScI Jenkins.
+If you ask nicely, it might also help you solve crimes.
+
+Nightly regression test results are available only from within the STScI
+network at this time.
+https://plwishmaster.stsci.edu:8081/job/RT/job/ci_watson/test_results_analyzer/
+
+## Installation ##
+
+With `pip`::
+
+    pip install ci-watson
+
+With `conda`::
+
+    conda install ci-watson -c http://ssb.stsci.edu/astroconda
