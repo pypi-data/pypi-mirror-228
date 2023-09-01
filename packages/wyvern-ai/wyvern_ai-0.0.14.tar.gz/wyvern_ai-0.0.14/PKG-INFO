@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: wyvern-ai
+Version: 0.0.14
+Summary: 
+Author: Wyvern AI
+Author-email: info@wyvern.ai
+Requires-Python: >=3.8,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp[speedups] (>=3.8.5,<4.0.0)
+Requires-Dist: boto3 (>=1.26.146,<2.0.0)
+Requires-Dist: ddtrace (>=1.14.0,<2.0.0)
+Requires-Dist: eppo-server-sdk (>=1.2.2,<2.0.0)
+Requires-Dist: fastapi (>=0.95.2,<0.96.0)
+Requires-Dist: feast[redis,snowflake] (>=0.31.1,<0.32.0)
+Requires-Dist: lz4 (>=4.3.2,<5.0.0)
+Requires-Dist: more-itertools (>=9.1.0,<10.0.0)
+Requires-Dist: msgspec (>=0.16.0,<0.17.0)
+Requires-Dist: nest-asyncio (>=1.5.7,<2.0.0)
+Requires-Dist: pandas (>=1.5,<2.0)
+Requires-Dist: platformdirs (>=3.8,<4.0)
+Requires-Dist: posthog (>=3.0.2,<4.0.0)
+Requires-Dist: pydantic (>=1.10.4,<2.0.0)
+Requires-Dist: pyhumps (>=3.8.0,<4.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
+Requires-Dist: snowflake-connector-python (>=3.1,<4.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Requires-Dist: uvicorn (>=0.22.0,<0.23.0)
+Description-Content-Type: text/markdown
+
+<h1 align="center">Wyvern</h1>
+
+<div align="center">
+
+**[Wyvern](https://docs.wyvern.ai) is an open source Machine Learning platform for marketplaces**
+
+</div>
+
+<div align="center">
+  <img src="/docs/wyvern_logo.jpg" width="180px" alt="bentoml" />
+</div>
+
+<div align="center">
+  <a href="https://github.com/Wyvern-AI/wyvern/blob/main/LICENSE"><img src="https://badgen.net/badge/License/Elv2/green?icon=github"/></a>
+</div>
+
+## Check Out [Wyvern's Official Doc](https://docs.wyvern.ai)
+
+## Install Wyvern
+
+```
+pip install wyvern-ai
+```
+
