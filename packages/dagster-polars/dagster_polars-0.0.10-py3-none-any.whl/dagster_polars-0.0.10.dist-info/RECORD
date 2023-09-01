@@ -1,0 +1,13 @@
+dagster_polars/__init__.py,sha256=Ca7IvT9FEp7W4T8tQQbL0x2gOsYa0kyim4aOjeTju7I,646
+dagster_polars/_version.py,sha256=Se93xPqNlNg1aL5Dp9DDpEh_H6Ta9v1AB77HApI8VR4,77
+dagster_polars/io_managers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dagster_polars/io_managers/base.py,sha256=iKUW4OMcoeFJzB5IaVnkdJrYxIWubnq4ZFaawmUG7og,6756
+dagster_polars/io_managers/bigquery.py,sha256=JeI_Nxb0ao-beSptSs5k00NvvHCaFu1D51KSIUpWa0I,7330
+dagster_polars/io_managers/delta.py,sha256=lO4YEZDGaeayIP4UlxwBuUO9GFQId4nomgWPe9yOYKA,5161
+dagster_polars/io_managers/parquet.py,sha256=GJfGWC3LTuJ2EofI9w5t7Ty_mGet5XMTNmCA-jmR90g,2143
+dagster_polars/io_managers/utils.py,sha256=VA_y7ahWKonISFy9d_Q6DwBmr0L23BH8bghLlRZBOmU,3922
+dagster_polars/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dagster_polars-0.0.10.dist-info/LICENSE,sha256=-gtoVIAZYUHYmNHISZg982FI4Oh19mV1nxgTVW8eCB8,11344
+dagster_polars-0.0.10.dist-info/METADATA,sha256=bYpLSrUWniZqbKM1V6XaFY1dG3i1wze2cvY2DzeQU10,5305
+dagster_polars-0.0.10.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+dagster_polars-0.0.10.dist-info/RECORD,,
