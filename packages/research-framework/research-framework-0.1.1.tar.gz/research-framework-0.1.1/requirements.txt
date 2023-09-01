@@ -1,0 +1,8 @@
+python-dotenv
+bson
+pydantic
+pymongo[srv]
+google-api-python-client
+google-cloud-core
+google-cloud-storage
+pytest
