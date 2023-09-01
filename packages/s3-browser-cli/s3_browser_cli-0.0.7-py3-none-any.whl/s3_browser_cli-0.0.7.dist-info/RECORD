@@ -1,0 +1,11 @@
+s3_browser/Welcome.py,sha256=XBGpx-OeC8nycc2CRZlsnOCPyEUKUmKSngLkMfcK_7E,652
+s3_browser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3_browser/common/__init__.py,sha256=Y1BRAUnnMXV7X-BOsiYgaWSkehOLlIZoAR_gVQ8O7sk,1096
+s3_browser/common/s3_client.py,sha256=x9s145gYivT1MSlihSajuf3AXx0ML43HOA824_L7aLg,4499
+s3_browser/pages/1_Explorer.py,sha256=QV-WkvCOZV7CpSrNO-qt3H5dZyf9lST5YVU7yd5HXpo,11712
+s3_browser/pages/2_Policy.py,sha256=vOLLQva1fX-Od3XjV838uHWu3xcOOa9_Q6vNiWpRny4,516
+s3_browser_cli/cli.py,sha256=p18OqAUW3GPXWspjlvOR-1nDZ3uYckgLd3-ZWvVeKj8,735
+s3_browser_cli-0.0.7.dist-info/METADATA,sha256=9_sFayb__VhtbS3fsQzQ_uXmCW5hICTQXenUmWzmbDo,2849
+s3_browser_cli-0.0.7.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+s3_browser_cli-0.0.7.dist-info/entry_points.txt,sha256=esgEvlEEQ8WCpkdPwO2Ts4r9zyTA9L0Zh2yTSCkymUs,54
+s3_browser_cli-0.0.7.dist-info/RECORD,,
