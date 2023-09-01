@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: computenest-cli
+Version: 1.0.10
+Summary: A command line interface for running the compute nest project
+Home-page: UNKNOWN
+Author: Chuan Lin
+Author-email: zhaoshuaibo.zsb@alibaba-inc.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: alibabacloud-computenestsupplier20210521 (==1.2.3)
+Requires-Dist: pyyaml (>=1.0.0)
+Requires-Dist: oss2 (>=1.0.0)
+Requires-Dist: oos (>=0.0.1)
+Requires-Dist: alibabacloud-oos20190601 (==1.0.5)
+Requires-Dist: argparse (>=1.0.0)
+Requires-Dist: urllib3 (==1.26.15)
+
+UNKNOWN
+
