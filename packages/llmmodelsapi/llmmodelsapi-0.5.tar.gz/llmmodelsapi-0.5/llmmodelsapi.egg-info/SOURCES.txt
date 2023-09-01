@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+llmmodelsapi/LlmModelsApi.py
+llmmodelsapi/__init__.py
+llmmodelsapi.egg-info/PKG-INFO
+llmmodelsapi.egg-info/SOURCES.txt
+llmmodelsapi.egg-info/dependency_links.txt
+llmmodelsapi.egg-info/requires.txt
+llmmodelsapi.egg-info/top_level.txt
