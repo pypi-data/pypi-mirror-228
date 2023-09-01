@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "pysortlib"
+version = "0.1.0"
+description = "sorting algorithms"
+authors = ["Michal Šoltis <msoltis@redhat.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+hypothesis = "^6.82.0"
+mypy = "^1.4.1"
+pre-commit = "^3.3.3"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+pytest-rich = "^0.1.1"
+ruff = "^0.0.285"
+tox = "^4.6.3"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = [
+  "poetry-core",
+]
+
+[tool.mypy]
+ignore_missing_imports = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+strict = true
+strict_equality = true
+
+[[tool.mypy.overrides]]
+module = "tests/*"
+disallow_untyped_decorators = false
+
+[tool.ruff]
+select = ["ALL"]
+ignore = ["D100", "D203", "D213"]
+per-file-ignores = {"tests/*" = ["D103", "D104", "PT011", "S101"], "__init__.py" = ["F401"]}
+
+# https://beta.ruff.rs/docs/rules/#rules
