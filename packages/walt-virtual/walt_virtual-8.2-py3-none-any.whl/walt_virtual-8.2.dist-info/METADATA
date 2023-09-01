@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: walt-virtual
+Version: 8.2
+Summary: WalT components related to virtualization.
+Home-page: https://walt-project.liglab.fr
+Author: WalT developers
+Author-email: walt-contact@univ-grenoble-alpes.fr
+License: 3-Clause BSD
+Keywords: WalT testbed
+Requires-Dist: walt-common ==8.2
+
