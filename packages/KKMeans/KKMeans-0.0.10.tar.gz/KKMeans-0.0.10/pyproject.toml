@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=63", "wheel", "Cython"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "KKMeans"
+version = "0.0.10"
+authors = [
+  { name="Paul Theis", email="keymailt7@gmail.com" },
+]
+dependencies = ["numpy>=1.25"]
+description = "https://github.com/bauxn/kernel-kmeans. openMP is not enabled when installing via PiPy"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+[project.urls]
+Thesis = "https://github.com/bauxn/kernel-kmeans/blob/master/thesis_theis.pdf"
+Source = "https://github.com/bauxn/kernel-kmeans"
