@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: reptor
+Version: 0.2
+Summary: reptor allows you automating pentest reporting with SysReptor.
+Author: Richard Schwabe
+Author-email: Aron Molnar <aron@syslifters.com>
+Maintainer-email: Syslifters <hello@syslifters.com>
+License: Copyright (c) 2023 SysReptor+reptor Developers
+        See also the CREDITS.md who contributed to this project.
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Project-URL: Homepage, https://github.com/Syslifters/reptor/blob/main/README.md
+Project-URL: Documentation, https://github.com/Syslifters/reptor/blob/main/README.md
+Project-URL: Bug Tracker, https://github.com/Syslifters/reptor/issues
+Project-URL: Source, https://github.com/syslifters/reptor
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: translate
+Provides-Extra: ghostwriter
+Provides-Extra: dev
+Provides-Extra: all
+License-File: LICENSE
+License-File: NOTICE
+
+# reptor (ALPHA)
+reptor allows you to automating pentest reporting with SysReptor.
+
+ * Create findings and notes from tool outputs
+ * Upload evidences (also bulk upload)
+ * Import data from other reporting tools
+
+**GitHub:** https://github.com/Syslifters/reptor/  
+**Docs:** https://docs.sysreptor.com/cli/getting-started  
+**Setup:** https://docs.sysreptor.com/cli/setup  
+**PyPi:** https://pypi.org/project/reptor/  
+
+
+## Usage
+
+```No .sysreptor folder found in home directory...Creating one
+usage: reptor [-h] [-s SERVER] [-t TOKEN] [--insecure] [-p PROJECT_ID]
+              [--personal-note] [-f] [-v] [--debug] [-n NOTENAME] [-nt]
+              [-file FILE]
+
+Examples:
+                reptor conf
+                echo "Upload this!" | reptor note
+                reptor file data/*
+                cat sslyze.json | reptor sslyze --json --push-findings
+                cat nmap.xml | reptor nmap --xml --upload --multi-notes
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --verbose         increase output verbosity (> INFO)
+  --debug               sets logging to DEBUG
+  -n NOTENAME, --notename NOTENAME
+  -nt, --no-timestamp   do not prepent timestamp to note
+  -file FILE, --file FILE
+                        Local file to read
+
+subcommands:
+  
+  configuration:
+  conf                  Shows config and sets config
+  
+  uploads:
+  file                  Uploads a file
+  note                  Uploads and lists a notes
+  
+  tools:
+  sslyze                format sslyze JSON output
+  nmap                  format nmap output
+  zap                   Parses ZAP reports (JSON, XML)
+  nikto                 Formats Nikto output (XML)
+  
+  importers:
+  ghostwriter           Imports GhostWriter finding templates
+  
+  other:
+  importers             Show importers to use to import finding templates
+  plugins               Allows plugin management & development
+  projects              Queries Projects from reptor.api
+  templates             Queries Finding Templates from reptor.api
+  translate             Translate Projects to other languages via Deepl
+
+configuration:
+  -s SERVER, --server SERVER
+  -t TOKEN, --token TOKEN
+                        SysReptor API token
+  --insecure            do not verify server certificate
+  -p PROJECT_ID, --project-id PROJECT_ID
+                        SysReptor project ID
+  --personal-note       add notes to private notes
+  -f, --force-unlock    force unlock notes
+
+```
