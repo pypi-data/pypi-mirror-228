@@ -1,0 +1,2 @@
+[console_scripts]
+phrasemagic = phrasestatementconvertor.main:main
