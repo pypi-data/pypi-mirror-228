@@ -1,0 +1,2 @@
+[console_scripts]
+rubeus = rubeus._rubeus_scripts:main
