@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ssm-admin
+Version: 0.1.0
+Summary: 
+Author: HarshavardhanGowda
+Author-email: harsha7697@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: botocore (>=1.31.37,<2.0.0)
+Requires-Dist: rich (>=13.5.2,<14.0.0)
+Requires-Dist: structlog (>=23.1.0,<24.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+
