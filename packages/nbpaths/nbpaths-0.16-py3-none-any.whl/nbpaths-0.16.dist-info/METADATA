@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: nbpaths
+Version: 0.16
+Summary: Import package to add parent folders to path for Jupyter notebooks. Will not go higher up tree than .gitignore if found.
+Author: auth
+Author-email: author@email.com
+License: MIT
+
