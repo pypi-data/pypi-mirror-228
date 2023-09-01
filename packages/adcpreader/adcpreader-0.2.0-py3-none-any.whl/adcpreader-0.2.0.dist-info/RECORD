@@ -1,0 +1,14 @@
+adcpreader/__init__.py,sha256=VPq8Pr0Qw8cll3wyUU7VCnpDi_Jl8pMkWQvhMfWHQKc,226
+adcpreader/coroutine.py,sha256=meJs6cHWCiu3kjDlb9irzhIj9MPQX3LjF50VqKGJGgw,1722
+adcpreader/rdi_backscatter.py,sha256=7apfzii2TkGw1_RrINE6KU8zsVMj5Q68wsjEH-jtiP8,4409
+adcpreader/rdi_corrections.py,sha256=Fw4fVpQzMn8cPTMJ6MXJargURMwqDBwDnw751OUkl_4,28119
+adcpreader/rdi_datafuse.py,sha256=RZ1haauYR03VDbC5SdDblFTzowRFkB3VwLQTjz6g-aw,4363
+adcpreader/rdi_qc.py,sha256=fluHdBpddLAPkWC0Zf3IwRptXAehs_LafJ0QSDeuNHI,15642
+adcpreader/rdi_reader.py,sha256=-r1A_-yzqdHdn_5Rhxe0lnx7C2rT-6vv8cvcebiwuqw,26933
+adcpreader/rdi_transforms.py,sha256=O2LeUoBwXQd1_YWFDtTeWdTOAFUZkEFVVLO2vmZ4EnQ,18989
+adcpreader/rdi_writer.py,sha256=RCdm6ZVUwFslUOj8Vyrl3SEw3BjuD1AVM6RErBM2LBo,29208
+adcpreader-0.2.0.dist-info/COPYING,sha256=vCejhLHsZsPz8Yyz9uPa-XGRWT2aqC6GIVSc69Mxbes,18024
+adcpreader-0.2.0.dist-info/METADATA,sha256=UFTX8TmJfZ3_E9u0bY7HwakWUNqVAsPwj4Iakxl-KMU,199
+adcpreader-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+adcpreader-0.2.0.dist-info/top_level.txt,sha256=9KLV-5dxXd2ddVCpEVZlxiNQT_zNQVt8lXL_65pC7Rc,11
+adcpreader-0.2.0.dist-info/RECORD,,
