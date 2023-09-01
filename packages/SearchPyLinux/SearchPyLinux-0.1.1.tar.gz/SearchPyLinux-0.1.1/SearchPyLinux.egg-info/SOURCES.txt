@@ -1,0 +1,7 @@
+README.md
+setup.py
+SearchPyLinux.egg-info/PKG-INFO
+SearchPyLinux.egg-info/SOURCES.txt
+SearchPyLinux.egg-info/dependency_links.txt
+SearchPyLinux.egg-info/requires.txt
+SearchPyLinux.egg-info/top_level.txt
