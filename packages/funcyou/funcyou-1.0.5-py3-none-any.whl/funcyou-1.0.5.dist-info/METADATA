@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: funcyou
+Version: 1.0.5
+Summary: useful function to save time
+Author: Tikendra sahu
+Author-email: tikendraksahu1029@gmail.com
+Requires-Dist: matplotlib
+Requires-Dist: sklearn
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: kaggle
+
