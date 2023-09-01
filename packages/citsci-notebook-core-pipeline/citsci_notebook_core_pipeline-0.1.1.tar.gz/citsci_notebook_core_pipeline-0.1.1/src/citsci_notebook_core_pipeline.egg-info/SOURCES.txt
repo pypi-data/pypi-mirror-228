@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/citsci_notebook_core_pipeline/__init__.py
+src/citsci_notebook_core_pipeline/rubin_citsci_core_pipeline.py
+src/citsci_notebook_core_pipeline.egg-info/PKG-INFO
+src/citsci_notebook_core_pipeline.egg-info/SOURCES.txt
+src/citsci_notebook_core_pipeline.egg-info/dependency_links.txt
+src/citsci_notebook_core_pipeline.egg-info/requires.txt
+src/citsci_notebook_core_pipeline.egg-info/top_level.txt
