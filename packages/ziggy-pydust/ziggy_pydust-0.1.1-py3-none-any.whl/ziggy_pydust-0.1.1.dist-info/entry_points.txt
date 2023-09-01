@@ -1,0 +1,3 @@
+[pytest11]
+pydust=pydust.pytest_plugin
+
