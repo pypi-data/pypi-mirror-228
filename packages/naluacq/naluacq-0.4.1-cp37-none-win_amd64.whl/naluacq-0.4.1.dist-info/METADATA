@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: naluacq
+Version: 0.4.1
+License-File: LICENSE
+Summary: Library for opening Nalu Scientific data files
+Author: Mitchell Matsumori-Kelly <mitchell@naluscientific.com>
+Author-email: Mitchell Matsumori-Kelly <mitchell@naluscientific.com>
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/rust-lang/cargo/
+
+# NaluACQ
+
+
+NaluACQ is a Rust crate for reading and writing acquisitions.
+
+
+## Features
+
+- Reading acquisitions
+- High-performance writing of acquisitions
+- Calibration & metadata storage
+- Parsing events from the following boards:
+    - AARDVARCv3
+    - HDSoCv1
+    - TRBHMv1
+- Exporting events to CSV for acquisitions with parsing support
+
+
+
+### Reading Acquisitions
+
+To read an acquisition:
+
+
+```rust
+
+use naluacq::Acquisition;
+
+let acq = Acquisition::open("path/to/acquisition.acq").unwrap();
+
+let idx = 0;
+let raw_event = acq.get(idx).unwrap()
+```
+
+
+### Parsing Acquisitions
+
+To parse an acquisition:
+
+```rust
+use naluacq::{Acquisition, Aardvarcv3Event, ParseInto};
+
+
+let acq = Acquisition::open("path/to/acquisition.acq").unwrap();
+
+let idx = 0;
+let raw_event = acq.get(idx).unwrap()
+
+let parsed_event: Aardvarcv3Event = raw_event.parse_into().unwrap();
+```
+
