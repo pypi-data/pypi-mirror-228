@@ -1,0 +1,7 @@
+winrt/_winrt_windows_applicationmodel_appextensions.cp312-win_arm64.pyd,sha256=7qyitDnbTXs6ubcTLq878X9Wfk1NVULpqFNj4c7OodA,202752
+winrt/_winrt_windows_applicationmodel_appextensions.pyi,sha256=svU3sX8CWhKZWPx7LZkTe1Qo8iDv4X1fk5fxtFGQb04,5351
+winrt/windows/applicationmodel/appextensions/__init__.py,sha256=yrFiOqxEUMeOJQsaSOI5-e1dN5OjTTsN8QfKldjkMDw,1254
+winrt_Windows.ApplicationModel.AppExtensions-2.0.0b1.dist-info/METADATA,sha256=2vHtM5l46CYyTKLZMUvldFrb-j-AEmcStdDaMOX-td0,1309
+winrt_Windows.ApplicationModel.AppExtensions-2.0.0b1.dist-info/WHEEL,sha256=4a57bNWdRt5PINziSad5EMsdocHr4i3ENb3kQ9gPSug,102
+winrt_Windows.ApplicationModel.AppExtensions-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.AppExtensions-2.0.0b1.dist-info/RECORD,,
