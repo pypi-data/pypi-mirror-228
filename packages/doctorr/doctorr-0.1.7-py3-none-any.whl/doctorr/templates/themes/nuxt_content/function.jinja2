@@ -1,0 +1,11 @@
+::doctorr-block
+---
+id: "{{ name }}"
+kind: "function"
+---
+`{{ user_import_path }}{{ name }}{{ signature }}`{lang="python"}
+
+#description
+{% include 'docstring.jinja2' %}
+::
+

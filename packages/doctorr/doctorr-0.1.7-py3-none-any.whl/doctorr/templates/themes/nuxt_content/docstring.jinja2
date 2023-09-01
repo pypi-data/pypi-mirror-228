@@ -1,0 +1,16 @@
+{% if docstring.description.strip() or docstring.sections %}
+{{ docstring.description }}
+
+
+{% for section in docstring.sections %}
+{% if section.fields %}
+:doctorr-docstring-section{title="{{ section.title }}"}
+
+{% for field in section.fields %}
+- **`{{ field.name }}`** {% if field.type %}(`{{ field.type }}`){% endif %}: {{ field.text }}
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+
+{% endif %}

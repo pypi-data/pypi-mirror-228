@@ -1,0 +1,14 @@
+::doctorr-block
+---
+kind: "class"
+id: "{{ name }}"
+---
+`{{ user_import_path }}{{ name }}{{ signature}}`{lang="python"}
+
+#description
+{% include 'docstring.jinja2' %}
+
+{{ rendered_members }}
+
+::
+
