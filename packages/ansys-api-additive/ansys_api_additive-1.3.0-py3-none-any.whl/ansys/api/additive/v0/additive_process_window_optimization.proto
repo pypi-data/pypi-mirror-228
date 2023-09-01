@@ -1,0 +1,69 @@
+syntax = "proto3";
+
+package ansys.api.additive.process;
+
+option csharp_namespace = "Ansys.Api.Additive.ProcessOptimization";
+
+// Additive process window related service definition.
+service ProcessWindowOptimizationService {
+	// Sets laser wattage
+	rpc RefineLaserPower (LaserPowerRange) returns (ProcessWindowSpecification);
+	rpc SpecifyLaserPower (LaserPowerValues) returns (ProcessWindowSpecification);
+
+	// Turn on process window optimization
+	rpc OptimizeProcess(OptimizeProcessWindowSettings) returns (stream OptimizeProcessWindowExecutionHeartbeat);
+
+	// Turn off process window optimization
+	rpc StopProcessWindowOptimization(StopProcessWindowOptimizationSettings) returns (OptimizeProcessWindowCompletionData);
+}
+
+message ProcessWindowNode {
+	double laserPower = 1;
+	double scanSpeed = 2;
+	double baseplateTemperature = 3;
+	double layerThickness = 4;
+}
+
+message ProcessWindowSpecification {
+	LaserPowerRange laserPowerRange = 1;
+}
+
+message LaserPowerRange {
+	int32 minimumLaserPower = 1;
+	int32 maximumLaserPower = 2;
+}
+
+message LaserPowerValues {
+	repeated double laserPower = 1;
+}
+
+message MeltPoolDimensions {
+	double estimatedMeltPoolReferenceWidth = 1;
+	double estimatedMeltPoolReferenceDepth = 2;
+	double estimatedMeltPoolWidth = 3;
+	double estimatedMeltPoolDepth = 4;
+}
+
+message OptimizeProcessWindowSettings {
+	int32 maximumSimulationTimeInMinutes = 1;
+}
+
+message OptimizeProcessWindowExecutionHeartbeat {
+	int32 queuedSimulationCount = 1;
+	repeated ProcessWindowNodeSimulationResult processWindowNodeSimulationResults = 2;
+}
+
+message ProcessWindowNodeSimulationResult {
+	ProcessWindowNode processWindowNode = 1;
+	MeltPoolDimensions meltPoolDimensions = 2;
+}
+
+// Settings for stopping optimization.
+message StopProcessWindowOptimizationSettings {
+	bool forceQuitActiveSimulations = 1;
+}
+
+// Metrics, statistics, and data for completed optimization.
+message OptimizeProcessWindowCompletionData {
+	int32 totalSimulationsCompletedDuringOptimization = 1;
+}
