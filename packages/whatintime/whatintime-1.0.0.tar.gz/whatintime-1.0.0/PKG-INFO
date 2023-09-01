@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: whatintime
+Version: 1.0.0
+Summary: 
+Author: thearyadev
+Author-email: personal@aryankothari.dev
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# whatintime
+Simple package for timing a python function.
+
+## Installation
+```bash
+pip install whatintime
+```
+
+## Usage
+```python
+import whatintime
+
+@whatintime.whatintime(time_format=whatintime.TimeFormat.MS)
+def thing_that_takes_time():
+    pass
+```
