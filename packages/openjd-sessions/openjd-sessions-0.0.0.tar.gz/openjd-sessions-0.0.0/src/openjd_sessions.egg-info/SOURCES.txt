@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/openjd/sessions/__init__.py
+src/openjd_sessions.egg-info/PKG-INFO
+src/openjd_sessions.egg-info/SOURCES.txt
+src/openjd_sessions.egg-info/dependency_links.txt
+src/openjd_sessions.egg-info/top_level.txt
