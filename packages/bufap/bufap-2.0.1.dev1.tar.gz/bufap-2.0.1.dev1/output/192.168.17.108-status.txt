@@ -1,0 +1,236 @@
+# setup show status
+BUFFALO AirStationPro WAPM-AXETR Ver.1.29 (R2.01/B2016.01-1.29)
+[AirStation Name]
+APD42C46512940
+[Serial Number]
+20635121200202
+[Management Interface]
+HTTP                 enable
+HTTPS                enable
+TELNET               enable
+SSH                  enable
+SNMP                 enable
+SNMP Version         SNMPv1v2
+SNMP Get community   "public"
+SNMP Set community   "private"
+SNMP Trap            disable
+SNMP Trap community  "public"
+SNMP Trap send to    ""
+[Authentication User List]
+testuser
+[Time Zone]
+GMT+09:00
+[Transfer Log (Syslog) Setup]
+Log Transfer   disable
+Syslog Server  ""
+USB            disable
+Log facilities for send
+DHCP Client      enable
+DHCP Server      enable
+Wireless Client  enable
+Authentication   enable
+Change Setting   enable
+Re-Start System  enable
+NTP Client       enable
+Wired Link       enable
+USB              enable
+ADT              enable
+[NTP Time Server]
+NTP Functionality    disable
+Server Name          "ntp.jst.mfeed.ad.jp"
+Update Interval      24 hours
+[Admin Tools]
+Admin Tools          disable
+Remote               disable
+[Remote Management Service]
+Remote Management Service  disable
+Current Status             Remote Management Service access is not configured.
+Assigned Profile
+cloud-setting              enable
+[LED Settings]
+Power LED         enable
+LAN LED           enable
+Wireless LED      enable
+[Reboot Scheduler]
+Reboot Scheduler            disable
+[Urgent mode]
+Urgent mode          disable
+# ip show status
+[Basic Settings]
+LAN Side IP Address                 DHCP
+IP Address                          192.168.17.108
+Subnet Mask                         255.255.255.0
+Default Gateway                     192.168.17.1
+DNS1                                192.168.16.1
+DNS2                                8.8.8.8
+LAN MAC Address                     D4:2C:46:51:29:40
+2.4GHz                              D4:2C:46:51:29:40
+5GHz                                D4:2C:46:51:29:50
+6GHz                                D4:2C:46:51:29:60
+[Advanced Settings]
+Management VLAN ID                  1
+[Proxy Arp]
+Proxy Arp                           disable
+[DHCP Server Settings]
+DHCP Server                         disable
+# ether show status
+[Wired LAN Port setup]
+Wired LAN Port  Status                         VLAN Mode      VLAN ID              Media Type                     MDI       Flow Control  802.3az
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Wired Port(#1)  enable(Up-1000BaseT-FD)        Hybrid Port    1                    Media/Duplex Auto              auto      enable        disable
+Wired Port(#2)  enable(Down)                   Hybrid Port    1                    Media/Duplex Auto              auto      enable        disable
+# airset 11g basic_info show status
+[11g basic_info]
+Wireless Status             enable
+Wireless Mode               11b/g/n/ax
+Wireless Channel            1/20MHz
+802.11g Protection          enable
+802.11n Protection          enable
+FrameBursting               disable
+Multicast Rate              auto
+Output Power                100
+Beacon Interval             100
+DTIM Period                 1
+RTS Threshold               2347
+Keep Alive                  60
+Guard Interval              short
+Aggregation                 ampdu+amsdu
+# SSID and security config ---> "airset ssid show status"
+# WDS config ---> "airset 11g wds show status"
+# airset 11a basic_info show status
+[11a basic_info]
+Wireless Status             enable
+Wireless Mode               11a/n/ac/ax
+Wireless Channel            36/40MHz
+802.11n Protection          enable
+802.11h Send                enable
+FrameBursting               disable
+Multicast Rate              auto
+Output Power                100
+Beacon Interval             100
+DTIM Period                 1
+RTS Threshold               2347
+Keep Alive                  60
+Guard Interval              short
+Aggregation                 ampdu+amsdu
+[indoor/outdoor]
+indoor / outdoor            indoor
+# SSID and security config ---> "airset ssid show status"
+# WDS config ---> "airset 11a wds show status"
+# airset 6g basic_info show status
+[6g basic_info]
+Wireless Status             enable
+Wireless Mode               11ax
+Wireless Channel            195/80MHz
+FrameBursting               disable
+Multicast Rate              auto
+Output Power                100
+Beacon Interval             100
+DTIM Period                 1
+RTS Threshold               2347
+Keep Alive                  60
+Aggregation                 ampdu+amsdu
+# SSID and security config ---> "airset ssid show status"
+# WDS config ---> "airset 6g wds show status"
+# airset ssid show status
+[Band Steering Policy]
+Disable
+[Airset SSID Settings]
+No. Status  SSID                             Device                   VLAN                           Auth                             Encryption Add_Auth              Any_Refusal Privacy    Steering
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1   enable  !_AXETR_6G                                          6GHz  Untagged 1                     Open/Enhanced Open               owe-trans  none                  disable     disable    disable
+2   enable  !_AXETR_2.4G                     2.4GHz                   Multiple 1    (10 20 30)       WPA/WPA2 Personal                tkip+aes   MAC RADIUS            disable     disable    disable
+3   enable  !_AXETR_5G                                    5GHz        Untagged 1                     Open                             none       none                  disable     disable    disable
+# airset scheduler show status
+[Scheduler]
+Wireless Scheduler          disable
+# airset 11g wds show status
+[Repeater Function(WDS)]
+disable
+[Wireless MAC address of this unit]
+D4:2C:46:51:29:40
+[Communicatable Access Point]
+No. MAC Address       Encryption VLAN Mode     VLAN ID    Status
+-------------------------------------------------------------------------
+# airset 11a wds show status
+[Repeater Function(WDS)]
+disable
+[Wireless MAC address of this unit]
+D4:2C:46:51:29:50
+[Communicatable Access Point]
+No. MAC Address       Encryption VLAN Mode     VLAN ID    Status
+-------------------------------------------------------------------------
+# airset 6g wds show status
+[Repeater Function(WDS)]
+disable
+[Wireless MAC address of this unit]
+D4:2C:46:51:29:60
+[Communicatable Access Point]
+No. MAC Address       Encryption VLAN Mode     VLAN ID    Status
+-------------------------------------------------------------------------
+# airset maclist show status
+[Wireless MAC Filtering]
+No. MAC Address      Status
+------------------------------------------------------------
+# airset linkitg show status
+[Link Integrity]
+Link Integrity                                                     disable
+# airset wmm show status
+[WMM-EDCA Parameter]
+For AP  For STA
+---------------------------------------------------------
+AC_BK(Low)                CWmin:       15      15
+CWmax:       1023    1023
+AIFSN:       7       7
+TXOP Limit:  0       0
+AC_BE(Normal)             CWmin:       15      15
+CWmax:       63      1023
+AIFSN:       3       3
+TXOP Limit:  0       0
+AC_VI(High Priority)      CWmin:       7       7
+CWmax:       15      15
+AIFSN:       1       2
+TXOP Limit:  94      94
+AC_VO(Highest Priority)   CWmin:       3       3
+CWmax:       7       7
+AIFSN:       1       2
+TXOP Limit:  47      47
+# airset client-monitor show status
+[ 2.4GHz ]
+[ 5GHz ]
+[ 6GHz ]
+[WDS]
+# airset wireless-monitor show status
+# Wireless-monitor scan ---> "airset wireless-monitor scan"
+# radius show status
+[Primary RADIUS Server]
+Server                      disable
+[Secondary RADIUS Server]
+Server                      disable
+[Calling-Station-Id]
+"" (No separator , lower case)
+[Called-Station-Id]
+"" (No separator , lower case)
+[ASAM]
+PMK Chache                  enable
+Secret Key                  "PMKcache001"
+[Internal RADIUS Server]
+Internal RADIUS Server      disable
+# bridge show status
+[Bridge Setup]
+Aging Time                     300
+Spanning Tree                  disable
+BPDU Forwarding                enable
+[Editing of Port Bridge Information]
+Port                                                               PortPriority PathCost EdgePort PointToPoint
+------------------------------------------------------------------------------------------------------------------
+Wired Port(#1)                                                     128          8000     disable  auto
+Wired Port(#2)                                                     128          20000    disable  auto
+SSID #1 [!_AXETR_6G] (6GHz)                                        128          200000   disable  auto
+SSID #2 [!_AXETR_2.4G] (2.4GHz)                                    128          200000   disable  auto
+SSID #3 [!_AXETR_5G] (5GHz)                                        128          200000   disable  auto
+# usb show status
+Port                    ----
+Device Name             ----
+Power                   ----
+Status                  No USB device found.

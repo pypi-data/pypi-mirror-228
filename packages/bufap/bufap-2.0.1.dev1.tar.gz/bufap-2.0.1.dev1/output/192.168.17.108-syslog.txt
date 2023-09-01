@@ -1,0 +1,1162 @@
+date                  facility       log content
+------------------------------------------------------------------------
+2023/01/09 06:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/09 06:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/09 06:13:17   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/09 06:05:13   WIRELESS      wl0 (5GHz): Detect interference(62per) [with Non-802.11] on channel 36.
+2023/01/09 06:00:52   DHCPC         add resolve
+2023/01/09 06:00:52   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/09 06:00:52   DHCPC         Info : DHCPSNAME =
+2023/01/09 06:00:52   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/09 06:00:52   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/09 06:00:52   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/09 06:00:52   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/09 06:00:52   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/09 06:00:52   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/09 06:00:52   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/09 06:00:52   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/09 06:00:52   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/09 06:00:52   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/09 06:00:52   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/09 06:00:52   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/09 05:33:03   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/09 05:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/09 05:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/09 04:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/09 04:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/09 03:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/09 03:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/09 02:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/09 02:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/09 01:29:35   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/09 01:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/09 01:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/09 00:59:12   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/09 00:45:26   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/09 00:33:14   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/09 00:28:19   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/09 00:27:14   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/09 00:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/09 00:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/09 00:21:38   WIRELESS      wl1 (2.4GHz): Detect interference(91per) [with Non-802.11] on channel 1.
+2023/01/09 00:18:13   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/09 00:00:52   DHCPC         add resolve
+2023/01/09 00:00:52   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/09 00:00:52   DHCPC         Info : DHCPSNAME =
+2023/01/09 00:00:52   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/09 00:00:52   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/09 00:00:52   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/09 00:00:52   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/09 00:00:52   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/09 00:00:52   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/09 00:00:52   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/09 00:00:52   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/09 00:00:52   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/09 00:00:52   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/09 00:00:52   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/09 00:00:52   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/08 23:53:50   WIRELESS      wl1 (2.4GHz): Detect interference(93per) [with Non-802.11] on channel 1.
+2023/01/08 23:45:10   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/08 23:42:40   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/08 23:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 23:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 22:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 22:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 21:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 21:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 20:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 20:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 19:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 19:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 18:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 18:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 18:02:59   ADT           Accept regist Error!!
+2023/01/08 18:02:59   ADT           Subscribe callback(accept_regist)
+2023/01/08 18:02:59   ADT           publish: request_regist
+2023/01/08 18:02:58   ADT           Subscribing(unpaired)...
+2023/01/08 18:00:52   DHCPC         add resolve
+2023/01/08 18:00:52   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/08 18:00:52   DHCPC         Info : DHCPSNAME =
+2023/01/08 18:00:52   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/08 18:00:52   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/08 18:00:52   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/08 18:00:52   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/08 18:00:52   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/08 18:00:52   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/08 18:00:52   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/08 18:00:52   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/08 18:00:52   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/08 18:00:52   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/08 18:00:52   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/08 18:00:52   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/08 17:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 17:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 16:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 16:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 15:42:02   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/08 15:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 15:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 14:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 14:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 13:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 13:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 12:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 12:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 12:00:52   DHCPC         add resolve
+2023/01/08 12:00:52   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/08 12:00:52   DHCPC         Info : DHCPSNAME =
+2023/01/08 12:00:52   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/08 12:00:52   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/08 12:00:52   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/08 12:00:52   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/08 12:00:52   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/08 12:00:52   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/08 12:00:52   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/08 12:00:52   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/08 12:00:52   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/08 12:00:52   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/08 12:00:52   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/08 12:00:51   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/08 11:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 11:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 10:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 10:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 09:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 09:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 08:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 08:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 07:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 07:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 06:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 06:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 06:00:51   DHCPC         add resolve
+2023/01/08 06:00:51   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/08 06:00:51   DHCPC         Info : DHCPSNAME =
+2023/01/08 06:00:51   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/08 06:00:51   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/08 06:00:51   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/08 06:00:51   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/08 06:00:51   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/08 06:00:51   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/08 06:00:51   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/08 06:00:51   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/08 06:00:51   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/08 06:00:51   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/08 06:00:51   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/08 06:00:51   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/08 05:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 05:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 04:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 04:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 03:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 03:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 03:22:24   WIRELESS      wl1 (2.4GHz): Detect interference(95per) [with Non-802.11] on channel 1.
+2023/01/08 02:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 02:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 01:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 01:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 00:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/08 00:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/08 00:20:35   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/08 00:00:51   DHCPC         add resolve
+2023/01/08 00:00:51   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/08 00:00:51   DHCPC         Info : DHCPSNAME =
+2023/01/08 00:00:51   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/08 00:00:51   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/08 00:00:51   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/08 00:00:51   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/08 00:00:51   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/08 00:00:51   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/08 00:00:51   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/08 00:00:51   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/08 00:00:51   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/08 00:00:51   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/08 00:00:51   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/08 00:00:51   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/07 23:46:16   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/07 23:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 23:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 22:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 22:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 21:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 21:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 20:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 20:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 19:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 19:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 19:01:04   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/07 18:33:46   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/07 18:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 18:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 18:20:45   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/07 18:16:49   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/07 18:16:44   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/07 18:12:44   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/07 18:02:53   ADT           Accept regist Error!!
+2023/01/07 18:02:53   ADT           Subscribe callback(accept_regist)
+2023/01/07 18:02:53   ADT           publish: request_regist
+2023/01/07 18:02:52   ADT           Subscribing(unpaired)...
+2023/01/07 18:00:51   DHCPC         add resolve
+2023/01/07 18:00:51   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/07 18:00:51   DHCPC         Info : DHCPSNAME =
+2023/01/07 18:00:51   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/07 18:00:51   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/07 18:00:51   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/07 18:00:51   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/07 18:00:51   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/07 18:00:51   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/07 18:00:51   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/07 18:00:51   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/07 18:00:51   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/07 18:00:51   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/07 18:00:51   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/07 18:00:51   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/07 17:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 17:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 17:02:46   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/07 16:59:45   WIRELESS      wl1 (2.4GHz): Detect interference(91per) [with Non-802.11] on channel 1.
+2023/01/07 16:55:45   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/07 16:51:44   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/07 16:51:39   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/07 16:48:44   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/07 16:48:19   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/07 16:45:29   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/07 16:43:14   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/07 16:39:18   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/07 16:38:48   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/07 16:35:08   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/07 16:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 16:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 16:20:36   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/07 16:14:46   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/07 16:14:41   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/07 16:11:10   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/07 16:10:10   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/07 16:07:45   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/07 16:03:45   WIRELESS      wl1 (2.4GHz): Detect interference(91per) [with Non-802.11] on channel 1.
+2023/01/07 15:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 15:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 14:59:28   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/07 14:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 14:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 13:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 13:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 12:56:55   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/07 12:46:04   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/07 12:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 12:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 12:22:46   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/07 12:16:35   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/07 12:14:40   WIRELESS      wl1 (2.4GHz): Detect interference(93per) [with Non-802.11] on channel 1.
+2023/01/07 12:05:40   WIRELESS      wl1 (2.4GHz): Detect interference(63per) [with Non-802.11] on channel 1.
+2023/01/07 12:02:09   WIRELESS      wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 1.
+2023/01/07 12:00:51   DHCPC         add resolve
+2023/01/07 12:00:51   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/07 12:00:51   DHCPC         Info : DHCPSNAME =
+2023/01/07 12:00:51   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/07 12:00:51   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/07 12:00:51   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/07 12:00:51   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/07 12:00:51   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/07 12:00:51   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/07 12:00:51   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/07 12:00:51   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/07 12:00:51   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/07 12:00:51   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/07 12:00:51   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/07 12:00:51   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/07 11:58:04   WIRELESS      wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 1.
+2023/01/07 11:54:28   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/07 11:50:28   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/01/07 11:46:13   WIRELESS      wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 1.
+2023/01/07 11:43:03   WIRELESS      wl1 (2.4GHz): Detect interference(67per) [with Non-802.11] on channel 1.
+2023/01/07 11:39:52   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 1.
+2023/01/07 11:36:17   WIRELESS      wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 1.
+2023/01/07 11:33:12   WIRELESS      wl1 (2.4GHz): Detect interference(67per) [with Non-802.11] on channel 1.
+2023/01/07 11:29:31   WIRELESS      wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 1.
+2023/01/07 11:25:31   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 1.
+2023/01/07 11:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 11:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 11:22:25   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/01/07 11:18:45   WIRELESS      wl1 (2.4GHz): Detect interference(63per) [with Non-802.11] on channel 1.
+2023/01/07 11:17:45   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/07 11:15:44   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 1.
+2023/01/07 11:12:29   WIRELESS      wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 1.
+2023/01/07 11:09:19   WIRELESS      wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 1.
+2023/01/07 11:06:03   WIRELESS      wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 1.
+2023/01/07 10:25:04   WIRELESS      wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 1.
+2023/01/07 10:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 10:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 10:08:48   WIRELESS      wl1 (2.4GHz): Detect interference(93per) [with Non-802.11] on channel 1.
+2023/01/07 09:25:47   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/07 09:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 09:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 09:22:17   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/07 08:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 08:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 07:31:25   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/07 07:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 07:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 06:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 06:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 06:19:27   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/07 06:00:51   DHCPC         add resolve
+2023/01/07 06:00:51   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/07 06:00:51   DHCPC         Info : DHCPSNAME =
+2023/01/07 06:00:51   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/07 06:00:51   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/07 06:00:51   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/07 06:00:51   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/07 06:00:51   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/07 06:00:51   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/07 06:00:51   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/07 06:00:51   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/07 06:00:51   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/07 06:00:51   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/07 06:00:51   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/07 06:00:51   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/07 05:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 05:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 04:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 04:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 03:59:12   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/07 03:37:49   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 1.
+2023/01/07 03:37:44   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/07 03:32:49   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/07 03:26:58   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/07 03:25:48   WIRELESS      wl1 (2.4GHz): Detect interference(92per) [with Non-802.11] on channel 1.
+2023/01/07 03:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 03:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 03:00:05   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/07 03:00:00   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/07 02:57:05   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 1.
+2023/01/07 02:56:55   WIRELESS      wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 1.
+2023/01/07 02:53:50   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/01/07 02:53:30   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/07 02:50:45   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/07 02:50:19   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/07 02:47:34   WIRELESS      wl1 (2.4GHz): Detect interference(63per) [with Non-802.11] on channel 1.
+2023/01/07 02:46:09   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/07 02:44:14   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 1.
+2023/01/07 02:42:54   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/07 02:40:59   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/07 02:38:43   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/07 02:37:43   WIRELESS      wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/01/07 02:35:28   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/07 02:34:33   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/07 02:31:53   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/07 02:31:08   WIRELESS      wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 1.
+2023/01/07 02:28:47   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/07 02:27:57   WIRELESS      wl1 (2.4GHz): Detect interference(67per) [with Non-802.11] on channel 1.
+2023/01/07 02:25:27   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/07 02:24:37   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/07 02:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 02:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 02:22:26   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/07 02:21:36   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/01/07 02:18:55   WIRELESS      wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 1.
+2023/01/07 02:18:25   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/07 02:15:55   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/07 02:15:20   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 1.
+2023/01/07 02:12:45   WIRELESS      wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 1.
+2023/01/07 02:12:15   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/07 02:09:35   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/07 02:09:09   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/07 02:06:14   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/07 02:06:09   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/07 02:03:04   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/07 02:02:59   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/07 01:40:21   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/07 01:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 01:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 00:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/07 00:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/07 00:02:40   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 1.
+2023/01/07 00:02:25   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/07 00:00:52   DHCPC         add resolve
+2023/01/07 00:00:52   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/07 00:00:52   DHCPC         Info : DHCPSNAME =
+2023/01/07 00:00:52   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/07 00:00:52   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/07 00:00:52   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/07 00:00:52   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/07 00:00:52   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/07 00:00:52   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/07 00:00:52   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/07 00:00:52   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/07 00:00:52   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/07 00:00:52   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/07 00:00:51   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/07 00:00:51   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/06 23:59:34   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 1.
+2023/01/06 23:59:04   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/06 23:56:29   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/06 23:55:49   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/06 23:52:53   WIRELESS      wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/01/06 23:52:03   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/06 23:49:53   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/06 23:48:38   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/06 23:46:48   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/06 23:45:28   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/06 23:43:33   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/06 23:42:07   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/06 23:40:32   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/06 23:39:02   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/06 23:37:22   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/06 23:35:47   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/06 23:34:17   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/01/06 23:32:21   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/06 23:31:11   WIRELESS      wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 1.
+2023/01/06 23:28:46   WIRELESS      wl1 (2.4GHz): Detect interference(91per) [with Non-802.11] on channel 1.
+2023/01/06 23:28:06   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/06 23:25:25   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/06 23:24:40   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/06 23:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 23:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 23:22:15   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/06 23:21:40   WIRELESS      wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/01/06 23:19:10   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/06 23:18:35   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/06 23:16:04   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/06 23:15:04   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 1.
+2023/01/06 23:11:49   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 1.
+2023/01/06 23:07:18   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/06 23:07:13   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/06 23:01:48   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/06 22:32:25   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/06 22:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 22:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 22:00:47   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 1.
+2023/01/06 21:55:46   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/06 21:53:46   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/06 21:50:46   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/06 21:47:46   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/06 21:46:45   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/06 21:43:45   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/06 21:37:39   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 1.
+2023/01/06 21:31:19   WIRELESS      wl1 (2.4GHz): Detect interference(63per) [with Non-802.11] on channel 1.
+2023/01/06 21:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 21:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 21:13:22   WIRELESS      wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 1.
+2023/01/06 21:10:47   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/06 21:09:47   WIRELESS      wl1 (2.4GHz): Detect interference(67per) [with Non-802.11] on channel 1.
+2023/01/06 21:06:41   WIRELESS      wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 1.
+2023/01/06 21:03:46   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/06 21:03:01   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 1.
+2023/01/06 20:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 20:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 19:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 19:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 18:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 18:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 18:02:48   ADT           Accept regist Error!!
+2023/01/06 18:02:48   ADT           Subscribe callback(accept_regist)
+2023/01/06 18:02:48   ADT           publish: request_regist
+2023/01/06 18:02:47   ADT           Subscribing(unpaired)...
+2023/01/06 18:01:17   WIRELESS      wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/01/06 18:00:51   DHCPC         add resolve
+2023/01/06 18:00:51   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/06 18:00:51   DHCPC         Info : DHCPSNAME =
+2023/01/06 18:00:51   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/06 18:00:51   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/06 18:00:51   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/06 18:00:51   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/06 18:00:51   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/06 18:00:51   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/06 18:00:51   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/06 18:00:51   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/06 18:00:51   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/06 18:00:51   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/06 18:00:51   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/06 18:00:51   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/06 17:57:57   WIRELESS      wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 1.
+2023/01/06 17:57:47   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/06 17:54:51   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 1.
+2023/01/06 17:54:46   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/06 17:51:46   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/06 17:51:11   WIRELESS      wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 1.
+2023/01/06 17:48:41   WIRELESS      wl1 (2.4GHz): Detect interference(67per) [with Non-802.11] on channel 1.
+2023/01/06 17:47:46   WIRELESS      wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 1.
+2023/01/06 17:45:40   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/06 17:44:45   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/06 17:42:20   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/06 17:39:15   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/06 17:36:10   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/06 17:32:34   WIRELESS      wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/01/06 17:29:14   WIRELESS      wl1 (2.4GHz): Detect interference(67per) [with Non-802.11] on channel 1.
+2023/01/06 17:26:04   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 1.
+2023/01/06 17:25:04   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/06 17:23:03   WIRELESS      wl1 (2.4GHz): Detect interference(64per) [with Non-802.11] on channel 1.
+2023/01/06 17:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 17:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 17:19:53   WIRELESS      wl1 (2.4GHz): Detect interference(67per) [with Non-802.11] on channel 1.
+2023/01/06 17:16:48   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/06 17:13:27   WIRELESS      wl1 (2.4GHz): Detect interference(64per) [with Non-802.11] on channel 1.
+2023/01/06 17:08:47   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 1.
+2023/01/06 17:07:47   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/06 17:01:46   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/06 17:00:46   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/06 16:57:46   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/06 16:53:46   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/06 16:50:00   WIRELESS      wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/01/06 16:46:45   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 1.
+2023/01/06 16:46:25   WIRELESS      wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 1.
+2023/01/06 16:43:20   WIRELESS      wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 1.
+2023/01/06 16:35:54   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 1.
+2023/01/06 16:26:08   WIRELESS      wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 1.
+2023/01/06 16:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 16:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 16:16:47   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/06 16:12:47   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/06 16:12:37   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/01/06 16:09:46   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/06 16:09:21   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/06 16:06:06   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/06 16:05:46   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/06 16:02:55   WIRELESS      wl1 (2.4GHz): Detect interference(60per) [with Non-802.11] on channel 1.
+2023/01/06 15:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 15:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 15:00:33   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/06 14:57:28   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/06 14:54:13   WIRELESS      wl1 (2.4GHz): Detect interference(64per) [with Non-802.11] on channel 1.
+2023/01/06 14:50:02   WIRELESS      wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 1.
+2023/01/06 14:46:47   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/06 14:43:32   WIRELESS      wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 1.
+2023/01/06 14:42:47   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/06 14:39:46   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/06 14:38:01   WIRELESS      wl1 (2.4GHz): Detect interference(60per) [with Non-802.11] on channel 1.
+2023/01/06 14:34:46   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 1.
+2023/01/06 14:31:56   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/06 14:31:10   WIRELESS      wl1 (2.4GHz): Detect interference(60per) [with Non-802.11] on channel 1.
+2023/01/06 14:27:55   WIRELESS      wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 1.
+2023/01/06 14:25:10   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/06 14:24:50   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/06 14:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 14:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 14:21:44   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/01/06 14:16:59   WIRELESS      wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 1.
+2023/01/06 14:13:23   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/06 14:13:08   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/06 14:10:13   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 1.
+2023/01/06 14:09:48   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/06 14:06:48   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/06 14:03:47   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/06 13:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 13:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 12:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 12:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 12:00:51   DHCPC         add resolve
+2023/01/06 12:00:51   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/06 12:00:51   DHCPC         Info : DHCPSNAME =
+2023/01/06 12:00:51   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/06 12:00:51   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/06 12:00:51   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/06 12:00:51   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/06 12:00:51   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/06 12:00:51   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/06 12:00:51   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/06 12:00:51   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/06 12:00:51   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/06 12:00:51   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/06 12:00:51   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/06 12:00:51   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/06 11:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 11:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 10:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 10:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 09:57:27   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/06 09:53:47   WIRELESS      wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/01/06 09:51:47   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/06 09:49:47   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/06 09:46:46   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/06 09:43:46   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/06 09:43:01   WIRELESS      wl1 (2.4GHz): Detect interference(67per) [with Non-802.11] on channel 1.
+2023/01/06 09:39:46   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/06 09:34:45   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 1.
+2023/01/06 09:28:25   WIRELESS      wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/01/06 09:25:19   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/06 09:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 09:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 09:18:08   WIRELESS      wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 1.
+2023/01/06 09:13:38   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/06 09:13:28   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/06 09:07:47   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/06 09:06:47   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/06 09:02:52   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/06 09:02:47   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/06 08:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 08:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 07:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 07:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 06:59:32   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/06 06:54:47   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/06 06:51:46   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/06 06:51:36   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/06 06:48:01   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/06 06:46:40   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/06 06:43:45   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/06 06:42:10   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/06 06:38:09   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/06 06:37:39   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/06 06:33:24   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/06 06:30:28   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/06 06:30:08   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/06 06:27:13   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/06 06:26:48   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/06 06:23:37   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/06 06:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 06:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 06:22:47   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/06 06:18:57   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/06 06:16:47   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/06 06:14:02   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/06 06:12:47   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/06 06:10:41   WIRELESS      wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/01/06 06:09:46   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/06 06:06:46   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/01/06 06:00:51   DHCPC         add resolve
+2023/01/06 06:00:51   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/06 06:00:51   DHCPC         Info : DHCPSNAME =
+2023/01/06 06:00:51   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/06 06:00:51   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/06 06:00:51   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/06 06:00:51   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/06 06:00:51   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/06 06:00:51   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/06 06:00:51   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/06 06:00:51   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/06 06:00:51   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/06 06:00:51   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/06 06:00:51   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/06 06:00:51   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/06 05:48:19   WIRELESS      wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/01/06 05:42:38   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 1.
+2023/01/06 05:39:03   WIRELESS      wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/01/06 05:35:58   WIRELESS      wl1 (2.4GHz): Detect interference(64per) [with Non-802.11] on channel 1.
+2023/01/06 05:29:47   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/06 05:25:46   WIRELESS      wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 1.
+2023/01/06 05:23:16   WIRELESS      wl1 (2.4GHz): Detect interference(64per) [with Non-802.11] on channel 1.
+2023/01/06 05:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 05:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 05:03:34   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/06 04:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 04:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 03:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 03:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 02:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 02:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 01:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 01:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 00:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/06 00:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/06 00:01:46   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/06 00:00:51   DHCPC         add resolve
+2023/01/06 00:00:51   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/06 00:00:51   DHCPC         Info : DHCPSNAME =
+2023/01/06 00:00:51   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/06 00:00:51   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/06 00:00:51   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/06 00:00:51   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/06 00:00:51   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/06 00:00:51   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/06 00:00:51   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/06 00:00:51   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/06 00:00:51   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/06 00:00:51   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/06 00:00:51   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/06 00:00:51   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/05 23:57:46   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/05 23:57:36   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/05 23:54:31   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/05 23:54:11   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/05 23:51:16   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 1.
+2023/01/05 23:45:05   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/05 23:44:55   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/05 23:40:55   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/05 23:39:39   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/01/05 23:37:39   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/05 23:36:09   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/05 23:33:53   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/05 23:32:08   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/05 23:30:48   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/05 23:28:48   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/05 23:25:38   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/05 23:23:47   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/05 23:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 23:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 23:19:47   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/05 23:17:47   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/05 23:15:47   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/05 23:13:56   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/05 23:10:46   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/05 23:05:11   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/05 23:03:35   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/05 22:56:05   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/05 22:49:19   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/05 22:45:08   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/05 22:41:48   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/05 22:41:13   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/05 22:38:47   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/05 22:37:37   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/05 22:34:47   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/05 22:33:47   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/05 22:30:47   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/05 22:29:46   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/05 22:27:46   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/05 22:25:36   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/01/05 22:23:36   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/05 22:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 22:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 22:16:15   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/05 22:12:55   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/05 22:11:20   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/05 22:09:39   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/05 22:04:49   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/05 22:03:09   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/05 21:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 21:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 20:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 20:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 20:01:51   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 1.
+2023/01/05 19:56:55   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/05 19:52:40   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/05 19:47:14   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/05 19:47:09   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/05 19:43:48   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/05 19:41:38   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/05 19:39:48   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/05 19:37:28   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/05 19:34:47   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/05 19:32:52   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 1.
+2023/01/05 19:31:47   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/05 19:28:47   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/05 19:28:12   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/05 19:25:37   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/05 19:23:47   WIRELESS      wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 1.
+2023/01/05 19:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 19:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 19:20:46   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/05 19:19:56   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/05 19:14:06   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/05 19:13:06   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/05 19:09:20   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/05 19:08:15   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/01/05 19:05:00   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/05 19:00:04   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/05 18:56:44   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/05 18:54:39   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/05 18:52:09   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/05 18:49:08   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/05 18:47:18   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/05 18:44:48   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/05 18:41:47   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/05 18:37:47   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/05 18:29:51   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/05 18:27:21   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/05 18:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 18:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 18:21:15   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/05 18:07:09   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/05 18:03:09   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/05 18:02:33   ADT           Accept regist Error!!
+2023/01/05 18:02:33   ADT           Subscribe callback(accept_regist)
+2023/01/05 18:02:33   ADT           publish: request_regist
+2023/01/05 18:02:32   ADT           Subscribing(unpaired)...
+2023/01/05 18:00:51   DHCPC         add resolve
+2023/01/05 18:00:51   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/05 18:00:51   DHCPC         Info : DHCPSNAME =
+2023/01/05 18:00:51   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/05 18:00:51   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/05 18:00:51   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/05 18:00:51   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/05 18:00:51   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/05 18:00:51   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/05 18:00:51   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/05 18:00:51   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/05 18:00:51   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/05 18:00:51   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/05 18:00:51   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/05 18:00:50   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/05 17:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 17:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 16:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 16:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 15:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 15:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 14:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 14:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 13:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 13:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 12:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 12:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 12:00:50   DHCPC         add resolve
+2023/01/05 12:00:50   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/05 12:00:50   DHCPC         Info : DHCPSNAME =
+2023/01/05 12:00:50   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/05 12:00:50   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/05 12:00:50   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/05 12:00:50   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/05 12:00:50   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/05 12:00:50   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/05 12:00:50   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/05 12:00:50   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/05 12:00:50   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/05 12:00:50   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/05 12:00:50   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/05 12:00:50   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/05 11:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 11:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 10:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 10:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 09:58:36   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/05 09:55:15   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 1.
+2023/01/05 09:51:40   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/05 09:48:40   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/05 09:48:15   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/05 09:44:59   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/05 09:44:39   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/05 09:41:04   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/05 09:40:29   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/05 09:37:49   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/05 09:36:54   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/05 09:34:29   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/05 09:33:39   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/05 09:31:23   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/05 09:28:48   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/05 09:27:38   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/05 09:24:48   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/05 09:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 09:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 09:21:58   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/05 09:20:47   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/05 09:18:27   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/05 09:17:47   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/05 09:14:52   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/05 09:11:36   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/05 09:07:56   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/05 09:06:46   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/05 09:04:26   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/05 09:02:25   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/05 09:00:40   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/05 08:59:15   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/05 08:56:00   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/05 08:54:40   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/05 08:52:04   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/05 08:51:24   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/05 08:48:09   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/05 08:47:49   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/05 08:44:54   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/05 08:44:34   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/05 08:41:39   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/05 08:40:48   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/05 08:38:28   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/05 08:35:08   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/05 08:34:48   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/05 08:30:48   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/05 08:29:57   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/05 08:27:47   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/05 08:26:12   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/05 08:22:58   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 08:22:49   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 08:03:40   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/05 08:02:25   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/05 07:22:58   WIRELESS      wl2 (6GHz): Start sending beacon
+2023/01/05 07:22:51   WIRELESS      wl2 (6GHz): Switch Channel 195 / 80 MHz
+2023/01/05 07:22:49   WIRELESS      wl1 (2.4GHz): Start sending beacon
+2023/01/05 07:22:49   WIRELESS      wl1 (2.4GHz): Switch Channel 1 / 20 MHz
+2023/01/05 07:22:42   WIRELESS      wl0 (5GHz): Start sending beacon
+2023/01/05 07:22:34   WIRELESS      wl0 (5GHz): Start sending beacon
+2023/01/05 07:22:17   CONFIGURE     PmkCache
+2023/01/05 07:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 07:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 06:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 06:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 06:00:50   DHCPC         add resolve
+2023/01/05 06:00:50   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/05 06:00:50   DHCPC         Info : DHCPSNAME =
+2023/01/05 06:00:50   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/05 06:00:50   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/05 06:00:50   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/05 06:00:50   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/05 06:00:50   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/05 06:00:50   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/05 06:00:50   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/05 06:00:50   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/05 06:00:50   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/05 06:00:50   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/05 06:00:50   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/05 06:00:50   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/05 05:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 05:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 04:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 04:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 04:00:07   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/05 03:44:01   WIRELESS      wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 1.
+2023/01/05 03:43:45   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/05 03:38:45   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/05 03:36:45   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/05 03:34:45   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/05 03:32:00   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 1.
+2023/01/05 03:30:44   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/05 03:27:44   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/05 03:19:38   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/05 03:16:03   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/05 03:13:08   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/05 03:12:08   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/05 03:08:07   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/05 03:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 03:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 03:03:22   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/05 02:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 02:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 01:11:42   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/05 01:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 01:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 00:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/05 00:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/05 00:00:50   DHCPC         add resolve
+2023/01/05 00:00:50   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/05 00:00:50   DHCPC         Info : DHCPSNAME =
+2023/01/05 00:00:50   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/05 00:00:50   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/05 00:00:50   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/05 00:00:50   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/05 00:00:50   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/05 00:00:50   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/05 00:00:50   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/05 00:00:50   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/05 00:00:50   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/05 00:00:50   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/05 00:00:50   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/05 00:00:50   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/04 23:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 23:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 22:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 22:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 21:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 21:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 20:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 20:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 19:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 19:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 18:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 18:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 18:02:27   ADT           Accept regist Error!!
+2023/01/04 18:02:27   ADT           Subscribe callback(accept_regist)
+2023/01/04 18:02:27   ADT           publish: request_regist
+2023/01/04 18:02:26   ADT           Subscribing(unpaired)...
+2023/01/04 18:00:50   DHCPC         add resolve
+2023/01/04 18:00:50   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/04 18:00:50   DHCPC         Info : DHCPSNAME =
+2023/01/04 18:00:50   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/04 18:00:50   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/04 18:00:50   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/04 18:00:50   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/04 18:00:50   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/04 18:00:50   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/04 18:00:50   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/04 18:00:50   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/04 18:00:50   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/04 18:00:50   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/04 18:00:50   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/04 18:00:50   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/04 17:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 17:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 16:53:43   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/04 16:49:07   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/04 16:44:42   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/04 16:39:41   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/04 16:37:41   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/04 16:20:04   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 1.
+2023/01/04 16:11:38   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/04 16:08:08   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/04 16:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 16:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 16:02:43   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/04 15:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 15:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 14:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 14:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 13:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 13:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 12:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 12:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 12:00:50   DHCPC         add resolve
+2023/01/04 12:00:50   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/04 12:00:50   DHCPC         Info : DHCPSNAME =
+2023/01/04 12:00:50   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/04 12:00:50   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/04 12:00:50   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/04 12:00:50   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/04 12:00:50   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/04 12:00:50   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/04 12:00:50   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/04 12:00:50   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/04 12:00:50   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/04 12:00:50   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/04 12:00:50   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/04 12:00:49   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/04 11:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 11:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 10:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 10:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 09:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 09:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 08:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 08:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 07:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 07:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 06:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 06:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 06:00:49   DHCPC         add resolve
+2023/01/04 06:00:49   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/04 06:00:49   DHCPC         Info : DHCPSNAME =
+2023/01/04 06:00:49   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/04 06:00:49   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/04 06:00:49   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/04 06:00:49   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/04 06:00:49   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/04 06:00:49   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/04 06:00:49   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/04 06:00:49   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/04 06:00:49   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/04 06:00:49   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/04 06:00:49   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/04 06:00:49   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/04 05:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 05:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 05:01:45   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/01/04 04:59:45   WIRELESS      wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 1.
+2023/01/04 04:58:35   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 1.
+2023/01/04 04:56:40   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/04 04:55:15   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/04 04:52:59   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/04 04:52:14   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 1.
+2023/01/04 04:49:48   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/04 04:49:13   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 1.
+2023/01/04 04:46:43   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/04 04:46:07   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 1.
+2023/01/04 04:43:17   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/04 04:43:02   WIRELESS      wl1 (2.4GHz): Detect interference(67per) [with Non-802.11] on channel 1.
+2023/01/04 04:39:57   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/04 04:39:47   WIRELESS      wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/01/04 04:36:56   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/04 04:36:46   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/04 04:33:41   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/04 04:33:30   WIRELESS      wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 1.
+2023/01/04 04:30:35   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/04 04:30:15   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/04 04:27:20   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/04 04:27:10   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/01/04 04:24:05   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/04 04:23:55   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/04 04:20:59   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/04 04:20:44   WIRELESS      wl1 (2.4GHz): Detect interference(67per) [with Non-802.11] on channel 1.
+2023/01/04 04:17:59   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/04 04:17:44   WIRELESS      wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 1.
+2023/01/04 04:14:49   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/04 04:14:09   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/04 04:11:44   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/04 04:10:59   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/04 04:08:03   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/04 04:07:58   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/04 04:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 04:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 04:04:53   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/04 04:04:48   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/04 04:01:52   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/04 04:01:47   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 1.
+2023/01/04 03:47:26   WIRELESS      wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 1.
+2023/01/04 03:34:00   WIRELESS      wl1 (2.4GHz): Detect interference(60per) [with Non-802.11] on channel 1.
+2023/01/04 03:29:59   WIRELESS      wl1 (2.4GHz): Detect interference(63per) [with Non-802.11] on channel 1.
+2023/01/04 03:22:39   WIRELESS      wl1 (2.4GHz): Detect interference(67per) [with Non-802.11] on channel 1.
+2023/01/04 03:14:13   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 1.
+2023/01/04 03:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 03:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 02:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 02:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 01:53:55   WIRELESS      wl1 (2.4GHz): Detect interference(92per) [with Non-802.11] on channel 1.
+2023/01/04 01:52:25   WIRELESS      wl0 (5GHz): Detect interference(76per) [with Non-802.11] on channel 36.
+2023/01/04 01:16:46   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/04 01:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 01:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 01:01:20   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/04 00:58:19   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/04 00:58:09   WIRELESS      wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 1.
+2023/01/04 00:54:59   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/04 00:54:54   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/04 00:51:54   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/04 00:51:39   WIRELESS      wl1 (2.4GHz): Detect interference(63per) [with Non-802.11] on channel 1.
+2023/01/04 00:48:53   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/04 00:48:33   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/04 00:45:48   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/04 00:45:28   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/04 00:42:43   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/04 00:42:03   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/04 00:39:17   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/04 00:38:37   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/01/04 00:36:17   WIRELESS      wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/01/04 00:35:37   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/04 00:33:12   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/04 00:31:42   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/04 00:30:07   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/04 00:27:01   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/04 00:24:51   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/04 00:24:01   WIRELESS      wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 1.
+2023/01/04 00:21:11   WIRELESS      wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 1.
+2023/01/04 00:20:56   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/04 00:17:51   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/04 00:17:26   WIRELESS      wl1 (2.4GHz): Detect interference(64per) [with Non-802.11] on channel 1.
+2023/01/04 00:14:45   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/04 00:14:15   WIRELESS      wl1 (2.4GHz): Detect interference(67per) [with Non-802.11] on channel 1.
+2023/01/04 00:11:45   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/04 00:10:55   WIRELESS      wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 1.
+2023/01/04 00:08:40   WIRELESS      wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/01/04 00:07:50   WIRELESS      wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/01/04 00:05:37   WIRELESS      wl2.0 (6GHz): Encryption Key Renewing
+2023/01/04 00:05:30   WIRELESS      wl1.0 (2.4GHz): Encryption Key Renewing
+2023/01/04 00:05:30   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/04 00:04:44   WIRELESS      wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/01/04 00:02:29   WIRELESS      wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/01/04 00:01:44   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/04 00:00:49   DHCPC         add resolve
+2023/01/04 00:00:49   DHCPC         Info : LEASETIME(43200) , RENEWALTIME(21600) , REBINDTIME(37800)
+2023/01/04 00:00:49   DHCPC         Info : DHCPSNAME =
+2023/01/04 00:00:49   DHCPC         Info : DHCPSHADDR = 00:16:01:19:EC:22
+2023/01/04 00:00:49   DHCPC         Info : DHCPCHADDR = D4:2C:46:51:29:40
+2023/01/04 00:00:49   DHCPC         Info : DHCPSIADDR = 0.0.0.0
+2023/01/04 00:00:49   DHCPC         Info : DHCPGIADDR = 0.0.0.0
+2023/01/04 00:00:49   DHCPC         Info : DHCPSID = 192.168.17.1
+2023/01/04 00:00:49   DHCPC         Info : DNS[2] = 8.8.8.8
+2023/01/04 00:00:49   DHCPC         Info : DNS[1] = 192.168.16.1
+2023/01/04 00:00:49   DHCPC         Info : Default Gateway = 192.168.17.1
+2023/01/04 00:00:49   DHCPC         Info : Subnet Mask = 255.255.255.0
+2023/01/04 00:00:49   DHCPC         Info : IP Address = 192.168.17.108
+2023/01/04 00:00:49   DHCPC         DHCP_ACK received from  (192.168.17.1)
+2023/01/04 00:00:49   DHCPC         Renew : sending DHCP_REQUEST for 192.168.17.108 to 192.168.17.1
+2023/01/03 23:59:19   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/03 23:57:54   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/03 23:55:28   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/03 23:54:28   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 1.
+2023/01/03 23:50:43   WIRELESS      wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/01/03 23:48:58   WIRELESS      wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/01/03 23:47:18   WIRELESS      wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/01/03 23:45:53   WIRELESS      wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/01/03 23:44:12   WIRELESS      wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/01/03 23:41:07   WIRELESS      wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/01/03 23:39:52   WIRELESS      wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 1.
+2023/01/03 23:38:02   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/03 23:35:26   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/03 23:32:31   WIRELESS      wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/01/03 23:30:06   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/03 23:29:16   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/01/03 23:26:41   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/03 23:25:16   WIRELESS      wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 1.
+2023/01/03 23:22:15   WIRELESS      wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 1.
+2023/01/03 23:22:05   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/03 23:18:40   WIRELESS      wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/01/03 23:16:40   WIRELESS      wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/01/03 23:12:39   WIRELESS      wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/01/03 23:11:39   WIRELESS      wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 1.
+2023/01/03 23:09:39   WIRELESS      wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/01/03 23:08:14   WIRELESS      wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
