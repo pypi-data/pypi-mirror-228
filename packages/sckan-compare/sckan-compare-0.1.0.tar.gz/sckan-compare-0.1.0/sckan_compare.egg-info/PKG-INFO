@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sckan-compare
+Version: 0.1.0
+Summary: A package for retrieving and visualizing data contained in SCKAN (e.g., across species, relationship to spinal segments) to highlight similarities and differences in neuronal pathways
+Author: Shailesh Appukuttan, Pranjal Garg, Hiba Ben Aribi, Gautam Kumar
+Author-email: appukuttan.shailesh@gmail.com
+License: Apache-2.0
+License-File: LICENSE
