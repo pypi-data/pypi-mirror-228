@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+gologin.egg-info/PKG-INFO
+gologin.egg-info/SOURCES.txt
+gologin.egg-info/dependency_links.txt
+gologin.egg-info/top_level.txt
