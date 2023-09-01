@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/hello/__init__.py
+src/hello/hello.py
+src/hellojollytest20230831.egg-info/PKG-INFO
+src/hellojollytest20230831.egg-info/SOURCES.txt
+src/hellojollytest20230831.egg-info/dependency_links.txt
+src/hellojollytest20230831.egg-info/requires.txt
+src/hellojollytest20230831.egg-info/top_level.txt

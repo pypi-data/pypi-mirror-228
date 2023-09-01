@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hellojollytest20230831
+Version: 0.0.3
+Summary: 一个主流图片压缩方案的自动化脚本(利用tinify实现)
+Author-email: Jolly <jollytest@gmail.com>
+Project-URL: Homepage, https://ilovefishc.com
+Project-URL: Bug Tracker, https://fishc.com.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+这是项目说明，balabala
