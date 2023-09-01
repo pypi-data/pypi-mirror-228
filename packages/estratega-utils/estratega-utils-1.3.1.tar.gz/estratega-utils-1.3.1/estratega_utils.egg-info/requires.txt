@@ -1,0 +1,4 @@
+pydantic
+pymysql
+devtools
+mysql
