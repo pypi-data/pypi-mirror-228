@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: retryer
+Version: 1.0.0
+Summary: A retry decorator for error handling
+Author: Vishwanath Kannan
+License-File: LICENSE
+Requires-Dist: time
+Requires-Dist: functools
+
