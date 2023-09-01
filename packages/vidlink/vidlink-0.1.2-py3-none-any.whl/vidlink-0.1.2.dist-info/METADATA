@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: vidlink
+Version: 0.1.2
+Summary: A simple commandline app to extract all the raw video links from a set of urls
+Author: BarnesInside
+Author-email: barnesound@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pytest (>=7.4.0,<8.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# VidLink
+
+Last updated 31th August 2023
+
+This is a simple commandline app to extract all the raw video links from a set of urls
+
+More information [Click Here](##Introduction)
+
+## Use
+
+This is a README file for the RexBytes simple example.
+It's created using Github-flavoured Markdown, you can
+create a README for your project, for more information
+[Click Here](https://guides.github.com/features/mastering-markdown/)
+
+## Changelog
+
+v0.1.0 Initial Package State
+
+v0.1.1 Updates to the template
+
+v0.1.2 Cleaning code and fixing bugs
+
