@@ -1,0 +1,15 @@
+intel_extension_for_tensorflow_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+intel_extension_for_tensorflow_lib/third-party-programs/third-party-programs-of-onednn.txt,sha256=0YEJW0dBbtk9OTCDxdI_p8Li3WTYdHSkKsXA5_5-CaM,28478
+intel_extension_for_tensorflow_lib/third-party-programs/THIRD-PARTY-PROGRAMS,sha256=38wrUdgRWcBxKeftLvRLlSSrFsbXbY91XNeA1Ln8sz8,81897
+intel_extension_for_tensorflow_lib/third-party-programs/third-party-programs-of-onevpl.txt,sha256=i34dYM774UHk35qAHdW2rbqF3370_zixaOb3bxc5TWs,21801
+_solib_k8/_U@onednn_Ucpu_S_S_Conednn_Ulibs_Ulinux___Uexternal_Sllvm_Uopenmp/libiomp5.so,sha256=xJItk4SkXtJVdchg0sd1xn5Q_3xOxKsRSQ4ufF_4pYE,1089792
+intel_extension_for_tensorflow/libitex_cpu_internal_avx2.so,sha256=dnj65S3OMJs-_IAUGX-nLhrfTrK--e0uwk5IaYL1DjM,173365441
+intel_extension_for_tensorflow/libitex_cpu_internal_avx512.so,sha256=dnj65S3OMJs-_IAUGX-nLhrfTrK--e0uwk5IaYL1DjM,173365441
+intel_extension_for_tensorflow/libitex_common.so,sha256=z7790HOVgl54nvw577Zj2dJAMDY1qVBlWK2l86clgmU,8109105
+intel_extension_for_tensorflow/python/_pywrap_itex.so,sha256=yp6wuGY1OD6teowqyjZv7QPxiQ-OfIxUHYldsZ5hUrk,4644553
+intel_extension_for_tensorflow_lib-2.13.0.1.0.dist-info/top_level.txt,sha256=gEp8_NgOq6hCEYP72KiEtZX1f5MNLXKjMG8eVkPheXg,85
+intel_extension_for_tensorflow_lib-2.13.0.1.0.dist-info/METADATA,sha256=qI6Qf9uzP7aPFIT6kZeBrypWkf-7r6SIIhsTJ-evGqY,2770
+intel_extension_for_tensorflow_lib-2.13.0.1.0.dist-info/WHEEL,sha256=zcODeksSPXfEVqloqbuxG5DqZN6qJmVdi0EN9bjsiGQ,152
+intel_extension_for_tensorflow_lib-2.13.0.1.0.dist-info/RECORD,,
+intel_extension_for_tensorflow_lib-2.13.0.1.0.dist-info/LICENSE.txt,sha256=fAUT-S_f-DGBz-dvO3RJVmMav-KLvB9io_1yKXuR5po,10775
+tensorflow-plugins/libitex_cpu.so,sha256=hGhrNX8BuLuLajeQk3oCwA2twzmXr1Ha73vC-6-KyNA,4564769
