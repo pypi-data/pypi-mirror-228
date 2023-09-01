@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+akhenaten/__init__.py
+akhenaten/akhenaten.py
+akhenaten_py.egg-info/PKG-INFO
+akhenaten_py.egg-info/SOURCES.txt
+akhenaten_py.egg-info/dependency_links.txt
+akhenaten_py.egg-info/requires.txt
+akhenaten_py.egg-info/top_level.txt
