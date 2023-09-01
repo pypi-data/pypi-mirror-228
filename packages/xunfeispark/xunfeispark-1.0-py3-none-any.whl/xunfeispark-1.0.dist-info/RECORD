@@ -1,0 +1,10 @@
+pysparkai/__init__.py,sha256=kxkTazzOdoW6ol2h-vRB5OLiDzZBWunFa6c2c7O-dfY,264
+pysparkai/api_utils.py,sha256=Q9VSgmvQYR7kjta5kq_24KqG6uAC1cMbt2sx88Mh1Fs,890
+pysparkai/auth_websocket_client.py,sha256=pBcPVyxh-xzrSG8ylh9zEWFzZtVOZV6I2FxYOLkCo-c,5927
+pysparkai/error_codes.py,sha256=PrP9TLoL-FcmvEJM7wgUK9unM45DKxBhv6NBmsEfiLo,1826
+pysparkai/pysparkai.py,sha256=FYqQUkY3wApYhc6hmtg03UQiJxgB8pWQ-ZjR8_IF4k0,1800
+xunfeispark-1.0.dist-info/LICENSE,sha256=osBP8RX0FV1BMkGY402HAhQEoGJiAGZjJgCRrc7J0u8,1079
+xunfeispark-1.0.dist-info/METADATA,sha256=NS7rwJEwAhLURQDIqDNlKMl5NmWM8ULRhaOcwe490-A,4860
+xunfeispark-1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+xunfeispark-1.0.dist-info/top_level.txt,sha256=dwPAiTUvSfyCdI_22QzmJcgwC_wgaxLkkCtg1IchsvM,10
+xunfeispark-1.0.dist-info/RECORD,,
