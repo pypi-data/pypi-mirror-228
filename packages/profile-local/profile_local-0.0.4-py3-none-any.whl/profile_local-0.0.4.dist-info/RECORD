@@ -1,0 +1,9 @@
+profile_local/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+profile_local/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+profile_local/src/gender.py,sha256=_aTDuGngtMttD9DVqqumKMj9eF03Q2UNqNNb3bkX3yg,1726
+profile_local/src/generic_profile_insert.py,sha256=Ffd5xkEqzTtQW82qUOBkiaW0nuMZjK3WDbkd5G9Z5nY,6002
+profile_local/src/profile_local_class.py,sha256=tfu8u7_nJliu2NjZlwHD_cAVobNlh9dJKuT2PaTeCgg,10018
+profile_local-0.0.4.dist-info/METADATA,sha256=uT3wbel9Q208lu6rgb6S95ehgBnFD4Fa8N7bvIdY9bo,469
+profile_local-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+profile_local-0.0.4.dist-info/top_level.txt,sha256=z_H5xrwtVKar4YqHYpwWb36mC3WRQ6sgbf_DS0UuOrY,14
+profile_local-0.0.4.dist-info/RECORD,,
