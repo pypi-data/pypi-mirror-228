@@ -1,0 +1,8 @@
+setup.py
+nbpaths/__init__.py
+nbpaths/add_parents.py
+nbpaths.egg-info/PKG-INFO
+nbpaths.egg-info/SOURCES.txt
+nbpaths.egg-info/dependency_links.txt
+nbpaths.egg-info/not-zip-safe
+nbpaths.egg-info/top_level.txt
