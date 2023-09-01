@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: react-stats
+Version: 0.77
+Description-Content-Type: text/markdown
+Requires-Dist: tabulate
+Requires-Dist: chardet
+Requires-Dist: pandas
+Requires-Dist: asciibars
+Requires-Dist: watchdog
+
+
+
+# React-Stats Package
+
+React-Stats is a Python package offering a collection of utilities for React.js developers. With just three commands, manage your assets and get statistics on your codebase.
+
+## Installation
+
+To install React-Stats, run:
+
+\`\`\`bash
+pip install react-stats
+\`\`\`
+
+![Installation Output](Your-Installation-Output-Image-Here)
+
+## Usage
+
+### Make-Assets
+
+To set up the assets folder structure in your project root, navigate to your project directory and run:
+
+\`\`\`bash
+react-stats make-assets
+\`\`\`
+
+When prompted, confirm that you are in the root directory and want to proceed.
+
+#### Example Output
+
+\`\`\`
+Your-ASCII-or-Image-Here
+\`\`\`
+
+### Auto-Assets
+
+To automatically sort newly created files into the correct folders, run:
+
+\`\`\`bash
+react-stats auto-assets
+\`\`\`
+
+This command will keep running in the background. You can stop it anytime with `Ctrl+C`.
+
+#### Example Output
+
+\`\`\`
+Your-ASCII-or-Image-Here
+\`\`\`
+
+### Get-Stats
+
+Get detailed statistics on your codebase including languages, hooks, and line counts. Simply run:
+
+\`\`\`bash
+react-stats get-stats
+\`\`\`
+
+This will generate a `stats.txt` file in your current directory with all the information.
+
+#### Example Output
+
+\`\`\`
+Your-ASCII-or-Image-Here
+\`\`\`
+
+## Contributing
+
+If you encounter any issues or have suggestions for improvements, please open an issue or a pull request.
+
+## License
+
+This project is licensed under the MIT License.
