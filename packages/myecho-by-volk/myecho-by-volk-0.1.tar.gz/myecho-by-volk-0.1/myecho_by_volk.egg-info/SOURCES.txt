@@ -1,0 +1,6 @@
+setup.py
+myecho_by_volk.egg-info/PKG-INFO
+myecho_by_volk.egg-info/SOURCES.txt
+myecho_by_volk.egg-info/dependency_links.txt
+myecho_by_volk.egg-info/entry_points.txt
+myecho_by_volk.egg-info/top_level.txt
