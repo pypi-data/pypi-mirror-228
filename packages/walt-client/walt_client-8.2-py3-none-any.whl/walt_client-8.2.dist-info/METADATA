@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: walt-client
+Version: 8.2
+Summary: WalT control tool.
+Home-page: https://walt-project.liglab.fr
+Author: WalT developers
+Author-email: walt-contact@univ-grenoble-alpes.fr
+License: 3-Clause BSD
+Keywords: WalT testbed
+Requires-Dist: plumbum >=1.7.2
+Requires-Dist: commonmark >=0.7.5
+Requires-Dist: pygments >=2.2.0
+Requires-Dist: walt-common ==8.2
+Provides-Extra: g5k
+Requires-Dist: walt-client-g5k ==8.2 ; extra == 'g5k'
+
