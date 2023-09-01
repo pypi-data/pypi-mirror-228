@@ -1,0 +1,3 @@
+[console_scripts]
+myecho = my_custom_package.myecho:main
+
