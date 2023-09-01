@@ -1,0 +1,7 @@
+[console_scripts]
+sim2sumo = fmu.sumo.utilities.scripts.sim2sumo:main
+sumo_upload = fmu.sumo.uploader.scripts.sumo_upload:main
+
+[ert]
+fmu_sumo_jobs = fmu.sumo.hook_implementations.jobs
+sumo_upload = fmu.sumo.uploader.scripts.sumo_upload
