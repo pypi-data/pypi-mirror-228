@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/openjd/model/__init__.py
+src/openjd_model.egg-info/PKG-INFO
+src/openjd_model.egg-info/SOURCES.txt
+src/openjd_model.egg-info/dependency_links.txt
+src/openjd_model.egg-info/top_level.txt
