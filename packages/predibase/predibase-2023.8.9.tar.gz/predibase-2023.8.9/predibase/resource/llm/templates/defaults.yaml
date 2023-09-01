@@ -1,0 +1,39 @@
+model_type: llm
+base_model: {base_model}
+
+quantization:
+  bits: 4
+
+adapter:
+  type: lora
+
+prompt:
+  template: |
+    {template}
+
+input_features:
+  - name: prompt
+    type: text
+    preprocessing:
+      max_sequence_length: 256
+
+output_features:
+  - name: {target}
+    type: text
+    preprocessing:
+      max_sequence_length: 256
+
+preprocessing:
+  split:
+    type: random
+    probabilities: [0.95, 0, 0.05]
+
+trainer:
+  type: finetune
+  epochs: 3
+  batch_size: 1
+  learning_rate: 0.0002
+  learning_rate_scheduler:
+    type: cosine
+    warmup_fraction: 0.03
+  gradient_accumulation_steps: 16
