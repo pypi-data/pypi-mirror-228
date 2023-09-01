@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyDolarVenezuela/__init__.py
+pyDolarVenezuela/module_bcv.py
+pyDolarVenezuela/request.py
+pyDolarVenezuela/scraping_monitor.py
+pyDolarVenezuela/util.py
+pyDolarVenezuela.egg-info/PKG-INFO
+pyDolarVenezuela.egg-info/SOURCES.txt
+pyDolarVenezuela.egg-info/dependency_links.txt
+pyDolarVenezuela.egg-info/requires.txt
+pyDolarVenezuela.egg-info/top_level.txt
