@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+requirements.txt
+setup.py
+clean_excel.egg-info/PKG-INFO
+clean_excel.egg-info/SOURCES.txt
+clean_excel.egg-info/dependency_links.txt
+clean_excel.egg-info/requires.txt
+clean_excel.egg-info/top_level.txt
+cleanexcel/__init__.py

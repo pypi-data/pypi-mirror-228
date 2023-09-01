@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: clean_excel
+Version: 1.0.0
+Summary: Parse and filter any chaotic excel sheet into a formatted numpy array or pandas dataframe.
+Home-page: 
+Author: Timo Kats
+Author-email: tpakats@gmail.com
+License: MIT
+Keywords: excel
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+More information available at https://github.com/TimoKats/CleanExcel
