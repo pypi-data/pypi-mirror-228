@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-08-03 15:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: ../profiles.zcml:14
+msgid "Installs the collective.mosaicpage add-on."
+msgstr ""
+
+#: ../profiles/default/registry/icons.xml
+#: ../profiles/default/types/MosaicPage.xml
+msgid "MosaicPage"
+msgstr "Mosaic-Pagina"
+
+#: ../profiles/default/types/MosaicPage.xml
+msgid "Page with Mosaic layout"
+msgstr "Pagina met Mosaic landingspagina-layout"
+
+#: ../profiles.zcml:23
+msgid "Uninstalls the collective.mosaicpage add-on."
+msgstr ""
+
+#: ../profiles.zcml:14
+msgid "collective.mosaicpage"
+msgstr ""
+
+#: ../profiles.zcml:23
+msgid "collective.mosaicpage (uninstall)"
+msgstr ""
