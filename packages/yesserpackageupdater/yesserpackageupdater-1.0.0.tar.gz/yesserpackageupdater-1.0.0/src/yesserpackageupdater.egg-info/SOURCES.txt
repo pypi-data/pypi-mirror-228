@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/yesserpackageupdater/__init__.py
+src/yesserpackageupdater.egg-info/PKG-INFO
+src/yesserpackageupdater.egg-info/SOURCES.txt
+src/yesserpackageupdater.egg-info/dependency_links.txt
+src/yesserpackageupdater.egg-info/top_level.txt
