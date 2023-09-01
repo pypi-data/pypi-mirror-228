@@ -1,0 +1,10 @@
+bakerstreet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bakerstreet/bakerstreet.pb.go,sha256=b-KlpIdi79JfStxq8AAeXmzqWrLeKVEMylBK8NpmTWA,30288
+bakerstreet/bakerstreet.proto,sha256=xHnglaUIokKZcgw_WWwvQvzF9Xor2gAwrHbCHsCVd4I,1251
+bakerstreet/bakerstreet_grpc.pb.go,sha256=rUSEiU5fd69Ll0FbbsTUL4oQ2LbxPwp5qt8YRI-tdIw,17446
+bakerstreet/bakerstreet_pb2.py,sha256=sM6U5l0TMYB_ZaA2IAfQCMfL9SBXXoibMMv1Mg7aioM,3994
+bakerstreet/bakerstreet_pb2_grpc.py,sha256=NG8QyO8OBI7n8oUCb2rVJSQ2Hjjaq8F5-m1q0KkTBnU,18571
+bakerstreet-1.0.0.dist-info/LICENSE,sha256=6MK3DWiqAPWOvWl9dP5D7VOy9BJ4v91elk7Vv6kzeDs,1077
+bakerstreet-1.0.0.dist-info/METADATA,sha256=k045PZOxgj4-GaJ_pFkTqkaQepYe5lb4pA54vndh2i0,875
+bakerstreet-1.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+bakerstreet-1.0.0.dist-info/RECORD,,
