@@ -1,0 +1,10 @@
+tencentcloud/__init__.py,sha256=D7jQA1Snvg0xFLu_Btszd20w43A_A4sscTlk46vH7K8,630
+tencentcloud/ckafka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/ckafka/v20190819/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/ckafka/v20190819/ckafka_client.py,sha256=fIR-xTrOYNFPcQahdUz7ytUbGubz1ceromtn_1N4eoE,72823
+tencentcloud/ckafka/v20190819/errorcodes.py,sha256=sPYGdgXWt4BcCbJaKnm15NxxtU6Izt8UZNd84ZQExBQ,3315
+tencentcloud/ckafka/v20190819/models.py,sha256=W_wpqfzBpRu2_Rd3lZQg_KWTJFi8Z6jzK-6qSppcwm8,782987
+tencentcloud_sdk_python_ckafka-3.0.973.dist-info/METADATA,sha256=tviEKlLPw8CSu6FgqQBIQpFOFBpRI4FnL_gbRkdp9Ms,1505
+tencentcloud_sdk_python_ckafka-3.0.973.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+tencentcloud_sdk_python_ckafka-3.0.973.dist-info/top_level.txt,sha256=g-8OyzoqI6O6LiS85zkeNzhB-osEnRIPZMdyRd_0eL0,13
+tencentcloud_sdk_python_ckafka-3.0.973.dist-info/RECORD,,
