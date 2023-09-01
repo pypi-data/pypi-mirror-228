@@ -1,0 +1,11 @@
+pandas
+numpy
+requests
+aiohttp
+python-jose
+pyperclip
+pyyaml
+tqdm>=4.62.0
+
+[:sys_platform == "win32"]
+concurrent-log-handler
