@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+scipy
+lmfit
+
+[:platform_system == "Windows"]
+pywin32
