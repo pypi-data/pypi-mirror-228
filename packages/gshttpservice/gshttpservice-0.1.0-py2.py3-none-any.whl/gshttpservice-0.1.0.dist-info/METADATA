@@ -1,0 +1,154 @@
+Metadata-Version: 2.1
+Name: gshttpservice
+Version: 0.1.0
+Summary: Http server wrapper for standalone GraphScope
+Home-page: https://github.com/GraphScope/gshttpservice
+Author: GraphScope team of Damo Academy
+Author-email: graphscope@alibaba-inc.com
+License: Apache License 2.0
+Keywords: GraphScope,Graph Computations
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: graphscope (>=0.15.0)
+Provides-Extra: dev
+Requires-Dist: black (==22.3.0) ; extra == 'dev'
+Requires-Dist: flake8 (==4.0.1) ; extra == 'dev'
+Requires-Dist: isort (==5.10.1) ; extra == 'dev'
+
+# Install
+-------------
+
+```shell
+$ python3 setup.py bdist_wheel
+$ cd dist && pip3 install ./*.whl
+```
+
+# Launch http service
+--------------------------------
+
+```shell
+$ python3 -m gshttpservice 9527
+```
+
+# API
+## Create instance
+---------------------------
+**POST   /api/graphservice/createInstance**
+```
+> body
+> {
+>    "num_workers": 2,
+>    "vineyard_shared_mem": "4Gi"
+> }
+```
+**See more  parameter details from [Doc](https://graphscope.io/docs/reference/session.html)**
+
+## Get instance
+------------------------
+**GET  /api/graphservice/getInstance**
+
+
+## Load data
+-------------------
+**POST  /api/graphservice/loadData**
+
+```
+> body
+> {
+>    "type": "LOCAL",
+>    "directed": true,
+>    "oid_type": "string",
+>    "instance_id": "<graphscope instance id>",
+>    "dataSource": {
+>        "nodes": [
+>            {
+>                "label": "v",
+>                "location": "",
+>                "config": {
+>                    "header_row": true,
+>                    "delimiter": ","
+>                }
+>            }
+>        ],
+>        "edges": [
+>            {
+>                "label": "e",
+>                "location": "",
+>                "srcLabel": "v",
+>                "dstLabel": "v",
+>                "config": {
+>                    "header_row": true,
+>                    "delimiter": ","
+>                }
+>            }
+>        ]
+>    }
+>}
+```
+
+## Get graph schema
+--------------------------------
+**GET  /api/graphservice/graphSchema**
+
+```
+> params
+> {
+>     "graph_name": ""
+> }
+```
+
+
+## Gremlin query
+--------------------------
+**GET  /api/graphservice/query/gremlin**
+
+
+```
+> params
+> {
+>    "graph_name": <graph for gremlin query>,
+>    "gremlinSQL": "g.V('1')"
+> }
+```
+
+## Close instance
+----------------
+**GET /api/graphservice/closeInstance**
+
+```
+> params
+> {
+>     "instance_id": <graphscope instance to close>,
+> }
+```
+
+## Upload file
+-------------
+**POST /api/graphservice/uploadFile**
+
+```
+> header
+> {
+>   Content-Type: multipart/form-data
+> }
+>
+> body
+> {
+>   file=@file_path,
+>   instance_id="instance_id"
+> }
+
+> example
+> curl -i -X POST -H "Content-Type: multipart/form-data" -F "file=@file1" -F "file=@file2" -F "instance_id=xxx" -w %{http_code} http://localhost:9527/api/graphservice/uploadFile
+```

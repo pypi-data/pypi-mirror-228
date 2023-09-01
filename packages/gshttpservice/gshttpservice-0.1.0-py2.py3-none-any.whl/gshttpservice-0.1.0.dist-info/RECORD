@@ -1,0 +1,12 @@
+gshttpservice/VERSION,sha256=6d2FB_S_DG9CRY5BrqgzrQvT9hJycjNe7pv01YVB7Wc,6
+gshttpservice/__init__.py,sha256=Js3ecu7fLUbGPuDKAyXnV4CQzbevkpJZj4NdaB-5q8E,680
+gshttpservice/__main__.py,sha256=OLSxVu5HcUtOe0E_uecjmSGYqrsvEOtMvZJUwYTyqwU,797
+gshttpservice/server.py,sha256=21zZ6HWDHc6vqZsxm4bW8OvdLcmk9KtFS0HfwSXNxz4,8524
+gshttpservice/utils.py,sha256=bHZkIgYJod0iLqgrcC5AQk3CmxWpzHqj6Bd24CJrGnw,16561
+gshttpservice/version.py,sha256=CyPyKZaTPXdDL2N7UO_cT2sfg_L1s3_TVAzw3ghsTJI,932
+gshttpservice/tests/__init__.py,sha256=6DqEzZEU50ckyWOSTU9fgC4gVkvc2o-X8xZCyEiKesg,646
+gshttpservice/tests/test_service.py,sha256=hFjWkzd6qgrMQe6NKsMlS_vECa1wh0VVNhYo-Joyvtc,4476
+gshttpservice-0.1.0.dist-info/METADATA,sha256=9UQjwXOkQjjvGlz1Uur-dJliynedUCSHVJYBJZIxY9U,3410
+gshttpservice-0.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+gshttpservice-0.1.0.dist-info/top_level.txt,sha256=XHlrYz0Et5ww6t1uVPETAeeYdtdeyYnHJeWKE06IG2U,14
+gshttpservice-0.1.0.dist-info/RECORD,,
