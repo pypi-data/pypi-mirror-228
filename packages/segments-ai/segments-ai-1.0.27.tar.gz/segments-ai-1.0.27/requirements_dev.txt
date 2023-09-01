@@ -1,0 +1,22 @@
+# Style
+flake8==5.*
+
+# Code formatting
+black==22.*
+isort==5.*
+flynt==1.*
+pre-commit==2.*
+
+# Type checking
+mypy==0.*
+
+# Testing
+tox==3.*
+pytest==7.*
+pytest-cov==4.*
+pytest-dotenv==0.*
+
+# General
+pycocotools==2.*
+scikit-image==0.*
+opencv-python==4.*
