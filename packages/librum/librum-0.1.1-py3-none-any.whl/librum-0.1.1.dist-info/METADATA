@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: librum
+Version: 0.1.1
+Summary: A Python framework for extracting data from structured files
+License: MIT
+Author: Nikolay Marinov
+Author-email: hello@nmrnv.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Librum
+A Python framework for extracting data from structured files
+
