@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: preservethosepod
+Version: 1.0.7
+Summary: Preserve those podcasts!
+License: WTFPL
+Author: yzqzss
+Author-email: yzqzss@yandex.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: feedparser (>=6.0.10,<7.0.0)
+Requires-Dist: internetarchive (>=3.5.0,<4.0.0)
+Requires-Dist: pyrfc6266 (>=1.0.2,<2.0.0)
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Requires-Dist: rich (>=13.3.3,<14.0.0)
+Project-URL: respository, https://github.com/saveweb/preserve-those-podcasts
+Description-Content-Type: text/markdown
+
+# preserve-those-podcasts
+
+Podcast archiving tool!
+
+## Why "preserve-those-podcasts"
+
+Inspired by <http://preservethispodcast.org>
+
+## Requirements
+
+* Py>=3.8
+* requests
+* feedparser
+* rich
+* internetarchive
+* pyrfc6266
+
+* ffmpeg (`ffprobe`)
+
+## Installation
+
+```bash
+pip install PreserveThosePod
+```
+
+## Usage
+
+### Quickstart
+
+To archive a podcast, run:
+
+```bash
+podcastsPreserve --add <rss_feed_url> # download all episodes
+podcastsPreserve --update # download new episodes
+podcastsUpload # upload to archive.org
+```
+
