@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+alkesqlite3/__init__.py
+alkesqlite3/database.py
+alkesqlite3/table.py
+alkesqlite3.egg-info/PKG-INFO
+alkesqlite3.egg-info/SOURCES.txt
+alkesqlite3.egg-info/dependency_links.txt
+alkesqlite3.egg-info/not-zip-safe
+alkesqlite3.egg-info/requires.txt
+alkesqlite3.egg-info/top_level.txt

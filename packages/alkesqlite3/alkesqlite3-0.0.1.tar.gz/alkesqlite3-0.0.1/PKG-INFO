@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: alkesqlite3
+Version: 0.0.1
+Home-page: https://gitee.com/alkemie_gjwang/alkesqlite3
+Author: Guanjie Wang
+Author-email: gjwang@buaa.edu.cn
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AlkSqlite3
+
+#### Install
+pip install alksqlite3
+
+#### Author
+Guanjie Wang
+
