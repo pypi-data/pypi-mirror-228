@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "jqtui"
+version = "0.0.2"
+description = ""
+authors = ["Solomon Huang <huang.solomon@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+textual = "^0.34.0"
+pyjq = "^2.6.0"
+typer = {extras = ["all"], version = "^0.9.0"}
+pyperclip = "^1.8.2"
+
+
+[tool.poetry.group.dev.dependencies]
+textual-dev = "^1.1.0"
+black = "^23.7.0"
+ruff = "^0.0.286"
+tox = "^4.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+jqtui = "jqtui.jqtui:main"
+
+[tool.ruff]
+# Enable flake8-bugbear (`B`) rules.
+# E - pycodestyle
+# I - isort
+# B - flake8-bugbear
+# F - Pyflakes
+select = ["E", "F", "B", "I"]

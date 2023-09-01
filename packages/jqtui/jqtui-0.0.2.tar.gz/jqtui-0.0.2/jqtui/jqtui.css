@@ -1,0 +1,67 @@
+Screen {
+    background: $panel;
+}
+
+.red_border {
+    border: tall red;
+}
+Input {
+    dock: top;
+    margin: 1 0;
+    /* border: tall red; */
+}
+
+#results {
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 0;
+    /* margin: 0 1 0 1; */
+    color: rgb(210,210,210);
+}
+
+#results-header {
+    background: $accent-darken-2;
+    border: wide $background;
+    content-align: center middle;
+    padding: 1 0 1 0;
+    margin: 0 0 0 0;
+    text-style: bold;
+    color: $text;
+}
+
+#results-container {
+    background: $background 50%;
+    margin: 0 0 0 0;
+    height: 100%;
+    overflow: hidden auto;
+    /* border: tall $background; */
+    padding: 0 1 0 1;
+}
+
+/* #results-container:focus {
+    border: tall $accent;
+}  */
+
+#message {
+    background: $background 50%;
+    margin: 0 0 1 0;
+    border: tall $background;
+    padding: 0 0 0 2;
+    color: $text 60%;
+    /* display: none; */
+}
+
+.hide {
+    display: none;
+}
+
+Notification {
+    dock: bottom;
+    layer: notification;
+    width: auto;
+    margin: 0 0 2 4;
+    padding: 1 2;
+    background: $background;
+    color: #00FF00;
+    height: auto;
+}
