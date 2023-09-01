@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: spexxy
+Version: 2.7.3
+Summary: spectrum fitting package
+License: MIT
+Author: Tim-Oliver Husser
+Author-email: thusser@uni-goettingen.de
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: astropy (>=5.3.2,<6.0.0)
+Requires-Dist: h5py (>=3.9.0,<4.0.0)
+Requires-Dist: lmfit (>=1.2.2,<2.0.0)
+Requires-Dist: matplotlib (>=3.7.2,<4.0.0)
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: pandas (>=2.1.0,<3.0.0)
+Requires-Dist: pyqt5 (>=5.15.9,<6.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: scipy (>=1.11.2,<2.0.0)
+Requires-Dist: single-source (>=0.3.0,<0.4.0)
