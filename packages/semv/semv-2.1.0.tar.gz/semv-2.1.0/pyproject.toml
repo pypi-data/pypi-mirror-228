@@ -1,0 +1,25 @@
+[project]
+name = "semv"
+authors = [
+  {name = "Ingo Fruend", email = "github@ingofruend.net"},
+]
+description = "A read-only semantic version commit parsing and validation tool"
+readme = "README.md"
+license = { text = "BSD-3-Clause"}
+keywords = ["Semantic Versioning"]
+dynamic = ["version"]
+dependencies = [
+  "tomli"
+]
+
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+semv = "semv.main:main"
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+local_scheme = "no-local-version"
+tag_regex = "^(?P<prefix>v?)(?P<version>\\d+\\.\\d+\\.\\d+)"
