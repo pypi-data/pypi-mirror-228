@@ -1,0 +1,2 @@
+brother-label>=2.0a4
+pypdf
