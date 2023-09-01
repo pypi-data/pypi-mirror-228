@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+activemq_api_client/__init__.py
+activemq_api_client/client.py
+activemq_api_client/connector.py
+activemq_api_client.egg-info/PKG-INFO
+activemq_api_client.egg-info/SOURCES.txt
+activemq_api_client.egg-info/dependency_links.txt
+activemq_api_client.egg-info/requires.txt
+activemq_api_client.egg-info/top_level.txt
+unit_tests/__init__.py
+unit_tests/test_activemq_client.py
