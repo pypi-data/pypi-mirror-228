@@ -1,0 +1,14 @@
+.*.swp
+.eggs/
+*.pyc
+MANIFEST
+README.html
+__pycache__/
+.tox/
+build/
+dist/
+htmlcov/
+autoflake.egg-info/
+/.coverage
+/pypi_tmp/
+/tmp.*/
