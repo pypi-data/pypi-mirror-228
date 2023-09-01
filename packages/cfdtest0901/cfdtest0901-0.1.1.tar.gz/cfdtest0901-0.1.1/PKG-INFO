@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cfdtest0901
+Version: 0.1.1
+Summary: help people find spider
+Home-page: https://lossyou.com
+Author: whsdw123
+Author-email: 826708164@qq.com
+License: Proprietary
+Keywords: Pypi
+Classifier: License :: Free For Educational Use
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+test
