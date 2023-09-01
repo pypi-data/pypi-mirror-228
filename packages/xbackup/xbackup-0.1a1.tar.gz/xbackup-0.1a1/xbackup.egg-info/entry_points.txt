@@ -1,0 +1,5 @@
+[console_scripts]
+xbackup = xbackup.commands.backup:main
+xbackup-check = xbackup.commands.check:main
+xbackup-desc = xbackup.commands.description:main
+xbackup-list = xbackup.commands.list:main
