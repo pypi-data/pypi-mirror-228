@@ -1,0 +1,6 @@
+torch
+mmap_ninja
+
+[dev]
+pytest
+tqdm
