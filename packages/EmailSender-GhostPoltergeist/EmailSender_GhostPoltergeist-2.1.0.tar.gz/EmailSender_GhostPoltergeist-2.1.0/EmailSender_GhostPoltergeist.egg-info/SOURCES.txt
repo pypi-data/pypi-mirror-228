@@ -1,0 +1,10 @@
+LICENSE.txt
+README.txt
+setup.py
+EmailSender_GhostPoltergeist/__init__.py
+EmailSender_GhostPoltergeist/config.py
+EmailSender_GhostPoltergeist/sender.py
+EmailSender_GhostPoltergeist.egg-info/PKG-INFO
+EmailSender_GhostPoltergeist.egg-info/SOURCES.txt
+EmailSender_GhostPoltergeist.egg-info/dependency_links.txt
+EmailSender_GhostPoltergeist.egg-info/top_level.txt

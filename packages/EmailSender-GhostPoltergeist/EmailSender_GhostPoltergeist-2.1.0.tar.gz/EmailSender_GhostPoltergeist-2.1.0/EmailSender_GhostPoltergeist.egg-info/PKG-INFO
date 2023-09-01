@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: EmailSender-GhostPoltergeist
+Version: 2.1.0
+Summary: A python script program to send emails using SMTP
+Author: Harold Edsel F. Cabaluna
+Author-email: EdselCabaluna21@gmail.com
+License: MIT
+Keywords: email sender smtp
+License-File: LICENSE.txt
