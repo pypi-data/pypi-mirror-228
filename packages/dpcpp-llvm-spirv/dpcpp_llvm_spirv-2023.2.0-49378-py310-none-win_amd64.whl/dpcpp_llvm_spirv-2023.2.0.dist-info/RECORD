@@ -1,0 +1,8 @@
+dpcpp_llvm_spirv/__init__.py,sha256=zOwa1_jKZigoCg1TS_-X-PdjnK2ihnX73QR-ayPlJLc,535
+dpcpp_llvm_spirv/_helper.py,sha256=RTGqGE3bbgh2CdlhbG8jpusAvwCL4WlMR0SybHM_-v0,459
+dpcpp_llvm_spirv/_version.py,sha256=oTfnm4iBn0_j8yGLFdqvFbvmQHFlFPCoIQl6YNyZHKc,26
+dpcpp_llvm_spirv/bin/llvm-spirv.exe,sha256=cP_gdc75WpWvSUR8LuXBI3PsG6prD70nevtCa2LPIvw,13223040
+dpcpp_llvm_spirv-2023.2.0.dist-info/METADATA,sha256=lomudwPOcUyIyQ1-6GySPR8jkqB1p7dVPYOVQH0aW70,578
+dpcpp_llvm_spirv-2023.2.0.dist-info/WHEEL,sha256=rydu7nWDNQ9sdKUjuR2mqxvAI9CTamg_Ykhc2YMg9gA,114
+dpcpp_llvm_spirv-2023.2.0.dist-info/top_level.txt,sha256=QCdJUeNSz3-nnFjJimTaU3LA494f4ME2pKejwJwAd2A,17
+dpcpp_llvm_spirv-2023.2.0.dist-info/RECORD,,
