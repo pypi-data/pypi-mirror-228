@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: s3-fetcher
+Version: 0.1.0
+Summary: Simplified Command-Line Tool for Fetching Files from Amazon S3
+Home-page: UNKNOWN
+Author: Kristian Marlowe Ole
+Author-email: kristian.ole@done-data-solutions.com
+License: GPLv3
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: boto3
+
+UNKNOWN
+
