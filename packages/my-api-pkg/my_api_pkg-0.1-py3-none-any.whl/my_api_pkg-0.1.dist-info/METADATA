@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: my-api-pkg
+Version: 0.1
+Summary: A package for IP generator, TCP, UDP, SSL and XML RPC socket modules
+Author: Pa Pa
+Author-email: htunpa2aung@gmail.com
+
