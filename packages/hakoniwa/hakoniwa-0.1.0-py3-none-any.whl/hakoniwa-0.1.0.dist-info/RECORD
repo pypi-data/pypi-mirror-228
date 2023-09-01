@@ -1,0 +1,15 @@
+hakoniwa/__init__.py,sha256=yJnoeafpe59Q9xuV3lWe-FPxtia4dbHvlGNx4RkxGLU,22
+hakoniwa/cli.py,sha256=gN2DgkrEin9lRPQ58HIicp-_sEW7KhxBYgk29H-NhN8,1799
+hakoniwa/context.py,sha256=pHHqcHwbZii3FFkKcgX1YeScRdK9-DhDDSLHd6MUuHU,138
+hakoniwa/entity/__init__.py,sha256=JzsrOLVJ0BtKvKxPcEPZDfY1VaO9IAitbyYbpO-8mD0,79
+hakoniwa/entity/dynamic_entity.py,sha256=bT89dATBBZeyw9uZwvVhpnN5BPC7akG8lImR--6anoA,274
+hakoniwa/entity/entity.py,sha256=vKGUV2v6VNVjrGql-xDOPgJg6fBZpHZ1hvZXvmJJ4b0,395
+hakoniwa/entity/hello_entity.py,sha256=nb6lWhUy82tVLO392tsc_1iiUY_KswYJGO1REU8Mr5E,377
+hakoniwa/entity/openai_entity.py,sha256=VjaPZCJ8V5bYChuMllelgqj9caTCasdflEZIZMK5kPQ,1434
+hakoniwa/environment.py,sha256=OH8_DhPq5MMjBZMJ0roSH1UTZGgVmB3ZB_uREQk64H0,2331
+hakoniwa/state.py,sha256=kWJSvTeLZfs077_e95zSLAqSWOntahGwkvcNJnfcpa4,220
+hakoniwa-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+hakoniwa-0.1.0.dist-info/METADATA,sha256=22J52uiOJUJQj5uETMNLY1t-wbC_K7ZaSDlLjtXEN40,2872
+hakoniwa-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+hakoniwa-0.1.0.dist-info/entry_points.txt,sha256=IqvE8GzgKW3c8dKh_MSlaBakNPBP0D1BDfE3ND0meLY,45
+hakoniwa-0.1.0.dist-info/RECORD,,

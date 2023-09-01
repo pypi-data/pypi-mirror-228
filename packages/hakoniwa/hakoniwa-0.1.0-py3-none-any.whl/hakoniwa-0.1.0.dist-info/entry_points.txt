@@ -1,0 +1,3 @@
+[console_scripts]
+hakoniwa=hakoniwa.cli:run
+
