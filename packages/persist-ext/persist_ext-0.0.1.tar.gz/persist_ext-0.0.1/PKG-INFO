@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: persist-ext
+Version: 0.0.1
+Summary: A JupyterWidget for persisting interactions in cell outputs
+Project-URL: Documentation, https://github.com/unknown/persist#readme
+Project-URL: Issues, https://github.com/unknown/persist/issues
+Project-URL: Source, https://github.com/unknown/persist
+Author-email: Kiran Gadhave <kirangadhave2@gmail.com>
+Maintainer-email: Kiran Gadhave <kirangadhave2@gmail.com>
+License-File: LICENSE.txt
+Keywords: interactive visualizations,provenance,widget
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: jinja2
+Requires-Dist: jsonschema>=3.0
+Requires-Dist: numpy
+Requires-Dist: pandas>=0.25
+Requires-Dist: toolz
+Requires-Dist: typing-extensions>=4.0.1; python_version < '3.11'
+Description-Content-Type: text/markdown
+
+# persist-ext
+
+[![PyPI - Version](https://img.shields.io/pypi/v/persist-ext.svg)](https://pypi.org/project/persist-ext)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/persist-ext.svg)](https://pypi.org/project/persist-ext)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install persist-ext
+```
+
+## License
+
+`persist-ext` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
