@@ -1,0 +1,14 @@
+LICENSE
+pyproject.toml
+igs_core/__init__.py
+igs_core/benchmarking/__init__.py
+igs_core/benchmarking/display_usage.py
+igs_core/benchmarking/worker_class.py
+igs_core/logger/__init__.py
+igs_core/logger/intelligentsales_logger.py
+igs_core/singleton_metaclass/__init__.py
+igs_core/singleton_metaclass/singleton.py
+intelligent_sales_core.egg-info/PKG-INFO
+intelligent_sales_core.egg-info/SOURCES.txt
+intelligent_sales_core.egg-info/dependency_links.txt
+intelligent_sales_core.egg-info/top_level.txt
