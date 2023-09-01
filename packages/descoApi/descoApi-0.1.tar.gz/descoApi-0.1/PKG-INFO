@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: descoApi
+Version: 0.1
+Summary: Let's you use the DESCO api.
+Home-page: https://github.com/Doctorthe113/Desco-api
+Download-URL: https://github.com/Doctorthe113/Desco-api/archive/refs/tags/v_01.tar.gz
+Author: DoctorThe113
+Author-email: code.doc113@gmail.com
+License: GNU V3
+Keywords: SOME,MEANINGFULL,KEYWORDS
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
