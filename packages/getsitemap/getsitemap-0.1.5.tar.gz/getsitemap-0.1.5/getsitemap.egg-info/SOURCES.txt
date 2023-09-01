@@ -1,0 +1,12 @@
+LICENSE.md
+README.rst
+pyproject.toml
+setup.py
+getsitemap/__init__.py
+getsitemap/retrieve_sitemap.py
+getsitemap.egg-info/PKG-INFO
+getsitemap.egg-info/SOURCES.txt
+getsitemap.egg-info/dependency_links.txt
+getsitemap.egg-info/requires.txt
+getsitemap.egg-info/top_level.txt
+tests/test_retrieve_sitemap.py
