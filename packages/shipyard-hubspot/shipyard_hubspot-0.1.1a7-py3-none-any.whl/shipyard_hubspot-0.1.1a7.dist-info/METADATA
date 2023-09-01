@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: shipyard-hubspot
+Version: 0.1.1a7
+Summary: A local client for connecting and working with Hubspot APIs
+Author: JR
+Author-email: johnathan.rodriguez@shipyardapp.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: hubspot-api-client (>=8.1.0,<9.0.0)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: shipyard-templates (>=0.3.0,<0.4.0)
+Description-Content-Type: text/markdown
+
+# Shipyard Hubspot Client
+## Overview
+This is a client library for the Shipyard Hubspot API. 
+
+## Generating Access Token
+* In your HubSpot account, click the settings icon in the main navigation bar.
+* In the left sidebar menu, navigate to Integrations > Private Apps.
+* Click Create private app.
+  * On the Basic Info tab, configure the details of your app:
+  * Enter your app's name.
+  * Hover over the placeholder logo and click the upload icon to upload a square image that will serve as the logo for your app.
+  * Enter a description for your app.
+* Click the Scopes tab.
+  * Select the Read or Write checkbox for each scope you want your private app to be able to access. You can also search for a specific scope using the Find a scope search bar.
+* After you're done configuring your app, click Create app in the top right.
+
+## Finding List ID
+Navigate to Contacts > Lists, hover over the list in the table, then click Details. In the right panel, click Copy List ID next to the ILS List ID value. Contact lists have two different ID values, but you must use the ILS List ID value in your request.
