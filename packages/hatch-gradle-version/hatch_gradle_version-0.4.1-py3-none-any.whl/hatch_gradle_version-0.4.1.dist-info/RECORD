@@ -1,0 +1,13 @@
+hatch_gradle_version/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hatch_gradle_version/common/cd.py,sha256=qXpUGVGnI4TQwfELRqWBqDwuL34VMeljp6tF_Z25fHM,396
+hatch_gradle_version/common/gradle.py,sha256=mosdhHmRIFDDG4UXUmhbDTWbVU9VapHjUR7dyJVI7F4,2279
+hatch_gradle_version/plugins/__init__.py,sha256=_bhT8WBtptknvnnX7KeLCh6OKF1DlObW2vSt0OSAuGw,455
+hatch_gradle_version/plugins/build_hook.py,sha256=eXdbX5M9c4u1Gcjx-rR55GZBCOOteZo_LTsFfeTziFE,2830
+hatch_gradle_version/plugins/test_build_hook.py,sha256=8ZM64FEYjH_eVNrVpMp-FI924j7ltonh51diDjICDR8,1967
+hatch_gradle_version/plugins/version_scheme.py,sha256=7uMHViYISb86uR70aivGaJDS1uweOcaMALPEeAotbm8,1007
+hatch_gradle_version/plugins/version_source.py,sha256=co01yOfaebd8Zqa7tjz8-Z_fohPYLNqytDIhFuHtFKY,3304
+hatch_gradle_version-0.4.1.dist-info/METADATA,sha256=LoFp6ys7vUdQaEcAgmzU2ey_5DlEdgnPIj-tqwgwZZo,844
+hatch_gradle_version-0.4.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+hatch_gradle_version-0.4.1.dist-info/entry_points.txt,sha256=rnV4ktRSk4TFeYoI82oFnwDNFAtWVek3SoPJgIS8izs,54
+hatch_gradle_version-0.4.1.dist-info/licenses/LICENSE,sha256=64Vel_TBsMYfawKmeBRaghEX81gnTQEYhBPRhtDgygM,1091
+hatch_gradle_version-0.4.1.dist-info/RECORD,,
