@@ -1,0 +1,10 @@
+fringes_gui/__init__.py,sha256=lPfUqWrWJ4ditD91Tnq5Y6saInDL3ce8hGN_tFKIpEw,422
+fringes_gui/gui.py,sha256=uPPCDBSVE3_d1dLEFIK2nUGqw5ky3iskaYo255u-DJ4,15657
+fringes_gui/logic.py,sha256=ZyjOt0CEkV51l3bPhPD_NaF5ez2TipfkibbJ9uI8LeU,20959
+fringes_gui/main.py,sha256=rzrbTS4dPoyJEQLLKm2WAbM6CzekuKV92VGOVZWMoXY,129
+fringes_gui/params.py,sha256=d0EHkpyqRKXv_iQuMDVq5FuEX1w4hNRial3vSVWidWI,27367
+fringes_gui/setters.py,sha256=hzo83h4cQMwN9CKVGtmvEO20QZmdymkn86Uf-WZgj8U,29238
+fringes_gui/spirals.png,sha256=dkj4R8vFF28N89mhovAkRJ6DcPWFrblxKm0-DBpzMSE,250284
+fringes_gui-0.1.4.dist-info/METADATA,sha256=7OvNyOT0sbRGxiTH6yWhZsMnXl7r3FUbD8AkdLwhKV4,5103
+fringes_gui-0.1.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+fringes_gui-0.1.4.dist-info/RECORD,,
