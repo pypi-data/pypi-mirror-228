@@ -1,0 +1,20 @@
+{
+    "entity": {
+        "sensor": {
+            "activity": {
+                "name": "Veikla",
+                "state": {
+                    "good": "Gerai",
+                    "low": "\u017demas",
+                    "ok": "GERAI"
+                }
+            },
+            "sleep": {
+                "state": {
+                    "low": "\u017demas",
+                    "ok": "GERAI"
+                }
+            }
+        }
+    }
+}

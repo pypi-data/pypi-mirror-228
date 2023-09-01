@@ -1,0 +1,32 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "air_quality_control": {
+                "name": "Oro kokyb\u0117s kontrol\u0117"
+            },
+            "co2_control": {
+                "name": "CO2 kontrol\u0117"
+            },
+            "humidity_control": {
+                "name": "Dr\u0117gm\u0117s kontrol\u0117"
+            }
+        },
+        "sensor": {
+            "breeze_level": {
+                "state": {
+                    "off": "I\u0161jungta"
+                }
+            },
+            "manual_level": {
+                "state": {
+                    "off": "I\u0161jungta"
+                }
+            },
+            "ventilation_level": {
+                "state": {
+                    "off": "I\u0161jungta"
+                }
+            }
+        }
+    }
+}
