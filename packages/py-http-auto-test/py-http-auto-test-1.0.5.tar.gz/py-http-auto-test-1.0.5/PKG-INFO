@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: py-http-auto-test
+Version: 1.0.5
+Summary: Python HTTP automated testing facility
+Home-page: https://github.com/cosimo/py-http-test
+Author: Cosimo Streppone
+Author-email: cosimo@streppone.it
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Utilities
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+
+# Python HTTP automated testing facility
+
+Someday this file will contain some nice documentation.
+Someday. Not today.
