@@ -1,0 +1,7 @@
+setuptools
+plone.app.tiles
+
+[test]
+plone.app.mosaic
+plone.app.testing
+plone.testing
