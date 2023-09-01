@@ -1,0 +1,2 @@
+[datasette]
+proxy_image_tags = datasette_proxy_image_tags
