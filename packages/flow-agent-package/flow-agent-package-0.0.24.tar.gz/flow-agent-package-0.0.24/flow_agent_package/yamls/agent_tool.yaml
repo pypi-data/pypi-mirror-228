@@ -1,0 +1,37 @@
+flow_agent_package.tools.agent_tool.agent:
+  function: agent
+  inputs:
+    query:
+      type:
+      - string
+    llm_connection:
+      type:
+      - AzureOpenAIConnection
+    deployment_name:
+      type:
+      - string
+    arbitration_method:
+      type:
+      - string
+      enum:
+        - Langchain Zero Shot Agent
+        - OpenAI Functions
+        - Semantic Kernel Custom Orchestrator
+        - Semantic Kernel Action Planner
+    skill_one:
+      type:
+      - object
+    skill_two:
+      type:
+      - object
+    skill_three:
+      type:
+      - object
+    chat_history:
+      type:
+      - list
+  module: flow_agent_package.tools.agent_tool
+  name: flow_agent_package.tools.agent_tool.agent
+  description: A tool for calling executing other skills
+  type: python
+
