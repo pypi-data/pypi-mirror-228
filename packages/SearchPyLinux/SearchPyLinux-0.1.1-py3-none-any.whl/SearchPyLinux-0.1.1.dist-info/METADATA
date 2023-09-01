@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: SearchPyLinux
+Version: 0.1.1
+Summary: A simplyfy search on python
+Home-page: https://github.com/giorgioGTelian/SearchPyLinux
+Author: Alberto Emiliani Giorgio Tassinari
+Author-email: giorgio.programmer@gmail.com
+Requires-Dist: numpy
+Requires-Dist: requests
+
+qtag-SearchPyLinux is a search tool designed specifically for humans.
