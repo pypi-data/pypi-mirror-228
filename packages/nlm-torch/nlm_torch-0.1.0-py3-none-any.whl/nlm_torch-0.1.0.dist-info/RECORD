@@ -1,0 +1,8 @@
+torch_nlm/__init__.py,sha256=n91WEDYO_ABWrehC_mvwx6WPzQL5diD_WupFuCaXajU,63
+torch_nlm/apply_2d_ops.py,sha256=RS2NpeQ78NdlWrLqZNzsFDrGypossH-cypFHTQMqVms,6366
+torch_nlm/apply_3d_ops.py,sha256=XhGBQ9xe9-bjLLVD6T--Xg1r89vPcUjhvRNOgFcmJEA,6803
+torch_nlm/base_ops.py,sha256=H8wem50hEmRnEl4KpN_u9k8bB3Hi97-_RG8dMIhO6Go,13108
+nlm_torch-0.1.0.dist-info/LICENSE,sha256=9dPlC-aS6ntW1Bn_BvJU3S0CulyMX0bYk6FDPLZYxtU,1075
+nlm_torch-0.1.0.dist-info/METADATA,sha256=78HrbSIJuf3gQuFq9MPYBxc42CCslHo00TdzDXP_xek,6381
+nlm_torch-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+nlm_torch-0.1.0.dist-info/RECORD,,
