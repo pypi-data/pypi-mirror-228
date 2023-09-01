@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ims.zip
+Version: 5.0.2
+Summary: z3c form widgets
+Author-email: Eric Wohnlich <wohnlice@imsweb.com>
+License: GPL
+Project-URL: homepage, https://github.com/imsweb/ims.zip
+Classifier: Framework :: Plone :: 6.0
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Provides-Extra: test
