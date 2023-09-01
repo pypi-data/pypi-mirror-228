@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "django-token-user-visit"
+version = "0.1.1"
+description = "A friendly fork of django-user-visit that supports sessions and tokens "
+license = "MIT"
+authors = ["Dylan Medina <dylan@dylanmedina.com>", "YunoJuno <code@yunojuno.com>"]
+maintainers = ["Dylan Medina <dylan@dylanmedina.com>"]
+readme = "README.md"
+homepage = "https://github.com/dlondonmedina/django-token-user-visit"
+repository = "https://github.com/dlondonmedina/django-token-user-visit"
+documentation = "https://github.com/dlondonmedina/django-token-user-visit"
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Django :: 3.2",
+    "Framework :: Django :: 4.1",
+    "Framework :: Django :: 4.2",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+packages = [{ include = "token_user_visit" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^3.2 || ^4.0"
+user-agents = "^2.1"
+
+[tool.poetry.dev-dependencies]
+bandit = "1.7.5"
+black = {version = "*", allow-prereleases = true}
+coverage = "*"
+flake8 = "*"
+flake8-blind-except = "*"
+flake8-docstrings = "*"
+flake8-logging-format = "*"
+flake8-print = "*"
+freezegun = "*"
+isort = "*"
+mypy = "*"
+pre-commit = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-django = "*"
+tox = "^4.11"
+
+[build-system]
+requires = ["poetry>=1.5"]
+build-backend = "poetry.masonry.api"
+
+[tool.black]
+target-version = ['py38']
+extend-exclude = '''
+(
+    /(
+        migrations
+    )/
+)
+'''
