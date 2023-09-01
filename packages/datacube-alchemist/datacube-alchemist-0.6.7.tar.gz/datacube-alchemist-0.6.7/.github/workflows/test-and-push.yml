@@ -1,0 +1,132 @@
+name: Test and Push
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'datacube_alchemist/**'
+      - 'tests/**'
+      - '.github/workflows/push-and-test.yml'
+      - 'Dockerfile'
+      - 'requirements.txt'
+      - 'constraints.txt'
+      - 'setup.py'
+
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'datacube_alchemist/**'
+      - 'tests/**'
+      - '.github/workflows/push-and-test.yml'
+      - 'Dockerfile'
+      - 'requirements.txt'
+      - 'constraints.txt'
+      - 'setup.py'
+
+  release:
+    types: [created, edited]
+
+env:
+  IMAGE_NAME: opendatacube/datacube-alchemist
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - uses: rickstaa/action-black@v1
+      with:
+        black_args: "--check datacube_alchemist"
+
+    - name: Build the docker container
+      run: |
+        docker-compose build
+
+    - name: Bring up the docker container
+      run: |
+        docker-compose up -d
+        sleep 5
+        docker-compose exec -T alchemist datacube system init
+
+    - name: Run tests
+      run: |
+        docker-compose exec -T alchemist pytest --cov=./datacube_alchemist --cov-report=xml tests/
+
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        fail_ci_if_error: false
+
+    - name: Integration tests
+      run: |
+        docker-compose exec -T alchemist bash ./tests/integration_tests.sh
+
+  push:
+    if: github.ref == 'refs/heads/main' || github.event_name == 'release'
+    needs: test
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    # Build and Push for main branch
+    # Docker
+    - name: Get git commit hash for push to main
+      if: github.event_name != 'release'
+      run: |
+        git fetch --all --tags
+        echo "GITHASH=$(git describe --tags)" >> $GITHUB_ENV
+
+    - name: Build and Push unstable Docker Image for push to main
+      uses: whoan/docker-build-with-cache-action@v5.11.1
+      if: github.event_name != 'release'
+      with:
+        image_name: ${{ env.IMAGE_NAME }}
+        username: ${{ secrets.DOCKER_USER }}
+        password: ${{ secrets.DOCKER_PASS }}
+        image_tag: latest,${{ env.GITHASH }}
+
+    # Build and Push for release
+    # Python
+    - name: Build the package
+      if: github.event_name == 'release'
+      run: |
+        pip install build
+        python -m build
+
+    - name: Deploy packages to DEA Packages
+      if: github.event_name == 'release'
+      uses: jakejarvis/s3-sync-action@master
+      with:
+        args: --acl public-read --follow-symlinks
+      env:
+        AWS_S3_BUCKET: "datacube-core-deployment"
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_REGION: "ap-southeast-2"  # optional: defaults to us-east-1
+        SOURCE_DIR: "dist"  # optional: defaults to entire repository
+        DEST_DIR: "datacube-alchemist"
+
+    # Docker
+    - name: Get tag for this build if it exists
+      if: github.event_name == 'release'
+      run: |
+        echo "RELEASE=${GITHUB_REF/refs\/tags\/}" >> $GITHUB_ENV
+
+    - name: Build and Push semver tagged Docker Image for Release
+      uses: whoan/docker-build-with-cache-action@v5.11.1
+      if: github.event_name == 'release'
+      with:
+        image_name: ${{ env.IMAGE_NAME }}
+        username: ${{ secrets.DOCKER_USER }}
+        password: ${{ secrets.DOCKER_PASS }}
+        image_tag: ${{ env.RELEASE }}

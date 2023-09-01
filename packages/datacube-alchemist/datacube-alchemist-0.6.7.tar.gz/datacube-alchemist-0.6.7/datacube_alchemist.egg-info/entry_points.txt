@@ -1,0 +1,2 @@
+[console_scripts]
+datacube-alchemist = datacube_alchemist.cli:cli_with_envvar_handling

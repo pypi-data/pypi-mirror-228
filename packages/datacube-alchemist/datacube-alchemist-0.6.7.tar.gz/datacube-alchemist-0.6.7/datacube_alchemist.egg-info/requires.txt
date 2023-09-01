@@ -1,0 +1,23 @@
+datacube
+eodatasets3>=0.22.0
+attrs>=18.1
+structlog
+dask
+distributed
+fsspec
+jsonschema
+requests
+odc-algo
+odc-apps-dc-tools
+boto3
+awscli
+xarray
+
+[:python_version < "3.7"]
+cattrs==1.0.0
+
+[dev]
+black
+pytest
+pytest-cov
+moto
