@@ -1,0 +1,13 @@
+*.pyc
+ndlib_main
+playground.ipynb
+venv
+.ipynb_checkpoints
+grave
+todo.txt
+cache
+.idea
+*.gz
+*.whl
+*.gz
+*.gz
