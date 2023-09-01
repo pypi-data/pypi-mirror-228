@@ -1,0 +1,2 @@
+[sqlite_utils]
+move_tables = sqlite_utils_move_tables

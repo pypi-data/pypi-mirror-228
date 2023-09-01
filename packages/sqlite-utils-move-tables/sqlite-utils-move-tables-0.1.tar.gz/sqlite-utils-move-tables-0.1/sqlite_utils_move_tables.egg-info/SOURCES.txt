@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+sqlite_utils_move_tables.py
+sqlite_utils_move_tables.egg-info/PKG-INFO
+sqlite_utils_move_tables.egg-info/SOURCES.txt
+sqlite_utils_move_tables.egg-info/dependency_links.txt
+sqlite_utils_move_tables.egg-info/entry_points.txt
+sqlite_utils_move_tables.egg-info/requires.txt
+sqlite_utils_move_tables.egg-info/top_level.txt
+tests/test_move_tables.py
