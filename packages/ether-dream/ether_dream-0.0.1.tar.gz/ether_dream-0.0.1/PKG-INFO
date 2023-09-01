@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ether_dream
+Version: 0.0.1
+Summary: A Python interface for the Ether Dream laser DAC
+Author-email: Genki Kondo <kondo.genki@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Ether Dream for Python

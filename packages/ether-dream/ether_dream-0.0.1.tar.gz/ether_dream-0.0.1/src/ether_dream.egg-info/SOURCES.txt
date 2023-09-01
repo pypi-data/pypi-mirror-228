@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/ether_dream/__init__.py
+src/ether_dream/ether_dream.py
+src/ether_dream.egg-info/PKG-INFO
+src/ether_dream.egg-info/SOURCES.txt
+src/ether_dream.egg-info/dependency_links.txt
+src/ether_dream.egg-info/top_level.txt
