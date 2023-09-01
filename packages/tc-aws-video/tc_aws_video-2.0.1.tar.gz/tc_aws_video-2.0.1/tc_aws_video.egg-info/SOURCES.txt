@@ -1,0 +1,16 @@
+LICENSE
+setup.py
+tc_aws_video/__init__.py
+tc_aws_video.egg-info/PKG-INFO
+tc_aws_video.egg-info/SOURCES.txt
+tc_aws_video.egg-info/dependency_links.txt
+tc_aws_video.egg-info/requires.txt
+tc_aws_video.egg-info/top_level.txt
+tc_aws_video/aws/__init__.py
+tc_aws_video/aws/bucket.py
+tc_aws_video/loaders/__init__.py
+tc_aws_video/loaders/s3_video_loader.py
+tests/__init__.py
+tests/test_s3_video_loader.py
+tests/fixtures/__init__.py
+tests/fixtures/storage_fixture.py

@@ -1,0 +1,5 @@
+thumbor>=7.0.0
+botocore
+subprocess32
+tc_aws>=7.0.1
+pycurl
