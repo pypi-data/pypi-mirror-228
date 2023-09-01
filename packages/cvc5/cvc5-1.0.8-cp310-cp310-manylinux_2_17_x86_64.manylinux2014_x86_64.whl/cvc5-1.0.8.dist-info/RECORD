@@ -1,0 +1,14 @@
+cvc5.libs/libpoly-f3e2995f.so.0.1.13,sha256=b8YZ__0ayxUmSs6t0VJW-lCbXl_BXyJ3T1U9-Q2PGS0,499753
+cvc5.libs/libcvc5-f70b947a.so.1,sha256=jU4LUaW7c2rdiPLGgkkEEBZKqUrlnN3VWmM97UCjyFY,27086689
+cvc5.libs/libpolyxx-5119d93a.so.0.1.13,sha256=e8L-owNA5QBz7Y2CUnxr1r5pU3fcN0iwhdCUfxk1tKE,431801
+cvc5.libs/libgmp-bbe2aa8c.so.10.4.1,sha256=6wqsB0yo9iJMQ8r5SrXBTHpaHivNGV9nkkKODeRXWZY,552681
+cvc5/__init__.py,sha256=KI276vMsNaixq4eBFeDdyyUUk4vIIxdPZVcuIq_NQnM,80
+cvc5/cvc5_python_base.cpython-310-x86_64-linux-gnu.so,sha256=A3e6W7rkl9HRBAxUqSTaCHcqLjg-ZI3cqDdu66Wf8iU,1597081
+cvc5/pythonic/__init__.py,sha256=xYBu7h3ijdCgB-GB30Cdp01E5cwlOFjgjjMREQ9cJSU,29
+cvc5/pythonic/cvc5_pythonic.py,sha256=O3lTp1uhzTZ4ERMHHNhm0KlK-5oxswH3SUwZMINzFeU,241543
+cvc5/pythonic/LICENSE.txt,sha256=ahKvcE_YsjQHGnmN-8xBthetRHrWum1N1-gJNH_mOBE,1253
+cvc5/pythonic/cvc5_pythonic_printer.py,sha256=7o-8yHJKppH1JBkyX6zJjQ9P1WpA4QDkTTe5hCaONSc,41063
+cvc5-1.0.8.dist-info/RECORD,,
+cvc5-1.0.8.dist-info/WHEEL,sha256=cD39NF6a3hkhaWoPQJng7gnGZRIfQsUCtwcedITCPtg,152
+cvc5-1.0.8.dist-info/METADATA,sha256=pjtwt8O2nHEmCRGq03zaM6yRYU0lePnVFhf3OCqyzNE,136
+cvc5-1.0.8.dist-info/top_level.txt,sha256=N536uT-ZzWFv5DKP7Uw-wpdKqMoBEzg-GxURQaETKjA,5
