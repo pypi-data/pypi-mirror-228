@@ -1,0 +1,6 @@
+cobalt>=8.0.0
+lxml>=3.4.1
+
+[test]
+nose
+flake8
