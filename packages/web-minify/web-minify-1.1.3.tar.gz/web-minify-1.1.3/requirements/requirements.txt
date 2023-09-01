@@ -1,0 +1,85 @@
+annotated-types==0.5.0
+    # via pydantic
+beautifulsoup4==4.12.2
+    # via
+    #   -r requirements.in
+    #   html5print
+certifi==2021.10.8
+    # via requests
+chardet==4.0.0
+    # via html5print
+charset-normalizer==2.0.7
+    # via requests
+colored-traceback==0.3.0
+    # via -r requirements.in
+colorlog==6.7.0
+    # via -r requirements.in
+dill==0.3.7
+    # via
+    #   multiprocess
+    #   pathos
+editorconfig==0.12.3
+    # via jsbeautifier
+esprima==4.0.1
+    # via -r requirements.in
+html5lib==1.1
+    # via html5print
+html5print==0.1.2
+    # via -r requirements.in
+idna==3.3
+    # via requests
+jinja2==3.1.2
+    # via -r requirements.in
+jsbeautifier==1.14.9
+    # via -r requirements.in
+libsass==0.22.0
+    # via -r requirements.in
+markupsafe==2.1.3
+    # via jinja2
+multiprocess==0.70.15
+    # via pathos
+pathos==0.3.1
+    # via -r requirements.in
+ply==3.4
+    # via
+    #   html5print
+    #   slimit
+pox==0.3.3
+    # via pathos
+ppft==1.7.6.7
+    # via pathos
+pydantic==2.3.0
+    # via -r requirements.in
+pydantic-core==2.6.3
+    # via pydantic
+pyfiglet==0.8.post1
+    # via -r requirements.in
+pygments==2.7.4
+    # via colored-traceback
+python-magic==0.4.27
+    # via -r requirements.in
+requests==2.26.0
+    # via html5print
+six==1.16.0
+    # via
+    #   -r requirements.in
+    #   html5lib
+    #   jsbeautifier
+slimit==0.8.1
+    # via html5print
+soupsieve==2.2.1
+    # via beautifulsoup4
+sqlparse==0.4.4
+    # via -r requirements.in
+tinycss2==1.1.0
+    # via html5print
+typing-extensions==4.7.1
+    # via
+    #   pydantic
+    #   pydantic-core
+urllib3==1.26.7
+    # via requests
+webencodings==0.5.1
+    # via
+    #   html5lib
+    #   tinycss2

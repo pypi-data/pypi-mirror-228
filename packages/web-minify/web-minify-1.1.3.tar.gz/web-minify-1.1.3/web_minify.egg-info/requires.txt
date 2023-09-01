@@ -1,0 +1,14 @@
+beautifulsoup4>=4.12.2
+colored_traceback>=0.3.0
+colorlog>=6.7.0
+esprima>=4.0.1
+html5print>=0.1.2
+jinja2>=3.1.2
+jsbeautifier>=1.14.9
+libsass>=0.22.0
+pathos>=0.3.1
+pydantic>=2.3.0
+pyfiglet>=0.8.post1
+python-magic>=0.4.27
+six>=1.16.0
+sqlparse>=0.4.4
