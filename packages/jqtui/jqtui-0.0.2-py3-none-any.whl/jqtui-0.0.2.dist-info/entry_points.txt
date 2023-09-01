@@ -1,0 +1,3 @@
+[console_scripts]
+jqtui=jqtui.jqtui:main
+
