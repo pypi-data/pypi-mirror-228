@@ -1,0 +1,27 @@
+[project]
+name = "merdb"
+version = "0.0.2"
+description = "Datastore supporting merql"
+authors = [
+    { name = "Rajiv Abraham", email = "rajiv.abraham@gmail.com" },
+]
+dependencies = [
+    "modin[ray]>=0.23.0",
+    "sspipe>=0.1.17",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.0",
+]

@@ -1,0 +1,4 @@
+{
+  "test_interactive.py": true,
+  "test_interactive.py::test_common_parent_error": true
+}

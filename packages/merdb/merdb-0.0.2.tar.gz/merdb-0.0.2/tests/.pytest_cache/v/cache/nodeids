@@ -1,0 +1,6 @@
+[
+  "test_interactive.py::test_common_parent_error",
+  "test_pipe.py::test_composable_pipelines",
+  "test_pipe.py::test_limit",
+  "test_pipe.py::test_pipe"
+]
