@@ -1,0 +1,10 @@
+activemq_api_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+activemq_api_client/client.py,sha256=vy9ChXfHhxqUeB-IrvVxQmljLGT5mZdICip5eltT3xc,5613
+activemq_api_client/connector.py,sha256=iUl5A-KryQH1YLUn_ANWk2VCyJLCWsqtb7NTeF9rWQk,1171
+unit_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unit_tests/test_activemq_client.py,sha256=fGTvArqmhTrX9qPEhgijFWMYGpOJ0EIPehp2TokA-kI,4053
+activemq_api_client-0.0.4.dist-info/LICENSE,sha256=fjYILU2fgqk-gkr0wUp-JeuLVeHa1jofB0RBf0y_1b4,1071
+activemq_api_client-0.0.4.dist-info/METADATA,sha256=h5fdjEJjtCdQ22anCk9IZKwObm4i8jQGc3-pivSDsK8,5357
+activemq_api_client-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+activemq_api_client-0.0.4.dist-info/top_level.txt,sha256=sEjZKzawnHYl7mKCTx0Zl8qKR8iTslelxIgFCiwFJmk,31
+activemq_api_client-0.0.4.dist-info/RECORD,,
