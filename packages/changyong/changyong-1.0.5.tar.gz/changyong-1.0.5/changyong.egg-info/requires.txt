@@ -1,0 +1,13 @@
+redis
+requests
+asyncio
+urllib3
+pymongo
+w3lib
+aiohttp
+cryptography==38.0.4
+setuptools==57.5.0
+pymysql
+html
+jieba==0.42.1
+csv
