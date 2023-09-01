@@ -1,0 +1,12 @@
+htagweb/__init__.py,sha256=cHkuGusjG5TmLjYKLat6Mwryt6tIlu00m96UUSKLah0,619
+htagweb/__main__.py,sha256=Utb2eBZrAnmeJowd7vM4fmdVdv0PEhdnJs8ggZ5hGPY,670
+htagweb/appserver.py,sha256=XXSotyE6CLk9n4jvzWtOx6daaauIAizEyq40OblWZPo,7603
+htagweb/crypto.py,sha256=yldGmS1UnlG3xaHwdP43XxXDvjk8vfehvR-HIduc8vg,2521
+htagweb/htagserver.py,sha256=yddp6Hg8sGs6Urjyvxi08WhcrBaYwaTyzzfXm5ElqhQ,11719
+htagweb/manager.py,sha256=DpBcqpnzCBhau46lYvqQSXWgjgqW5gFCnyZpIewMISw,3797
+htagweb/uidprocess.py,sha256=qmL7J1nv_VyfPolqdC_SYoIqEXBNvZIsXCpNHO54sLY,5577
+htagweb/webbase.py,sha256=rJ8kaxpauzyt_9aZCNhOGUvbRSXFlvHo3vdrQYG0n9E,9945
+htagweb-0.7.0.dist-info/LICENSE,sha256=3UHJs7Jn8o60WsDhLxgSKwwgK5MfQ05L9nEKTOA7uGQ,1065
+htagweb-0.7.0.dist-info/METADATA,sha256=12ZWxbjR8DcbGVKd5E_UqNp1NuzejzZCRLoWYt_k0Tk,5987
+htagweb-0.7.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+htagweb-0.7.0.dist-info/RECORD,,
