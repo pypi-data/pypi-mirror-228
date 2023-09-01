@@ -1,0 +1,38 @@
+default_windowNames_list = [
+    "IDA: Quick start", "VBoxTrayToolWndClass", "VBoxTrayToolWnd", "proxifier",
+    "graywolf", "extremedumper", "zed", "exeinfope",
+    "titanHide", "ilspy", "titanhide", "x32dbg",
+    "codecracker", "simpleassembly", "process hacker 2", "pc-ret",
+    "http debugger", "Centos", "process monitor", "debug",
+    "ILSpy", "reverse", "simpleassemblyexplorer", "process",
+    "de4dotmodded", "dojandqwklndoqwd-x86", "sharpod", "folderchangesview",
+    "fiddler", "die", "pizza", "crack",
+    "strongod", "ida -", "brute", "dump",
+    "StringDecryptor", "wireshark", "debugger", "httpdebugger",
+    "gdb", "kdb", "x64_dbg", "windbg",
+    "x64netdumper", "petools", "scyllahide", "megadumper",
+    "reversal", "ksdumper v1.1 - by equifox", "dbgclr", "HxD",
+    "monitor", "peek", "ollydbg", "ksdumper",
+    "http", "wpe pro", "dbg", "httpanalyzer",
+    "httpdebug", "PhantOm", "kgdb", "james",
+    "x32_dbg", "proxy", "phantom", "mdbg",
+    "WPE PRO", "system explorer", "de4dot", "x64dbg",
+    "X64NetDumper", "protection_id", "charles", "systemexplorer",
+    "pepper", "hxd", "procmon64", "MegaDumper",
+    "ghidra", "xd", "0harmony", "dojandqwklndoqwd",
+    "hacker", "process hacker", "SAE", "mdb",
+    "checker", "harmony", "Protection_ID", "PETools",
+    "scyllaHide", "x96dbg", "systemexplorerservice", "folder",
+    "mitmproxy", "dbx", "sniffer", "http toolkit"
+]
+
+default_processNames_list = [
+    "httpdebuggerui.exe", "HTTPDebuggerSvc.exe", "fiddler.exe",
+    "vboxservice.exe", "df5serv.exe", "processhacker.exe", "vboxtray.exe",
+    "vmtoolsd.exe", "vmwaretray.exe", "ida.exe", "ida64.exe",
+    "ollydbg.exe", "pestudio.exe", "vmwareuser", "vgauthservice.exe",
+    "vmacthlp.exe", "x96dbg.exe", "vmsrvc.exe", "x32dbg.exe",
+    "vmusrvc.exe", "prl_cc.exe", "prl_tools.exe", "xenservice.exe",
+    "qemu-ga.exe", "joeboxcontrol.exe", "ksdumperclient.exe", "ksdumper.exe",
+    "joeboxserver.exe", "x64dbg.exe",
+]
