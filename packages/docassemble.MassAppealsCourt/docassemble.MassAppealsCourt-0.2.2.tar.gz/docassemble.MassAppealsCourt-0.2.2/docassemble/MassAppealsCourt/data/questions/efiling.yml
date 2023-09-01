@@ -1,0 +1,68 @@
+id: ready to efile
+question: |
+  Final review before e-filing
+subquestion: |
+  % if ready_to_efile:
+  Below is your ${comma_and_list(al_court_bundle.get_titles())} document 
+  that we will deliver to ${appeals_court}.
+
+  We will deliver it securely. Please allow up to 15 minutes for the filing to
+  arrive. We will email with a confirmation that it was delivered, and some additional
+  information that you should keep.
+  
+  Click "Undo" if you need to make any changes.
+  Click "Send to court" to deliver it.
+  
+  Here is what the clerk at ${appeals_court} will get:
+  % else:
+
+  We ran into some technical problems and there was a problem delivering this to the ${appeals_court}.
+  You can download the form below to print and submit.
+
+  % endif
+
+  ${ al_court_bundle.as_pdf() }
+
+  % if ready_to_efile:
+  % if defined("comments_to_clerk") and comments_to_clerk:
+  We will also include these comments to the clerk:
+
+  > ${ comments_to_clerk }
+  % endif
+
+  Click "Send to court" below to deliver the forms.
+  % endif
+continue button field: efile_user_reviewed
+continue button label: Send to court
+---
+id: user-wants-efile
+question: |
+  Do you want to e-file this document directly with the court?
+subquestion: |
+  You are able to electronically-file (e-file) this document with the Appeals Court!
+  This means you don't have to print out the document. The court
+  will communicate with you through your email or phone.
+
+  You will have to use your eFileMA account to e-file this document. 
+  If you don't wish to use your account or don't wish to make an account,
+  you can choose not to efile.
+
+  If you don't have a eFileMA account, you can make one in the next screens.
+fields:
+  - Do you want to e-file?: user_wants_efile
+    datatype: yesnoradio
+---
+id: you-will-not-be-able-to-efile
+question: |
+  You will *not* be able to e-file this document
+subquestion: |
+  Something expected happened when setting up e-filing, and unfortunately,
+  you won't be able to e-file this document with the Appeals Court.
+
+  However, you are still be able to continue and download a completed form.
+continue button field: show_no_efile
+---
+depends on:
+  - appeals_court
+code: |  
+  court_id = convert_court_to_id(appeals_court)
