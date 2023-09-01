@@ -1,0 +1,3 @@
+[console_scripts]
+dashboard=parameterized_mortgage.dashboard:demo
+
