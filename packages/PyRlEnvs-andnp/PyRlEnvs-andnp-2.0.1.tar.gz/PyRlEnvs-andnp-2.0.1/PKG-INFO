@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: PyRlEnvs-andnp
+Version: 2.0.1
+Summary: A handful of fast environments for running RL experiments
+License: MIT
+Author-email: Andy Patterson <andnpatterson@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
