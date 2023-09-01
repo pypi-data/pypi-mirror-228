@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: testpyjacket
+Version: 0.1.1
+Summary: Lorem ipsum
+Home-page: https://github.com/Kasper-Arfman/testpyjacket
+Download-URL: http://pypi.python.org/pypi/testpyjacket
+Author: Kasper Arfman
+Author-email: Kasper.arf@gmail.com
+Project-URL: Source, https://github.com/Kasper-Arfman/testpyjacket
+Project-URL: Tracker, https://github.com/Kasper-Arfman/testpyjacket/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# kaspy
+ my personal library
