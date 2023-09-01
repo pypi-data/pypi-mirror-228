@@ -1,0 +1,18 @@
+[project]
+name = "scratch-websocket-api"
+version = "0.1.0"
+authors = [
+  { name="yossy4411", email="yossy4411.dev@gmail.com" },
+]
+description = "A API for scratch with websocket"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yossy4411/ScratchWebsocketAPI"
+"Bug Tracker" = "https://github.com/yossy4411/ScratchWebsocketAPI/issues"

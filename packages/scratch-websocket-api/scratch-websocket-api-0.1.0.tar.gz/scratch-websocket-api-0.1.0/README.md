@@ -1,0 +1,50 @@
+
+# Scratch Websocket API #  
+## Overview
+このライブラリは、Websocketを通じてScratch（またはTurbowarp）に接続し、そのクラウド変数を変更するために作成されました。  
+## Installation 
+Python3が必須となります。Python2は使えないと思います。  
+```bash  
+pip install scratch-websocket-api
+```  
+## Usage  
+### Connect  
+Websocketを使用してサーバーに接続します  
+```python  
+import scratch_api.scratch_ws_api as scratch3  
+conn = scratch3.login("USERNAME", "PASSWORD").connect(ProjectID, max_connections, isScratch)  
+```  
+USERNAME: (string) あなたのユーザー名  
+  
+PASSWORD: (string) あなたのパスワード  
+  
+ProjectID: (int) あなたのプロジェクトのID (https://scratch.mit.edu/projects/{projectid})この部分がプロジェクトIDです  
+  
+max_connections: (int) 最大同時送信数、この数の分、同時に変数を**変更**できます  
+  
+isScratch: (boolean or string) TrueならScratch、FalseならTurbowarp、URLを入力すると特定のサーバーに接続できます。  
+### Get Cloud Variable 
+```python
+conn.get(var_NAME)  
+```
+var_NAME: **list** 取得するクラウド変数の名前（例: `["Sample1", "Sample2"]`）
+戻り値: **list** 取得できなかった場合、Noneが返ります。 （例: `[200, None]`
+#### 補足　クラウド変数の取得のみの場合には、最大接続数は0でもOKです
+### Set Cloud Valiable
+```python
+conn.set(var_NAME, var_VALUE)
+```
+var_NAME: **list** 変更するクラウド変数の名前（例: `["Sample1", "Sample2"]`）
+var_VALUE: **list** 変更する数値 (intまたはstr)（例: `["20", 1304]`）
+## Sample
+```python
+import random  
+import scratch_api.scratch_ws_api as scratch3 
+
+conn = scratch3.login("yosshi---_Cloudvar", ".Cloudsession").connect(846708650, 2, True)
+conn.send(["1", "2"], [random.randint(1, 10), random.randint(1, 10)])  
+print(conn.get(["1","2"]))
+```
+ランダムに変数を変更するだけの単純なプログラムです
+
+https://scratch.mit.edu/projects/846708650  こちらがそのプロジェクトです
