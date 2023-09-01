@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: simplistic
+Version: 0.1.1a0
+Summary: A base class for wrapping CLI commands.
+Author-email: "Jesse C. Sealand" <jesse.sealand@outlook.com>
+License: MIT License
+        
+        Copyright (c) [2023] [Jesse C. Sealand]
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/jesse-sealand/simplistic
+Project-URL: Bug Tracker, https://github.com/jesse-sealand/simplistic/issues
+Keywords: python3,python,cli,cli wrapper
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# simplistic
+![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/jesse-sealand/simplistic)
+
+| | |
+| --- | --- |
+| Package | [![PyPI Latest Release](https://img.shields.io/pypi/v/simplistic.svg)](https://pypi.org/project/simplistic/) [![PyPI - Downloads](https://img.shields.io/pypi/dm/simplistic)](https://pypi.org/project/simplistic/) |
+| Meta | [![PyPI - License](https://img.shields.io/pypi/l/simplistic)](https://github.com/pandas-dev/pandas/blob/main/LICENSE)|
+
+A base class for creating command line interface (cli) wrappers.
+
+## What is it?
+
+**simplistic** is a Python package that provides fast and flexible access to generating command line statements using natural language and method chaining.. It aims to be the fundamental building block creating any command line wrapper.
+
+## Table of Contents
+
+- [Main Features](#main-features)
+- [Where to get it](#where-to-get-it)
+- [Dependencies](#dependencies)
+- [License](#license)
+- [Documentation](#documentation)
+
+## Main Features
+Here are just a few of the things that pandas does well:
+
+  - Allows to mapping natural language to tersely define command line arguements
+  - Provides method chaining to assemble complete statements
+  - Automatic execution of commands
+    
+## Where to get it
+The source code is currently hosted on GitHub at:
+https://github.com/jesse-sealand/simplistic
+
+The latest released version are available at the [Python
+Package Index (PyPI)](https://pypi.org/project/simplistic) only at this time.
+
+```sh
+# PyPI
+pip install simplistic
+```
+
+## Dependencies
+- Not dependant on packages outside of python core library.
+
+## License
+[MIT](LICENSE)
+
+## Documentation
+The official documentation is hosted on [Read the Docs](http://simplistic.readthedocs.io/).
+
