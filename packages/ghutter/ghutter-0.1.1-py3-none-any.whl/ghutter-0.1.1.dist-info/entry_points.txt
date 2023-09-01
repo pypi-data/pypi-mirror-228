@@ -1,0 +1,3 @@
+[console_scripts]
+ghutter=ghutter.__main__:main
+
