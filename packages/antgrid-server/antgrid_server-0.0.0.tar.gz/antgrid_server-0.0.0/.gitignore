@@ -1,0 +1,47 @@
+# Python build
+.eggs/
+dist/
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+__tmp/*
+
+# Secrets
+.env
+*.db
+*.sqlite3
+flagged/
+tmp.zip
+
+# Tests
+.coverage
+coverage.xml
+test.txt
+**/snapshots/**/*.png
+
+# Etc
+.idea/*
+.vscode/*
+.DS_Store
+*.bak
+workspace.code-workspace
+*.h5
+
+# log files
+.pnpm-debug.log
+
+# Local virtualenv for devs
+.venv*
+.conda
+
+# js
+node_modules
+public/build/
+test-results
+
+# test doc
+test*
+mounttest.py
+server_register/models
