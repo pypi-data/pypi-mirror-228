@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: TorchFix
+Version: 0.0.2
+Requires-Dist: flake8 >=3.8.2
+Requires-Dist: PyYAML
+Requires-Dist: libcst <1.1.0,>=1.0.1
+
