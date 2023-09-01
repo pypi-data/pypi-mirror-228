@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "bakerstreet"
+version = "1.0.0"
+description = "The place where most characters meet. RPC defnition for our services"
+authors = ["Appknox <engineering@appknox.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/appknox/bakerstreet"
+repository = "https://github.com/appknox/bakerstreet"
+keywords = ["appknox", "rpc", "bakerstreet"]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+grpcio = "^1.57.0"
+protobuf = "^4.24.2"
+
+[tool.poetry.group.dev.dependencies]
+grpcio-tools = "^1.57.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
