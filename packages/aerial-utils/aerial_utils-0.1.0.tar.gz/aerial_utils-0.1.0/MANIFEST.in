@@ -1,0 +1,4 @@
+include aerial_utils/aerial_utils.LICENSE
+include aerial_utils/aerial_utils.CITATION
+include aerial_utils/aerial_utils.VERSION
+recursive-include aerial_utils *

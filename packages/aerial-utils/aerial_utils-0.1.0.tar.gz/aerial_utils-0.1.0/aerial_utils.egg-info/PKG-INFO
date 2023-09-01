@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aerial-utils
+Version: 0.1.0
+Summary: Nextflow powered utility scripts for AERIAL project
+Home-page: 
+Author: Abhinav Sharma
+Author-email: abhi18av@outlook.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# AERIAL utils
+
+Nextflow powered utility scripts for AERIAL project

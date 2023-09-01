@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "homePage": "",
+  "repos": {
+    "https://github.com/nf-core/modules.git": {
+      "modules": {
+        "nf-core": {
+          "bedtools/intersect": {
+            "branch": "master",
+            "git_sha": "c1532c77717ad7c64752b26b0fd9b4556bdef272",
+            "installed_by": ["modules"]
+          },
+          "fastqc": {
+            "branch": "master",
+            "git_sha": "bd8092b67b5103bdd52e300f75889442275c3117",
+            "installed_by": ["modules"]
+          }
+        }
+      }
+    }
+  }
+}

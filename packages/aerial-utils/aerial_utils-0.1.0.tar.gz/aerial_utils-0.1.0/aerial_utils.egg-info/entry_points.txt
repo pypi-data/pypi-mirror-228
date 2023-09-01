@@ -1,0 +1,2 @@
+[console_scripts]
+aerial_utils = aerial_utils.__main__:main
