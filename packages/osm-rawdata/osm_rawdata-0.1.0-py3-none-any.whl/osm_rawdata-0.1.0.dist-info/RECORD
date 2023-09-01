@@ -1,0 +1,10 @@
+osm_rawdata/__version__.py,sha256=p4MxVO8ih2-hnh7INVBkrqMKBDGTkMso1LEbM6mx3jg,23
+osm_rawdata/config.py,sha256=yuCmo7Rpi6Y2TXPDvtrA2gGMx-GpDV3ebQh6zzAAlCM,12522
+osm_rawdata/db/postgres.py,sha256=b3sYz30YjujzSGkNIXiJGsjjLpIBI6McPSf6jyi5aSE,20124
+osm_rawdata/geofabrik.py,sha256=fcw2CK2MP22g5vEtCMWvXJZlSx1bvSgQVrv6KfWtJl4,3542
+osm_rawdata/geofabrik.yaml,sha256=H3_S-ywEwbcSOnHGfehlDDSut7DbEI-cX6-gMydIq8s,2903
+osm_rawdata-0.1.0.dist-info/entry_points.txt,sha256=OXYcH6vNRETEWV6bvqa20xiBYgKwyb41bIoiapWryf8,56
+osm_rawdata-0.1.0.dist-info/WHEEL,sha256=B19PGBCYhWaz2p_UjAoRVh767nYQfk14Sn4TpIZ-nfU,87
+osm_rawdata-0.1.0.dist-info/METADATA,sha256=LF8QaENqpJRFgA75MToNxTLVazHEP-zF6QB_BZEzv7s,3760
+osm_rawdata-0.1.0.dist-info/licenses/LICENSE.md,sha256=xEnSAHDBIKWAS6XMGfR2aTEyqlXOjwtNEZmiH2sRxHw,34625
+osm_rawdata-0.1.0.dist-info/RECORD,,
