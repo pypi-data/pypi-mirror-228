@@ -1,0 +1,17 @@
+hqm/__init__.py,sha256=c3xgcr81SOoH0gVLWD56Okv3qFNT2vuMJQE-zlK8qCQ,160
+hqm/circuits/__init__.py,sha256=1oLmUGRPBpWeNOaDeJxZNw9XRnN6nMqpQCBtiZTw_Dk,99
+hqm/circuits/angle_encoding.py,sha256=EcA4PI_9hlJCifl78hTO2ytVMqTHDU8Dlmw8KWm0UIE,9286
+hqm/circuits/custom_circuits.py,sha256=mng2ahsfDyrPRb8lfetBr8YZer7MPp144AfIciCcy2Y,28
+hqm/classification/HybridMLP.py,sha256=KAoalh-v4u1FhbTNALJ-yOxjUEjWTYlNjB2WgIZXu0Y,545
+hqm/classification/__init__.py,sha256=skuxzPu77GKTupmMbZbxTDaWY3FHk-vuweFDLBKXBtk,69
+hqm/layers/__init__.py,sha256=6aDWyD8yyGMyFFmjQaGz_zY3LEb0UQKMZt_gmjq7GXM,64
+hqm/layers/ai_interface.py,sha256=OHYYjfkcEETdALqYLxoMHbmwkSxiS8v7L2U94sDbhjo,385
+hqm/regression/HybridMLP.py,sha256=eiEl-DgLb_pCk0p3YZ8gkjk2i7-xMNcyP2eIPqADZbg,543
+hqm/regression/__init__.py,sha256=1rvhcaxB6kfmBHawGSl2vl2vb2uB0yeau-BkXSKcjCs,65
+hqm/utils/__init__.py,sha256=mAoEY0E5yej-0VMu1-QLWrAlxYEtHSSodWWUMJtM8iY,58
+hqm/utils/printer.py,sha256=TG4IHQ2awbg8zRfalr9qDOovwlKqz5onp9RY_Jd7AA4,281
+hqm-0.0.1.dist-info/LICENSE,sha256=u8ZMamdEWmUi39duyC0momwkUgQ8eBGglNHzcKmzhpI,1072
+hqm-0.0.1.dist-info/METADATA,sha256=tpPX7xXd_Vn1qcSlBG3vDyqPWAb1rOogaAkJfIRTrvQ,2011
+hqm-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hqm-0.0.1.dist-info/top_level.txt,sha256=EqYBw2rfUJMpsH8Q0P-ETvGrpFcXurcq4eEeMx1Ku3A,4
+hqm-0.0.1.dist-info/RECORD,,
