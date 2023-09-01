@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gearpy
+Version: 0.0.1
+Summary: A python package for mechanical transmission analysis
+Home-page: UNKNOWN
+Author: Andrea Blengino
+Author-email: ing.andrea.blengino@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+A python package for mechanical transmission analysis
+
+
