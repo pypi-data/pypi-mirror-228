@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pageo/__init__.py
+pageo/errors.py
+pageo.egg-info/PKG-INFO
+pageo.egg-info/SOURCES.txt
+pageo.egg-info/dependency_links.txt
+pageo.egg-info/requires.txt
+pageo.egg-info/top_level.txt
