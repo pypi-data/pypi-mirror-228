@@ -1,0 +1,4 @@
+bson
+pydantic
+pymongo[srv]
+google-api-python-client
