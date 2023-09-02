@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: cstag-cli
+Version: 0.1.1
+Summary: Command line interface of cstag to manipulate the minimap2's CS tag
+Author-email: Akihiro Kuno <akuno@md.tsukuba.ac.jp>
+License: MIT License
+        
+        Copyright (c) 2023 Akihiro Kuno
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://github.com/akikuno/cstag-cli
+Project-URL: repository, https://github.com/akikuno/cstag-cli
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pysam
+Requires-Dist: cstag
+
+[![Licence](https://img.shields.io/badge/License-MIT-9cf.svg?style=flat-square)](https://choosealicense.com/licenses/mit/)
+[![Test](https://img.shields.io/github/actions/workflow/status/akikuno/cstag-cli/pytest.yml?branch=main&label=Test&color=brightgreen&style=flat-square)](https://github.com/akikuno/cstag/actions)
+[![Python](https://img.shields.io/pypi/pyversions/cstag-cli.svg?label=Python&color=blue&style=flat-square)](https://pypi.org/project/cstag-cli/)
+[![PyPI](https://img.shields.io/pypi/v/cstag-cli.svg?label=PyPI&color=orange&style=flat-square)](https://pypi.org/project/cstag-cli/)
+[![Bioconda](https://img.shields.io/conda/v/bioconda/cstag-cli?label=Bioconda&color=orange&style=flat-square)](https://anaconda.org/bioconda/cstag-cli)
+[![DOI](https://zenodo.org/badge/683243028.svg)](https://zenodo.org/badge/latestdoi/683243028)
+
+
+# cstag-cli
+
+`cstag-cli` is a command-line tool of [`cstag`](https://github.com/akikuno/cstag) for manipulating [minimap2's CS tags](https://github.com/lh3/minimap2#the-cs-optional-tag).
+
+## 🌟Features
+
+- `cstag append`: Appends CS tags to a SAM/BAM file
+
+## 🛠 Installation
+
+Using [PyPI](https://pypi.org/project/cstag-cli/):
+
+```bash
+pip install cstag-cli
+```
+
+Using [Bioconda](https://anaconda.org/bioconda/cstag-cli):
+
+```bash
+conda install -c bioconda cstag-cli
+```
+
+## 💡Usage
+
+### Append CS tags to a SAM/BAM file
+
+```bash
+cstag append [-f/--file] [-l/--long]
+```
+
+- **-f/--file**: Specifies the path to a SAM/BAM file. If no file is provided, it reads from standard input. An MD tag is required in the SAM/BAM file.
+- **-l/--long**: Outputs CS tags in the long format
+
+#### Examples
+
+- To append CS tags in the short format:
+```bash
+cstag append -f tests/append/data/example.bam > example_cs_short.sam
+```
+
+- To append CS tags in the long format:
+```bash
+cstag append -f tests/append/data/example.bam -l > example_cs_long.sam
+```
+- Reading data from standard input:
+```bash
+cat tests/append/data/example.bam | cstag append > example_cs_short.sam
+```
+
+## 📣Feedback
+
+For questions, bug reports, or any other inquiries, feel free to reach out!
+Please use [GitHub Issues](https://github.com/akikuno/cstag-cli/issues) for reporting.
