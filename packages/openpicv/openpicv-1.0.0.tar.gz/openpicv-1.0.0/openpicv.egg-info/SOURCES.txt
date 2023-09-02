@@ -1,0 +1,7 @@
+setup.py
+openpicv/__init__.py
+openpicv/add_num.py
+openpicv.egg-info/PKG-INFO
+openpicv.egg-info/SOURCES.txt
+openpicv.egg-info/dependency_links.txt
+openpicv.egg-info/top_level.txt
