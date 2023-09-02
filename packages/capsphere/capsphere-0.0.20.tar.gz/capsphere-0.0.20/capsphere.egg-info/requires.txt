@@ -1,0 +1,8 @@
+boto3
+dataclass-wizard
+pandas
+pdfplumber
+python-dotenv
+twine
+wheel
+xlsxwriter
