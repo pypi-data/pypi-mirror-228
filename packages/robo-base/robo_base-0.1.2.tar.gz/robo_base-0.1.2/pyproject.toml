@@ -1,0 +1,31 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "robo-base"
+authors = [{name = "Mike Knerr"}]
+#authors = [{name = "author", email = "author@email"}]
+dynamic = ["version"] #, "description"]
+description = "base modules, objects, classes" #2nd line in pypi project page
+readme = "README.md"
+license = {text = "MIT"}
+#license = LICENSE.md" =
+license-files = ['LICENSE*']
+requires-python = ">=3.6"
+keywords = ["python", "robotics", "mobile robotics", "system"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+homepage = "https://github.com/mkner/robo-base/"
+
+
+
+
+
+
+
