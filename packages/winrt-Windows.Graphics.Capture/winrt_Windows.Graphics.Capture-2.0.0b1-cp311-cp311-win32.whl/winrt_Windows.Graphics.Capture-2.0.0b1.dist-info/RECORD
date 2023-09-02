@@ -1,0 +1,7 @@
+winrt/_winrt_windows_graphics_capture.cp311-win32.pyd,sha256=2QzXwQqUHGELiKNiT6spglebaQUvzu3TItvT0M0Ibr0,121856
+winrt/_winrt_windows_graphics_capture.pyi,sha256=pj2ocYXStmqLwjfnoDLYtwzB5GMYmzr7jJjnUhu9noY,5609
+winrt/windows/graphics/capture/__init__.py,sha256=JR-otaZkciyXYgDFLPicPlr32FwvO1a-DA3tESeclHw,965
+winrt_Windows.Graphics.Capture-2.0.0b1.dist-info/METADATA,sha256=O2Lh60-27_9vkjFNfiRtSJjv_HzCRT9RuBADkIbjYyY,1595
+winrt_Windows.Graphics.Capture-2.0.0b1.dist-info/WHEEL,sha256=MpyGHBYwzd-Jap9JHrbjRY_PQK67I2tRW5oQLucxFp4,98
+winrt_Windows.Graphics.Capture-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Graphics.Capture-2.0.0b1.dist-info/RECORD,,
