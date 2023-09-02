@@ -1,0 +1,2 @@
+[package_tools]
+content_safety_text_tool = content_safety_text.tools.utils:list_package_tools
