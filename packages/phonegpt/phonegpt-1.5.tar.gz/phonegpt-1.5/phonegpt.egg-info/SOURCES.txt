@@ -1,0 +1,8 @@
+setup.py
+phonegpt/__init__.py
+phonegpt/phonegpt.py
+phonegpt.egg-info/PKG-INFO
+phonegpt.egg-info/SOURCES.txt
+phonegpt.egg-info/dependency_links.txt
+phonegpt.egg-info/requires.txt
+phonegpt.egg-info/top_level.txt
