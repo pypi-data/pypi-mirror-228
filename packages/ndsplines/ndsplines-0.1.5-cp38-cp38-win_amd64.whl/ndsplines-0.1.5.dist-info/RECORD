@@ -1,0 +1,13 @@
+ndsplines/__init__.py,sha256=W6XpP-e043EnA8TTxRDx_F_vgzu4qxiuW3kkSLe7_1g,1235
+ndsplines/_bspl.c,sha256=rIhgOekmqU7tc1AnUeaHd-zeJBMsKwClOmutr-85Pzc,1119529
+ndsplines/_bspl.cp38-win_amd64.pyd,sha256=qlCF3oqt7nZn4MQuwR4mjyZJ0Bm9Yz6LHbjyZObaiWI,152576
+ndsplines/_bspl.h,sha256=NHQkomcOOCZVsU-k4y0ang5xMbHV2DIdaNpZ3hZYwoA,1921
+ndsplines/_bspl.pyx,sha256=C7jzevublxdnhIuPod0B9DZEbeTe6deVDCeQmuANbQQ,4780
+ndsplines/_npy_bspl.py,sha256=bUUUsqqDKQjEm5xFQipBq58HKXrmGFRxI0Cz74e-Jz0,5220
+ndsplines/ndsplines.py,sha256=uTR-awVdi9CG_f2TzyQnHDMuX_Ko-a3--LCX0izlgWM,31662
+ndsplines/version.py,sha256=8xlWPD3cz-PVHn88DjnM45xF50xgQKO4l9CJzrogqRk,164
+ndsplines-0.1.5.dist-info/LICENSE,sha256=2scIt8lxHXcNN_SFFmVc58OyAjdpl-cv1puM__ncpm0,3402
+ndsplines-0.1.5.dist-info/METADATA,sha256=oGOyGOF6SfsyRCqihBeP6mJqZgAesKbjkxDYviq_PiA,12904
+ndsplines-0.1.5.dist-info/WHEEL,sha256=KplWMgwSZbeAOumvxNxIrVbNPnn_LVzfBH7l38jDCVM,100
+ndsplines-0.1.5.dist-info/top_level.txt,sha256=hAAzrTtKFEqz7k-TQic_dqzoqNB-bmWi-oc_xkKdQUA,10
+ndsplines-0.1.5.dist-info/RECORD,,
