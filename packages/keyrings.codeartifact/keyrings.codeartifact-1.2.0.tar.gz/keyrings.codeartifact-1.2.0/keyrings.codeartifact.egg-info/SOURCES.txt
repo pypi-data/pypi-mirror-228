@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+.github/workflows/release.yml
+keyrings/__init__.py
+keyrings/codeartifact.py
+keyrings.codeartifact.egg-info/PKG-INFO
+keyrings.codeartifact.egg-info/SOURCES.txt
+keyrings.codeartifact.egg-info/dependency_links.txt
+keyrings.codeartifact.egg-info/entry_points.txt
+keyrings.codeartifact.egg-info/requires.txt
+keyrings.codeartifact.egg-info/top_level.txt
+tests/test_backend.py
