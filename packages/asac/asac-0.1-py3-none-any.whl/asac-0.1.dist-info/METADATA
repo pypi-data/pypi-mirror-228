@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: asac
+Version: 0.1
+Requires-Dist: os
+Requires-Dist: time
+Requires-Dist: curses
+Requires-Dist: moviepy
+Requires-Dist: Pillow
+
