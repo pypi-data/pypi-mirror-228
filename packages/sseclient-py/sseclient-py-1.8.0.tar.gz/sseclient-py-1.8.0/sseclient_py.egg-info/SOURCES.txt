@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+sseclient/__init__.py
+sseclient/__init__.pyi
+sseclient/py.typed
+sseclient/version.py
+sseclient_py.egg-info/PKG-INFO
+sseclient_py.egg-info/SOURCES.txt
+sseclient_py.egg-info/dependency_links.txt
+sseclient_py.egg-info/top_level.txt
+sseclient_py.egg-info/zip-safe
