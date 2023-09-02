@@ -1,0 +1,11 @@
+a7p/__init__.py,sha256=xPyeVJ17Pq2c0runWj0SFw0eqVjC3TG9KvUrlCmbODo,587
+a7p/a7p.py,sha256=ftz54LNfX2O85cwbRth1HRdFQ7yzQrgNFoNCUbL-En4,1981
+a7p/factory.py,sha256=KQ0fx2j178wZJ6lRLDl1ezvll1cMKpRl9V4EjpVmRKY,7646
+a7p/profedit.proto,sha256=5B0u1i0h6WHkBLua4sQ89oAAJFbR97_VsYTrR1yEVC8,1315
+a7p/profedit_pb2.py,sha256=LLnLUMb9vBrT8cRB1sCPZEMECU_o0i08fZemjBogQ5U,3676
+a7p/tests.py,sha256=YesVUnurF-P7_mUBfRzsCUE9IlwgnuR_x7o_YNN2IPI,2547
+a7p-0.0.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+a7p-0.0.3.dist-info/METADATA,sha256=WqOoRky6_kLSUuORnBS5GgN864tB1P6i93AUHnCOmoY,2235
+a7p-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+a7p-0.0.3.dist-info/top_level.txt,sha256=J1xntjLFp5J4kPtvRPljXy3wQNXYWp4eXodw9fo_Vlw,4
+a7p-0.0.3.dist-info/RECORD,,
