@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: weighbridge-agent
+Version: 0.1.0
+Summary: An agent for weighbridges to export serial ports communicating with TCP protocol.
+Home-page: https://github.com/he-yaowen/weighbridge-agent
+License: BSD-3-Clause
+Keywords: weighbridge,serial-communication,tcp-server
+Author: HE Yaowen
+Author-email: he.yaowen@hotmail.com
+Requires-Python: >=3.8,<3.12
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Terminals :: Serial
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: pyserial (>=3.5,<4.0)
+Project-URL: Repository, https://github.com/he-yaowen/weighbridge-agent.git
+Description-Content-Type: text/markdown
+
+# weighbridge-agent
+
+An agent for weighbridges to export serial ports communicating with TCP protocol.
+
+## License
+
+Copyright (C) 2023 HE Yaowen <he.yaowen@hotmail.com>
+
+The BSD 3-Clause License, see [LICENSE](./LICENSE).
+
