@@ -1,0 +1,7 @@
+winrt/_winrt_windows_networking.cp312-win_amd64.pyd,sha256=bqgEVYpoomNyDhQWy0u5g6_q2kEQUAjH5sLMnlsKioA,59904
+winrt/_winrt_windows_networking.pyi,sha256=7YSxM2cEl1BZS-oqWccQUg2iicEJ38YpJwFhdUx1uxg,2226
+winrt/windows/networking/__init__.py,sha256=hKConVYWOUSLkyRz2OYEEPruPAj-J1k784GvEw_2A8c,656
+winrt_Windows.Networking-2.0.0b1.dist-info/METADATA,sha256=PKLnbIYukdUl-pLEAC5MxmzW7ogFQKfstv9JBugDgGs,993
+winrt_Windows.Networking-2.0.0b1.dist-info/WHEEL,sha256=e0epPQlGepThu0I0BNaKYpx2fF2LzLIOVLrIH8OyEko,102
+winrt_Windows.Networking-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Networking-2.0.0b1.dist-info/RECORD,,
