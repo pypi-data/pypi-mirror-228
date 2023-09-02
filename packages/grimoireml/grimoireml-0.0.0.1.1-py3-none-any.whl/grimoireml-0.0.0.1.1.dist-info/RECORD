@@ -1,0 +1,17 @@
+grimoireml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grimoireml/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grimoireml/cluster/__init__.py,sha256=bxFYHbK0SHqq9uuHBKmsvonN3RzN5GUiEcGoOLxw794,18
+grimoireml/cluster/dbscan.py,sha256=h2vq4JRQtmN703XnW8UkdkFBFsmhInC4tcqtj_NgiGY,2559
+grimoireml/cluster/kmeans.py,sha256=D8hJpBXHdEvd0UZ8X8HUnLuS4P3mx4WxC-EzCRfLeE0,2563
+grimoireml/functions/__init__.py,sha256=bxFYHbK0SHqq9uuHBKmsvonN3RzN5GUiEcGoOLxw794,18
+grimoireml/functions/activation_functions.py,sha256=TbGeSEzk_RUT_1DyrCMt_Y9nFylVscrRM1GyRuABW6Q,1475
+grimoireml/functions/distance_functions.py,sha256=QCmN4feV9qUcoQpuMlMuzJRM5VaCcMFndOjLKx4iJ78,1162
+grimoireml/functions/loss_functions.py,sha256=2LWFtLQ_ZjZQ1JqkAN02xYNzdx0yAKmrtO7EwCWi4vg,499
+grimoireml/nn/__init__.py,sha256=bxFYHbK0SHqq9uuHBKmsvonN3RzN5GUiEcGoOLxw794,18
+grimoireml/nn/layers.py,sha256=p1OeFiF9kiOlK1gkDwdZXGv3dkOA7e6TgJajOPJavw8,1464
+grimoireml/nn/sequential.py,sha256=9mkOxOM12p4aCQlVpq-2Ul1sWyNE2wYVsFsC9WBt8gk,3353
+grimoireml-0.0.0.1.1.dist-info/LICENSE.txt,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+grimoireml-0.0.0.1.1.dist-info/METADATA,sha256=2YIKWR6QgL7Wpvah8r7D25D8P3H7-glcgXaCyQoWhPU,2476
+grimoireml-0.0.0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+grimoireml-0.0.0.1.1.dist-info/top_level.txt,sha256=p6sI8OXRJIkztigrn9JzdewCAxRVQOG3kWsYRIQPBes,11
+grimoireml-0.0.0.1.1.dist-info/RECORD,,
