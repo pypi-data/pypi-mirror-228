@@ -1,0 +1,13 @@
+build/__init__.py,sha256=mTcxuZpizsZ83nbsaqbB3VEukoaZfrgj3sYTNZyphyg,14451
+build/__main__.py,sha256=-oFPUiWVpxy_ZHXKGKEDZWdRPu0NZD60TuTELGNJ1Vc,12777
+build/_exceptions.py,sha256=HICYNTARGYuHpMVOslvHO5tMb_U5w6h0pjjOyzkoDyY,2012
+build/_importlib.py,sha256=5x8GGplNR2rkYRPILCq6tPszslGvyVDDdwMBZuV_Hdo,359
+build/_util.py,sha256=_ZoRMR6AImw54oRZjuDx4ZhkXLkuult6XFj0dnQu9iY,2743
+build/env.py,sha256=fXg4Ml7DMIr676gv-btHe5BkKkcSaICJD4HWW9SyUWE,11243
+build/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+build/util.py,sha256=elz1Yxe3mKIdy6Yfav7_9JSIovWG09n7VfQEyfdfFFM,1719
+build-1.0.0.dist-info/entry_points.txt,sha256=MYbbM6JGYubgIjTgcLpNIZpc0PWbi9mRAW7VhtczlS8,105
+build-1.0.0.dist-info/LICENSE,sha256=qvminKWQeXHM8H3gJTdds0U5qNXu684gtGCZgFciEG8,1113
+build-1.0.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+build-1.0.0.dist-info/METADATA,sha256=To-CLmcULn5rWFWIWoHinWDFeusMDhQM5TZNDIYHMDU,4173
+build-1.0.0.dist-info/RECORD,,
