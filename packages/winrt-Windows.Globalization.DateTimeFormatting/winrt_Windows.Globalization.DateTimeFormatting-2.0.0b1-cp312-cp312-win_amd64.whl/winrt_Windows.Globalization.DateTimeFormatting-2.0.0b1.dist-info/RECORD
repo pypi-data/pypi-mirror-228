@@ -1,0 +1,7 @@
+winrt/_winrt_windows_globalization_datetimeformatting.cp312-win_amd64.pyd,sha256=TTv1kCnh-EX0RcjOzVxyMEB_sEKr6GXErz0Rvo1T35E,116224
+winrt/_winrt_windows_globalization_datetimeformatting.pyi,sha256=XHMiB9Fno5bz7ZCmDbc2XtFkZdjwi-RbpqTwG_DFKrQ,3960
+winrt/windows/globalization/datetimeformatting/__init__.py,sha256=wlrDjijOFpuYzqREZRoL12_Aqh-GC1AIgZql3zkIx4U,1007
+winrt_Windows.Globalization.DateTimeFormatting-2.0.0b1.dist-info/METADATA,sha256=frRhg6fH0UaNZ9bNEZw5R_klNDJu9pIvmCH8sqkHEuM,1158
+winrt_Windows.Globalization.DateTimeFormatting-2.0.0b1.dist-info/WHEEL,sha256=e0epPQlGepThu0I0BNaKYpx2fF2LzLIOVLrIH8OyEko,102
+winrt_Windows.Globalization.DateTimeFormatting-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Globalization.DateTimeFormatting-2.0.0b1.dist-info/RECORD,,
