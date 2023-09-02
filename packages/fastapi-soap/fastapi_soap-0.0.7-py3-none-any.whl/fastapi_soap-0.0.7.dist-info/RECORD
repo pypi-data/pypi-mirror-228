@@ -1,0 +1,10 @@
+fastapi_soap/__init__.py,sha256=DOoQWawlQ29XWkdBtP7A8wnU0b9OusU064oIgJPQP9k,302
+fastapi_soap/exceptions.py,sha256=Q0vxtn-Fmz8YTLgeCJrAC8cWQ-K8eV-XkX1LgRi9U1o,1056
+fastapi_soap/models.py,sha256=1OZHCWTlFqqieSeM1FxZA8nqHVyGVDpk_hjZj9M3HWs,2966
+fastapi_soap/request.py,sha256=1AM5F1HI7GHkbO6QRXeWf-J9JQbERSVwJ4tExr3J0g8,2391
+fastapi_soap/response.py,sha256=GJSlGb59x5GplC3a2zEunmOO1FLlx3S_0vOV4QxbP3w,2134
+fastapi_soap/routes.py,sha256=6BsmPmoO6t-GAMzcw02W0HTj_zPvt5osTyeLBoIjZP4,4147
+fastapi_soap/wsdl.py,sha256=XzH1sVAeMAAwsLvQ0qhQks8ALAuHtEflURo8-w5gLb0,5536
+fastapi_soap-0.0.7.dist-info/METADATA,sha256=4Til_K46EPv7LRZNd9Ipv8FrUxYaf8D0P4StGZz2qF0,3387
+fastapi_soap-0.0.7.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+fastapi_soap-0.0.7.dist-info/RECORD,,
