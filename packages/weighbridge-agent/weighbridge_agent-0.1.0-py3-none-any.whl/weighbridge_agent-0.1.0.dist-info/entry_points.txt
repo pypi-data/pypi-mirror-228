@@ -1,0 +1,3 @@
+[console_scripts]
+wb-agent=weighbridge_agent.__main__:cli
+
