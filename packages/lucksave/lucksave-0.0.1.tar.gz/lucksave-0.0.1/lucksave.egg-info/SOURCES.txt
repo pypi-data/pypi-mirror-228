@@ -1,0 +1,7 @@
+README
+setup.cfg
+setup.py
+lucksave.egg-info/PKG-INFO
+lucksave.egg-info/SOURCES.txt
+lucksave.egg-info/dependency_links.txt
+lucksave.egg-info/top_level.txt
