@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "vpyn"
+version = "0.1.0"
+description = ""
+authors = ["Peter Thompson <peter.thompson92@gmail.com>"]
+readme = "README.rst"
+packages = [
+     { include = "pytalk" },
+     { include = "example" },
+]
+
+[tool.poetry.scripts]
+pytalk = "pytalk.cli:cli"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = ["--import-mode", "importlib"]
+testpaths = [
+    "tests",
+]
