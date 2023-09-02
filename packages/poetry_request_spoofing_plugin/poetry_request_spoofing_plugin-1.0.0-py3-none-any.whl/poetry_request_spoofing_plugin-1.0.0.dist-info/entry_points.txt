@@ -1,0 +1,3 @@
+[poetry.plugin]
+request_spoofer=request_spoofing_plugin.plugin:SpooferPlugin
+

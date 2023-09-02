@@ -1,0 +1,6 @@
+poetry_request_spoofing_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_request_spoofing_plugin/plugin.py,sha256=wu5a5cmL90uWdHPG6PJ9O5d7LS8aGE1b76ia-YKx2TM,1012
+poetry_request_spoofing_plugin-1.0.0.dist-info/entry_points.txt,sha256=DUrPhTvSUBT_l3KDMe4T515TdsNgwNRINBDpCKeSdvs,78
+poetry_request_spoofing_plugin-1.0.0.dist-info/METADATA,sha256=vfsvdHRj3RltupUAC61a8v3_1pn2djimBNXBl-sn3O4,489
+poetry_request_spoofing_plugin-1.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+poetry_request_spoofing_plugin-1.0.0.dist-info/RECORD,,

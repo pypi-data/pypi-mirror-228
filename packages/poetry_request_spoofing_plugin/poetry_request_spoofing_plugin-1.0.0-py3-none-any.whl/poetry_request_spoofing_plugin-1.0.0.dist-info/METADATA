@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: poetry_request_spoofing_plugin
+Version: 1.0.0
+Summary: Plug-in that goes to replace the poetry requests user agent header
+Author: Marius Tricolici
+Author-email: antonio-marius.tricolici@prolion.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: poetry (>=1.2,<2.0)
