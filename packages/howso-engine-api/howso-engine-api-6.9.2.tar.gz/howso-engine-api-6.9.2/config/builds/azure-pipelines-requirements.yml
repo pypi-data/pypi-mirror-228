@@ -1,0 +1,59 @@
+# Pipeline to generate pinned requirements files for supported
+# python versions, and check the changes back into the repo
+# - uses pip-tools.
+
+# Trigger automatically on non release branch changes of requirements*.in files
+trigger:
+  branches:
+    exclude:
+    - master
+    - release/*
+  paths:
+    include:
+    - requirements.in
+    - requirements-dev.in
+
+
+# Bring in the templates containing the build logic
+resources:
+  repositories:
+  - repository: templates
+    name: dp/pipeline-templates
+    type: git
+    ref: refs/heads/master
+# Builds triggered on upstream libraries
+  pipelines:
+  - pipeline: openapi # Name of the pipeline resource
+    project: dp # Name of the project containing the pipeline
+    source: release-howso-openapi-client-py # Trigger build on Openapi updates 
+    trigger:
+      branches:
+        include:
+        - master
+  - pipeline: amalgamapi # Name of the pipeline resource
+    source: release-amalgam-lang-py # Name of the pipeline referenced by the pipeline resource
+    trigger:
+      branches:
+        include:
+        - master
+
+variables:
+- template: ../build-vars.yml
+- template: variables/common-vars.yml@templates
+
+name: "TBD" # Calculated & populated during the version stage
+
+# Use the variables in build-vars.yml to control the stage parameters
+stages:
+
+
+- template: common/python-generate-requirements.yml@templates
+  parameters:
+    package: $(package)
+    pythonVersions:
+      - "3.8"
+      - "3.9"
+      - "3.10"
+      - "3.11"
+    pinHowsoRequirements: ${{ eq(variables['pinHowsoRequirements'], 'True') }}
+

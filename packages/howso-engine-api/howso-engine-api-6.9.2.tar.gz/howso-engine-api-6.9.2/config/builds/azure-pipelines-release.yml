@@ -1,0 +1,46 @@
+# Pipeline to build and publish releases of the repositories python component 
+
+# Runs on master and other release branches
+trigger:
+  - master
+  - release/*
+
+# Bring in the templates containing the build logic
+resources:
+  repositories:
+  - repository: templates
+    name: dp/pipeline-templates
+    type: git
+    ref: refs/heads/master 
+
+variables:
+- template: ../build-vars.yml
+- template: variables/common-vars.yml@templates
+
+name: "TBD" # Calculated & populated during the version stage
+
+# Use the variables in build-vars.yml to control the stage parameters
+stages:
+
+- template: common/python-version.yml@templates
+  parameters:
+    package: $(package)
+    module: $(module)
+    isPullRequest: ${{ eq(variables['isPullRequest'], 'True') }}
+    isRelease: ${{ eq(variables['isRelease'], 'True') }}
+
+- template: deploy/python-publish.yml@templates
+  parameters:
+    package: $(package)
+    module: $(module)
+    isPullRequest: ${{ eq(variables['isPullRequest'], 'True') }}
+    isRelease: ${{ eq(variables['isRelease'], 'True') }}
+    targetPypi: $(targetPypi)
+    publishDevReleases: ${{ eq(variables['publishDevReleases'], 'True') }}  
+    publishLicenses: ${{ eq(variables['publishLicenses'], 'True') }}  
+    commitDevVersionChange: ${{ eq(variables['commitDevVersionChange'], 'True') }} 
+    allowXrayBuildFailures: ${{ eq(variables['allowXrayBuildFailures'], 'True') }}
+    runXrayBuildScan: ${{ eq(variables['runXrayBuildScan'], 'True') }}
+    publishToAzureArtifacts: True 
+    pythonVersionJfrog: $(pythonVersionJfrog)
+

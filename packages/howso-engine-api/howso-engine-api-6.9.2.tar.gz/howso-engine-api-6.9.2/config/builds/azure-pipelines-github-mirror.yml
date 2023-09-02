@@ -1,0 +1,24 @@
+# Mirrors the repository to github 
+
+variables:
+- template: ../build-vars.yml
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: AzureKeyVault@1
+  inputs:
+    azureSubscription: 'DpAzure-AdminResources'
+    KeyVaultName: 'DP-BuildAdminKeys'
+    SecretsFilter: 'Github-PAT-MirrorRepo, AzureDevOps-PAT-MirrorRepo'
+    RunAsPreJob: true
+  displayName: Get credentials from Azure Key Vault
+
+- task: swellaby.mirror-git-repository.mirror-git-repository-vsts-task.mirror-git-repository-vsts-task@1
+  displayName: 'Mirror Git Repository'
+  inputs:
+    sourceGitRepositoryUri: '$(mirrorSourceGitRepositoryUri)'
+    sourceGitRepositoryPersonalAccessToken: '$(AzureDevOps-PAT-MirrorRepo)'
+    destinationGitRepositoryUri: '$(mirrorDestinationGitRepositoryUri)'
+    destinationGitRepositoryPersonalAccessToken: '$(Github-PAT-MirrorRepo)'

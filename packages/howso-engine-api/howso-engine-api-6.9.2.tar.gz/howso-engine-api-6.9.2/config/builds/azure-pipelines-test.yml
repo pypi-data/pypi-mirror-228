@@ -1,0 +1,52 @@
+# Pipeline to run the tests for the component
+# will not publish, or checkback in any artifact
+
+trigger:
+  - master
+  - release/*
+
+# Bring in the templates containing the build logic
+resources:
+  repositories:
+  - repository: templates
+    name: dp/pipeline-templates
+    type: git
+    ref: refs/heads/master
+
+variables:
+- template: ../build-vars.yml
+- template: variables/common-vars.yml@templates
+
+
+# Use the variables in build-vars.yml to control the stage parameters
+stages:
+- template: common/python-version.yml@templates
+  parameters:
+    package: $(package)
+    module: $(module)
+    useCurrentVersion: true
+
+- template: test/python-unittest.yml@templates
+  parameters:
+    isPullRequest: false
+    isRelease: false
+    publishTracefiles: ${{ eq(variables['publishTracefiles'], 'True') }}
+    sourcesRoot: $(sourcesRoot)
+    module: $(module)
+    pythonVersions:
+      - "3.8"
+      - "3.9"
+      - "3.10"
+      - "3.11"
+
+- template: test/python-build-quality.yml@templates
+  parameters:
+   buildQualityCoverageMustImprove: ${{ eq(variables['buildQualityCoverageMustImprove'], 'True') }}
+   buildQualityWarningsMustGoDown: ${{ eq(variables['buildQualityWarningsMustGoDown'], 'True') }}
+   allowBuildQualityToFailBuild: ${{ eq(variables['allowBuildQualityToFailBuild'], 'True') }}
+   buildQualityRunPylint: ${{ eq(variables['buildQualityRunPylint'], 'True') }}
+   buildQualityRunFlake8: ${{ eq(variables['buildQualityRunFlake8'], 'True') }}
+   buildQualityCheckWarnings: ${{ eq(variables['buildQualityCheckWarnings'], 'True') }}
+   buildQualityCheckCoverage: ${{ eq(variables['buildQualityCheckCoverage'], 'True') }}
+   pythonVersionJfrog: $(pythonVersionJfrog)
+

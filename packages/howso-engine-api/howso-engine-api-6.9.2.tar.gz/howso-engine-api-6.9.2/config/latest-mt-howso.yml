@@ -1,0 +1,11 @@
+Howso:
+  client: howso.direct.HowsoDirectClient
+  client_extra_params:
+     amalgam:
+        download: True
+        library_postfix: -mt
+        version: latest
+        trace: True
+     core:
+        download: True
+        version: latest

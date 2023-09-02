@@ -1,0 +1,28 @@
+# Variables to control the shared azure devops pipeline templates
+variables:
+  # Project variables
+  package: 'howso/client' # This needs to be the directory, under which the (primary) package lives
+  sourcesRoot: 'howso' # This needs to be the directory, under which your source code lives
+  module: 'howso-engine-api' # The module name (name param in setup.py)
+  mirrorSourceGitRepositoryUri: 'https://diveplane.visualstudio.com/dp/_git/howso-reactor-py'
+  mirrorDestinationGitRepositoryUri: 'https://github.com/howso/howso-reactor-py.git'
+  # Build logic variables
+  pythonVersionJfrog: 3.9 # The python version to use for tracking module dependencies in jfrog
+  skipChangelogCheck: True # Will check for 'TODO' in changelog - likely added by template, indicating missed update
+  allBuildsAreChanges: True # Skips logic which isolates source code changes, from other changes
+  skipUnitTests: False # If you have a good reason to do so
+  checkLicenses: False # Uses license_finder to check for unapproved licenses - https://diveplane.visualstudio.com/dp/_wiki/wikis/dp.wiki/272/License-Checking
+  publishLicenses: True # (requires checkLicenses to be True, and a build to be published) Include LICENSE-3RD-PARTY.txt in packaged artifacts - for release branches, will commit back to branch
+  publishDevReleases: True # Create build in vpypi-dev for non release branches
+  commitDevVersionChange: False # Commit back to git, non release version changes (i.e. in __init__.py)
+  allowXrayBuildFailures: True # Configure if XRay can fail builds on issue detection
+  runXrayBuildScan: True # Configure if XRay scan is run after publishing the build
+  publishTracefiles: False # Publish the dumps directory - conventionally will be setup to include the .dump file output during tests
+  buildQualityCoverageMustImprove: False # Forces build issues unless coverage has improved (up to threshold)
+  buildQualityWarningsMustGoDown: False # Forces build issues unless warnings have gone down
+  allowBuildQualityToFailBuild: False # Build quality issues will fail build (rather than warn about issues)
+  buildQualityRunPylint: False # Run pylint and collect issues
+  buildQualityRunFlake8: True # Run flake8 and collect issues
+  buildQualityCheckCoverage: True # Check code coverage in builds
+  buildQualityCheckWarnings: True # Check warnings in builds
+  pinHowsoRequirements: True # Pin the howso requirements to latest, before generating reqs

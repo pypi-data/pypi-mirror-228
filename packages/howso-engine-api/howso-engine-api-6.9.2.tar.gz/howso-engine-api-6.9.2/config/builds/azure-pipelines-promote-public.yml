@@ -1,0 +1,70 @@
+trigger:
+- main
+
+parameters:
+- name: version
+  type: string
+  default: ''
+- name: pypiRepo
+  type: string
+  default: 'test-pypi'
+  values:
+    - 'public-pypi'
+    - 'test-pypi'
+
+variables:
+- template: ../build-vars.yml
+- name: pypiRepo
+  value: ${{ parameters.pypiRepo }}
+
+stages:
+- stage: PublishToPyPI
+  displayName: 'Publish Package to PyPI'
+  jobs:
+  - job: Publish
+    displayName: 'Publish'
+    pool:
+      vmImage: 'ubuntu-latest'
+
+    steps:
+    - task: UsePythonVersion@0
+      inputs:
+        versionSpec: '3.x'
+        addToPath: true
+      displayName: 'Setup Python Environment'
+
+    - script: |
+        echo "##vso[build.updatebuildnumber]Promote $(module) version ${{ parameters.version }} to ${{ parameters.pypiRepo}}"
+      displayName: 'Update Build Name'
+
+    - script: |
+        python -m pip install --upgrade pip
+        pip install twine
+      displayName: 'Install dependencies'
+
+    - task: PipAuthenticate@1
+      inputs:
+        pythonDownloadServiceConnections: 'dpbuild-pypi'
+      displayName: 'Authenticate with Artifactory PyPI'
+
+    - task: TwineAuthenticate@1
+      inputs:
+        pythonUploadServiceConnection: 'public-pypi'
+      condition: eq(variables.pypiRepo, 'public-pypi')
+      displayName: 'Authenticate with PyPI (public)'
+
+    - task: TwineAuthenticate@1
+      inputs:
+        pythonUploadServiceConnection: 'test-pypi'
+      condition: eq(variables.pypiRepo, 'test-pypi')
+      displayName: 'Authenticate with PyPI (test)'
+
+    - script: |
+        pip download --no-deps $(module)==${{ parameters.version }} --prefer-binary --dest ./package/
+      displayName: 'Download package from Artifactory'
+
+    - script: |
+        cat $PYPIRC_PATH
+        ls -l ./package/
+        twine upload --config-file $(PYPIRC_PATH) ./package/*.whl
+      displayName: 'Upload to PyPI'

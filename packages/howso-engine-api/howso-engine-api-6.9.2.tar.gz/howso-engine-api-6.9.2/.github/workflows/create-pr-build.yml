@@ -1,0 +1,37 @@
+name: PR Workflow
+
+on: 
+  pull_request:
+    branches:
+      - 'main'
+
+jobs:
+
+  set-version:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.set-version.outputs.version }}
+    steps:
+
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set version
+        id: set-version
+        shell: bash   
+        run: |
+          LATEST_RELEASE_TAG=$(git describe --abbrev=0)
+          DELTA_TAG=$(echo "${LATEST_RELEASE_TAG%.*}.$((${LATEST_RELEASE_TAG##*.}+1))")
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          PR_ITERATION=${{ github.run_attempt }}.${{ github.run_number }}
+          VERSION=$(echo ${DELTA_TAG}-alpha+PR.${PR_NUMBER}.${PR_ITERATION})
+          echo "version=$(echo $VERSION)" >> $GITHUB_OUTPUT
+          echo "Build version: $VERSION"
+  
+  build-test-package:
+    needs: ['set-version']
+    uses: "./.github/workflows/build-test-package.yml"
+    secrets: inherit
+    with:
+      version: ${{ needs.set-version.outputs.version }}

@@ -1,0 +1,78 @@
+# Pipeline to provide a gate for pull requests - unittests, and publishes
+# to pre-release pypi for scanning.
+
+trigger:
+- none
+
+pr:
+  branches:
+    exclude:
+    - 'release/*'
+    - master
+
+# Bring in the templates containing the build logic
+resources:
+  repositories:
+  - repository: templates
+    name: dp/pipeline-templates
+    type: git
+    ref: refs/heads/master
+
+variables:
+- template: ../build-vars.yml
+- template: variables/common-vars.yml@templates
+
+name: "TBD" # Calculated & populated during the version stage
+
+# Use the variables in build-vars.yml to control the stage parameters
+stages:
+- template: common/python-version.yml@templates
+  parameters:
+    package: $(package)
+    module: $(module)
+    isPullRequest: ${{ eq(variables['isPullRequest'], 'True') }}
+    isRelease: ${{ eq(variables['isRelease'], 'True') }}
+
+
+- template: test/python-unittest.yml@templates
+  parameters:
+    isPullRequest: ${{ eq(variables['isPullRequest'], 'True') }}
+    isRelease: ${{ eq(variables['isRelease'], 'True') }}
+    skipUnitTests: ${{ eq(variables['skipUnitTests'], 'True') }}
+    publishTracefiles: ${{ eq(variables['publishTracefiles'], 'True') }}
+    sourcesRoot: $(sourcesRoot)
+    module: $(module)
+    pythonVersions:
+      - "3.8"
+      - "3.11"
+
+- template: test/check-changelog.yml@templates
+  parameters:
+    skipChangelogCheck: ${{ eq(variables['skipChangelogCheck'], 'True') }}
+
+- template: deploy/python-publish.yml@templates
+  parameters:
+    package: $(package)
+    module: $(module)
+    isPullRequest: ${{ eq(variables['isPullRequest'], 'True') }}
+    isRelease: ${{ eq(variables['isRelease'], 'True') }}
+    targetPypi: $(targetPypi)
+    publishDevReleases: ${{ eq(variables['publishDevReleases'], 'True') }}
+    publishLicenses: ${{ eq(variables['publishLicenses'], 'True') }}
+    commitDevVersionChange: ${{ eq(variables['commitDevVersionChange'], 'True') }}
+    allowXrayBuildFailures: ${{ eq(variables['allowXrayBuildFailures'], 'True') }}
+    runXrayBuildScan: ${{ eq(variables['runXrayBuildScan'], 'True') }}
+    publishToAzureArtifacts: True
+    pythonVersionJfrog: $(pythonVersionJfrog)
+
+- template: test/python-build-quality.yml@templates
+  parameters:
+    buildQualityCoverageMustImprove: ${{ eq(variables['buildQualityCoverageMustImprove'], 'True') }}
+    buildQualityWarningsMustGoDown: ${{ eq(variables['buildQualityWarningsMustGoDown'], 'True') }}
+    allowBuildQualityToFailBuild: ${{ eq(variables['allowBuildQualityToFailBuild'], 'True') }}
+    buildQualityRunPylint: ${{ eq(variables['buildQualityRunPylint'], 'True') }}
+    buildQualityRunFlake8: ${{ eq(variables['buildQualityRunFlake8'], 'True') }}
+    buildQualityCheckWarnings: ${{ eq(variables['buildQualityCheckWarnings'], 'True') }}
+    buildQualityCheckCoverage: ${{ eq(variables['buildQualityCheckCoverage'], 'True') }}
+    pythonVersionJfrog: $(pythonVersionJfrog)
+
