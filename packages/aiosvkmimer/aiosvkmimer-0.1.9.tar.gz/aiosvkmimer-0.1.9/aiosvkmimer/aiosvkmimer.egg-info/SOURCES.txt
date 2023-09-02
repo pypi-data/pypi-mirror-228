@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+aiosvkmimer/aiosvkmimer.egg-info/PKG-INFO
+aiosvkmimer/aiosvkmimer.egg-info/SOURCES.txt
+aiosvkmimer/aiosvkmimer.egg-info/dependency_links.txt
+aiosvkmimer/aiosvkmimer.egg-info/top_level.txt
+tests/test_fetch_data.py
