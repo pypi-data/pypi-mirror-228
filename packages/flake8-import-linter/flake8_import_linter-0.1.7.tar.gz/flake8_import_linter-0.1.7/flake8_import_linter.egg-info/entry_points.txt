@@ -1,0 +1,3 @@
+[flake8.extension]
+IMP = flake8_import_linter:Plugin
+
