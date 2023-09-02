@@ -1,0 +1,24 @@
+{
+    "main.py": "Main entry point of your application",
+    "config": {
+        "settings.py": "Global settings for your entire application"
+    },
+    "core": {
+        "application_services": {},
+        "domain": {
+            "interfaces": {},
+            "models": {}
+        }
+    },
+    "adapters": {
+        "db_adapter.py": "Database connection configuration and management",
+        "api_adapter.py": "FastAPI initialization and configuration, where you add routers, middleware, etc."
+    },
+    "modules": {},
+    "database": {
+        "models.py": "Database models that apply globally to your entire application"
+    },
+    "dependencies": {
+        "auth.py": "Functions or classes used as authentication global dependencies"
+    }
+}
