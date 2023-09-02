@@ -1,0 +1,9 @@
+parameterize_jobs/__init__.py,sha256=aeIFjk_TSTY3cFdbc263e9rDW-a7OhVkWyKyMt_Oo2Q,553
+parameterize_jobs/_compat.py,sha256=xUQayccSzPP4UXIR6AdWUNAo2WTtvEFuDySIvMVc_78,259
+parameterize_jobs/_utils.py,sha256=RiQjSsBr6nSRVrcz8P4f9jy3fIPhgdtb5w_i_NCGgcc,172
+parameterize_jobs/_version.py,sha256=dQUHa1PGpJsNE2x_SQFxtOX-jousEqplwH1bdsk6mnE,160
+parameterize_jobs/parameterize_jobs.py,sha256=Mm69quZ7w_nLF7bqaXnR4GdNkOGR3PtfPoq1SCErAJM,6413
+parameterize_jobs-0.2.0.dist-info/METADATA,sha256=U4VJxqd0_RMVmUwqZdSkRif_aSQR4q6W1rvf4yV7DrI,7089
+parameterize_jobs-0.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+parameterize_jobs-0.2.0.dist-info/licenses/LICENSE,sha256=EsiVOEygwIQgXZHgohwxRMoWh9C_K0kdQy93V-3PKVg,1076
+parameterize_jobs-0.2.0.dist-info/RECORD,,
