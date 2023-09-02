@@ -1,0 +1,10 @@
+numpy
+scipy
+matplotlib
+gammapy
+joblib
+astropy
+h5py
+
+[tests]
+pytest
