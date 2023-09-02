@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: combinatorial_peptide_pooling
+Version: 0.0.16
+Summary: TCR deorphanization using combinatorial pooling strategy
+Project-URL: Homepage, https://github.com/meyer-lab-cshl/combinatorial_pooling
+Project-URL: Bug Tracker, https://github.com/meyer-lab-cshl/combinatorial_pooling/issues
+Author-email: Vasilisa Kovaleva <vasilisa.kovaliova@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Combinatorial peptide pooling
+
+## Intro
+
+This python package provides an algorithm for combinatorial peptide pooling. It is able to provide a used with a peptide pooling scheme, run simple experimental simulation with given peptides, and to determine which peptide led to activation of T-cell in the experiment with given peptide pooling scheme.
+
+### Task
+
+
+## Algorithm
+
+## Installation
+
+## Usage
+
+### Requirements
+
+### Shiny App
+
+### Recommended parameters
