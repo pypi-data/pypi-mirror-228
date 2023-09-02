@@ -1,0 +1,7 @@
+winrt/_winrt_windows_graphics_printing3d.cp311-win32.pyd,sha256=a0oxf4BQouFiccfgbyBzcYKEdsTYtn3wA6iqZNhcBWc,863232
+winrt/_winrt_windows_graphics_printing3d.pyi,sha256=a42yjomjFVhto8ATrPqNyAbkF9iQPOrwGATIQaacP1Q,22797
+winrt/windows/graphics/printing3d/__init__.py,sha256=sxxQ9-0WXIaNG2sJiOUVOG7P1OT_tm_nynnYDybhCvw,5184
+winrt_Windows.Graphics.Printing3D-2.0.0b1.dist-info/METADATA,sha256=3OkrHEcg83mQgytEtAaECVV6c0o_IeaG5Y11CE779Ck,1346
+winrt_Windows.Graphics.Printing3D-2.0.0b1.dist-info/WHEEL,sha256=MpyGHBYwzd-Jap9JHrbjRY_PQK67I2tRW5oQLucxFp4,98
+winrt_Windows.Graphics.Printing3D-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Graphics.Printing3D-2.0.0b1.dist-info/RECORD,,
