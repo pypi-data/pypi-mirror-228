@@ -1,0 +1,3 @@
+recursive-include djangoldp_hubl_landing/templates *
+recursive-include djangoldp_hubl_landing/static *
+include README.md

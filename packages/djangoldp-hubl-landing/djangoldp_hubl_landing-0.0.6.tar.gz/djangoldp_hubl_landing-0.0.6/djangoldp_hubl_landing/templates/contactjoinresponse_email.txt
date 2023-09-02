@@ -1,0 +1,18 @@
+Bonjour {{contact.firstname|safe}} {{contact.name|safe}} !
+
+Ta demande de rejoindre le réseau a bien été prise en compte. 
+
+Nous retravaillons actuellement la plateforme HUBL, et nous revenons vers toi dès que la nouvelle version est en ligne.
+Tu es bien sur la liste d'attente.
+
+Voici les informations que tu nous a transmises : 
+
+Ton prénom : {{contact.firstname|safe}} 
+Ton nom : {{contact.name|safe}}
+Ta ville : {{contact.city|safe}}
+Ton e-mail : {{contact.email|safe}}
+Ton téléphone : {{contact.phone|safe}}
+
+Merci pour ta confiance,
+
+Cyril pour la team HUBL 

@@ -1,0 +1,19 @@
+Bonjour HUBL !
+
+Un.e client.e a laissé un message.
+
+Son nom : {{contact.firstname|safe}} {{contact.name|safe}} 
+Son entreprise : {{contact.companyname|safe}}
+Son rôle : {{contact.role|safe}}
+Sa ville : {{contact.city|safe}}
+Le travail à distance est-il possible ? {{contact.distancial|safe}}
+Son budget ou tjm : {{contact.price|safe}}
+La mission démarrerait le : {{contact.startdate|safe}}
+Elle durerait : {{contact.duration|safe}}
+
+La description de la mission: {{contact.message|safe}}
+
+son e-mail : {{contact.email|safe}}
+son téléphone : {{contact.phone|safe}}
+
+Bonne journée ! :)

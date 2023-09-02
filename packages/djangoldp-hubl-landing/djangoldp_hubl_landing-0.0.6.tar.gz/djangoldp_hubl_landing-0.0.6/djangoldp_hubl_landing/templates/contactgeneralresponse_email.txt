@@ -1,0 +1,16 @@
+Bonjour {{contact.name|safe}} !
+
+Merci de nous avoir contacté, nous allons revenir vers toi dans les 48h.
+
+Voici les informations que tu nous as transmises.
+
+Ton nom : {{contact.name|safe}}
+Ton e-mail : {{contact.email|safe}}
+Ton message : {{contact.message|safe}}
+
+
+Tes données ne sont utilisées par HUBL que dans le cadre de ta demande présente et ne seront en aucun cas transmises à des tiers. Elles sont conservées par HUBL pendant une durée de 6 mois. Si tu souhaites y avoir accès, les rectifier ou encore en demander l'effacement, nous t'invitons à nous contacter à cette adresse contact@hubl.world
+
+Merci pour ta confiance.
+
+Cyril pour la team HUBL 
