@@ -1,0 +1,5 @@
+Pipfile.lock
+*.pyc
+__pycache__
+.idea
+dist
