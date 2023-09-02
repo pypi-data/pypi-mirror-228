@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ofjustpy-plugins
+Version: 0.0.1
+Summary: Ofjustpy based formatter for python code. 
+Maintainer-email: Kabira K <kabira@monallabs.in>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: pygments
+Requires-Dist: ofjustpy
+Project-URL: Documentation, https://ofjustpy.github.io/ofjustpy-plugins
+Project-URL: Home, https://webworks.monallabs.in/ofjustpy-plugins/
+Project-URL: Source, https://github.com/ofjustpy/ofjustpy-plugins
+
+# ofjustpy-plugins
+Utilites like formatters for markdown, python code etc. 
+
