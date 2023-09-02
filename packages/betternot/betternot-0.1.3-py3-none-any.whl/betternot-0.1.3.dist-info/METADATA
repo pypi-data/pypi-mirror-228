@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: betternot
+Version: 0.1.3
+Summary: Toolset for interacting with the Nordic Optical Telescope (NOT)
+License: BSD-3-Clause
+Author: simeonreusch
+Author-email: simeon.reusch@desy.de
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: astroplan (>=0.9)
+Requires-Dist: astropy (>=5.0,<6.0)
+Requires-Dist: backoff (>=1.10.0,<2.0.0)
+Requires-Dist: importlib-metadata (>=6.7.0)
+Requires-Dist: keyring (>=23.7.0,<24.0.0)
+Requires-Dist: matplotlib (>=3.5.0)
+Requires-Dist: numpy (>=1.21.0,<2.0.0)
+Requires-Dist: pandas (>=1.2.5)
+Requires-Dist: pypeit (>=1.13.0,<2.0.0)
+Requires-Dist: requests (>=2.23.0)
+Requires-Dist: ztfquery (>=1.20.0)
+Description-Content-Type: text/markdown
+
+# betterNOT
+Toolset for preparing observations with the Nordic Optical Telescope (NOT). Currently only set up to work with ZTF transients. You need [Fritz](https://fritz.science) credentials.
+
+The observability code is largely based on the [`NOT Observing Tools`](https://github.com/steveschulze/NOT_Observing_Tools) by Steve Schulze.
+
+Note the [observation guidelines](https://notes.simeonreusch.com/s/dHt_0XzwQ#)
+
+## Installation
+Simply run `pip install betternot`.
+
+If you want to make local changes, clone the repository, `cd` into it and issue `poetry install`.
+
+## Usage
+### Prepare observations
+The observation planning can be run with a command line interface. Simply issue
+```
+not ZTF23changeit ZTF23thistoo ...
+```
+This will generate a standard star observability plot, create an observability plot for all ZTF objects, download the finding charts for them from Fritz and print the coordinates as well as the last observed magnitude. They will all end up in the `betternot/DATE` directory. 
+
+Optionally, you can specify a desired date with `-date YYYY-MM-DD` (the default is today). You can also specify a telescope site with `-site SITE` (available sites are listed [here](https://github.com/astropy/astropy-data/blob/gh-pages/coordinates/sites.json)). Default is the NOT site (Roque de los Muchachos).
+
+### Uploading spectra to WISeREP
+You will need a [TNS](https://www.wis-tns.org) and [WISeREP](https://www.wiserep.org) bot token for this. Uploading spectra can be done as follows:
+
+```python
+import logging
+from betternot.wiserep import Wiserep
+
+logging.basicConfig()
+logger = logging.getLogger()
+logger.setLevel(logging.DEBUG)
+
+Wiserep(
+    ztf_id="ZTF23aaawbsc",
+    spec_path="ZTF23aaawbsc_combined_3850.ascii",
+    sandbox=True,
+    quality="high", # "low", "medium" or "high". Default: "medium"
+)
+```
+This will check TNS if an IAU object exists at the ZTF transient location, open the spectrum, extract the metadata, and upload the file to WISeREP as well as a report containing the extracted metadata.
+
+After checking with the [WISeREP sandbox](https://sandbox.wiserep.org) that everything works fine, use `sandbox=False`
