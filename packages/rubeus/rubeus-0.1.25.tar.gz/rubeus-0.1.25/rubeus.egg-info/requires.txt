@@ -1,0 +1,5 @@
+httpx
+
+[dev]
+mypy==0.991
+black[jupyter]==23.7.0
