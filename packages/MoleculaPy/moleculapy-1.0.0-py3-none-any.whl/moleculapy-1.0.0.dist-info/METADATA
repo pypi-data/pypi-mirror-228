@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: MoleculaPy
+Version: 1.0.0
+Summary: A command-line application that utilizes the RDKit library to compute molecular descriptors and fingerprints, aiding in the analysis and characterization of chemical structures
+Home-page: https://github.com/kamilpytlak/MoleculaPy
+License: MIT
+Keywords: cli,fingerprints,rdkit,chemoinformatics,qsar,molecular-descriptors
+Author: Kamil Pytlak
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: rdkit (>=2023.3.3,<2024.0.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Project-URL: Repository, https://github.com/kamilpytlak/MoleculaPy
+Description-Content-Type: text/markdown
+
+
