@@ -1,0 +1,12 @@
+.Rhistory
+.DS_Store
+.Rproj.user
+.RData
+.Ruserdata
+.Rproj.user
+BioLizardStyleR/.RData
+BioLizardStyleR/.Rhistory
+BioLizardStyleR/.Rproj.user
+BioLizardStylePython/.idea/*
+.idea
+
