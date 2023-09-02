@@ -1,0 +1,2 @@
+climada>=4.0
+scikit-image
