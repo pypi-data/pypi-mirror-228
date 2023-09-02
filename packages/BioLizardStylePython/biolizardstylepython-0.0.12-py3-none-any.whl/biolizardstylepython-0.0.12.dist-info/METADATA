@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: BioLizardStylePython
+Version: 0.0.12
+Summary: Enhance plots with the signature Biolizard aesthetic for matplotlib and seaborn.
+Project-URL: Homepage, https://github.com/lizard-bio/nature-grade-visualization-playground/tree/main
+Author: BioLizard
+Author-email: Robbe Neirynck <robbe.neirynck1@hotmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: matplotlib>=3.7.1
+Requires-Dist: numpy>=1.24.30
+Requires-Dist: pillow>=9.4.0
