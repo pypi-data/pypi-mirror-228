@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+fetch_tool.egg-info/PKG-INFO
+fetch_tool.egg-info/SOURCES.txt
+fetch_tool.egg-info/dependency_links.txt
+fetch_tool.egg-info/entry_points.txt
+fetch_tool.egg-info/requires.txt
+fetch_tool.egg-info/top_level.txt
+fetchtool/__init__.py
+fetchtool/abstract_fetch.py
+fetchtool/exceptions.py
+fetchtool/fetch_assemblies.py
+fetchtool/fetch_reads.py
