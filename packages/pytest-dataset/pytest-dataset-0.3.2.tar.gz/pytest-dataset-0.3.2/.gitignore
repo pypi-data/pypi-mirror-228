@@ -1,0 +1,16 @@
+__pycache__
+*.pyc
+*.*~
+.idea/
+
+.eggs/
+dist/
+build/
+pytest_dataset.egg-info/
+
+# =========================
+# OSX
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride

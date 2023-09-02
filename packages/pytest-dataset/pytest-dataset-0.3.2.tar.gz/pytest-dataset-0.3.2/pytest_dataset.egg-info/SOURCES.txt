@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.rst
+pytest_dataset.py
+setup.cfg
+setup.py
+pytest_dataset.egg-info/PKG-INFO
+pytest_dataset.egg-info/SOURCES.txt
+pytest_dataset.egg-info/dependency_links.txt
+pytest_dataset.egg-info/entry_points.txt
+pytest_dataset.egg-info/requires.txt
+pytest_dataset.egg-info/top_level.txt
