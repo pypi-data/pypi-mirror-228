@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sciodps
+Version: 0.0.2
+Summary: This library provides convenient access to the sciodps API
+Author-email: Hongwei Zhang <zhang_hng_wei@hotmail.com>
+Project-URL: Homepage, https://github.com/jump2odps
+Project-URL: Bug Tracker, https://github.com/jump2odps/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: odps
+
+# sciodps Python Library
+
+The Datanet Python Library provides convenient access to the sciodps API from applications written in the Python language.
+
+## installation
+
+If you just want to use the package, just run:
+
+```sh
+pip install --upgrade sciodps
+```
