@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: robo-base
+Version: 0.1.1rc0
+Summary: base modules, objects, classes
+Keywords: python,packages,pypi,RTD,Sphinx
+Author: Mike Knerr
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Project-URL: homepage, https://github.com/mkner/robo-base/
+
+**robo-base**
+
+base modules 
+
+
+
+
+
