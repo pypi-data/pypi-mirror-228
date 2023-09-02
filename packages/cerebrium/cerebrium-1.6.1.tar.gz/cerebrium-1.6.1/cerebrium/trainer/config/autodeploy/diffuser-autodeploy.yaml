@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+disable_animation: false
+exclude: "[./.*, ./__*]"
+hardware: GPU
+include: "[./*, main.py, requirements.txt, pkglist.txt, conda_pkglist.txt]"
+log_level: INFO
+Item:
+    prompt: "str"
+    height: "Optional[int] = 512"
+    width: "Optional[int] = 512"
+    num_inference_steps: "Optional[int] = 25"
+    num_images_per_prompt: "Optional[int] = 1"
