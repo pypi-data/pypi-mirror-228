@@ -1,0 +1,17 @@
+CHANGELOG.md
+Importing_file.py
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+test.py
+Data_skill_accelerator/README.md
+thiticanfunctions/EDA.py
+thiticanfunctions/__init__.py
+thiticanfunctions/calculator.py
+thiticanfunctions/source_file.py
+thiticanfunctions.egg-info/PKG-INFO
+thiticanfunctions.egg-info/SOURCES.txt
+thiticanfunctions.egg-info/dependency_links.txt
+thiticanfunctions.egg-info/requires.txt
+thiticanfunctions.egg-info/top_level.txt
