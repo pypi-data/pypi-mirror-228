@@ -1,0 +1,8 @@
+ado_asana_sync/sync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ado_asana_sync/sync/__main__.py,sha256=rGxAgOrCqb_bmEp-kef_ALUDGl3pyFGHjve0vk5BYzI,474
+ado_asana_sync/sync/app.py,sha256=VYVvgas_vnOhFUxDrhFM0TeWLPPne-293xykPZaqHhs,3618
+ado_asana_sync/sync/sync.py,sha256=WbddXapNoirXGOVnTtBa1fXqYkZfqKJgO8lcnJ3ENw8,29816
+ado_asana_sync-0.14.0.dist-info/LICENSE,sha256=zviG-ql08liZUu3uFb9lZz7e4QxxMfCKRlci_Wexi-U,1088
+ado_asana_sync-0.14.0.dist-info/METADATA,sha256=q8Hlwyndcd6tWAngCueXgPaO8HEdcJ1RYrFItu7swQk,1977
+ado_asana_sync-0.14.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ado_asana_sync-0.14.0.dist-info/RECORD,,
