@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/patternengine/__init__.py
+src/patternengine/compsys.py
+src/patternengine/example.py
+src/patternengine.egg-info/PKG-INFO
+src/patternengine.egg-info/SOURCES.txt
+src/patternengine.egg-info/dependency_links.txt
+src/patternengine.egg-info/entry_points.txt
+src/patternengine.egg-info/requires.txt
+src/patternengine.egg-info/top_level.txt
+tests/test_patternengine.py
