@@ -1,0 +1,2 @@
+recursive-include uglypty/static *
+recursive-include uglypty/Library *
