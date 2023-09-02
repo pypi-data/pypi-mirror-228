@@ -1,0 +1,7 @@
+winrt/_winrt_windows_management_core.cp310-win32.pyd,sha256=xQFQFggW_FonGyUYnlVrEXm-mxzbBXCGdgg93arPsvg,32768
+winrt/_winrt_windows_management_core.pyi,sha256=gZ3QgkrNIrF7E0CLgvl-vtCHs5_K9N_vu-iI86zLHbw,668
+winrt/windows/management/core/__init__.py,sha256=9hEXMGhEIUHaGV5ld0mZUTJuU79YoGXWhR_ayzkFU5M,282
+winrt_Windows.Management.Core-2.0.0b1.dist-info/METADATA,sha256=6KcScnXMW9JKS0DrjvyJ04pkTJZGegzHs4EkR3smCU4,997
+winrt_Windows.Management.Core-2.0.0b1.dist-info/WHEEL,sha256=Q1-Z25IsdIUCF8Kl3jXp4n4gR3PTk0L0l5G6bg-dz_s,98
+winrt_Windows.Management.Core-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Management.Core-2.0.0b1.dist-info/RECORD,,
