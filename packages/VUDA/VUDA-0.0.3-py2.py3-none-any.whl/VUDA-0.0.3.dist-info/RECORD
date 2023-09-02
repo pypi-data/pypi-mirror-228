@@ -1,0 +1,10 @@
+VUDA/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+VUDA/io/__init__.py,sha256=APJWcOfDyOmzXzgrSvhc72jemXRz2dSsQRt1MH2DIig,98
+VUDA/io/dataloader.py,sha256=USJhErw9LI-2WP_l2TKwXFRX-3llwgzr-y-UVoj1SAg,1762
+VUDA/io/errors.py,sha256=4XD2ESs4H3aCLeOm8s9w205_5ArwRI_cRXhkGzXxLNA,238
+VUDA/io/io_utils.py,sha256=BtRCKjfNWubifDI7Iddd4jdLInImUdV-mgV93Kb67hw,1493
+VUDA/io/loadbinary.py,sha256=_uCfVfiDk2pOTFEc2b8Eaeui8o_A1JiwOjamgyA6c9o,7093
+VUDA-0.0.3.dist-info/METADATA,sha256=oJusWHQ2DfIR7qfq2cenRZ_UofBUYdv28IOATd_EW5s,592
+VUDA-0.0.3.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+VUDA-0.0.3.dist-info/top_level.txt,sha256=xoAC0r1_oU0u_k2z5N6w2vWA7AiyCNjDvI4zrSFIlcw,5
+VUDA-0.0.3.dist-info/RECORD,,
