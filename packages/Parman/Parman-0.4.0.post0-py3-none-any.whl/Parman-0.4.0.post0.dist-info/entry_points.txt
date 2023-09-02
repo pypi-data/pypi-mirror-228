@@ -1,0 +1,3 @@
+[console_scripts]
+parman-clean-results = parman.scripts.clean_results:main
+parman-sbatch-wait = parman.scripts.sbatch_wait:main
