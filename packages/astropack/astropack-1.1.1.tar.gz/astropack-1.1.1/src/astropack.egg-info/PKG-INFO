@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: astropack
+Version: 1.1.1
+Summary: Data Processing and Machine Learning Functions for Astronomy Applications
+Author: Vinicius Cordeiro
+Author-email: cdro.vinicius@gmail.com
+License: MIT License
+Keywords: astronomy,machinelearning,ml
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## ASTROPACK
+
+Data Processing and Machine Learning Functions for Astronomy Applications
