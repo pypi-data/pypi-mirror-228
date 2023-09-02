@@ -1,0 +1,7 @@
+winrt/_winrt_windows_devices_pointofservice_provider.cp312-win_arm64.pyd,sha256=koPVF6k7op1_Soy1u5Z0l6aS_r_Wihx6KjUzJTof6B8,360960
+winrt/_winrt_windows_devices_pointofservice_provider.pyi,sha256=OTQe9G_Pm6O1rMlXaW3Bdc08-oQLtuCiuVBdwwI5rBo,17785
+winrt/windows/devices/pointofservice/provider/__init__.py,sha256=04rDR6c5hGzYATmcnqegVDe7cgY9jWAGOMFKZNV2tic,4304
+winrt_Windows.Devices.PointOfService.Provider-2.0.0b1.dist-info/METADATA,sha256=9mOG7OBd1NiEa5sDO_PfCP39B6Ikcf45lEYHQrS90S4,1411
+winrt_Windows.Devices.PointOfService.Provider-2.0.0b1.dist-info/WHEEL,sha256=4a57bNWdRt5PINziSad5EMsdocHr4i3ENb3kQ9gPSug,102
+winrt_Windows.Devices.PointOfService.Provider-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.PointOfService.Provider-2.0.0b1.dist-info/RECORD,,
