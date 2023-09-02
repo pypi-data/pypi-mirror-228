@@ -1,0 +1,10 @@
+[camera]
+device = 0
+resolution = [640, 480]
+fps = 25
+
+[storage]
+record_dir = "~/.camonline/storage"
+fourcc = "PIM1"
+suffix = ".mkv"
+days = 30
