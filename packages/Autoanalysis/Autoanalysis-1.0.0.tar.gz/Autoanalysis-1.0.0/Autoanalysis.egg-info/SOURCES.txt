@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+Autoanalysis.egg-info/PKG-INFO
+Autoanalysis.egg-info/SOURCES.txt
+Autoanalysis.egg-info/dependency_links.txt
+Autoanalysis.egg-info/top_level.txt
+Eda/__init__.py
+Eda/jay.py
