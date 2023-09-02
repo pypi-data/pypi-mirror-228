@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ou_print_pack_tools
+Version: 0.0.4
+Summary: Generate print packs from Jupyter notebooks.
+Author: Tony Hirst
+Author-email: tony.hirst@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Pillow (>=10.0.0,<11.0.0)
+Requires-Dist: click (>=8.0,<9.0)
+Requires-Dist: ipython (>=7.0,<8.0)
+Requires-Dist: natsort (>=7.1,<8.0)
+Requires-Dist: nbconvert (>=6.0,<7.0)
+Requires-Dist: nbformat (>=5.0,<6.0)
+Requires-Dist: pymupdf (>=1.22,<2.0)
