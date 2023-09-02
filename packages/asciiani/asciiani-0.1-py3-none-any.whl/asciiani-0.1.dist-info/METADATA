@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: asciiani
+Version: 0.1
+Requires-Dist: curses
+Requires-Dist: moviepy
+Requires-Dist: Pillow
+
