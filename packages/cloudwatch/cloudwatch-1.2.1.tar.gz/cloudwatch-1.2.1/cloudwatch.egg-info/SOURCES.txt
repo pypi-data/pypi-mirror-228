@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+cloudwatch/__init__.py
+cloudwatch/cloudwatch.py
+cloudwatch.egg-info/PKG-INFO
+cloudwatch.egg-info/SOURCES.txt
+cloudwatch.egg-info/dependency_links.txt
+cloudwatch.egg-info/requires.txt
+cloudwatch.egg-info/top_level.txt
+test/test.py
