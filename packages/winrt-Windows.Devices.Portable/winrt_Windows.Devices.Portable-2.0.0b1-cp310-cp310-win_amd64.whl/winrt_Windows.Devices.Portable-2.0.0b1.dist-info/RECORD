@@ -1,0 +1,7 @@
+winrt/_winrt_windows_devices_portable.cp310-win_amd64.pyd,sha256=QaXXiMKStzZG_QG_4l7Ln9wwf815icVF7aB1W9vUF2Q,39936
+winrt/_winrt_windows_devices_portable.pyi,sha256=Xev9_NA94MCBVw92cbw0_MWjh-u1wFTMWLHaku4KLrM,1071
+winrt/windows/devices/portable/__init__.py,sha256=pyj5Y_c4aTA8WsHGYfC8yAbjFa8HOThfI0HDCEEovK4,588
+winrt_Windows.Devices.Portable-2.0.0b1.dist-info/METADATA,sha256=WQvPd95NiMd_p2E3xeq8XmWRnDVE7_5pLcrrqZoPXdM,1001
+winrt_Windows.Devices.Portable-2.0.0b1.dist-info/WHEEL,sha256=Wb1el1iP4ORW7FiLElw7HfxLpDiHzwvd2B382b2Idl0,102
+winrt_Windows.Devices.Portable-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Portable-2.0.0b1.dist-info/RECORD,,
