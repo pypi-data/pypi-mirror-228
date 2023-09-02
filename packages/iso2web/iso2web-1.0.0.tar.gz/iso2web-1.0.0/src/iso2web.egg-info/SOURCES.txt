@@ -1,0 +1,13 @@
+.gitattributes
+.gitignore
+README.md
+pyproject.toml
+requirements.txt
+.github/workflows/python-publish.yml
+src/iso2web.py
+src/iso2web.egg-info/PKG-INFO
+src/iso2web.egg-info/SOURCES.txt
+src/iso2web.egg-info/dependency_links.txt
+src/iso2web.egg-info/entry_points.txt
+src/iso2web.egg-info/requires.txt
+src/iso2web.egg-info/top_level.txt
