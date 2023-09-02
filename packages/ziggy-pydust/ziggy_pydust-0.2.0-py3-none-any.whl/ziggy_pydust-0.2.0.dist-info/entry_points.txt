@@ -1,0 +1,3 @@
+[console_scripts]
+pydust=pydust.__main__:main
+
