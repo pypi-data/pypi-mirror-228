@@ -1,0 +1,9 @@
+README.md
+setup.py
+app/__init__.py
+app/connection.py
+streamlittestconnector.egg-info/PKG-INFO
+streamlittestconnector.egg-info/SOURCES.txt
+streamlittestconnector.egg-info/dependency_links.txt
+streamlittestconnector.egg-info/requires.txt
+streamlittestconnector.egg-info/top_level.txt
