@@ -1,0 +1,25 @@
+Bonjour {{contact.firstname|safe}} {{contact.name|safe}},
+
+Merci d'avoir pris contact avec notre équipe pour vos besoins freelances. Nous allons vous contacter sous 48h afin de voir en détail votre demande.
+
+Voici les informations que vous nous avez transmises.
+
+Votre nom : {{contact.firstname|safe}} {{contact.name|safe}} 
+Votre entreprise : {{contact.companyname|safe}}
+Votre rôle : {{contact.role|safe}}
+Votre ville : {{contact.city|safe}}
+Le travail à distance est-il possible ? {{contact.distancial|safe}}
+Votre budget ou tjm : {{contact.price|safe}}
+La mission démarrerait le : {{contact.startdate|safe}}
+Elle durerait : {{contact.duration|safe}}
+
+La description de la mission: {{contact.message|safe}}
+
+Votre e-mail : {{contact.email|safe}}
+Votre téléphone : {{contact.phone|safe}}
+
+
+Vos données ne sont utilisées par HUBL que dans le cadre de votre demande présente et ne seront en aucun cas transmises à des tiers. Elles sont conservées par HUBL pendant une durée de 6 mois. Si vous souhaitez y avoir accès, les rectifier ou encore en demander l'effacement, nous vous invitons à nous contacter à cette adresse contact@hubl.world
+
+Merci pour votre confiance,
+Cyril pour la team HUBL.

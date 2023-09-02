@@ -1,0 +1,11 @@
+Bonjour HUBL !
+
+{{contact.firstname|safe}} {{contact.name|safe}} a demandé à rejoindre le réseau.
+
+Sa ville : {{contact.city|safe}}
+
+Son e-mail : {{contact.email|safe}}
+
+Son téléphone : {{contact.phone|safe}}
+
+Bonne journée ! :)

@@ -1,0 +1,9 @@
+Bonjour HUBL !
+
+{{contact.name|safe}} a laissé un message.
+
+Son message : {{contact.message|safe}}
+
+son e-mail : {{contact.email|safe}}
+
+Bonne journée ! :)

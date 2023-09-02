@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: djangoldp-hubl-landing
+Version: 0.0.6
+Summary: StartinBlox specific Hubl landing page package
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: djangoldp >=2.0
+
+# djangoldp_hubl_landing
+This is the package for the data of Hubl landing page
