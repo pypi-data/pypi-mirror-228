@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: dagster-ray
+Version: 0.0.0
+Summary: Dagster integration library for Ray
+Home-page: https://github.com/danielgafni/dagster-ray
+License: Apache-2.0
+Keywords: dagster,ray,ETL,distributed
+Author: Daniel Gafni
+Author-email: danielgafni16@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: dagster (>=1.3.5,<2.0.0)
+Requires-Dist: dagster-k8s (>=0.20.10,<0.21.0)
+Requires-Dist: pyarrow (>=8.0.0)
+Requires-Dist: ray (>=2.6.3,<3.0.0)
+Project-URL: Repository, https://github.com/danielgafni/dagster-ray
+Description-Content-Type: text/markdown
+
+# `dagster-ray`
+
+[Ray](https://github.com/ray-project/ray) integration library for [Dagster](https://github.com/dagster-io/dagster).
+
+> [!WARNING]
+> WIP, perhaps not usable.
+
+# Features
+
+## Resource
+
+`RayResource` provides access to a Ray cluster from within a Dagster pipeline.
+
+## IOManagers
+WIP
+
+## Executor
+WIP
+
