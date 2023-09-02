@@ -1,0 +1,12 @@
+crossflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crossflow/_version.py,sha256=YViREziYoAcSp8v8BoA-0tcI2jFf6PgOyCQ6t9sce_A,71
+crossflow/clients.py,sha256=Q0N9j4KDbNfyFelCP1inGEI_IQOmxTnbAEwVXvydrA8,8757
+crossflow/config.py,sha256=MmWyEFiIfGpTT7ZaTDJYCgO4xHj-Ys8iB1DqCuCft6E,19
+crossflow/filehandling.py,sha256=jLa_AF_RSg4q0-c51aCxNv8Py61Up7bci2zy44leJa8,4974
+crossflow/kernels.py,sha256=TimnKFLV2ABiAamo7h-Fa8amCS30A0K0QTsK56v1iZw,9462
+crossflow/tasks.py,sha256=jO_28anCJ9ex6NaTBn5j5IkaLfn_ONLkM29FTZF5BUM,9557
+crossflow-0.1.2rc0.dist-info/LICENSE.txt,sha256=5W8lYsYTZSZy2DWN_u7-o7GsDeDVf5YjUwJTUHW5J8A,1090
+crossflow-0.1.2rc0.dist-info/METADATA,sha256=pNS5Q7TruxDB6JB1i6AllsUtJLyIjVaZYnvu8mCQ7E4,1375
+crossflow-0.1.2rc0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+crossflow-0.1.2rc0.dist-info/top_level.txt,sha256=MkXJxYlD6TbVfcvnKPGSSeaRgJvK_9tNmC-JArsbuUk,10
+crossflow-0.1.2rc0.dist-info/RECORD,,
