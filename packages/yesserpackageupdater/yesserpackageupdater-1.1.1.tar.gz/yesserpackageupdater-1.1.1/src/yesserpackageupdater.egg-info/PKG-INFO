@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: yesserpackageupdater
+Version: 1.1.1
+Summary: A simple pip package updater
+Author-email: yesseruser <yesseruser@gmail.com>
+Project-URL: Homepage, https://github.com/yesseruser/PyPackageUpdater
+Project-URL: Bug Tracker, https://github.com/yesseruser/PyPackageUpdater/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# PIP Package Updater by yesseruser
+
+This is a simple package updater that updates all outdated packages when run.  
+You can use it by running ```py -m yesserpackageupdater``` in CMD or PowerShell.
+
+This package only works on Windows.
