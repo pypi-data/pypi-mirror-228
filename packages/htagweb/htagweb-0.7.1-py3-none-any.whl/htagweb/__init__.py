@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+# #############################################################################
+# Copyright (C) 2023 manatlan manatlan[at]gmail(dot)com
+#
+# MIT licence
+#
+# https://github.com/manatlan/htagweb
+# #############################################################################
+
+from .webbase import WebServer
+from .webbase import WebServerWS
+
+from .appserver import AppServer  # a completly different beast, but compatible with ^^
+from .htagserver import HtagServer  # a completly different beast.
+
+__all__= ["WebServer","WebServerWS","AppServer", "HtagServer"]
+
+__version__ = "0.7.1" # auto updated
