@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/ML_TheBridge/__init__.py
+src/ML_TheBridge/functions.py
+src/ML_TheBridge.egg-info/PKG-INFO
+src/ML_TheBridge.egg-info/SOURCES.txt
+src/ML_TheBridge.egg-info/dependency_links.txt
+src/ML_TheBridge.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ML_TheBridge
+Version: 0.0.0
+Summary: Libreria de Machine Learning diseñada para el bootcamp de Data Science en The Bridge
+Author-email: AlfonsodMC <a.mcor2403@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Libreria_ML
+Librería con funciones útiles para proyectos de machine learning
