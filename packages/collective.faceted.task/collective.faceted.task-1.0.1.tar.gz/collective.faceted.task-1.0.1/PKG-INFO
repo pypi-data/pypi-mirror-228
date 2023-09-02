@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: collective.faceted.task
+Version: 1.0.1
+Summary: Faceted tools and view for tasks
+Home-page: http://pypi.python.org/pypi/collective.faceted.task
+Author: Franck NGAHA
+Author-email: franck.o.ngaha@gmail.com
+License: GPL V2
+Keywords: Python Zope Plone
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: 4.3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Provides-Extra: test
+
+=======================
+collective.faceted.task
+=======================
+
+Contributors
+============
+
+- Franck NGAHA (iMio)
+- Simon Delcourt (iMio)
+- Martin Peeters (Affinitic)
+
+Changelog
+=========
+
+
+1.0.1 (2023-09-01)
+------------------
+
+- Fix new urban instance install [URB-2868, URB-2870]
+  [jchandelle]
+
+
+1.0.0 (2023-07-05)
+------------------
+
+- Do not escape z3c.table column title
+  [sdelcourt, mpeeters]
+
+
+0.4 (2018-06-05)
+----------------
+
+- Add base profile to fix installation dependencies.
+  [mpeeters]
+
+
+0.3 (2017-01-10)
+----------------
+
+- remove task link from header_path column.
+  [sdelcourt]
+
+
+0.2 (2016-06-22)
+----------------
+
+- Nothing changed yet.
+
+
+0.1 (2016-06-22)
+----------------
+
+- Initial release.
+  [sdelcourt, fngaha]
+
+
