@@ -1,0 +1,10 @@
+pydref_serializers/__init__.py,sha256=286IsLP9iSp8uNvH9T4cSl6XSV9ueCu2_2KrJcUDzEQ,86
+pydref_serializers/builders.py,sha256=AlObNm47KfnHejagQYcmHKKAC02XRzDprcozm9R5sa8,4179
+pydref_serializers/getters.py,sha256=n80QMHLvGBg4jp9Z5tMo63oH5FqfatEeInMSBYuyvuM,963
+pydref_serializers/mappers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydref_serializers/mappers/fields.py,sha256=8NmO-2YqBWYrBD-w7xqzJGHvxxWW_IsrKzAsP9-j8mU,6682
+pydref_serializers/mappers/validators.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydref_serializers/serializers.py,sha256=6BbhWhIYgAz84I0OgUkz4dOXcLFqXFCtHfkmjYLILmM,1892
+pydref_serializers-0.2.3.dist-info/METADATA,sha256=XDurJfIhMGT_r5viNaQmEDgKhqS5YSGMOB2GjxHbHdc,7979
+pydref_serializers-0.2.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pydref_serializers-0.2.3.dist-info/RECORD,,
