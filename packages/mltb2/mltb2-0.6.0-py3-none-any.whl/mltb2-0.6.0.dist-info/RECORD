@@ -1,0 +1,16 @@
+LICENSE,sha256=jYNN6XsJX79L9gdXQ4J4Yr4sbEBFlK4EYG2cVtjxAXs,1118
+mltb2/__init__.py,sha256=GN1Do-jiHAjKgh7BVOJ0tz-qIsX3Dqi5nlbZVw9X_sk,185
+mltb2/fasttext.py,sha256=bz36V5v89QwsKRs7crrxWbuyMyLPA-_KyFN51BDc4Yo,3221
+mltb2/files.py,sha256=KcjJ_ZQ9Q7mTgyn_KIxCImQHwJ0E3SPmhn8nHecPp1E,1520
+mltb2/md.py,sha256=jJlJqy7mHkGyaC1l1p53qLIi2E75PWRugjttG2boBR0,3320
+mltb2/openai.py,sha256=uJJmT6iI0Y97W8tow0GRwr3kZNTdIpf0OMYuBzaP6sw,10188
+mltb2/optuna.py,sha256=k8-ogNLB6t8ZbV-U_jcEsHrVAHWZFzG23zf7eZIfrgc,6865
+mltb2/plot.py,sha256=Qr0_rWtUeFiTNQsTyrsHpTeHe9sx5yl47z_VI-ORtPc,3852
+mltb2/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mltb2/somajo.py,sha256=PPK3JDonyfOC4XeYmm8bf8cteicoXCQ67GbyU01B_5k,5342
+mltb2/somajo_transformers.py,sha256=0k1q4sK-kOsWDfP8waLU-sWv5YW-jadIgtg8UYi8xPg,3098
+mltb2/transformers.py,sha256=aoJW7BasaIS-yYmZxR0rFIedL-885_h8e1nS557hGiY,3873
+mltb2-0.6.0.dist-info/LICENSE,sha256=jYNN6XsJX79L9gdXQ4J4Yr4sbEBFlK4EYG2cVtjxAXs,1118
+mltb2-0.6.0.dist-info/METADATA,sha256=lQz_zsujB07Nz55udEWsEQYfec8seSNAV4v8eSUTS6Q,4429
+mltb2-0.6.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+mltb2-0.6.0.dist-info/RECORD,,
