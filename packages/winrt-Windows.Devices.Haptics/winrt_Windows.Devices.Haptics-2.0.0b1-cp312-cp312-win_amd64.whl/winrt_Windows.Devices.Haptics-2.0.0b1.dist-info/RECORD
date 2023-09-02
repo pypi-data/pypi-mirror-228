@@ -1,0 +1,7 @@
+winrt/_winrt_windows_devices_haptics.cp312-win_amd64.pyd,sha256=mGqsqQTXbRhfVhyf2DCV-r6emhsP3sLfSp4bBU6WLpY,152576
+winrt/_winrt_windows_devices_haptics.pyi,sha256=GiTv-tHDdFvYhDBf0olbcqqOeqgIWWDchoq8ZB5vZ5s,4285
+winrt/windows/devices/haptics/__init__.py,sha256=6C9x0Q59k3wjtzhId7JFz5jwR2rXx1HERrHFsThnxrQ,844
+winrt_Windows.Devices.Haptics-2.0.0b1.dist-info/METADATA,sha256=TsvupvCkY6mrvU7fYgp--ZyEyLoYL71g2qomotAAG3o,1090
+winrt_Windows.Devices.Haptics-2.0.0b1.dist-info/WHEEL,sha256=e0epPQlGepThu0I0BNaKYpx2fF2LzLIOVLrIH8OyEko,102
+winrt_Windows.Devices.Haptics-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Haptics-2.0.0b1.dist-info/RECORD,,
