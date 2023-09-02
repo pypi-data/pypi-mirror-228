@@ -1,0 +1,11 @@
+textbase/__init__.py,sha256=FWUXgkmeTYmpG8TNYKMMbLYJgnW33BFygKXAHOZ44k0,49
+textbase/bot.py,sha256=YLW7mvb8xTxNhIuekCSprLOgNC8Fcsg9-lRftZxJW5w,1594
+textbase/message.py,sha256=ELQTla6MHLVknIL70T7xYWVxzuKBeHj0tkc-dQmHNJc,208
+textbase/models.py,sha256=zaaLU8q24NYmgXLrweDooMuJ_lYtgojYwJOx-Dkp7PQ,4711
+textbase/textbase_cli.py,sha256=4t2ke7zNLO-tc6xH5-nCErlyO_X6Yo9R7r25H929YVo,7022
+textbase/utils/download_build.py,sha256=Z7hib0NgcLRvwkXvMHPvLGsIAyszH1Ma_XhhfQ07SPI,1745
+textbase/utils/server.py,sha256=-1T5l-1EKQRhpPD2LCB9k31GTJ6df5aGISuPcqVqMjs,1229
+textbase_client-0.1.2.dist-info/METADATA,sha256=eyGiv4G5gVw1mxafGnxVyFwVBwldEAn-H59-hZmx95g,2068
+textbase_client-0.1.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+textbase_client-0.1.2.dist-info/entry_points.txt,sha256=lUgPmGQsFl6Pn1_Qujwkv4DClNrsilIb3SJSikkr2Mg,61
+textbase_client-0.1.2.dist-info/RECORD,,
