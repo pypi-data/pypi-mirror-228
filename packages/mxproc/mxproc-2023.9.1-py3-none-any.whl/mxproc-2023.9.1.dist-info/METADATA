@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: mxproc
+Version: 2023.9.1
+Summary: MX Automated Data Processing Pipeline
+Author-email: Michel Fodje <michel4j@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/michel4j/mxproc
+Keywords: Data Processing Pipeline,MX,AutoProcess
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mxio
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Requires-Dist: prettytable
+Requires-Dist: vg
+Requires-Dist: scipy
+
+# mxproc
+MX Automated Data Processing Pipeline
+
+This project is the successor to the AutoProcess pipeline.  The goal is to support not just XDS processing as AutoProcess did, but also DIALS. 
+
+A user-friendly graphical interface for interactive use is also planned for the future.

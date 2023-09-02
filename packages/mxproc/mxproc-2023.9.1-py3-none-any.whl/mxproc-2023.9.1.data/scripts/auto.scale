@@ -1,0 +1,10 @@
+#!python
+
+import sys
+from mxproc.common import StepType
+from mxproc import Application
+
+
+if __name__ == "__main__":
+    app = Application(description="Scale Datasets", step=StepType.SCALE)
+    sys.exit(app.run())

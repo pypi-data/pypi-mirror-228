@@ -1,0 +1,10 @@
+#!python
+
+import sys
+from mxproc.common import StepType
+from mxproc import Application
+
+
+if __name__ == "__main__":
+    app = Application(description='Initialize a dataset processing', step=StepType.INITIALIZE)
+    sys.exit(app.run())

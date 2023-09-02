@@ -1,0 +1,10 @@
+#!python
+
+import sys
+from mxproc.common import StepType
+from mxproc import Application
+
+
+if __name__ == "__main__":
+    app = Application(description="Integrate Datasets", step=StepType.INTEGRATE)
+    sys.exit(app.run())
