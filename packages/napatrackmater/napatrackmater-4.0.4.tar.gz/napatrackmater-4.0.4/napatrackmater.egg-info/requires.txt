@@ -1,0 +1,9 @@
+lxml
+vollseg
+napari
+natsort
+seaborn
+cellshape-cloud
+cellshape-helper
+kapoorlabs-lightning
+lightning>=2.0.4
