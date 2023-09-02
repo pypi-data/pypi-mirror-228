@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: sphinx-nefertiti
+Version: 0.1.1
+Summary: The theme Nefertiti for Sphinx
+Project-URL: Homepage, https://sphinx-nefertiti.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/danirus/sphinx-nefertiti
+Author-email: Daniela Rus Morales <danirus@eml.cc>
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Theme
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Requires-Python: >3.7
