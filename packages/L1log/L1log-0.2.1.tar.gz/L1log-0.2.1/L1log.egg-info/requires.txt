@@ -1,0 +1,2 @@
+requests
+thonny>=3.3.13
