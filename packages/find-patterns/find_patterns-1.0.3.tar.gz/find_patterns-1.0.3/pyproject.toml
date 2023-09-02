@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "find-patterns"
+version = "1.0.3"
+description = ""
+authors = ["mdLafrance <maxlafrance97@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/mdLafrance/findme"
+repository = "https://github.com/mdLafrance/findme"
+packages = [
+    { include = "find_patterns", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7.3, <4.0.0"
+typer = "*, <1"
+appdirs = "^1.4.4"
+pydantic = ">=1.0.0, <3"
+rich = ">=12"
+rich-argparse = "^1.3.0"
+
+[tool.poetry.scripts]
+findme = "find_patterns.__main__:app"
+
+[tool.poetry.group.dev.dependencies]
+pyfakefs = "^5.2.3"
+pytest = "^7.4.0"
+mock = "^5.1.0"
+coverage = ">=6.0.0"
+black = ">=21.0.0"
+invoke = "^2.2.0"
+genbadge = {extras = ["all"], version = "^1.1.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
