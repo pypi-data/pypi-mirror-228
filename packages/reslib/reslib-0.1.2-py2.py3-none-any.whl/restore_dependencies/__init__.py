@@ -1,0 +1,7 @@
+__title__ = 'reslib'
+__description__ = '搜集c++缺失的依赖，并在拥有依赖的环境中将依赖打包后还原至缺少依赖的环境中'
+__url__ = 'https://github.com/CaptainJi/restore_dependencies'
+__version__ = '0.1.2'
+__author__ = 'Captain Ji'
+__author_email__ = 'qing.ji@extremevision.com.cn'
+__license__ = 'MIT'
