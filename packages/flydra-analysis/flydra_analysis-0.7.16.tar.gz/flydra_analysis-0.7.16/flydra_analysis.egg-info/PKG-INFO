@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: flydra-analysis
+Version: 0.7.16
+Summary: fflydra analysis tools
+Author-email: Andrew Straw <strawman@astraw.com>
+Maintainer-email: Andrew Straw <strawman@astraw.com>
+Project-URL: homepage, https://github.com/strawlab/flydra
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# flydra_analysis - analysis component of flydra
+
+This directory houses the source code for the `flydra_analysis` Python package.
+
+For more information about flydra, see [here](https://github.com/strawlab/flydra).
