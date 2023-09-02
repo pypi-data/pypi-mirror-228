@@ -1,0 +1,9 @@
+beavers/__init__.py,sha256=z3E7XkcG5EuqVXMqapTSa4s9EVRv_Cy0tfdNglttXos,116
+beavers/engine.py,sha256=17FT53hk6q69-x910cdp2mKz3cH7d9BftTQs20dw3NA,19332
+beavers/kafka.py,sha256=RuyscAYbdtiD0599dWuKesdOeOJVT2Zt12hjucUrYn8,23590
+beavers/replay.py,sha256=oHoX_yjmeTxVuZ20xf_kjZLEk9c7woxXaZiplHPtoog,10420
+beavers/testing.py,sha256=SSImpRQ3M10ZnIsmTWwEPwqrELZf0VAoOozTUlZk4Ec,1657
+beavers-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+beavers-0.1.0.dist-info/METADATA,sha256=5hiDGQWYBegCtBTLjp-tR6gB0HmgAWdI7s3TP4wlSbw,3929
+beavers-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+beavers-0.1.0.dist-info/RECORD,,
