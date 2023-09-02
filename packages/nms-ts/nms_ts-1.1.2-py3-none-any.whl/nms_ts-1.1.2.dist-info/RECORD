@@ -1,0 +1,11 @@
+nms_translator/__init__.py,sha256=5SgGjThsHu_ITn8V83BvCziqCwxdXxTQqcC3KQMHPfM,22
+nms_translator/__main__.py,sha256=6-5bpK2yBmj66LmI8YA0iDr6ChsLJFQt6sZOh2LJtvo,73
+nms_translator/cli.py,sha256=YtL3piScZXCApU_ocBnZ_jDvDOTd30XAC7qlpiI4Yz0,1286
+nms_translator/grabber.py,sha256=snHikeFfLzT1W7Et8qvbjtQG65cn4MiNElj_YiQaHf8,362
+nms_translator/textract.py,sha256=FRms9YFvbfThmNXZ-ztWk3XYa5vk6NW8l4Liumv4zOo,265
+nms_translator/translator.py,sha256=jvv01ksTLgrsi5cshveG6KjjOZ0VXKq0Xo3pMpk-alM,299
+nms_ts-1.1.2.dist-info/LICENSE,sha256=Z_0rYGZRr-fZaaRVduWp_YQ6zpwG0DBzSX98-iOo0Z0,671
+nms_ts-1.1.2.dist-info/METADATA,sha256=73xfxebB5dkX3HdtC0Caxadp1IiBk1HHMUHigG73n1w,2773
+nms_ts-1.1.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+nms_ts-1.1.2.dist-info/entry_points.txt,sha256=Y1yNhiRAkU6WzgHEIXVVOF7wabEDr_1BFN3dLyf2o3g,45
+nms_ts-1.1.2.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+nms=nms_translator.cli:ts
+
