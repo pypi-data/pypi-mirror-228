@@ -1,0 +1,3 @@
+[console_scripts]
+findme=find_patterns.__main__:app
+
