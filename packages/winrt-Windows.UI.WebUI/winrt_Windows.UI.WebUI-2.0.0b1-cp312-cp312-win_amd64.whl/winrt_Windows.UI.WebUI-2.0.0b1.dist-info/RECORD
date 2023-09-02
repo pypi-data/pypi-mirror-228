@@ -1,0 +1,7 @@
+winrt/_winrt_windows_ui_webui.cp312-win_amd64.pyd,sha256=j9Weatliaw3kvWN5SWCxU0rsrtgxwB8mdgpnT6PWWFQ,812544
+winrt/_winrt_windows_ui_webui.pyi,sha256=fiuuOf4_UY8naWQWdqhyfAzbPXcnId7EL5ykDnLNYA4,61324
+winrt/windows/ui/webui/__init__.py,sha256=pG6dB5xUwoa2Js9RyzXTFI-3VxXuwHXGFUJNy2TcFHI,10702
+winrt_Windows.UI.WebUI-2.0.0b1.dist-info/METADATA,sha256=LD7hUGbZ1yEsxOLdwF1E3KzBBBoYwd40MGKYc-JekS0,3579
+winrt_Windows.UI.WebUI-2.0.0b1.dist-info/WHEEL,sha256=e0epPQlGepThu0I0BNaKYpx2fF2LzLIOVLrIH8OyEko,102
+winrt_Windows.UI.WebUI-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.UI.WebUI-2.0.0b1.dist-info/RECORD,,
