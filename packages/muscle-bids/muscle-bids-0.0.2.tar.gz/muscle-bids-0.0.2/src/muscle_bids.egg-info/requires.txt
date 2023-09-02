@@ -1,0 +1,8 @@
+bidict
+natsort
+nibabel
+numpy
+scipy
+packaging
+pydicom
+tqdm
