@@ -1,0 +1,4 @@
+[console_scripts]
+ou_nb_print_pack=ou_print_pack_tools.print_publication:nb_to_print_pack
+ou_pdf_brandify=ou_print_pack_tools.print_publication:brandify
+
