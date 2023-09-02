@@ -1,0 +1,71 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xml:lang="en"
+  xmlns:tal="http://xml.zope.org/namespaces/tal"
+  xmlns:metal="http://xml.zope.org/namespaces/metal"
+  xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+  lang="en"
+  metal:use-macro="context/main_template/macros/master"
+  i18n:domain="plone">
+  <body>
+
+    <metal:styles fill-slot="style_slot">
+      <style>
+fieldset.external-link-consent-info{
+  border: 3px solid #007bb1;
+  padding: 1em;
+}
+fieldset.external-link-consent-info a {
+  animation: borderanim 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+fieldset.external-link-consent-info a:hover {
+  text-decoration: none;
+}
+
+@keyframes borderanim {
+  0% {
+    padding-bottom: 30px;
+    border-bottom: 1px solid transparent;
+  }
+  100% {
+    padding-bottom: 1px;
+    border-bottom: 2px solid #007bb1;
+  }
+}
+
+      </style>
+    </metal:styles>
+
+    <metal:main fill-slot="main">
+      <div class="link-consent-info-message"
+        tal:content="structure view/consent_info_text" />
+
+      <div class="portalMessage info"
+        tal:condition="python: view.redirect_links and view.can_edit and not view.context.enable_consent_info">
+        <strong i18n:translate="">Info</strong>
+        <span tal:omit-tag=""
+          i18n:translate="message_permissions_blocking_link_redirect">
+      You see this page because you have permission to edit this link.
+      Others will be immediately redirected to the link's target URL.
+        </span>
+      </div>
+
+      <fieldset class="external-link-consent-info">
+        <legend i18n:translate=""
+          style="border: 0; width: auto; padding: 0 1em; margin: 0;">External Link</legend>
+        <h2 class="documentFirstHeading"
+          tal:content="context/title" />
+        <p tal:content="context/description" />
+        <p class="linkAction"
+          style="font-size: 120%;">
+          <span i18n:translate="link_address">The link address is:</span>
+          <a tal:attributes="href view/absolute_target_url"
+            tal:content="view/url">remote url</a>
+        </p>
+      </fieldset>
+    </metal:main>
+
+  </body>
+</html>

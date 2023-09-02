@@ -1,0 +1,6 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+  <adapter factory=".indexers.get_remote_url.getRemoteUrl"
+    name="getRemoteUrl" />
+
+</configure>

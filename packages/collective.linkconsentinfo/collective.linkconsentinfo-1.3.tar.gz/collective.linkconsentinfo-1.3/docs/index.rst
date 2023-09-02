@@ -1,0 +1,5 @@
+==========================
+collective.linkconsentinfo
+==========================
+
+User documentation

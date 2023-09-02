@@ -1,0 +1,19 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="collective.linkconsentinfo">
+
+  -*- extra stuff goes here -*-
+
+  <browser:page
+    name="link_redirect_view"
+    for="plone.app.contenttypes.interfaces.ILink"
+    class=".link_consent_info.LinkConsentInfo"
+    layer="collective.linkconsentinfo.interfaces.ICollectiveLinkconsentinfoLayer"
+    template="link_consent_info.pt"
+    permission="zope2.View"
+    />
+
+
+</configure>

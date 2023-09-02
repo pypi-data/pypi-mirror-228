@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.linkconsentinfo">
+
+  <browser:page
+    name="link-consent-info-controlpanel"
+    for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+    class=".link_consent_info.LinkConsentInfoControlPanelView"
+    permission="cmf.ManagePortal"
+    />
+
+</configure>
