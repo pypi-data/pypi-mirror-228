@@ -1,0 +1,7 @@
+README
+setup.cfg
+setup.py
+nextrino.egg-info/PKG-INFO
+nextrino.egg-info/SOURCES.txt
+nextrino.egg-info/dependency_links.txt
+nextrino.egg-info/top_level.txt
