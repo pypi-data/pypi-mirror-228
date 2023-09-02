@@ -1,0 +1,9 @@
+README.md
+setup.py
+tangelokit/__init__.py
+tangelokit/schema_validation.py
+tangelokit/tangelokit.py
+tangelokit.egg-info/PKG-INFO
+tangelokit.egg-info/SOURCES.txt
+tangelokit.egg-info/dependency_links.txt
+tangelokit.egg-info/top_level.txt
