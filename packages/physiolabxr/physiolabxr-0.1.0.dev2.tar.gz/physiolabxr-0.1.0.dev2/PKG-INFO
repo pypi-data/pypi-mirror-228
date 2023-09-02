@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: physiolabxr
+Version: 0.1.0.dev2
+Summary: PhysioLabXR
+Author-email: Ziheng 'Leo' Li <s-vector.lee@hotmail.com>
+Project-URL: Homepage, https://github.com/physiolabxr/physiolabxr
+Project-URL: Bug Tracker, https://github.com/physiolabxr/physiolabxr/issues
+Project-URL: Documentation, https://physiolabxrdocs.readthedocs.io/en/latest/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
