@@ -1,0 +1,10 @@
+KimariDraw/__init__.py,sha256=5sdnqqu2eO1NP7T1yRk8Vav5c59kEJVwXpTxmPCAEPk,8
+KimariDraw/kimaridraw.py,sha256=UgSeOfFwKwf2JvZo6kfQrU7II7_mxf_AX95zwffheqE,10675
+KimariDraw/draw/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+KimariDraw/draw/spectrum.py,sha256=sNzY-tWNXdqYuZEFrMOnq9t9S2KwQ47jncZDEBkwHqA,32120
+kimaridraw-2.5.2.dist-info/LICENSE,sha256=OYLtScJSEj4DSuCfLRi0-OpexBlLOBX6P7ZKmrAwn4E,1086
+kimaridraw-2.5.2.dist-info/METADATA,sha256=_xugzpot1dXPBKjcwXpF8GiCRmcn0q4jualyyP8Rfiw,11325
+kimaridraw-2.5.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+kimaridraw-2.5.2.dist-info/entry_points.txt,sha256=fXGqsWRyCq8c8s1BIrXlJA2CbPoJ0Pp3H6x3Ik8YFig,58
+kimaridraw-2.5.2.dist-info/top_level.txt,sha256=peqOG5T4fKSFa1XzFOt3Fdjiz2FwkrhEXl7aJ0L4QWo,11
+kimaridraw-2.5.2.dist-info/RECORD,,
