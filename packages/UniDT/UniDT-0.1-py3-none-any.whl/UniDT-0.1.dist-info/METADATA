@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: UniDT
+Version: 0.1
+Summary: This is the repo of UniDT 1+X Plateform.
+Author: xuli.shen
+Author-email: xuli.shen@unidt.com
+License: MIT
+Keywords: UniDT 1+X
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests
+Requires-Dist: numpy
+Requires-Dist: transformers
+
