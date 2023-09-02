@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: sati-ac
+Version: 0.1.0
+Summary: Next generation anti-captcha
+Project-URL: Homepage, https://git.sati.ac/sati.ac/sati-py
+Author-email: "sati.ac" <sati.ac@proton.me>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: websockets
+Description-Content-Type: text/markdown
+
+# sati-ac - python client for sati.ac
+[![NPM version](https://badge.fury.io/py/sati-ac.svg)](https://pypi.org/project/sati-ac)
+
+## usage example
+```py
+import asyncio
+from sati import Sati
+
+async def main():
+	sati = Sati(token)
+	print(await sati.get_balance())
+	task = await sati.solve('Turnstile',
+		siteKey = '0x4AAAAAAAHMEd1rGJs9qy-0',
+		pageUrl = 'https://polygon.sati.ac/Turnstile'
+	)
+	print(task.result.token)
+
+asyncio.run(main)
+```

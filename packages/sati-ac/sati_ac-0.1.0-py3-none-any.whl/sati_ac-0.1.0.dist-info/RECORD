@@ -1,0 +1,8 @@
+sati/__init__.py,sha256=CiPvY2N17GfobWnXAO0NkaPrDB1CACfUsghExtb1gkg,81
+sati/sati.py,sha256=8XhPgyWV8iyXTGiLjR9tQnVfAHTKQBOYdJ60rLEl6A8,2080
+sati/socket.py,sha256=FkQET4QwKETIyEzi1ewOVjSlGhLnir7n-Zi3joOW2gQ,5165
+sati/util.py,sha256=HHHMCHbU5i7DAtGqPha5iqjbUM1nbm-GDmcOHJ1naOI,292
+sati_ac-0.1.0.dist-info/METADATA,sha256=wIFhoQGf-sNR1GQCuFpxeu1SU1u1z-j1RxbqC8m1Sl8,887
+sati_ac-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+sati_ac-0.1.0.dist-info/licenses/LICENSE,sha256=GoEArl_c6bKLJIoH0zhwPUB0NsUq36t1Dov_TYDPX54,1054
+sati_ac-0.1.0.dist-info/RECORD,,
