@@ -1,0 +1,9 @@
+chrpa/__init__.py,sha256=kPxpk7xHfTqtNwer8ieH9eK86jaKKL9F2oMba8Q9jTA,24
+chrpa/main/__init__.py,sha256=pm71udoZJkmuGsm6sFR1eTAlLv9TPSBIzcKft9YLe04,55
+chrpa/main/processing.py,sha256=ewIS3kPkLGYz0YYzdedr6PI6VpkQxGBRQioNNhz1cds,20147
+chrpa/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chrpa/tests/test_chrpa.py,sha256=_HUBEVF0FqVFh_Lfeotm6LFKJF5MT0BU7GzWYNzPdjQ,6873
+chrpa-0.0.5.dist-info/METADATA,sha256=9f_oK3NhhYgFoeYFfCebsFsE35jz4xJPCxL3ip_PnGg,2000
+chrpa-0.0.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+chrpa-0.0.5.dist-info/licenses/LICENSE,sha256=OULSeKwmzELjhLXTYZV7512N50BaJ9MBue6wjLe3SvM,1063
+chrpa-0.0.5.dist-info/RECORD,,
