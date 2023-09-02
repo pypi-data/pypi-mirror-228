@@ -1,0 +1,4 @@
+typing_extensions>=4.6.1
+
+[:python_version < "3.7"]
+dataclasses
