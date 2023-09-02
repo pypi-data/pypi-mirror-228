@@ -1,0 +1,10 @@
+{
+    "domain": "cloudtik",
+    "datacenter": "{%data.center%}",
+    "data_dir": "{%data.dir%}",
+    "bind_addr": "{%bind.address%}",
+    "client_addr": "{%client.address%}",
+    "dns_config": {
+        "enable_truncate": true
+    }
+}
