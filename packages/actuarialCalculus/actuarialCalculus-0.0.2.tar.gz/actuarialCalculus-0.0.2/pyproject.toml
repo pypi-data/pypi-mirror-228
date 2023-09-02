@@ -1,0 +1,23 @@
+[build-system]
+requires = [
+    "setuptools >=42",
+    "wheel"
+]
+
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "actuarialCalculus"
+version ="0.0.2"
+dependencies = [
+    "numpy",
+    "twine"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[tool.twine]
+  username = "__token__"
+  password = "pypi-pypi-AgEIcHlwaS5vcmcCJGUzNDZhMTgyLWM0NDAtNDlmYi04NGMwLWY5OWIyMWUyMWM0NgACKlszLCIzNjk4NmE5ZS04NjQwLTRmMWQtOGJjZS1jMGYzZDMxZTY4OTYiXQAABiDofBVfhRu0KsORWLk0dpd3Knq0k976OUqVq-J99C8m4A"

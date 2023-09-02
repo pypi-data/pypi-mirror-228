@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/actuarialCalculus/Calculations.py
+src/actuarialCalculus/__init__.py
+src/actuarialCalculus.egg-info/PKG-INFO
+src/actuarialCalculus.egg-info/SOURCES.txt
+src/actuarialCalculus.egg-info/dependency_links.txt
+src/actuarialCalculus.egg-info/requires.txt
+src/actuarialCalculus.egg-info/top_level.txt
