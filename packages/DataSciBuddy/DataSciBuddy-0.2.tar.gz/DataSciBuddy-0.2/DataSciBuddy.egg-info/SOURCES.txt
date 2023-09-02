@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+DataSciBuddy/__init__.py
+DataSciBuddy/helper_functions.py
+DataSciBuddy.egg-info/PKG-INFO
+DataSciBuddy.egg-info/SOURCES.txt
+DataSciBuddy.egg-info/dependency_links.txt
+DataSciBuddy.egg-info/requires.txt
+DataSciBuddy.egg-info/top_level.txt
+DataSciBuddy/datasets/fraud_data.csv
+DataSciBuddy/datasets/house_prices.csv
