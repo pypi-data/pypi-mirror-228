@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mypypy
+Version: 0.2.0
+Summary: 
+Author: Peter Thompson
+Author-email: peter.thompson92@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/x-rst
+
+A Python to C++ compiler that uses `mypy <https://pypi.org/project/mypy/>`_ for static analysis.
+
