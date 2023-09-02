@@ -1,0 +1,5 @@
+{
+    "name": "chat_qa",
+    "version": "0.0.1",
+    "description": "A conversation  agent tailored for question answering over indexed documents."
+}
