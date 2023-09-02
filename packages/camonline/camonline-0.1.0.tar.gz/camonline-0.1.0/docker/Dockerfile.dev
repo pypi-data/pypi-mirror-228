@@ -1,0 +1,16 @@
+FROM python:3.10.13-slim-bullseye
+
+RUN apt-get update && apt-get install -y \
+    tini ffmpeg x264 libx264-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install ipython
+
+COPY . /camonline
+RUN pip install -e /camonline
+
+ENTRYPOINT ["/usr/bin/tini", "--"]
+CMD ["camonline", "start"]
+
+# docker build -t camonline:dev -f docker/Dockerfile.dev .
+# docker run --rm -it --device=/dev/video4:/dev/video0 -e TZ=Asia/Shanghai camonline:dev
