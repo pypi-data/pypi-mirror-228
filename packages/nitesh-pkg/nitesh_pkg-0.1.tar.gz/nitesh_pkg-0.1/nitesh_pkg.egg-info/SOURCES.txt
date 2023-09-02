@@ -1,0 +1,5 @@
+setup.py
+nitesh_pkg.egg-info/PKG-INFO
+nitesh_pkg.egg-info/SOURCES.txt
+nitesh_pkg.egg-info/dependency_links.txt
+nitesh_pkg.egg-info/top_level.txt
