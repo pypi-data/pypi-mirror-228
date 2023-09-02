@@ -1,0 +1,121 @@
+[tool.poetry]
+
+name = "python-anvil-encryption"
+version = "0.1"
+description = "Encrypt and decrypt payloads in Anvil (https://www.useanvil.com/)"
+license = "MIT"
+authors = ["Anvil Foundry Inc. <developers@useanvil.com>"]
+readme = "README.md"
+homepage = "https://pypi.org/project/python-anvil-encryption"
+documentation = "https://python-anvil-encryption.readthedocs.io"
+repository = "https://github.com/anvilco/python-anvil-encryption"
+keywords = [
+    "anvil",
+    "api",
+    "pdf",
+    "signing",
+    "encryption",
+]
+classifiers = [
+    # Full list here: https://pypi.org/pypi?%3Aaction=list_classifiers
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+
+[tool.poetry.dependencies]
+
+python = ">=3.7.2,<3.12"
+
+# TODO: Remove these and add your library's requirements
+click = "*"
+minilog = "*"
+cryptography = "^41.0.3"
+
+[tool.poetry.group.dev.dependencies]
+
+# Formatters
+black = "^22.1"
+tomli = "*" # missing 'black' dependency
+isort = "^5.10"
+
+# Linters
+mypy = "^1.0"
+pydocstyle = "^6.1"
+pylint = "~2.15"
+wrapt = "*" # missing 'pylint' dependency
+
+# Testing
+pytest = "^7.3"
+pytest-describe = "^2.0"
+pytest-random = "*"
+pytest-cov = "^4.1"
+freezegun = "*"
+
+# Reports
+coveragespace = "*"
+
+# Documentation
+mkdocs = "~1.3"
+pygments = "^2.11.1"
+
+# Tooling
+pyinstaller = "*"
+sniffer = "*"
+MacFSEvents = { version = "*", platform = "darwin" }
+pync = { version = "*", platform = "darwin" }
+ipython = "^7.12.0"
+pre-commit = "^2.21.0"
+
+types-setuptools = "^68.1.0.0"
+
+[tool.poetry.scripts]
+
+python-anvil-encryption = "python-anvil-encryption.cli:main"
+
+[tool.black]
+
+quiet = true
+
+[tool.isort]
+
+profile = "black"
+
+[tool.mypy]
+
+ignore_missing_imports = true
+no_implicit_optional = true
+check_untyped_defs = true
+
+cache_dir = ".cache/mypy/"
+
+[tool.pytest.ini_options]
+
+addopts = """
+--strict-markers
+
+-r sxX
+--show-capture=log
+
+--cov-report=html
+--cov-report=term-missing:skip-covered
+--no-cov-on-fail
+"""
+
+cache_dir = ".cache/pytest/"
+
+markers = []
+
+[build-system]
+
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
