@@ -1,0 +1,46 @@
+# Pipeline to promote changes between pypi repositories
+# i.e. to promote a release to the customer visible pypi (release)
+
+trigger: none
+
+resources:
+  repositories:
+  - repository: templates
+    name: dp/pipeline-templates
+    type: git
+    ref: refs/heads/master 
+
+parameters:
+- name: version
+  displayName: module version to promote
+  type: string
+  default: x.x.x
+- name: pypi
+  displayName: destination repository for component
+  type: string
+  default: pypi-stable
+  values:
+    - pypi-release
+    - pypi-stable
+    - pypi-edge
+- name: comment 
+  displayName: Comments to include alongside this promotion 
+  type: string
+  default: Promoted from Azure Devops 
+
+
+name: "Promote to repo T.B.D"
+
+extends:
+  template: deploy/python-promote.yml@templates
+  parameters:
+    componentName: $(Build.DefinitionName) 
+    version: ${{ parameters.version }} 
+    pypi: ${{ parameters.pypi }} 
+    comment: ${{ parameters.comment }}
+    ${{ if eq(parameters['pypi'], 'pypi-release') }}:
+      environment: 'production'
+    ${{ if eq(parameters['pypi'], 'pypi-stable') }}:
+      environment: 'stable'
+    ${{ if eq(parameters['pypi'], 'pypi-edge') }}:
+      environment: 'edge'

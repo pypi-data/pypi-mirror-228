@@ -1,0 +1,168 @@
+name: Build/Test/Package
+
+on:
+  workflow_call:
+    inputs:
+      version:
+        required: true
+        type: string
+
+jobs:
+
+  build:
+    name: Build Python package [${{ matrix.os }}-${{ matrix.arch }}]
+    runs-on: ${{ matrix.os }}
+    outputs:
+      amalgam-version: ${{ steps.get-amalgam-version.outputs.amalgam-version }}
+    strategy:
+      matrix:
+        arch: [amd64, arm64, all]
+        os: [ubuntu-22.04, macOS-11, windows-2022]
+        exclude:
+          - os: windows-2022
+            arch: arm64
+          - os: windows-2022
+            arch: all
+          - os: macOS-11
+            arch: all
+
+    steps:
+
+    - uses: actions/checkout@v3
+
+    - name: Get Amalgam dependency version
+      id: get-amalgam-version
+      shell: bash
+      run: |
+        AMALGAM_VERSION=$(jq -r ".dependencies.amalgam" ./version.json)
+        echo "amalgam-version=$(echo $AMALGAM_VERSION)" >> $GITHUB_OUTPUT
+        echo "AMALGAM_VERSION=$(echo $AMALGAM_VERSION)" >> $GITHUB_ENV
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.8"
+
+    - name: Install cibuildwheel
+      run: >-
+        python3 -m
+        pip install
+        cibuildwheel==2.15.0
+        build
+
+    - name: Download Amalgam linux-amd64
+      if: (matrix.os == 'ubuntu-22.04' && matrix.arch == 'amd64') || matrix.arch == 'all'
+      uses: robinraju/release-downloader@v1.8
+      with:
+        repository: "howsoai/amalgam"
+        tag: ${{ env.AMALGAM_VERSION }}
+        fileName: "*linux-amd64*"
+        extract: true
+        out-file-path: "amalgam/lib/linux/amd64"
+        token: ${{ secrets.TEMP_PAT }}
+
+    - name: Download Amalgam linux-arm64
+      if: (matrix.os == 'ubuntu-22.04' && matrix.arch == 'arm64') || matrix.arch == 'all'
+      uses: robinraju/release-downloader@v1.8
+      with:
+        repository: "howsoai/amalgam"
+        tag: ${{ env.AMALGAM_VERSION }}
+        fileName: "*linux-arm64*"
+        extract: true
+        out-file-path: "amalgam/lib/linux/arm64"
+        token: ${{ secrets.TEMP_PAT }}
+
+    - name: Download Amalgam darwin-amd64
+      if: (matrix.os == 'macOS-11' && matrix.arch == 'amd64') || matrix.arch == 'all'
+      uses: robinraju/release-downloader@v1.8
+      with:
+        repository: "howsoai/amalgam"
+        tag: ${{ env.AMALGAM_VERSION }}
+        fileName: "*darwin-amd64*"
+        extract: true
+        out-file-path: "amalgam/lib/darwin/amd64"
+        token: ${{ secrets.TEMP_PAT }}
+
+    - name: Download Amalgam darwin-arm64
+      if: (matrix.os == 'macOS-11' && matrix.arch == 'arm64') || matrix.arch == 'all'
+      uses: robinraju/release-downloader@v1.8
+      with:
+        repository: "howsoai/amalgam"
+        tag: ${{ env.AMALGAM_VERSION }}
+        fileName: "*darwin-arm64*"
+        extract: true
+        out-file-path: "amalgam/lib/darwin/arm64"
+        token: ${{ secrets.TEMP_PAT }}
+
+    - name: Download Amalgam windows-amd64
+      if: (matrix.os == 'windows-2022' && matrix.arch == 'amd64') || matrix.arch == 'all'
+      uses: robinraju/release-downloader@v1.8
+      with:
+        repository: "howsoai/amalgam"
+        tag: ${{ env.AMALGAM_VERSION }}
+        fileName: "*windows-amd64*"
+        extract: true
+        out-file-path: "amalgam/lib/windows/amd64"
+        token: ${{ secrets.TEMP_PAT }}
+
+    - name: Set up QEMU
+      if: matrix.os == 'ubuntu-22.04' && matrix.arch == 'arm64'
+      uses: docker/setup-qemu-action@v2
+      with:
+        platforms: all
+
+    - name: Clean up dir
+      if: matrix.os != 'windows-2022'
+      run: |
+        pwd
+        cd amalgam/lib
+        find . -type d -name lib -exec sh -c 'mv {}/* "$(dirname {})"' \;
+
+    - name: Build wheel [any-amd64]
+      if: matrix.arch == 'amd64' && runner.os == 'REMOVETHIS'
+      run: python3 -m cibuildwheel --platform ${{ runner.os }} --output-dir dist
+      env:
+        CIBW_BUILD_VERBOSITY: 1
+        SETUPTOOLS_SCM_PRETEND_VERSION: ${{ inputs.version }}
+
+    - name: Build wheel [Linux-arm64]
+      if: matrix.os == 'ubuntu-22.04' && matrix.arch == 'arm64' && runner.os == 'REMOVETHIS'
+      run: python3 -m cibuildwheel --platform linux --output-dir dist
+      env:
+        CIBW_ARCHS_LINUX: aarch64
+        SETUPTOOLS_SCM_PRETEND_VERSION: ${{ inputs.version }}
+
+    - name: Build wheel [MacOS-arm64]
+      if: matrix.os == 'macOS-11' && matrix.arch == 'arm64' && runner.os == 'REMOVETHIS'
+      run: python3 -m cibuildwheel --platform macos --output-dir dist
+      env:
+        CIBW_ARCHS_MACOS: arm64
+        SETUPTOOLS_SCM_PRETEND_VERSION: ${{ inputs.version }}
+
+    - name: Build generic wheel and tarball
+      if: matrix.arch == 'all'
+      run: >-
+        python3 -m
+        build
+        --sdist
+        --wheel
+        --outdir dist/
+        .
+      env:
+        SETUPTOOLS_SCM_PRETEND_VERSION: ${{ inputs.version }}
+
+    - name: Upload Tarball Artifact
+      if: matrix.arch == 'all'
+      uses: actions/upload-artifact@v3
+      with:
+        name: amalgam-lang-${{ inputs.version }}.tar.gz
+        path: dist/amalgam-lang-*.tar.gz
+        if-no-files-found: error
+
+    - name: Upload Wheel Artifact [universal]
+      if: matrix.arch == 'all'
+      uses: actions/upload-artifact@v3
+      with:
+        name: amalgam_lang-${{ inputs.version }}-py3-none-any.whl
+        path: dist/amalgam_lang-*-py3-none-any.whl
+        if-no-files-found: error
