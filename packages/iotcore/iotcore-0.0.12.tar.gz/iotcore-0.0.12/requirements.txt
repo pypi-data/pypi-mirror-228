@@ -1,0 +1,4 @@
+maturin
+django
+fastapi
+pytest
