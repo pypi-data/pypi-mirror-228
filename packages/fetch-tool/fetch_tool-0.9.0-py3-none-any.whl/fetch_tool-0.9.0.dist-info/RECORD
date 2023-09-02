@@ -1,0 +1,11 @@
+fetchtool/__init__.py,sha256=H9NWRZb7NbeRRPLP_V1fARmLNXranorVM-OOY-8_2ug,22
+fetchtool/abstract_fetch.py,sha256=JMz29uJpgiVNiCXSgtBCEuHYBQAq334CNwJ5YZ4HZqY,26122
+fetchtool/exceptions.py,sha256=AUiNbUUMdwet52PTclO0ZWpgKLedHzfkPDExdedUeoE,1065
+fetchtool/fetch_assemblies.py,sha256=bi_yqJhmVs9QVNL7pMU3Qn_0qlha4O2whsGDNI0zi9I,9554
+fetchtool/fetch_reads.py,sha256=kqfKrpUBtk6zUatGqdCt0Y0Ya_S2KLMgsnqSIR5GJ30,8576
+fetch_tool-0.9.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fetch_tool-0.9.0.dist-info/METADATA,sha256=QUGsXU3HAjHTa6ok3VnALIFS3FnJxcX9ooeS1E8QDNI,7285
+fetch_tool-0.9.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fetch_tool-0.9.0.dist-info/entry_points.txt,sha256=SNpa9SU-rMf3H1Cy-FW6bZI_hrnaNnUFqgsLH_Qdw9s,117
+fetch_tool-0.9.0.dist-info/top_level.txt,sha256=r1MtcWVNGEgtBQKKe9H9n5lpqzgJ6I0eRyBJFn7yw74,10
+fetch_tool-0.9.0.dist-info/RECORD,,

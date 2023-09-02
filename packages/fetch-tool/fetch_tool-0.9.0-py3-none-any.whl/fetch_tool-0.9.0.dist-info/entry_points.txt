@@ -1,0 +1,3 @@
+[console_scripts]
+fetch-assembly-tool = fetchtool.fetch_assemblies:main
+fetch-read-tool = fetchtool.fetch_reads:main
