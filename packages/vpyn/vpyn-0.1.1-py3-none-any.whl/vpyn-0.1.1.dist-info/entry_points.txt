@@ -1,0 +1,3 @@
+[console_scripts]
+pytalk=pytalk.cli:cli
+

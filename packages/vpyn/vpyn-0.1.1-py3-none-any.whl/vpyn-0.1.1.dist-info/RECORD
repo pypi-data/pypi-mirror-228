@@ -1,0 +1,11 @@
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytalk/__init__.py,sha256=h2TAbcI828a7D8ThC1yPKx7psTSNriQlRAjckxonepc,3665
+pytalk/__main__.py,sha256=pDhbFM3IQrE_eYmeAV9xwplJzmgbifkG21CaWXZxa_4,90
+pytalk/cli.py,sha256=zca_oojEi1fvADqKXVWF5pQ3ptYPZNTaELYBAFfEU0I,5101
+pytalk/gherkin.py,sha256=KBD9dGPXTnEJY4enDVT5yJTaluKF9QuqM-6iEd3sqFY,799
+pytalk/net.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytalk/pipeline.py,sha256=QbyKjDTbU3crKr9-c4lswlDy5J-XH50M1SImqgGvSFE,6770
+vpyn-0.1.1.dist-info/METADATA,sha256=Yu-mo751lHmmn5qgpTPm-0lqVsPszYXd1xGcMCHO2tg,312
+vpyn-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+vpyn-0.1.1.dist-info/entry_points.txt,sha256=f8YOcjIlTr91wQ6da61p4NtO9AXlv1yXMLGDU-eYDsI,41
+vpyn-0.1.1.dist-info/RECORD,,
