@@ -1,0 +1,12 @@
+dominx-0.3.0b1.dist-info/RECORD,,
+dominx-0.3.0b1.dist-info/WHEEL,sha256=Hp3KPZqrQYshC_LJJaFzC6y1haTh2q7vm4PrdofEPO4,111
+dominx-0.3.0b1.dist-info/LICENSE.txt,sha256=4puGhr9_nOcu5iGjkGJVkP3LWC2tslqWdrO8Hcm06OU,1063
+dominx-0.3.0b1.dist-info/METADATA,sha256=LG8mx3w-lB_MEHW9Slk0lpIDldjtB27lzpiVzV6XO9U,5918
+dominx-0.3.0b1.dist-info/top_level.txt,sha256=W2JgAtrUh4RL0CaPWlInd_dApzzYjssQBObWKR0y0OM,7
+dominx/flow.cpython-39-x86_64-linux-gnu.so,sha256=pPRq4lKqvESc8pdDWCsrVHCbc_En9P63QYNaLPHaVwg,36304
+dominx/__init__.py,sha256=sxZmLbdz_Z3rYyfv-YlKZbNrBhZg3HQF25jeqi7WUOE,439
+dominx/display.c,sha256=CcmnNbExOiBhkh0sdGKJAq3X7lJfGH8zsd36gn8eHNI,141
+dominx/stream.cpython-39-x86_64-linux-gnu.so,sha256=kk4ZYZud4NMBnNIoarOT4K5pRy3eRdzmkmZDYRPNWOI,36312
+dominx/stream.c,sha256=J9fI4-7GIjjI9Zb84r9IUFIAFqVFdCY-kN6qX_Akcsg,806
+dominx/flow.c,sha256=dX9Y8lcuVgE9CeOR6ktB6136nsZ2S6vSES0OUgQ9rwI,776
+dominx/display.cpython-39-x86_64-linux-gnu.so,sha256=eFjqdAayNcBYjZPQoOzHfpM0J2WcxJFRMYJXTkCe2fA,33408
