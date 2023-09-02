@@ -1,0 +1,7 @@
+README.md
+setup.py
+nova_engine.egg-info/PKG-INFO
+nova_engine.egg-info/SOURCES.txt
+nova_engine.egg-info/dependency_links.txt
+nova_engine.egg-info/requires.txt
+nova_engine.egg-info/top_level.txt

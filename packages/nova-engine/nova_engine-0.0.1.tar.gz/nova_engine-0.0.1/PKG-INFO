@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: nova_engine
+Version: 0.0.1
+Summary: Un framework de création de jeu vidéo basé sur Pygame.
+Author: Meziane Ayoub
+Author-email: <meziane.ayoub2006@gmail.com>
+Keywords: python,videogame,powerfull
+Classifier: Development Status :: 1 - Planning
+Description-Content-Type: text/markdown
+
+Simple Module
