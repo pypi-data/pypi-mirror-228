@@ -1,0 +1,8 @@
+README.md
+setup.py
+ELA/Image_ela.py
+ELA/__init__.py
+metavision.egg-info/PKG-INFO
+metavision.egg-info/SOURCES.txt
+metavision.egg-info/dependency_links.txt
+metavision.egg-info/top_level.txt
