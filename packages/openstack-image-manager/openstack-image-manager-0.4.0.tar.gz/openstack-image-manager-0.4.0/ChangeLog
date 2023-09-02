@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.4.0
+------
+
+* Unify the build\_date of all image references (#645)
