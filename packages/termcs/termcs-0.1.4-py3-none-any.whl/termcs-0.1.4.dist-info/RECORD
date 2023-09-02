@@ -1,0 +1,15 @@
+termcs/__init__.py,sha256=9YePEmSKKdr90rBRbHxtjDuC--c5aQn85_jr8g0Dt3s,51
+termcs/bottomWidget.py,sha256=oUWncYYGSK8Eec0GUbrUMI4tF4BJ03-dq9mammHB7DY,4264
+termcs/screener.py,sha256=98uO_lMnf283xqT95WNdIyC9VY_TpG_lyM8OeGBMHgk,2239
+termcs/screenerTable.py,sha256=d7jEErCry26Xiti3SRXAKMUuYYwa039SmEwP9SZWbLc,7088
+termcs/termcs.css,sha256=GIuL1JdRu8C9X2ELyPkERnqivVh5A3XzDYmEiPDxRpQ,2377
+termcs/termcs.py,sha256=BbBzxNuTMRTR9b0btvnjARS08oATL_ilfk8Vt8dgy7U,563
+termcs/topWidget.py,sha256=miSbT74sZkLrXL229GWnyo9_l2xxha25u79WsRzFLzU,642
+termcs/utils.py,sha256=634soOWsBvCigGYdYo5NXWh-Chi-LaGaJS5mOrujKCs,1511
+termcs/worker.py,sha256=Flpj1AMYVpbtBbKo45L22Dx0mW1sfr2pcgWrLNOyWbw,9550
+termcs-0.1.4.dist-info/LICENSE,sha256=IfzKXyjhdaUY95NyNTVduGP3w4OljrLp8sNFvVtDtQw,1049
+termcs-0.1.4.dist-info/METADATA,sha256=Hc96FCkLOC0-XUblOq9zLRz0KtuUjZIB0M1C3TQfoMA,6291
+termcs-0.1.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+termcs-0.1.4.dist-info/entry_points.txt,sha256=NkWOnTpWdIEv_3TpYfSHpTexvhbT_kiCfaDl5aJMwEY,38
+termcs-0.1.4.dist-info/top_level.txt,sha256=JXhCriFtvwsiVSXEtsBXJ10huTRsnVxw6WSj8QE0HaQ,7
+termcs-0.1.4.dist-info/RECORD,,
