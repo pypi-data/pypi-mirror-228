@@ -1,0 +1,7 @@
+winrt/_winrt_windows_media_apprecording.cp39-win_arm64.pyd,sha256=XekDefGpToM46R5o1ASsfQh-TTLSTYfjeEq-VdqTRoY,182784
+winrt/_winrt_windows_media_apprecording.pyi,sha256=tD_s1pnP8nRay_Fmh_SZuh_D4D94Rq0W2MAi0rBDFiw,4019
+winrt/windows/media/apprecording/__init__.py,sha256=z5SycDSOXpbbF1_bCHz-gmtffINBIzZc6CQdSEiY7uM,1030
+winrt_Windows.Media.AppRecording-2.0.0b1.dist-info/METADATA,sha256=kFl1uPUWnavvM6x0FrUay2UeVm0YOWSbXbdv5DLCaos,1177
+winrt_Windows.Media.AppRecording-2.0.0b1.dist-info/WHEEL,sha256=PrHTG687fNsk7jS4Y-tLXN-3gpnf3wReNnzEPkeWHK0,100
+winrt_Windows.Media.AppRecording-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Media.AppRecording-2.0.0b1.dist-info/RECORD,,
