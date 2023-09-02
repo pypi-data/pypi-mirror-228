@@ -1,0 +1,16 @@
+squarecloud/__init__.py,sha256=hLmjySMqfGtjQaA6qWcIErLVCFvaLlBGvAm8SMWoHIw,135
+squarecloud/app.py,sha256=MZfVxK2dg9fkewmINm7Ke9KWAyfMKOmg9dzvLQ2M_jM,11066
+squarecloud/client.py,sha256=N8UR6aqwAOkJVf-M7CRhU64ng4jjaRjnrs75VrYiCeQ,16903
+squarecloud/data.py,sha256=r9Y1nEwQfFg8SheNLxLvbDh_YGB0QgX1hJV65N21Jgk,2194
+squarecloud/errors.py,sha256=IckZMJyVUDKhGz3AVz6Lo-1LI54aVUn0jYwfwM7NOIg,841
+squarecloud/http/__init__.py,sha256=LWKYcQFw9fDYawSdXDPNYnX9_dkAfM7OUj0ywJB_C5w,80
+squarecloud/http/endpoints.py,sha256=g6Igr_KoTD3K0NDvz_gmSrlvVZ52HTtgTUjhngyDDlU,4894
+squarecloud/http/http_client.py,sha256=_0K3gp7tQ6Y4Eo6ytnXMMGKtzo1alo3dOS2SaPq7BBM,8952
+squarecloud/listener.py,sha256=x6oidrwbShDfGADLwTuwpQTMePVotR99QgIZIVCIhZ8,2097
+squarecloud/logs.py,sha256=ig7D2SBG9DtfatwprC94JWvJErfxH8slpbtDECEdfEI,1059
+squarecloud/payloads.py,sha256=bHKz5rmQamgTG_1QfuBIbf6S1jXcYctR8ncT2YD-5u8,1014
+squarecloud/square.py,sha256=Us6Oo9o_Au6xH7YleWFabdWWdqfBy9---N9a2iJJAPg,999
+squarecloud_api-3.0.3.dist-info/LICENSE,sha256=gJkD5SS7S88g-xJBSf7rgPwzWEh3-F9RRBq3r3Qtg8E,1100
+squarecloud_api-3.0.3.dist-info/METADATA,sha256=ckXdi06p3qY7d_dBAZZAmmekyI4aASlZlBNMT4MCOxs,1822
+squarecloud_api-3.0.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+squarecloud_api-3.0.3.dist-info/RECORD,,
