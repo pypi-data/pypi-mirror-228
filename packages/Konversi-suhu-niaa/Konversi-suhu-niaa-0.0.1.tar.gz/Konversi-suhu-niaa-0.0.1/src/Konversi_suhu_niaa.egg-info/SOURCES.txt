@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/Konversi_suhu/__init__.py
+src/Konversi_suhu/fahrenheit.py
+src/Konversi_suhu/kelvin.py
+src/Konversi_suhu_niaa.egg-info/PKG-INFO
+src/Konversi_suhu_niaa.egg-info/SOURCES.txt
+src/Konversi_suhu_niaa.egg-info/dependency_links.txt
+src/Konversi_suhu_niaa.egg-info/top_level.txt
