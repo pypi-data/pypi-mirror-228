@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: actuarialCalculus
+Version: 0.0.2
+Summary: a library to perform actuarial calculations
+Author: Jesus Gomez-Brana Gonzalez
+Author-email: jesus.gomezbranago@anahuac.mx
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: twine
+
+# Actuarial Calculus
+
+Welcome to the actuarial calculus library. You can download this library to perform calculation on insurance products, anuities, reserves and premiums. 
+
+## Documentation comming soon
