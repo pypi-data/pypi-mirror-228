@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: lpath-md
+Version: 0.9.5
+Summary: A user-friendly, Python tool for clustering pathways from molecular dynamics simulations.
+Author-email: Anthony Bogetti <atb43@pitt.edu>, Jeremy Leung <jml230@pitt.edu>, Lillian Chong <lchong@pitt.edu>
+Maintainer-email: Jeremy Leung <jml230@pitt.edu>
+License: MIT
+Project-URL: Source, https://github.com/jeremyleung521/lpath/
+Project-URL: Documentation, https://lpath.readthedocs.io/
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: westpa
+Provides-Extra: tui
+Provides-Extra: dev
+License-File: LICENSE
+
+![lpath_logo.png](https://raw.githubusercontent.com/chonglab-pitt/LPATH/main/logo/lpath_logo.png)
+
+Linguistics Pathway Analysis of Trajectories using Hierarchical clustering
+==============================
+[//]: # (Badges)
+[![GitHub Actions Build Status](https://github.com/jeremyleung521/lpath/workflows/CI/badge.svg)](https://github.com/jeremyleung521/lpath/actions?query=workflow%3ACI)
+[![Documentation Status](https://readthedocs.org/projects/lpath/badge/?version=latest)](https://lpath.readthedocs.io/en/latest/?badge=latest)
+[![codecov](https://codecov.io/gh/jeremyleung521/lpath/branch/main/graph/badge.svg?token=5SS08RH1MO)](https://codecov.io/gh/jeremyleung521/lpath)
+[![pre-print](https://img.shields.io/badge/pre--print-darkred)](https://www.biorxiv.org/content/10.1101/2023.08.17.553774v1)
+
+A user-friendly, Python tool for clustering pathways from molecular dynamics and weighted ensemble simulations.
+
+
+
+### Copyright
+
+Copyright (c) 2023, Anthony Bogetti, Jeremy Leung, Lillian Chong
+
+### TODO
+- [x] EXTRACT step only does WE right now, need to extend to plain MD (i.e. a states.npy)
+- [x] Usage.rst page
+- [x] example ipynbs are bare bones, need sample files
+- [x] unit testing
+- [x] extract defaults to last frame of iteration. Implement stride and actually give pcoord/auxdata to correct frame.
+- [x] command line interface/argparser
+- [x] Sphinx/Read the Docs autodoc
+- [x] Run each tool directly
+- [x] Rename Repo
+
+#### Acknowledgements
+ 
+Project based on the 
+[Computational Molecular Science Python Cookiecutter](https://github.com/molssi/cookiecutter-cms) version 1.1.
