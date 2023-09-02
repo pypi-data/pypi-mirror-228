@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: helium_cylinder
+Version: 0.1.1
+Summary: A wrapper for the Helium library, making it more user-friendly.
+Author-email: nikkie <takuyafjp+develop@gmail.com>
+License: MIT License
+Project-URL: Repository, https://github.com/ftnext/helium_cylinder
+Keywords: helium,browser,automation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# helium_cylinder
