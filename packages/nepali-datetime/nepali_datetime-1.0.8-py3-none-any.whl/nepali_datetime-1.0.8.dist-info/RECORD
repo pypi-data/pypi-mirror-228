@@ -1,0 +1,9 @@
+nepali_datetime/__init__.py,sha256=w4_u6nyaD_C32GjsEo9D2-iQzHF-iuw8MRQ_SaxYTdI,39043
+nepali_datetime/_custom_strptime.py,sha256=irw2-AFGvUXerJqVXczpvOhL8-Gy2kimeTvkHTzj4eg,12864
+nepali_datetime/config.py,sha256=D5A9oENJvg_qQ7z5-nsfShu8Uw5WRqQ4yojMlUgU5vA,289
+nepali_datetime/data/calendar_bs.csv,sha256=Reh04f0mXrwBhjIuqu9Ciqz00DpOCeB96mMZiDPHRxo,5378
+nepali_datetime-1.0.8.dist-info/METADATA,sha256=86n1tzPQkcqPVixZeGPL3tCzxVLcruxqetX_rAHpqrA,3088
+nepali_datetime-1.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+nepali_datetime-1.0.8.dist-info/license.txt,sha256=7tVvRzT-5zJtF55OMV-mx7sPsIkzumSf4exfFaFLO7s,1100
+nepali_datetime-1.0.8.dist-info/top_level.txt,sha256=AxSKEc10br4bwTjezBbugxXM1dBtGgFju8akb6MntDA,16
+nepali_datetime-1.0.8.dist-info/RECORD,,
