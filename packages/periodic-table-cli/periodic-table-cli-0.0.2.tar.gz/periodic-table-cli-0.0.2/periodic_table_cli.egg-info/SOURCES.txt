@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+periodic_table_cli/__init__.py
+periodic_table_cli/cli.py
+periodic_table_cli.egg-info/PKG-INFO
+periodic_table_cli.egg-info/SOURCES.txt
+periodic_table_cli.egg-info/dependency_links.txt
+periodic_table_cli.egg-info/entry_points.txt
+periodic_table_cli.egg-info/top_level.txt
