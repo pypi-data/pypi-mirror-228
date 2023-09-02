@@ -1,0 +1,89 @@
+[{
+	"path": "projectName",
+	"name": { "de": "Projektname", "en": "Project Name" },
+	"order": 0,
+	"class": null,
+	"minCount": 1,
+	"maxCount": 1,
+	"datatype": "xsd:string"
+},{
+	"path": "displayName",
+	"name": { "de": "Anzeigename", "en": "Display Name" },
+	"order": 1,
+	"class": null,
+	"minCount": 1,
+	"maxCount": 1,
+	"datatype": "xsd:string"
+},{
+	"path": "description",
+	"name": { "de": "Projektbeschreibung", "en": "Project Description" },
+	"order": 2,
+	"class": null,
+	"minCount": 1,
+	"maxCount": 1,
+	"datatype": "xsd:string"
+},{
+	"path": "principleInvestigators",
+	"name": { "de": "Principal Investigators", "en": "Principal Investigators" },
+	"order": 3,
+	"class": null,
+	"minCount": 1,
+	"maxCount": 1,
+	"datatype": "xsd:string"
+},{
+	"path": "startDate",
+	"name": { "de": "Projektstart", "en": "Project Start" },
+	"order": 4,
+	"class": null,
+	"minCount": 1,
+	"maxCount": 1,
+	"datatype": "xsd:date"
+},{
+	"path": "endDate",
+	"name": { "de": "Projektende", "en": "Project End" },
+	"order": 5,
+	"class": null,
+	"minCount": 1,
+	"maxCount": 1,
+	"datatype": "xsd:date"
+},{
+	"path": "disciplines",
+	"name": { "de": "Disziplin", "en": "Discipline" },
+	"order": 6,
+	"class": "Discipline",
+	"minCount": 1,
+	"maxCount": 42,
+	"datatype": "xsd:string"
+},{
+	"path": "organizations",
+	"name": { "de": "Teilnehmende Organisationen", "en": "Participating Organizations" },
+	"order": 7,
+	"class": null,
+	"minCount": 1,
+	"maxCount": 42,
+	"datatype": "xsd:string"
+},{
+	"path": "keywords",
+	"name": { "de": "Projektschlagwörter", "en": "Project Keywords" },
+	"order": 8,
+	"class": null,
+	"minCount": 0,
+	"maxCount": 1,
+	"datatype": "xsd:string"
+},{
+	"path": "visibility",
+	"name": { "de": "Sichtbarkeit der Metadaten", "en": "Metadata Visibility" },
+	"order": 9,
+	"class": "Visibility",
+	"minCount": 1,
+	"maxCount": 1,
+	"datatype": "xsd:string"
+},{
+	"path": "grantId",
+	"name": { "de": "Grant ID", "en": "Grant ID" },
+	"order": 10,
+	"class": null,
+	"minCount": 0,
+	"maxCount": 1,
+	"datatype": "xsd:string"
+}]
