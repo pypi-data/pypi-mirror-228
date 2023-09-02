@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: brickagx
+Version: 0.0.5
+Summary: Brick.AGX python interface development
+License: Apache 2.0
+Author: Algoryx
+Author-email: algoryx@algoryx.com
+Requires-Python: >=3.8,<3.10
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# brickagx
+
+brickagx contains python bindings and ReBrick libraries needed to load .brick files.
+
+## Install
+
+Prerequisites: AGX Dynamics 2.36.1.2 and AGX Dynamics License
+
+```bash
+# Latest version
+pip install agxbrick -U
+# Specific version
+pip install agxbrick==0.0.5
+```
+
+## License
+
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+
+## Usage Examples
+
+Work in progress!
+
