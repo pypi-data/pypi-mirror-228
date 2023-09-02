@@ -1,0 +1,69 @@
+{% include 'header.html' %}
+
+<div id="match-root" class="container match-root">
+  {% include 'navigation.html' %}
+  <div class="row">
+    <div class="column">
+      <h2>{{ ds.name }}</h2>
+      <ul class="details-list">
+        <li><label>Location:</label> {{ds.location}}</li>
+        <li><label>Unit:</label> {{ds.unit}}</li>
+        <li><label>Comment:</label> {{ds.comment}}</li>
+      </ul>
+      <div><input type="text" class="u-full-width" placeholder="Enter value to search" value="{{ query_string }}" id="query-string" /></div>
+      <div class="info-tableau">
+        <div class="error" id="error">Sample error text</div>
+        <div id="loader-splash" class="loader-splash bg-white full-cover"><div class="loader-spinner"></div></div>
+      </div>
+      <table id="result-table" class="fixed-table">
+        <thead>
+          <tr>
+            <th class="cell-name"><div>Activity</div></th>
+            <th class="cell-referenceProduct"><div>Product</div></th>
+            <th class="cell-location"><div>Location</div></th>
+            <th class="cell-unit"><div>Unit</div></th>
+          </tr>
+        </thead>
+        <tbody id="result-table-body">
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+{# NOTE: All reusable modules and all related stuff like css are dynamically connecting as ES6 modules, inside the code #}
+
+{# TODO: It's possible to dynamically load all required styles using `CommonHelpers.addCssStyle` method. #}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/match.css') }}">
+
+<!-- Start page scripts -->
+<script type="module">
+
+  // Core module
+  import { Match } from '/assets/modules/pages/Match/Match.js';
+
+  // Global variables (via global variable `sharedParams`)...
+  const sharedParams = {
+    searchUrlPrefix: '{{ url_for('search') }}',
+    source: '{{ ds.id }}',
+    database: '{{ config.target }}',
+    initialQueryString: '{{ query_string }}',
+    initialTableRows: {{ matches_json|safe }}, // Initial table rows...
+    originalProcess: {
+      name: '{{ ds.name }}',
+      location: '{{ ds.location }}',
+      unit: '{{ ds.unit }}',
+      comment: `{{ ds.comment|safe }}`,
+    },
+  };
+
+  {# console.log('[match:start]', sharedParams); #}
+
+  // Export to global scope (to access from generated html code handlers).
+  window.Match = Match;
+
+  // Start core module...
+  Match.start(sharedParams);
+
+</script>
+{% include 'footer.html' %}
