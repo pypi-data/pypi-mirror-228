@@ -1,0 +1,9 @@
+dask
+imageio-ffmpeg
+matplotlib
+napari
+nd2
+numpy
+pytest-qt
+scikit-image
+zarr
