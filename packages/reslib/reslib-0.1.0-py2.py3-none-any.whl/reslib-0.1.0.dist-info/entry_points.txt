@@ -1,0 +1,2 @@
+[console_scripts]
+reslib = restore_dependencies.main:main
