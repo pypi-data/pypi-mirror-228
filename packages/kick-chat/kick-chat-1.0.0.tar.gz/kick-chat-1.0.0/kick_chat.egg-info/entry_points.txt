@@ -1,0 +1,2 @@
+[console_scripts]
+kick-chat = kick_chat.main:main

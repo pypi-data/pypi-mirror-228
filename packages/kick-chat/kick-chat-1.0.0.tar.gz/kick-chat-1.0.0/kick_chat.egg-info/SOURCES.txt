@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+kick_chat/client.py
+kick_chat/constants.py
+kick_chat/main.py
+kick_chat/utils.py
+kick_chat.egg-info/PKG-INFO
+kick_chat.egg-info/SOURCES.txt
+kick_chat.egg-info/dependency_links.txt
+kick_chat.egg-info/entry_points.txt
+kick_chat.egg-info/requires.txt
+kick_chat.egg-info/top_level.txt
