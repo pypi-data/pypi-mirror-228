@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: finetuning-suite
+Version: 0.1.5
+Summary: A fine-tuning suite based on Transformers and LoRA.
+License: MIT
+Author: Kye Gomez
+Author-email: kye@apac.ai
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: accelerate
+Requires-Dist: datasets
+Requires-Dist: peft
+Requires-Dist: torch
+Requires-Dist: transformers

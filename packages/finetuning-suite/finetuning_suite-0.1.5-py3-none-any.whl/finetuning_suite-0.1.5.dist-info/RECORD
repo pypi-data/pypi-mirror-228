@@ -1,0 +1,14 @@
+finetuning_suite/__init__.py,sha256=3P_1ADW0EXAMcqlsaHy5E1ykKTpT2ChW3zzvNBqt2Gc,273
+finetuning_suite/finetuner.py,sha256=JYvU7slfmCyCHRJkAMY7dG0fWoQTgtEs7C1-D9S3-Vc,4254
+finetuning_suite/inference/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+finetuning_suite/inference/base.py,sha256=_cb65AYuQD8Ib0oGup03CmOp41TzwINUp2WolItXmiE,548
+finetuning_suite/inference/hf_model.py,sha256=Kp9mJyBr3O63s9_bee23gP-31eIflnwZSFs7xrAKjbw,2500
+finetuning_suite/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+finetuning_suite/processing/base.py,sha256=sYYtQdF134DWcZgA-841TIgkD0rp2i0S7Dg1fOoizVE,1007
+finetuning_suite/processing/build_dataset.py,sha256=EqS1jKRtsq4DSwH4nCa-l3sz5a__1X1PUumHKLwVM4g,2811
+finetuning_suite/trainer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+finetuning_suite/trainer/base.py,sha256=kdBAy6XNAmDWzPvoREu0rFplaZajx2EuFatWW2xHKpQ,1481
+finetuning_suite-0.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+finetuning_suite-0.1.5.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+finetuning_suite-0.1.5.dist-info/METADATA,sha256=3ORP6UYJNXXFrp2wqH8HMnPz_LDjSIDPrYAnut7NEDg,676
+finetuning_suite-0.1.5.dist-info/RECORD,,
