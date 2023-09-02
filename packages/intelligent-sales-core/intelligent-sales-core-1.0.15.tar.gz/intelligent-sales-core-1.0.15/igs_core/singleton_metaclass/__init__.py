@@ -1,0 +1,1 @@
+from igs_core.singleton_metaclass.singleton import SingletonMetaClass
