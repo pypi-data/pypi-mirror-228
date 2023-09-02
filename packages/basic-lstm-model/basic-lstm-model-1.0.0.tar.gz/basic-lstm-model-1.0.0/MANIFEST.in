@@ -1,0 +1,18 @@
+include *.txt
+include *.md
+include *.pkl
+recursive-include ./lstm_model/*
+
+include lstm_model/datasets/EURUSD_Candlestick_1_h_ASK_31.12.2011-31.01.2023.csv
+include lstm_model/datasets/test.csv
+include lstm_model/trained_models/*.pkl
+include lstm_model/VERSION
+include lstm_model/config.yml
+
+include ./requirements/requirements.txt
+include ./requirements/test_requirements.txt
+exclude *.log
+exclude *.cfg
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
