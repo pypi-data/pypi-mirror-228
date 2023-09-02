@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+uvdiviner/__init__.py
+uvdiviner/colorize.py
+uvdiviner/divine.py
+uvdiviner/errors.py
+uvdiviner/evolution.py
+uvdiviner/main.py
+uvdiviner/progressbar.py
+uvdiviner/settings.py
+uvdiviner/trigrams.py
+uvdiviner.egg-info/PKG-INFO
+uvdiviner.egg-info/SOURCES.txt
+uvdiviner.egg-info/dependency_links.txt
+uvdiviner.egg-info/requires.txt
+uvdiviner.egg-info/top_level.txt
