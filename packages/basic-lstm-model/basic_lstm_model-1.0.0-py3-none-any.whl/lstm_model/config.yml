@@ -1,0 +1,25 @@
+# Package Overview
+package_name: lstm_model
+
+# Data Files
+data_file: EURUSD_Candlestick_1_h_ASK_31.12.2011-31.01.2023.csv
+
+# Variables.
+#target: preciio
+pipeline_name: lstm_model
+pipeline_save_file: LSTM_pipe_saved
+
+features:
+  - Gmt time # In file
+  - Close # In file
+
+# Dates to split the serie: minimun date and train test split date.
+corte_fecha: 201212
+corte_train_test: 202208
+
+# Size of the LSTM window. Number of historical records to predict the next value
+ventana: 120 #10 días
+# Number of predictors.
+n_features: 1
+# Epochs of LSTM.
+epochs: 10
