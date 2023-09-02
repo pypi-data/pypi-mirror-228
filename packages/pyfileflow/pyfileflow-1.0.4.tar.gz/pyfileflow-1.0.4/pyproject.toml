@@ -1,0 +1,93 @@
+[tool.poetry]
+name = "pyfileflow"
+version = "1.0.4"
+description = "PyFileFlow is a Python module that organizes files in designated folders based on user-defined rules, simplifying file management tasks and maintaining a tidy file system."
+authors = ["Antonin HENON <antonin.henon@outlook.fr>"]
+readme = "README.md"
+license = "GPL-2.0-or-later"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typing-extensions = "^4.7.1"
+
+[tool.poetry.group.tests]
+optional = true
+
+[tool.poetry.group.tests.dependencies]
+pytest = "^7.4.0"
+pyfakefs = "^5.2.3"
+
+[tool.poetry.group.format]
+optional = true
+
+[tool.poetry.group.format.dependencies]
+black = "^23.7.0"
+isort = "^5.12.0"
+autoflake = "^2.2.0"
+
+[tool.poetry.group.lint]
+optional = true
+
+[tool.poetry.group.lint.dependencies]
+flake8 = "^6.1.0"
+flake8-annotations = "^3.0.1"
+flake8-black = "^0.3.6"
+flake8-isort = "^6.0.0"
+flake8-bugbear = "^23.7.10"
+flake8-bandit = "^4.1.1"
+flake8-docstrings = "^1.7.0"
+flake8-docstrings-complete = "^1.2.0"
+
+[tool.poetry.group.typeguard]
+optional = true
+
+[tool.poetry.group.typeguard.dependencies]
+typeguard = "^4.1.0"
+
+[tool.poetry.group.coverage]
+optional = true
+
+[tool.poetry.group.coverage.dependencies]
+coverage = { extras = ["toml"], version = "^7.2.7" }
+pytest-cov = "^4.1.0"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^7.2.3"
+sphinx-autodoc-typehints = "^1.24.0"
+
+[tool.poetry.group.codecov]
+optional = true
+
+[tool.poetry.group.codecov.dependencies]
+codecov = "^2.1.13"
+
+[tool.poetry.group.examples]
+optional = true
+
+[tool.poetry.group.examples.dependencies]
+pillow = "^10.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["pyfileflow"]
+
+[tool.coverage.report]
+show_missing = true
+
+[tool.autoflake]
+recursive = true
+remove-all-unused-imports = true
+ignore-init-module-imports = true
+remove-duplicate-keys = true
+ignore-pass-statements = false
+in-place = true
