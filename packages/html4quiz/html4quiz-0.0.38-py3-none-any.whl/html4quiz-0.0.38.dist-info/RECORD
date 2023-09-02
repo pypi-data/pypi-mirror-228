@@ -1,0 +1,9 @@
+html4quiz/__init__.py,sha256=pgDUy9wpFNqivurGDvU7082sU3ABFC9WAh-Jf0G9Www,73
+html4quiz/_common.py,sha256=_J80ygfUWNRtsvazqgC8OO_DzTnPtBufsPLGLKmi99I,2792
+html4quiz/_generateEm.py,sha256=S015Pb_BvkoNpoeZU9UTlXix3_RaB7obbpZoQxiCTVQ,29328
+html4quiz/_scoreEm.py,sha256=IdvSEXQeb8jmRkH9lryaxNdfJC3fMcMh17ZLIwLuO5o,11135
+html4quiz/makeChoices.py,sha256=knOYnUYE16wbpCOjPkOozhjRqITI2fWyKNCyPyoq5_s,15511
+html4quiz-0.0.38.dist-info/METADATA,sha256=RvJ4Vyhwm_HIZLf-s-EOi02CKZ3r5F40Bjf7vQ7dtL8,6835
+html4quiz-0.0.38.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+html4quiz-0.0.38.dist-info/licenses/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+html4quiz-0.0.38.dist-info/RECORD,,
