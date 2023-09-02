@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: riskhub
+Version: 0.2
+Summary: fetching URLs to any domains
+Home-page: UNKNOWN
+Author: sabarish
+Author-email: sabarishbugbounty@gmail.com
+License: UNKNOWN
+Description: ### Features
+            
+            - it's a fetching and Gathering a URLs to any domains ;
+            - reduce a timing for Gathering a URLs ;
+            - it's takeing milliseconds for fetching and Gathering a URLs ; 
+            - Support Module Loader, and Custom/define editor plugins;
+            - Support identification, interpretation for fetching URLs
+        
+        
+        # requirement to install ..
+            `$ pip3 install riskhub`
+        
+        > Follow your heart.
+        
+        # I recommends do both install pip and pip3 ..
+            `$ pip install riskhub`
+        
+        # COMMAND (help)..
+            ' riskhub -h '
+        
+        # OUTPUT COMMAND >> ' use >> this one '
+        
+        # COMMAND (OUTPUT)..
+            ' riskhub -d https://example.com/ >> output.txt ' 
+        
+        ## COMMAND (domain)..
+            ' riskhub -d https://example.com/ '
+        
+        # COMMAND (list of urls) ..
+            ' riskhub -f urls.txt '
+        
+        # COMMAND (domain with threads)..
+            ' riskhub -d https://example.com/ -t 100'
+        
+        ## COMMAND (domain with multiplex)..
+            'riskhub -d https://example.com/ -t 100 -m {proxy}'
+        
+        > instagram >> "@sabarishh4ck3r",
+        
+        > "END",
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
