@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: yt_manager
+Version: 0.1.0
+Summary: Youtube manager based on Selenium
+Home-page: https://github.com/CBoYXD/yt_manager
+Author: CBoYXD
+Author-email: python.rust.cpp@gmail.com
+License: MIT
+License-File: LICENSE
+
+# yt_manager
+Youtube manager based on Selenium
