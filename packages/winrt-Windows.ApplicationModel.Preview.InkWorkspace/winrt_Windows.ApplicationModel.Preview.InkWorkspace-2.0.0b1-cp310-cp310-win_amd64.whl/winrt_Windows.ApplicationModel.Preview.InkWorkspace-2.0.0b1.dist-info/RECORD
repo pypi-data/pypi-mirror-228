@@ -1,0 +1,7 @@
+winrt/_winrt_windows_applicationmodel_preview_inkworkspace.cp310-win_amd64.pyd,sha256=k5K0IZgsS5IjH5IHYof-5dmnsuusqujny1O9_pIuiUw,39424
+winrt/_winrt_windows_applicationmodel_preview_inkworkspace.pyi,sha256=5lxmFVac1kwO6b80qMwV_KIeMYCGEjEyuENSROVF6Nw,844
+winrt/windows/applicationmodel/preview/inkworkspace/__init__.py,sha256=UbJywsFUFRv-QXFPblr7Ry-dXeHI2dcMWUcEbA0rWrc,344
+winrt_Windows.ApplicationModel.Preview.InkWorkspace-2.0.0b1.dist-info/METADATA,sha256=y-I7K8jQdsBIgRKtGqoTntfnx7V-W-znSkHEO3nMt0Q,1172
+winrt_Windows.ApplicationModel.Preview.InkWorkspace-2.0.0b1.dist-info/WHEEL,sha256=Wb1el1iP4ORW7FiLElw7HfxLpDiHzwvd2B382b2Idl0,102
+winrt_Windows.ApplicationModel.Preview.InkWorkspace-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.Preview.InkWorkspace-2.0.0b1.dist-info/RECORD,,
