@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+variables_info/__init__.py
+variables_info/core.py
+variables_info.egg-info/PKG-INFO
+variables_info.egg-info/SOURCES.txt
+variables_info.egg-info/dependency_links.txt
+variables_info.egg-info/requires.txt
+variables_info.egg-info/top_level.txt
