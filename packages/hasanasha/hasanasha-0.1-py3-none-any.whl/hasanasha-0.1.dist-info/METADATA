@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: hasanasha
+Version: 0.1
+Home-page: https://github.com/MIVI404cyber
+Author: MR.MIVI & HASAN
+Author-email: 
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# ----[Module-Install]---- #
+pip install hasanasha
+# ----[Normal-Color-Use]---- #
+hasanasha.R = print Red Color
+hasanasha.G = print Green Color
+hasanasha.Y = print Yellow Color
+hasanasha.B = print Blue Color
+hasanasha.P = print Pink Color
+hasanasha.C = print Cyan Color
+hasanasha.W = print White Color
+hasanasha.BL = print Black Color
+# ----[Baground-Color-Use]---- #
+hasanasha.BG_R = print Baground Red Color
+hasanasha.BG_G = print Baground Green Color
+hasanasha.BG_Y = print Baground Yellow Color
+hasanasha.BG_B = print Baground Blue Color
+hasanasha.BG_P = print Baground Pink Color
+hasanasha.BG_C = print Bagrount Cyan Color
+hasanasha.BG_W = print Baground White Color
+# ----[Resset-Color]---- #
+hasanasha.N = Bagrount Color End
+# ----[Use-Mix-8-Color]---- #
+hasanasha.mix_color = print mix 8 color
+# ----[Advance-Option]---- #
+hasanasha.os = os.system
+hasanasha.ts = time.sleep
+hasanasha.rc = hasanasha
+hasanasha.rr = random.randint
+hasanasha.op = open
+hasanasha.pr = print
+hasanasha.rqg = requests.get
+hasanasha.rqp = requests.post
+hasanasha.seg = session.get
+hasanasha.sep = session.post
+hasanasha.syw = sys.stdout.write
+hasanasha.syf = sys.stdout.flush
+# ----[Logo-Use]---- #
+hasanasha.logo1 = main logo print
+hasanasha.logo2 = logo details ptint
+# ----[Line-Use]---- #
+hasanasha.linex1 = face down line print
+hasanasha.linex2 = face up line print
+hasanasha.linex3 = normaly line print
