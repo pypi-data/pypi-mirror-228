@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "poetry_request_spoofing_plugin"
+version = "1.0.1a0"
+description = "Plug-in that goes to replace the poetry requests user agent header"
+authors = ["Marius Tricolici <antonio-marius.tricolici@prolion.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+poetry = "^1.2"
+
+[tool.poetry.plugins."poetry.plugin"]
+request_spoofer = "poetry_request_spoofing_plugin.plugin:SpooferPlugin"
