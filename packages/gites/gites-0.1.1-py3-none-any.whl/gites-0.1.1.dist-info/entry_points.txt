@@ -1,0 +1,2 @@
+[console_scripts]
+gites-lpush = my_package.cli:cli_lpush
