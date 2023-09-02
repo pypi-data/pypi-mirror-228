@@ -1,0 +1,3 @@
+[console_scripts]
+python-anvil-encryption=python-anvil-encryption.cli:main
+
