@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gites/__init__.py
+gites/cli.py
+gites.egg-info/PKG-INFO
+gites.egg-info/SOURCES.txt
+gites.egg-info/dependency_links.txt
+gites.egg-info/entry_points.txt
+gites.egg-info/top_level.txt
