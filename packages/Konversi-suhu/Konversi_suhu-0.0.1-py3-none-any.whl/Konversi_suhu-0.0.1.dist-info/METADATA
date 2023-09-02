@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Konversi-suhu
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://gitlab.com/kurnia_endah/pelatihan_bmkg.git
+Author: Kurnia Endah Komalasari
+Author-email: Kurnia Endah Komalasari <kurniaendah.ks@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+konversi suhu berisi:
+1. Konversi suhu derajat celcius ke derajat Fahrenheit
+2. Konversi suhu derajat celcius ke derajat kelvin
+
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
