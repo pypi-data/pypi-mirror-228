@@ -1,0 +1,9 @@
+[console_scripts]
+ulog2csv = pysulog.ulog2csv:main
+ulog2kml = pysulog.ulog2kml:main
+ulog2rosbag = pysulog.ulog2rosbag:main
+ulog_extract_gps_dump = pysulog.extract_gps_dump:main
+ulog_info = pysulog.info:main
+ulog_messages = pysulog.messages:main
+ulog_migratedb = pysulog.migrate_db:main
+ulog_params = pysulog.params:main

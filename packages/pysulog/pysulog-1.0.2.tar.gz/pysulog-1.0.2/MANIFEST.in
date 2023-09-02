@@ -1,0 +1,4 @@
+include versioneer.py
+include pysulog/_version.py
+include LICENSE.md
+recursive-include pysulog/sql *
