@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+suprconfig/__init__.py
+suprconfig/config.py
+suprconfig.egg-info/PKG-INFO
+suprconfig.egg-info/SOURCES.txt
+suprconfig.egg-info/dependency_links.txt
+suprconfig.egg-info/not-zip-safe
+suprconfig.egg-info/top_level.txt
