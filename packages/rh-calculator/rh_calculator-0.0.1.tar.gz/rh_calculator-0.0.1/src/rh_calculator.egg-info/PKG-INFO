@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: rh-calculator
+Version: 0.0.1
+Summary: relative humidity calculator
+Home-page: https://github.com/ratnasatya/training_bmkg/
+Author: Ratna
+Author-email: ratnasat@gmail.com
+License: UNKNOWN
+Description: README.md
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text
