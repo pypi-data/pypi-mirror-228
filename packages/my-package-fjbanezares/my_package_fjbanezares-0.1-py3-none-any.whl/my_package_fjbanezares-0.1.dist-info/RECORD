@@ -1,0 +1,7 @@
+my_module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_module/some_code.py,sha256=hHvYGcf63YRpg8EX5DaemZHsy6ZvF5MojFVmqWSf9mE,90
+my_package_fjbanezares-0.1.dist-info/METADATA,sha256=Ej7NkH1isRvxGEoJiIqOk40bY7_3O-aNyyZBZGPf_dU,218
+my_package_fjbanezares-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+my_package_fjbanezares-0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+my_package_fjbanezares-0.1.dist-info/top_level.txt,sha256=Bb4StK_Ok35CKigqwdRKkqwksAiQ5EkxG1eu5wTtsPE,10
+my_package_fjbanezares-0.1.dist-info/RECORD,,
