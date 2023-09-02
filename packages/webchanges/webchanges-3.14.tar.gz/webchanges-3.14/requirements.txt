@@ -1,0 +1,12 @@
+backports.zoneinfo; python_version < "3.9"
+colorama; os_name == "nt"
+cssselect
+html2text
+lxml
+markdown2
+msgpack
+platformdirs
+pyyaml
+requests
+tzdata; os_name == "nt"
+urllib3
