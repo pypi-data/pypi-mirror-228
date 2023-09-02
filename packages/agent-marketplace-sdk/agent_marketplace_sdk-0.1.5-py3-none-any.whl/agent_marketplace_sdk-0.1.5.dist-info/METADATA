@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: agent-marketplace-sdk
+Version: 0.1.5
+Summary: Agent Marketplace API Client
+Home-page: 
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+Keywords: OpenAPI,OpenAPI-Generator,Marketplace API
+Requires-Python: >=3.7
+Requires-Dist: certifi >=14.5.14
+Requires-Dist: frozendict ~=2.3.4
+Requires-Dist: python-dateutil ~=2.7.0
+Requires-Dist: setuptools >=21.0.0
+Requires-Dist: typing-extensions >=4.3.0
+Requires-Dist: urllib3 >=1.26.7
+
+    An API client for the AI Maintainer Marketplace  # noqa: E501
+    
