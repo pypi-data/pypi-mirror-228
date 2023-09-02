@@ -1,0 +1,70 @@
+{
+    "proxies": {
+      "http": "",
+      "https": ""
+    },
+    "servers": [
+	{
+          "type": "http",
+          "name": "esa_legacy",
+          "host": "http://navigation-office.esa.int",
+          "path": "products/gnss-products/__wk__",
+          "templatefinal": "esa__wk____wd__.sp3.Z",
+          "templaterapid": "esr__wk____wd__.sp3.Z",
+          "templateultra": "esu__wk____wd___%02d.sp3.Z"
+        },
+        {
+          "type": "http",
+          "name": "esa",
+          "host": "http://navigation-office.esa.int",
+          "path": "products/gnss-products/__wk__",
+          "templatefinal": "ESA0OPSFIN___yyyy____doy____hh____mm___01D_05M_ORB.SP3.gz",
+          "templaterapid": "ESA0OPSRAP___yyyy____doy____hh____mm___01D_15M_ORB.SP3.gz",
+          "templateultra": "ESA0OPSULT___yyyy____doy____hh____mm___02D_15M_ORB.SP3.gz"
+        },
+        {
+          "type": "http",
+          "name": "esa_cddis_http",
+          "host": "https://cddis.nasa.gov",
+          "path": "archive/gnss/products/__wk__",
+          "templatefinal": "ESA0OPSFIN___yyyy____doy____hh____mm___01D_05M_ORB.SP3.gz",
+          "templaterapid": "ESA0OPSRAP___yyyy____doy____hh____mm___01D_15M_ORB.SP3.gz",
+          "templateultra": "ESA0OPSULT___yyyy____doy____hh____mm___02D_15M_ORB.SP3.gz"
+        },
+        {
+          "type": "http",
+          "name": "cod_cddis_http",
+          "host": "https://cddis.nasa.gov",
+          "path": "archive/gnss/products/__wk__",
+          "templatefinal": "COD0OPSFIN___yyyy____doy____hh____mm___01D_05M_ORB.SP3.gz",
+          "templaterapid": "COD0OPSRAP___yyyy____doy____hh____mm___01D_05M_ORB.SP3.gz",
+          "templateultra": "COD0OPSULT___yyyy____doy____hh____mm___02D_05M_ORB.SP3.gz"
+        },
+        {
+          "type": "ftp-ssl",
+          "name": "esa_cddis_ftpssl",
+          "host": "gdc.cddis.eosdis.nasa.gov",
+          "path": "pub/gnss/products/__wk__",
+          "templatefinal": "ESA0OPSFIN___yyyy____doy____hh____mm___01D_05M_ORB.SP3.gz",
+          "templaterapid": "ESA0OPSRAP___yyyy____doy____hh____mm___01D_15M_ORB.SP3.gz",
+          "templateultra": "ESA0OPSULT___yyyy____doy____hh____mm___02D_15M_ORB.SP3.gz"
+        },
+        {
+          "type": "ftp-ssl",
+          "name": "cod_cddis_ftpssl",
+          "host": "gdc.cddis.eosdis.nasa.gov",
+          "path": "pub/gnss/products/__wk__",
+          "templatefinal": "COD0OPSFIN___yyyy____doy____hh____mm___01D_05M_ORB.SP3.gz",
+          "templaterapid": "COD0OPSRAP___yyyy____doy____hh____mm___01D_05M_ORB.SP3.gz",
+          "templateultra": "COD0OPSULT___yyyy____doy____hh____mm___02D_05M_ORB.SP3.gz"
+        },
+        {
+          "type": "ftp-ssl",
+          "name": "brdc_cddis_ftpssl",
+          "host": "gdc.cddis.eosdis.nasa.gov",
+          "path": "pub/gnss/data/__yyyy__/__doy__/__yy__p",
+          "templatedaily": "BRDC00IGS_R___yyyy____doy____hh____mm___01D_MN.rnx.gz",
+          "templatehourly": "BRDC00IGS_R___yyyy____doy____hh____mm___01H_MN.rnx.gz"
+        }
+    ]
+}

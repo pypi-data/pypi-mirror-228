@@ -1,0 +1,242 @@
+# GnssToolbox - Python package for GNSS learning
+
+## Installation
+
+This package requires Python 3
+
+Required packages : 
+
+* gpsdatetime - https://pypi.org/project/gpsdatetime/ (J. Beilin - ENSG)
+* re
+* math
+* numpy
+* copy
+* time
+* os
+* json
+* from operator import attrgetter
+
+Installation is accomplished from the command line.
+
+* From pypi
+
+```
+user@desktop$pip3 install pygnsstoolbox
+```
+
+* From package source directory
+
+```
+user@desktop$~/gnsstoolbox$ python3 setup.py install
+```
+
+For usage see gnsstoolbox cheatsheet and beamer slides shipped with the package. 
+
+## Import modules
+
+```python
+""" Ephemerides management """
+import gnsstoolbox.orbits as orb
+
+""" GNSS data (rinex "o" files) """ 
+import gnsstoolbox.rinex_o as rx
+
+""" Processing tools (rotations, coordinate conversions...) """
+import gnsstoolbox.gnsstools as tools
+
+""" Code processing """
+import gnsstoolbox.gnss_process as proc
+
+""" Constantes utiles """
+import gnsstoolbox.gnss_const as const
+
+""" Corrections (troposphere, antennas...) """
+import gnsstoolbox.gnss_corr as corr
+```
+
+## gnss_const
+
+| Constant | Description | Unit |
+| :- |:- | :- |
+|c| celerity | 299792458.0 m/s |
+|f1| frequency L1 gps | 1.57542 GHz |
+|f2| frequency L2 gps | 1.22760 GHz |
+|f5| frequency L5 gps | 1.17645 GHz |
+
+## orbits
+
+### Structure
+
+Orbit class contains all orbits informations :
+
+* NAV\_dataG : GPS navigation message
+* NAV\_dataE : Galileo navigation message
+* NAV\_dataR : Glonass navigation message
+* G : GPS precise orbits
+* E : Galileo precise orbits
+* R : Glonass precise orbits
+
+### Data loading
+
+* Broadcast ephemerides loading  (*.yyn ou *.yyg)
+
+```python
+Orb = orbits.orbit()
+Orb.loadRinexN('brdm1500.13p')  
+```
+
+
+* Precise ephemerides loading (*.sp3)
+
+```python
+Orb = orbits.orbit()
+Orb.loadSp3(['igs17424.sp3','igl17424.sp3','grm17424.sp3'])
+```
+or 
+
+```python
+Orb.loadSp3('igs17424.sp3') 
+```
+
+### Data access
+
+* Get broadcast ephemerides for a satellite at an instant mjd 
+
+```python
+Eph = Orb.getEphemeris(constellation,PRN,mjd)
+try:
+	print("TOC : ",Eph.tgps.st_iso_epoch())
+except:
+	print("Unable to find satellite")	
+```
+	
+* Get all precise ephemerides for a satellite
+	
+
+```python
+(orb,nl) = Orb.getSp3('G',5) 
+
+# Satellite GPS, PRN 5
+# 'G' : GPS, 'E' : Galileo, 'R' : Glonass
+
+X = orb[:,1] # X coordinates at all sp3 epochs
+Y = orb[:,2]
+Z = orb[:,3]
+```
+
+### Satellite coordinates processing
+
+Process of ECEF coordinates and clock error (dte) for a satellite given by its constellation ('G','E','R'), its PRN, an instant mjd and et possibly a degree for Lagrange processing (precise orbits).
+
+```python
+X, Y, Z, dte = Orb.calcSatCoord(const,PRN,mjd,degree)
+```
+
+A debug class object is implemented during coordinate processing. It contains all intermediaries results.
+
+In order to get its attributes : 
+
+```python
+print(Orb.debug.__dict__)
+```
+
+## Module Rinex_o
+
+
+### Data loading
+
+Loading observation Rinex file (*.yyo)
+
+```python
+Rnx = rx.rinex_o()
+Rnx.loadRinexO('smne1500.13o') 
+```
+
+### Data access
+
+* Get epoch object for a given MJD :
+```python
+t=gpst.gpsdatetime()
+t.rinex_t('13  5 30  1  0 30.0000000')
+Ep = Rnx.getEpochByMjd(t.mjd)
+```
+* Get header object for a given MJD :
+```python
+Hd = Rnx.getHeaderByMjd(t.mjd)
+```
+* Get attribute from any header
+```python
+X0 = Hd.X
+```
+* Print all header or epoch informations
+```python
+print(Hd)
+print(Ep)
+```
+* Get any observable from an epoch :
+```python
+C1 = Ep.getObs("C1","G", 31)
+```
+or 
+```python
+S = Ep.getSat("G", 31)
+C1 = S.getObs("C1")
+```
+or (only for C/A code) 
+
+```python
+C1 = Ep.getSat("G", 31).C1
+```
+* Get all common data for 2 datasets at a given MJD
+```python
+Ep_base,Ep_rover = rinex_base.getCommonEpochs(rinex_rover, 56442)
+```
+
+
+## gnsstools
+
+
+* toolGeoCartGRS80 : geographic to cartesian coordinates conversion. All angles should be given in radians.
+
+```python
+X,Y,Z = tools.toolGeoCartGRS80(lon,lat,h)
+```
+* toolCartGeoGRS80 : cartesian to geographic coordinates conversion. All angles are given in radians.
+```python
+lon,lat,h = tools.toolCartGeoGRS80(X,Y,Z)
+```
+* toolCartLocGRS80 : cartesian to topocentric coordinates conversion.
+```python
+x, y, z = tools.toolCartLocGRS80(X0,Y0,Z0,X,Y,Z)
+```
+* toolAzEle : azimut and elevation (radians) for one or several satellites Xs,Ys,Zs (scalar or vector) seen from a point with X,Y,Z  coordinates.
+```python
+Az, Ele = tools.toolAzEle(X,Y,Z,Xs,Ys,Zs)
+```
+* toolRotX, toolRotY, toolRotZ : alpha radians rotation around X, Y ou Z axis.
+```python
+X,Y,Z =  tools.toolRotX(X,Y,Z,alpha)
+```
+
+## gnss_process
+
+
+* TrilatGps : trilateration wtih 4 parameters (X,Y,Z,cdtr)
+```python
+X,Y,Z,cdtr,sigma0_2,V,Qxx = trilatGps(PosSat,Dobs,X0)
+```
+* TrilatGnss : trilateration à 4,5 ou 6 parameters (X,Y,Z,cdtr,[cGGTO,cGPGL])
+```python
+X,Y,Z,cdtr,cGGTO,cGPGL,sigma0_2,V,Qxx =  trilatGnss(PosSat,Dobs,X0,sat_index)
+```
+* TrilatGnssPonderationElev : trilateration à 4,5 ou 6 parameters (X,Y,Z,cdtr,[cGGTO,cGPGL]) avec with weighting given from elevation of each satellite.
+```python
+X,Y,Z,cdtr,cGGTO,cGPGL,sigma0_2,V,Qxx =  trilatGnssPonderationElev(PosSat,Dobs,X0,sat_index,ElevSat)
+```
+
+
+# Licence
+
+Copyright (C) 2014-2023, Jacques Beilin - ENSG-Geomatics
+
+Distributed under terms of the CECILL-C licence.
