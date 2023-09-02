@@ -1,0 +1,7 @@
+winrt/_winrt_windows_media_playlists.cp310-win32.pyd,sha256=-_WR2FEHK1N4WOhwXIlYjz3ecQWU5agV94IbRwzBAbo,102912
+winrt/_winrt_windows_media_playlists.pyi,sha256=4gLfROtL-zvyRDZwhGoh9L1MGLzGppE3S0d5XR6wmTo,1616
+winrt/windows/media/playlists/__init__.py,sha256=JZ7yLaje5r8EIk9CtAxtZZjOrHueMrTu9nK96PZoWDo,359
+winrt_Windows.Media.Playlists-2.0.0b1.dist-info/METADATA,sha256=1nOOn6JspfzLxG4_DK4orgyCdldvOsi1q6tX-45W3Eg,1165
+winrt_Windows.Media.Playlists-2.0.0b1.dist-info/WHEEL,sha256=Q1-Z25IsdIUCF8Kl3jXp4n4gR3PTk0L0l5G6bg-dz_s,98
+winrt_Windows.Media.Playlists-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Media.Playlists-2.0.0b1.dist-info/RECORD,,
