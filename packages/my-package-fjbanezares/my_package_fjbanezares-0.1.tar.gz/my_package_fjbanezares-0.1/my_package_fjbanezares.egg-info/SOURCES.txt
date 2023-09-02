@@ -1,0 +1,8 @@
+setup.py
+my_module/__init__.py
+my_module/some_code.py
+my_package_fjbanezares.egg-info/PKG-INFO
+my_package_fjbanezares.egg-info/SOURCES.txt
+my_package_fjbanezares.egg-info/dependency_links.txt
+my_package_fjbanezares.egg-info/entry_points.txt
+my_package_fjbanezares.egg-info/top_level.txt
