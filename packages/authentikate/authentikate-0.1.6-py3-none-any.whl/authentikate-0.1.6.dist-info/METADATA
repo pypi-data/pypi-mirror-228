@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: authentikate
+Version: 0.1.6
+Summary: 
+License: MIT
+Author: jhnnsrs
+Author-email: jhnnsrs@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: django-guardian (>=2.4.0,<3.0.0)
+Requires-Dist: pydantic (<2)
+Requires-Dist: pyjwt (>=2.8.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# placeholder for now
+
