@@ -1,0 +1,8 @@
+krules_dev/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+krules_dev/sane_utils/__init__.py,sha256=q2CKrPhcaVzDdzqclisGSQUuvLGf8wDgPpo2U8Esz9A,2281
+krules_dev/sane_utils/base.py,sha256=tovtV0PiIZUhwN7kxsJLZbSFMEYB6vfN26ScW8NtAp0,23737
+krules_dev/sane_utils/google.py,sha256=Y4L5fVqvko6lS4cgSt3AE4r6MoHQW5nCY2AahiimCgA,16230
+krules_dev_support-0.12.12.dist-info/LICENSE,sha256=Fdyrc0aekdLER0TCgi6oaHBhFYmvj-8UCefD_E21fn0,11341
+krules_dev_support-0.12.12.dist-info/METADATA,sha256=ABEmb1CLk1kHnUfvw4yB5kQ9XFsuYGVtV98KOqQUilM,918
+krules_dev_support-0.12.12.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+krules_dev_support-0.12.12.dist-info/RECORD,,
