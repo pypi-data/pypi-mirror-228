@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: splunkr
+Version: 0.0.9
+Summary: OG From https://github.com/georgestarcher/Splunk-Class-httpevent/blob/master/splunk_http_event_collector.py
+Home-page: https://github.com/franceme/splunkr
+Author: Miles Frantz
+Author-email: frantzme@vt.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+
+# FROM https://github.com/georgestarcher/Splunk-Class-httpevent/
+
