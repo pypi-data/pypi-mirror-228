@@ -1,0 +1,3 @@
+attrs
+cattrs>=23.1.2
+portalocker

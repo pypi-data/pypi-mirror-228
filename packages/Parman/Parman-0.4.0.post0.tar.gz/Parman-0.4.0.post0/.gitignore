@@ -1,0 +1,11 @@
+__pycache__
+*.egg-info
+dist
+build
+.pytest_cache
+.coverage
+.ruff_cache
+env
+tmp
+.envrc
+src/parman/_version.py
