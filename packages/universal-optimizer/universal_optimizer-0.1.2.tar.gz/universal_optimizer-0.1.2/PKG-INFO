@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: universal-optimizer
+Version: 0.1.2
+Summary: Universal Optimizer Library
+License: Apache 2.0
+Author: Vladimir Filipovic
+Author-email: vladofilipovic@hotmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Universal optimizer - Optimization algorithms library
+
+
+[Index](/docs/build/html/index.html)
+
+---
+
+[Implemented algorithm](/docs/build/html/implemented_algorithms.html)
+
+---
+This software is published under [Apache License 2.0](LICENSE)
