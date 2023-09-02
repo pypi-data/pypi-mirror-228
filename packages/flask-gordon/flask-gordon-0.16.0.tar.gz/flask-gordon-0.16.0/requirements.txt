@@ -1,0 +1,6 @@
+# vim: ft=conf
+#
+# connexion[swagger-ui] 2.14.2 depends on flask<2.3 and >=1.0.4
+flask>=2.2.0
+pyyaml
+torxtools>=1.0.4

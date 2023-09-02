@@ -1,0 +1,10 @@
+include LICENSE
+include README.md
+include pyproject.toml
+include requirements*.txt
+include constraints.txt
+include setup.*
+recursive-include flask_gordon *.py
+prune bin
+prune docs
+prune tests
