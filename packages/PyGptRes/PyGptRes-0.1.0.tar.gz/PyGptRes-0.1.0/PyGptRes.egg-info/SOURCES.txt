@@ -1,0 +1,7 @@
+LICENCE.md
+README.md
+setup.py
+PyGptRes.egg-info/PKG-INFO
+PyGptRes.egg-info/SOURCES.txt
+PyGptRes.egg-info/dependency_links.txt
+PyGptRes.egg-info/top_level.txt
