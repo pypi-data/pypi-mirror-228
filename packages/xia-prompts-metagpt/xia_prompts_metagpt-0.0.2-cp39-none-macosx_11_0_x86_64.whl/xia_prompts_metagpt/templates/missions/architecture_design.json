@@ -1,0 +1,40 @@
+{
+  "domain": "software",
+  "skill": "architect",
+  "contexts": [
+    "requirements/original_requirements",
+    "requirements/requirement_analysis",
+    "requirements/product_goals"
+  ],
+  "tasks": [
+    {
+      "type": "Task",
+      "name": "design/python_package_name",
+      "title": "Python Package Name",
+      "required_contexts": [
+        "requirements/original_requirements",
+        "requirements/product_goals"
+      ]
+    },
+    {
+      "type": "Task",
+      "name": "design/data_structures",
+      "title": "Data Structures Definitions",
+      "required_contexts": [
+        "requirements/original_requirements",
+        "requirements/requirement_analysis",
+        "requirements/product_goals"
+      ]
+    },
+    {
+      "type": "Task",
+      "name": "design/data_list",
+      "title": "Data Class List",
+      "required_contexts": [
+        "requirements/original_requirements",
+        "requirements/requirement_analysis",
+        "requirements/product_goals"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{% block format %}
+```mermaid
+classDiagram
+    class Game{
+        +int score
+    }
+    Game "1" -- "1" Food: has
+```
+{% endblock %}
+
+{% block guide %}
+1. The data structure should focus on the backend part WITHOUT UI part
+2. DON'T including authorization classes like Role or Permission
+3. Only attributes and relationships are needed
+3. Use mermaid classDiagram code syntax
+4. CLEARLY MARK the RELATIONSHIPS between classes, and comply with PEP8 standards.
+5. The data structures SHOULD BE VERY DETAILED
+{% endblock %}
