@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ichain
+Version: 0.1.3
+Summary: Interactive tool to build LLM chains.
+License: MIT
+Author: Shreya Shankar
+Author-email: ss.shankar505@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ipython (>=8.15.0,<9.0.0)
+Requires-Dist: openai (>=0.28.0,<0.29.0)
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Requires-Dist: rich (>=13.5.2,<14.0.0)
+Requires-Dist: tenacity (>=8.2.3,<9.0.0)
+Description-Content-Type: text/markdown
+
+# IChain: Interactive Chain-Building for LLMs
+
+Main features:
+
+- Ability to cheaply and interactively build a chain of LLM calls
+- Ability to integrate LLM results with regular Python functions
+- Ability to evaluate LLM chains on many examples in parallel
+
