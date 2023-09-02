@@ -1,0 +1,9 @@
+domplus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+domplus/finance.py,sha256=vvbS4fvx9cn3atYzUCnkmnkAKJbG47pL8lJMDaiiMMo,752
+domplus/gov/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+domplus/gov/br/__init__.py,sha256=3PaNEOCyVBQsB2S-YGRfAu6GH6nJnh7emsQ4zDcsabE,47
+domplus/gov/br/br.py,sha256=-8GSul7ln55gDz8_5IpxH_xK6M2c1WIJTAPlysFDE58,3351
+domplus-1.0.0.dist-info/LICENSE,sha256=DS-rqdc8wqdRXI4O6z-0pwkKKFb3KLTEaQ13Vcit5V0,1075
+domplus-1.0.0.dist-info/METADATA,sha256=eyVRKSmqFyspH6eI1gL5gmUFNCFokO4eLvnr8SQbQb8,5651
+domplus-1.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+domplus-1.0.0.dist-info/RECORD,,
