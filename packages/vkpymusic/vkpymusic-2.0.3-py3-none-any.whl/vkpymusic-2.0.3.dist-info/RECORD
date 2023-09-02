@@ -1,0 +1,12 @@
+vkpymusic/Client.py,sha256=5UXBgzrKCYcPJyRI_REBST33DCRE3kq7pmrNrHYIVEY,430
+vkpymusic/Logger.py,sha256=o0DfLbiVCw4eJ1a1YXUTID7d0YfJdk8GwSEVlxf6C7Y,1078
+vkpymusic/Playlist.py,sha256=8mIkZR2q4YZd3LOUiTfoj_AvjxRjnLx9g2SCeWMt84A,753
+vkpymusic/Service.py,sha256=NiAYfg_7jEBKXyNzW65QV2MLHXCGFx-urUnL2b-H1lA,13853
+vkpymusic/Song.py,sha256=Y3lDF9JpcgCF-dJe_UVQmfysRRq8U6ix3_P9FXc4hyc,1209
+vkpymusic/TokenReceiver.py,sha256=7GaL1R-M9dsaEHIjbVefXmP3lERTM_Tlb2ZA9ghJvtg,7495
+vkpymusic/__init__.py,sha256=-t7BsXJbg5MxbyOntNJQWAEMarZxyo_T42KB-2so4is,153
+vkpymusic-2.0.3.dist-info/LICENSE,sha256=C0bUHLulmwZf1_d27---9Ru8bVrhRQJMJuvyRe2alkY,1077
+vkpymusic-2.0.3.dist-info/METADATA,sha256=DeYTfRgQ-KMaRf4HQQiyViRRm_D4XX9IqGU9Ey9BzaY,6201
+vkpymusic-2.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+vkpymusic-2.0.3.dist-info/top_level.txt,sha256=UXgvdnncX_oes319d6nkaYW9AlSslKUlziwf-3_EWrg,10
+vkpymusic-2.0.3.dist-info/RECORD,,
