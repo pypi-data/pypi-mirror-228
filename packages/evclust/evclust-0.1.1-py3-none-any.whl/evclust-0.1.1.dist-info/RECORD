@@ -1,0 +1,16 @@
+evclust/__init__.py,sha256=yD1fADOzlf5yDmB4v-1DnWlZZx7cEA_HD2fa_G2Urns,80
+evclust/cat-ecm.py,sha256=_1tbofq6628tdSqGvGVtbv1BvvD8YPqkFetuGlNzjIU,267
+evclust/cecm.py,sha256=NH17EeUz6Yh7nbYRLWRjM1vWj77YF9ZKosfE22q0nwg,9178
+evclust/datasets/decathlon.csv,sha256=HaKLTkOUdwFQw1FksWfLw5OhCe6CYgEcTwQZzBe0pBI,3582
+evclust/datasets/edol.csv,sha256=UusWEVQ4W0YwCXmcuTNymeMHdtpHAz34DcqpxFfTo_w,10945
+evclust/datasets/iris.csv,sha256=u1dR8Gi_IY2eoIidDaGkyNBW2q6avhek8EdGl1-fJWM,3716
+evclust/datasets.py,sha256=L_WbxDaKW2wiKUDP1AbwrYhYAa-uriu8LHjR930MN9g,1020
+evclust/ecm.py,sha256=1LU4o6kOG3eVSkY8DFiu53kFly-7GE6kuUxwZdyFxV0,7654
+evclust/ecmplus.py,sha256=YpPDAaFYYY4eXRKuPTZV_bAb6p0hRj9EHOFg5TftaQA,256
+evclust/mrecm.py,sha256=NqKM439hmD_q5ic2w_jdCizjbyjpV9eaYumzahSDdr0,272
+evclust/recm.py,sha256=I0srLVp_Vgqp-evpw-XB5jUgL9hj9tpUwBhSA0_IrlQ,7779
+evclust/utils.py,sha256=eVxtFgQzMtCSDNXzEm6kXvuc0CkP5Izc1_jardyfaMA,32817
+evclust-0.1.1.dist-info/LICENSE,sha256=GEWilg83bM6uO7ny18CMup1L8vO0nAIsNKkoRfhDcWk,1078
+evclust-0.1.1.dist-info/METADATA,sha256=nkxmBL_VK18YlfLTX8csrDs2gmGWgnZQRotN0Fv4z3o,4475
+evclust-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+evclust-0.1.1.dist-info/RECORD,,
