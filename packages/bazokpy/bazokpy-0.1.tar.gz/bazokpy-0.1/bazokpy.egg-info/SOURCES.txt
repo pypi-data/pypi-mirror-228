@@ -1,0 +1,5 @@
+bazokpy.egg-info/PKG-INFO
+bazokpy.egg-info/SOURCES.txt
+bazokpy.egg-info/dependency_links.txt
+bazokpy.egg-info/requires.txt
+bazokpy.egg-info/top_level.txt
