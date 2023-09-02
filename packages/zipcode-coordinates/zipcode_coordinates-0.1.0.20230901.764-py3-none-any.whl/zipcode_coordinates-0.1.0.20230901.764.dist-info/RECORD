@@ -1,0 +1,11 @@
+zipcode_coordinates/__init__.py,sha256=mKnjbye9V8h0hcwi5VMA-Tvl5w6w9BejUa8Ppkl_vp0,810
+zipcode_coordinates/exceptions.py,sha256=BKyKc8YSaTg7HuyGvco34KhrjXv5zbheyBCsppBeFrg,270
+zipcode_coordinates/version.py,sha256=spQBvhcsaZgixXcfpgjAvoqSr0m1hMpEtb3prvIVrt4,29
+zipcode_coordinates/data/AT.py,sha256=aBx2Zbq1RVuTm82Ar2uFejM82ko9gtss5mfccstBv-k,60292
+zipcode_coordinates/data/CH.py,sha256=G3AhtlsmkfVSs8SpXCGnhPTI3ibjt7O-CDIeW-Ywkjw,90003
+zipcode_coordinates/data/DE.py,sha256=vKWjme34MGAL1HofMc2qhvSFGGcDV9I-i6qPLoTh5Rw,231577
+zipcode_coordinates-0.1.0.20230901.764.dist-info/LICENSE,sha256=h-7-hMxlbm_sT8BeN25z1s6GLRHpdtHWFiiHZkLqg3E,1060
+zipcode_coordinates-0.1.0.20230901.764.dist-info/METADATA,sha256=ihdRRQZwVcYMoG1hHg_Uweqt1i0OMkUnC5k4fvlFCk0,1445
+zipcode_coordinates-0.1.0.20230901.764.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+zipcode_coordinates-0.1.0.20230901.764.dist-info/top_level.txt,sha256=PbaVGSWXABpGdjhctNnD4kqvG46ZEuNoESZDPvESpmo,20
+zipcode_coordinates-0.1.0.20230901.764.dist-info/RECORD,,
