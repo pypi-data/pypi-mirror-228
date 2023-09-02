@@ -1,0 +1,14 @@
+{% extends "admin/submit_line.html" %}
+
+
+{% block submit-row %}
+
+    {% if edit_mode_exists and not edit_mode %}
+
+        {% include "admin/edit_mode_button.html" %}
+
+    {% else %}
+         {{ block.super }}
+
+    {% endif %}
+{%  endblock submit-row %}

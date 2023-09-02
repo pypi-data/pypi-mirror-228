@@ -1,0 +1,12 @@
+django_admin_edit_mode/__init__.py,sha256=vMpZ1ZqrvtpVghLaaZvlvkSfVicopeDZbj4q3i1nqDc,100
+django_admin_edit_mode/admin.py,sha256=sXzvAWwNgHzQa6EsnUw0zEKhHJFMGDQBznekCc01PpA,1910
+django_admin_edit_mode/list_edit_mode.py,sha256=tf8N9o-KOapm6KDVvfGq_Em-E3Ki6OReBzBZ4KJ0C7g,1155
+django_admin_edit_mode/templates/admin/change_form_object_tools.html,sha256=B7blVsmGLSfBhB4rx9MmqPpQaOmpZLHP5rYGdVYJ4Ig,450
+django_admin_edit_mode/templates/admin/change_list.html,sha256=3U7DQY-AjVdSEGUI84ONxwvy7YXHAOkMnlXt5tYhuss,702
+django_admin_edit_mode/templates/admin/edit_mode_button.html,sha256=sfW6mpk1tVkxnRkb-LUraoJIHS4kfmyWgVtGHcj62mI,207
+django_admin_edit_mode/templates/admin/readonly_mode_button.html,sha256=UzSouJDusTqxgwHDjugiOQtTl5HV4bs-W_7F7RyR7ys,196
+django_admin_edit_mode/templates/admin/submit_line.html,sha256=WjfMFDH_kzlztMiKiTNEpB_m7VrivrVr6UJUepRUvgs,253
+django_admin_edit_mode-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+django_admin_edit_mode-0.1.2.dist-info/METADATA,sha256=IUI46vZZHsurx7J4XzhMP3sQzm9j8TJbJXyTSw1NQlA,3776
+django_admin_edit_mode-0.1.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+django_admin_edit_mode-0.1.2.dist-info/RECORD,,
