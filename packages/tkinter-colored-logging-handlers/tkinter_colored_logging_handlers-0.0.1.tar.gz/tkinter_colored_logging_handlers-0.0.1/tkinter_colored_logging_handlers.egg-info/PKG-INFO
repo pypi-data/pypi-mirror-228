@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tkinter-colored-logging-handlers
+Version: 0.0.1
+Summary: Tkinker Logger
+Home-page: https://github.com/fa0311/tkinter_colored_logging_handlers
+Author: yuki
+Author-email: yuki@yuki0311.com
+License: MIT
+Keywords: tkinter,logging,handler
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tkinter_colored_logging_handlers
+
+![1693492901002](image/README/1693492901002.png)
