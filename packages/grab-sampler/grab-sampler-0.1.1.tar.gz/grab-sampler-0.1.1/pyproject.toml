@@ -1,0 +1,4 @@
+# https://setuptools.pypa.io/en/latest/setuptools.html#setup-cfg-only-projects
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
