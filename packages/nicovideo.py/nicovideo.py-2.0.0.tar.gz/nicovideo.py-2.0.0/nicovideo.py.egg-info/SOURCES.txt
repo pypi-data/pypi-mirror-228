@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+setup.py
+nicovideo/__init__.py
+nicovideo.py.egg-info/PKG-INFO
+nicovideo.py.egg-info/SOURCES.txt
+nicovideo.py.egg-info/dependency_links.txt
+nicovideo.py.egg-info/top_level.txt
