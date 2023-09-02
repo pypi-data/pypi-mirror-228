@@ -1,0 +1,8 @@
+setup.py
+asciiani.egg-info/PKG-INFO
+asciiani.egg-info/SOURCES.txt
+asciiani.egg-info/dependency_links.txt
+asciiani.egg-info/requires.txt
+asciiani.egg-info/top_level.txt
+module/__init__.py
+module/ascc.py
