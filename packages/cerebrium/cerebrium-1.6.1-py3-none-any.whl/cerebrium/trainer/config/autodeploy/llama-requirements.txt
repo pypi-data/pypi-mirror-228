@@ -1,0 +1,10 @@
+peft
+transformers>=4.31.0
+accelerate
+bitsandbytes
+evaluate
+numpy
+sentencepiece
+datasets
+torch 
+scipy
