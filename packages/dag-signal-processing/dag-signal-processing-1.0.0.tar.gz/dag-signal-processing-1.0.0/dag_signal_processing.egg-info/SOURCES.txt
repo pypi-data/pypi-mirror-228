@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dag_signal_processing.egg-info/PKG-INFO
+dag_signal_processing.egg-info/SOURCES.txt
+dag_signal_processing.egg-info/dependency_links.txt
+dag_signal_processing.egg-info/not-zip-safe
+dag_signal_processing.egg-info/top_level.txt
