@@ -1,0 +1,7 @@
+winrt/_winrt_windows_perception_automation_core.cp310-win_arm64.pyd,sha256=xs1OOdCAp0nMuIWVyrkxd-ON-XZtLA2G2GqTY0syBgc,33792
+winrt/_winrt_windows_perception_automation_core.pyi,sha256=pgvZrxoBgJ6XEpgVNjh-O463ihXC4hP5dh7krNSGwfc,684
+winrt/windows/perception/automation/core/__init__.py,sha256=Xns-ylSRMfHQ0y55qF130LqVYTztmmmtTNIWby0ZJlE,310
+winrt_Windows.Perception.Automation.Core-2.0.0b1.dist-info/METADATA,sha256=Dj7yJREhXB8CiJ5sWhIEHKzQur5KwRX_-kzWtVcXsP4,1044
+winrt_Windows.Perception.Automation.Core-2.0.0b1.dist-info/WHEEL,sha256=xf1vZoKIpO1cLg5WwAWrBbvGdHO1sKgyQ3dGDiVHgEU,102
+winrt_Windows.Perception.Automation.Core-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Perception.Automation.Core-2.0.0b1.dist-info/RECORD,,
