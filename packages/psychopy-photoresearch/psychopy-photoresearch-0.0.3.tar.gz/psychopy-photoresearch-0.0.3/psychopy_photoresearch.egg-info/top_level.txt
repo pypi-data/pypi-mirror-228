@@ -1,0 +1,4 @@
+dist
+docs
+psychopy_photoresearch
+tests

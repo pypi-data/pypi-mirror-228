@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+docs/conf.py
+docs/utils.py
+psychopy_photoresearch/__init__.py
+psychopy_photoresearch/pr.py
+psychopy_photoresearch.egg-info/PKG-INFO
+psychopy_photoresearch.egg-info/SOURCES.txt
+psychopy_photoresearch.egg-info/dependency_links.txt
+psychopy_photoresearch.egg-info/requires.txt
+psychopy_photoresearch.egg-info/top_level.txt
+tests/__init__.py
+tests/test_photometers.py
