@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: videolab-youtube-crawler
+Version: 1.0.0
+Summary: Clark University, Package for YouTube crawler and cleaning data
+Home-page: https://github.com/shuoniu89/VIDEOLab-youtube-analysis
+Author: Shuo Niu
+Author-email: ShNiu@clarku.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE,txt
+Requires-Dist: configparser
+Requires-Dist: datetime
+Requires-Dist: pytz
+Requires-Dist: pandas
+Requires-Dist: isodate
+Requires-Dist: xlrd
+Requires-Dist: youtube-transcript-api
+Requires-Dist: google-api-python-client
+
+UNKNOWN
+
