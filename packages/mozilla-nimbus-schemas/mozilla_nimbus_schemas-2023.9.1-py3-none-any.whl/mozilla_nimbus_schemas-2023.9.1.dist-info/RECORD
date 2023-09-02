@@ -1,0 +1,14 @@
+mozilla_nimbus_schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mozilla_nimbus_schemas/jetstream/__init__.py,sha256=wFuvS0fi-Efhlm5b3Dw2uF9qROuoL6W-q60E2M4P3AY,1010
+mozilla_nimbus_schemas/jetstream/analysis_errors.py,sha256=BIi2bU2YMeVPIUghXv_3edXqiKzEI9ZSDrtZ9ghWdjY,955
+mozilla_nimbus_schemas/jetstream/metadata.py,sha256=dXAFv2-QzYKT3gE_lqBQaIkWRe5EtxVZuJN_Yfuz9H8,1698
+mozilla_nimbus_schemas/jetstream/population_sizing.py,sha256=D6e4QEJ7qoiwA3PJllbsVFmxK1jfk2eJov5WKwrF4ac,2406
+mozilla_nimbus_schemas/jetstream/statistics.py,sha256=C_j54-jEMuT1QnBYfICvrD8K6MFVGE4vs9pCqfA998M,897
+mozilla_nimbus_schemas/tests/jetstream/test_analysis_errors.py,sha256=RXjUFIPVNKfQeVnXsvMpPybBZNrHYZN1JbEskRMeuYs,5259
+mozilla_nimbus_schemas/tests/jetstream/test_metadata.py,sha256=-vjpKmjxIvT6pHk4jifOCXRAGH4KxoxHzxdAXCe_X8E,2680
+mozilla_nimbus_schemas/tests/jetstream/test_population_sizing.py,sha256=6l430CAVFUPssh7zhKTFpS1J0T-keN-Xgh6ru3A448k,4430
+mozilla_nimbus_schemas/tests/jetstream/test_statistics.py,sha256=Z00JSYWy1-MeOsECFbBlGxBmXFmKWJlrEd0eXUoSFjM,2939
+mozilla_nimbus_schemas-2023.9.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+mozilla_nimbus_schemas-2023.9.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+mozilla_nimbus_schemas-2023.9.1.dist-info/METADATA,sha256=oVppOJj7twZqClEtrXaT_GkLJzubHK2ApNe4nudEPfs,2471
+mozilla_nimbus_schemas-2023.9.1.dist-info/RECORD,,
