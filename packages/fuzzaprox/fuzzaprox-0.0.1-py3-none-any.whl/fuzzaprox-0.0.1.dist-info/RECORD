@@ -1,0 +1,16 @@
+fuzzaprox/Fuzzaprox.py,sha256=I1ZzynBQiWAGAc0VEg_3JzKfL1pvuUkwfDoDf1jLAsk,5001
+fuzzaprox/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fuzzaprox/fuzzaprox/Fuzzaprox.py,sha256=yzzHTXMQV8Z1OmlIopHsMIJDRdNdUtiA7r27O1th-o8,4804
+fuzzaprox/fuzzaprox/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fuzzaprox/fuzzaprox/services/DataService.py,sha256=mgxzcesKg4deuYu1emhng80dWa6EQXQgsP6hGKHy8xM,1381
+fuzzaprox/fuzzaprox/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fuzzaprox/fuzzaprox/transformation/FuzzySet.py,sha256=bSCmEzVnjvs4kj_2bDOidy1t4XuxFgKaRPHozrgh6qM,495
+fuzzaprox/fuzzaprox/transformation/FuzzySetBasic.py,sha256=4jz-lkRQqmWT69kFs48ErVboF2k1gRfvTcGqW4G1Hjg,2603
+fuzzaprox/fuzzaprox/transformation/Operations.py,sha256=To7dyYs0foBLFiz12CTQm6LN8XmA2yAvQe0YWPS_Uw4,2082
+fuzzaprox/fuzzaprox/transformation/Transform.py,sha256=ETrmMqfR4RAumwSc12Cbk1PycRmyjbtvYPry0p927R8,9146
+fuzzaprox/fuzzaprox/transformation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fuzzaprox-0.0.1.dist-info/LICENCE,sha256=Hlr2Ulz3ULO9U3DsyuFuTF_9sxTIxAHq4Kof83s2400,1149
+fuzzaprox-0.0.1.dist-info/METADATA,sha256=dVnJZiwUFuIxSm4mogUIOZ07Fmjs-0L3fkOfUbpG_7w,663
+fuzzaprox-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fuzzaprox-0.0.1.dist-info/top_level.txt,sha256=KKR_E6Jx5LStQTeRgA-sRr25IJtRZydi3MY-PrQW9ec,10
+fuzzaprox-0.0.1.dist-info/RECORD,,
