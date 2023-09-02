@@ -1,0 +1,81 @@
+{%- macro arg_e_body() -%}
+L = line
+_ = L
+{{ arg_e }}
+{%- endmacro %}
+
+{%- macro arg_l_body() -%}
+{%- if arg_l -%}
+line = line.strip()
+{% endif %}
+{%- endmacro %}
+
+{%- macro arg_a_body_pre() -%}
+{%- if arg_a -%}
+__sep = None
+{% endif %}
+{%- endmacro %}
+
+{%- macro arg_a_body() -%}
+{%- if arg_a -%}
+words = line.split(__sep)
+F = words
+{% endif %}
+{%- endmacro %}
+
+{%- macro arg_F_body() -%}
+{%- if arg_F -%}
+__sep = "{{ arg_F }}"
+{% endif %}
+{%- endmacro %}
+
+{%- macro arg_m_body() -%}
+{%- if arg_m %}
+{%- for m in arg_m %}
+{%- if not m.endswith(']') %}
+{%- if '=' in m %}
+{%- set m = m.replace('=', ' as ') %}
+{%- endif %}
+import {{ m }}
+{%- else %}
+{%- set m_split = m.split('[') %}
+{%- set m_body = m_split[1][:-1] %}
+{%- if '=' in m_body %}
+{%- set m_body = m_body.replace('=', ' as ') %}
+{%- endif %}
+from {{ m_split[0] }} import {{ m_body }}
+{%- endif %}
+{%- endfor %}
+{%- endif %}
+{%- endmacro %}
+
+{%- macro arg_M_body() %}
+{%- if arg_M %}
+{%- for M in arg_M %}
+from {{ M }} import *
+{%- endfor %}
+{%- endif %}
+{%- endmacro %}
+
+{%- macro body() -%}
+{{- arg_l_body() }}
+{{- arg_a_body_pre() }}
+{{- arg_F_body() }}
+{{- arg_a_body() }}
+{{- arg_e_body() }}
+{%- endmacro %}
+
+{#--#}
+
+import sys
+{{- arg_m_body() }}
+{{- arg_M_body() }}
+
+with open("tmp.fifo") as f:
+    {%- if arg_n %}
+    for NR, line in enumerate(f, start=1):
+        {{ body() | indent(8) }}
+    {%- else %}
+    line = f.read()
+    {{ body() | indent(4) }}
+    {%- endif %}
