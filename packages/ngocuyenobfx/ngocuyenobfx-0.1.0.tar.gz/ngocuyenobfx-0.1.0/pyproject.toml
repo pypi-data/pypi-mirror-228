@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "ngocuyenobfx"
+version = "0.1.0"
+description = "Mo ta cua package"
+authors = ["Ten Tac Gia <email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
