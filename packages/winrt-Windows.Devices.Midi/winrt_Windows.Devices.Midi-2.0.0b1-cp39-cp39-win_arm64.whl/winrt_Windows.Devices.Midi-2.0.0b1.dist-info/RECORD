@@ -1,0 +1,7 @@
+winrt/_winrt_windows_devices_midi.cp39-win_arm64.pyd,sha256=FkvXlLKTuXWVbnXGAB1oiOkK9paSJSnRnx8YpJxjeqA,328704
+winrt/_winrt_windows_devices_midi.pyi,sha256=GUCG82lYt1Smr_yg74-X0biFKeEnVZS3a2SYStirkfs,14662
+winrt/windows/devices/midi/__init__.py,sha256=L9y3KlD1PHqw-UzWOVB5L7NEoftma8mXrl-35gAeudQ,3147
+winrt_Windows.Devices.Midi-2.0.0b1.dist-info/METADATA,sha256=JuBiWA-E0ESphKDuF3862Jr05Yxb4DHIGOLqghDbceI,1158
+winrt_Windows.Devices.Midi-2.0.0b1.dist-info/WHEEL,sha256=PrHTG687fNsk7jS4Y-tLXN-3gpnf3wReNnzEPkeWHK0,100
+winrt_Windows.Devices.Midi-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Midi-2.0.0b1.dist-info/RECORD,,
