@@ -1,0 +1,9 @@
+LICENSE,sha256=EklTpaB7nWLTJgx3ACc4VNbOklK2kMt7lzAgij3sJn4,1076
+simpleselenium/__init__.py,sha256=Z3EDB42NwtntVWcz7OlKkxhyRGqu2ytbaeyqwcu_yBM,75
+simpleselenium/sample_script.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpleselenium/scripts.py,sha256=KlJPVjlOPx9q-K1zxaibU9b7bQyaSbgv8WH0K5z52q8,289
+simpleselenium/selenium_requests.py,sha256=iCo44MPFu1fwMfPCuvY_lQugNR0VWAdvDk2Vu3DRbko,16017
+simpleselenium-0.2.0.dist-info/LICENSE,sha256=EklTpaB7nWLTJgx3ACc4VNbOklK2kMt7lzAgij3sJn4,1076
+simpleselenium-0.2.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+simpleselenium-0.2.0.dist-info/METADATA,sha256=l4NrWWpH9afR44CGclLFngY2LxkpT5zdicdw8DPPSP4,3656
+simpleselenium-0.2.0.dist-info/RECORD,,
