@@ -1,0 +1,9 @@
+README.md
+setup.py
+splunkr/__init__.py
+splunkr/splunk_http_event_collector.py
+splunkr.egg-info/PKG-INFO
+splunkr.egg-info/SOURCES.txt
+splunkr.egg-info/dependency_links.txt
+splunkr.egg-info/requires.txt
+splunkr.egg-info/top_level.txt
