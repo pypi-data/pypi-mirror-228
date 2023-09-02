@@ -1,0 +1,84 @@
+[tool.poetry]
+name = "pydref-serializers"
+version = "0.2.3"
+description = "A clean and simple serialization tool for Django models using Pydantic 2."
+authors = ["Aryan Curiel <aryan.curiel@gmail.com>"]
+license = 'MIT'
+readme = "README.md"
+homepage = "https://github.com/acuriel/pydref-serializers"
+repository = "https://github.com/acuriel/pydref-serializers"
+packages = [{include = "pydref_serializers"}]
+keywords = ["django", "pydantic", "serialization", "deserialization", "pydref"]
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Environment :: Web Environment',
+    'Framework :: Django',
+    'Framework :: Django :: 3.0',
+    'Framework :: Django :: 3.1',
+    'Framework :: Django :: 3.2',
+    'Framework :: Django :: 4.0',
+    'Framework :: Django :: 4.1',
+    'Framework :: Django :: 4.2',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: BSD License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3 :: Only',
+    'Topic :: Internet :: WWW/HTTP',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: Internet',
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.4"
+pydantic = "^2.1.1"
+
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+coverage = "^7.2.7"
+pytest = "^7.4.0"
+black = "^23.7.0"
+ruff = "^0.0.284"
+isort = "^5.12.0"
+taskipy = "^1.12.0"
+pytest-mock = "^3.11.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+ignore-init-module-imports = true
+ignore = [
+    "E501",  # line too long, handled by black
+]
+
+[tool.ruff.per-file-ignores]
+# Ignore `F401` (import violations) in all `__init__.py` files.
+"__init__.py" = ["F401"]
+"conftest.py" = ["F401"]
+
+[tool.coverage.run]
+omit = [
+    # Omit tests from coverage.
+    "tests/*",
+]
+
+[tool.taskipy.tasks]
+format = "ruff check --fix . && black ."
+lint = "ruff check ."
+sort = "isort ."
+test = "python -m pytest tests"
+coverage = "coverage run -m pytest tests && coverage report"
+check = "task sort && task format && task test && task coverage"
