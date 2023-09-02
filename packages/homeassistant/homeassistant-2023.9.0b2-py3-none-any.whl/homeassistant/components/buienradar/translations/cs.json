@@ -1,0 +1,26 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Poloha je ji\u017e nastavena"
+        },
+        "error": {
+            "already_configured": "Poloha je ji\u017e nastavena"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "longitude": "Zem\u011bpisn\u00e1 d\u00e9lka"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "country_code": "K\u00f3d zem\u011b"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "entity": {
+        "sensor": {
+            "departure_time": {
+                "state_attributes": {
+                    "canceled": {
+                        "name": "At\u0161auktas"
+                    },
+                    "number_of_minutes_delayed": {
+                        "name": "Minut\u0117s v\u0117luoja"
+                    }
+                }
+            }
+        }
+    }
+}

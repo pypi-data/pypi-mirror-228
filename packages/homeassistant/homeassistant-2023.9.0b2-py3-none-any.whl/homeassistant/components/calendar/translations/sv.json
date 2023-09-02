@@ -1,0 +1,56 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Kalender",
+            "state": {
+                "off": "Av",
+                "on": "P\u00e5"
+            },
+            "state_attributes": {
+                "all_day": {
+                    "name": "Hela dagen ",
+                    "state": {
+                        "false": "Nej",
+                        "true": "Ja"
+                    }
+                },
+                "description": {
+                    "name": "Beskrivning"
+                },
+                "end_time": {
+                    "name": "Slut tid"
+                },
+                "location": {
+                    "name": "Plats"
+                },
+                "messages": {
+                    "name": "Meddelande"
+                },
+                "start_time": {
+                    "name": "Start tid"
+                }
+            }
+        }
+    },
+    "issues": {
+        "platform_integration_no_support": {
+            "description": "{platform} plattformen f\u00f6r integrationen {domain} st\u00f6ds inte.\n\nTa bort den fr\u00e5n din konfiguration och starta om Home Assistant f\u00f6r att fixa detta problem.",
+            "title": "Plattformen st\u00f6ds inte"
+        }
+    },
+    "services": {
+        "create_event": {
+            "description": "L\u00e4gger till en ny kalenderh\u00e4ndelse.",
+            "fields": {
+                "description": {
+                    "description": "En mer fullst\u00e4ndig beskrivning av h\u00e4ndelsen \u00e4n den som ges i sammanfattningen.",
+                    "name": "Beskrivning"
+                },
+                "end_date": {
+                    "description": "Det datum d\u00e5 heldagsevenemanget ska avslutas (exklusivt)."
+                }
+            }
+        }
+    },
+    "title": "Kalender"
+}

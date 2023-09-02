@@ -1,0 +1,35 @@
+{
+    "config": {
+        "step": {
+            "binary_sensor": {
+                "data": {
+                    "state": "\u0160ablona stavu"
+                }
+            },
+            "sensor": {
+                "data": {
+                    "state": "\u0160ablona stavu"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "binary_sensor": {
+                "data": {
+                    "state": "\u0160ablona stavu"
+                }
+            },
+            "sensor": {
+                "data": {
+                    "state": "\u0160ablona stavu"
+                }
+            }
+        }
+    },
+    "services": {
+        "reload": {
+            "name": "Znovu na\u010d\u00edst"
+        }
+    }
+}
