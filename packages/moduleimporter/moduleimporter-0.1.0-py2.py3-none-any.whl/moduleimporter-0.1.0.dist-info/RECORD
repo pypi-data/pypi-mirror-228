@@ -1,0 +1,10 @@
+moduleimporter/Importer.py,sha256=ug0p0SUnMBMMhJsvvf7wtB34inYOjFTcxGBDxytpLqw,6967
+moduleimporter/PathFinder.py,sha256=dr4GyoOUBd6jcwAfCC037nwjqqn5OAjldJ9JusXYc3U,2556
+moduleimporter/__init__.py,sha256=s-Msrjn8ZokqccjjV3NwlB7P1Q3hr3vgL-FUMxDJFbY,339
+moduleimporter/_wrapper.py,sha256=HzVnFDBu-vkpw11BRwfQhHCRIX4AF4fJOHxVoUocDx0,5821
+moduleimporter/util.py,sha256=hScqRZKdDcaNyBmKRhGMOrpooOPS83Waslpu7dp8LVc,13557
+moduleimporter-0.1.0.dist-info/LICENSE,sha256=8sVMwUORXuhxcrN-DaG1pbt_pksskyzNehd1fsF7LgY,1074
+moduleimporter-0.1.0.dist-info/METADATA,sha256=Qp9LoWzyvj0aeK3piRAnWhHZ5lWHCPQZ0wxZ57mtmsY,4194
+moduleimporter-0.1.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+moduleimporter-0.1.0.dist-info/top_level.txt,sha256=u8PdyJ1Z-gNGOtfpukBQg5gQCMiFZCD3KfgbnWiUzc0,15
+moduleimporter-0.1.0.dist-info/RECORD,,
