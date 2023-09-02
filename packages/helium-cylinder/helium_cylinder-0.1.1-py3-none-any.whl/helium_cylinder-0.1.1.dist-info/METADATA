@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: helium-cylinder
+Version: 0.1.1
+Summary: A wrapper for the Helium library, making it more user-friendly.
+Author-email: nikkie <takuyafjp+develop@gmail.com>
+License: MIT License
+Project-URL: Repository, https://github.com/ftnext/helium_cylinder
+Keywords: helium,browser,automation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: helium <3.3
+Requires-Dist: chromedriver-autoinstaller
+Provides-Extra: dev
+Requires-Dist: taskipy ; extra == 'dev'
+Requires-Dist: autoflake ; extra == 'dev'
+Requires-Dist: pyupgrade ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-randomly ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+
+# helium_cylinder
