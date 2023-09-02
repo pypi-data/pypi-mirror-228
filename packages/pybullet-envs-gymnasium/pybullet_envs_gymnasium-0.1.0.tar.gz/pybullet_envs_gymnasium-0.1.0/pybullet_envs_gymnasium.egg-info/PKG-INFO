@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pybullet-envs-gymnasium
+Version: 0.1.0
+Summary: Gymnasium port of pybullet envs
+Home-page: 
+Author: Antonin Raffin
+Author-email: antonin.raffin@dlr.de
+License: zlib
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
