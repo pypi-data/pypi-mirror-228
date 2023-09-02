@@ -1,0 +1,25 @@
+{
+  "domain": "software",
+  "skill": "product_manager",
+  "contexts": [
+    "requirements/original_requirements"
+  ],
+  "tasks": [
+    {
+      "type": "Task",
+      "name": "requirements/product_goals",
+      "title": "Product Goals",
+      "required_contexts": [
+        "requirements/original_requirements"
+      ]
+    },
+    {
+      "type": "Task",
+      "name": "requirements/requirement_analysis",
+      "title": "Requirement Analysis",
+      "required_contexts": [
+        "requirements/original_requirements"
+      ]
+    }
+  ]
+}

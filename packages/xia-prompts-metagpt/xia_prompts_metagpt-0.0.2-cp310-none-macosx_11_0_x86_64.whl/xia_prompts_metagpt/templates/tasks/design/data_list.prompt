@@ -1,0 +1,13 @@
+{% block format %}
+```python
+[
+    "User",
+]
+```
+{% endblock %}
+
+{% block guide %}
+1. Provided as Python list[str].
+2. The data list design should comply with document database.
+3. Nested data design is allowed.
+{% endblock %}
