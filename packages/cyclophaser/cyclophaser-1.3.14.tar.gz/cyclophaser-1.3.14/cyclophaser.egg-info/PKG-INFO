@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cyclophaser
+Version: 1.3.14
+Summary: Determine phases from extratropical cyclone life cycle
+Author: Danilo Couto de Souza
+Author-email: danilo.oceano@gmail.com
+License: MIT
+Keywords: cyclone,vorticity,meteorology,atmospherical sciences
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+This script processes vorticity data, identifies different phases of the cyclone     and plots the identified periods on periods.png and periods_didatic.png
