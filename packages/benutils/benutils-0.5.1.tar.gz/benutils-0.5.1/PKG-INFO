@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: benutils
+Version: 0.5.1
+Summary: Various utilities (SDR operator, mjd, data container, widgets...)
+Home-page: https://gitlab.com/bendub/benutils
+Author: Benoit Dubois
+Author-email: benoit.dubois@femto-engineering.fr
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Provides-Extra: usb_utils_support
+Provides-Extra: Pure_Python_signalslot_facilities
+Provides-Extra: PyQt_signalslot_facilities
+Provides-Extra: real_time_plot_support
+License-File: LICENSE.txt
