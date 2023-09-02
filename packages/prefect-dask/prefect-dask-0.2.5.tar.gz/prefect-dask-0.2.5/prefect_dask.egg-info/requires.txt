@@ -1,0 +1,27 @@
+prefect>=2.8.2
+
+[:python_version < "3.8"]
+distributed==2022.2.0
+
+[:python_version >= "3.8"]
+distributed!=2023.3.2,!=2023.3.2.1,!=2023.4.*,!=2023.5.*,>=2022.5.0
+
+[dev]
+pytest
+black
+flake8
+flaky
+mypy
+mkdocs
+mkdocs-material
+mkdocstrings[python]
+isort
+pre-commit
+pytest-asyncio
+mkdocs-gen-files
+interrogate
+coverage
+pillow
+
+[dev:python_version < "3.8"]
+mock
