@@ -1,0 +1,2 @@
+[console_scripts]
+jupyter-functions = jupyter_functions.serverapplication:main
