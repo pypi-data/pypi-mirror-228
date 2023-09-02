@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "camonline"
+description = "camonline"
+keywords = ["camonline"]
+requires-python = ">=3.8"
+dependencies = ["opencv-python-headless", "click", "loguru", "tomli", "tomli-w"]
+dynamic = ["version"]
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+[project.optional-dependencies]
+test = ["pytest-cov", "pytest"]
+
+
+[[project.authors]]
+name = "wh1isper"
+email = "9573586@qq.com"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.license]
+text = "BSD 3-Clause License"
+
+[project.scripts]
+camonline = "camonline.cli:cli"
+
+[project.urls]
+Source = "https://github.com/wh1isper/camonline"
+
+[tool.check-manifest]
+ignore = [".*"]
+
+[tool.hatch.version]
+path = "camonline/__init__.py"
