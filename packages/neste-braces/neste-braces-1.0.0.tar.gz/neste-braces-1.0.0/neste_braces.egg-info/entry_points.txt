@@ -1,0 +1,2 @@
+[console_scripts]
+neste = neste.neste:main

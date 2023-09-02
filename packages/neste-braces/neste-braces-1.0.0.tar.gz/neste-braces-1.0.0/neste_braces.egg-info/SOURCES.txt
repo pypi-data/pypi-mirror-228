@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+neste/__init__.py
+neste/neste.py
+neste_braces.egg-info/PKG-INFO
+neste_braces.egg-info/SOURCES.txt
+neste_braces.egg-info/dependency_links.txt
+neste_braces.egg-info/entry_points.txt
+neste_braces.egg-info/top_level.txt
