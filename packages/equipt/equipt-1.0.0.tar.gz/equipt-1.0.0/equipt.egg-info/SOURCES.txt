@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+equipt/__init__.py
+equipt/analyzer.py
+equipt/opener.py
+equipt.egg-info/PKG-INFO
+equipt.egg-info/SOURCES.txt
+equipt.egg-info/dependency_links.txt
+equipt.egg-info/top_level.txt
