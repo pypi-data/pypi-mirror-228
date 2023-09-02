@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/cstag_cli/__init__.py
+src/cstag_cli/main.py
+src/cstag_cli.egg-info/PKG-INFO
+src/cstag_cli.egg-info/SOURCES.txt
+src/cstag_cli.egg-info/dependency_links.txt
+src/cstag_cli.egg-info/entry_points.txt
+src/cstag_cli.egg-info/requires.txt
+src/cstag_cli.egg-info/top_level.txt
+src/cstag_cli/append/__init__.py
+src/cstag_cli/append/appender.py
+src/cstag_cli/utils/__init__.py
+src/cstag_cli/utils/io.py
