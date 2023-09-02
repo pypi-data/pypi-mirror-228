@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: propertree
+Version: 1.0.3
+Summary: Library to help create meaningful structures from yaml or json.
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: importlib-metadata ; python_version >= "3.8"
+
