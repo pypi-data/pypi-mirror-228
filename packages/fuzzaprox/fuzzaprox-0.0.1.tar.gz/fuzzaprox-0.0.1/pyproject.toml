@@ -1,0 +1,15 @@
+[build-system]
+requires = [
+    "setuptools>=54",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+#[project]
+#name = "fuzzaprox"
+#version = "0.0.2"
+#description = "Fuzzy approximation"
+#readme = "README.md"
+#authors = [{ name = "Radovan Zahornadský", email = "rad.zahornadsky@gmail.com" }]
+#license = { file = "LICENSE" }
+#keywords = ["fuzzy approximation", "reader", "tutorial"]
+#dependencies = ["numpy", "matplotlib"]
