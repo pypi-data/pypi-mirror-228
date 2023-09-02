@@ -1,0 +1,2 @@
+colorama<1.0.0,>=0.4.4
+python-dateutil<3.0.0,>=2.8.2
