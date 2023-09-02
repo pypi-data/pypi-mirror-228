@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+odpswrapper.egg-info/PKG-INFO
+odpswrapper.egg-info/SOURCES.txt
+odpswrapper.egg-info/dependency_links.txt
+odpswrapper.egg-info/requires.txt
+odpswrapper.egg-info/top_level.txt
