@@ -1,0 +1,8 @@
+gpt_assistant_lib/__init__.py,sha256=6s8iKtYqbOW3l163pTXnswLfom92bTaHxqjHPho33vo,526
+gpt_assistant_lib/_assistant.py,sha256=KBcXwt0YG_6FnOWzEFR20kR1716qJA-7XrMpR1ICc7s,1126
+gpt_assistant_lib/_history.py,sha256=dGEQhNjeUM9bO66t7SvgdKaEszFLPXTeYS3tmSlLc8s,2705
+gpt_assistant_lib/_openai_client.py,sha256=dd9UCpbEDhS8E4NApl7M3aqg8sWR1cutCP268d2Xz_0,621
+gpt_assistant_lib-0.1.0.dist-info/LICENSE,sha256=ZyA5Q5bEGqB-LRYQ1CCFLoe3SMOYoidurhXjvPlZcRI,1063
+gpt_assistant_lib-0.1.0.dist-info/METADATA,sha256=EhiIsevk9O3CsLd0PDnU92GA6FZ9F5doz85ZM_72g9o,1237
+gpt_assistant_lib-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+gpt_assistant_lib-0.1.0.dist-info/RECORD,,
