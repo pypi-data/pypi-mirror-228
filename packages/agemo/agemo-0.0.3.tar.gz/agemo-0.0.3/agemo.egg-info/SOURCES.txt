@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+agemo/__init__.py
+agemo/diff.py
+agemo/evaluate.py
+agemo/events.py
+agemo/gflib.py
+agemo/inverse.py
+agemo/mutations.py
+agemo.egg-info/PKG-INFO
+agemo.egg-info/SOURCES.txt
+agemo.egg-info/dependency_links.txt
+agemo.egg-info/requires.txt
+agemo.egg-info/top_level.txt

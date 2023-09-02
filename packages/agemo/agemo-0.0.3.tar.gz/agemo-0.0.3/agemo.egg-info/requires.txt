@@ -1,0 +1,7 @@
+numba>=0.54.0
+numpy>=1.18
+
+[tests]
+pytest>=6.2.5
+sage-conf
+sagemath-standard>9.2
