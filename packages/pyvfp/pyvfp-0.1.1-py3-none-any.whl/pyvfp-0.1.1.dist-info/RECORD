@@ -1,0 +1,8 @@
+pyvfp/__init__.py,sha256=GrmkRW4_PTzza0-8sVio-RAzGoDc6u1yDGSm_K7u5ao,129
+pyvfp/foxpro.py,sha256=87xPg-iln_fM9ozee2GSA4ADvBOVdce8kTXztKY0IWA,3933
+pyvfp/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyvfp/bin/vfp.exe,sha256=yx7jpOgeaLiFthcaWVb3gESI8vHwZpK47D0y6kTPsLI,158720
+pyvfp-0.1.1.dist-info/METADATA,sha256=sg5Rz0wzRoFV0v6ajllnPe-3knPgMT_XBnRYKc9nsSs,125
+pyvfp-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyvfp-0.1.1.dist-info/top_level.txt,sha256=CC_3qXCJi7Sw37yqVFyv4ZUeNvmre5zk8gPavQlSHd8,6
+pyvfp-0.1.1.dist-info/RECORD,,
