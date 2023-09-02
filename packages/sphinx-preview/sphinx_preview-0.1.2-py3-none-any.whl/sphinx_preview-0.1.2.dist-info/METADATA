@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: sphinx-preview
+Version: 0.1.2
+Summary: 
+Home-page: https://github.com/useblocks/sphinx-preview
+License: MIT
+Author: team useblocks
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: docs
+Requires-Dist: sphinx (>=4,<5); extra == "docs"
+Project-URL: Documentation, https://sphinx-preview.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/useblocks/sphinx-preview
+Description-Content-Type: text/x-rst
+
+.. image:: https://github.com/useblocks/sphinx-preview/raw/main/docs/_static/sphinx-preview-logo.png
+   :align: center
+   :width: 50%
+   :target: https://sphinx-preview.readthedocs.io/en/latest/
+   :alt: Sphinx-Preview
+
+
+`Sphinx <https://www.sphinx-doc.org>`_ extension to show previews for links, if a mouse hover is detected.
+
+Docs
+----
+
+See complete documentation at https://sphinx-preview.readthedocs.io/en/latest/
+
+Showcase
+--------
+.. image:: https://github.com/useblocks/sphinx-preview/raw/main/docs/_static/sphinx-preview-showcase.gif
+   :align: center
+   :width: 100%
+
+
+
+
+
