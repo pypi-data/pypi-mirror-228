@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kubra/__init__.py
+kubra.egg-info/PKG-INFO
+kubra.egg-info/SOURCES.txt
+kubra.egg-info/dependency_links.txt
+kubra.egg-info/entry_points.txt
+kubra.egg-info/requires.txt
+kubra.egg-info/top_level.txt
