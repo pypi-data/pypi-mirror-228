@@ -1,0 +1,4 @@
+aiomqtt
+pyyaml
+
+[tasmota]
