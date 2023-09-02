@@ -1,0 +1,10 @@
+dagma/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dagma/linear.py,sha256=3Eq-lbCn-8C35-9dAuBEcUKCFlNH3F4aY2kZnLhJg6A,15148
+dagma/locally_connected.py,sha256=BMe-VvL9QFC1AYc01z49oycAZOV5qnLhPM-TkC6W5iE,2601
+dagma/nonlinear.py,sha256=kFCqD4Y-i27JLxlk-Bg4bNCoyzSBnEu-hxpZDOjiKD8,13009
+dagma/utils.py,sha256=tkee2JPaghQ-Uewz1QRlleIh97OPzZa0cLKHQ2ekVtM,11567
+dagma-1.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dagma-1.1.1.dist-info/METADATA,sha256=BWdTZ6jsFeYkD4n4OZCUAZlHWWWo6jJmkKiLUeSJKWk,8368
+dagma-1.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dagma-1.1.1.dist-info/top_level.txt,sha256=3XiNdHKlOS7J-JmuZZS87FB-Td94L8sqs9MSg1QwYQo,6
+dagma-1.1.1.dist-info/RECORD,,
