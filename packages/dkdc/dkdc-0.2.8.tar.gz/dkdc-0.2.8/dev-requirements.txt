@@ -1,0 +1,23 @@
+# python
+black
+build
+twine
+python-dotenv
+
+# cli
+typer[all]
+
+# data
+ibis-framework[duckdb,polars,deltalake] @ git+https://github.com/ibis-project/ibis
+
+# viz
+plotly
+streamlit
+
+# ai
+openai
+marvin
+
+# poker
+texasholdem --pre
+
