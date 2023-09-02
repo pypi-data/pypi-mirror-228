@@ -1,0 +1,15 @@
+fitspy/__init__.py,sha256=AuTHKblJBA3CuwWNf3uwX6yPRT9chpxG5Iq0DMSbfUc,119
+fitspy/models.py,sha256=dN1LYMxwh3XUXmYHS7sfSn2idH1NQIHTKiXZhmpoVyc,3202
+fitspy/spectra.py,sha256=ia0zn106Ur0h3Q0GoBcls7MBdG-y-t1vZvjKPA-Bonc,38170
+fitspy/utils.py,sha256=XTZ1DX2Y0Pn8qwwXuY7282nRG79akBKg9F4w4Ok15-o,2806
+fitspy/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fitspy/app/callbacks.py,sha256=KgSmUYQxwJhViyy8fu7FIPdRJHlhwABrT4FnV8pMLMg,35720
+fitspy/app/gui.py,sha256=alxe0KCA-EtfzOqsjQ6STJqxRcy21YoZJ_qeYJfP3h8,17585
+fitspy/app/toplevels.py,sha256=0XHQcrr4RMVnqiQcAXtUv6-qf8W0muj9k6xhPn0KDqk,14597
+fitspy/app/utils.py,sha256=pcc1xM-OZwgX_nebH5ddzB9Ne19y1MM17HWFBNMmXJ8,15707
+fitspy-2023.5.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+fitspy-2023.5.dist-info/METADATA,sha256=o3tkZfz2MKxx4rFE6A8U0iCUrPBweEsANH1UmGaMKeA,2864
+fitspy-2023.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fitspy-2023.5.dist-info/entry_points.txt,sha256=qqZSTa5-M1EL_tvZ2s_RMsKgov2hW-TR8FA9UO9DgfA,54
+fitspy-2023.5.dist-info/top_level.txt,sha256=h46Slsv4XIHZdOP6MOT-Y5ZN5LuKmHi9MtK35oVECcE,7
+fitspy-2023.5.dist-info/RECORD,,
