@@ -1,0 +1,7 @@
+winrt/_winrt_windows_devices_smartcards.cp39-win_arm64.pyd,sha256=7OXtmOAAqNrFwzDsLKEKdVLiY6wGxyTbpcwyvVXZxCo,1024512
+winrt/_winrt_windows_devices_smartcards.pyi,sha256=su_ooM-ykTm8WWYb4n7X0qLvrpxTHKhJv4DKLbZ3p-0,33408
+winrt/windows/devices/smartcards/__init__.py,sha256=fvcv5YT5LusBoOUqme6eTs0p5SQlpfmGdad7KER67i4,9312
+winrt_Windows.Devices.SmartCards-2.0.0b1.dist-info/METADATA,sha256=NI7yS3F1U6ED3-KdFb_iN7_E_rVl1uFi_4rJzDtYvT4,1279
+winrt_Windows.Devices.SmartCards-2.0.0b1.dist-info/WHEEL,sha256=PrHTG687fNsk7jS4Y-tLXN-3gpnf3wReNnzEPkeWHK0,100
+winrt_Windows.Devices.SmartCards-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.SmartCards-2.0.0b1.dist-info/RECORD,,
