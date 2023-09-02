@@ -1,0 +1,411 @@
+[CONVERT] 2023-09-01 11:05:36.438 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 11:05:36.439 INFO convert.py:160: ---input_shape_list: ['']
+[CONVERT] 2023-09-01 11:05:36.439 WARNING convert.py:183: when converting pytorch model, you must tell the input shape(ex: --input_shape [1, 3, 32, 32]) 
+also, you should provide model definition file
+[CONVERT] 2023-09-01 11:07:38.827 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 11:07:38.828 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 11:07:38.829 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 11:08:13.035 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 11:08:13.036 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 11:08:13.036 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 11:08:13.041 ERROR pt2onnx.py:19: [33mError: No module named 'torchvision', Please install torchvision(pip install torchvision)[0m
+[CONVERT] 2023-09-01 11:08:45.938 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 11:08:45.938 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 11:08:45.938 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 11:08:45.944 INFO pt2onnx.py:65: Begin converting pytorch to onnx...
+[CONVERT] 2023-09-01 11:08:45.944 INFO pt2onnx.py:95: got input_type_list: []
+[CONVERT] 2023-09-01 11:08:45.944 INFO pt2onnx.py:101: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 11:08:45.944 INFO pt2onnx.py:104: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 11:08:45.944 INFO pt2onnx.py:112: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 11:08:45.944 INFO pt2onnx.py:140: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:04:01.191 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 14:04:01.192 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 14:04:01.192 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 14:04:01.198 INFO pt2onnx.py:67: Begin converting pytorch to onnx...
+[CONVERT] 2023-09-01 14:04:01.198 INFO pt2onnx.py:73: got input_type_list: []
+[CONVERT] 2023-09-01 14:04:01.198 INFO pt2onnx.py:78: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 14:04:01.199 INFO pt2onnx.py:81: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 14:04:01.199 INFO pt2onnx.py:89: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 14:04:01.199 INFO pt2onnx.py:117: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:05:04.359 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 14:05:04.359 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 14:05:04.359 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 14:05:04.364 INFO pt2onnx.py:67: Begin converting pytorch to onnx...
+[CONVERT] 2023-09-01 14:05:04.364 INFO pt2onnx.py:97: got input_type_list: []
+[CONVERT] 2023-09-01 14:05:04.364 INFO pt2onnx.py:102: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 14:05:04.364 INFO pt2onnx.py:105: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 14:05:04.364 INFO pt2onnx.py:113: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 14:05:04.364 INFO pt2onnx.py:141: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:05:04.365 INFO pt2onnx.py:162: convert_pt_model_and_params_2_onnx, target_module: 
+[CONVERT] 2023-09-01 14:05:04.365 WARNING pt2onnx.py:57: Module:  not found
+[CONVERT] 2023-09-01 14:05:04.365 INFO pt2onnx.py:192: Can not find 
+[CONVERT] 2023-09-01 14:05:04.366 INFO convert.py:208: finish convert, it cost 0.006020307540893555 seconds
+[CONVERT] 2023-09-01 14:06:33.175 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 14:06:33.176 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 14:06:33.176 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 14:06:33.176 INFO pt2onnx.py:67: Begin converting pytorch to onnx...
+[CONVERT] 2023-09-01 14:06:33.177 INFO pt2onnx.py:97: got input_type_list: []
+[CONVERT] 2023-09-01 14:06:33.177 INFO pt2onnx.py:102: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 14:06:33.177 INFO pt2onnx.py:105: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 14:06:33.177 INFO pt2onnx.py:113: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 14:06:33.177 INFO pt2onnx.py:141: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:06:33.177 INFO pt2onnx.py:162: convert_pt_model_and_params_2_onnx, target_module: 
+[CONVERT] 2023-09-01 14:06:33.178 WARNING pt2onnx.py:57: Module:  not found
+[CONVERT] 2023-09-01 14:06:33.178 INFO pt2onnx.py:192: Can not find 
+[CONVERT] 2023-09-01 14:06:33.178 INFO convert.py:208: finish convert, it cost 0.001798868179321289 seconds
+[CONVERT] 2023-09-01 14:07:18.344 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 14:07:18.344 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 14:07:18.345 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 14:07:18.346 INFO pt2onnx.py:67: Begin converting pytorch to onnx...
+[CONVERT] 2023-09-01 14:07:18.347 INFO pt2onnx.py:97: got input_type_list: []
+[CONVERT] 2023-09-01 14:07:18.347 INFO pt2onnx.py:102: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 14:07:18.347 INFO pt2onnx.py:105: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 14:07:18.348 INFO pt2onnx.py:113: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 14:07:18.348 INFO pt2onnx.py:141: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:07:18.348 INFO pt2onnx.py:162: convert_pt_model_and_params_2_onnx, target_module: 
+[CONVERT] 2023-09-01 14:07:18.350 WARNING pt2onnx.py:57: Module:  not found
+[CONVERT] 2023-09-01 14:07:18.350 INFO pt2onnx.py:192: Can not find 
+[CONVERT] 2023-09-01 14:07:18.350 INFO convert.py:208: finish convert, it cost 0.005300998687744141 seconds
+[CONVERT] 2023-09-01 14:07:31.936 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 14:07:31.937 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 14:07:31.937 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 14:07:31.939 INFO pt2onnx.py:67: Begin converting pytorch to onnx...
+[CONVERT] 2023-09-01 14:07:31.939 INFO pt2onnx.py:97: got input_type_list: []
+[CONVERT] 2023-09-01 14:07:31.939 INFO pt2onnx.py:102: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 14:07:31.940 INFO pt2onnx.py:105: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 14:07:31.940 INFO pt2onnx.py:113: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 14:07:31.940 INFO pt2onnx.py:141: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:07:31.940 INFO pt2onnx.py:162: convert_pt_model_and_params_2_onnx, target_module: 
+[CONVERT] 2023-09-01 14:07:31.942 WARNING pt2onnx.py:57: Module:  not found
+[CONVERT] 2023-09-01 14:07:31.942 INFO pt2onnx.py:192: Can not find 
+[CONVERT] 2023-09-01 14:07:31.942 INFO convert.py:208: finish convert, it cost 0.004960060119628906 seconds
+[CONVERT] 2023-09-01 14:37:42.048 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 14:37:42.049 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 14:37:42.049 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 14:37:42.053 INFO pt2onnx.py:126: got input_type_list: []
+[CONVERT] 2023-09-01 14:37:42.054 INFO pt2onnx.py:131: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 14:37:42.054 INFO pt2onnx.py:134: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 14:37:42.054 INFO pt2onnx.py:142: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 14:37:42.054 INFO pt2onnx.py:170: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:37:42.054 ERROR pt2onnx.py:82: Can not find model_class_name: 
+[CONVERT] 2023-09-01 14:39:37.225 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 14:39:37.225 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 14:39:37.225 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 14:39:37.226 INFO pt2onnx.py:126: got input_type_list: []
+[CONVERT] 2023-09-01 14:39:37.226 INFO pt2onnx.py:131: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 14:39:37.227 INFO pt2onnx.py:134: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 14:39:37.227 INFO pt2onnx.py:142: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 14:39:37.227 INFO pt2onnx.py:170: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:39:37.227 INFO pt2onnx.py:85: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 14:39:37.227 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 14:39:37.227 INFO pt2onnx.py:88: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f7e43c6d790>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 14:41:23.977 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 14:41:23.977 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 14:41:23.977 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 14:41:23.981 INFO pt2onnx.py:126: got input_type_list: []
+[CONVERT] 2023-09-01 14:41:23.982 INFO pt2onnx.py:131: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 14:41:23.982 INFO pt2onnx.py:134: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 14:41:23.982 INFO pt2onnx.py:142: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 14:41:23.982 INFO pt2onnx.py:170: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:41:23.982 INFO pt2onnx.py:85: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 14:41:23.982 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 14:41:23.982 INFO pt2onnx.py:88: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f7ec9dcb0d0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 14:41:41.421 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 14:41:41.421 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 14:41:41.421 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 14:41:41.425 INFO pt2onnx.py:126: got input_type_list: []
+[CONVERT] 2023-09-01 14:41:41.426 INFO pt2onnx.py:131: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 14:41:41.426 INFO pt2onnx.py:134: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 14:41:41.426 INFO pt2onnx.py:142: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 14:41:41.426 INFO pt2onnx.py:170: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:41:41.426 INFO pt2onnx.py:85: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 14:41:41.426 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 14:41:41.427 INFO pt2onnx.py:88: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f927cdcb0d0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 14:42:43.535 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 14:42:43.535 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 14:42:43.535 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 14:42:43.537 INFO pt2onnx.py:126: got input_type_list: []
+[CONVERT] 2023-09-01 14:42:43.537 INFO pt2onnx.py:131: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 14:42:43.537 INFO pt2onnx.py:134: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 14:42:43.537 INFO pt2onnx.py:142: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 14:42:43.537 INFO pt2onnx.py:170: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:42:43.537 INFO pt2onnx.py:85: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 14:42:43.538 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 14:42:43.538 INFO pt2onnx.py:88: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f7e3649c790>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 14:44:12.662 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 14:44:12.662 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 14:44:12.663 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 14:44:12.667 INFO pt2onnx.py:129: got input_type_list: []
+[CONVERT] 2023-09-01 14:44:12.667 INFO pt2onnx.py:134: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 14:44:12.667 INFO pt2onnx.py:137: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 14:44:12.667 INFO pt2onnx.py:145: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 14:44:12.667 INFO pt2onnx.py:173: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:44:12.667 INFO pt2onnx.py:88: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 14:44:12.667 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 14:44:12.667 INFO pt2onnx.py:91: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f9d124cb0d0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 14:51:15.407 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 14:51:15.408 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 14:51:15.408 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 14:51:15.413 INFO pt2onnx.py:129: got input_type_list: []
+[CONVERT] 2023-09-01 14:51:15.413 INFO pt2onnx.py:134: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 14:51:15.413 INFO pt2onnx.py:137: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 14:51:15.414 INFO pt2onnx.py:145: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 14:51:15.414 INFO pt2onnx.py:173: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:51:15.414 INFO pt2onnx.py:88: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 14:51:15.414 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 14:51:15.414 INFO pt2onnx.py:91: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f91bb4cb0d0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 14:51:39.313 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 14:51:39.333 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 14:51:39.333 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 14:51:39.338 INFO pt2onnx.py:130: got input_type_list: []
+[CONVERT] 2023-09-01 14:51:39.338 INFO pt2onnx.py:135: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 14:51:39.338 INFO pt2onnx.py:138: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 14:51:39.338 INFO pt2onnx.py:146: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 14:51:39.339 INFO pt2onnx.py:174: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:51:39.339 INFO pt2onnx.py:89: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 14:51:39.339 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 14:51:39.339 INFO pt2onnx.py:92: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fe6e64ca0d0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 14:51:57.553 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 14:51:57.553 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 14:51:57.553 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 14:51:57.557 INFO pt2onnx.py:130: got input_type_list: []
+[CONVERT] 2023-09-01 14:51:57.557 INFO pt2onnx.py:135: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 14:51:57.558 INFO pt2onnx.py:138: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 14:51:57.558 INFO pt2onnx.py:146: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 14:51:57.558 INFO pt2onnx.py:174: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:51:57.558 INFO pt2onnx.py:89: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 14:51:57.558 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 14:51:57.558 INFO pt2onnx.py:92: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fdebb5ca0d0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 14:54:14.355 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 14:54:14.356 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 14:54:14.356 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 14:54:14.361 INFO pt2onnx.py:129: got input_type_list: []
+[CONVERT] 2023-09-01 14:54:14.361 INFO pt2onnx.py:134: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 14:54:14.361 INFO pt2onnx.py:137: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 14:54:14.361 INFO pt2onnx.py:145: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 14:54:14.362 INFO pt2onnx.py:173: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:54:14.362 INFO pt2onnx.py:88: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 14:54:14.362 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 14:54:14.362 INFO pt2onnx.py:91: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f8fd0dcb0d0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 14:59:19.264 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 14:59:19.265 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 14:59:19.265 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 14:59:19.270 INFO pt2onnx.py:129: got input_type_list: []
+[CONVERT] 2023-09-01 14:59:19.270 INFO pt2onnx.py:134: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 14:59:19.270 INFO pt2onnx.py:137: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 14:59:19.270 INFO pt2onnx.py:145: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 14:59:19.271 INFO pt2onnx.py:173: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 14:59:19.271 INFO pt2onnx.py:210: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 14:59:19.271 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 14:59:19.271 INFO pt2onnx.py:213: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f8e6bccb0d0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 15:05:18.547 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 15:05:18.548 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 15:05:18.548 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 15:05:18.553 INFO pt2onnx.py:128: got input_type_list: []
+[CONVERT] 2023-09-01 15:05:18.553 INFO pt2onnx.py:133: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 15:05:18.554 INFO pt2onnx.py:136: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 15:05:18.554 INFO pt2onnx.py:144: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 15:05:18.554 INFO pt2onnx.py:172: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 15:05:18.554 INFO pt2onnx.py:87: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 15:05:18.554 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 15:05:18.555 INFO pt2onnx.py:90: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fe5b8ccb0d0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 15:14:50.602 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 15:14:50.603 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 15:14:50.603 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 15:14:50.609 INFO pt2onnx.py:128: got input_type_list: []
+[CONVERT] 2023-09-01 15:14:50.609 INFO pt2onnx.py:133: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 15:14:50.609 INFO pt2onnx.py:136: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 15:14:50.609 INFO pt2onnx.py:144: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 15:14:50.610 INFO pt2onnx.py:172: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 15:14:50.610 INFO pt2onnx.py:87: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 15:14:50.610 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 15:14:50.610 INFO pt2onnx.py:90: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fb009f88dc0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 15:15:07.176 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 15:15:07.176 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 15:15:07.177 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 15:15:07.178 INFO pt2onnx.py:128: got input_type_list: []
+[CONVERT] 2023-09-01 15:15:07.178 INFO pt2onnx.py:133: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 15:15:07.178 INFO pt2onnx.py:136: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 15:15:07.178 INFO pt2onnx.py:144: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 15:15:07.178 INFO pt2onnx.py:172: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 15:15:07.179 INFO pt2onnx.py:87: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 15:15:07.179 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 15:15:07.179 INFO pt2onnx.py:90: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fd70b5bb760>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 15:18:08.187 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 15:18:08.187 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 15:18:08.188 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 15:18:08.192 INFO pt2onnx.py:128: got input_type_list: []
+[CONVERT] 2023-09-01 15:18:08.192 INFO pt2onnx.py:133: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 15:18:08.192 INFO pt2onnx.py:136: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 15:18:08.192 INFO pt2onnx.py:144: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 15:18:08.192 INFO pt2onnx.py:172: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 15:18:08.192 INFO pt2onnx.py:87: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 15:18:08.192 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 15:18:08.193 INFO pt2onnx.py:90: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7ff1a8e020d0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 15:18:28.195 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 15:18:28.195 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 15:18:28.195 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 15:18:28.200 INFO pt2onnx.py:128: got input_type_list: []
+[CONVERT] 2023-09-01 15:18:28.200 INFO pt2onnx.py:133: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 15:18:28.200 INFO pt2onnx.py:136: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 15:18:28.201 INFO pt2onnx.py:144: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 15:18:28.201 INFO pt2onnx.py:172: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 15:18:28.201 INFO pt2onnx.py:87: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 15:18:28.201 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 15:18:28.201 INFO pt2onnx.py:90: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f84e66020d0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 15:19:45.802 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 15:19:45.803 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 15:19:45.803 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 15:19:45.809 INFO pt2onnx.py:128: got input_type_list: []
+[CONVERT] 2023-09-01 15:19:45.809 INFO pt2onnx.py:133: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 15:19:45.809 INFO pt2onnx.py:136: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 15:19:45.810 INFO pt2onnx.py:144: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 15:19:45.810 INFO pt2onnx.py:172: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 15:19:45.810 INFO pt2onnx.py:87: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 15:19:45.810 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 15:19:45.810 INFO pt2onnx.py:90: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fc4d16020d0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 15:20:07.680 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 15:20:07.681 INFO convert.py:160: ---input_shape_list: ['[1,3,3,10]']
+[CONVERT] 2023-09-01 15:20:07.681 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 15:20:07.685 INFO pt2onnx.py:128: got input_type_list: []
+[CONVERT] 2023-09-01 15:20:07.685 INFO pt2onnx.py:133: got shape: ['1', '3', '3', '10']
+[CONVERT] 2023-09-01 15:20:07.685 INFO pt2onnx.py:136: got input_shape_list: [['1', '3', '3', '10']]
+[CONVERT] 2023-09-01 15:20:07.685 INFO pt2onnx.py:144: got input_shape_list_int: [[1, 3, 3, 10]]
+[CONVERT] 2023-09-01 15:20:07.686 INFO pt2onnx.py:172: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 15:20:07.686 INFO pt2onnx.py:87: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 15:20:07.686 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 15:20:07.686 INFO pt2onnx.py:90: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fbadff020d0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 15:21:12.978 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 15:21:12.979 INFO convert.py:160: ---input_shape_list: ['[1,3,10,10]']
+[CONVERT] 2023-09-01 15:21:12.979 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 15:21:12.979 INFO pt2onnx.py:128: got input_type_list: []
+[CONVERT] 2023-09-01 15:21:12.980 INFO pt2onnx.py:133: got shape: ['1', '3', '10', '10']
+[CONVERT] 2023-09-01 15:21:12.980 INFO pt2onnx.py:136: got input_shape_list: [['1', '3', '10', '10']]
+[CONVERT] 2023-09-01 15:21:12.980 INFO pt2onnx.py:144: got input_shape_list_int: [[1, 3, 10, 10]]
+[CONVERT] 2023-09-01 15:21:12.980 INFO pt2onnx.py:172: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 15:21:12.980 INFO pt2onnx.py:87: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 15:21:12.981 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 15:21:12.981 INFO pt2onnx.py:90: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f9afb88dd90>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 15:21:13.047 INFO convert.py:208: finish convert, it cost 0.06850099563598633 seconds
+[CONVERT] 2023-09-01 15:21:13.078 INFO convert.py:232: Inference success---
+[CONVERT] 2023-09-01 15:21:13.078 INFO convert.py:239: ### Begin saving model...
+[CONVERT] 2023-09-01 15:21:13.078 INFO convert.py:247: generate inference shape model, it cost 0.030954837799072266 seconds
+[CONVERT] 2023-09-01 15:21:13.078 INFO convert.py:251: begin doing simplify...
+[CONVERT] 2023-09-01 15:21:48.391 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 15:21:48.391 INFO convert.py:160: ---input_shape_list: ['[1,3,10,10]']
+[CONVERT] 2023-09-01 15:21:48.391 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 15:21:48.396 INFO pt2onnx.py:128: got input_type_list: []
+[CONVERT] 2023-09-01 15:21:48.396 INFO pt2onnx.py:133: got shape: ['1', '3', '10', '10']
+[CONVERT] 2023-09-01 15:21:48.397 INFO pt2onnx.py:136: got input_shape_list: [['1', '3', '10', '10']]
+[CONVERT] 2023-09-01 15:21:48.397 INFO pt2onnx.py:144: got input_shape_list_int: [[1, 3, 10, 10]]
+[CONVERT] 2023-09-01 15:21:48.397 INFO pt2onnx.py:172: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 15:21:48.397 INFO pt2onnx.py:87: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 15:21:48.397 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 15:21:48.398 INFO pt2onnx.py:90: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f810118dd90>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 15:21:48.470 INFO convert.py:208: finish convert, it cost 0.07822704315185547 seconds
+[CONVERT] 2023-09-01 15:21:48.498 INFO convert.py:232: Inference success---
+[CONVERT] 2023-09-01 15:21:48.499 INFO convert.py:239: ### Begin saving model...
+[CONVERT] 2023-09-01 15:21:48.499 INFO convert.py:247: generate inference shape model, it cost 0.02959418296813965 seconds
+[CONVERT] 2023-09-01 15:21:48.499 INFO convert.py:251: begin doing simplify...
+[CONVERT] 2023-09-01 15:24:13.970 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 15:24:13.970 INFO convert.py:160: ---input_shape_list: ['[1,3,10,10]']
+[CONVERT] 2023-09-01 15:24:13.970 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 15:24:13.971 INFO pt2onnx.py:128: got input_type_list: []
+[CONVERT] 2023-09-01 15:24:13.972 INFO pt2onnx.py:133: got shape: ['1', '3', '10', '10']
+[CONVERT] 2023-09-01 15:24:13.972 INFO pt2onnx.py:136: got input_shape_list: [['1', '3', '10', '10']]
+[CONVERT] 2023-09-01 15:24:13.972 INFO pt2onnx.py:144: got input_shape_list_int: [[1, 3, 10, 10]]
+[CONVERT] 2023-09-01 15:24:13.972 INFO pt2onnx.py:172: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 15:24:13.972 INFO pt2onnx.py:87: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 15:24:13.973 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 15:24:13.973 INFO pt2onnx.py:90: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f9ba1bbe430>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 15:24:14.034 INFO convert.py:208: finish convert, it cost 0.06351017951965332 seconds
+[CONVERT] 2023-09-01 15:24:14.073 INFO convert.py:232: Inference success---
+[CONVERT] 2023-09-01 15:24:14.073 INFO convert.py:239: ### Begin saving model...
+[CONVERT] 2023-09-01 15:24:14.073 INFO convert.py:247: generate inference shape model, it cost 0.03939700126647949 seconds
+[CONVERT] 2023-09-01 15:24:14.073 INFO convert.py:251: begin doing simplify...
+[CONVERT] 2023-09-01 15:24:21.634 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 15:24:21.634 INFO convert.py:160: ---input_shape_list: ['[1,3,10,10]']
+[CONVERT] 2023-09-01 15:24:21.634 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 15:24:21.635 INFO pt2onnx.py:128: got input_type_list: []
+[CONVERT] 2023-09-01 15:24:21.635 INFO pt2onnx.py:133: got shape: ['1', '3', '10', '10']
+[CONVERT] 2023-09-01 15:24:21.635 INFO pt2onnx.py:136: got input_shape_list: [['1', '3', '10', '10']]
+[CONVERT] 2023-09-01 15:24:21.636 INFO pt2onnx.py:144: got input_shape_list_int: [[1, 3, 10, 10]]
+[CONVERT] 2023-09-01 15:24:21.636 INFO pt2onnx.py:172: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 15:24:21.636 INFO pt2onnx.py:87: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 15:24:21.636 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 15:24:21.636 INFO pt2onnx.py:90: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f8db3c6dee0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 15:24:27.412 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 15:24:27.412 INFO convert.py:160: ---input_shape_list: ['[1,3,10,10]']
+[CONVERT] 2023-09-01 15:24:27.412 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 15:24:27.413 INFO pt2onnx.py:128: got input_type_list: []
+[CONVERT] 2023-09-01 15:24:27.413 INFO pt2onnx.py:133: got shape: ['1', '3', '10', '10']
+[CONVERT] 2023-09-01 15:24:27.414 INFO pt2onnx.py:136: got input_shape_list: [['1', '3', '10', '10']]
+[CONVERT] 2023-09-01 15:24:27.414 INFO pt2onnx.py:144: got input_shape_list_int: [[1, 3, 10, 10]]
+[CONVERT] 2023-09-01 15:24:27.414 INFO pt2onnx.py:172: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 15:24:27.414 INFO pt2onnx.py:87: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 15:24:27.414 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 15:24:27.414 INFO pt2onnx.py:90: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7ff390cbf700>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 15:24:27.479 INFO convert.py:208: finish convert, it cost 0.06727313995361328 seconds
+[CONVERT] 2023-09-01 15:24:27.508 INFO convert.py:232: Inference success---
+[CONVERT] 2023-09-01 15:24:27.508 INFO convert.py:239: ### Begin saving model...
+[CONVERT] 2023-09-01 15:24:27.508 INFO convert.py:247: generate inference shape model, it cost 0.02892589569091797 seconds
+[CONVERT] 2023-09-01 15:24:27.508 INFO convert.py:251: begin doing simplify...
+[CONVERT] 2023-09-01 15:24:42.015 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 15:24:42.016 INFO convert.py:160: ---input_shape_list: ['[1,3,10,10]']
+[CONVERT] 2023-09-01 15:24:42.016 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 15:24:42.017 INFO pt2onnx.py:128: got input_type_list: []
+[CONVERT] 2023-09-01 15:24:42.017 INFO pt2onnx.py:133: got shape: ['1', '3', '10', '10']
+[CONVERT] 2023-09-01 15:24:42.017 INFO pt2onnx.py:136: got input_shape_list: [['1', '3', '10', '10']]
+[CONVERT] 2023-09-01 15:24:42.017 INFO pt2onnx.py:144: got input_shape_list_int: [[1, 3, 10, 10]]
+[CONVERT] 2023-09-01 15:24:42.018 INFO pt2onnx.py:172: ---input_name_list: ['input_0']
+[CONVERT] 2023-09-01 15:24:42.018 INFO pt2onnx.py:87: target_module: test_onnx_demo
+[CONVERT] 2023-09-01 15:24:42.018 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 15:24:42.018 INFO pt2onnx.py:90: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fabe1bbf8b0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 15:24:42.080 INFO convert.py:208: finish convert, it cost 0.06398415565490723 seconds
+[CONVERT] 2023-09-01 15:24:42.107 INFO convert.py:232: Inference success---
+[CONVERT] 2023-09-01 15:24:42.108 INFO convert.py:239: ### Begin saving model...
+[CONVERT] 2023-09-01 15:24:42.108 INFO convert.py:247: generate inference shape model, it cost 0.0278627872467041 seconds
+[CONVERT] 2023-09-01 15:24:42.109 INFO convert.py:276: The whole progress cost 0.09286808967590332 seconds
+[CONVERT] 2023-09-01 15:24:42.109 CRITICAL convert.py:278: Convert Success!
+[CONVERT] 2023-09-01 15:30:50.067 INFO convert.py:159: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 15:30:50.068 INFO convert.py:160: input_shape_list: ['[1,3,10,10]']
+[CONVERT] 2023-09-01 15:30:50.068 INFO convert.py:189: begin convert..
+[CONVERT] 2023-09-01 15:30:50.072 INFO pt2onnx.py:127: got input_type_list: []
+[CONVERT] 2023-09-01 15:30:50.072 INFO pt2onnx.py:139: got input_shape_list: [[1, 3, 10, 10]]
+[CONVERT] 2023-09-01 15:30:50.076 INFO pt2onnx.py:166: input_name_list: ['input_0']
+[CONVERT] 2023-09-01 15:30:50.077 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 15:30:50.077 INFO pt2onnx.py:89: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f9652e020d0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 17:00:28.013 INFO convert.py:49: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 17:00:28.014 INFO convert.py:50: input_shape_list: ['[1,3,10,10]']
+[CONVERT] 2023-09-01 17:29:23.956 INFO convert.py:49: model_path:./model.pt, model_type:pytorch, output:./test_tf_model.onnx
+[CONVERT] 2023-09-01 17:29:23.957 INFO convert.py:50: input_shape_list: ['[1,3,10,10]']
+[CONVERT] 2023-09-01 17:29:23.958 INFO convert.py:79: begin convert..
+[CONVERT] 2023-09-01 17:29:23.959 INFO pt2onnx.py:60: Module: params can be imported
+[CONVERT] 2023-09-01 17:29:23.959 INFO pt2onnx.py:110: get module: ModuleSpec(name='params', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fa748c6dfa0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/params.py')
+[CONVERT] 2023-09-01 17:29:23.959 INFO pt2onnx.py:129: got input_type_list: []
+[CONVERT] 2023-09-01 17:29:23.959 INFO pt2onnx.py:141: got input_shape_list: [[1, 3, 10, 10]]
+[CONVERT] 2023-09-01 17:29:23.960 INFO pt2onnx.py:168: input_name_list: ['input_0']
+[CONVERT] 2023-09-01 17:29:23.960 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 17:29:23.960 INFO pt2onnx.py:89: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fa74648dd30>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 17:29:24.065 INFO convert.py:98: finish convert, it cost 0.10718512535095215 seconds
+[CONVERT] 2023-09-01 17:29:24.095 INFO convert.py:122: Inference success
+[CONVERT] 2023-09-01 17:29:24.096 INFO convert.py:129: Begin saving model...
+[CONVERT] 2023-09-01 17:29:24.096 INFO convert.py:137: generate inference shape model, it cost 0.031488656997680664 seconds
+[CONVERT] 2023-09-01 17:29:24.098 INFO convert.py:166: The whole progress cost 0.14018511772155762 seconds
+[CONVERT] 2023-09-01 17:29:24.098 CRITICAL convert.py:167: Convert Success!
+[CONVERT] 2023-09-01 17:52:21.218 INFO convert.py:49: model_path:./model.pt, model_type:pytorch, output:./output.onnx
+[CONVERT] 2023-09-01 17:52:21.219 INFO convert.py:50: input_shape_list: ['[1,3,10,10]']
+[CONVERT] 2023-09-01 17:52:21.219 INFO convert.py:79: begin convert..
+[CONVERT] 2023-09-01 17:52:23.485 INFO pt2onnx.py:60: Module: params can be imported
+[CONVERT] 2023-09-01 17:52:23.485 INFO pt2onnx.py:110: get module: ModuleSpec(name='params', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f8d226790a0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/params.py')
+[CONVERT] 2023-09-01 17:52:23.488 INFO pt2onnx.py:129: got input_type_list: []
+[CONVERT] 2023-09-01 17:52:23.488 INFO pt2onnx.py:141: got input_shape_list: [[1, 3, 10, 10]]
+[CONVERT] 2023-09-01 17:52:23.494 INFO pt2onnx.py:168: input_name_list: ['input_0']
+[CONVERT] 2023-09-01 17:52:23.495 INFO pt2onnx.py:60: Module: test_onnx_demo can be imported
+[CONVERT] 2023-09-01 17:52:23.495 INFO pt2onnx.py:89: get module: ModuleSpec(name='test_onnx_demo', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f8d2265f8e0>, origin='/Users/hexer/Documents/workspace/code/iuapaipaas/intelliw-onnx/intelliw_onnx/test/test_onnx_demo.py')
+[CONVERT] 2023-09-01 17:52:23.731 INFO convert.py:98: finish convert, it cost 2.5110909938812256 seconds
+[CONVERT] 2023-09-01 17:52:23.783 INFO convert.py:122: Inference success
+[CONVERT] 2023-09-01 17:52:23.784 INFO convert.py:129: Begin saving model...
+[CONVERT] 2023-09-01 17:52:23.784 INFO convert.py:137: generate inference shape model, it cost 0.05328822135925293 seconds
+[CONVERT] 2023-09-01 17:52:23.785 INFO convert.py:166: The whole progress cost 2.5651519298553467 seconds
+[CONVERT] 2023-09-01 17:52:23.785 CRITICAL convert.py:167: Convert Success!
