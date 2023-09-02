@@ -1,0 +1,7 @@
+bson>=0.5.9
+requests>=2.5.4
+
+[dev]
+pytest>=7.0
+twine>=4.0.2
+dotenv>=0.0.5
