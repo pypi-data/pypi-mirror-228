@@ -1,0 +1,10 @@
+name: napari-timestamper
+display_name: Timestamper
+contributions:
+  commands:
+    - id: napari-timestamper.timestamper
+      python_name: napari_timestamper._widget:TimestampWidget
+      title: Make Timestamp Widget
+  widgets:
+    - command: napari-timestamper.timestamper
+      display_name: Timestamper
