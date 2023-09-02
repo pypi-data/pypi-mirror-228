@@ -1,0 +1,7 @@
+winrt/_winrt_windows_ui_input.cp311-win_amd64.pyd,sha256=pzbJgUNBrmMMzJtlcUBxhAAEahMljCEFXaWsAsMWHOw,558080
+winrt/_winrt_windows_ui_input.pyi,sha256=xthvgXiGpXHHEmYZ7rYBD2bk5uCfMbI9CWrQfgpuie8,38211
+winrt/windows/ui/input/__init__.py,sha256=RnwIM1xIuODEuB7LYFEM1UsCC995twRtUW_5A2jITc0,7436
+winrt_Windows.UI.Input-2.0.0b1.dist-info/METADATA,sha256=TjrK94Q5Z5644m_n-s5BexL2HXOxbHJ6f6ZVXsX4FKg,1458
+winrt_Windows.UI.Input-2.0.0b1.dist-info/WHEEL,sha256=viuncpH_EfvQZWqmP28y3RsBnRoE49Wb1vcMVyR8XUI,102
+winrt_Windows.UI.Input-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.UI.Input-2.0.0b1.dist-info/RECORD,,
