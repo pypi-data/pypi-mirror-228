@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+maibench/__init__.py
+maibench/cli.py
+maibench/completion_fn.py
+maibench/grader.py
+maibench/test_suite.py
+maibench/examples/example_script.py
+maibench/utils/data.py
+maibenchai.egg-info/PKG-INFO
+maibenchai.egg-info/SOURCES.txt
+maibenchai.egg-info/dependency_links.txt
+maibenchai.egg-info/requires.txt
+maibenchai.egg-info/top_level.txt
