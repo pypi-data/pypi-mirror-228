@@ -1,0 +1,261 @@
+{% extends 'ddm/admin/generic/page_with_form.html' %}
+
+{% load static %}
+
+{% block page_title %}Edit File Blueprint{% endblock %}
+
+{% block main_heading %}Edit File Blueprint "{{ object.name }}"{% endblock %}
+
+{% block main_form %}
+<form method='post'>
+  {% csrf_token %}
+  {{ form.media }}
+  {{ form.non_field_errors }}
+
+  <div class="ddm-admin-form">
+    {% for field in form %}
+    {% if field.name not in "expected_fields,regex_path,exp_file_format,csv_delimiter,json_extraction_root" %}
+    <p>
+      {{ field.label_tag }}
+      {{ field.errors }}
+      <span class="helptext">{{ field.help_text }}</span><br>
+      {{ field }}
+    </p>
+    {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="ddm-admin-form">
+    <h5>Data Extraction Settings</h5>
+  </div>
+
+  <div>
+    <p>Data Extraction is a two-step process:</p>
+
+    <h6><b>1. File Validation</b></h6>
+    <p>
+      First, it is checked whether the file that you expect is included in the download.
+      This means that if the associated File Uploader expects a ZIP Upload, it tries to find the correct
+      file according to the <i>file path</i> you defined (this is skipped for single file uploads).
+    </p>
+    <p>
+      Next, it is checked whether the uploaded file has the expected format defined in the <i>Expected File Format</i>
+      setting (and other settings, depending on the file format).
+    </p>
+    <p>
+      Lastly, it is checked whether the identified file contains the expected fields
+      defined in the <i>Expected Fields</i> setting.<br>
+      If any of these validation steps fail, the participant will be shown an
+      exception message explaining what went wrong and the file upload and extraction is aborted.
+    </p>
+  </div>
+
+  <div class="ddm-admin-form">
+    {% for field in form %}
+    {% if field.name in "expected_fields,regex_path,exp_file_format,csv_delimiter,json_extraction_root" %}
+    <p>
+      {{ field.label_tag }}
+      {{ field.errors }}
+      <span class="helptext">{{ field.help_text }}</span>
+      {{ field }}
+    </p>
+    {% endif %}
+    {% endfor %}
+  </div>
+
+    <div>
+      <h6><b>2. Data Extraction</b></h6>
+    </div>
+    <div>
+      <p>
+        For the data extraction, the Data Donation Module follows the data sparsity paradigm.
+        This means that the base assumption is, that you do not want any data from your participants,
+        and you have to explicitly indicate which data fields you want to have included.
+      </p>
+      <p>
+        To keep data in the data donation, you must define <i>Extraction Rules</i>.<br>
+        An Extraction Rule is always related to one field/column in the uploaded data file
+        and a data field will only be kept in a participant's donation if it is explicitly
+        mentioned in at least one of the extraction rules.
+      </p>
+      <p>
+        An extraction rule can either indicate to just keep a field in the donation
+        (by mentioning the field/column in an extraction rule without defining any concrete comparison operator),
+        use data contained in a field to delete data entries (i.e., rows) from the donation
+        (e.g., to delete all entries where the date is < 01.01.2020) or
+        alter the data contained in a field (e.g., anonymize an e-mail address by replacing "name@mail.com" with "EMAIL").<br>
+        For this, there are several comparison and regex operations available. For the comparison operations, a match
+        means that a data entry will be deleted. The rules are applied to the uploaded file in the indicated order.
+      </p>
+    </div>
+
+    {{ formset.management_form }}
+    <div class="ddm-admin-form">
+    <h6>Extraction Rules</h6>
+    <table id="inlineform-table" class="table table-borderless">
+      <tr class="border-bottom">
+        <th>Order</th>
+        {% for field in form.visible_fields %}
+        {% if field.name in 'name,field' %}
+        <th>{{ field.label }}</th>
+        {% endif %}
+        {% endfor %}
+        <th>Description</th>
+        <th></th>
+        <th>Delete</th>
+      </tr>
+
+      {% for form in formset%}
+      <tr>
+        {{ form.non_field_errors }}
+        {% with loop_id=forloop.counter0 %}
+        {% for field in form.visible_fields %}
+        {% if field.name in 'name,field,execution_order' %}
+        <td id="{{ field.name }}-{{ loop_id }}">
+          {{ field.errors }}
+          {{ field.value }}
+        </td>
+        {% endif %}
+        {% endfor %}
+        {% endwith %}
+
+        <td><span id="step-description-{{ forloop.counter0 }}">–</span></td>
+
+        <td><a href="" type="button" data-bs-toggle="modal" data-bs-target="#configuration-{{ forloop.counter0 }}">Configure Step</a></td>
+
+        {% for field in form.visible_fields %}
+        {% if field.name in 'DELETE' %}
+        <td>
+          {{ field.errors }}
+          {{ field }}
+        </td>
+        {% endif %}
+        {% endfor %}
+
+        {% for hidden in form.hidden_fields %}
+        {{ hidden }}
+        {% endfor %}
+      </tr>
+      {% endfor %}
+
+    </table>
+  </div>
+
+  <div class="mb-3 fs-4 ps-2">
+    <a id="add-inline-form" class="ddm-btn ddm-btn-inverted" type="button"><i class="bi bi-plus"></i>&nbsp;&nbsp;Add Extraction Rule</a>
+  </div>
+
+  {% for form in formset%}
+    {% with modal_id_postfix=forloop.counter0|stringformat:"i" button_id_postfix=forloop.counter0|stringformat:"i" %}
+      {% include "ddm/admin/data_donation/processing_rule_modal.html" with modal_id="configuration-"|add:modal_id_postfix form=form button_id=""|add:button_id_postfix %}
+    {% endwith %}
+  {% empty %}
+    {% include "ddm/admin/data_donation/processing_rule_modal.html" with modal_id="configuration-template" form=formset.empty_form button_id="__prefix__" %}
+  {% endfor %}
+
+  <table id="empty-form-placeholder" style="display:none">
+    <tr>
+      {% for field in formset.empty_form %}
+      {% if field.name in 'name,field,execution_order' %}
+      <td id="{{ field.name }}-__prefix__">
+        {{ field.errors }}
+        {{ field.value }}
+      </td>
+      {% endif %}
+      {% endfor %}
+
+      <td><span id="step-description-__prefix__">–</span></td>
+
+      <td><a href="" type="button" data-bs-toggle="modal" data-bs-target="#configuration-__prefix__">Configure Step</a></td>
+
+      {% for field in formset.empty_form.visible_fields %}
+      {% if field.name in 'DELETE' %}
+      <td>
+        {{ field.errors }}
+        {{ field }}
+      </td>
+      {% endif %}
+      {% endfor %}
+
+      {% for hidden in formset.empty_form.hidden_fields %}
+      {{ hidden }}
+      {% endfor %}
+    </tr>
+  </table>
+
+  <div id="empty-form" class="ddm-admin-form" style="display:none">
+    <div class="ddm-admin-form">
+    {% for field in formset.empty_form %}
+    {% if field.name in 'name,field,execution_order,input_type,comparison_operator,comparison_value,replacement_value' %}
+    <p {% if field.name in 'replacement_value,comparison_value' %}style="display: none"{% endif %}>
+      {{ field.label }}
+      <span class="helptext"><br>{{ field.help_text }}</span>
+      {{ field }}
+      {{ field.errors }}
+      <span class="form-error" style="display: none; color: red;">Please provide a value for this field.</span>
+    </p>
+    {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+
+  <input class="ddm-btn" type="submit" value="Save Blueprint">
+  <p class="mt-3">
+    <a href="{% url 'data-donation-overview' project.pk %}">&#129040; Back</a>
+  </p>
+</form>
+{{ file_uploader_meta|json_script:'file_uploader_meta' }}
+{% endblock %}
+
+
+{% block breadcrumbs %}
+<a href="{% url 'project-list' %}">Projects</a> /
+<a href="{% url 'project-detail' project.pk %}">"{{ project.name|truncatechars:15 }}" Project</a> /
+<a href="{% url 'data-donation-overview' project.pk %}">Data Donation</a> /
+Edit Blueprint
+{% endblock %}
+
+{% block scripts %}
+  {{ block.super }}
+  <script src="{% static 'ddm/js/blueprint-edit-ui-helpers.js' %}"></script>
+  <script src="{% static 'ddm/js/processing-rule-modal.js' %}"></script>
+
+  <script>
+    const file_uploader_meta = JSON.parse(document.getElementById("file_uploader_meta").textContent);
+
+    function hideOrShowCsvDelimiter() {
+      if( $( "#id_exp_file_format" ).val() == "csv") {
+        $( "#id_csv_delimiter" ).parent().show();
+      } else {
+        $( "#id_csv_delimiter" ).parent().hide();
+      }
+    }
+
+    function hideOrShowRegexPath() {
+      if( file_uploader_meta[$( "#id_file_uploader" ).val()] == "zip file" ) {
+        $( "#id_regex_path" ).parent().show();
+      } else {
+        $( "#id_regex_path" ).parent().hide();
+      }
+    }
+
+    function hideOrShowJsonRoot() {
+      if( $( "#id_exp_file_format" ).val() == "json") {
+        $( "#id_json_extraction_root" ).parent().show();
+      } else {
+        $( "#id_json_extraction_root" ).parent().hide();
+      }
+    }
+
+    $(function() {
+      hideOrShowCsvDelimiter();
+      hideOrShowRegexPath();
+      hideOrShowJsonRoot();
+    });
+    $( "#id_exp_file_format" ).change(function() {
+      hideOrShowCsvDelimiter();
+      hideOrShowJsonRoot();
+    });
+    $( "#id_file_uploader" ).change(function() { hideOrShowRegexPath() });
+  </script>
+{% endblock scripts %}
