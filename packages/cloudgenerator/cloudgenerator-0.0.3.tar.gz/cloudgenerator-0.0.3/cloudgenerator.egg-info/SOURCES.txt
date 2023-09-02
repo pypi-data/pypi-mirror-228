@@ -1,0 +1,8 @@
+setup.py
+cloudgenerator/__init__.py
+cloudgenerator/cloudgenerator.py
+cloudgenerator.egg-info/PKG-INFO
+cloudgenerator.egg-info/SOURCES.txt
+cloudgenerator.egg-info/dependency_links.txt
+cloudgenerator.egg-info/requires.txt
+cloudgenerator.egg-info/top_level.txt
