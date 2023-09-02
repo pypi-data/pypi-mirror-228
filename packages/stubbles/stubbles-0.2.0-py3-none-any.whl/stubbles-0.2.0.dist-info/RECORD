@@ -1,0 +1,9 @@
+stubbles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stubbles/__main__.py,sha256=ucdDvDyu6Mvsm2eXHviy9U9Hk7LrJ-Tcef627sCyfUo,134
+stubbles/templates.py,sha256=AbP7iuX3U0VrSTBL8AkPxrrZLGTaYntQOhQAhezTGdU,1907
+stubbles/tests/test_templates.py,sha256=nUTtc-wRucW5YvleGaXH0Qbn4WkSz2faPiCkFPpgFYA,2045
+stubbles/types.py,sha256=BiKMPiv2MZOpZmE06G4GjMJyobgTqx1LQaFjvLzLMYQ,659
+stubbles-0.2.0.dist-info/LICENSE,sha256=_Ky26Wis-MfkEqhu0V8ala6MHTWypd6tYB5CpEmrgU8,1071
+stubbles-0.2.0.dist-info/METADATA,sha256=xhS_onKvmC2rQnD5z_j1ONvPBPs_wHjWl8oMtXjBLgA,1425
+stubbles-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+stubbles-0.2.0.dist-info/RECORD,,
