@@ -1,0 +1,13 @@
+CHANGES.rst
+LICENSE.txt
+MANIFEST.in
+README.rst
+RELEASE.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/playerdo.egg-info/PKG-INFO
+src/playerdo.egg-info/SOURCES.txt
+src/playerdo.egg-info/dependency_links.txt
+src/playerdo.egg-info/entry_points.txt
+src/playerdo.egg-info/top_level.txt
