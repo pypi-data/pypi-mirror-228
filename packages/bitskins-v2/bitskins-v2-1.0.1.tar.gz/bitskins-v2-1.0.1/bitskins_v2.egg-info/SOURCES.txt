@@ -1,0 +1,8 @@
+setup.py
+bitskins/__init__.py
+bitskins/client.py
+bitskins/streams.py
+bitskins_v2.egg-info/PKG-INFO
+bitskins_v2.egg-info/SOURCES.txt
+bitskins_v2.egg-info/dependency_links.txt
+bitskins_v2.egg-info/top_level.txt
