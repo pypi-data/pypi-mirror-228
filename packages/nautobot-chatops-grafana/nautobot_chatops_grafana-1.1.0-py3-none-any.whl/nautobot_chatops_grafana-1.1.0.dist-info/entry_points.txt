@@ -1,0 +1,3 @@
+[nautobot.workers]
+grafana=nautobot_plugin_chatops_grafana.worker:grafana
+
