@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: Konversi-suhu
+Version: 0.0.1
+Summary: temperature converter 
+Home-page: https://gitlab.com/kurnia_endah/pelatihan_bmkg.git
+Author: Kurnia Endah Komalasari
+Author-email: kurniaendah.ks@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
