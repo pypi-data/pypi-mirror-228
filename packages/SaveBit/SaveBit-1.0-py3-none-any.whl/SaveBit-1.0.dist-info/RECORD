@@ -1,0 +1,12 @@
+savebit/__init__.py,sha256=MAgVnw1YvAosjCKnyuAnDMO68CG0xyxcWMyt2KYVjsA,826
+savebit/crypto.py,sha256=O3iDwuwyWi6fSbyEwItgZzuP0Xw9vzR00v4jXCCYCSo,1788
+savebit/env.py,sha256=NdqDdkwBbAXSo2NOR-5nSJLADXJP70JuWv1FuDlQugg,853
+savebit/format/__init__.py,sha256=nIBajl3Wwt8ih9CMu60mujlsLHUC5aWT3HVEcoiAIhY,63
+savebit/format/ini.py,sha256=uHnAELGP1FILk7sRtvKEu5pjjuD2A9UTdk_jrf-uJcQ,854
+savebit/format/json.py,sha256=bIWYVylpeyQ36UqXwAUqubvnGhSQx0I0Lz_k6w16q0I,711
+savebit/format/pickle.py,sha256=8xYzTzbjU8wnPVrZdzld0w5EEmIFOyymquPtuUa9-TE,731
+savebit/format/yaml.py,sha256=90p257dndTM5Gdu3MiGVWJJ639rT05yaKUGW1gKiTuU,711
+SaveBit-1.0.dist-info/METADATA,sha256=ouXG0ebiZfYxN6Jb_mZJCGCkUq7Vgj4oMi8gSIksHh4,970
+SaveBit-1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+SaveBit-1.0.dist-info/top_level.txt,sha256=yo1T1mrhK4BQayzt9uJFyEXscClnbW7-xeUyAhdNCxc,8
+SaveBit-1.0.dist-info/RECORD,,
