@@ -1,0 +1,35 @@
+[build-system]
+requires = [
+    "setuptools>=65.0.0"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["google_images_downloader"]
+
+[project]
+name = "google-images-downloader"
+requires-python = ">=3.8"
+description = "Script to download images from a \"Google Images\" query"
+version = "1.0.11"
+authors = [
+    { name = "Harkame" }
+]
+readme = "README.md"
+classifiers = ["Programming Language :: Python"]
+dependencies = [
+    "selenium>=4.11.2",
+    "requests>=2.31.0",
+    "aiohttp>=3.8.5",
+    "Pillow>=10.0.0",
+    "fake-useragent>=1.2.1",
+    "tqdm>=4.66.1"
+]
+[project.urls]
+repository = "https://github.com/Harkame/google-images-downloader"
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "pytest-cov"]
+
+[project.scripts]
+google-images-downloader = "google_images_downloader.__main__:main"
