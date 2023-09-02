@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pybic
+Version: 0.1.2
+Summary: driver for meanwell bi-directional charger
+License: MIT
+Author: Frank Chang
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: gs-usb (>=0.3.0,<0.4.0)
+Requires-Dist: python-can (>=4.2.2,<5.0.0)
+Requires-Dist: pyusb (>=1.2.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# pybic
+
+This is a driver for Meanwell bi-directional charger.
+
+## Author
+- Frank Chang
+
+## License
+See LICENSE
+
