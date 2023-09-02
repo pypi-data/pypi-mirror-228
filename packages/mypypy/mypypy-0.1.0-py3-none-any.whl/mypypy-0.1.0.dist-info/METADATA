@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mypypy
+Version: 0.1.0
+Summary: 
+Author: Peter Thompson
+Author-email: peter.thompson92@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
