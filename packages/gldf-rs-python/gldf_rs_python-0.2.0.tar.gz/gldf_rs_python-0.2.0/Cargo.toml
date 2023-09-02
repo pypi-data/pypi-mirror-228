@@ -1,0 +1,47 @@
+[package]
+name = "gldf_rs_python"
+version = "0.2.0"
+edition = "2018"
+authors = ["Holger Trahe <trahe@mac.com>"]
+documentation = "https://docs.rs/gldf-rs/"
+description = "Python Module of the GLDF (General Lighting Data Format) parser and writer for Rust, specifically for the Rust/WASM target as such designed for JSON format"
+repository = "https://github.com/holg/gldf-rs-python"
+homepage = "https://github.com/holg/gldf-rs-python"
+license = "GPL-3.0-or-later"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "gldf_rs_python"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+pyo3 = { version = "0.19", features = ["extension-module", "abi3-py37"]}
+gldf-rs = "0.2"
+#gldf-rs = {path = "../gldf-rs"}
+openssl = { version = "0.10.57", features = ["vendored"] }
+#gldf-rs = {git = "https://github.com/holg/gldf-rs/", branch = "staging"}
+
+[features]
+# must be enabled when building with `cargo build`, maturin enables this automatically
+extension-module = ["pyo3/extension-module"]
+[build-dependencies]
+version_check = {version = "0.9.4"}
+# used where logic has to be version/distribution specific, e.g. pypy
+pyo3-build-config = { version = "0.19.2" }
+
+[target.x86_64-unknown-linux-gnu]
+linker = "x86_64-unknown-linux-gnu-gcc"
+
+[target.x86_64-unknown-linux-musl]
+linker = "x86_64-linux-musl-gcc"
+
+[target.x86_64-apple-darwin]
+rustflags = [
+    "-C", "link-arg=-undefined",
+    "-C", "link-arg=dynamic_lookup",
+]
+
+[target.aarch64-apple-darwin]
+rustflags = [
+    "-C", "link-arg=-undefined",
+    "-C", "link-arg=dynamic_lookup",
+]
