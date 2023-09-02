@@ -1,0 +1,11 @@
+stc_geck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stc_geck/advices.py,sha256=AInx-6VSA7uEvrSr8UyqRruv3h09yFewvqJk5xI0t_s,1231
+stc_geck/cli.py,sha256=ktjd-Q64Wkpk_rWgJoyMZpnMdv_MV9ZsPJ8a-xJytk8,7354
+stc_geck/client.py,sha256=KOezruWi-9RVN9G95qAO3Y63W1eslo7maGC2Uhlrifs,9010
+stc_geck/query_processor.py,sha256=Ru9JrCkPZqIxLD-XKJJND2002O-LwXIk-SnKykOGgwI,8735
+stc_geck/utils.py,sha256=f7I1fj_YpJIGcMrXuQRKqpwMfOl7P6NeyJrU170tZZE,3245
+stc_geck-1.6.10.dist-info/METADATA,sha256=uH3Hpq3kFYUi6H8m7TSdONE25XJf3k7-x1fagOCd_3M,9202
+stc_geck-1.6.10.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+stc_geck-1.6.10.dist-info/entry_points.txt,sha256=apMMBZAu4GsqFc28gCaIi23MDiy3gJPHMZg6678hs9U,43
+stc_geck-1.6.10.dist-info/top_level.txt,sha256=TwiA9USHuQui_GrEeBN_a6DIGm7zLSsjPr380yYD2vU,9
+stc_geck-1.6.10.dist-info/RECORD,,
