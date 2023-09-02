@@ -1,0 +1,7 @@
+winrt/_winrt_windows_gaming_input_forcefeedback.cp311-win32.pyd,sha256=ep5npwRbBUlN8DAoZs56Q7pW84wZ2-Efc85YXR3k8gs,118784
+winrt/_winrt_windows_gaming_input_forcefeedback.pyi,sha256=E1TjvYzsbD-i-SXFPolcsU28n7Ocdwm4QQf7RdCJBaY,6493
+winrt/windows/gaming/input/forcefeedback/__init__.py,sha256=FAm_Brsbrfdl_5h2SjwogFAMVT4vm0xvgP6rAsZCvNM,1617
+winrt_Windows.Gaming.Input.ForceFeedback-2.0.0b1.dist-info/METADATA,sha256=8OY1pXvYfExpwbvtimv_xq0ASCOnfDnt9JzzaIajsG0,1131
+winrt_Windows.Gaming.Input.ForceFeedback-2.0.0b1.dist-info/WHEEL,sha256=MpyGHBYwzd-Jap9JHrbjRY_PQK67I2tRW5oQLucxFp4,98
+winrt_Windows.Gaming.Input.ForceFeedback-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Gaming.Input.ForceFeedback-2.0.0b1.dist-info/RECORD,,
