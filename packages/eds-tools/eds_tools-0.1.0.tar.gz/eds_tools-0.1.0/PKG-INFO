@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: eds_tools
+Version: 0.1.0
+Summary: EDSTools: designed to combined variant calls from peaked data with the reference genome. Returns the genomic sequence of the allele most present in the peak.
+Author: Simone G. Riva, Edward Sanders
+Author-email: simo.riva15@gmail.com
+Project-URL: Bug Tracker, https://github.com/Genome-Function-Initiative-Oxford/EdTools/issues
+Project-URL: Source, https://github.com/Genome-Function-Initiative-Oxford/EdTools
+Requires-Python: >=3.9.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# EDSTools -- EvolvedDevelopmentSequenceTools
+
+BEDTools style repository for passing VCF/BED files.
+
+Designed to combined variant calls from peaked data with the reference genome. Returns the genomic sequence of the allele most present in the peak.
+
+Example Usage:
+
+```
+import eds_tools
+
+py_eds_tool = eds_tools.EdsTool("/<path>/analysis_regions.txt")
+
+py_eds_tool = py_eds_tool.sequence(
+    fi= "/<path>/genome.fa",
+    vcf="/<path>/gatk-snp-indel.vcf.gz"
+)
+sequences = py_eds_tool.sequences
+```
+
+To run the unittests please run:
+
+```
+cd eds_tools
+python -m unittest discover
+```

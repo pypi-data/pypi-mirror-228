@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+eds_tools/__init__.py
+eds_tools/_version.py
+eds_tools/eds_tools.py
+eds_tools/sequence_utils.py
+eds_tools/test_eds_tools.py
+eds_tools.egg-info/PKG-INFO
+eds_tools.egg-info/SOURCES.txt
+eds_tools.egg-info/dependency_links.txt
+eds_tools.egg-info/requires.txt
+eds_tools.egg-info/top_level.txt
