@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "nms-ts"
+version = "1.1.2"
+description = "A tool for grabbing binary text from a No Man's Sky screenshot and translating it to UTF-8 for you."
+authors = ["Dakota Brown <dakota.kae.brown@gmail.com>"]
+readme = "README.md"
+packages = [{include = "nms_translator"}]
+
+[tool.poetry.scripts]
+nms = "nms_translator.cli:ts"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pillow = "^10.0.0"
+pytesseract = "^0.3.10"
+click = "^8.1.7"
+toml = "^0.10.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
