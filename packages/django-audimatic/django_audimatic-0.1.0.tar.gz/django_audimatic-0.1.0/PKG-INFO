@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: django-audimatic
+Version: 0.1.0
+Summary: Model audit trails
+Project-URL: Homepage, https://github.com/BillSchumacher/django-audimatic
+Project-URL: Bug Tracker, https://github.com/BillSchumacher/django-audimatic/issues
+Author-email: Bill Schumacher <34168009+BillSchumacher@users.noreply.github.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: django
+Description-Content-Type: text/markdown
+
+django-audimatic
+===
+
+Easy audit trails.
+
+Work in progress...
