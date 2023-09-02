@@ -1,0 +1,3 @@
+[console_scripts]
+the-crawler=the_crawler:main
+
