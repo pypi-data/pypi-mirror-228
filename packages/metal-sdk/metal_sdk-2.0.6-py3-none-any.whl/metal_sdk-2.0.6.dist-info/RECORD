@@ -1,0 +1,10 @@
+metal_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metal_sdk/metal.py,sha256=pEs6aD-VGeT5MqvBED53BM7pTcJ7mQmk5JtAnld6NFY,7642
+metal_sdk/metal_async.py,sha256=FornDZG7E43YLWes7-dOy7ms6tQlyGu1Vx2baX0vXSg,7803
+metal_sdk/motorhead.py,sha256=aF5fflnhR8Yl_54B3qpB2iTlusVfHiLm5QGL3-XP1mI,1706
+metal_sdk/motorhead_async.py,sha256=G359dBA48USE8nS0D_WJ1TpWilft07EFvth_aZgUcGY,1710
+metal_sdk/typings.py,sha256=-ouxGT2P0jxDvCXL-ypqmNYojtAdbMR6YlnrnOnUy8A,1344
+metal_sdk-2.0.6.dist-info/METADATA,sha256=SFrtH51T7Zr61WC4j0-gaJXIe6hW-46JTgWXkw5hx1I,1048
+metal_sdk-2.0.6.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+metal_sdk-2.0.6.dist-info/licenses/LICENSE,sha256=umYqvWYL37K6kXSLON2UeY-o0PLk8PiXvFWic_gtTqM,10942
+metal_sdk-2.0.6.dist-info/RECORD,,
