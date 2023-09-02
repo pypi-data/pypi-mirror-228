@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cjkfuzz
+Version: 0.0.3
+Summary: A Python package for fuzzy matching CJK strings.
+Author: Eddie Lin
+Author-email: eddielin0926@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# CJKfuzz
+[![Supported Python Versions](https://img.shields.io/pypi/pyversions/cjkfuzz/0.0.1)](https://pypi.org/project/cjkfuzz/) [![PyPI version](https://badge.fury.io/py/cjkfuzz.svg)](https://badge.fury.io/py/cjkfuzz)
+
+## Installation
+
+```shell
+pip install cjkfuzz
+```
+
+## License
+
+This project is licensed under the terms of the [MIT License](LICENSE)
+
