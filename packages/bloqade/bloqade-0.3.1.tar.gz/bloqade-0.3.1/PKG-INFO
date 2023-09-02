@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: bloqade
+Version: 0.3.1
+Summary: neutral atom software development kit
+Author-Email: QuEra Computing Inc. <info@quera.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: juliacall>=0.9.12
+Requires-Dist: numpy>=1.24.2
+Requires-Dist: pydantic>=1.10.7
+Requires-Dist: pandas>=2.0.1
+Requires-Dist: seaborn>=0.12.2
+Requires-Dist: bokeh>=3.1.1
+Requires-Dist: tabulate>=0.9.0
+Requires-Dist: requests-sigv4>=0.1.6
+Requires-Dist: amazon-braket-sdk>=1.41.0
+Requires-Dist: tqdm>=4.65.0
+Requires-Dist: plotext>=5.2.8
+Requires-Dist: mkdocs>=1.4.3; extra == "doc"
+Requires-Dist: mkdocs-material>=9.1.9; extra == "doc"
+Requires-Dist: mkdocstrings[python]>=0.21.2; extra == "doc"
+Requires-Dist: mkdocs-minify-plugin>=0.6.4; extra == "doc"
+Requires-Dist: mkdocs-jupyter>=0.24.1; extra == "doc"
+Requires-Dist: mkdocs-gen-files>=0.5.0; extra == "doc"
+Requires-Dist: mkdocs-literate-nav>=0.6.0; extra == "doc"
+Requires-Dist: mike>=1.1.2; extra == "doc"
+Provides-Extra: doc
+Description-Content-Type: text/markdown
+
+# Bloqade
+
+The python SDK for Bloqade.
+
+## Installation
+
+### Development Guide
+
+If you want to setup locally for development, you can just cloning the repository and setup the
+environment with [pdm](https://pdm.fming.dev/latest/).
+
+```sh
+pdm install
+```
