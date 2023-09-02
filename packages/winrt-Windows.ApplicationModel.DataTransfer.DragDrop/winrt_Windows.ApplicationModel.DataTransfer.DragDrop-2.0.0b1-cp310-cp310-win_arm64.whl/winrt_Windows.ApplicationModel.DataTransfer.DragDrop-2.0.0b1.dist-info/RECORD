@@ -1,0 +1,7 @@
+winrt/_winrt_windows_applicationmodel_datatransfer_dragdrop.cp310-win_arm64.pyd,sha256=-OSo3yGs205oT9-XrVWPWY0xyc1SgJWmnHnrzdEOqzA,10752
+winrt/_winrt_windows_applicationmodel_datatransfer_dragdrop.pyi,sha256=xnSdvNm671sKZxjM5ypFgcqBwyKyUrnQ8KvRdnHMoEY,363
+winrt/windows/applicationmodel/datatransfer/dragdrop/__init__.py,sha256=_7aM9VG0yQgYxbo-MOUOLvjXVUgw7NWPnFkGpPod3qY,406
+winrt_Windows.ApplicationModel.DataTransfer.DragDrop-2.0.0b1.dist-info/METADATA,sha256=meVqmQ37trnf9er7OrJ_R0lYmZZ89g1LlFw3k678_58,993
+winrt_Windows.ApplicationModel.DataTransfer.DragDrop-2.0.0b1.dist-info/WHEEL,sha256=xf1vZoKIpO1cLg5WwAWrBbvGdHO1sKgyQ3dGDiVHgEU,102
+winrt_Windows.ApplicationModel.DataTransfer.DragDrop-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.DataTransfer.DragDrop-2.0.0b1.dist-info/RECORD,,
