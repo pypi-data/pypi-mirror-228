@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sciodps"
+version = "0.0.2"
+authors = [
+    { name = "Hongwei Zhang", email = "zhang_hng_wei@hotmail.com" },
+]
+description = "This library provides convenient access to the sciodps API"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "odps"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jump2odps"
+"Bug Tracker" = "https://github.com/jump2odps/issues"
