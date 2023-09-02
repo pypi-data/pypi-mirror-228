@@ -1,0 +1,14 @@
+napari_timestamper/__init__.py,sha256=-BsgqbVDh9N4KlzBhIWhHF2pQlcnwG1BPmH-JXcbw18,171
+napari_timestamper/_timestamp_overlay.py,sha256=zBEfqVaK4V82DSYkVYMxv9Yf70lBxT9GmqQAZ2Z8byk,7514
+napari_timestamper/_version.py,sha256=0E2q3bbXSYHV7qQaXVj0To-J2XdlP2Roo0TsM8oQtR4,160
+napari_timestamper/_widget.py,sha256=X6pkibTeN52d9tZS5Ubbi7lsb5CkX1NQwkqSkePHyfg,8228
+napari_timestamper/napari.yaml,sha256=wgXMOBITlRGgug1rpeEP1yEQd9DbT2fOyuXc5tycHAY,305
+napari_timestamper/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_timestamper/_tests/test_timestamp_overlay.py,sha256=K05DM8ZqbqQZjQlkz7ZKpwQiqsA4lENcGI7UiB3Nfxw,371
+napari_timestamper/_tests/test_widget.py,sha256=oljK0wnNrlimTzu_btdk_MsZkpk1XmFuDjvrQ6pyRlg,2580
+napari_timestamper-0.0.1.dist-info/LICENSE,sha256=1b9VCv3xJ3IlyclJfLeUpk3Z-Dk99OKJ8hb9py-RhhI,1491
+napari_timestamper-0.0.1.dist-info/METADATA,sha256=QbhJZKIRzXxeiA8_MlqM0pYbTxIE-o1bReoKAIOdfco,4158
+napari_timestamper-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+napari_timestamper-0.0.1.dist-info/entry_points.txt,sha256=gn5kyxTOMokec-qfiYG36yHli57vAYabOTc8PB3CCEQ,70
+napari_timestamper-0.0.1.dist-info/top_level.txt,sha256=aGGEOigXUSgowYTlFEF_LLmQpPmTMteNnwxTlCgp5ww,19
+napari_timestamper-0.0.1.dist-info/RECORD,,
