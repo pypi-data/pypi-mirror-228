@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tibia_ocr/__init__.py
+tibia_ocr/exceptions.py
+tibia_ocr/hash_ocr.py
+tibia_ocr/shortcuts.py
+tibia_ocr/utils.py
+tibia_ocr.egg-info/PKG-INFO
+tibia_ocr.egg-info/SOURCES.txt
+tibia_ocr.egg-info/dependency_links.txt
+tibia_ocr.egg-info/requires.txt
+tibia_ocr.egg-info/top_level.txt
