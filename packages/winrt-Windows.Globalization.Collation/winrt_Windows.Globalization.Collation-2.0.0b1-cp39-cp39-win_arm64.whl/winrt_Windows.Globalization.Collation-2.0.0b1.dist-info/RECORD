@@ -1,0 +1,7 @@
+winrt/_winrt_windows_globalization_collation.cp39-win_arm64.pyd,sha256=f_NIeiHwajC6LD3_aXVZMug-SSpEqf5-tMrKJPVXHEs,67584
+winrt/_winrt_windows_globalization_collation.pyi,sha256=xJpRowI0JoC9vU3S-63Q-M7smKtZnBxwdnx8P0-w0-s,1738
+winrt/windows/globalization/collation/__init__.py,sha256=ndFpC9ArKEkCOXdBJy4JbLR3X_xXrbtB-kSJE8dK_10,437
+winrt_Windows.Globalization.Collation-2.0.0b1.dist-info/METADATA,sha256=eUvXhFCiYJtdPVUh0VSCRI9VbyJmW1_Gn9Xty3HLGrs,1044
+winrt_Windows.Globalization.Collation-2.0.0b1.dist-info/WHEEL,sha256=PrHTG687fNsk7jS4Y-tLXN-3gpnf3wReNnzEPkeWHK0,100
+winrt_Windows.Globalization.Collation-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Globalization.Collation-2.0.0b1.dist-info/RECORD,,
