@@ -1,0 +1,12 @@
+chiquito-0.1.2023090100.dist-info/METADATA,sha256=bXbVkIAoo02qHXNTrW01cs5Y_gTh8NmhL_uX-3-Arnk,8185
+chiquito-0.1.2023090100.dist-info/WHEEL,sha256=_F6guZvhysrOY2yU7yAx2MVENhbXV2CRrCjqSHNF5d8,90
+chiquito/cb.py,sha256=vZGzO242V7y5BT7raw3nu4uTixjPCdf0duMfLSBi2U8,10857
+chiquito/chiquito_ast.py,sha256=SoC4CcgYtzz5_-_5HlGw_CJSyq97Oh2_BXIb33R4ovE,14638
+chiquito/dsl.py,sha256=t_NFZ4NTkmWsPpAVgxnM-ilLAZUME5wBCp6EEUOn-u4,7820
+chiquito/expr.py,sha256=h4-yzMv1NvVGoOidbgbTSypA1TIQojW5kCK5k6Fe00o,3730
+chiquito/query.py,sha256=MxotFRu5uNqn6Pp2tcDNYnblgM_tHCi62uRYfkiZypg,4190
+chiquito/util.py,sha256=qPvCc_8OUPC7T4-vCphaS-c6nSnE29xWP2iiHJPoOAs,753
+chiquito/wit_gen.py,sha256=7RYXAlXJMBJoG3gRXhFnHYaLpk5kLVLcpuuXSwlO2Zk,3802
+chiquito/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chiquito/rust_chiquito.cp38-win32.pyd,sha256=rc7FK3OWKpomtgNnoiaV1cRZNDvgu6gtHoWPhQDfFIE,1130496
+chiquito-0.1.2023090100.dist-info/RECORD,,
