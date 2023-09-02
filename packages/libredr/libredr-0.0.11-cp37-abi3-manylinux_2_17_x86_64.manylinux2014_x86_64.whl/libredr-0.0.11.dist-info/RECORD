@@ -1,0 +1,16 @@
+libredr-0.0.11.dist-info/METADATA,sha256=VhCC3y59L46ba8BHK2cSZVNrk0lX5ii8x2ym27qEgdw,2912
+libredr-0.0.11.dist-info/WHEEL,sha256=5YmfUSNnzbcjpGpD5YH-zHZ4a6Vk5TFEDSOdsvGjypQ,127
+libredr-0.0.11.dist-info/license_files/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+libredr/light_source/directional.py,sha256=zAIiV7l9vuTUGCRrHnmrl1V-ScZRwznpczp2ySWePsA,1432
+libredr/light_source/__init__.py,sha256=Jhlw_j4PYJjU7Zmj1FdHfls4rxBTuTnBY-TGGw-jWXM,111
+libredr/torch/__init__.py,sha256=E95TWMq2oYuYFNrMJ54TmpfPj1-cmxeTFySPlp_UPvA,280
+libredr/torch/nn/functional.py,sha256=dq-fsaV7VAh_QuBnjNounTz9dw_bPDgxMOSRzHVnUFQ,2852
+libredr/torch/ray_tracing.py,sha256=EfwHMp88LFzbwaiCxxxdI7lCI7pw8joJZXIbwSWZkP4,5749
+libredr/__init__.py,sha256=DTBx4uKsyuthwuezB7aqWIBuuCPdYef2fSIpryb5gwc,588
+libredr/camera/cube.py,sha256=KSmubPJpKK4WQxc8ilRptReOp7PLc8_stgZ0eoCOyz0,1904
+libredr/camera/orthogonal.py,sha256=bkYZvUDQseGalsCmFIDJAJjQgQC3-mfhIuaiVl8TMgc,1775
+libredr/camera/perspective.py,sha256=kCSLui4GTQZ9mEF6Dfz2LhApwyFX1RFtCPX4afVSry4,1650
+libredr/camera/__init__.py,sha256=bAjUFNkMgx1oEypdkKC4PI_Kn4RpG6AiAeDF0jtKSpQ,1078
+libredr/camera/equirectangular.py,sha256=fvV_WBpTQ8NQIrRZrTnzoPC724i2TVM3HgG0FO3Rtwk,2063
+libredr/libredr.abi3.so,sha256=tBw9fkQBcXTWiaKh9h_Ur1x6yxs66Qk_o68pPjhszdI,3662256
+libredr-0.0.11.dist-info/RECORD,,
