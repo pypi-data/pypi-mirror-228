@@ -1,0 +1,7 @@
+winrt/_winrt_windows_security_authorization_appcapabilityaccess.cp311-win32.pyd,sha256=bTwDLQgNUxoQwG5BSHaAk0iDEBJ9c8fIDw7tG04QGSI,121344
+winrt/_winrt_windows_security_authorization_appcapabilityaccess.pyi,sha256=rkUPt_oZ3UIyzRvFjcxmJ1MV_JmruIE9IqXAXCUOh5Q,2373
+winrt/windows/security/authorization/appcapabilityaccess/__init__.py,sha256=LIVy3YYVnB2kkzhPAzciqE3ksq3YQfwSOp_84C0vjMI,699
+winrt_Windows.Security.Authorization.AppCapabilityAccess-2.0.0b1.dist-info/METADATA,sha256=Yb4ePGh11IEQVPmbfUhPP0pFB_9VtGsg62jukq_nT2o,1272
+winrt_Windows.Security.Authorization.AppCapabilityAccess-2.0.0b1.dist-info/WHEEL,sha256=MpyGHBYwzd-Jap9JHrbjRY_PQK67I2tRW5oQLucxFp4,98
+winrt_Windows.Security.Authorization.AppCapabilityAccess-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Security.Authorization.AppCapabilityAccess-2.0.0b1.dist-info/RECORD,,
