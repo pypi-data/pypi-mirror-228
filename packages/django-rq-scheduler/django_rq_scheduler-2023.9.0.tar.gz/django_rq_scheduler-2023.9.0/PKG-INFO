@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: django-rq-scheduler
+Version: 2023.9.0
+Summary: An async job scheduler for django using redis
+Home-page: https://github.com/dsoftwareinc/django-redis-scheduler
+License: MIT
+Keywords: redis,django,background-jobs,job-queue,task-queue,redis-queue,scheduled-jobs
+Author: Daniel Moran
+Author-email: daniel@moransoftware.ca
+Maintainer: Daniel Moran
+Maintainer-email: daniel@moransoftware.ca
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Framework :: Django :: 4.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: yaml
+Requires-Dist: click (>=8.1,<9.0)
+Requires-Dist: croniter (>=1.4,<2.0)
+Requires-Dist: django (>=3.2)
+Requires-Dist: pyyaml (>=6.0,<7.0) ; extra == "yaml"
+Requires-Dist: rq (>=1.15,<2.0)
+Project-URL: Bug Tracker, https://github.com/dsoftwareinc/django-rq-scheduler/issues
+Project-URL: Documentation, https://django-rq-scheduler.readthedocs.io/en/latest/
+Project-URL: Funding, https://github.com/sponsors/cunla
+Description-Content-Type: text/markdown
+
+Django RQ Scheduler
+===================
+This project has been migrated to [django-tasks-scheduler](https://github.com/dsoftwareinc/django-tasks-scheduler).
+
