@@ -1,0 +1,8 @@
+sigma/backends/datadog/__init__.py,sha256=A9T45lAn7T54P2MMwvrNZz62-WYWGvpzKurEesUPzvY,35
+sigma/backends/datadog/datadog.py,sha256=Y_NJacHcEbKLb6CADexg_kF09nkMehzUJxdYHbEz5f4,10346
+sigma/pipelines/datadog/__init__.py,sha256=OuvrR-aO26TdONBI3lUZmheBEQ1yD3Hd79qX95um0cc,37
+sigma/pipelines/datadog/datadog.py,sha256=2-3QimpkhWLhfnDDPlhaPKpEwra81tB_ihn0wRDEszk,8988
+pysigma_backend_datadog-0.1.0.dist-info/LICENSE,sha256=ZVetxLwdWSMuJ1Z6GF3XDPLsyjFUAYsL5h6inPnoFOI,7633
+pysigma_backend_datadog-0.1.0.dist-info/METADATA,sha256=Sf5d_29Ac3j_4u0i4Ffk_whVG61T7I0pauz5sMOMMQU,8142
+pysigma_backend_datadog-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pysigma_backend_datadog-0.1.0.dist-info/RECORD,,
