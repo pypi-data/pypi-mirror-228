@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+c4f/__init__.py
+c4f/base.py
+c4f.egg-info/PKG-INFO
+c4f.egg-info/SOURCES.txt
+c4f.egg-info/dependency_links.txt
+c4f.egg-info/requires.txt
+c4f.egg-info/top_level.txt
