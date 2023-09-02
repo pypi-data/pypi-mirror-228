@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+aiohood.egg-info/PKG-INFO
+aiohood.egg-info/SOURCES.txt
+aiohood.egg-info/dependency_links.txt
+aiohood.egg-info/top_level.txt
