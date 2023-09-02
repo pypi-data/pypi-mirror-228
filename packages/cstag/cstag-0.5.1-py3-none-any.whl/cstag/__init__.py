@@ -1,0 +1,12 @@
+"""
+.. include:: ../../README.md
+"""
+
+from cstag.call import call
+from cstag.shorten import shorten
+from cstag.lengthen import lengthen
+from cstag.consensus import consensus
+from cstag.mask import mask
+from cstag.split import split
+from cstag.revcomp import revcomp
+from cstag.to_html import to_html
