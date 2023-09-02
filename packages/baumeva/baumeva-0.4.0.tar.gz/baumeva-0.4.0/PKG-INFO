@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: baumeva
+Version: 0.4.0
+Summary: Python library for perform evolution algorithm
+Home-page: https://github.com/DateOrMage/BaumEvolutionAlgorithms
+Author: Aleksei Kudryavtsev
+Author-email: vatutu@gmail.com
+License: MIT
+Keywords: genetic,algorithm,optimization,crossover,population,selection,mutation,fitness,evolutionary,adaptive,chromosome,genome,binary
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
