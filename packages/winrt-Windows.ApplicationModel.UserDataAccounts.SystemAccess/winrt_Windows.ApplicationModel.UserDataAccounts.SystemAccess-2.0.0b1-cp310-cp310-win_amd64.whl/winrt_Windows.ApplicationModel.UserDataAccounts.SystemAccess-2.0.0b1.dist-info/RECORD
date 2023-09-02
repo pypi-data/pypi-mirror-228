@@ -1,0 +1,7 @@
+winrt/_winrt_windows_applicationmodel_userdataaccounts_systemaccess.cp310-win_amd64.pyd,sha256=-7Um2S8VyNJQJfd4r7h8lopvY2ezkMydn-McOP3qeIU,220672
+winrt/_winrt_windows_applicationmodel_userdataaccounts_systemaccess.pyi,sha256=qSz2-I2eLQb0QcE4uNyfUPC7aHoMt0nl_batlZrzY94,10127
+winrt/windows/applicationmodel/userdataaccounts/systemaccess/__init__.py,sha256=I4bYR1X-YUhCVAgujhJw8Kwcv9npzenkh-rbTjPV98M,1385
+winrt_Windows.ApplicationModel.UserDataAccounts.SystemAccess-2.0.0b1.dist-info/METADATA,sha256=Qc2RxEw_GTLTrwW7_mIZZa8gEMXcwrdM_-rMvbZmaI4,1302
+winrt_Windows.ApplicationModel.UserDataAccounts.SystemAccess-2.0.0b1.dist-info/WHEEL,sha256=Wb1el1iP4ORW7FiLElw7HfxLpDiHzwvd2B382b2Idl0,102
+winrt_Windows.ApplicationModel.UserDataAccounts.SystemAccess-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.UserDataAccounts.SystemAccess-2.0.0b1.dist-info/RECORD,,
