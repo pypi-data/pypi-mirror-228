@@ -1,0 +1,12 @@
+comicgeeks/Comic_Geeks.py,sha256=IOmA4mcirLXvnDv1NfsMsf30jvtAoAxn7zEDakJ_0DA,8290
+comicgeeks/__init__.py,sha256=Qsb7avcPXFR-Eu_ZGH-3EwMFZlqmJBC5Tcgh102tSFI,614
+comicgeeks/__version__.py,sha256=w6GSS0I-ruo_jNwVmbCp2Sj5fnu2kaOaZUZIbA8W68Q,63
+comicgeeks/classes.py,sha256=QWSOuBDdLg4ekSiMr7CTpRc5hbfVrj0QvoCOTVLu6EE,52113
+comicgeeks/extract.py,sha256=tzdQkRfUcx9wzfPMw_cCQ1FniyxOaQpLPyDKHtivs4k,9303
+comicgeeks/test.py,sha256=JLoIDM49UKv6v1xCQKJCfWqfmvruzJOSJ88Mk-zrw5c,214
+comicgeeks/utils.py,sha256=pmcWHy58ALZTzUvMQVKszfL20KaKQJQld1_utHYiDsM,1804
+comicgeeks-0.3.2.dist-info/LICENSE.txt,sha256=GzeCzK17hhQQDNow0_r0L8OfLpeTKQjFQwBQU7ZUymg,32473
+comicgeeks-0.3.2.dist-info/METADATA,sha256=qrvYCL1hML5cSjEoKdF0q2-riUoovosjVvASVAy136I,3035
+comicgeeks-0.3.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+comicgeeks-0.3.2.dist-info/top_level.txt,sha256=3AKxhGltruAu4ve8PT5lyOYTUW4D3Z3lD3vxuGs0H0s,11
+comicgeeks-0.3.2.dist-info/RECORD,,
