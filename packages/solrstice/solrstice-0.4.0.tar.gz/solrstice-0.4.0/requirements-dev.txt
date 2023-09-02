@@ -1,0 +1,9 @@
+pytest
+pytest-asyncio
+python-dotenv
+maturin
+dataclasses-json
+pdoc
+autoflake
+isort
+black
