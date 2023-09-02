@@ -1,0 +1,14 @@
+root:
+  fields:
+    - "!!! ERROR<str:error_code> !!! <str:failure>"
+  sections:
+    strategies:
+      domain: "GUIDE FOR OPTIMAL SELECTION OF DATA COLLECTION STRATEGY(.+?)DETAILED REPORT FOR EACH DATA COLLECTION SCENARIO"
+      table:
+        - "  <float:start_angle>  <float:total_angle> <float:completeness> <float:multiplicity>"
+
+    statistics:
+      table:
+        - " COMPLETENESS OF DATA COLLECTED IN THE OSCILLATION RANGE <float:start_angle>...<float:end_angle> DEGREES"
+        - "[\\s]+? <float:resolution> [\\s]+?OLD DATA <float:old>% [\\s]+?NEW DATA <float:completeness>% "
+

@@ -1,0 +1,9 @@
+mxio
+matplotlib
+numpy
+pyyaml
+tqdm
+pandas
+prettytable
+vg
+scipy
