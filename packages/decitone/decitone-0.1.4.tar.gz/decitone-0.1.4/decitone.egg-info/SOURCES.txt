@@ -1,0 +1,8 @@
+README.md
+setup.py
+decitone/__init__.py
+decitone/main.py
+decitone.egg-info/PKG-INFO
+decitone.egg-info/SOURCES.txt
+decitone.egg-info/dependency_links.txt
+decitone.egg-info/top_level.txt
