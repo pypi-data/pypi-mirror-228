@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: parmscheck
+Version: 1.0.7
+Summary: Decorator for type checking arguments 
+Home-page: https://github.com/violetDelia/parmscheck
+Author: Lfr
+Author-email: 1733535832@qq.com
+License: Apache
+License-File: LICENSE
+
