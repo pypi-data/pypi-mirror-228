@@ -1,0 +1,6 @@
+ansys/pre_commit_hooks/__init__.py,sha256=KnLstnvKQ17jSdR2IgSpXhf3RHktf6ehXPZLlKVJzxU,1451
+ansys/pre_commit_hooks/add_license_headers.py,sha256=zZYj8RXv50HWCWwH1YpFAez0OkPLZv43VXCWwP4aOcw,7024
+ansys_pre_commit_hooks-0.1.0.dist-info/entry_points.txt,sha256=N9pvhGBJtJDJVoxXTMC6ZXkT0CNdvEyrl8xPj5A_Oc0,87
+ansys_pre_commit_hooks-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+ansys_pre_commit_hooks-0.1.0.dist-info/METADATA,sha256=hZ0QetpImAbzFMP-4ZrVn31iUYL53OBsKtEABz7Bdn8,7804
+ansys_pre_commit_hooks-0.1.0.dist-info/RECORD,,
