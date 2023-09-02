@@ -1,0 +1,7 @@
+pandas
+requests
+jsonschema
+bs4
+selenium
+undetected_chromedriver
+webdriver_manager
