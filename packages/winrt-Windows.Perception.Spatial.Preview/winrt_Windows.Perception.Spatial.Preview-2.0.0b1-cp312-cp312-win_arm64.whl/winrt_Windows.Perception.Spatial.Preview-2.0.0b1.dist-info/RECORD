@@ -1,0 +1,7 @@
+winrt/_winrt_windows_perception_spatial_preview.cp312-win_arm64.pyd,sha256=rGxZoVdEVpn35yYXa2b7eb88zds8Ro3xzMRP0bvgT_A,60416
+winrt/_winrt_windows_perception_spatial_preview.pyi,sha256=Vm_7e9DH7KTlIwgCm4EAlO7iOYH3od2c47etw4Ok1hA,2818
+winrt/windows/perception/spatial/preview/__init__.py,sha256=MOBiaVpvwiCxqzL4LzeQB6hiXcGiNmelCdRTC7aLIxI,496
+winrt_Windows.Perception.Spatial.Preview-2.0.0b1.dist-info/METADATA,sha256=Ha1sIhX-3jhWltsDaIiV8Wht-GSrBeLzVuY67NUs5w8,1139
+winrt_Windows.Perception.Spatial.Preview-2.0.0b1.dist-info/WHEEL,sha256=4a57bNWdRt5PINziSad5EMsdocHr4i3ENb3kQ9gPSug,102
+winrt_Windows.Perception.Spatial.Preview-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Perception.Spatial.Preview-2.0.0b1.dist-info/RECORD,,
