@@ -1,0 +1,4 @@
+nose2
+mock
+tox
+requests
