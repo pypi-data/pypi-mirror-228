@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pasteconnect/__init__.py
+pasteconnect/pastebinclient.py
+pasteconnect.egg-info/PKG-INFO
+pasteconnect.egg-info/SOURCES.txt
+pasteconnect.egg-info/dependency_links.txt
+pasteconnect.egg-info/requires.txt
+pasteconnect.egg-info/top_level.txt
