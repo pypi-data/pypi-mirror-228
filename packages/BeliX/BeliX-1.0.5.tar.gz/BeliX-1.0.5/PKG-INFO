@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: BeliX
+Version: 1.0.5
+Summary: BeliX is a simple and fast Bale Messenger library built for you
+Home-page: https://ble.ir/belix_py
+Author: X_CODER
+Author-email: x.coder.2721@gmail.com
+License: MIT
+Keywords: BeliX_library,messenger,python2,python,python3,api,self,BeliX,Bale,belix,BELIX,beli X,bale,bot,robot,library,balelib,balelibrary,bale.ai,BaleBot,Bale Api
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: ~=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENCE
+
+.. image:: https://fs.noorgram.ir/xen/2020/12/941_ca20211dfe5a29ee7916f6a87df17e69_thumb.jpg
+    :target: https://ble.ir/belix_py
+    :alt: Logo Bale
+
+
+Library INFO
+=============
+
+Bale Info:
+
+* `Creator ID in Bale <https://ble.ir/user_xcoder>`_
+* `Bale Channel <https://ble.ir/belix_py>`_
+
+Subscribe to the channels to know about the library and sources updates.
+
+Installing BeliX from PyPI
+=================================
+
+.. code-block:: python3
+
+    pip install BeliX
+
+If you have a problem with the installation, subscribe to the channel.
+
+How to import the BeliX
+===============================
+
+.. code-block:: python3
+
+    from BeliX import Bale
+
+    bot = Bale('token')
+
+Quick start
+===========
+
+.. code-block:: python3
+
+    from BeliX import Bale,color
+    
+    bot = Bale('token')
+
+    for x in bot.getChatUpdate():
+        print(f'{color.green}Message {color.blue}>> {color.white}{x.text}')
+        if x.text == 'hello':
+            bot.sendMessage(x.chat_id,'hello world',reply_message_id=x.message_id)
