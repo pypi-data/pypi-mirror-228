@@ -1,0 +1,78 @@
+{
+  "Fields": {
+    "Tech": [
+      "NVDA",
+      "AMD",
+      "CLOU"
+    ],
+    "FANG": [
+      "META",
+      "AAPL",
+      "GOOGL",
+      "AMZN"
+    ],
+    "Crypto": [
+      "ethereum",
+      "cardano",
+      "bitcoin"
+    ],
+    "BroadEconomics": [
+      "VO",
+      "VPU",
+      "GSG"
+    ],
+    "Alt Stocks": [
+      "MSOS",
+      "MAC",
+      "ARKG",
+      "ARKK"
+    ],
+    "China": [
+      "ADRE",
+      "BABA"
+    ],
+    "Europe": [
+      "EWA",
+      "EWG",
+      "EZU",
+      "EDEN"
+    ],
+    "Money Others": [
+      "TGT",
+      "FVRR",
+      "SQ",
+      "TSLA"
+    ],
+    "Pharma": [
+      "NVAX",
+      "BNTX",
+      "MRNA",
+      "REGN"
+    ],
+    "Indicies": [
+      "SPX"
+    ],
+    "QQQInd": [
+      "QQQ"
+    ],
+    "CYBER": [
+      "CRWD",
+      "FTNT",
+      "NET",
+      "S",
+      "SNOW",
+      "TMICY",
+      "ZS"
+    ],
+    "Airlines": [
+      "AAL",
+      "ALK",
+      "DAL",
+      "LUV",
+      "UAL",
+      "ESYJY",
+      "RYAAY"
+    ]
+  }
+
+}
