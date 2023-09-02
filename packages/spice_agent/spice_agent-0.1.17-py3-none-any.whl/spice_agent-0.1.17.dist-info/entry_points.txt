@@ -1,0 +1,3 @@
+[console_scripts]
+spice=spice_agent.cli:cli
+
