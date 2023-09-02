@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+batch_processing/__init__.py
+batch_processing/batch.py
+batch_processing.egg-info/PKG-INFO
+batch_processing.egg-info/SOURCES.txt
+batch_processing.egg-info/dependency_links.txt
+batch_processing.egg-info/requires.txt
+batch_processing.egg-info/top_level.txt
+test/test_batch.py
