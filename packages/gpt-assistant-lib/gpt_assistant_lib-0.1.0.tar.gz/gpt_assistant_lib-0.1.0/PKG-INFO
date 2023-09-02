@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: gpt-assistant-lib
+Version: 0.1.0
+Summary: Python library for your AI assistant, powered by GPT.
+Home-page: https://github.com/elisey/gpt_assistant_lib
+License: MIT
+Author: Elisei
+Author-email: elisey.rav@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: openai (>=0.28.0,<0.29.0)
+Project-URL: Repository, https://github.com/elisey/gpt_assistant_lib
+Description-Content-Type: text/markdown
+
+# GPT-Assistant Library
+The GPT-Assistant Library is a Python-based toolkit for building intelligent personal assistants powered by OpenAI's GPT models. This library simplifies the integration of conversational AI into your applications, making it easier than ever to create chatbots, virtual assistants, and more.
+
+## Key Features
+- Seamless integration with GPT-3 and GPT-4 models.
+- Easily manage conversations and user interactions.
+- Support multiuser chat history support
+- Customizable and extensible to suit your specific needs.
+- Developer-friendly API for smooth integration into your projects.
+
+## License
+This project is licensed under the MIT License
+
