@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: reslib
+Version: 0.1.2
+Summary: 搜集c++缺失的依赖，并在拥有依赖的环境中将依赖打包后还原至缺少依赖的环境中
+Home-page: https://github.com/CaptainJi/restore_dependencies
+Author: Captain Ji
+Author-email: qing.ji@extremevision.com.cn
+License: MIT
+Keywords: c++ dependencies restore
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+搜集c++缺失的依赖，并在拥有依赖的环境中将依赖打包后还原至缺少依赖的环境中
