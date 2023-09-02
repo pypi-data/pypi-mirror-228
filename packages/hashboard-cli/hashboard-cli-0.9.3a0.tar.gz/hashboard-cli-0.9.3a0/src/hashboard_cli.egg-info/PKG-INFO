@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hashboard-cli
+Version: 0.9.3a0
+Summary: Command-line tools for interacting with Hashboard
+Home-page: https://hashboard.com/
+Author: Dan Eisenberg
+Author-email: dan@hashboard.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# glean-cli
+
+Command-line tools for interacting with Hashboard (https://hashboard.com).
