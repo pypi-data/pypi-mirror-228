@@ -1,0 +1,33 @@
+[project]
+name = "requests_html2"
+version = "2.0.0"
+description = "HTML Parsing for Humans"
+authors = [
+    { name = "Bevis", email = "alonefire@foxmail.com" },
+]
+dependencies = [
+    "pyquery>=1.4.3",
+    "beautifulsoup4>=4.12.2",
+    "playwright>=1.37.0",
+    "httpx>=0.24.1",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/AloneFire/requests_html2"
+"Bug Tracker" = "https://github.com/AloneFire/requests_html2"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.3.0",
+]
