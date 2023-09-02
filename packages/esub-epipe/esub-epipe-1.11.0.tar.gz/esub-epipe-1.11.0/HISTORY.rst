@@ -1,0 +1,57 @@
+.. :changelog:
+
+History
+-------
+
+1.11.0 (2023-09-01)
++++++++++++++++++++
+
+* GPU support
+
+1.10.3 (2023-07-27)
++++++++++++++++++++
+
+* Fix: bug introduced in 1.10.1. 
+
+1.10.2 (2023-07-03)
++++++++++++++++++++
+
+* Fix: correct type of commandline arguments
+
+1.10.1 (2023-06-30)
++++++++++++++++++++
+
+* Fix: overriding the resource function parameters by commandline works now also when overwriting with the esub default value
+
+1.10.0 (2022-12-19)
++++++++++++++++++++
+
+* Full slurm support
+
+1.6.12 (2022-06-03)
++++++++++++++++++++
+
+* New logic. Introduced n_jobs / n_cores. 
+
+* Increased flexibility. Main, merge and watchdog can now have multiple cores even if not in MPI mode.
+
+1.6.11 (2022-03-21)
++++++++++++++++++++
+
+* Adapted to new ekit.logger module
+* New banner
+* Updated documentation with new features
+
+1.6.6 (2021-03-31)
+++++++++++++++++++
+
+* Many minor fixes
+* Experimental SLURM support
+* Check missing function support
+* Some additional options for jobarrays
+
+1.6.4 (2020-06-24)
+++++++++++++++++++
+
+* First release on PyPI.
+
