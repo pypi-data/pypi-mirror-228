@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: st-video-player
+Version: 0.0.7
+Summary: Streamlit component that allows you to play videos from bytes
+Home-page: 
+Author: William Reyes
+Author-email: william.reyes@mlse.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit >=0.63
+Provides-Extra: devel
+Requires-Dist: wheel ; extra == 'devel'
+Requires-Dist: pytest ==7.4.0 ; extra == 'devel'
+Requires-Dist: playwright ==1.36.0 ; extra == 'devel'
+Requires-Dist: requests ==2.31.0 ; extra == 'devel'
+Requires-Dist: pytest-playwright-snapshot ==1.0 ; extra == 'devel'
+Requires-Dist: pytest-rerunfailures ==12.0 ; extra == 'devel'
+
+# streamlit-custom-component
+
+Streamlit component that allows you to do play videos from bytes
+
+## Installation instructions
+
+```sh
+pip install pip install st-video-player
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+from st_video_player import st_video_player
+
+mp4_file_path = "./path/to/video/*.mp4"
+
+with open(file_path, "rb") as file:
+    mp4_bytes = file.read()
+    st_video_player(mp4_bytes, height=600)
+
+```
