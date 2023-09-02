@@ -1,0 +1,13 @@
+stubbles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stubbles/__main__.py,sha256=ucdDvDyu6Mvsm2eXHviy9U9Hk7LrJ-Tcef627sCyfUo,134
+stubbles/inputs.py,sha256=TpzeL_FQ4BsAVsl6UoefG8lUVLFMx6twQMtgDDIYT1k,260
+stubbles/templates.py,sha256=sOvP7Qk0qdmNuApU1GV3FIX9wbUPoUsnflGHpWFX1-E,3804
+stubbles/test_inputs.py,sha256=ff_5122Cv-xNWLDTmEKDT0JbuAa8TJ5CaSY2FmjfjiE,454
+stubbles/test_types.py,sha256=KmYHJUhhr6FzAcMmR97yqnpiHkRVu09JfQQ9hMPUGYk,369
+stubbles/tests/data/example.py,sha256=ngwrvtu3_792zs8Xjhwu7P-fbtmeDQ0eaTt2kIneZBA,54
+stubbles/tests/test_templates.py,sha256=L-YMKpxDy_oW6LnisqHY1Ypt54dxwzcuUSKAWnuu-gE,3516
+stubbles/types.py,sha256=05ZneeoNf91DBuIYAiqj0naw8y4ncgyw6KSVCeWlNSY,1221
+stubbles-0.3.0.dist-info/LICENSE,sha256=_Ky26Wis-MfkEqhu0V8ala6MHTWypd6tYB5CpEmrgU8,1071
+stubbles-0.3.0.dist-info/METADATA,sha256=qVOSvJSu2f79fJVoDt1prkY9kLeHszCrSEYjJHDlWrw,1632
+stubbles-0.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+stubbles-0.3.0.dist-info/RECORD,,
