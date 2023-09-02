@@ -1,0 +1,10 @@
+lfsdata-0.0.2-py3.10-nspkg.pth,sha256=bQc0Ci8jK7wHuwJ1t6fmjX0rWLDBik8kjBCH6Ka4RkQ,544
+lfsdata/git_data_loader.py,sha256=5NAz7VHJs4yfex3HcUqFE21tK1tfV5R3zuh7ATYTV48,5061
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_download.py,sha256=GK5nCa7_0uhjOUNdcBvhem-p9m5EdMQNrYPMfg5ne8U,226
+lfsdata-0.0.2.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+lfsdata-0.0.2.dist-info/METADATA,sha256=vsiRS0FFcylpifZ9BJelsWg5lPv7tS8Hih4opwqmfaw,4387
+lfsdata-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+lfsdata-0.0.2.dist-info/namespace_packages.txt,sha256=35jI7AsyHHhG1mN177mw9I5e7mg_tJtElCj2AcfnSYk,8
+lfsdata-0.0.2.dist-info/top_level.txt,sha256=YzpZFIfBA8euPXlkc3jiNHuJizpWJ143Z0SJ-9M9pOo,14
+lfsdata-0.0.2.dist-info/RECORD,,
