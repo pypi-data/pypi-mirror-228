@@ -1,0 +1,7 @@
+winrt/_winrt_windows_globalization_phonenumberformatting.cp310-win32.pyd,sha256=KP_IioayTf6EjBy3r0sJxfUEZ89XBdKfc4pnw9oxg-s,66560
+winrt/_winrt_windows_globalization_phonenumberformatting.pyi,sha256=zCujJ0m8m0VlPFbt648RpQm-m6uNEn3aS0ZVUcdMUpQ,2769
+winrt/windows/globalization/phonenumberformatting/__init__.py,sha256=oV8D3UsQOC9QewJYJpMkjA6Jpv3SQWmZoPnJPLzyooE,1267
+winrt_Windows.Globalization.PhoneNumberFormatting-2.0.0b1.dist-info/METADATA,sha256=j5wtKonQyxj-uBN-lm-HKkeeHhpmJ7PNDYqGIgckl5Y,981
+winrt_Windows.Globalization.PhoneNumberFormatting-2.0.0b1.dist-info/WHEEL,sha256=Q1-Z25IsdIUCF8Kl3jXp4n4gR3PTk0L0l5G6bg-dz_s,98
+winrt_Windows.Globalization.PhoneNumberFormatting-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Globalization.PhoneNumberFormatting-2.0.0b1.dist-info/RECORD,,
