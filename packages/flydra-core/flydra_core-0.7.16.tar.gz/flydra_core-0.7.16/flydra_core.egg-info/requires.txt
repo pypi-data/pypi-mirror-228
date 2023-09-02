@@ -1,0 +1,7 @@
+numpy>=1.19
+tables
+cgkit1>=1.3.0
+pymvg>=2.1.0
+adskalman
+scipy
+six
