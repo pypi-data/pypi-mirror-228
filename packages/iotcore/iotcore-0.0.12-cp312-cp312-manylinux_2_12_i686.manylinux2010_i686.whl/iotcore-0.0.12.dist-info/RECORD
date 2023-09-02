@@ -1,0 +1,16 @@
+iotcore-0.0.12.dist-info/METADATA,sha256=ISlHz0a0023nyR-P9kmBxoe77iynpsvv3gyaCJASipk,2285
+iotcore-0.0.12.dist-info/WHEEL,sha256=sy-p2NZ_bBRiZ_CJmxqSiIQx1Ltggn64hxX3zZrDZjA,127
+iotcore-0.0.12.dist-info/license_files/LICENSE.txt,sha256=DvY3r0gOJfr4ZdC3U9IIlwvMP6Uqh3jdcQqdJk7lM-Q,1049
+iotcore/djangoiot/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+iotcore/djangoiot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iotcore/djangoiot/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+iotcore/djangoiot/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+iotcore/djangoiot/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+iotcore/djangoiot/apps.py,sha256=h2wiloSLOncFvI8_qEZ70HIpbvfrwomhsJP3rMf1kas,513
+iotcore/djangoiot/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iotcore/__init__.py,sha256=ec3iZAxRqpiz-H1u85JiFs7rpOTSje2JM9A5HjILKB8,227
+iotcore/fastapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iotcore/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iotcore/_iotcore.pyi,sha256=pk5jeFCijmSsPIH2H9qi39B7o8ozeTLfU-psATSRGhg,819
+iotcore/_iotcore.cpython-312-i386-linux-gnu.so,sha256=72bp0p6ocIexyf-DgxABj0r81wP-L1FvHcOu2xbxFsw,16693212
+iotcore-0.0.12.dist-info/RECORD,,
