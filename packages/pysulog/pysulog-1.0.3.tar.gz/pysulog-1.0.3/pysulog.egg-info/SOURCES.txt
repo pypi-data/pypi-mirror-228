@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+setup.py
+pysulog.egg-info/PKG-INFO
+pysulog.egg-info/SOURCES.txt
+pysulog.egg-info/dependency_links.txt
+pysulog.egg-info/requires.txt
+pysulog.egg-info/top_level.txt
