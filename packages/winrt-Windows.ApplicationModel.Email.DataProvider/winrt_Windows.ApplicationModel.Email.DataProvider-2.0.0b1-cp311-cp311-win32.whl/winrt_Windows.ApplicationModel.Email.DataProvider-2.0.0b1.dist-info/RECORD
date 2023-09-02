@@ -1,0 +1,7 @@
+winrt/_winrt_windows_applicationmodel_email_dataprovider.cp311-win32.pyd,sha256=fZJlclPF6N9kHepOGrgSRUaE7MVc_ydBYfNfmp1hlMo,368640
+winrt/_winrt_windows_applicationmodel_email_dataprovider.pyi,sha256=1Urwdkf0kYMtB1m0QkOojhXjRygc1SaoQV2rUi6nX0s,21174
+winrt/windows/applicationmodel/email/dataprovider/__init__.py,sha256=3xZz9dPvVKk1-MRCIsNYlOoHOpKxSczupYpysxvDqho,5998
+winrt_Windows.ApplicationModel.Email.DataProvider-2.0.0b1.dist-info/METADATA,sha256=FaRwZdlCXocKkXnlb79KFVIHKWt8abbHPHpzEUPUl2w,1362
+winrt_Windows.ApplicationModel.Email.DataProvider-2.0.0b1.dist-info/WHEEL,sha256=MpyGHBYwzd-Jap9JHrbjRY_PQK67I2tRW5oQLucxFp4,98
+winrt_Windows.ApplicationModel.Email.DataProvider-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.Email.DataProvider-2.0.0b1.dist-info/RECORD,,
