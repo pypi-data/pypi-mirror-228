@@ -1,0 +1,10 @@
+python-abc
+datetime
+kneed
+matplotlib
+numpy
+pandas
+ruptures
+scipy
+statistics
+statsmodels
