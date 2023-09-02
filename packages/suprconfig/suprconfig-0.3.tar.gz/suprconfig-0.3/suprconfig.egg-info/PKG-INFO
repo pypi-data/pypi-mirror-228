@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: suprconfig
+Version: 0.3
+Summary: This library created for comfortable using config
+Author: h99hood
+Author-email: keneskay@vk.com
+Description-Content-Type: text/markdown
+
+
+    
+**Documentation**
+
+**```class Config(self, config_path: str)```**
+    
