@@ -1,0 +1,4 @@
+[console_scripts]
+podcastsPreserve=preserve_podcasts:main
+podcastsUpload=preserve_podcasts.uploadPodcasts:main
+
