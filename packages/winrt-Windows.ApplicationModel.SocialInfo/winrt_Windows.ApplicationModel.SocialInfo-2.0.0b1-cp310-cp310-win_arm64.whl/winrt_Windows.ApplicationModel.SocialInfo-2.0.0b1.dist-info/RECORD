@@ -1,0 +1,7 @@
+winrt/_winrt_windows_applicationmodel_socialinfo.cp310-win_arm64.pyd,sha256=h30Tv6dLlE2Zzh10w0GDWlJbSorKEfwQAbe6kKLXvnM,174080
+winrt/_winrt_windows_applicationmodel_socialinfo.pyi,sha256=GWLPrwtAmBXAgRdxFT4cSixq5EFrIThsp-ji6zO_DOc,7000
+winrt/windows/applicationmodel/socialinfo/__init__.py,sha256=5tticLH3j0AnJdTTUDnhojzIi_Ls4XX3VCKaJJEWhm4,1283
+winrt_Windows.ApplicationModel.SocialInfo-2.0.0b1.dist-info/METADATA,sha256=KPwfCb0QG_U00I6Ky2-Rrcxqw61JZgWq5UWPYySw_dY,1305
+winrt_Windows.ApplicationModel.SocialInfo-2.0.0b1.dist-info/WHEEL,sha256=xf1vZoKIpO1cLg5WwAWrBbvGdHO1sKgyQ3dGDiVHgEU,102
+winrt_Windows.ApplicationModel.SocialInfo-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.SocialInfo-2.0.0b1.dist-info/RECORD,,
