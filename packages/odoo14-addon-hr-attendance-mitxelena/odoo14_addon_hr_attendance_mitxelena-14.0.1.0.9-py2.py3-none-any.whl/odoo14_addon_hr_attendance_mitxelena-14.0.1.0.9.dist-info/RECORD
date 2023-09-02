@@ -1,0 +1,10 @@
+odoo/addons/hr_attendance_mitxelena/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/hr_attendance_mitxelena/__manifest__.py,sha256=rIogu400sa36vftGAhX-ruMEiwnAsb-w-iNldlxCAvI,871
+odoo/addons/hr_attendance_mitxelena/models/__init__.py,sha256=A8FniNZAc1A6ca6jMuy_zk2pOxZaneX0ABt-7zGLenA,38
+odoo/addons/hr_attendance_mitxelena/models/hr_attendance_mitxelena.py,sha256=M05iNBP8Uf-tYiGRbJPuP2CBMLF0GwtupGqA8Rh-mUI,11827
+odoo/addons/hr_attendance_mitxelena/security/ir.model.access.csv,sha256=jQGB7SAdN84F-FgvEvaF6g8xequEKfhC0hgyEoFuVi8,177
+odoo/addons/hr_attendance_mitxelena/views/hr_attendance_views.xml,sha256=MJ_YDyiLK8aGEiDofnIn9zX9dh4sI4NCkI48zQml53Y,715
+odoo14_addon_hr_attendance_mitxelena-14.0.1.0.9.dist-info/METADATA,sha256=q4iyAJk4BggFuvU79b2w5D9gP6ZDTbIclzmZZoVEIgU,728
+odoo14_addon_hr_attendance_mitxelena-14.0.1.0.9.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+odoo14_addon_hr_attendance_mitxelena-14.0.1.0.9.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_hr_attendance_mitxelena-14.0.1.0.9.dist-info/RECORD,,
