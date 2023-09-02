@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-segment = napari_segment:napari.yaml
