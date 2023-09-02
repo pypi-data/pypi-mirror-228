@@ -1,0 +1,9 @@
+DataSciBuddy/__init__.py,sha256=GfKlYGsfV6b1w6yJUL-8xi8HgRyQtO0HpOZmYN00aVw,47
+DataSciBuddy/helper_functions.py,sha256=qc1lSLINGt4lbN8Mjdjh4pjiLx3mlKC87DTUgz7s-xg,85
+DataSciBuddy/datasets/fraud_data.csv,sha256=jOvw6HmNx2aiYH1ez5N0XuohzAVuCantrk4E7Ey4-QA,30084
+DataSciBuddy/datasets/house_prices.csv,sha256=8KZR9c14b7Dp7QxhDHjejzpMr8sFTpwh63Id4AO-WFM,57642
+DataSciBuddy-0.2.dist-info/LICENSE,sha256=5fl5VP3dw5Ma6bYOJCfvXYI73PQZSCi9a3R-uWnHbxg,1073
+DataSciBuddy-0.2.dist-info/METADATA,sha256=dAsLaYGjoAePesRYD13NC2BbudYgscOjeWXU5N1LyQk,481
+DataSciBuddy-0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+DataSciBuddy-0.2.dist-info/top_level.txt,sha256=RtvWj1PL_HA8ke3Jnx0knE4lQov8dSU9AUpgnR2uf3g,13
+DataSciBuddy-0.2.dist-info/RECORD,,
