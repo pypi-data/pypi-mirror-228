@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: physo
+Version: 1.0.dev0
+Summary: Physical Symbolic Optimization
+Author: Wassim Tenachi
+Author-email: w.tenachi@gmail.com
+License: MIT
+License-File: LICENSE
+
