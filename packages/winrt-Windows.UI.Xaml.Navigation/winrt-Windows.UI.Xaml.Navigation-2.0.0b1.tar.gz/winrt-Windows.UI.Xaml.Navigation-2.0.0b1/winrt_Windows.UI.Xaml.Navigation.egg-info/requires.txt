@@ -1,0 +1,7 @@
+winrt-runtime==2.0.0-beta.1
+
+[all]
+winrt-Windows.Foundation[all]==2.0.0-beta.1
+winrt-Windows.UI.Xaml[all]==2.0.0-beta.1
+winrt-Windows.UI.Xaml.Interop[all]==2.0.0-beta.1
+winrt-Windows.UI.Xaml.Media.Animation[all]==2.0.0-beta.1
