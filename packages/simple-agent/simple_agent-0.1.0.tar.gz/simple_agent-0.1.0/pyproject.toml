@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "simple-agent"
+version = "0.1.0"
+description = "AI Agent Orchestration for humans"
+authors = ["Yuxiang Gao <contact@yuxiang.io>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "simple_agent"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.3.0"
+pydantic-settings = "^2.0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^23.7.0"
+isort = "^5.12.0"
+mypy = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
