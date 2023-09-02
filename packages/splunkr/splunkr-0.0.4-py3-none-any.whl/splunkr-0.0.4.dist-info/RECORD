@@ -1,0 +1,6 @@
+splunkr/__init__.py,sha256=Aw_gxQpPycK_dI1aJNy899YHzS8_p8N1yhPDZaY4wFI,794
+splunkr/splunk_http_event_collector.py,sha256=obLp9z4hSpfJ6eCH-lcT14Ea-eF5S6vT6Vgg5hXK3JA,15232
+splunkr-0.0.4.dist-info/METADATA,sha256=Ytxq9KthHqHNnBONm3FoqOc__kyJJ4Grc-2n3E0PmFI,512
+splunkr-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+splunkr-0.0.4.dist-info/top_level.txt,sha256=m8tCcYKYfYMqvop3ZD78WeSsrPt5Y5T9FqJbla5M_mc,8
+splunkr-0.0.4.dist-info/RECORD,,
