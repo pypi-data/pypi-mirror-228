@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/yaxp/__init__.py
+src/yaxp/_xpath.py
+src/yaxp.egg-info/PKG-INFO
+src/yaxp.egg-info/SOURCES.txt
+src/yaxp.egg-info/dependency_links.txt
+src/yaxp.egg-info/requires.txt
+src/yaxp.egg-info/top_level.txt
