@@ -1,0 +1,6 @@
+requests
+
+[tests]
+pytest
+coverage
+pytest-cov
