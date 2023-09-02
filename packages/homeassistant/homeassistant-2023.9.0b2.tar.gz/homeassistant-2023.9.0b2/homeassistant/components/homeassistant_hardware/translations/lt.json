@@ -1,0 +1,11 @@
+{
+    "silabs_multiprotocol_hardware": {
+        "options": {
+            "step": {
+                "start_flasher_addon": {
+                    "title": "Diegiama programin\u0117 \u012franga"
+                }
+            }
+        }
+    }
+}

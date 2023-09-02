@@ -1,0 +1,77 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Perangkat sudah dikonfigurasi",
+            "reauth_successful": "Autentikasi ulang berhasil",
+            "unknown": "Kesalahan yang tidak diharapkan"
+        },
+        "error": {
+            "cannot_connect": "Gagal terhubung",
+            "invalid_auth": "Autentikasi tidak valid",
+            "unknown": "Kesalahan yang tidak diharapkan"
+        },
+        "flow_title": "{name}",
+        "step": {
+            "authenticate": {
+                "data": {
+                    "api_key": "Kunci API"
+                },
+                "description": "Masukkan Kunci API yang Anda atur dalam konfigurasi Anda untuk {name}."
+            },
+            "user": {
+                "data": {
+                    "api_key": "Kunci API",
+                    "host": "Host",
+                    "port": "Port"
+                },
+                "description": "Masukkan detail koneksi Anda."
+            }
+        }
+    },
+    "services": {
+        "open_path": {
+            "fields": {
+                "bridge": {
+                    "name": "Bridge"
+                },
+                "path": {
+                    "name": "Jalur"
+                }
+            }
+        },
+        "open_url": {
+            "fields": {
+                "bridge": {
+                    "name": "Bridge"
+                },
+                "url": {
+                    "name": "URL"
+                }
+            }
+        },
+        "power_command": {
+            "fields": {
+                "bridge": {
+                    "description": "Server tujuan pengiriman perintah.",
+                    "name": "Bridge"
+                }
+            }
+        },
+        "send_keypress": {
+            "fields": {
+                "bridge": {
+                    "description": "Server tujuan pengiriman perintah.",
+                    "name": "Bridge"
+                }
+            }
+        },
+        "send_text": {
+            "fields": {
+                "bridge": {
+                    "description": "Server tujuan pengiriman perintah.",
+                    "name": "Bridge"
+                }
+            }
+        }
+    }
+}

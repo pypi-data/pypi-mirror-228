@@ -1,0 +1,220 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Platsen \u00e4r redan konfigurerad"
+        },
+        "error": {
+            "already_configured": "Platsen \u00e4r redan konfigurerad"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "latitude": "Latitud",
+                    "longitude": "Longitud"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "barometerfcname": {
+                "name": "Barometer"
+            },
+            "barometerfcnamenl": {
+                "name": "Barometer"
+            },
+            "condition": {
+                "state": {
+                    "clear": "Klart",
+                    "cloudy": "Molnigt",
+                    "fog": "Dimma",
+                    "lightning": "\u00c5ska/Blixtar",
+                    "rainy": "Regn",
+                    "snowy": "Sn\u00f6ar "
+                }
+            },
+            "condition_1d": {
+                "state": {
+                    "clear": "Klart",
+                    "cloudy": "Molnigt",
+                    "fog": "Dimma",
+                    "lightning": "\u00c5ska/Blixtar",
+                    "rainy": "Regn",
+                    "snowy": "Sn\u00f6ar "
+                }
+            },
+            "condition_2d": {
+                "state": {
+                    "clear": "Klart",
+                    "cloudy": "Molnigt",
+                    "fog": "Dimma",
+                    "lightning": "\u00c5ska/Blixtar",
+                    "rainy": "Regn",
+                    "snowy": "Sn\u00f6ar "
+                }
+            },
+            "condition_3d": {
+                "state": {
+                    "clear": "Klart",
+                    "cloudy": "Molnigt",
+                    "fog": "Dimma",
+                    "lightning": "\u00c5ska/Blixtar",
+                    "rainy": "Regn",
+                    "snowy": "Sn\u00f6ar "
+                }
+            },
+            "condition_4d": {
+                "state": {
+                    "clear": "Klart",
+                    "cloudy": "Molnigt",
+                    "fog": "Dimma",
+                    "lightning": "\u00c5ska/Blixtar",
+                    "rainy": "Regn",
+                    "snowy": "Sn\u00f6ar "
+                }
+            },
+            "condition_5d": {
+                "state": {
+                    "clear": "Klart",
+                    "cloudy": "Molnigt",
+                    "fog": "Dimma"
+                }
+            },
+            "conditiondetailed": {
+                "state": {
+                    "clear": "Klart",
+                    "light-rain": "L\u00e4ttare regn",
+                    "light-snow": "L\u00e4ttare sn\u00f6fall",
+                    "lightning": "\u00c5ska/Blixtar",
+                    "partlycloudy": "V\u00e4xlande molnighet",
+                    "partlycloudy-fog": "V\u00e4xlande molnighet, Dimma",
+                    "partlycloudy-light-rain": "V\u00e4xlande molnighet, l\u00e4ttare regn",
+                    "partlycloudy-light-snow": "V\u00e4xlande molnighet, l\u00e4ttare sn\u00f6fall",
+                    "partlycloudy-lightning": "V\u00e4xlande molnighet, \u00c5ska/Blixtar",
+                    "partlycloudy-rain": "V\u00e4xlande molnighet, Regn",
+                    "partlycloudy-snow": "V\u00e4xlande molnighet, Sn\u00f6ar ",
+                    "rainy": "Regn",
+                    "snowy": "Sn\u00f6ar ",
+                    "snowy-rainy": "Sn\u00f6igt, regnigt"
+                }
+            },
+            "conditiondetailed_1d": {
+                "state": {
+                    "clear": "Klart",
+                    "cloudy": "Molnigt",
+                    "fog": "Dimma",
+                    "light-rain": "L\u00e4ttare regn",
+                    "light-snow": "L\u00e4ttare sn\u00f6fall",
+                    "lightning": "\u00c5ska/Blixtar",
+                    "partlycloudy": "V\u00e4xlande molnighet",
+                    "partlycloudy-fog": "V\u00e4xlande molnighet, Dimma",
+                    "partlycloudy-light-rain": "V\u00e4xlande molnighet, l\u00e4ttare regn",
+                    "partlycloudy-light-snow": "V\u00e4xlande molnighet, l\u00e4ttare sn\u00f6fall",
+                    "partlycloudy-lightning": "V\u00e4xlande molnighet, \u00c5ska/Blixtar",
+                    "partlycloudy-rain": "V\u00e4xlande molnighet, Regn",
+                    "partlycloudy-snow": "V\u00e4xlande molnighet, Sn\u00f6ar ",
+                    "rainy": "Regn",
+                    "snowy": "Sn\u00f6ar ",
+                    "snowy-rainy": "Sn\u00f6igt, regnigt"
+                }
+            },
+            "conditiondetailed_2d": {
+                "state": {
+                    "clear": "Klart"
+                }
+            },
+            "conditiondetailed_3d": {
+                "state": {
+                    "clear": "Klart",
+                    "partlycloudy-rain": "V\u00e4xlande molnighet, Regn",
+                    "partlycloudy-snow": "V\u00e4xlande molnighet, Sn\u00f6ar ",
+                    "rainy": "Regn",
+                    "snowy": "Sn\u00f6ar ",
+                    "snowy-rainy": "Sn\u00f6igt, regnigt"
+                }
+            },
+            "conditiondetailed_4d": {
+                "state": {
+                    "clear": "Klart",
+                    "cloudy": "Molnigt",
+                    "fog": "Dimma",
+                    "light-rain": "L\u00e4ttare regn",
+                    "light-snow": "L\u00e4ttare sn\u00f6fall",
+                    "lightning": "\u00c5ska/Blixtar",
+                    "partlycloudy": "V\u00e4xlande molnighet",
+                    "partlycloudy-fog": "V\u00e4xlande molnighet, Dimma",
+                    "partlycloudy-light-rain": "V\u00e4xlande molnighet, l\u00e4ttare regn",
+                    "partlycloudy-light-snow": "V\u00e4xlande molnighet, l\u00e4ttare sn\u00f6fall",
+                    "partlycloudy-lightning": "V\u00e4xlande molnighet, \u00c5ska/Blixtar",
+                    "partlycloudy-rain": "V\u00e4xlande molnighet, Regn",
+                    "partlycloudy-snow": "V\u00e4xlande molnighet, Sn\u00f6ar ",
+                    "rainy": "Regn",
+                    "snowy": "Sn\u00f6ar ",
+                    "snowy-rainy": "Sn\u00f6igt, regnigt"
+                }
+            },
+            "conditiondetailed_5d": {
+                "name": "Detailed condition 5d",
+                "state": {
+                    "clear": "Klart",
+                    "cloudy": "Molnigt",
+                    "fog": "Dimma",
+                    "light-rain": "L\u00e4ttare regn",
+                    "light-snow": "L\u00e4ttare sn\u00f6fall",
+                    "lightning": "\u00c5ska/Blixtar",
+                    "partlycloudy": "V\u00e4xlande molnighet",
+                    "partlycloudy-fog": "V\u00e4xlande molnighet, Dimma",
+                    "partlycloudy-light-rain": "V\u00e4xlande molnighet, l\u00e4ttare regn",
+                    "partlycloudy-light-snow": "V\u00e4xlande molnighet, l\u00e4ttare sn\u00f6fall",
+                    "partlycloudy-lightning": "V\u00e4xlande molnighet, \u00c5ska/Blixtar",
+                    "partlycloudy-rain": "V\u00e4xlande molnighet, Regn",
+                    "partlycloudy-snow": "V\u00e4xlande molnighet, Sn\u00f6ar ",
+                    "rainy": "Regn",
+                    "snowy": "Sn\u00f6ar ",
+                    "snowy-rainy": "Sn\u00f6igt, regnigt"
+                }
+            },
+            "humidity": {
+                "name": "Luftfuktighet"
+            },
+            "irradiance": {
+                "name": "Str\u00e5lning"
+            },
+            "precipitation": {
+                "name": "Nederb\u00f6rd"
+            },
+            "pressure": {
+                "name": "Tryck"
+            },
+            "rainlast24hour": {
+                "name": "Regn senaste 24 timmarna"
+            },
+            "rainlasthour": {
+                "name": "Regn senaste timmen"
+            },
+            "temperature": {
+                "name": "Temperatur"
+            },
+            "visibility": {
+                "name": "Sikt"
+            },
+            "windforce": {
+                "name": "Vindstyrka"
+            },
+            "windspeed": {
+                "name": "Vindhastighet"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "country_code": "Landskod f\u00f6r landet f\u00f6r att visa kamerabilder.",
+                    "delta": "Tidsintervall i sekunder mellan kamerabilduppdateringar",
+                    "timeframe": "Minuter att se fram\u00e5t f\u00f6r nederb\u00f6rdsprognos"
+                }
+            }
+        }
+    }
+}

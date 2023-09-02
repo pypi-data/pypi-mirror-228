@@ -1,0 +1,41 @@
+{
+    "services": {
+        "reload": {
+            "description": "Laddar om alla modbus-entiteter.",
+            "name": "Ladda om"
+        },
+        "restart": {
+            "description": "Startar om modbus-hubben (om den k\u00f6r stoppas den f\u00f6rst).",
+            "fields": {
+                "hub": {
+                    "description": "Namn p\u00e5 Modbus-hubb.",
+                    "name": "Hubb"
+                }
+            },
+            "name": "Starta om"
+        },
+        "stop": {
+            "description": "Stoppar modbus-hubben.",
+            "fields": {
+                "hub": {
+                    "description": "Namn p\u00e5 Modbus-hubb.",
+                    "name": "Hubb"
+                }
+            },
+            "name": "Stoppa"
+        },
+        "write_coil": {
+            "description": "Skriver till en modbus-spole.",
+            "fields": {
+                "address": {
+                    "description": "Adress f\u00f6r det register som ska skrivas till.",
+                    "name": "Adress"
+                },
+                "hub": {
+                    "description": "Namn p\u00e5 Modbus-hubb.",
+                    "name": "Hubb"
+                }
+            }
+        }
+    }
+}
