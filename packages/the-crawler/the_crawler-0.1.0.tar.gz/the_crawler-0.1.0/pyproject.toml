@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "the-crawler"
+version = "0.1.0"
+description = "For crawling web file explorers for content"
+authors = ["deeoh <deeoh@woodforsheep.trade>"]
+readme = "README.md"
+packages = [{include = "the_crawler"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+ipython = "^8.15.0"
+beautifulsoup4 = "^4.12.2"
+tqdm = "^4.66.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+the-crawler = "the_crawler:main"
+
+[tool.black]
+line-length = 100
+include = '.*\.pyi?$'

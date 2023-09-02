@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: the-crawler
+Version: 0.1.0
+Summary: For crawling web file explorers for content
+Author: deeoh
+Author-email: deeoh@woodforsheep.trade
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: ipython (>=8.15.0,<9.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+
