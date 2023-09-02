@@ -1,0 +1,7 @@
+winrt/_winrt_windows_globalization_fonts.cp310-win_arm64.pyd,sha256=qQUvX0Sl1qZv28Up7dLUzULUdeZHm1R-XAgm088a4GA,59904
+winrt/_winrt_windows_globalization_fonts.pyi,sha256=ZBRfVsYD35WtLLKGqg5nDE9k6jr49IeMIfdSO4I7p9g,2003
+winrt/windows/globalization/fonts/__init__.py,sha256=2v7Ww3W5MraBDer3-cIWLj92EXi32H97_BwtWAa6NbU,358
+winrt_Windows.Globalization.Fonts-2.0.0b1.dist-info/METADATA,sha256=J1RQuD7eVe3ri3j5LPSwbkR7VBpjhtslPwlNoEt3A6U,1013
+winrt_Windows.Globalization.Fonts-2.0.0b1.dist-info/WHEEL,sha256=xf1vZoKIpO1cLg5WwAWrBbvGdHO1sKgyQ3dGDiVHgEU,102
+winrt_Windows.Globalization.Fonts-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Globalization.Fonts-2.0.0b1.dist-info/RECORD,,
