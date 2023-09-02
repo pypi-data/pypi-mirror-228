@@ -1,0 +1,14 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test__cf_searchers.py,sha256=LJFDWXcDv4X6Q6p1pyumF7jHCYyyZXuaSqehsk3uAXU,153189
+tests/test__checkers.py,sha256=DJRCBmdH4TlrYKi95KB5SGajUtziNcctsfs7WvXSWTI,1809
+tests/test__data_standardizer.py,sha256=_rLTUxu0X2n2lrMWb-hzPuImKdIRs0OXr33lKLWTaVU,22533
+tests/test__fine_tune.py,sha256=9JA9ejw9zH8RmBNayGEKVYfVbtxmRyboclzIsc3NBsI,35171
+tests/test__img_segmentation.py,sha256=aZDK_GACHRLcWXao2Mlli9UOvu6PQes32gNQHLERFgU,1458
+tests/test__model_standardizer.py,sha256=-A2KiuFJeSdPbkLUObzHku7RIkFJ2Up2dk5LI5DgdmI,22735
+tests/test__obj_functions.py,sha256=-1lCW-SMD9NYScNex1zR7MkrZ865SPUmSKHKS5HGzaU,872
+tests/test_cf_finder.py,sha256=REwkDTQ7WR4N3b6xi46eSlXw9bLdX_Vz_j0gDi09G58,150363
+CFNOW-0.0.1.dist-info/LICENSE.txt,sha256=2LZ7yJCBarzw9UoG5JUA6kZCbcFSkWiwfgJfJ-WnH20,1074
+CFNOW-0.0.1.dist-info/METADATA,sha256=B75U7Xbq8Ob6iDPsnySKbqDZX8BinRtfgBWdB5nIw0I,9516
+CFNOW-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+CFNOW-0.0.1.dist-info/top_level.txt,sha256=WJmE4-QNO0nEhrnl2kH6Pa5r3oQErnns_gDFmVijXOY,12
+CFNOW-0.0.1.dist-info/RECORD,,
