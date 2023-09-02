@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+chat4free/__init__.py
+chat4free/base.py
+chat4free.egg-info/PKG-INFO
+chat4free.egg-info/SOURCES.txt
+chat4free.egg-info/dependency_links.txt
+chat4free.egg-info/requires.txt
+chat4free.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: chat4free
+Version: 0.0.0b0
+Summary: Chat for Free
+Home-page: https://github.com/JiauZhang/chat4free
+Author: JiauZhang
+Author-email: jiauzhang@163.com
+License: GPL-2.0
+Keywords: ChatBot
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
