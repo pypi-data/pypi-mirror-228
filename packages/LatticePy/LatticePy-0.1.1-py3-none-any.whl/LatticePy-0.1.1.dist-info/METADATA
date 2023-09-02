@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: LatticePy
+Version: 0.1.1
+Summary: A package for simulating molecules on a lattice.
+Author: Sohit Miglani
+Author-email: sohitmiglani@gmail.com
+License: MIT
+Keywords: proteins,simulation,lattice
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib (==3.7.2)
+Requires-Dist: seaborn (==0.12.2)
+Requires-Dist: pandas (==2.0.3)
+Requires-Dist: numpy (==1.25.2)
+Requires-Dist: plotly (==5.15.0)
+Requires-Dist: networkx (==3.1)
+
+A package that simulates multiple types of micromolecules such as proteins on a simple cubic or FCC lattice.
