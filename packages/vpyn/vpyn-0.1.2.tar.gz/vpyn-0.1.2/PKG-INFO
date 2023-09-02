@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: vpyn
+Version: 0.1.2
+Summary: Virtual Python Networks
+Author: Peter Thompson
+Author-email: peter.thompson92@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/x-rst
+
+vpyn is a networking framework for web applications.
+
