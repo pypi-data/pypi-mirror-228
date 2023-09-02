@@ -1,0 +1,7 @@
+winrt/_winrt_windows_applicationmodel_extendedexecution_foreground.cp39-win_arm64.pyd,sha256=63GgscJZ6Zj_p_8DmsqFUBusMJ2-OnOM38Qbtxq0phQ,86016
+winrt/_winrt_windows_applicationmodel_extendedexecution_foreground.pyi,sha256=PEjV76axaNFryOezIM6iiOiC8cwWiWXOnbGXLGHWRp4,1893
+winrt/windows/applicationmodel/extendedexecution/foreground/__init__.py,sha256=cConWcb3fgy3kD4Eb14JAe2z_wctM73bjB82a2VTmWg,1054
+winrt_Windows.ApplicationModel.ExtendedExecution.Foreground-2.0.0b1.dist-info/METADATA,sha256=lBUC_yA2PltcPjQwx6lV24Zfz0Mr6qm1G9s6J5L6T3c,1120
+winrt_Windows.ApplicationModel.ExtendedExecution.Foreground-2.0.0b1.dist-info/WHEEL,sha256=PrHTG687fNsk7jS4Y-tLXN-3gpnf3wReNnzEPkeWHK0,100
+winrt_Windows.ApplicationModel.ExtendedExecution.Foreground-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.ExtendedExecution.Foreground-2.0.0b1.dist-info/RECORD,,
