@@ -1,0 +1,15 @@
+gologin/__init__.py,sha256=rsku3JHOIob-3KqSYkiNx6yudRYztlDDshZJUXbEND0,63
+gologin/gologin-create-profile.py,sha256=PLC_tNutjXh1_Lug2Lqt4SGCfuWRuumR5SOfEToi_aM,2591
+gologin/gologin-local.py,sha256=Weq03mwI6eSakfMhBnkbgaMXzJcLz6kcJghkyTIrGOg,829
+gologin/gologin-pyppeteer.py,sha256=Nrr7wJ3b-U6ECmRNlwNPdaggl0xBq4IHDF3rRz0OTlc,561
+gologin/gologin-selenium-multiprocess.py,sha256=kgL_yqQBu7Sexi6VaNrTlRDD7Dy87WfiGuooq7HaUZA,1382
+gologin/gologin-selenium.py,sha256=v_EWRkVYE70wC-oeBNEmbvwU9ssEX97-Jw2F4s1LJ0E,822
+gologin/gologin-selenium_4.11.py,sha256=O2TUkJGU2901v5_aZtR6BRPpjfGx6Bvscmy9TBybspk,845
+gologin/gologin.py,sha256=2QzBNXnkeBPkqIPbfG8olRGovH8o6iXhZLQ3cQiQnvE,25598
+gologin/extensionsManager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gologin/extensionsManager/extensionsManager.py,sha256=HprzjRzbAEXnybC7LVErwzlEy-flt96t_sr1pZvUR8o,3103
+gologin-2023.9.1174535.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gologin-2023.9.1174535.dist-info/METADATA,sha256=Tw-3DpNTbYqGVetvvxEYh6XVf4ESIZsvvosdSPHPPIA,5153
+gologin-2023.9.1174535.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gologin-2023.9.1174535.dist-info/top_level.txt,sha256=Ko6l0snYnOgVhkg2l4XhLIOq1ShIdVywSm9Wm9Wp8SA,8
+gologin-2023.9.1174535.dist-info/RECORD,,
