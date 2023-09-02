@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+src/cheltuieli/__init__.py
+src/cheltuieli/check_expiration.py
+src/cheltuieli/chelt_plan.py
+src/cheltuieli/chelt_real.py
+src/cheltuieli/plan_vs_real.py
+src/cheltuieli.egg-info/PKG-INFO
+src/cheltuieli.egg-info/SOURCES.txt
+src/cheltuieli.egg-info/dependency_links.txt
+src/cheltuieli.egg-info/requires.txt
+src/cheltuieli.egg-info/top_level.txt
