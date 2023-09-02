@@ -1,0 +1,11 @@
+floof/__init__.py,sha256=_YfhsdzQkA5wRLoShOzFykMvRBmuw1ESpxoOKwMKa5A,84
+floof/_comparer.py,sha256=2oy76Oa7B2yeogpHVnP1hnHxeUix_Fe8O-dlZC8KJb8,6693
+floof/_linker.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+floof/_matcher.py,sha256=hfvOrwjH5Jh71dyHED1AmhbxLULmX7nGTE5BmR7EusQ,19707
+floof/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+floof/utils/types.py,sha256=pgAtgCjQssVhWdP4RfrbHs1cYy8xLVVf8cpipEaUh88,731
+floof/utils/utils.py,sha256=TsbSnodRipnpAdhEnJr3a0tSBaggplZfsXV1WTA-Ir4,1432
+floof-0.1.2.dist-info/METADATA,sha256=L5LA_E4YrX7Qhlq90vEBqxr6H_nRjy7wHcYYnlIVIik,3641
+floof-0.1.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+floof-0.1.2.dist-info/top_level.txt,sha256=FA39PeHPPCR4TqKeTNpCba5CeJAbcNo2jGQE4r-XCC0,6
+floof-0.1.2.dist-info/RECORD,,
