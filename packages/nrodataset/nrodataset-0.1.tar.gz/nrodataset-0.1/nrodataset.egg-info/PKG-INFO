@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: nrodataset
+Version: 0.1
+Summary: A dataset contains multiple network data samples, each of which includes the original network and the network after robustness optimization
+Home-page: UNKNOWN
+Author: Chengpei Wu
+Author-email: chengpei.wu@hotmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
