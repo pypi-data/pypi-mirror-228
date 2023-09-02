@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/module_yiyin996.egg-info/PKG-INFO
+src/module_yiyin996.egg-info/SOURCES.txt
+src/module_yiyin996.egg-info/dependency_links.txt
+src/module_yiyin996.egg-info/requires.txt
+src/module_yiyin996.egg-info/top_level.txt
