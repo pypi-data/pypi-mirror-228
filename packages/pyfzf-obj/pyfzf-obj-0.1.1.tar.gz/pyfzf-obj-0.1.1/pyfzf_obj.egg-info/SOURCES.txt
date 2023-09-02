@@ -1,0 +1,6 @@
+README.md
+setup.py
+pyfzf_obj.egg-info/PKG-INFO
+pyfzf_obj.egg-info/SOURCES.txt
+pyfzf_obj.egg-info/dependency_links.txt
+pyfzf_obj.egg-info/top_level.txt
