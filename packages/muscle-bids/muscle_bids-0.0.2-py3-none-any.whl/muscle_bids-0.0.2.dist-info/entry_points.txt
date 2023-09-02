@@ -1,0 +1,2 @@
+[console_scripts]
+dcm2mbids = muscle_bids.dcm2mbids:main
