@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: kick-chat
+Version: 1.0.0
+Summary: kick.com chat in the terminal
+Author: Piotr Skowroński
+License: GPLv3
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cffi (==1.15.1)
+Requires-Dist: curl-cffi (==0.5.7)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: rel (==0.4.9)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: websocket-client (==1.6.1)
+
+# kick-chat
+
+kick.com chat in the terminal
+
+## About
+
+kick-chat is a terminal chat client for [Kick](https://kick.com/) chat.
+It aims to provide a simple and minimalistic way of listening to chat messages.
+At the moment displaying emotes in the terminal is not supported :(
+
+## Installation
+
+```
+pip install kick-chat
+```
+
+## How to use
+
+Simply put Kick username as the first argument to the program call.
+
+```
+kick-chat xQc
+```
+
+## License
+
+Licensed under [GPLv3 License](./LICENSE).
