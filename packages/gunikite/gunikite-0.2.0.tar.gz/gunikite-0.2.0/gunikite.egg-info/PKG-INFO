@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: gunikite
+Version: 0.2.0
+Summary: Utility for running Gunicorn server from a virtual environment.
+Home-page: https://github.com/imamhossainroni/gunikite
+Author: Imam Hossain Roni
+Author-email: imamhossainroni95@gmail.com
+License: MIT
+Keywords: gunicorn utility virtual-environment
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+#  🐎 GuniKite
+
+`gunikite` is a utility class for running Gunicorn servers from a virtual environment. It helps you find the location of the Gunicorn executable within the virtual environment and run it with specified parameters.
+
+## Installation
+
+You can install `gunikite` using pip:
+
+```shell
+pip install gunikite
+```
+
+
+## Usage
+
+```python
+from gunikite import GunicornRunner
+
+# Create a GunicornRunner instance
+gunicorn_runner = GunicornRunner(
+    worker=4,
+    host="localhost",
+    port=8080,
+    module_name="myapp",
+    app_class_name="app",
+    enable_reload=True
+)
+
+# Run Gunicorn with the specified parameters
+gunicorn_runner.run_gunicorn()
