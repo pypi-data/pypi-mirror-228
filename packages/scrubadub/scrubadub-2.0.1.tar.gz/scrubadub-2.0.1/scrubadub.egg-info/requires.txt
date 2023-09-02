@@ -1,0 +1,8 @@
+textblob==0.15.3
+phonenumbers
+python-stdnum
+dateparser
+catalogue
+scikit-learn
+typing_extensions
+faker

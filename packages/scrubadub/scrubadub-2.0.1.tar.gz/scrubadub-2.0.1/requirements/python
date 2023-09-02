@@ -1,0 +1,22 @@
+# For the TextBlobNameDetecotr
+textblob==0.15.3
+
+# For the PhoneDetector
+phonenumbers
+
+# For SSN, credit cards and TRN
+python-stdnum
+
+# For the DateOfBirthDetector, master version due to an unfixed bug... but which one?
+# Can't upload to PyPi with a dependency on a GH repo, so removed link to dateparser repo
+dateparser
+# @ git+https://github.com/scrapinghub/dateparser.git
+
+# For the detector/post-processor catalogues
+catalogue
+
+# For scrubadub.comparison
+scikit-learn
+
+typing_extensions
+faker

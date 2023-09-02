@@ -1,0 +1,36 @@
+# install everything in the python requirements too.
+-r python
+
+# needed to run the tests
+flake8
+coveralls
+nose
+mypy
+tox
+
+# for documentation
+sphinx>=3
+sphinx_rtd_theme>=0.5
+
+# This is for the tests/benchmark_accuracy_real_data.py script
+cchardet
+pandas
+click
+python-magic
+python-dotenv
+azure-storage-blob
+openpyxl
+tabulate
+pandas
+
+types-dateparser
+types-requests
+
+# needed for the tests/run.py script
+wasabi
+
+# Needed for the docs
+postal
+scrubadub_address
+scrubadub_spacy
+scrubadub_stanford
