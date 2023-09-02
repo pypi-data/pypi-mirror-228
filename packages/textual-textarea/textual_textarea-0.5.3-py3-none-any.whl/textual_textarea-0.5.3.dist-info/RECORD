@@ -1,0 +1,16 @@
+textual_textarea/__init__.py,sha256=Eh0dZHwxYysJABWKTje4robo_pc1t_zjgA3jeP7Ca4c,251
+textual_textarea/__main__.py,sha256=FwSBMt2Ht7w32Z7Utx7PtYlxO7BH-qDl0wATWI6szVA,491
+textual_textarea/colors.py,sha256=Lk7GPRTUYlfKtK6RBAF5OGVzdSi8AXFWZbD_m3bYyJ8,759
+textual_textarea/comments.py,sha256=ZMSa_InZfy3CpztOpy4ySjDC_jLKRnpBj5Yfmz9vCd4,3510
+textual_textarea/containers.py,sha256=803Ck1bh7SpCusJwyuM7k4mWG9F8HPdY5rnSAPw9zAY,1282
+textual_textarea/error_modal.py,sha256=RWl_tcH4s25GjPQexM5j8mqLbMOx4O5XTCSgdWkXYkE,2019
+textual_textarea/key_handlers.py,sha256=k67wGEfvmi1ZuVEuZMRmU45mg-_SQq2lCnfSmrVTeAU,3374
+textual_textarea/messages.py,sha256=Tm6ZXT98LUsZ66dLAv4xUR6qYMdhQYtfR6aCHhCktqM,681
+textual_textarea/path_input.py,sha256=PLU7D8O7ybFL7YLkiwwBLs_vE3XfmKHaLNR6DIOcu4s,3299
+textual_textarea/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textual_textarea/serde.py,sha256=p4QMz9qaV95RCyFn-OsHe_xhM55BPLD9rdb68b4oM_w,450
+textual_textarea/textarea.py,sha256=a7Q16SyMlG55jamBH4fXOr2jN8T7vpGzykMX4RuoQ0k,37115
+textual_textarea-0.5.3.dist-info/LICENSE,sha256=Wdf1mXEX48JTe3Unchs3u8M7sUOB6v0fGsMI5WP7bB4,1068
+textual_textarea-0.5.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+textual_textarea-0.5.3.dist-info/METADATA,sha256=VBwaYVC8A08e9HoeLejBLL-63eOSpXeA5wQOYdSPICI,5860
+textual_textarea-0.5.3.dist-info/RECORD,,
