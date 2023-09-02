@@ -1,0 +1,17 @@
+remin/__init__.py,sha256=nihNRYbSrRuDLofOX0dcOk5vI3eMCZEJnFjsT1juT-I,12642
+remin/callbacks.py,sha256=NXcMcASkDlr7uOP-nwkg8GlH8bLE2LfMs90F7FQhPSE,8606
+remin/domain.py,sha256=FP3RFzuRa9YJmnv1FdYkD4wUV4d5gwTXWhs6zBv94O0,7307
+remin/func.py,sha256=3Crft-B0pIGovOwv5h7ro7GOs2n-rR5zkLJifipGgKM,1045
+remin/residual.py,sha256=yN0ErCoAgGLnBO4m3nJ3E3EBrF-Z-jOvgQlNlAM6eY0,5571
+remin/solver/__init__.py,sha256=NKm8hJUiwN8F-jR_cxTm6vN40e2Ic8Ih6jIUBLk_Xm8,117
+remin/solver/residual_loss.py,sha256=KtjGjOezj_ZggGiEuwFiJKZcdtO64j4I7n5JuehSRaQ,1955
+remin/solver/solver.py,sha256=X3LIpYui4DQJv5oNJCI3OYCLY1cYwA0INZvXB9JOSzg,3588
+remin/solver/trainer.py,sha256=YTR1jJIjHDqX_LyxqLhoA1qDRwqElm-Zw1ikrETmThc,3840
+remin/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remin/utils/mesh.py,sha256=dBZ12eJVLiUn7q38H-fKPjtQPDFi2iA_dltrnOuQvo0,10617
+remin-0.2.7.dist-info/LICENSE,sha256=IX0D1KonoL9jX95GXOY6SGLVa7H_m7mMKC84pf8JN00,1072
+remin-0.2.7.dist-info/METADATA,sha256=794_sQh7GvWET7abftBPfcVhYI1wXS3_2nSB83TiBAc,3425
+remin-0.2.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+remin-0.2.7.dist-info/entry_points.txt,sha256=nbt1LLMBvoGdcDLfT9AHaFXW5uY4y5SW9ph5PdZL37o,37
+remin-0.2.7.dist-info/top_level.txt,sha256=ow9rqYHC-jBMT1OMS4JpKbxrOHWdvXLUcbX_GlESQhs,6
+remin-0.2.7.dist-info/RECORD,,
