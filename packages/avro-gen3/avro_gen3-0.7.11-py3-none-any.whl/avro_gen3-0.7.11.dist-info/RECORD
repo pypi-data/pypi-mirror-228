@@ -1,0 +1,17 @@
+avrogen/__init__.py,sha256=Bz0lIASnhX6iIxyRBO5WMWYnp2HzJTCAJCyFqaqj5jk,257
+avrogen/__main__.py,sha256=vJGlWAVv4PKOTu2sa7vehibzuNMeFAKXXoeMsCwHHlo,435
+avrogen/avrojson.py,sha256=H7ysmDK6yZj_P6WZunZagwcM-AOdyXDgRu68xYqP3fU,18455
+avrogen/core_writer.py,sha256=osExwrDxdYeW22RqF4lyEv53TnfCRWeakE29dTzOraw,17426
+avrogen/dict_wrapper.py,sha256=bzWjzZIDVN8VpLxPGR48AZJrJMB6LEC8XBkcOMu3boY,3227
+avrogen/logical.py,sha256=a7OSNiik5kAaOc0_qiPpETGUYjb2_83RUlSOmuBI4rk,12775
+avrogen/namespace.py,sha256=M0JBhjqkSdjS3MCfXWJQYC3gtHDwLjKmqnhB0q1Oomk,297
+avrogen/protocol.py,sha256=8_AeK5Q0_h4AJ_enBAXmbaSZOIpBlA2MJR3XlNavzLw,11703
+avrogen/protocol_writer.py,sha256=sREYVjep1ncxQc4yoPH6uLe18WAgbqumAH7cMWuXy4Q,1384
+avrogen/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+avrogen/schema.py,sha256=-uAEnDHTIIz1dOEzP4VZjThubiVeidzlMZ464Fhlfwc,7038
+avrogen/tabbed_writer.py,sha256=EdLj674VtNEU6isAU2Uqzyd-GGcW6o6yOstBuShN9UE,1220
+avro_gen3-0.7.11.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+avro_gen3-0.7.11.dist-info/METADATA,sha256=_FfDtvaslcWLyBKGUbCCwS2ghVyhZLT-IlFYqfq6XR0,8344
+avro_gen3-0.7.11.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+avro_gen3-0.7.11.dist-info/top_level.txt,sha256=zgrMDE9n12PKqrfQJXQOF7c2buqtr4OHDDL4ay6oKtw,8
+avro_gen3-0.7.11.dist-info/RECORD,,
