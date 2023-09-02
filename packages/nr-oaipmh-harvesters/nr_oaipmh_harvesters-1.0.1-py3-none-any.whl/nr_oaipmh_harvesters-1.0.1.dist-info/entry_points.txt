@@ -1,0 +1,2 @@
+[oarepo.oaipmh.transformers]
+nusl = nr_oaipmh_harvesters.nusl:nusl_transformer
