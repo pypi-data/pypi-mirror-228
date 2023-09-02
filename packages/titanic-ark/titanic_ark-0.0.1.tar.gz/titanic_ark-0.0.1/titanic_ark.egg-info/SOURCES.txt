@@ -1,0 +1,14 @@
+CHANGELOG.md
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+test.py
+ark/__init__.py
+ark/aka.py
+ark/calculator.py
+titanic_ark.egg-info/PKG-INFO
+titanic_ark.egg-info/SOURCES.txt
+titanic_ark.egg-info/dependency_links.txt
+titanic_ark.egg-info/requires.txt
+titanic_ark.egg-info/top_level.txt

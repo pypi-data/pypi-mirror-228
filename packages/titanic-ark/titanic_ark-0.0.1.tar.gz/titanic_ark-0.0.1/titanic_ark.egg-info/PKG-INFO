@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: titanic-ark
+Version: 0.0.1
+Summary: ฟังก์ชันของ Ark
+Home-page: 
+Author: ark
+Author-email: wilcolnwza11@gmail.com
+License: MIT
+Keywords: titanic_ark
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+
+ฟังก์ชันของ Ark <br>
+เพื่อทดสอบการใช้งาน upload library <br>
+
+1.โหลด titanic_dataset <br>
+from ark import aka<br>
+df=aka.csv_read("titanic_dataset.csv")<br>
+
+2.มีคำสั่งดั่งนี้ <br>
+.plot1(df)<br>
+.plot2(df)<br>
+.plot3(df)<br>
+.age_and_fare(df)<br>
+.embarked_port(df)<br>
+ลองเล่นดูนะครับ :)
+
+
+Change Log
+==========
+0.0.1 (1/9/2023) <br>
+
+------------------- 
+- First Release
