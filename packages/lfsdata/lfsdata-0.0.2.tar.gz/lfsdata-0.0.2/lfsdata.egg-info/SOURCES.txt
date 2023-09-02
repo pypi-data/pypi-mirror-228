@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+lfsdata/__init__.py
+lfsdata/git_data_loader.py
+lfsdata.egg-info/PKG-INFO
+lfsdata.egg-info/SOURCES.txt
+lfsdata.egg-info/dependency_links.txt
+lfsdata.egg-info/namespace_packages.txt
+lfsdata.egg-info/requires.txt
+lfsdata.egg-info/top_level.txt
+tests/__init__.py
+tests/test_download.py
