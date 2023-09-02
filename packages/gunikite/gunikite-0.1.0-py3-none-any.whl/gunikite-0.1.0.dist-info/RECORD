@@ -1,0 +1,6 @@
+gunikite/__init__.py,sha256=VdaWBbU5n3V7TJMessCxEjG7yVI5p6IqB1cYgCVtosI,237
+gunikite/gunicorn_runner.py,sha256=Yka8yM2a5p_WHAVpe19lq54DAImvCgVIz3GRYRxMzTQ,2755
+gunikite-0.1.0.dist-info/METADATA,sha256=Pj0if1PbZ9Aywl11Jt4AERzwVJEF2_eMynHh3tauegE,998
+gunikite-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gunikite-0.1.0.dist-info/top_level.txt,sha256=wCF4SK38YnfVy1kaSyk6tAh8DjcTfVObksZgSr4PCvY,9
+gunikite-0.1.0.dist-info/RECORD,,
