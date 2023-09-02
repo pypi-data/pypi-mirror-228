@@ -1,0 +1,7 @@
+winrt/_winrt_windows_graphics_display_core.cp310-win_amd64.pyd,sha256=1EiKtDz0JyjLew-yVlmR1STb3LYfxcDi1HrEeYNLbpw,104960
+winrt/_winrt_windows_graphics_display_core.pyi,sha256=MGHyQsWsS4Lp1eB55QSlp6PJntxWSzwftwdFoss5OMg,4115
+winrt/windows/graphics/display/core/__init__.py,sha256=ZcCXcBY5PWAHdTpV5h6yF-qjLpztOTWiEuB8mSfI26A,959
+winrt_Windows.Graphics.Display.Core-2.0.0b1.dist-info/METADATA,sha256=RZiZ0_slbk4RfPEgREV1PrVLEW7jdOEd4RWHMY5HRDw,1114
+winrt_Windows.Graphics.Display.Core-2.0.0b1.dist-info/WHEEL,sha256=Wb1el1iP4ORW7FiLElw7HfxLpDiHzwvd2B382b2Idl0,102
+winrt_Windows.Graphics.Display.Core-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Graphics.Display.Core-2.0.0b1.dist-info/RECORD,,
