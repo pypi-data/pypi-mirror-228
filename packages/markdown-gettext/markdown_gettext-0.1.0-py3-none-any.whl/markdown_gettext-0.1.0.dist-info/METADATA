@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: markdown-gettext
+Version: 0.1.0
+Summary: Markdown i18n with gettext
+Home-page: https://github.com/phunh/markdown-gettext
+License: LGPL-2.1-or-later
+Author: Phu Hung Nguyen
+Author-email: phuhnguyen@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: PyYAML (>=6.0.1,<7.0.0)
+Requires-Dist: Pygments (>=2.16.1,<3.0.0)
+Requires-Dist: markdown-it-py[plugins] (>=3.0.0,<4.0.0)
+Requires-Dist: polib (>=1.2.0,<2.0.0)
+Project-URL: Repository, https://github.com/phunh/markdown-gettext
+Description-Content-Type: text/markdown
+
+<!--
+SPDX-FileCopyrightText: 2023 Phu Hung Nguyen <phuhnguyen@outlook.com>
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
+# markdown-gettext
+
+Markdown i18n with gettext.
+
+CommonMark compliant. All core Markdown elements are supported, as well as
+front matter, table, and definition list.
+
+The package can be used as a command line program to do i18n and l10n for
+individual Markdown files, and as a library to make larger programs. 
+
+## Install
+
+```bash
+pip install markdown-gettext
+```
+
+## Usage as a command line program
+_("Usage as a library" in Development section)_
+
+You can use either `md-gettext` or `markdown-gettext` command
+
+#### Extraction
+```
+md-gettext extract [-p PACKAGE] [-r REPORT_ADDR] [-t TEAM_ADDR] md pot
+
+positional arguments:
+  md                    path of the Markdown file to extract messages from
+  pot                   path of the POT file to create
+
+optional arguments:
+  -p PACKAGE, --package PACKAGE
+                        the package name in POT metadata
+  -r REPORT_ADDR, --report-addr REPORT_ADDR
+                        the report address in POT metadata
+  -t TEAM_ADDR, --team-addr TEAM_ADDR
+                        the team address in POT metadata
+```
+
+#### Generation
+```
+md-gettext generate [-l LANG] in-md po out-md
+
+positional arguments:
+  in-md                 path of the source Markdown file
+  po                    path of the PO file containing translations
+  out-md                path of the Markdown file to create
+
+optional arguments:
+  -l LANG, --lang LANG  language of translations
+```
+
+## Notes
+
+Some notes about how different elements are handled:
+- Inlines: newlines and consecutive spaces are not kept;
+- Content of each HTML block isn't parsed into finer tokens but processed
+as a whole;
+- Fenced code blocks: only `//` comments are processed;
+
+## Development
+
+### Environment
+
+- With Conda
+
+```bash
+conda env create -f environment.yml
+conda activate mg
+poetry install
+```
+
+### Usage as a library
+
+#### Extraction
+- Subclass `DomainExtractionProtocol`, implement
+`DomainExtractionProtocol.render_front_matter`
+- Subclass `RendererMarkdownI18N`
+
+#### Generation
+- Subclass `DomainGenerationProtocol`, implement
+`DomainGenerationProtocol.render_front_matter`
+- Subclass `RendererMarkdownL10N`
