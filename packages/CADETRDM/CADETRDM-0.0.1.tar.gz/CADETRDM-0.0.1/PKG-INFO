@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: CADETRDM
+Version: 0.0.1
+Summary: A solution for research data management
+Home-page: https://jugit.fz-juelich.de/IBG-1/ModSim/cadet/CADET-RDM
+Author: Ronald Jäpel
+Author-email: r.jaepel@fz-juelich.de
+Project-URL: Bug Tracker, https://jugit.fz-juelich.de/IBG-1/ModSim/cadet/CADET-RDM/Issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE
+
+# The CADET-Research Data Management toolbox
