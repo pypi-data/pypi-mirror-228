@@ -1,0 +1,75 @@
+# general
+task: train # train, val, predict, export, track
+name: Landmark # name of experiment
+project: # path to project folder
+seed: 22  # random seed for reproducibility
+override: False # overide project if any, otherwise it will created a new project
+profiler: False # show profiler while training
+
+# data
+data: # path to dataset file, ie. face_synth.yaml
+workers: 8 # number of workers for dataloader
+aug: 0.5 # aug
+input: # input file path/url for prediction
+validation: val # validation target set in the data yaml, one of train, val, test
+pre_norm: True # normalize data in dataloader instead of normalizing right before feeding to model 
+lmk_num: 70 # number of landmark points, 70 for face synthetic, 68 for 300w
+cache: True # cache landmark dataset
+img_read_engine: pil # engine using to load image, 'cv2' or 'pil'
+
+# model
+model: LWModel # modelname
+imgsz: 96 # size of input image as integer
+aux_pose: False # model with auxiliary pose esimation
+muliplier: 1.0 # model depth multiplier
+checkpoint: # target checkpoint to load
+lmk_mean: False # use landmark mean
+face_cls: False # training with face classify
+freeze_landmark: False # freeze landmark backbone, useful for training face cls
+activation: ReLU6 # activation function
+
+# training
+resume: False # resume training
+epoch: 250 # number of training epoch
+optimizer: NAdam # torch.optim class
+loss: L1Loss # torch.nn class
+lr: 0.002  # main learning rate (i.e. SGD=1E-2, Adam=1E-3)
+batch_size: 64 # batchsize
+lre_factor: 0.1 # end_lr = current_lr*lr_factor at the end of the trainning
+device: cpu # target device, ie. cuda device=0 or device=0,1,2,3 or device=cpu
+dump_batch: 1 # write sample batch for debug
+save: True # save checkpoint and stats
+pin_memory: False # use pin memory for dataloader
+aux_pose_weight: 0.01 # loss weight for auxiliary pose esimation
+face_cls_weight: 0.01 # loss weight for face classify
+loss_facecls: BCELoss # torch.nn class
+
+# trainning loss weights
+lossw_enabled: False
+w_jaw: 2.0
+w_leyeb: 1.0
+w_reyeb: 1.0
+w_nose: 1.0
+w_nosetip: 1.0
+w_leye: 1.0
+w_reye: 1.0
+w_mount: 1.0
+w_purpil: 1.0
+
+# testing
+test_warmup: True # warming up model when testing
+
+# export
+export_format: tflite # torchscript, onnx, saved_model, tflite
+export_simplify: True # simplify onnx model using onnxsim
+
+# tracking
+track_source: video # video, camera
+track_visualize: True # visualize frame during process
+track_sort_iou_threshold: 0.3 # iou threshold for SORT matching
+track_max_age: 30 # maximum frame to hold a track
+track_min_hit: 3 # minimum frame to consider a track
+track_save: # save rendered frame to video file
+track_detector: # detector onnx model
+track_detector_fps: 2 # maximum fps for detector
+track_landmark: # landmark onnx model
