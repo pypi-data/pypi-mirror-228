@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+tipdf/__init__.py
+tipdf/pdf2image.py
+tipdf/pdf2text.py
+tipdf.egg-info/PKG-INFO
+tipdf.egg-info/SOURCES.txt
+tipdf.egg-info/dependency_links.txt
+tipdf.egg-info/top_level.txt
