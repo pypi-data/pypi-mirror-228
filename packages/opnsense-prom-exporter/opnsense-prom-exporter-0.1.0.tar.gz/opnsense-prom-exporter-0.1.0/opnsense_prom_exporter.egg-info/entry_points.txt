@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        opnsense-exporter=opnsense_exporter.server:run
+        
