@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.py
+CFNOW.egg-info/PKG-INFO
+CFNOW.egg-info/SOURCES.txt
+CFNOW.egg-info/dependency_links.txt
+CFNOW.egg-info/requires.txt
+CFNOW.egg-info/top_level.txt
+tests/__init__.py
+tests/test__cf_searchers.py
+tests/test__checkers.py
+tests/test__data_standardizer.py
+tests/test__fine_tune.py
+tests/test__img_segmentation.py
+tests/test__model_standardizer.py
+tests/test__obj_functions.py
+tests/test_cf_finder.py
