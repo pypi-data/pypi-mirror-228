@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tools.setuptools]
+packages = ["deaddrops"]
+
+[project]
+name = "deaddrops"
+version = "1.1.2"
+description = "A simple python library to interact with the dead drops official website."
+authors = [
+  { name="Darnethal0z"},
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Topic :: Internet"
+]
+readme = "README.md"
+dependencies = [
+  "beautifulsoup4",
+  "requests",
+  "pillow",
+  "pycountry",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Darnethal0z/deaddrops"
+"Bug Tracker" = "https://github.com/Darnethal0z/deaddrops/issues"
