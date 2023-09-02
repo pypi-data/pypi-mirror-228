@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: streamlittestconnector
+Version: 0.0.1
+Summary: Define Streamlit connection
+Home-page: https://github.com/NoahMZC/streamlit-sample-connector.git
+Author: JeongHan Shin (Noah)
+Author-email: junghwanshin@mz.co.kr
+Keywords: streamlit,mysql
+Requires-Dist: pymysql
+Requires-Dist: cryptography
+Requires-Dist: streamlit
+
