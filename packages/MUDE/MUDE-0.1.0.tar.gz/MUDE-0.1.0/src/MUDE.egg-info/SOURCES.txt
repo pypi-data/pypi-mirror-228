@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/test.py
+src/MUDE.egg-info/PKG-INFO
+src/MUDE.egg-info/SOURCES.txt
+src/MUDE.egg-info/dependency_links.txt
+src/MUDE.egg-info/requires.txt
+src/MUDE.egg-info/top_level.txt
+src/mude/__init__.py
+src/mude/environment_checking.py
+src/mude/week1/__init__.py
+src/mude/week1/requirements.toml

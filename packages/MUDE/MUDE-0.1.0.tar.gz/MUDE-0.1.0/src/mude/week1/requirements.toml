@@ -1,0 +1,12 @@
+[environment]
+min_python="3.11"
+
+[requirement.numpy]
+min_version="1.24.3"
+
+[requirement.matplotlib]
+min_version="3.7.1"
+
+[requirement.mude]
+min_version="0.0.2"
+
