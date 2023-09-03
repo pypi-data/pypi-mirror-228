@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Author50CO <tkddlschry@gmail.com>, 2023.
+# Peter Pfeufer <info@ppfeufer.de>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-30 18:37+0200\n"
+"PO-Revision-Date: 2023-09-02 14:40+0000\n"
+"Last-Translator: Peter Pfeufer <info@ppfeufer.de>\n"
+"Language-Team: Korean <https://weblate.ppfeufer.de/projects/"
+"alliance-auth-apps/aa-discord-announcements/ko/>\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.0\n"
+
+#: __init__.py:12 templates/aa_discord_announcements/base.html:5
+#: templates/aa_discord_announcements/index.html:6
+msgid "Discord Announcements"
+msgstr "디스코드 공지"
+
+#: admin.py:32 models.py:79
+msgid "Group name"
+msgstr "그룹 이름"
+
+#: admin.py:38 admin.py:72 models.py:102 models.py:190
+msgid "Group restrictions"
+msgstr "그룹 제한"
+
+#: admin.py:61 models.py:168
+msgid "Discord channel"
+msgstr "디스코드 채널"
+
+#: admin.py:66 models.py:176
+msgid "Webhook URL"
+msgstr "웹훅 URL"
+
+#. Translators: This is the app name and version, which will appear in the Django Backend
+#: apps.py:21
+#, python-brace-format
+msgid "Discord Announcements v{__version__}"
+msgstr "디스코드 공지 v{__version__}"
+
+#: forms.py:21
+msgid "This field is mandatory"
+msgstr "필수 항목입니다"
+
+#: forms.py:42
+msgid "Discord Markdown"
+msgstr "디스코드 마크다운"
+
+#: forms.py:49
+#, python-brace-format
+msgid "Hint: You can use {discord_markdown_link} to format the text."
+msgstr "힌트: {discord_markdown_link}를 사용해 텍스트 양식을 변경할 수 있습니다."
+
+#: forms.py:61
+msgid "Announcement Target"
+msgstr "공지사항 핑"
+
+#: forms.py:63
+msgid "Who do you want to ping?"
+msgstr "핑을 보낼까요?"
+
+#: forms.py:67
+msgid "Announcement Channel"
+msgstr "공지 채널"
+
+#: forms.py:69
+msgid "Select a channel to send the announcement to automatically."
+msgstr "공지사항을 자동으로 보낼 채널을 선택하세요."
+
+#: forms.py:73
+msgid "Announcement Text"
+msgstr "공지 내용"
+
+#: forms.py:79
+msgid "Your announcement …"
+msgstr "공지 내용을 입력하세요…"
+
+#: models.py:37
+msgid "You might want to install the Discord service first …"
+msgstr "디스코드 서비스를 먼저 설치해주세요…"
+
+#: models.py:44
+msgid "Are you sure you have your Discord linked to your Alliance Auth?"
+msgstr "디스코드가 Alliance Auth와 연동되어 있나요?"
+
+#: models.py:48
+msgid "This group has not been synced to Discord yet."
+msgstr "이 그룹은 아직 디스코드와 연동되어 있지 않습니다."
+
+#: models.py:82
+msgid ""
+"Name of the Discord role to ping. (Note: This must be an Auth group that is "
+"synced to Discord.)"
+msgstr "핑을 보낼 디스코드 역할. (설명: 디스코드와 연동된 Auth 그룹이어야 합니다.)"
+
+#: models.py:93
+msgid "Discord ID"
+msgstr "역할 ID"
+
+#: models.py:94
+msgid "ID of the Discord role to ping"
+msgstr "핑을 보낼 역할의 디스코드 역할 ID"
+
+#: models.py:103 models.py:191
+msgid "Restrict ping rights to the following groups …"
+msgstr "다음 그룹만 핑을 보낼 수 있습니다…"
+
+#: models.py:110 models.py:198
+msgid "Notes"
+msgstr "설명"
+
+#: models.py:111
+msgid "You can add notes about this configuration here if you want"
+msgstr "해당 설정에 대한 설명을 남길 수 있습니다"
+
+#: models.py:118 models.py:206
+msgid "Is enabled"
+msgstr "활성화"
+
+#: models.py:119
+msgid "Whether this ping target is enabled or not"
+msgstr "핑 타겟 활성화 및 비활성화"
+
+#: models.py:127
+msgid "Discord Ping Target"
+msgstr "핑 보낼 디스코드 역할"
+
+#: models.py:128
+msgid "Discord Ping Targets"
+msgstr "핑 보낼 디스코드 역할"
+
+#: models.py:169
+msgid "Name of the channel this webhook posts to"
+msgstr "웹훅과 연결된 채널 이름"
+
+#: models.py:179
+msgid ""
+"URL of this webhook, e.g. https://discord.com/api/webhooks/123456/abcdef"
+msgstr "웹훅의 URL, 예시) https://discord.com/api/webhooks/123456/abcdef"
+
+#: models.py:199
+msgid "You can add notes about this webhook here if you want"
+msgstr "웹훅에 대한 설명을 남길 수 있습니다"
+
+#: models.py:207
+msgid "Whether this webhook is active or not"
+msgstr "웹훅 활성화 및 비활성화"
+
+#: models.py:215
+msgid "Webhook"
+msgstr "웹훅"
+
+#: models.py:216
+msgid "Webhooks"
+msgstr "웹훅"
+
+#: models.py:232
+msgid ""
+"Invalid webhook URL. The webhook URL you entered does not match any known "
+"format for a Discord webhook. Please check the webhook URL."
+msgstr "잘못된 웹훅 URL. 알려진 디스코드의 웹훅 URL 형태와 일치하지 않습니다. 웹훅 "
+"URL을 확인해 주세요."
+
+#: templates/aa_discord_announcements/index.html:15
+msgid "Announcement Details"
+msgstr "공지 세부 사항"
+
+#: templates/aa_discord_announcements/index.html:26
+msgid "Formatted Announcement Text"
+msgstr "양식 적용된 공지 텍스트"
+
+#: templates/aa_discord_announcements/index.html:46
+msgid ""
+"Mandatory information is missing.<br>To create an announcement, you need to "
+"fill out the following fields:<br>» Announcement Text"
+msgstr "필수 항목이 비어있습니다. <br>공지를 작성하려면, 다음 항목을 작성해야 "
+"합니다:<br>» 공지 내용"
+
+#: templates/aa_discord_announcements/index.html:49
+msgid ""
+"Error! Your announcement was not copied to your clipboard. Maybe your "
+"browser doesn&apos;t support this feature."
+msgstr "오류! 공지가 클립보드에 복사되지 않았습니다. 브라우저가 이 기능을 지원하지 "
+"않을 수도 있습니다."
+
+#: templates/aa_discord_announcements/index.html:50
+msgid "Success! Your announcement text has been copied to your clipboard."
+msgstr "성공! 공지사항이 클립보드에 복사되었습니다."
+
+#: templates/aa_discord_announcements/partials/announcement/announcement.html:5
+msgid "No announcement created yet …"
+msgstr "공지사항이 없습니다…"
+
+#: templates/aa_discord_announcements/partials/announcement/announcement.html:22
+msgid "Copy Announcement Text"
+msgstr "공지 내용 복사"
+
+#: templates/aa_discord_announcements/partials/footer/app-translation-footer.html:5
+msgid ""
+"Do you want to help translate this app into your language or improve the "
+"existing translation?"
+msgstr "이 앱을 번역하거나 기존 번역을 개선하고 싶으신가요?"
+
+#: templates/aa_discord_announcements/partials/footer/app-translation-footer.html:8
+msgid "Join our team of translators!"
+msgstr "번역가 팀에 참여하세요!"
+
+#: templates/aa_discord_announcements/partials/form/form.html:27
+msgid "Create Announcement"
+msgstr "공지 생성"
+
+#: templates/aa_discord_announcements/partials/form/segments/announcement-channel.html:3
+msgid "None, just format it for me"
+msgstr "없음, 개인 사용 용도"
+
+#: templates/aa_discord_announcements/partials/form/segments/announcement-targets.html:3
+msgid "Don't Ping"
+msgstr "핑 없음"
+
+#: templates/aa_discord_announcements/partials/form/segments/announcement-targets.html:9
+msgid "Additionally configured announcement targets"
+msgstr "추가된 공지 역할"
+
+#: views.py:154
+msgid "Form invalid. Please check your input."
+msgstr "잘못된 양식. 내용을 확인해 주세요."
+
+#: views.py:156
+msgid "No form data submitted."
+msgstr "양식 데이터가 없습니다."
