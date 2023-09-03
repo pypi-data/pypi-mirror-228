@@ -1,0 +1,7 @@
+# Configuration defaults
+
+sources.redcap.api:
+
+map_url: ''
+
+offset_url: ''

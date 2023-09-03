@@ -1,0 +1,13 @@
+click
+confuse
+keyring
+requests
+pandas
+gitpython
+pyreadstat==1.2.0
+
+[frictionless]
+frictionless~=5.15.10
+
+[redcap]
+xmarshal@ git+https://github.com/pschumm/xmarshal.git@d980fd376b7ef3fd0c2376e62c784a54814240a8
