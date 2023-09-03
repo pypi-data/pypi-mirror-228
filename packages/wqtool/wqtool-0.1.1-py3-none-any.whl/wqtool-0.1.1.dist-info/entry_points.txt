@@ -1,0 +1,3 @@
+[console_scripts]
+wqtool = src.wqtool:main
+

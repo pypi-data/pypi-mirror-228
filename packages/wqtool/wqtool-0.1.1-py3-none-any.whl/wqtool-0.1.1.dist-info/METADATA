@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: wqtool
+Version: 0.1.1
+Summary: wuqi tool
+Home-page: UNKNOWN
+Author: deng.weiwei
+Author-email: deng.weiwei@wuqi-tech.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: Scons
+
+# WQ Tool
+
