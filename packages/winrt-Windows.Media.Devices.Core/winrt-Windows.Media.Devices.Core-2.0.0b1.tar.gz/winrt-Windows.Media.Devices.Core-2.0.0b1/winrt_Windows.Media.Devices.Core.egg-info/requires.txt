@@ -1,0 +1,8 @@
+winrt-runtime==2.0.0-beta.1
+
+[all]
+winrt-Windows.Foundation[all]==2.0.0-beta.1
+winrt-Windows.Foundation.Collections[all]==2.0.0-beta.1
+winrt-Windows.Foundation.Numerics[all]==2.0.0-beta.1
+winrt-Windows.Media.MediaProperties[all]==2.0.0-beta.1
+winrt-Windows.Perception.Spatial[all]==2.0.0-beta.1
