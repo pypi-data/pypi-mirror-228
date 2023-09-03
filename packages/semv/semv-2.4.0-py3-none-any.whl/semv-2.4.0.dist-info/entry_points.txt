@@ -1,0 +1,2 @@
+[console_scripts]
+semv = semv.main:main
