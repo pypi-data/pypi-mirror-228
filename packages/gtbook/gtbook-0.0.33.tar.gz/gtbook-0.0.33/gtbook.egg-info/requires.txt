@@ -1,0 +1,5 @@
+gtsam>=4.2a9
+requests
+kaleido
+
+[dev]
