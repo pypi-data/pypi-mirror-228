@@ -1,0 +1,23 @@
+beautifulsoup4
+frictionless[pandas,visidata]==5.15.1
+lxml
+pandas>=1.5.3
+pathos
+webcolors
+tqdm
+pytablewriter==1.0.0
+GitPython
+typing_extensions
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[dev]
+ms3[testing]
+pre-commit
+tox
+
+[testing]
+setuptools
+pytest
+pytest-cov
