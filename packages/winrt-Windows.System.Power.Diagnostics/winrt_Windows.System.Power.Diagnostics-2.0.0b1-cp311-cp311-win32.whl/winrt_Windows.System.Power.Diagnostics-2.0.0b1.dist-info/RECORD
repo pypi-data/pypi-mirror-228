@@ -1,0 +1,7 @@
+winrt/_winrt_windows_system_power_diagnostics.cp311-win32.pyd,sha256=RWOi4ZXs4JfGjwmFGhFYqqGrw0EUw9HcbnJ6lb6qqGs,36352
+winrt/_winrt_windows_system_power_diagnostics.pyi,sha256=a9f2-0qY3HdkOlK52LgnsuW-S7I2026nClI0QQORWRA,1195
+winrt/windows/system/power/diagnostics/__init__.py,sha256=Dq3oaKM-krOY-ce7D1UEwxHv_VAcAHtMUrk_QHleUic,448
+winrt_Windows.System.Power.Diagnostics-2.0.0b1.dist-info/METADATA,sha256=Ih5bVASVOxVPoqrH0FcBijELhlBEpr5cd8ZvFdCBTyM,937
+winrt_Windows.System.Power.Diagnostics-2.0.0b1.dist-info/WHEEL,sha256=MpyGHBYwzd-Jap9JHrbjRY_PQK67I2tRW5oQLucxFp4,98
+winrt_Windows.System.Power.Diagnostics-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.System.Power.Diagnostics-2.0.0b1.dist-info/RECORD,,
