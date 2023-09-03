@@ -1,0 +1,12 @@
+fabric/__init__.py,sha256=SXUyE9hmQeYBcmIxmXrAZAIeYfMHAA7cy2vPwgRceTo,82
+fabric/tools/__init__.py,sha256=SXUyE9hmQeYBcmIxmXrAZAIeYfMHAA7cy2vPwgRceTo,82
+fabric/tools/lakehouse.py,sha256=OStoOuq1JKdJncsP7thtAJRvaXYyuRYzuxL7lB85gMM,1554
+fabric/tools/utils.py,sha256=NDuoTdwVb6Hh20lRWuSvOtbD8F4VUHopY-mGDs2fm0c,522
+fabric/yamls/lakehouse.yaml,sha256=57ifZK02MmaSrVo2110nPgFm3XCxbo4vZe6-ntM-j_A,439
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_lakehouse.py,sha256=2ESulBkeEA1jB99pFJlzMRdRh6CFjx6nT9WqkMu5v-0,436
+pffabric-0.0.2.dist-info/METADATA,sha256=dqnvIvCF9YJ1YtdRvWoDC_w5d62NYpqKHnEl-B_2hbo,151
+pffabric-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pffabric-0.0.2.dist-info/entry_points.txt,sha256=DMzrBUCzh6lkvHvhM3-DDd5CJkUzr96FSCXs6D9do4M,66
+pffabric-0.0.2.dist-info/top_level.txt,sha256=2LQNC--Wzlmxkr7b5ug5NO-R96xmpodldSOCeUWq5Ig,13
+pffabric-0.0.2.dist-info/RECORD,,
