@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mkdocs-ezglossary-plugin
+Version: 1.2.1
+Summary: glossary plugin for mkdocs
+Project-URL: Homepage, https://github.com/realtimeprojects/mkdocs-ezglossary
+Project-URL: Bug Tracker, https://github.com/realtimeprojects/mkdocs-ezglossary/issues
+Project-URL: Documentation, https://realtimeprojects.github.io/mkdocs-ezglossary
+License-File: LICENSE
+Requires-Dist: mkdocs >=1.1.0
+Requires-Dist: jinja2
+
+A glossary plugin based on html definition lists.
