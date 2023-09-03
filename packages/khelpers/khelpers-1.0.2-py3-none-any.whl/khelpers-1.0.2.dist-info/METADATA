@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: khelpers
+Version: 1.0.2
+Summary: Helper Files
+Author-email: Justin Kumpe <jakumpe@kumpes.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# KHelpers-Python
+ 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/c29f2120621640d89c233cbb4fc7f3c0)](https://app.codacy.com/gh/kumpeapps/KHelpers-Python/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
