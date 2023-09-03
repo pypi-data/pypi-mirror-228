@@ -1,0 +1,8 @@
+setup.py
+StefPy/StefPy.py
+StefPy/__init__.py
+StefPy.egg-info/PKG-INFO
+StefPy.egg-info/SOURCES.txt
+StefPy.egg-info/dependency_links.txt
+StefPy.egg-info/not-zip-safe
+StefPy.egg-info/top_level.txt
