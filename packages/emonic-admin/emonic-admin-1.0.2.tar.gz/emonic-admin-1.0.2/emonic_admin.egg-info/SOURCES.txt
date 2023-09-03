@@ -1,0 +1,8 @@
+README.md
+setup.py
+emonic_admin.egg-info/PKG-INFO
+emonic_admin.egg-info/SOURCES.txt
+emonic_admin.egg-info/dependency_links.txt
+emonic_admin.egg-info/entry_points.txt
+emonic_admin.egg-info/requires.txt
+emonic_admin.egg-info/top_level.txt
