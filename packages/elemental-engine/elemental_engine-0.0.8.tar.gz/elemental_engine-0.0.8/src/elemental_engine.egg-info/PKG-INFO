@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: elemental-engine
+Version: 0.0.8
+Summary: Elemental Engine - for internal API development
+Home-page: https://github.com/tomneto/ElementalEngine.git
+Author: Elemental (Tom Neto)
+Author-email: <info@elemental.run>
+Keywords: python,api
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: ==3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE

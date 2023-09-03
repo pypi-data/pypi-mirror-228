@@ -1,0 +1,11 @@
+LICENSE
+pyproject.toml
+setup.py
+src/config/__init__.py
+src/database/__init__.py
+src/elemental_engine.egg-info/PKG-INFO
+src/elemental_engine.egg-info/SOURCES.txt
+src/elemental_engine.egg-info/dependency_links.txt
+src/elemental_engine.egg-info/not-zip-safe
+src/elemental_engine.egg-info/requires.txt
+src/elemental_engine.egg-info/top_level.txt
