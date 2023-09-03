@@ -1,0 +1,2 @@
+[console_scripts]
+fastruct = fastruct.__main__:main
