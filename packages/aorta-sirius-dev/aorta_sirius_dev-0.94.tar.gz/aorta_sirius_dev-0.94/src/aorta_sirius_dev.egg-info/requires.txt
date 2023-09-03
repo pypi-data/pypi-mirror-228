@@ -1,0 +1,7 @@
+aiocache
+httpx
+motor
+msal
+pydantic
+pyjwt>=2.8.0
+sentry-sdk
