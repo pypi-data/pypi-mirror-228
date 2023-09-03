@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: zjsar
+Version: 1.0.0
+Summary: zJSAR - New compressions
+Author: Nelyon
+Author-email: pauline.darrieux@gmail.com
+License-File: LICENSE.txt
+Requires-Dist: cryptography
+
