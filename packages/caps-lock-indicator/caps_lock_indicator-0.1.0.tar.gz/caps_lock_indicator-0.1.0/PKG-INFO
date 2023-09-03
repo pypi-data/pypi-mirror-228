@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: caps-lock-indicator
+Version: 0.1.0
+Summary: 
+Author: kaesinol
+Author-email: keiplyer@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pynput (>=1.7.6,<2.0.0)
+Requires-Dist: pyqt6 (>=6.5.2,<7.0.0)
+Description-Content-Type: text/markdown
+
+# Caps Lock Indicator
+
+## Strat
+```commandline
+pip install caps_lock_indicator
+python3 -m caps_lock_indicator
+```
