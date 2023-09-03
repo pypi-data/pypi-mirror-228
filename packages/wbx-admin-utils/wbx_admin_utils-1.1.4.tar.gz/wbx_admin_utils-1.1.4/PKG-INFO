@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: wbx_admin_utils
+Version: 1.1.4
+Summary: A collection of utilities for Webex Control Hub admins and compliance officers
+Author-email: Stephane Cohen <stecohen@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Stephane Cohen
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: Control Hub,Webex,groups
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# wbx-admin-utils
+
+## Usage:
+Python3 -m wbx_admin_utils [options] command subcommand [parameters]
+
+## Commands list and syntax:
+Python3 -m wbx_admin_utils help commands 
+
+
+## Commands:
+- help
+  - commands
+- group
+  - list : list all groups in admin org
+  - list-users group_id : list user ids in given group id
+  - add-user email group_id : add user email in given group id
+  - add-users-in-csv file group_id : add user listed in CSV file in given group id
+  - remove-user file group_id : remove user from given group id
+  - remove-users-in-csv file group_id : remove users listed in CSV file in given group id
+- user
+   - delete-user email : delete user
+   - delete-users-in-csv file : delete users listed via email address in given CSV file
+   - get-voicemail email : dump user voicemail settings in json format
+   - add-voicemail email base user email : set user voicemail options based on another user's voicemail settings
+   - add-voicemail-from-csv file base user email : set voicemail options based on another user's voicemail settings for all users listed in CSV file 
+
+## Options:
+* -t \<token\> Adds access token as a parameter. Will be read from AUTH_BEARER Env Variable by default        
+
+## Examples:
+* Python3 -m wbx_admin_utils group list            
+* Python3 -m wbx_admin_utils group list-users \<groupid\>
