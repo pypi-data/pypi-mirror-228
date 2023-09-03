@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+MoneyWorld/__init__.py
+MoneyWorld.egg-info/PKG-INFO
+MoneyWorld.egg-info/SOURCES.txt
+MoneyWorld.egg-info/dependency_links.txt
+MoneyWorld.egg-info/top_level.txt
+MoneyWorld/audio/__init__.py
+MoneyWorld/video/__init__.py
+test/__init__.py
