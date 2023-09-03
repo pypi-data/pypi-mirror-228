@@ -1,0 +1,4 @@
+[console_scripts]
+pth = sitec.cli:pth
+requirements = sitec.cli:requirements
+sitec = sitec.cli:app
