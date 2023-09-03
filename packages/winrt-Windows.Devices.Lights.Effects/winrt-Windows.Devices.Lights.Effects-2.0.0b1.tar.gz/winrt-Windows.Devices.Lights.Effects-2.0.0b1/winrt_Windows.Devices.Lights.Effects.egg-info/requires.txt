@@ -1,0 +1,8 @@
+winrt-runtime==2.0.0-beta.1
+
+[all]
+winrt-Windows.Devices.Lights[all]==2.0.0-beta.1
+winrt-Windows.Foundation[all]==2.0.0-beta.1
+winrt-Windows.Foundation.Collections[all]==2.0.0-beta.1
+winrt-Windows.Graphics.Imaging[all]==2.0.0-beta.1
+winrt-Windows.UI[all]==2.0.0-beta.1
