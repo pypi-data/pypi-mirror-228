@@ -1,0 +1,11 @@
+torch>=2.0.0
+numpy
+pandas
+absl-py
+overrides
+
+[random-projection]
+scikit-learn
+
+[sparse]
+torch-sparse
