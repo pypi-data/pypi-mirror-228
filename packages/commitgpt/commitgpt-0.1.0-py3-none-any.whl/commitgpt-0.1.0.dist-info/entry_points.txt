@@ -1,0 +1,3 @@
+[console_scripts]
+commitgpt=commitgpt.main:app
+

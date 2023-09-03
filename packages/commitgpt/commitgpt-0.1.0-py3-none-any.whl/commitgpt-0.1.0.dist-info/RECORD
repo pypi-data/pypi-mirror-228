@@ -1,0 +1,11 @@
+commitgpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+commitgpt/__main__.py,sha256=DImCKu25Lhg7_40c45YMUa_ktrrT5kulyPrD64288OM,48
+commitgpt/gitop.py,sha256=NCa_f3wBw9VyrgHBp44DIwB6gdUjqBwSQGqSZHSptik,1535
+commitgpt/gpt.py,sha256=K6Bqishvj4Ejj4EeTay1IuE072-IQGLxdqL_dkXPr3c,1542
+commitgpt/main.py,sha256=kRg95rDWyzk4jNl5yHJZWgIWs6oFT7zVSO1pWp8ptj8,5801
+commitgpt/prompts.py,sha256=JAC5JD7cLZvZlB2WEfqvSxpu8UCwWgCr4Al8-ahd7VY,1422
+commitgpt-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+commitgpt-0.1.0.dist-info/METADATA,sha256=LryXuiEYhR5_v28wSexc1EjCD8b-oofWrgJJtks_qEE,739
+commitgpt-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+commitgpt-0.1.0.dist-info/entry_points.txt,sha256=Lkjwc2hZHRNIiOIllXiX4NrXWs2m1EQB2Hnsw8tEuqY,48
+commitgpt-0.1.0.dist-info/RECORD,,
