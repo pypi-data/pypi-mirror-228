@@ -1,0 +1,10 @@
+docstrings2pep727-0.1.0.dist-info/METADATA,sha256=15x__LtjjQlNqNF-5WVa5ib1E09xyPIu_txv_166Jl4,2455
+docstrings2pep727-0.1.0.dist-info/WHEEL,sha256=1D4d-_ODszlK6-qFybc5BLF-ZhZvee-uKVh2hLa3IIc,90
+docstrings2pep727-0.1.0.dist-info/entry_points.txt,sha256=aByC9uctdjtpdl2hb6mQ05Kh52uvqMzmYUh1yc_uPG0,66
+docstrings2pep727-0.1.0.dist-info/licenses/LICENSE,sha256=GZ4fS4Z6WtxHYD5ZqFT9vlpdOXvzm-cvjYmOIHXhqMc,754
+docstrings2pep727/__init__.py,sha256=oML2vACGGyKSm-WWeBzi1FRNl2pZNZecdlxOHzp5T3w,160
+docstrings2pep727/__main__.py,sha256=3wL8jUETSJ9Q99mgpzwrotsJVowtkv4DVTjmZY_6s04,359
+docstrings2pep727/cli.py,sha256=lcp5Naq5ND4oS8beEuWdV2348LFGMQM6XLxOkQt_gHM,2280
+docstrings2pep727/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docstrings2pep727/transformer.py,sha256=BYRvASNPFRYmr02HYtpk4x1FZ-fU67UPXBJdOxfg1h4,5940
+docstrings2pep727-0.1.0.dist-info/RECORD,,
