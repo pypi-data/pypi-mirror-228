@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: naive_svg
+Version: 0.0.1
+Summary: naive svg writer
+Home-page: https://naive-svg.readthedocs.io
+Author: tzx
+Author-email: dvorak4tzx@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# naive-svg
+
+Online document: **[readthedocs](http://naive-svg.readthedocs.io/)**
+
+<!--intro-start-->
+
+## Usage
+
+Install:
+
+```bash
+python3 -m pip install naive-svg # install from pypi
+```
+
+
