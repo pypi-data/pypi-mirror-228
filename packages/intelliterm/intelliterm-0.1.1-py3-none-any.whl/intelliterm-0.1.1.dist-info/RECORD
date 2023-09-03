@@ -1,0 +1,15 @@
+intelliterm/__init__.py,sha256=SrFv4917BYRNdjFfEDZbp869xtuJag7kynSD5q3mgFk,368
+intelliterm/chat.py,sha256=c0oGcnkQMc7SwEBX4aERoR2RxmANfNk1iviKxQuYdHk,18445
+intelliterm/code.py,sha256=dzwaR4jY66GeX22e6KCmTGdqwZ0jKeBrQu7xxC98wdw,1297
+intelliterm/command_palette.py,sha256=wKU0gmv_kOifX9HRSflpfLidDipPAhEq_RbfVZDXxFM,16557
+intelliterm/config.py,sha256=aAJsDxHxu8tH0lZdBGBh6sbwntNMVhf-FHR1livuTFs,6538
+intelliterm/console.py,sha256=9YB5DIsjE3iNrlKyZhMWoKWbnc2Jys01R1TzlP9M88U,2709
+intelliterm/main.py,sha256=Bg3t8O_T1sI3HzRkZrgKjKZactVPspnMeEPJgVcHafg,4111
+intelliterm/notifications.py,sha256=nk1-x5J5yiUPWZct0nlqeqwCHLLGFAtxY1A6eEGHv-M,625
+intelliterm/prompt.py,sha256=qT6Wrg-_p6NLR_1kUEOM7NP-M4XpOShatPnnYTNEV1g,5217
+intelliterm/utils.py,sha256=1gQbbalzgZ4uKtqdrr4rMFA5sDPxlthRzZHF6OBqw-g,3569
+intelliterm-0.1.1.dist-info/LICENSE.txt,sha256=VQCb-LqRsSPL7vu9gx-YEho1RDa23MKK-y11MUxBXPY,1072
+intelliterm-0.1.1.dist-info/METADATA,sha256=SNIrLylL9EuGZyKqdFZ0VLE_iJJm2WhHVRi33pMq8So,8378
+intelliterm-0.1.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+intelliterm-0.1.1.dist-info/entry_points.txt,sha256=MU2fqO7tlVumEb_7YsYRgt7gxo6w-GR9PTdQhlXjPls,76
+intelliterm-0.1.1.dist-info/RECORD,,
