@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<menuitem
+        id="menu_root_risk_management"
+        name="Risk Management"
+        web_icon="ssi_risk_management,static/description/icon.png"
+    />
+
+<menuitem
+        id="menu_risk_management_reporting"
+        name="Reporting"
+        parent="menu_root_risk_management"
+        sequence="998"
+    />
+
+<menuitem
+        id="menu_risk_management_configuration"
+        name="Configuration"
+        parent="menu_root_risk_management"
+        sequence="999"
+    />
+
+
+
+</odoo>
