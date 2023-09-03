@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README
+setup.py
+pyhvac/__init__.py
+pyhvac/__main__.py
+pyhvac.egg-info/PKG-INFO
+pyhvac.egg-info/SOURCES.txt
+pyhvac.egg-info/dependency_links.txt
+pyhvac.egg-info/entry_points.txt
+pyhvac.egg-info/top_level.txt
+pyhvac/plugins/daikin.py
+pyhvac/plugins/hvaclib.py
+pyhvac/plugins/lg.py
+pyhvac/plugins/panasonic.py
+pyhvac/plugins/sharp.py
