@@ -1,0 +1,16 @@
+polywrap_sys_config_bundle/__init__.py,sha256=V4CGPsFCYLV_pNVGyqq5yqacN0nYykyEEbqxWOjUBY4,1501
+polywrap_sys_config_bundle/bundle.py,sha256=GXHBYZaBiITwL-ogVZJXCQjtWVQgNTSrum5lqB7VPrg,3539
+polywrap_sys_config_bundle/embeds/__init__.py,sha256=blb0JUoHxfx6ktma8AuGY5YlGhmn5qiJSJlC89UgAdk,495
+polywrap_sys_config_bundle/embeds/embedded_file_reader.py,sha256=lYHxgQm7Ym8T5d5CVMp8b-F82YVOSdnSfK4QZdE8qmk,607
+polywrap_sys_config_bundle/embeds/file-system-resolver/wrap.info,sha256=L31-cKW9_34idZm02UQzcPmMq4_JDTCwD8d173js6PI,4785
+polywrap_sys_config_bundle/embeds/file-system-resolver/wrap.wasm,sha256=zO3Tli9cOHc99ZcAnnFp7FRMmJVKeczUfHI8jCW1cIg,102558
+polywrap_sys_config_bundle/embeds/http-resolver/wrap.info,sha256=CCQoz8qptMbQhVOf2URV02bRrFR4JSosrPwQCr5vaeU,6071
+polywrap_sys_config_bundle/embeds/http-resolver/wrap.wasm,sha256=hDKFbMHlOtQDodo6RXXUVJrQRDxYtXjXfJKOyjZys_g,143271
+polywrap_sys_config_bundle/embeds/ipfs-http-client/wrap.info,sha256=umdr9zn2e-WfBKc4hk1RacDzmL8pWeaGUBsMN9DaUzQ,9034
+polywrap_sys_config_bundle/embeds/ipfs-http-client/wrap.wasm,sha256=mmWo3yKlY59R8cN_fvwF56EnpgDNDM_NeWfSo8bVT_Y,135657
+polywrap_sys_config_bundle/embeds/ipfs-sync-resolver/wrap.info,sha256=xeIFQH1MFGvvb8KOUNtnyjF24x6Xqi16yNEKDZE2Qwg,13743
+polywrap_sys_config_bundle/embeds/ipfs-sync-resolver/wrap.wasm,sha256=Vh0ltpZgPZwWme0HAViZT41-lnbLQiqpof_AVyePWUc,252345
+polywrap_sys_config_bundle/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polywrap_sys_config_bundle-0.1.0.dist-info/METADATA,sha256=CgqHD56PlZCgnJEC4voiYX-ECwxrmuQFBwaA9nVpaFk,2270
+polywrap_sys_config_bundle-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+polywrap_sys_config_bundle-0.1.0.dist-info/RECORD,,
