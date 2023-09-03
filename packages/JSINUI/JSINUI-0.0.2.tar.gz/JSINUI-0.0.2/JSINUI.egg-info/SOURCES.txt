@@ -1,0 +1,8 @@
+README.md
+setup.py
+JSINUI.egg-info/PKG-INFO
+JSINUI.egg-info/SOURCES.txt
+JSINUI.egg-info/dependency_links.txt
+JSINUI.egg-info/top_level.txt
+js/__init__.py
+js/core.py
