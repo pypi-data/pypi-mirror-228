@@ -1,0 +1,3 @@
+[console_scripts]
+crosshash-py=crosshash:main
+
