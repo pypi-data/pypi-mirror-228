@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+pydb_conn/__init__.py
+pydb_conn/sql_server.py
+pydb_conn/utils.py
+pydb_conn.egg-info/PKG-INFO
+pydb_conn.egg-info/SOURCES.txt
+pydb_conn.egg-info/dependency_links.txt
+pydb_conn.egg-info/requires.txt
+pydb_conn.egg-info/top_level.txt

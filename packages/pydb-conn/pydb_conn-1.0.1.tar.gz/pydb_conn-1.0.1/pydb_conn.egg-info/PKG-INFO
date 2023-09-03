@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pydb-conn
+Version: 1.0.1
+Summary: Python connector to Microsoft SQL Server
+Home-page: https://github.com/oym-tritec/pydb_conn
+Author: Daniel Taiba
+Author-email: danielt.dtr@gmail.com
+Keywords: DataFrame MsSQL
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Overview 
+DataFrames connector to SQL tables on Microsoft SQL Server
+
+## Descripción:
+![Class view](docs/imgs/image-1.png)
+![Description](docs/imgs/image.png)
