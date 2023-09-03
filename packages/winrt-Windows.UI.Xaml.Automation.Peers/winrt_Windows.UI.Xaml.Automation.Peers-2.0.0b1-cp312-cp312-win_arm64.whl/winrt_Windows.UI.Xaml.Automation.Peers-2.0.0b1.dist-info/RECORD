@@ -1,0 +1,7 @@
+winrt/_winrt_windows_ui_xaml_automation_peers.cp312-win_arm64.pyd,sha256=Hg7_ULMcieSdrMbVQjwTQvpenxWChmn_zPBamYSZKrg,1003520
+winrt/_winrt_windows_ui_xaml_automation_peers.pyi,sha256=aLVfX_A0KfLFnzmrelG6qQnYXSU8lOvyURgMjJDChgc,48958
+winrt/windows/ui/xaml/automation/peers/__init__.py,sha256=Zl-SQXQxj7hDQh0yZzeMuMCD7tWF48y8D1wB3RYgk_A,16236
+winrt_Windows.UI.Xaml.Automation.Peers-2.0.0b1.dist-info/METADATA,sha256=Wbun_pDFlK5mC3SxeQ7QhR3LcoUc8jniCvaI5Rf3-No,1561
+winrt_Windows.UI.Xaml.Automation.Peers-2.0.0b1.dist-info/WHEEL,sha256=4a57bNWdRt5PINziSad5EMsdocHr4i3ENb3kQ9gPSug,102
+winrt_Windows.UI.Xaml.Automation.Peers-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.UI.Xaml.Automation.Peers-2.0.0b1.dist-info/RECORD,,
