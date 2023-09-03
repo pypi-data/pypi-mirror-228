@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: tydataprep
+Version: 0.3
+Summary: this contains some kind operations in it.
+Author: shuvam mandal
+Author-email: shuvammandal121@gmail.com
+Requires: pandas
+Requires: datasets
+Requires: pprint
+Requires: transformers
+License-File: LICENSE
+
