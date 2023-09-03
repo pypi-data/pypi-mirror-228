@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+WorldMedia/__init__.py
+WorldMedia.egg-info/PKG-INFO
+WorldMedia.egg-info/SOURCES.txt
+WorldMedia.egg-info/dependency_links.txt
+WorldMedia.egg-info/top_level.txt
+WorldMedia/audio/__init__.py
+WorldMedia/video/__init__.py
+test/__init__.py
