@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tickle-learn-python"
+version = "0.1.1"
+description = "Initial project while learning Python and Poetry"
+authors = ["Naveen <nonysingh79@yahoo.com>"]
+readme = "README.md"
+packages = [{include = "learn_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
