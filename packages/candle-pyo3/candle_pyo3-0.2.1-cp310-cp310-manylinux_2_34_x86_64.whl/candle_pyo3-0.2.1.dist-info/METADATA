@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: candle-pyo3
+Version: 0.2.1
+Summary: Minimalist ML framework.
+Keywords: blas,tensor,machine-learning
+License: MIT OR Apache-2.0
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/huggingface/candle
+
+From the `candle-pyo3` directory, enable a virtual env where you will want the
+candle package to be installed then run.
+
+```bash
+maturin develop
+python test.py
+```
+

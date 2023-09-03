@@ -1,0 +1,5 @@
+candle_pyo3-0.2.1.dist-info/METADATA,sha256=8vHB3twfOzjy4vilua8BxDznou51AgUcR2PuqLYY_H4,453
+candle_pyo3-0.2.1.dist-info/WHEEL,sha256=MdaJ6kmW2dr3Wr2yI43Aru_cnAt4stHkYF4ZTyaCYvs,108
+candle/__init__.py,sha256=clF7ueQcAMSjr2SmcbvkCtCpBKkfg2X0XNkMWKFjoaE,107
+candle/candle.cpython-310-x86_64-linux-gnu.so,sha256=j0GymKr7wJrYXA2LWM1-xFIBMTyZH8Hld0n9chRrrm8,7934448
+candle_pyo3-0.2.1.dist-info/RECORD,,
