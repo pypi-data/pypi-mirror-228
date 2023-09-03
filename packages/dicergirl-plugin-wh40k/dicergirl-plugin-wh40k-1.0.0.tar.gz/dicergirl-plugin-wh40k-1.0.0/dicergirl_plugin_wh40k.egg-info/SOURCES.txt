@@ -1,0 +1,9 @@
+setup-wh40k.py
+dicergirl/wh40k/__init__.py
+dicergirl/wh40k/nbhandlers.py
+dicergirl/wh40k/wh40kcards.py
+dicergirl_plugin_wh40k.egg-info/PKG-INFO
+dicergirl_plugin_wh40k.egg-info/SOURCES.txt
+dicergirl_plugin_wh40k.egg-info/dependency_links.txt
+dicergirl_plugin_wh40k.egg-info/requires.txt
+dicergirl_plugin_wh40k.egg-info/top_level.txt
