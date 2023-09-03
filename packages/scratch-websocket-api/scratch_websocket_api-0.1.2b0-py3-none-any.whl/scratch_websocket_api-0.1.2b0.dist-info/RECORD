@@ -1,0 +1,9 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scratch_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scratch_api/scratch_ws_api.py,sha256=0m2iEXMQe1V_6dZSJtpNNpW4cZDUjWvAttsA6pZqKKc,5276
+tests/test_run.py,sha256=a71yeROJf80XLpirfc1TD91JLIM5CuW5_BVidP-pLMo,304
+scratch_websocket_api-0.1.2b0.dist-info/LICENSE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+scratch_websocket_api-0.1.2b0.dist-info/METADATA,sha256=gsfaVR3z7fFkIcs06OQYkMTZ8XH9M8hkD8Rk32kCWH8,2743
+scratch_websocket_api-0.1.2b0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+scratch_websocket_api-0.1.2b0.dist-info/top_level.txt,sha256=QFerJMe5fGTY1Io9pCrhJnlrlCALipEqhYtQN-Oyph0,27
+scratch_websocket_api-0.1.2b0.dist-info/RECORD,,
