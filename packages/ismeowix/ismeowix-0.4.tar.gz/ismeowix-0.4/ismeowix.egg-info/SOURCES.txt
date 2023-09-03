@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ismeowix/__init__.py
+ismeowix/ismeowix.py
+ismeowix.egg-info/PKG-INFO
+ismeowix.egg-info/SOURCES.txt
+ismeowix.egg-info/dependency_links.txt
+ismeowix.egg-info/requires.txt
+ismeowix.egg-info/top_level.txt
