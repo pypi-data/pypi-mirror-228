@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: python-mongoclass
+Version: 0.1.5
+Summary: mongoclass
+License: MIT
+Requires-Python: >=3.9
+Provides-Extra: dev
+Provides-Extra: tests
+License-File: LICENSE

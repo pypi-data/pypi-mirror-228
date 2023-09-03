@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+mongoclass/__init__.py
+mongoclass/cache.py
+mongoclass/client.py
+mongoclass/cursor.py
+python_mongoclass.egg-info/PKG-INFO
+python_mongoclass.egg-info/SOURCES.txt
+python_mongoclass.egg-info/dependency_links.txt
+python_mongoclass.egg-info/requires.txt
+python_mongoclass.egg-info/top_level.txt

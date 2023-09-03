@@ -1,0 +1,15 @@
+dnspython<3,>=2.2.1
+mongita<2,>=1.1.1
+
+[dev]
+icecream
+ipython
+ipython-suggestions
+restmagic
+mypy
+pip-tools
+pyflyby
+twine
+
+[tests]
+tox<5,>=4.6.4
