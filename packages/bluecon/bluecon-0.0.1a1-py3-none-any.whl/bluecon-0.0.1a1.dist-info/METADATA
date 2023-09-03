@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: bluecon
+Version: 0.0.1a1
+Summary: Library for connecting to Fermax Blue supported doorbells
+Home-page: https://github.com/AfonsoFGarcia/bluecon
+Author: Afonso Garcia
+Author-email: bluecon@afonsogarcia.dev
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+
+# BlueCon
+
+Library for connecting to Fermax Blue supported doorbells
+
+**This library is still work in progress, do not use it for actual projects**
+
+## Installation
+
+```sh
+pip install bluecon
+```
+
+## Get started
+
+Create the connection to Fermax Blue servers:
+
+
+```python
+from bluecon import BlueConAPI
+
+username = "user@example.com"
+password = "1234"
+
+blueConAPIClient = await BlueConAPI.create(username, password)
+```
+
+Get user details:
+
+```python
+userInfo = blueConAPIClient.getUserInfo()
+```
+
+Get pairings for user:
+
+```python
+userInfo = blueConAPIClient.getPairings()
+```
