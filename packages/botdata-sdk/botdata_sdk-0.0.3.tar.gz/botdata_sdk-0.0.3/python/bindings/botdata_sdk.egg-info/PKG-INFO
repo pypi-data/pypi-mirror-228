@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: botdata-sdk
+Version: 0.0.3
+Summary: Botdata SDK
+Author-email: Martin Hu <martin.hu.720@bot.auto>, Yinan Zhang <yinan.zhang.481@bot.auto>
+Project-URL: Homepage, https://github.com/bot-auto/botdata-sdk
+Project-URL: Repository, https://github.com/bot-auto/botdata-sdk.git
+Keywords: bodata-sdk
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Clone Repo
+* Clone library repo
+  ```sh
+  git clone https://github.com/bot-auto/botdata-sdk.git
+  cd botdata-sdk
+  ```
+
+### Venv
+* Create virtual environment
+  ```sh
+  python3 -m venv venv
+  source venv/bin/activate
+  ```
+
+### Install
+* Run setup
+  ```sh
+  pip3 install .
+  ```
+
+### Pre-commit
+* Get pre-commit register
+  ```sh
+  pre-commit install # install .pre-commit-config.yaml, automatic git commit check
+  pre-commit run --all-files
+  ```
+
+### Release
+* Update version
+  Update version in pyproject.toml `version = "<new version>"`
+* Run setup
+  ```sh
+  python3 setup.py sdist bdist_wheel # build dist and wheel
+  twine upload dist/*   # upload to pypi
+  ```

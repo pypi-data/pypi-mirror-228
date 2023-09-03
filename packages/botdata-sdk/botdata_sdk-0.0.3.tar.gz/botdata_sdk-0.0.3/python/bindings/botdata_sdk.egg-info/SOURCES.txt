@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+python/bindings/botdata_sdk.egg-info/PKG-INFO
+python/bindings/botdata_sdk.egg-info/SOURCES.txt
+python/bindings/botdata_sdk.egg-info/dependency_links.txt
+python/bindings/botdata_sdk.egg-info/not-zip-safe
+python/bindings/botdata_sdk.egg-info/requires.txt
+python/bindings/botdata_sdk.egg-info/top_level.txt
