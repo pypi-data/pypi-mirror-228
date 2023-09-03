@@ -1,0 +1,3 @@
+[plover.extension]
+plover_q_and_a = plover_q_and_a.extension:QAndA
+
