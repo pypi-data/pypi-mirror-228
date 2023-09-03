@@ -1,0 +1,8 @@
+setup.py
+mi_programa.egg-info/PKG-INFO
+mi_programa.egg-info/SOURCES.txt
+mi_programa.egg-info/dependency_links.txt
+mi_programa.egg-info/top_level.txt
+programa/__init__.py
+programa/cliente.py
+programa/producto.py
