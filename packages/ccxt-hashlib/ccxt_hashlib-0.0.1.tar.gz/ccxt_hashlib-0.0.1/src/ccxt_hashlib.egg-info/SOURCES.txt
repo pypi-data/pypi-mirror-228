@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/ccxt_hashlib.egg-info/PKG-INFO
+src/ccxt_hashlib.egg-info/SOURCES.txt
+src/ccxt_hashlib.egg-info/dependency_links.txt
+src/ccxt_hashlib.egg-info/top_level.txt
