@@ -1,0 +1,7 @@
+winrt/_winrt_windows_storage_accesscache.cp310-win_arm64.pyd,sha256=kRAQeC3TssbG7fSDrlEwiImjZ4XcYjiAXQBTDjHWfKU,207360
+winrt/_winrt_windows_storage_accesscache.pyi,sha256=CKtIrV7useaHUAwQEZSxc21c_fqQyi2HHQhoI-Bs1hg,9363
+winrt/windows/storage/accesscache/__init__.py,sha256=3mR0mPFC21ut8rXLIU4NsCbt8rb8BeX8W7-_lvIokf4,1379
+winrt_Windows.Storage.AccessCache-2.0.0b1.dist-info/METADATA,sha256=R4pA169FshBob3KFWNcat0ZyMQHW7kS5N0gSmLfF9qY,1255
+winrt_Windows.Storage.AccessCache-2.0.0b1.dist-info/WHEEL,sha256=xf1vZoKIpO1cLg5WwAWrBbvGdHO1sKgyQ3dGDiVHgEU,102
+winrt_Windows.Storage.AccessCache-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Storage.AccessCache-2.0.0b1.dist-info/RECORD,,
