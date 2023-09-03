@@ -1,0 +1,11 @@
+operations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+operations/add.py,sha256=i5K9mRHMB-c-I6zoXey9dWQFxrss15BkUibne-vpRcU,233
+ops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ops/add.py,sha256=i5K9mRHMB-c-I6zoXey9dWQFxrss15BkUibne-vpRcU,233
+ops-shuv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ops-shuv/add.py,sha256=i5K9mRHMB-c-I6zoXey9dWQFxrss15BkUibne-vpRcU,233
+ops_shuv-0.3.dist-info/License.txt,sha256=g4zS008fpqpJ_f8taKYnEN2XRMpFPjA_7qhDX1gsjXw,1093
+ops_shuv-0.3.dist-info/METADATA,sha256=-_ep-kzQGkjWDv2thSJ6O6pFHrwnMOXnEh37l5wu-to,198
+ops_shuv-0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ops_shuv-0.3.dist-info/top_level.txt,sha256=lFXLcbehQYI0OiB_JlJB2XUIKgDFOyldxo_2q0BZngc,9
+ops_shuv-0.3.dist-info/RECORD,,
