@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cloud-function-test
+Version: 0.0.1
+Summary: Test locally GCP Cloud Functions
+Home-page: https://github.com/RobinPicard/cloud-function-test
+Author: Robin Picard
+Author-email: robin.picard@sciencespo.fr
+License: apache-2.0
+Keywords: python,testing,tests,gcp,cloud functions
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+License-File: LICENSE.txt
+
+UNKNOWN
+
