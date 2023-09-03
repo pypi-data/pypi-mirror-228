@@ -1,0 +1,7 @@
+winrt/_winrt_windows_security_authentication_onlineid.cp39-win32.pyd,sha256=77j7YeFOlTlQvOVCWqq1GJ-_1Z2Kiq0rX8CJsCuzio0,172544
+winrt/_winrt_windows_security_authentication_onlineid.pyi,sha256=_wTbLCxRW0YHPgYjxYh2OIyoNGCuDs1ZlgrOL1MblI4,6341
+winrt/windows/security/authentication/onlineid/__init__.py,sha256=PLWXVDK5nJDoFm7mpKty6hRxWb15GZLOZxpTr6jhFtY,1808
+winrt_Windows.Security.Authentication.OnlineId-2.0.0b1.dist-info/METADATA,sha256=1d89r3pR71OxQodcUHtn1oQ4EwCsSWTOzFkFk2R-SB0,1232
+winrt_Windows.Security.Authentication.OnlineId-2.0.0b1.dist-info/WHEEL,sha256=7ZXx6xbfqHPd62Znb0xrpRpdgnbHbS6AovUcQnLmei8,96
+winrt_Windows.Security.Authentication.OnlineId-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Security.Authentication.OnlineId-2.0.0b1.dist-info/RECORD,,
