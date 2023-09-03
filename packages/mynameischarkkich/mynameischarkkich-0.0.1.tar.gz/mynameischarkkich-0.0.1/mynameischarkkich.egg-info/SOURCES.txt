@@ -1,0 +1,11 @@
+LICENSE
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+mynameischarkkich/__init__.py
+mynameischarkkich/charkkich.py
+mynameischarkkich.egg-info/PKG-INFO
+mynameischarkkich.egg-info/SOURCES.txt
+mynameischarkkich.egg-info/dependency_links.txt
+mynameischarkkich.egg-info/top_level.txt
