@@ -1,0 +1,7 @@
+winrt/_winrt_windows_ui_composition_diagnostics.cp310-win_amd64.pyd,sha256=ZF9-nktpKNpZqgHimVm7WOKl9VBijI5Ef_ce7E97P7o,47104
+winrt/_winrt_windows_ui_composition_diagnostics.pyi,sha256=7bLGZnnUaPxJnQQc8igHil2yBmYNd3FoQ-Y-Cil4maA,1507
+winrt/windows/ui/composition/diagnostics/__init__.py,sha256=FMnM-tgmlo15wfOzFe-IUXRwZ6CdX3smIzGyya-lUKU,729
+winrt_Windows.UI.Composition.Diagnostics-2.0.0b1.dist-info/METADATA,sha256=ZQkXgBLfmqsXc7px2eIYIKVhZTBVSKVA8XwzPeDjDNo,1048
+winrt_Windows.UI.Composition.Diagnostics-2.0.0b1.dist-info/WHEEL,sha256=Wb1el1iP4ORW7FiLElw7HfxLpDiHzwvd2B382b2Idl0,102
+winrt_Windows.UI.Composition.Diagnostics-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.UI.Composition.Diagnostics-2.0.0b1.dist-info/RECORD,,
