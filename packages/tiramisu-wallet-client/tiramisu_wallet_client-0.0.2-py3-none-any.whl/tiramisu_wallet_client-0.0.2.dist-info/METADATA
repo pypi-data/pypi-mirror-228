@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tiramisu-wallet-client
+Version: 0.0.2
+Summary: A client fot Tiramisu wallet allowing you to programatically mint, transfer and trade Taproot Assets. 
+Project-URL: Homepage, https://github.com/snow884/blue_wallet_client
+Project-URL: Bug Tracker, https://github.com/snow884/blue_wallet_client/issues
+Author-email: Adam Ivansky <adam.ivansky@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: requests>=2.6.1
+Description-Content-Type: text/markdown
+
+# Tiramisu wallet API client
+
+This is a Python client for tiramisu wallet API that allows for programmatic trading, minting, sending and receiving of Taproot Assets.
+
