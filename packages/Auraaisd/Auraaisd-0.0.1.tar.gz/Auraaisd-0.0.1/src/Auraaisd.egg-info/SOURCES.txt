@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+src/Auraaisd/__init__.py
+src/Auraaisd/aurai.py
+src/Auraaisd.egg-info/PKG-INFO
+src/Auraaisd.egg-info/SOURCES.txt
+src/Auraaisd.egg-info/dependency_links.txt
+src/Auraaisd.egg-info/requires.txt
+src/Auraaisd.egg-info/top_level.txt
