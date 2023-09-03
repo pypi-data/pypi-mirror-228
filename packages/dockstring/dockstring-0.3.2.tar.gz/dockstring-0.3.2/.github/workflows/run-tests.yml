@@ -1,0 +1,56 @@
+name: Install conda env and run pytest.
+
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the main branch
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 5
+
+    defaults:
+      run:
+        # Use a default shell for conda
+        shell: bash -l {0}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Cache conda
+        uses: actions/cache@v2
+        env:
+          # Increase this value to reset cache if environment.yml has not changed
+          CACHE_NUMBER: 1
+        with:
+          path: ~/conda_pkgs_dir
+          key:
+            ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('test-environment.yml') }}
+
+      - name: Setup conda
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: dockstring
+          auto-activate-base: false
+          auto-update-conda: false
+          channel-priority: strict
+          environment-file: test-environment.yml
+          use-only-tar-bz2: true # IMPORTANT: This needs to be set for caching to work properly!
+
+      - name: Show environment
+        run: |
+          conda activate dockstring
+          conda list
+
+      - name: Test with pytest
+        run: |
+          conda activate dockstring
+          python3 -m pytest -m "not slow" tests
