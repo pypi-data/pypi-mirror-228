@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cloud-bunny
+Version: 0.14
+Summary: A Warp-Accelerated Python library for point cloud processing.
+Author: Akeel Ather Medina
+Author-email: akeelmedina22@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
