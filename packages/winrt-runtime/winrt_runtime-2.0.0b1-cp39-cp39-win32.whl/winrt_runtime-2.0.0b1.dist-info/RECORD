@@ -1,0 +1,6 @@
+winrt/_winrt.cp39-win32.pyd,sha256=9kXkSX8hhUODkZd_Hy6lPvzvK_2uI2LeVNYgvlBsBSY,60416
+winrt/system/__init__.py,sha256=8D_CZILtY-60IQn02AFhd8e-SY9ys9TSoTZElnHicoc,4166
+winrt_runtime-2.0.0b1.dist-info/METADATA,sha256=2eKoBQWjbZZGsTo9dBTf8g8FfAH-hM1QiRoigJTRGzo,676
+winrt_runtime-2.0.0b1.dist-info/WHEEL,sha256=7ZXx6xbfqHPd62Znb0xrpRpdgnbHbS6AovUcQnLmei8,96
+winrt_runtime-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_runtime-2.0.0b1.dist-info/RECORD,,
