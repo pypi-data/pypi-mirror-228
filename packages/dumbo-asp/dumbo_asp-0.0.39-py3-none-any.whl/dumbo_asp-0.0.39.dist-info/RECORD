@@ -1,0 +1,8 @@
+dumbo_asp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dumbo_asp/primitives.py,sha256=8cQkNpJG0UwRTvDnDOHyKVk4U1nn6JTkCc4l4bSnQgA,48547
+dumbo_asp/queries.py,sha256=ahSQCC6VqgQ_8IhjZkGXQoompQc2MAxIKjj6BOzbjU8,12982
+dumbo_asp/utils.py,sha256=AKsoQ-xvilNRzGiljiszYyxi6cLbHuWJZw8HPrwyi1A,965
+dumbo_asp-0.0.39.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dumbo_asp-0.0.39.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+dumbo_asp-0.0.39.dist-info/METADATA,sha256=hnSfVpzuPwUHnzBueku7mXNm2569DM-yBbFZ6JA3ysc,668
+dumbo_asp-0.0.39.dist-info/RECORD,,
