@@ -1,0 +1,2 @@
+[console_scripts]
+objectwalker = objectwalker.__main__:main
