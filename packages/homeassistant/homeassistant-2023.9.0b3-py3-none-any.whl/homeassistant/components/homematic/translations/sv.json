@@ -1,0 +1,37 @@
+{
+    "services": {
+        "set_device_value": {
+            "fields": {
+                "address": {
+                    "name": "Adress"
+                },
+                "channel": {
+                    "name": "Kanal"
+                },
+                "interface": {
+                    "name": "Gr\u00e4nssnitt"
+                }
+            }
+        },
+        "set_install_mode": {
+            "fields": {
+                "address": {
+                    "name": "Adress"
+                }
+            }
+        },
+        "virtualkey": {
+            "fields": {
+                "address": {
+                    "name": "Adress"
+                },
+                "channel": {
+                    "name": "Kanal"
+                },
+                "interface": {
+                    "name": "Gr\u00e4nssnitt"
+                }
+            }
+        }
+    }
+}

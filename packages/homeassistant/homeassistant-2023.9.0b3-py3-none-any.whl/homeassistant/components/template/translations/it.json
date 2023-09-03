@@ -1,0 +1,36 @@
+{
+    "config": {
+        "step": {
+            "binary_sensor": {
+                "data": {
+                    "state": "Modello di stato"
+                }
+            },
+            "sensor": {
+                "data": {
+                    "state": "Modello di stato"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "binary_sensor": {
+                "data": {
+                    "state": "Modello di stato"
+                }
+            },
+            "sensor": {
+                "data": {
+                    "state": "Modello di stato"
+                }
+            }
+        }
+    },
+    "services": {
+        "reload": {
+            "description": "Ricarica le entit\u00e0 modello dalla configurazione YAML.",
+            "name": "Ricarica"
+        }
+    }
+}
