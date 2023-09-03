@@ -1,0 +1,7 @@
+README.md
+ghidriff.py
+setup.py
+ghidriff.egg-info/PKG-INFO
+ghidriff.egg-info/SOURCES.txt
+ghidriff.egg-info/dependency_links.txt
+ghidriff.egg-info/top_level.txt

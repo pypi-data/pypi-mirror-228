@@ -1,0 +1,2 @@
+from setuptools import setup
+setup(name="ghidriff", version="0.0.1", py_modules=["ghidriff"], author="clearbluejar", author_email="me@me.com", description="This is a placeholder package created by registerit.", url="http://www.github.com")
