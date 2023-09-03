@@ -1,0 +1,10 @@
+{{ title }}
+===========
+
+{%-for item in items %}
+{%-if item.url %}
+- `{{ item.text }} <{{ item.url }}>`_ {{ item.other }}
+{%-else %}
+{{ item.text }}
+{%-endif %}
+{%-endfor %}

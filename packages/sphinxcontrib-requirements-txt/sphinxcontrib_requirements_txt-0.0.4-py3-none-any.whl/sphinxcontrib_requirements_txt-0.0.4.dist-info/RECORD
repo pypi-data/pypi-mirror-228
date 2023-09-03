@@ -1,0 +1,11 @@
+sphinxcontrib/requirements_txt/__init__.py,sha256=Dj4Lkv63ocCLdMnVdTrEOJnMtKolI1RlD7HKpCwoGCM,519
+sphinxcontrib/requirements_txt/_metainfo.py,sha256=3WRxcpcKAP_qGgaJBm51MsAXLD2sbZxHY8kdXeKlNt0,704
+sphinxcontrib/requirements_txt/_version.py,sha256=C_sEDFDxz5lXxlK-Oo8_UXoTORDgjzXO4KLRiUAkVKA,160
+sphinxcontrib/requirements_txt/directive.py,sha256=g56MXsXNsIcg4ebDAgMJaI1VxxRVr80xZZqZZgopwII,3256
+sphinxcontrib/requirements_txt/assets/jinja2/template.md.j2,sha256=zE8x-vT6OGlXdRTzcZks9r6Qk5GgipzDOEldjlDnMWI,163
+sphinxcontrib/requirements_txt/assets/jinja2/template.rst.j2,sha256=wHq1jF2DCH8ofXNNo2S-MVVnFLZosPX-iIifMaGys0Y,174
+sphinxcontrib_requirements_txt-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sphinxcontrib_requirements_txt-0.0.4.dist-info/METADATA,sha256=VzyXdDcqa7MlcXLCq89sG-Dfo8kBz974HSdC9v9EsyY,8381
+sphinxcontrib_requirements_txt-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sphinxcontrib_requirements_txt-0.0.4.dist-info/top_level.txt,sha256=VJrV3_vaiKQVgVpR0I1iecxoO0drzGu-M0j40PVP2QQ,14
+sphinxcontrib_requirements_txt-0.0.4.dist-info/RECORD,,
