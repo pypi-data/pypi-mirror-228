@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+Qmail/OTP.py
+Qmail/__init__.py
+Qmail/smtp.py
+Qmail.egg-info/PKG-INFO
+Qmail.egg-info/SOURCES.txt
+Qmail.egg-info/dependency_links.txt
+Qmail.egg-info/top_level.txt
+qmail.egg-info/PKG-INFO
+qmail.egg-info/SOURCES.txt
+qmail.egg-info/dependency_links.txt
+qmail.egg-info/top_level.txt
+test/test.py
