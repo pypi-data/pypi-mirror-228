@@ -1,0 +1,16 @@
+sincfold/__init__.py,sha256=R9pg3wPdKE4IZ8chTv0_Mj4W7sr1LmnfscaW_T3X1dg,8688
+sincfold/dataset.py,sha256=M7cfVkapjIKgSLVuFvcNk71yLcUoH1cZuvzQLWpaqY8,4303
+sincfold/embeddings.py,sha256=TJLi8aNeORp0LKE4J6jSZiTHhf4-TgxQEC0ELb1NQCI,1633
+sincfold/metrics.py,sha256=EMTExxobcFNfXiKyjcdO0FvQBbSaCsm2PTOfM9-saE4,2520
+sincfold/model.py,sha256=LBlUESm4WompU8qeqvsRMgiYRbpFJC32Gd9mhr-Nq14,10869
+sincfold/parser.py,sha256=2VRdhb0QDNfrxdG0um0Oy_OwZpKlcS2wNSZJ1ZeJ7Y0,3710
+sincfold/utils.py,sha256=qCArCwXoZO46IV4yErdrgznvdRCKMGmJiVfsrLibyeM,11371
+sincfold/tools/RNAstructure/ct2dot,sha256=8IKuMyb0nibr0kCOOQHYsU5mxU_K0ijuyfo_BqBVqm0,1324536
+sincfold/tools/RNAstructure/draw,sha256=mwapFBIxKoJ6xdk7O0qaYqkpeIpmjpIxUoYfw6vcX6Y,1506984
+sincfold/tools/RNAstructure/data_tables/rna.specification.dat,sha256=PLPh1OUN8JHee-0fqS8zlWs5zBloBWM_d_9bE-zUdgI,1634
+sincfold/tools/varna/VARNAv3-93.jar,sha256=J2mWsOtUq3vb-SoRPwwj2NPtjkl9hbZXez8gZaDbz4c,695802
+sincfold-0.12.dist-info/METADATA,sha256=zl80rHZLgTaRIN9klZea2KvFbJgGjEwET_4j3DX8zts,5416
+sincfold-0.12.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+sincfold-0.12.dist-info/entry_points.txt,sha256=Ua0xGejpa2rBrg5u3I_wWrl515oUtyYX-HeyW2vS8Ls,43
+sincfold-0.12.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sincfold-0.12.dist-info/RECORD,,
