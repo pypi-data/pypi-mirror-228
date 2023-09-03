@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "zipwalk"
+version = "0.1.4"
+description = "os.walk interface for nested zipfiles"
+authors = ["Joao Meyer <1994meyer@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+"Homepage" = "https://github.com/meyer1994/zipwalk"
+"Bug Tracker" = "https://github.com/meyer1994/zipwalk/issues"
