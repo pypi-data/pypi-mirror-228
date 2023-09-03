@@ -1,0 +1,8 @@
+skbuild_conan/__init__.py,sha256=iPbMUqq2kYOOh7N9oxryoEoAmF0mjNxoQ19a9JL25OM,469
+skbuild_conan/conan_helper.py,sha256=rMCoF7d1tkhvnno1JA2aBRo4PMd7Ix3K8T9ARWlYscU,5245
+skbuild_conan/setup_wrapper.py,sha256=c92XNBL1IzeU0uA1yajUD1MRe8IWqpkBAMvjlEaKpkE,4481
+skbuild_conan-0.2.0.dist-info/LICENSE,sha256=DoPf7Zuq0aYpOXSI36ODnycqWqCSxymHidbdQhPhl9o,1071
+skbuild_conan-0.2.0.dist-info/METADATA,sha256=9o3KjW05QL3zKbfxQfCQNTOwOUcj1SZSJDVGJ6QxHw0,10594
+skbuild_conan-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+skbuild_conan-0.2.0.dist-info/top_level.txt,sha256=6SmpMXMnJHbGRXfRXueLbWJ7v8xE9ZMLW1wbqGRWudQ,14
+skbuild_conan-0.2.0.dist-info/RECORD,,
