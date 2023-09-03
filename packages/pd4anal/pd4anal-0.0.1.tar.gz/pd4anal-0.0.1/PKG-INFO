@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pd4anal
+Version: 0.0.1
+Summary: an elegant pd4nanl
+Home-page: https://github.com/Tongjilibo/pd4anal
+Author: Tongjilibo
+License: MIT Licence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pd4anal
+数字化分析框架
