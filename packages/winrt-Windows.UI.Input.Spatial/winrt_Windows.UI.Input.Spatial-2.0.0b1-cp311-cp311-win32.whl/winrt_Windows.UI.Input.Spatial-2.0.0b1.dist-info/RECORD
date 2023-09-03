@@ -1,0 +1,7 @@
+winrt/_winrt_windows_ui_input_spatial.cp311-win32.pyd,sha256=UMey-1DxKT_9dhHZ7ByFyXL0ftQHiu6NR0QhJyhTPL8,322048
+winrt/_winrt_windows_ui_input_spatial.pyi,sha256=x7JjG9SL5BDbDdCTjE3pHT7R6EicDJJpRTPyzMIiDhg,22088
+winrt/windows/ui/input/spatial/__init__.py,sha256=tCExNQRnrpkFjnYivtnTYttoTJZlWWZUvT4d66o2_JM,4908
+winrt_Windows.UI.Input.Spatial-2.0.0b1.dist-info/METADATA,sha256=fi-GqWpDPvE2oAQNQG3zjIY-NDaDS8tY1zkjcz3m26Q,1677
+winrt_Windows.UI.Input.Spatial-2.0.0b1.dist-info/WHEEL,sha256=MpyGHBYwzd-Jap9JHrbjRY_PQK67I2tRW5oQLucxFp4,98
+winrt_Windows.UI.Input.Spatial-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.UI.Input.Spatial-2.0.0b1.dist-info/RECORD,,
