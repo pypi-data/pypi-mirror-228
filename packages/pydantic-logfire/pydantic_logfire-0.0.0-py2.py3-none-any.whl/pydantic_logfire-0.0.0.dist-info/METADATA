@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pydantic-logfire
+Version: 0.0.0
+Summary: Use the `logfire` package instead.
+Author-email: Pydantic Team <hello@pydantic.dev>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Internet
+Description-Content-Type: text/markdown
+
+# pydantic-logfire
+
+## Use the [logfire](https://pypi.org/project/logfire/) package instead.
+
+_(This is a sub package to redirect to [logfire](https://pypi.org/project/logfire/), and shouldn't be installed directly.)_
