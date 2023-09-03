@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rpa-scada
+Version: 1.0.0
+Summary: Scraper of SCADAs without browser
+Home-page: https://github.com/oym-tritec/rpa_scada
+Author: Daniel Taiba
+Author-email: danielt.dtr@gmail.com
+Keywords: Scraper SCADA
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# RPA
+Scraper para obtener los datos desde el acceso web del SCADA sin la necesidad de un navegador
+
+## Build
+para construir el paquete:
+```
+python setup.py sdist
+```
+para instalar el paquete
+```
+pip install PATH_MODULE/dist/mipaquete-0.1.tar.gz
+```
