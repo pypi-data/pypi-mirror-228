@@ -1,0 +1,5 @@
+marlowe-0.1.5.dist-info/METADATA,sha256=TcTjS0uNxZ8ANl6nKWxMRWViKqE7Kj7Bwo_4Y45gD5o,2225
+marlowe-0.1.5.dist-info/WHEEL,sha256=h4UfPQDpHKqlVNhwLycY9q2_njSluZqLzTtUUMa9TJI,95
+marlowe/__init__.py,sha256=euAHK8Tm3CHBM3kaXSndWwwK9yhhEuBGO0O3mM0UL8E,111
+marlowe/marlowe.cp310-win_amd64.pyd,sha256=K4yi8Yu7VnOjJIcaVP1GqzC_e3wf8R_CGMmRyOwqAW4,3043840
+marlowe-0.1.5.dist-info/RECORD,,
