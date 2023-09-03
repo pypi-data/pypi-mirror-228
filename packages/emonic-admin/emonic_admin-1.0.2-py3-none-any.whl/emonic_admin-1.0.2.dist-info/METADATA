@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: emonic-admin
+Version: 1.0.2
+Summary: A battery startup for Emonic web framework
+Home-page: https://github.com/embracke/emonicadmin
+Author: Pawan kumar
+Author-email: control@vvfin.in
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: emonic
+
+## Emonic-Admin 
+
+Emonic-Admin a battery startup for newly emonic v1.0.2
+
+[![IMG-20230823-151908.jpg](https://i.postimg.cc/Vsd2Qym0/IMG-20230823-151908.jpg)](https://postimg.cc/dDc5rx7J)
+
+## Available scripts
+
+```bash
+emonic-admin create-project {projectname}
+```
+
+```bash
+emonic-admin setup --migrate
+```
+
+```bash
+emonic-admin build -p {root_project_name}
+```
+
+```bash
+emonic-admin manage engine
+```
+
+```bash
+emonic-admin gradle --production
+```
+
+- emonic-admin createproject {project_name} for building the floor of Emonic app.
+- emonic-admin setup --migration for setting up the migration to root project.
+- emonic-admin build -p {root_project_name} building the root project.
+- emonic-admin manage engine for setting up all the templates and static files.
+- emonic-admin gradle --production for production usage.
