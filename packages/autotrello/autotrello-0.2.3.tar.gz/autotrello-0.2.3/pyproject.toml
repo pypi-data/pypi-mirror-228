@@ -1,0 +1,4 @@
+[build-system]
+requires=[
+    'boilerplates[setup] ~= 1.0'
+]
