@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+aew/__init__.py
+aew.egg-info/PKG-INFO
+aew.egg-info/SOURCES.txt
+aew.egg-info/dependency_links.txt
+aew.egg-info/requires.txt
+aew.egg-info/top_level.txt
+tests/test_aew.py

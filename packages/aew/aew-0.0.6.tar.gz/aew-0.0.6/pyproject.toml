@@ -1,0 +1,41 @@
+[project]
+name = "aew"
+description = "An unofficial basic parser for blog posts on https://allelitewrestling.com."
+dynamic = ["version"]
+authors = [{name = "csm10495", email = "csm10495@gmail.com"}]
+license = {text = "MIT License"}
+classifiers = [
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: POSIX",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.9"
+dependencies = ["requests>=2.27", "beautifulsoup4", "python-dateutil"]
+
+[project.urls]
+homepage = "http://github.com/csm10495/aew"
+repository = "http://github.com/csm10495/aew"
+documentation  = "https://csm10495.github.io/aew"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[tool.setuptools]
+packages = ["aew"]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+version = {attr = "aew.__version__"}
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
