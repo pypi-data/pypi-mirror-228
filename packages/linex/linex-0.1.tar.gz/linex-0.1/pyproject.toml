@@ -1,0 +1,46 @@
+[tool.pyright]
+# https://github.com/microsoft/pyright/blob/main/docs/configuration.md
+useLibraryCodeForTypes = true
+
+[tool.ruff]
+# https://beta.ruff.rs/docs/configuration/
+select = ['E', 'W', 'F', 'I', 'B', 'C4', 'ARG', 'SIM']
+ignore = ['W291', 'W292', 'W293']
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "linex"
+version = "0.1"
+description = "The fast and easy-to-use LINE bot SDK."
+keywords = ["line", "bot", "linebot", "sdk", "async"]
+authors = [
+  { name = "AWeirdDev", email = "aweirdscratcher@gmail.com" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.9"
+dependencies = [
+  "uvicorn",
+  "fastapi",
+  "rich",
+  "httpx",
+  "pydantic"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/AWeirdScratcher/linex"
+"Bug Tracker" = "https://github.com/AWeirdScratcher/linex/issues"
+
+[tool.setuptools]
+packages = [
+    "linex",
+    "linex.ext"
+]
