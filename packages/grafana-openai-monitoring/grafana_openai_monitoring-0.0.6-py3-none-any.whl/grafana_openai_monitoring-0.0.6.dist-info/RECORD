@@ -1,0 +1,8 @@
+grafana_openai_monitoring/__handlers.py,sha256=5Ei7PkbnHQqparZ1e1niPWD9w_EyRR7Prfmgm09n3So,4720
+grafana_openai_monitoring/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grafana_openai_monitoring/chat_v1.py,sha256=ZvzL2YjXjCtO3bujWucvOjkVloDKtK99Ztw538hccR0,5331
+grafana_openai_monitoring/chat_v2.py,sha256=Gxrm303D8UFoTC5DrsA_BzSVp9MAyr2b6u8qcqILM1E,5425
+grafana_openai_monitoring-0.0.6.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+grafana_openai_monitoring-0.0.6.dist-info/METADATA,sha256=D6h07YNgY4urf7kXPJMpO5NAplMm0AEkdY93GYSNOjk,5943
+grafana_openai_monitoring-0.0.6.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+grafana_openai_monitoring-0.0.6.dist-info/RECORD,,
