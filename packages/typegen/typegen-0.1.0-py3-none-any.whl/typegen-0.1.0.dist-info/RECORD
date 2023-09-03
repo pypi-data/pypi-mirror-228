@@ -1,0 +1,12 @@
+out/FishType.py,sha256=82PJPr6Cf4AIrEy1hML6iO_8rkrkEqfibGBLdlsZuOg,342
+out/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/fish_obj.py,sha256=1_5dyXyFpHM7vWqcNeKNb5jnePiylRUx3YX2-WnVjow,406
+tests/test_typegen_cli.py,sha256=e7P4YGbLQFV2CHJl8uXTMoXhWBolwgelYmCQpUvm3wI,429
+typegen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typegen/generate.py,sha256=DRcHT916t-FfNSvPJa1hj6Owg7AgT9TV2yu3YoZfvoc,2322
+typegen/main.py,sha256=mSQ53yXK6L_mBOfs2MvcRRAdbpMgCzbNRIN3aJ6ZHf0,3178
+typegen-0.1.0.dist-info/METADATA,sha256=6colTmHsLot854mnnKNf2SSLDc8BjM_lM6DyXYnMBEg,2028
+typegen-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+typegen-0.1.0.dist-info/entry_points.txt,sha256=3LPp_jo2RcCYl0gW4uJdQDolHbZGQO3b-Qw5kErI-k4,45
+typegen-0.1.0.dist-info/RECORD,,
