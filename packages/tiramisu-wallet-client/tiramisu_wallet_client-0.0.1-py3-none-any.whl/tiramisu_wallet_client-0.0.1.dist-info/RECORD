@@ -1,0 +1,6 @@
+src/tiramisu-wallet-client/__init__.py,sha256=0HQ5JAb2DN9nLp1BnTJZhBsGP2y7s7dNM7321LbCnbQ,80
+src/tiramisu-wallet-client/tiramisu_client.py,sha256=FAublk2Am8saRpd56n5e3a8cBEXZkXvSeyqwNXJEo2A,13677
+tiramisu_wallet_client-0.0.1.dist-info/METADATA,sha256=zex7-IuTkKr-9-zqIxndRR0Hl2OppByzTPXqBw88xzs,808
+tiramisu_wallet_client-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+tiramisu_wallet_client-0.0.1.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+tiramisu_wallet_client-0.0.1.dist-info/RECORD,,
