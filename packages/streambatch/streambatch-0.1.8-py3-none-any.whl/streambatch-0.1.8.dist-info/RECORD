@@ -1,0 +1,7 @@
+streambatch/__init__.py,sha256=mGTy7zEGT2hR74RDp7liFvkZGX5Ld88dxnAI5-vl6ts,45
+streambatch/module1.py,sha256=gGnb1xom9y9iNzaPftrcRc8Mp7HBGqPVXJqHVgVILtk,10647
+streambatch/savgol.py,sha256=RINYi3DcD0zd4rHqQW7oijD7Wqdy34TtwVBXVPZLZbo,6766
+streambatch-0.1.8.dist-info/METADATA,sha256=7xZoTGf-aHVS62StU5JTEAwvyu0KO8U9sGJGibz6xeg,1489
+streambatch-0.1.8.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+streambatch-0.1.8.dist-info/licenses/LICENSE,sha256=P26pvp95YRAjxZD8_CRCrCoGUNmfvPvcqkTTZD56lfk,1063
+streambatch-0.1.8.dist-info/RECORD,,
