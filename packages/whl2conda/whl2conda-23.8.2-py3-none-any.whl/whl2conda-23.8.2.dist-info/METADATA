@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: whl2conda
+Version: 23.8.2
+Summary: build conda packages directly from pure python wheels
+Project-URL: repository, https://github.com/analog-cbarber/whl2conda
+Author-email: Christopher Barber <christopher.barber@analog.com>
+License-Expression: Apache-2.0
+License-File: LICENSE.md
+Keywords: build,conda,wheel
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.8
+Requires-Dist: conda-package-handling>=2.2
+Requires-Dist: platformdirs>=3.10
+Requires-Dist: tomlkit>=0.12
+Requires-Dist: wheel>=0.41
+Description-Content-Type: text/markdown
+
+# whl2conda
+
+Generate conda package from pure python wheel
