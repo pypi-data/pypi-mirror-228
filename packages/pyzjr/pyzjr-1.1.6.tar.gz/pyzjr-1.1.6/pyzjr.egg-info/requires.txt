@@ -1,0 +1,10 @@
+requests
+tqdm
+matplotlib
+mediapipe
+scikit-image
+torch
+tensorboard
+opencv-python
+tqdm
+torchvision
