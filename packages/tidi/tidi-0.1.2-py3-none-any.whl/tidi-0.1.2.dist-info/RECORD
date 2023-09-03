@@ -1,0 +1,9 @@
+tidi/__init__.py,sha256=96qbWUeuI41HFP0OUSkyBwEnVJ5lDq2ARCj4z-_2ctA,854
+tidi/decorator.py,sha256=m8prQnWmzoeaW3z858Pd_zGoHH5zgnjf72UJNWfEFoc,4438
+tidi/parameters.py,sha256=RxDGlgIxcuqzCfxyQpgK-WsKmP_BSNljNp56Kfz-p_M,2566
+tidi/registry.py,sha256=F_nTLaTrAQGyN_OupBYz12lJyrlGDsyMtiE7-dOurnQ,2010
+tidi/resolver.py,sha256=70ZPTqM98Z65XhyksORn2dUdGXn0OfRQdOPbQb4mGLg,2611
+tidi-0.1.2.dist-info/LICENSE,sha256=R6-lXQZEzpE6k30qI3uSTJlQRKAD42-odJFq5Mb2iaM,1070
+tidi-0.1.2.dist-info/METADATA,sha256=5SAAsRRhlIPCo7c4x_fn1Ijor1o6fGfj_IueYFc2Qn8,5047
+tidi-0.1.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+tidi-0.1.2.dist-info/RECORD,,
