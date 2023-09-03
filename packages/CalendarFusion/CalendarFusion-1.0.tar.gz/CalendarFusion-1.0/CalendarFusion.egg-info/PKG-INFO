@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: CalendarFusion
+Version: 1.0
+Summary: A python module to generate fancy markdown table based calendar
+Home-page: http://github.com/deep5050/CalendarFusion
+Author: Dipankar Pal
+Author-email: dipankarpal5050@gmail.com
+License: MIT
+Download-URL: https://github.com/deep5050/CalendarFusion/tarball/master
+Keywords: calendar markdown-table markdown calendar-to-table cli-app
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Communications :: Email :: Filters
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+License-File: LICENSE
+
+UNKNOWN
+
