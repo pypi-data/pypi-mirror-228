@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+wbx_admin_utils.egg-info/PKG-INFO
+wbx_admin_utils.egg-info/SOURCES.txt
+wbx_admin_utils.egg-info/dependency_links.txt
+wbx_admin_utils.egg-info/top_level.txt
