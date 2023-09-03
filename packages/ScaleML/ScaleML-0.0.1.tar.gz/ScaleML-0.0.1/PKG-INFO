@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ScaleML
+Version: 0.0.1
+Summary: ScaleML: A Scalable Machine Learning Platform
+Author-email: "FEDML, Inc." <ch@fedml.ai>
+Project-URL: Homepage, https://scaleml.ai
+Project-URL: Bug Tracker, https://github.com/scaleml/scaleml/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+https://ScaleML.ai
+https://fedml.ai

@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/ScaleML.egg-info/PKG-INFO
+src/ScaleML.egg-info/SOURCES.txt
+src/ScaleML.egg-info/dependency_links.txt
+src/ScaleML.egg-info/top_level.txt
+src/scaleml/__init__.py
+src/scaleml/example.py
