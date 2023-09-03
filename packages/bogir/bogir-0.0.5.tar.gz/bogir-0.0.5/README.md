@@ -1,0 +1,44 @@
+# Bogir
+
+Bogir is little library which handles sending transactions to casino cores.
+
+## Installation
+
+```console
+$ pip install bogir
+```
+
+Natura currently supports only two merchants Mima and EveryMatrix.
+
+Supported transactions: bet, win and rollback.
+
+Example of making transactions:
+
+**example.py**
+
+```python
+
+from bogir import MerchantFactory
+
+"""
+First argument in MerchantFactory is merchant_name currently you have only two options: mima and everymatrix.
+Second argument is schema_type you have four options here:
+
+'decamelize': [{"attrOne": "foo"}, {"attrOne": "bar"}] ->  [{"attr_one": "foo"}, {"attr_one": "bar"}]
+'camelize': [{"attr_one": "foo"}, {"attr_one": "bar"}] -> [{"attrOne": "foo"}, {"attrOne": "bar"}]
+'kebabize': [{'attr_one': 'foo'}, {'attr_one': 'bar'}] -> [{'attr-one': 'foo'}, {'attr-one': 'bar'}]
+'pascalize': [{"attr_one": "foo"}, {"attr_one": "bar"}] -> [{"AttrOne": "foo"}, {"AttrOne": "bar"}]
+"""
+
+player_obj = {
+	"_id":"507f1f77bcf86cd799439011",
+	"bet": 100,
+	"round_id": "test_round",
+	"game_id": "test_game_id"
+}
+
+merchant = MerchantFactory.build_merchant("everymatrix", "camelize")
+merchant.send_bet("https://merchant/bet", 100, player)
+merchant.send_win("https://merchant/win", 100, player)
+merchant.send_rollback("https://merchant/rollback", 100, player)
+```
