@@ -1,0 +1,3 @@
+[console_scripts]
+cloud-function-test = cloud_function_test.cli:main
+
