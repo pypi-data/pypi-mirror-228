@@ -1,0 +1,12 @@
+CHANGELOG.md
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+gofile-api/__init__.py
+gofile-api/api.py
+gofile_api.egg-info/PKG-INFO
+gofile_api.egg-info/SOURCES.txt
+gofile_api.egg-info/dependency_links.txt
+gofile_api.egg-info/requires.txt
+gofile_api.egg-info/top_level.txt
