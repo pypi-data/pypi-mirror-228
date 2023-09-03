@@ -1,0 +1,16 @@
+qcop/__init__.py,sha256=HqBA5g0pHNVq4JPJcX_Ux2zbPAHqOXwjRE1yXPvGCo4,234
+qcop/adapters/__init__.py,sha256=YLd3z2WlD5Ch7IvS54szJPTdnlfCStSi86Om7LhSL2U,317
+qcop/adapters/base.py,sha256=T686eaICPhBpQ4xx-sfLkDcOSQoss5zQCQWzF47scvs,12023
+qcop/adapters/file.py,sha256=9IJWaPXAxEswkSgxZPaN8F11qOU23MhyvvbHuJ58MAY,1487
+qcop/adapters/geometric.py,sha256=3TfelB81WLd-qjDlY3ZVLUixLp_w1ZMvNCBkDQpkdZ8,10303
+qcop/adapters/qcengine.py,sha256=ob5O_o4JamWsxkM-JRjUk6biwrXWmV9Jp-opY4ZBWEY,2111
+qcop/adapters/terachem.py,sha256=etu5gfHo1DlKbiTNnUm-W2HYIUQQjFlmaZjxRmXdQOg,6507
+qcop/adapters/utils.py,sha256=vXMScL2GqA2M415gL0DaOXKtIDaRzcY7ZKu7hkyO7mo,6613
+qcop/adapters/xtb.py,sha256=yT9fMlto6XOre0jfx8Fb-NNxY5jAbdVcMxJRTK9NnBQ,164
+qcop/exceptions.py,sha256=G3D9ZWYqKLVT7dzYlXeG-XTpidFY0AtPPBFfbU_VT9g,3196
+qcop/main.py,sha256=cUL2-9X51qx4MKCOUkpm1jMb_GMvkT6nbQBXuKWg4CQ,3134
+qcop/utils.py,sha256=5pw1Oml1UycGZRcn_jCTxKrrbJY61lImJs0CFBgg2Dc,3295
+qcop-0.4.1.dist-info/LICENSE,sha256=2U6Q_LesW51Jy-va7TZUineBanmxGyBUvxMUTMbgbRk,1079
+qcop-0.4.1.dist-info/METADATA,sha256=Z_3By9DUzx-CTVd5o4-nbROPlgcxM0RUOFzjIUWh8O0,1598
+qcop-0.4.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+qcop-0.4.1.dist-info/RECORD,,
