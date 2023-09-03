@@ -1,0 +1,7 @@
+README
+setup.cfg
+setup.py
+kiaitech.egg-info/PKG-INFO
+kiaitech.egg-info/SOURCES.txt
+kiaitech.egg-info/dependency_links.txt
+kiaitech.egg-info/top_level.txt
