@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: sqlite_fsm_storage
+Version: 2.0.1
+Summary: SQLiteStorage is a very good FSM Storage for Telegram bots.
+Author: EgorBlaze
+Author-email: blazeegor@gmail.com
+License: Apache License, Version 2.0, see LICENSE file
+
+This is FSM Storage for Telegram bots on aiogram.
