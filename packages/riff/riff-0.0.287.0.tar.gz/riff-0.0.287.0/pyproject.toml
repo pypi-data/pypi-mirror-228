@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "riff"
+version = "0.0.287.0"
+description = "Run ruff, but only fail on modified lines."
+authors = ["dorschw <81086590+dorschw@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+exclude = ["riff/release", "riff/tests"]
+
+[tool.poetry.urls]
+"Homepage" = "https://github.com/dorschw/riff"
+"Source" = "https://github.com/dorschw/riff"
+"Bug Tracker" = "https://github.com/dorschw/riff/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ruff = "==0.0.287"
+typer = ">=0.7.0"
+unidiff = "^0.7.5"
+loguru = "^0.7.0"
+gitpython = "^3.1.27"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.3.3"
+black = "^23.7.0"
+pytest = "^7.4.0"
+ipykernel = "^6.25.1"
+toml = "^0.10.2"
+
+[tool.poetry.scripts]
+riff = "riff.riff:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+select = ["ALL"]
+ignore = [
+    "D",
+    "TD",
+    "FBT",
+    "TRY003",
+    "EM102",
+    "COM812",
+    "S101",
+    "INP001",
+    "E501",
+    "W293",
+    "ANN101",
+]
+target-version = "py310"
+line-length = 88
+
+[tool.ruff.flake8-tidy-imports.banned-api]
+"loguru".msg = "use riff.logger instead"
