@@ -1,0 +1,3 @@
+[console_scripts]
+snippetconverter = snippetconverter.snippetconverter:main
+
