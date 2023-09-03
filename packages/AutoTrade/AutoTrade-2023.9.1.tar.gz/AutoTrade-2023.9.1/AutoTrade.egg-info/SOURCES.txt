@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+AutoTrade/__init__.py
+AutoTrade.egg-info/PKG-INFO
+AutoTrade.egg-info/SOURCES.txt
+AutoTrade.egg-info/dependency_links.txt
+AutoTrade.egg-info/top_level.txt
+AutoTrade/audio/__init__.py
+AutoTrade/video/__init__.py
+test/__init__.py
