@@ -1,0 +1,3 @@
+[console_scripts]
+pnai=pnai.__main__:main
+
