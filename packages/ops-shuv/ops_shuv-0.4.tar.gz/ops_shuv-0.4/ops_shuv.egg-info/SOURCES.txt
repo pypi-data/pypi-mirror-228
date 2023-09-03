@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ops_shuv/__init__.py
+ops_shuv/ops.py
+ops_shuv.egg-info/PKG-INFO
+ops_shuv.egg-info/SOURCES.txt
+ops_shuv.egg-info/dependency_links.txt
+ops_shuv.egg-info/top_level.txt
