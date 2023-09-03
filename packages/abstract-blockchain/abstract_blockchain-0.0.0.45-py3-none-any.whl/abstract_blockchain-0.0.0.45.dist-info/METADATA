@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: abstract-blockchain
+Version: 0.0.0.45
+Summary: i need more chainlink
+Home-page: https://github.com/AbstractEndeavors/abstract_essentials/tree/main/abstract_blockchain
+Author: putkoff
+Author-email: partners@abstractendeavors.com
+Keywords: database,automation,API,testing,cryptography
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Financial and Insurance Industry
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: PySimpleGUI (>=4.60.5)
+Requires-Dist: abstract-gui (>=0.0.53.5)
+Requires-Dist: abstract-security (>=0.0.1)
+Requires-Dist: abstract-utilities (>=0.2.0.52)
+Requires-Dist: abstract-webtools (>=0.1.0)
+Requires-Dist: hexbytes (>=0.3.1)
+Requires-Dist: requests (>=2.31.0)
+Requires-Dist: setuptools (>=66.1.1)
+Requires-Dist: web3 (>=6.9.0)
+
