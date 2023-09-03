@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+recipie/__init__.py
+recipie/contextlib.py
+recipie/functools.py
+recipie.egg-info/PKG-INFO
+recipie.egg-info/SOURCES.txt
+recipie.egg-info/dependency_links.txt
+recipie.egg-info/top_level.txt
+tests/test.py
