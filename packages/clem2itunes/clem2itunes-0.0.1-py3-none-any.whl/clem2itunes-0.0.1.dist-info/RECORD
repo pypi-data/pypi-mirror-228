@@ -1,0 +1,10 @@
+clem2itunes/__init__.py,sha256=cczzaCtG4bQo7KbcFnUrENcj_XY0A9D0ECsmWVtGjOo,133
+clem2itunes/create_lib.py,sha256=cTqp8ddGTapdNqzaqMVOgZzoMVcnhavCQt8ClW55Ijo,9108
+clem2itunes/sync_remote.py,sha256=DxB9RVphWrg4aFfjRIgXJzp1we48q8YC4SjfxMoHpAU,2096
+clem2itunes/utils.py,sha256=R0ZamW3gN3WeRjIzzcX-Gh0R6r2NcvYHNfAGlxwYOoo,1908
+dist/index.js,sha256=q4hmFis_sAzYI23uwhaJX-Vjg4yOd4tojtX3R-EGrwY,8791
+clem2itunes-0.0.1.dist-info/LICENSE.txt,sha256=GI5chSxdE9Fi3wLZwiJOtFFJg_3eOkRrEuafX4zDd2Y,1102
+clem2itunes-0.0.1.dist-info/METADATA,sha256=nV4d4zBEZ19D-Bvu2VgMpXfBsnVRtntrfGCgjqwuaBM,675
+clem2itunes-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+clem2itunes-0.0.1.dist-info/entry_points.txt,sha256=npxG2JpTU6ZpbDp9x60BvnswWgXDOLGQi2rQI4TuPaA,111
+clem2itunes-0.0.1.dist-info/RECORD,,

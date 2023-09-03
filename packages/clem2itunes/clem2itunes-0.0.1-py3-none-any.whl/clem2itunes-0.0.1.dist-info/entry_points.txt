@@ -1,0 +1,4 @@
+[console_scripts]
+clem2itunes=clem2itunes:sync_remote_main
+clem2itunes-create-lib=clem2itunes:create_lib_main
+
