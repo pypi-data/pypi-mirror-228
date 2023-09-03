@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: fastruct
+Version: 0.1.1.dev2
+Summary: Structural analysis and design made fast and simple
+Author-email: Matías Glasner <mglasner10@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Matias Glasner
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: source, https://github.com/mglasner/fastruct
+Keywords: python,engineering,structural engineering,seismic,structural design,command line application,cli
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer[all] ==0.9.0
+Requires-Dist: sqlalchemy ==2.0.20
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: Black ; extra == 'dev'
+Requires-Dist: Ruff ; extra == 'dev'
+
+# fastruct
+
+## Structural analysis and design made fast and simple
+
+Command line application (CLI) to analyse and design simple structures.
+
+Written in python.
+
+### Current capabilities
+
+- Rigid foundation analysis: soil stress and lifting percentaje.
+
+## Installation
+
+```bash
+pip install fastruct
+```
+
+or using virtualenv
+
+```bash
+python -m pip install fastruct
+```
+
+## Usage
+
+### Adding new 1x1x1 foundation
+
+```bash
+$ fastruct f add 1 2 3
+fundacion.id=1
+```
+
+### Adding loads (p vx, vy, mx, my) to foundation with ID=1
+
+```bash
+$ fastruct l add 1 1 1 1 1 1
+user_load.id=1
+
+$ fastruct l add 1 2.5 0.1 -0.5 -0.1 0.25
+user_load.id=2
+```
+
+### Computing results for foundation with ID=1
+
+```bash
+$ fastruct f analize 1
+             F001: Lx=1.00 Ly=2.00 Lz=3.00 Depth=3.00
+┏━━━━┳━━━━━━┳━━━━━━┳━━━━━┳━━━━━━┳━━━━━━┳━━━━━┳━━━━━━━━━━━━┳━━━━━━┓
+┃ #  ┃ NAME ┃ P    ┃ Vx  ┃ Vy   ┃ Mx   ┃ My  ┃ σ (ton/m²) ┃ %    ┃
+┡━━━━╇━━━━━━╇━━━━━━╇━━━━━╇━━━━━━╇━━━━━━╇━━━━━╇━━━━━━━━━━━━╇━━━━━━┩
+│ 01 │      │ 16.0 │ 1.0 │ 1.0  │ 4.0  │ 4.0 │ 39.00      │ 83%  │
+├────┼──────┼──────┼─────┼──────┼──────┼─────┼────────────┼──────┤
+│ 02 │      │ 17.5 │ 0.1 │ -0.5 │ -1.6 │ 0.6 │ 18.76      │ 100% │
+└────┴──────┴──────┴─────┴──────┴──────┴─────┴────────────┴──────┘
+```
