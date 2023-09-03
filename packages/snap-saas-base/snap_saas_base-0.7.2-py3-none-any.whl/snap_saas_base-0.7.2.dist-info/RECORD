@@ -1,0 +1,12 @@
+snap_saas_base/__init__.py,sha256=-Fg_MQzmtnFLRlFvwS64EbvP6AwXsfi9JE5UxpoS6A0,30
+snap_saas_base/models/__init__.py,sha256=-Fg_MQzmtnFLRlFvwS64EbvP6AwXsfi9JE5UxpoS6A0,30
+snap_saas_base/models/base_model.py,sha256=xwxavPrV8Dylb1TtIe4nXPLkKsge1k1MKjjbxq-a-RA,2156
+snap_saas_base/models/organization.py,sha256=10SbVeu3IbIskOWh_xpPHw64FuD7yE79Vu0G936mkOI,5745
+snap_saas_base/models/user.py,sha256=91uEYDJj0DUmZOAQDP8XUcW1QYchIa6lHjVqBYiah5k,3252
+snap_saas_base/models/workspace.py,sha256=c-tmrAm9yrZMsF8zzCogcirCWameE8V8bq7pKTYogLs,6639
+snap_saas_base/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snap_saas_base/schemas/__init__.py,sha256=u1RWNonbS6y-CNcTSDNWFHc7oBOwqxm00TD2GHNffaY,38
+snap_saas_base/schemas/user.py,sha256=IZkcxNgHtnQSl26tdatnzi0c4F6Oy6JJcdceREGjq3A,3616
+snap_saas_base-0.7.2.dist-info/METADATA,sha256=bmFc24mu-MXIBT6EPD3vpATuA0AC05jfguYOXqjw1hE,5672
+snap_saas_base-0.7.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+snap_saas_base-0.7.2.dist-info/RECORD,,
