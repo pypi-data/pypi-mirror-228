@@ -1,0 +1,7 @@
+README.md
+setup.py
+QuantEdgeMarketData.egg-info/PKG-INFO
+QuantEdgeMarketData.egg-info/SOURCES.txt
+QuantEdgeMarketData.egg-info/dependency_links.txt
+QuantEdgeMarketData.egg-info/requires.txt
+QuantEdgeMarketData.egg-info/top_level.txt
