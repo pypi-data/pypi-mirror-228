@@ -1,0 +1,9 @@
+chinese_converter/__init__.py,sha256=RQ2_QKYRNbVCnKgA6HCLcuxKdtoukilxWd1juLWioQY,2386
+chinese_converter/bigram.json,sha256=AtjPmmZ-vrbTXGGqaCcDv64yVlCskc2y-mQu6-ZzxjM,681274
+chinese_converter/monogram.json,sha256=dukYtxabE4oBeFyqvV8mKSCxkPRXqXm0v-LoAtSzcfI,12065
+chinese_converter/simplified.txt,sha256=nmTWsYCKrYbuID_KGWgu3-Qbj45WXrnr9rmyxmUriYs,9064
+chinese_converter/traditional.txt,sha256=KWDuOe5ZMqBqrB1_prnfo3grRi5CviUnPWr0RBcWSoU,9064
+chinese_converter-1.1.0.dist-info/LICENSE.txt,sha256=8eSmqHNoeqEQGQRBG_xtW9rayUrEH1ayVeUyZYv609E,1070
+chinese_converter-1.1.0.dist-info/METADATA,sha256=jzWbqbyY5MBe3cFQmJvPzF0Wg1do_4R3yJ1HEA0ADTc,1371
+chinese_converter-1.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+chinese_converter-1.1.0.dist-info/RECORD,,
