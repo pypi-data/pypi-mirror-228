@@ -1,0 +1,10 @@
+rantone/__init__.py,sha256=4ENOpgZOIXdfPx8n3qAkJ99LCijxs1jHFYgMkXgiu7A,311
+rantone/datasets.py,sha256=-wMAEfW99czPJlvaKjMGTGuD9UOf-gvVEQbA47AdX-8,233
+rantone/models.py,sha256=iATIChJ481MXNKX97ahI59ssR9Ci4fBP9-OtFtrZlQw,829
+rantone/utils.py,sha256=RF69ZIIXmiYaVDmsHgsSgdEpP1p8_rosk1mgoB9rOCs,293
+rantone/visuals.py,sha256=hsNQwzKYEykvk7ru4GgdlvaVQiZT5GQMaIS0znOpsVY,2434
+rantone-0.5.dist-info/LICENCE.txt,sha256=AGStAid8Z2a9EcUH9ea61dFeGnolbBP7rnVfSDwM3jA,1065
+rantone-0.5.dist-info/METADATA,sha256=Dy-TgcXrvyWYC0XWJJmJy-KLwgJX25rd9tc5_y3lpHY,349
+rantone-0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+rantone-0.5.dist-info/top_level.txt,sha256=Xy8nnzMCx14ZxzRuYUVeTmkRxrL6Ekayb1A9_un2GnI,8
+rantone-0.5.dist-info/RECORD,,
