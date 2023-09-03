@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: agents-deconstructed
+Version: 0.0.1
+Summary: Utils for running 'agents' where the core logic is not obfuscated.
