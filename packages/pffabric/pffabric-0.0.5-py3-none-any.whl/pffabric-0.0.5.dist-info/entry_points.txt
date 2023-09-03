@@ -1,0 +1,2 @@
+[package_tools]
+lakehouse = fabric.tools.utils:list_package_tools
