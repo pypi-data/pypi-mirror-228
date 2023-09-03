@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+user_context/__init__.py
+user_context/src/__init__.py
+user_context/src/user_context.py
+user_context_local.egg-info/PKG-INFO
+user_context_local.egg-info/SOURCES.txt
+user_context_local.egg-info/dependency_links.txt
+user_context_local.egg-info/top_level.txt
