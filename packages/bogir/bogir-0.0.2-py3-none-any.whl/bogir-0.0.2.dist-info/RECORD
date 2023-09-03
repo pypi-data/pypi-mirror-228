@@ -1,0 +1,12 @@
+bogir/__init__.py,sha256=rONexIlgT8_6ONSsg_gOWx3azsXkJ74W0QA_7XNdj4Y,146
+bogir/base_merchant_manager.py,sha256=kVeNURq7-O50Xj_MFxZAGjBWW91YjofjhlYTwqF6rCc,1534
+bogir/everymatrix_merch_manager.py,sha256=eZRLr4_5JkRYNhYA1XEWIZd-VBGp7_Q6l6hC76w0uiQ,1924
+bogir/merchant_factory.py,sha256=bPmOQTqxfemXRa3Lpug9FBmnV5jVnTmtttvMEwVfhy8,747
+bogir/mima_merch_manager.py,sha256=L-GO06Oonr1S5Nw4T66WOcmh5BYtRhIh9aLI3dRIFXM,1866
+bogir/schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bogir/schemas/everymatrix.py,sha256=VUY3xIG_m9g1nSz8ZcPyVjvhvHW0PZ76DmgMvuZBots,355
+bogir/schemas/mima.py,sha256=ceUKcmDxnFabU2q9qJVRUGaYfh7ocDn8hk-7iMDzkJ0,502
+bogir-0.0.2.dist-info/METADATA,sha256=8lyTxs4wFVo-_5ov32cT0q94sR_iMJoD1A1YBhAhzmE,1613
+bogir-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+bogir-0.0.2.dist-info/top_level.txt,sha256=y-D9AmU6TtV03i24cFc247jb5wU2-TSg4PpQ98MceGI,6
+bogir-0.0.2.dist-info/RECORD,,
