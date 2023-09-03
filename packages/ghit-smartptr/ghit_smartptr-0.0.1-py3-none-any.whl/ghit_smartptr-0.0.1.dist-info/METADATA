@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ghit-smartptr
+Version: 0.0.1
+Summary: ghit
+Home-page: https://github.com/0x656b694d/ghit
+Author: Michaël Petrov
+Author-email: smartptr@gmail.com
+Project-URL: Bug Tracker, https://github.com/0x656b694d/ghit/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: <4,>=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygit2
+Provides-Extra: testing
+Requires-Dist: pygit2 ; extra == 'testing'
+
+`ghit` Command Line Utility
+===========================
+
+:warning: Work in progress.
+
+Features
+--------
+
+* Stack display with `ghit ls` or `ghit -v ls`
+  * branch tree
+  * base state
+  * PR state
+  * unresolved PR comments
+* Stack navigation: `ghit up`, `ghit down`, `ghit top`, `ghit bottom`
+* Stack manipulation: `ghit branch create <name>`
+* Stack publication with `ghit stack update`:
+  * push branches upstream
+  * create or update GitHub PRs
+  * create or update dependencies comment
+
+Installation
+------------
+
+```sh
+pip install smartptr-ghit
+```
