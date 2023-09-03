@@ -1,0 +1,7 @@
+winrt/_winrt_windows_phone_devices_notification.cp39-win32.pyd,sha256=A3XW-EARHgvuEpCvEzL5L9NVGAUWziNJau8KkuyCEB0,33792
+winrt/_winrt_windows_phone_devices_notification.pyi,sha256=NK7yPe5GzXM3bkLFm9lO0ghGiucLnFxQACNrA4dgYJs,680
+winrt/windows/phone/devices/notification/__init__.py,sha256=ZQhdJa6Z5I1Er-Kf9anQtDelBttGNQMXH3KEaqhkna8,283
+winrt_Windows.Phone.Devices.Notification-2.0.0b1.dist-info/METADATA,sha256=MahlYTN3cA9-eB-GwMi-YpTdqWNhEL3cGkasUrdknT0,1044
+winrt_Windows.Phone.Devices.Notification-2.0.0b1.dist-info/WHEEL,sha256=7ZXx6xbfqHPd62Znb0xrpRpdgnbHbS6AovUcQnLmei8,96
+winrt_Windows.Phone.Devices.Notification-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Phone.Devices.Notification-2.0.0b1.dist-info/RECORD,,
