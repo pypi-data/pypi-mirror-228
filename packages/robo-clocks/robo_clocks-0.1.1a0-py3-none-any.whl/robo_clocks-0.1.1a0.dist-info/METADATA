@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: robo_clocks
+Version: 0.1.1a0
+Summary: Useful functions for mobile robotics
+Keywords: robotics,mobile robotics,clocks,timing,timestamps,utilities,functions,toolkit
+Author: Mike Knerr
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: robo-base >= 0.1.2
+Project-URL: homepage, https://github.com/mkner/robo-clocks/
+
+**robo-clocks** 
+
+
+Local, system and world clocks and related timing and timestamp\
+functions for mobile robotics.
+
+
+
+Installation:
+
+$ **pip** install robo-clocks
+
+
+For documentation see https://robo-clocks.readthedocs.io/en/latest/
+
+
+
+
+
+
+
+
