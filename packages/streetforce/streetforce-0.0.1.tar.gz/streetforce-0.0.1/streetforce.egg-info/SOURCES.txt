@@ -1,0 +1,7 @@
+README
+setup.cfg
+setup.py
+streetforce.egg-info/PKG-INFO
+streetforce.egg-info/SOURCES.txt
+streetforce.egg-info/dependency_links.txt
+streetforce.egg-info/top_level.txt
