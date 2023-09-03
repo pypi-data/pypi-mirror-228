@@ -1,0 +1,7 @@
+winrt/_winrt_windows_storage_fileproperties.cp39-win_arm64.pyd,sha256=v62NGAnJJ8Nmn3TYzbjeAdJkihencup5Uqv4-guqI-g,468480
+winrt/_winrt_windows_storage_fileproperties.pyi,sha256=egM1jeBciRHmsqm1qwxoFGh7kna0SGXA6M9nJpDGuO0,13885
+winrt/windows/storage/fileproperties/__init__.py,sha256=VkYbmTWPq9LHh6QCjbYnvIL3s_7nwRLCmCdbyjo1VgI,2163
+winrt_Windows.Storage.FileProperties-2.0.0b1.dist-info/METADATA,sha256=nzSUGZ9bdwVN-A3vNHdG9LLpJ7WxNPK4S4iNslUuA6M,1363
+winrt_Windows.Storage.FileProperties-2.0.0b1.dist-info/WHEEL,sha256=PrHTG687fNsk7jS4Y-tLXN-3gpnf3wReNnzEPkeWHK0,100
+winrt_Windows.Storage.FileProperties-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Storage.FileProperties-2.0.0b1.dist-info/RECORD,,
