@@ -1,0 +1,11 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/Paginator.py
+src/__init__.py
+src/Markinator.egg-info/PKG-INFO
+src/Markinator.egg-info/SOURCES.txt
+src/Markinator.egg-info/dependency_links.txt
+src/Markinator.egg-info/top_level.txt
