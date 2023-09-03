@@ -1,0 +1,50 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Enheten \u00e4r redan konfigurerad"
+        },
+        "error": {
+            "cannot_connect": "Det gick inte att ansluta."
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "ip_address": "IP-adress"
+                }
+            }
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "currently_obstructed": {
+                "name": "Blockerad"
+            },
+            "heating": {
+                "name": "Uppv\u00e4rmning"
+            },
+            "motors_stuck": {
+                "name": "Motorer har fastnat"
+            },
+            "power_save_idle": {
+                "name": "Inaktiv"
+            },
+            "roaming_mode": {
+                "name": "Roamingl\u00e4ge"
+            },
+            "slow_ethernet": {
+                "name": "Ethernethastigheter"
+            },
+            "unexpected_location": {
+                "name": "Ov\u00e4ntad plats"
+            }
+        },
+        "sensor": {
+            "azimuth": {
+                "name": "Azimut"
+            },
+            "elevation": {
+                "name": "H\u00f6jd"
+            }
+        }
+    }
+}

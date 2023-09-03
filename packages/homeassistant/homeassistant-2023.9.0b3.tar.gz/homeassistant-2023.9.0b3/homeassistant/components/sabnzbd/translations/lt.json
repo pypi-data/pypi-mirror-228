@@ -1,0 +1,18 @@
+{
+    "entity": {
+        "sensor": {
+            "speed": {
+                "name": "Greitis"
+            },
+            "status": {
+                "name": "B\u016bsena"
+            },
+            "total_disk_space": {
+                "name": "Bendra vieta diske"
+            },
+            "weekly_total": {
+                "name": "I\u0161 viso per savait\u0119"
+            }
+        }
+    }
+}

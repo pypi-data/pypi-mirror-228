@@ -1,0 +1,17 @@
+{
+    "config": {
+        "step": {
+            "sensor": {
+                "data": {
+                    "device_class": "\u012erenginio klas\u0117"
+                }
+            },
+            "user": {
+                "menu_options": {
+                    "sensor": "Jutiklio \u0161ablonas"
+                },
+                "title": "Pagalbininko \u0161ablonas"
+            }
+        }
+    }
+}
