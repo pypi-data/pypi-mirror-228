@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: clem2itunes
+Version: 0.0.1
+Summary: Historically-named project for creating a music library for your devices.
+Home-page: https://github.com/Tatsh/clem2itunes
+License: MIT
+Author: Andrew Udvare
+Author-email: audvare@gmail.com
+Requires-Python: >=3.10,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# Synchronize ratings from Clementine/Strawberry to iTunes
+
+To be written.
+
