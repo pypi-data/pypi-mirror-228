@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cloud-bunny
+Version: 0.12
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: open3d
+Requires-Dist: pye57
+Requires-Dist: pytest
+Requires-Dist: warp-lang
+
