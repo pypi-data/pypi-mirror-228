@@ -1,0 +1,5 @@
+myst-parser
+sphinx
+
+[dev]
+pytest-cov
