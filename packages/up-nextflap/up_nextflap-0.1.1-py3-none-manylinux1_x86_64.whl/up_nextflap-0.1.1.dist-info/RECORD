@@ -1,0 +1,9 @@
+up_nextflap/__init__.py,sha256=spTrKmzO0uPHOFDGmrSfWkPYraiavMUHC4_UzGpfplI,38
+up_nextflap/libz3.so,sha256=E_u_H1Yp1Fez5p9xIWnWdEoMRYMrpEkv4CSL-aR-uOg,28845192
+up_nextflap/nextflap.so,sha256=NARRGQrWhiLFPQ4Vc8bWF6AujrWrgrTM5kcgsjn3XKY,1881664
+up_nextflap/up_nextflap.py,sha256=wsKyj5gl-nB9QXzISdbkDpbG7iDqwPqjvuANUVmNm5s,47797
+up_nextflap-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+up_nextflap-0.1.1.dist-info/METADATA,sha256=w3kfPwK8GD_jgONxgiqYW2DGrioypb3tXFsi3xZim1c,448
+up_nextflap-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+up_nextflap-0.1.1.dist-info/top_level.txt,sha256=NoKr9zOQnstb7GiSuw9ZVedtGwHBPC6sf6Cyvhvwkso,12
+up_nextflap-0.1.1.dist-info/RECORD,,
