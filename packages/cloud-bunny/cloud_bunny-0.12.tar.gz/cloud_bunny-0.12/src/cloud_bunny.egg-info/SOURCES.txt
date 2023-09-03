@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/cloud_bunny.egg-info/PKG-INFO
+src/cloud_bunny.egg-info/SOURCES.txt
+src/cloud_bunny.egg-info/dependency_links.txt
+src/cloud_bunny.egg-info/requires.txt
+src/cloud_bunny.egg-info/top_level.txt
