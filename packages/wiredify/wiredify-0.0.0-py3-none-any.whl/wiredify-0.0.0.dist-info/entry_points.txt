@@ -1,0 +1,3 @@
+[console_scripts]
+wiredify=wiredify.main:main
+
