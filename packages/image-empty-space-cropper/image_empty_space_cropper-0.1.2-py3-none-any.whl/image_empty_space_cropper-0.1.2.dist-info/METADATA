@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: image-empty-space-cropper
+Version: 0.1.2
+Summary: contact me at @zalexit
+Author: Alexander Zakharov
+Author-email: zah4job@gmail.com
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Pillow (>=10.0.0,<11.0.0)
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# Image Empty Space Cropper
+
+Remove empty space from image
