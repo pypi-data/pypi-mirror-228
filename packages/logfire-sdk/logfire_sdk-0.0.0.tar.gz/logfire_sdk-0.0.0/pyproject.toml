@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "logfire-sdk"
+version = "0.0.0"
+description = "Use the `logfire` package instead."
+authors = [{ name = "Pydantic Team", email = "hello@pydantic.dev" }]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Topic :: Internet",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://pypi.org/project/logfire/"

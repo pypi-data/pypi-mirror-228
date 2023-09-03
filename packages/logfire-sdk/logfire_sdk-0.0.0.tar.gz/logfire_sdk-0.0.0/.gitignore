@@ -1,0 +1,26 @@
+/.vscode/
+
+.venv
+/venv/
+/env*/
+/.cache/
+/sandbox/
+*.py[cod]
+
+# Pants workspace files
+/.pants.*
+/dist/
+/.pids
+
+# ignore coverage files
+.coverage
+
+.env
+
+/.hypothesis/
+
+# building logfire package wheels
+/src/packages/logfire/logfire.egg-info/
+/src/services/logfire-backend/packages/
+
+__pycache__/
