@@ -1,0 +1,16 @@
+LICENSE
+README.md
+requirements.txt
+setup.py
+kickbot/__init__.py
+kickbot/constants.py
+kickbot/kick_bot.py
+kickbot/kick_client.py
+kickbot/kick_helper.py
+kickbot/kick_message.py
+kickbot/selenium_help.py
+kickbot.egg-info/PKG-INFO
+kickbot.egg-info/SOURCES.txt
+kickbot.egg-info/dependency_links.txt
+kickbot.egg-info/requires.txt
+kickbot.egg-info/top_level.txt
