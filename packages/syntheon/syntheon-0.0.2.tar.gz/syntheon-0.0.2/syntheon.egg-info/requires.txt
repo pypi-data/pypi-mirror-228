@@ -1,0 +1,12 @@
+librosa
+tensorflow
+torch==1.12.1
+torchvision==0.13.1
+mido
+crepe==0.0.12
+hmmlearn==0.2.7
+nnAudio==0.3.1
+numpy
+bitstruct
+torchcrepe
+torchcrepeV2
