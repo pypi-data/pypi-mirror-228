@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+speedfile/__init__.py
+speedfile.egg-info/PKG-INFO
+speedfile.egg-info/SOURCES.txt
+speedfile.egg-info/dependency_links.txt
+speedfile.egg-info/requires.txt
+speedfile.egg-info/top_level.txt
