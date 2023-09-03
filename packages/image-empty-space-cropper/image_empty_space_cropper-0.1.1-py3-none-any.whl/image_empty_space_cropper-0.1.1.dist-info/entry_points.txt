@@ -1,0 +1,3 @@
+[console_scripts]
+iesc=image_empty_space_cropper.main:typer_main
+
