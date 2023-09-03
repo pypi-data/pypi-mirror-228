@@ -1,0 +1,7 @@
+winrt/_winrt_windows_security_authentication_identity.cp310-win32.pyd,sha256=lSLOZZIj1jUz-cEwVV19tS8yiE7W58Ah3RnWSESyE7g,78336
+winrt/_winrt_windows_security_authentication_identity.pyi,sha256=BmBIIJIe1YUaB0xH9OXJIxJBQUeeh0qeVxAVOE3w7G0,1375
+winrt/windows/security/authentication/identity/__init__.py,sha256=J4D8UPs3oFvjJ4cJqKlqiT9cZP3mCS2Lp4jotXdNLWc,553
+winrt_Windows.Security.Authentication.Identity-2.0.0b1.dist-info/METADATA,sha256=sM8XXpnxUEEEdjCmpJR1UVyY7QmqGIDZkdqIOlRSubo,1158
+winrt_Windows.Security.Authentication.Identity-2.0.0b1.dist-info/WHEEL,sha256=Q1-Z25IsdIUCF8Kl3jXp4n4gR3PTk0L0l5G6bg-dz_s,98
+winrt_Windows.Security.Authentication.Identity-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Security.Authentication.Identity-2.0.0b1.dist-info/RECORD,,
