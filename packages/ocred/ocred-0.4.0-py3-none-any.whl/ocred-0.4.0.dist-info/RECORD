@@ -1,0 +1,10 @@
+ocred/__init__.py,sha256=huSsLuVa5hpNRVDphIt255YasxNoatNwtOUBRungzhw,183
+ocred/ocr.py,sha256=0jSrjYpjJDG_OAjQMguV8u0bYTQsM47URQoFL5ZtIsI,10153
+ocred/preprocessing.py,sha256=p0N8HImAGVmhyUNrzd-UJy3Aali0K-mH6eJGYUUQhFI,8143
+ocred/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ocred/version.py,sha256=QiCQVGOicQZY3DBr4tYPU9egzT1VgzOJGfLt9Q26uyU,160
+ocred/version.pyi,sha256=j5kbzfm6lOn8BzASXWjGIA1yT0OlHTWqlbyZ8Si_o0E,118
+ocred-0.4.0.dist-info/METADATA,sha256=pljF_T5_E1WjHFR2sz5Yz2IBIWUOtRWBlGs9i_ijbgQ,14833
+ocred-0.4.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+ocred-0.4.0.dist-info/licenses/LICENSE,sha256=PRuKfPkVSfQoA6KS_lg2JkaQBZrzeXvsrUv0VUB4RfU,1061
+ocred-0.4.0.dist-info/RECORD,,
