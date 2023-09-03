@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: infograph-nuuuwan
+Version: 1.0.4
+Summary: Simple extensions to the core python libraries.
+Home-page: https://github.com/nuuuwan/infograph
+Author: Nuwan I. Senaratna
+Author-email: nuuuwan@gmail.com
+Project-URL: Bug Tracker, https://github.com/nuuuwan/infograph/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: elections-lk-nuuuwan
+Requires-Dist: geopandas
+Requires-Dist: gig-nuuuwan
+Requires-Dist: matplotlib
+Requires-Dist: utils-nuuuwan
+Requires-Dist: squarify
+Requires-Dist: deep-translator
+
