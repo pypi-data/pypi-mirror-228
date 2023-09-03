@@ -1,0 +1,3 @@
+[console_scripts]
+i_hate_papers=i_hate_papers.main:main
+
