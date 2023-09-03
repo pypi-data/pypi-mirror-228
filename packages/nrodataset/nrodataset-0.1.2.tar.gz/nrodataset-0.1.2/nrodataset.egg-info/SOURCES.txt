@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+nrodataset/__init__.py
+nrodataset/__version__.py
+nrodataset/core.py
+nrodataset.egg-info/PKG-INFO
+nrodataset.egg-info/SOURCES.txt
+nrodataset.egg-info/dependency_links.txt
+nrodataset.egg-info/requires.txt
+nrodataset.egg-info/top_level.txt
+nrodataset/networks/er_100.mat
+nrodataset/networks/qs_100.mat
+nrodataset/networks/sf_100.mat
+nrodataset/networks/swnw_100.mat
