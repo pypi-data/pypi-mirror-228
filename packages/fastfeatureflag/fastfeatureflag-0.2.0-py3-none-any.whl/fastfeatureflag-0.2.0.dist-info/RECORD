@@ -1,0 +1,10 @@
+fastfeatureflag/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastfeatureflag/__version__.py,sha256=o3JYCxuT1dGodLz8EpQxeVSyfKw7SkGtX9xhDdmwvCU,50
+fastfeatureflag/config.py,sha256=0QfrDFG1UMsvI2pBSRs8FXL4ZUplH390Sysnjo2hV-E,773
+fastfeatureflag/errors.py,sha256=rLbK9Lqg3pGF4VSmNTKBaML9I8NL4j-G2pMtPaEigWM,288
+fastfeatureflag/feature_flag.py,sha256=k4Mk3nn5YG7FMSUcJ2temMxzGrtCLR2EjW0DVFL9FUk,8905
+fastfeatureflag/feature_schema.py,sha256=12a2OBTDV4VJXvDnh4PonJv-T3a7ctxC1XLQzoZNDY8,96
+fastfeatureflag-0.2.0.dist-info/LICENSE,sha256=71g6v1KM2SnFajA42GFZgl0NR99OEwgV6Z7L9GcX4ko,1093
+fastfeatureflag-0.2.0.dist-info/METADATA,sha256=0P9wxRUbhe0m1dcOVnt3KuDTXC6FZ3fkZAnJbDsT6X0,2090
+fastfeatureflag-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+fastfeatureflag-0.2.0.dist-info/RECORD,,
