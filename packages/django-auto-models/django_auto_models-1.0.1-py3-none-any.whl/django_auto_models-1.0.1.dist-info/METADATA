@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: django-auto-models
+Version: 1.0.1
+Summary: Models with auto input fields for Django
+Project-URL: Homepage, https://github.com/taogya/DjangoAutoModels
+Project-URL: Bug Tracker, https://github.com/taogya/DjangoAutoModels/issues
+Author-email: Taogya <132679709+taogya@users.noreply.github.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2023, Taogya
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+[en](README_en.md)
+
+# DjangoAutoModels
+自動入力フィールドを備えたDjango用のAbstract Model群です。  
+適応させたいモデルに継承させて使用します。
+
+## 導入
+1. ライブラリをインストールする。
+    ```sh
+    pip install django-auto-models
+     or
+    pip install git+https://github.com/taogya/DjangoAutoModels.git
+    ```
+1. `settings.py`に以下を追加する。
+    ```python
+    INSTALLED_APPS = [
+        :
+        'django_auto_models'
+    ]
+    ```
+1. 継承したいModelを継承する。
+    ```python
+    # 例) 作成日時/更新日時を自動生成したい場合
+    from django_auto_models.models import AutoTimestampModel
+
+    class YourModel(AutoTimestampModel):
+        :
+    ```
+
+    以下のように複数継承することもできます。
+    ```python
+    # 例) IDをBigAutoFieldと明示、作成日時/更新日時を自動生成したい場合
+    from django_auto_models.models import AutoTimestampModel, AutoIDModel
+
+    class YourModel(AutoIDModel, AutoTimestampModel):
+        :
+    ```
+1. migrateを行う。
+    ```python
+    python manage.py makemigrations
+    python manage.py migrate
+    ```
+
+## Models
+|カテゴリ|モデル名|カラム|フィールド|説明|
+|---|---|---|---|---|
+|datetime|AutoCreatedAtModel|created_at|DateTimeField|createした日時を格納|
+|^       |AutoUpdateAtModel |updated_at|DateTimeField|create/updateした日時を格納|
+|^       |AutoTimestampModel|created_at|DateTimeField|createした日時を格納|
+|^       |^                 |updated_at|DateTimeField|create/updateした日時を格納|
+|id|AutoIDModel   |id|AutoField    |integer の連番を格納<br>1 to 2,147,483,647<br>明示的にidがAutoFieldであると宣言|
+|^ |AutoBigIDModel|id|AutoBigField |integer の連番を格納<br>1 to 9,223,372,036,854,775,807<br>明示的にidがAutoBigFieldであると宣言|
+|^ |AutoUUIDModel |id|UUIDField    |ランダム128bit UUIDを格納<br>3×10^17回生成して1%の確率で重複の可能性|
+
+## 補足
+なし

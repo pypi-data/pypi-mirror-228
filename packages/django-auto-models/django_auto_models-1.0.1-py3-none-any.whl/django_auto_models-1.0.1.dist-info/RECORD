@@ -1,0 +1,10 @@
+django_auto_models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_auto_models/locale/ja/LC_MESSAGES/django.mo,sha256=i6wDwHy1V6CmOJWrxrv8T8pEkCeGSXlDDOMqeHCL6I4,517
+django_auto_models/locale/ja/LC_MESSAGES/django.po,sha256=Rq9aKPSHMWdIlbDwGv2mkmcasSBbBHAmzwTqusMZnbw,859
+django_auto_models/models/__init__.py,sha256=OkIZUoBowhgqdA6pP6NsCGLlZT3hpKU3mtsPGV71B24,247
+django_auto_models/models/datetime.py,sha256=VwrCoxInoFDZJ4fGeg8GARSkkMorcjQt8ahyn4lBLv4,903
+django_auto_models/models/id.py,sha256=Owhz75TqzdpZFE1W24sPMeyFstxxh4wTzM7o58CwiAM,1078
+django_auto_models-1.0.1.dist-info/METADATA,sha256=vo5g5BzykRhNCPBI9RL62K957hpAFB5mvcSgvLqSiDs,4273
+django_auto_models-1.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+django_auto_models-1.0.1.dist-info/licenses/LICENSE,sha256=AmrxqYnm2ty4Hhkel0x0PK2_xN4RX92ZyBnNE0NhoUo,1493
+django_auto_models-1.0.1.dist-info/RECORD,,
