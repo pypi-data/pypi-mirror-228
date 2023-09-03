@@ -1,0 +1,8 @@
+setup.py
+aurask_ai.egg-info/PKG-INFO
+aurask_ai.egg-info/SOURCES.txt
+aurask_ai.egg-info/dependency_links.txt
+aurask_ai.egg-info/requires.txt
+aurask_ai.egg-info/top_level.txt
+src/__init__.py
+src/aurai.py
