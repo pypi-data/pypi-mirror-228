@@ -1,0 +1,9 @@
+mongoclass/__init__.py,sha256=b5CVLh8j79zmeE2p15TmE0i3K6jr7nKkxcT8jBqmWL8,57
+mongoclass/cache.py,sha256=tfMXqZRaFQyDjp32ndY-jImpOWXd6lbxTXFfISOQ_AA,5251
+mongoclass/client.py,sha256=-2pSsmbVx3LC8UAexz1rd04SABSAc3M4u88ata2GVys,26173
+mongoclass/cursor.py,sha256=g3wBGYNYEzc0PhfENyotHfeRN_PtMPGiqbsoa7-QrIQ,1945
+python_mongoclass-0.1.4.dist-info/LICENSE,sha256=x5xmikdOgX3heAIKbpBfEbrHkBwCEVPEi1_EgQE2shY,1072
+python_mongoclass-0.1.4.dist-info/METADATA,sha256=gqTkDxIFBRAECfCqiOfYouUyJZ50kgkTJ8FU7opLwjc,633
+python_mongoclass-0.1.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+python_mongoclass-0.1.4.dist-info/top_level.txt,sha256=MwBmC6Js7OR09_9s-c-kdMyPLbS-DDBbWkchccMjxFQ,11
+python_mongoclass-0.1.4.dist-info/RECORD,,
