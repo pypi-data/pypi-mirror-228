@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: python-mongoclass
+Version: 0.1.13
+Summary: mongoclass
+License: MIT
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: dnspython <3,>=2.2.1
+Requires-Dist: mongita <2,>=1.1.1
+Requires-Dist: pymongo <5,>=4.5.0
+Provides-Extra: dev
+Requires-Dist: icecream ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: ipython-suggestions ; extra == 'dev'
+Requires-Dist: restmagic ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pyflyby ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: coverage[toml] <7,>=6 ; extra == 'tests'
+Requires-Dist: tox <5,>=4.6.4 ; extra == 'tests'
+
