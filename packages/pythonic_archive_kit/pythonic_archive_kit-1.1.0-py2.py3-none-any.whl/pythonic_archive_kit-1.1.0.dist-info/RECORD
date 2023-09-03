@@ -1,0 +1,10 @@
+pythonic_archive_kit/__init__.py,sha256=tLkvCI6amjpFDwd_ztQvEZmc75H8Z6bcB1MFepayESA,447
+pythonic_archive_kit/base.py,sha256=9d_1uxQ4XNAMS0EN8K2xYwY7C5g6MNbh3QvZz0G8-DY,6012
+pythonic_archive_kit/magic.py,sha256=ej-HcjfUZQMMD2G-p4vCcseV1H3_NzuNenjZsTCEkS4,895
+pythonic_archive_kit/pak.py,sha256=yS-ynH4DYvuzPbd89wCgBt0hFxAh9VsBxdGgcqlbKDY,1982
+pythonic_archive_kit/typing.py,sha256=HVWIY_egezH7cKdDUVTlZnGy_p-77vDT-S2MteunnXQ,482
+pythonic_archive_kit/utils.py,sha256=J56cCB4Z3wRsoTrOppxGID9q_eW7Wt9CcbMk7DsbUCw,68
+pythonic_archive_kit-1.1.0.dist-info/LICENSE,sha256=0SAgqCl8RI6Vm7Rv5YC6CPyLA2MXedQM9tq17WMXl-o,33041
+pythonic_archive_kit-1.1.0.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+pythonic_archive_kit-1.1.0.dist-info/METADATA,sha256=kC-Oz94_pGDn8JsBRUnRq6PoX9YTOB6ieYWYCP9gZcQ,4268
+pythonic_archive_kit-1.1.0.dist-info/RECORD,,
