@@ -1,0 +1,6 @@
+setup.py
+aurask_aisk.egg-info/PKG-INFO
+aurask_aisk.egg-info/SOURCES.txt
+aurask_aisk.egg-info/dependency_links.txt
+aurask_aisk.egg-info/requires.txt
+aurask_aisk.egg-info/top_level.txt
