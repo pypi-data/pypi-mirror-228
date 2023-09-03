@@ -1,0 +1,5 @@
+dist
+simple_twitch_chat_listener.egg-info
+venv
+simple_twitch_chat_listener/_version.py
+.vscode
