@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: transcode
+Version: 1.2.0
+Summary: Packing transcoder model
+Author-email: Ahmed Heakl <ahmed.heakl@ejust.edu.eg>
+Project-URL: repository, https://github.com/ahmedheakl/transcoder-package
+Keywords: transcoder,XLM,natural language,facebook,META,pytorch
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: fastBPE
+Requires-Dist: apex
+Requires-Dist: libclang ==10.0.1
+Requires-Dist: submitit
+Requires-Dist: six
+Requires-Dist: sacrebleu ==1.2.11
+Requires-Dist: googledrivedownloader
+Provides-Extra: build
+Requires-Dist: build ; extra == 'build'
+Requires-Dist: twine ; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+
+# TransCoder Package
+This is a library implementation of the infamous Transcoder model [Unsupervised Translation of Programming Languages](https://arxiv.org/pdf/2006.03511.pdf)
+![Model](https://dl.fbaipublicfiles.com/transcoder/TransCoder_Schema.jpg)
+
+## Usage
+### Installation
+Create a virtual environment and activate it:
+```bash
+virtualenv venv --python=python3.8
+source venv/bin/activate
+```
+Install library
+```bash
+pip install transcode
+```
+
+If your `libclang.so` is not in `/usr/lib/llvm-10/lib/`, replace the path to `libclang.so` to the correct path in `clang.cindex.Config.set_library_path('path_to_libclang')` in `code_tokenizer.py` 
+
+
+## Translate
+Just provide the target and source langauges and the code, and we handle the rest :wink:
+```bash
+translate --src_lang python --tgt_lang java < input_code.cpp
+```
+
+## Train or Evaluate
+To train or evaluate the model, please refer to the [original repository](https://github.com/facebookresearch/TransCoder).
+
