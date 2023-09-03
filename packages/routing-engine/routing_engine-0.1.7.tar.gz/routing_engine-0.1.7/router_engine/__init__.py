@@ -1,0 +1,1 @@
+from .router import routerClass as routerObject
