@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ytty/__init__.py
+ytty/ytty.py
+ytty.egg-info/PKG-INFO
+ytty.egg-info/SOURCES.txt
+ytty.egg-info/dependency_links.txt
+ytty.egg-info/requires.txt
+ytty.egg-info/top_level.txt

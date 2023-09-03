@@ -1,0 +1,6 @@
+vidspinner
+pyperclip
+undetected-chromedriver
+requests
+keyboard
+pythread
