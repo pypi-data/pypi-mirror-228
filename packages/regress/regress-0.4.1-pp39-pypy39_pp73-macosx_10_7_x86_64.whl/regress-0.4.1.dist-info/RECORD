@@ -1,0 +1,8 @@
+regress-0.4.1.dist-info/METADATA,sha256=JaNjJCU56LaR3Bv7DWUsmsrhqamtKTn08Zd0TFnO1IU,2109
+regress-0.4.1.dist-info/WHEEL,sha256=Cdnsl7jORQ6Nldgv62sUms2BHWQ2_0BWH6qjN_e72_0,110
+regress-0.4.1.dist-info/license_files/LICENSE,sha256=MU5Okb47qpPA-0vMyeTpfNZD64ObBlr5IXgsIXX-mQk,1057
+regress/__init__.py,sha256=wFCBf-PinEt94zQBb74Xa1Td262ScujdrWtA_NVORIM,111
+regress/__init__.pyi,sha256=9NnS0L_f57YRzgFtbzr-dTZs0XP1aCbVB__TNTospys,394
+regress/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+regress/regress.pypy39-pp73-darwin.so,sha256=E8OSW4LUrB92iNXTYLqyAam9MbrJZbfuYjaJejKfLBU,1091816
+regress-0.4.1.dist-info/RECORD,,
