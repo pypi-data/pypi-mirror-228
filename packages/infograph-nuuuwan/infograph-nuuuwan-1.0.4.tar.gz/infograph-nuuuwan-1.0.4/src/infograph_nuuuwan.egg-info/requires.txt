@@ -1,0 +1,7 @@
+elections_lk-nuuuwan
+geopandas
+gig-nuuuwan
+matplotlib
+utils-nuuuwan
+squarify
+deep_translator
