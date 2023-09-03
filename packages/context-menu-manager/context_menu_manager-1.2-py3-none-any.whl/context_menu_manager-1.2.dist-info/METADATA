@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: context-menu-manager
+Version: 1.2
+License: MIT
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.11
+
