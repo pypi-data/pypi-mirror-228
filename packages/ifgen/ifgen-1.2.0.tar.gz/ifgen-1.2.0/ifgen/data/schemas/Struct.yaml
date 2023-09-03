@@ -1,0 +1,13 @@
+---
+includes:
+  - has_description.yaml
+  - has_namespace.yaml
+  - has_json_indent.yaml
+
+required: [fields]
+
+properties:
+  fields:
+    type: array
+    items:
+      $ref: package://ifgen/schemas/StructField.yaml
