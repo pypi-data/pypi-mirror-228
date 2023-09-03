@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: SimpleTimedLogger
+Version: 2.0.2
+Summary: Simple Timed logger, it write logs to terminal. Can write elapsed time between logs
+Project-URL: Homepage, https://gitlab.com/Almex/simpletimedlogger
+Project-URL: Bug Tracker, https://gitlab.com/Almex/simpletimedlogger/-/issues
+Author-email: Karolis Andriunas <almex.developer@gmail.com>
+License-File: LICENSE
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+**Simple Timed Logger**
+
+It's logging package for very basic log messages.
+
+It has 5 levels of logs (DEBUG, INFO, WARNING, ERROR, CRITICAL).
+By using unique keys, it is possible to measure elapsed time between 2 log messages
+
+Logging is done by these methods:
+- log()
+- debug()
+- info()
+- warning()
+- error()
+- critical()
+
+log() method can be set to log message on any level.
+
+All logging methods take these keyword arguments:
+- timed - (True/False) Is log message timed
+- key - Unique key for timed log message. Use this key to stop logging and print out elapsed time.
+
+If key is not provided for timed logging, it will be automatically generated.
+To stop timed logging, use stop_timed_log() method. By passing key of log timer you want to stop. If no key is given, it will stop last started timed log.
+
+using basic_config() it is possible to configure what lowest level of log messages will be printed to terminal
+
+Exaple of usage:
+
+```
+from simpleTimedLogger import SimpleTimedLogger # Import logger to file
+
+logger = SimpleTimedLogger.Logger() # Create instance of a logger class
+logger.basic_config(min_level_of_logging=logger.DEBUG) # Set minimum level of messages to be printed in terminal
+
+logger.debug("This prints message to terminal as debug message")
+
+logger.start_timed_log("This starts timed log and prints message to terminal")
+logger.end_timed_log("This ends timed log and prints message to terminal and shows elapsed time")
+
+logger.start_timed_log("You can also provide your own key and message level", level=logger.ERROR, key='function name')
+logger.end_timed_log('You can also end timed log based on key', key='function name')
+
+logger.log(msg='You can start timed logs this way too', timed=True, level=logger.INFO)
+logger.end_timed_log('When key not provided, it ends last started timed log')
+```
