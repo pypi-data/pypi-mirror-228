@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pythereum"
+version = "1.0.5"
+description = "A lightweight Ethereum JSON RPC library written in python"
+authors = ["gabedonnan <47415809+gabedonnan@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+websockets = "^11.0.3"
+dataclasses-json = "^0.5.14"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
