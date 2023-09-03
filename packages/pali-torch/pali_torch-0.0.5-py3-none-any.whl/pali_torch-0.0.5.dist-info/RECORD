@@ -1,0 +1,10 @@
+pali/__init__.py,sha256=ydKkC4VX-QZ640wBo2GDaFCBKdWISq__tWb2goTv35w,50
+pali/attend.py,sha256=-G2TeLetNtinjEp-sm8BM0pFdaLVc1CWAIxTLQ6FvnM,11853
+pali/autoregressive_wrapper.py,sha256=IpRj-TrpKSynn82O8tUckhGD2MkO08PF_PlIl4xdUFI,4513
+pali/inference.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pali/model.py,sha256=EHT8Zr2gI2QNz8u3X9D1YXucx0YiFxu_RHPelJjfPVo,3736
+pali/transformer.py,sha256=oQtfDH_zcZrPTUrlS07LiVFGC-cSEfJjqIPfnkBCEtc,55564
+pali_torch-0.0.5.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+pali_torch-0.0.5.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pali_torch-0.0.5.dist-info/METADATA,sha256=5flF8CON-9nPVIQ41hPSFtAfOElKsA8PxqqR6SY-zQo,7804
+pali_torch-0.0.5.dist-info/RECORD,,
