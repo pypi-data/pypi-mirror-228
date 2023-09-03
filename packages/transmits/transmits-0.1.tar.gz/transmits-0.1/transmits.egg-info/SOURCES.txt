@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+scr/transmits/__init__.py
+scr/transmits/transmits.py
+test/test_transmit.py
+transmits.egg-info/PKG-INFO
+transmits.egg-info/SOURCES.txt
+transmits.egg-info/dependency_links.txt
+transmits.egg-info/top_level.txt
