@@ -1,0 +1,5320 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <title>
+   Actions, resources, and condition keys for Amazon Pinpoint - Service Authorization Reference
+  </title>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="/assets" name="assets_root"/>
+  <meta content="list_amazonpinpoint" name="target_state"/>
+  <meta content="list_amazonpinpoint" name="default_state"/>
+  <link href="https://docs.aws.amazon.com/assets/images/favicon.ico" rel="icon" type="image/ico"/>
+  <link href="https://docs.aws.amazon.com/assets/images/favicon.ico" rel="shortcut icon" type="image/ico"/>
+  <link href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonpinpoint.html" rel="canonical"/>
+  <meta content="Lists all of the available service-specific resources, actions, and condition keys that can be used in IAM policies to control access to Amazon Pinpoint." name="description"/>
+  <meta content="IAD" name="deployment_region"/>
+  <meta content="Service Authorization Reference" name="product"/>
+  <meta content="Service Authorization Reference" name="guide"/>
+  <meta content="Provides a list of the actions, resources, and condition keys supported by each AWS service that can be used in an IAM policy." name="abstract"/>
+  <meta content="en_us" name="guide-locale"/>
+  <meta content="toc-contents.json" name="tocs"/>
+  <link href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonpinpoint.html" rel="canonical"/>
+  <link href="https://docs.aws.amazon.com/id_id/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="id-id" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/id_id/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="id" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/de_de/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="de-de" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/de_de/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="de" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="en-us" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="en" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/es_es/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="es-es" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/es_es/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="es" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/fr_fr/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="fr-fr" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/fr_fr/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="fr" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/it_it/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="it-it" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/it_it/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="it" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/ja_jp/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="ja-jp" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/ja_jp/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="ja" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/ko_kr/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="ko-kr" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/ko_kr/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="ko" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/pt_br/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="pt-br" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/pt_br/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="pt" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/zh_cn/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="zh-cn" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/zh_tw/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="zh-tw" rel="alternative"/>
+  <link href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonpinpoint.html" hreflang="x-default" rel="alternative"/>
+  <meta content="Service Authorization Docs" name="feedback-item"/>
+  <meta content="Service Authorization Reference" name="this_doc_product"/>
+  <meta content="Service Authorization Reference" name="this_doc_guide"/>
+  <script defer="" src="https://docs.aws.amazon.com/assets/r/vendor4.js?version=2021.12.02">
+  </script>
+  <script defer="" src="https://docs.aws.amazon.com/assets/r/vendor3.js?version=2021.12.02">
+  </script>
+  <script defer="" src="https://docs.aws.amazon.com/assets/r/vendor1.js?version=2021.12.02">
+  </script>
+  <script defer="" src="https://docs.aws.amazon.com/assets/r/awsdocs-common.js?version=2021.12.02">
+  </script>
+  <script defer="" src="https://docs.aws.amazon.com/assets/r/awsdocs-doc-page.js?version=2021.12.02">
+  </script>
+  <link href="https://docs.aws.amazon.com/assets/r/vendor4.css?version=2021.12.02" rel="stylesheet"/>
+  <link href="https://docs.aws.amazon.com/assets/r/awsdocs-common.css?version=2021.12.02" rel="stylesheet"/>
+  <link href="https://docs.aws.amazon.com/assets/r/awsdocs-doc-page.css?version=2021.12.02" rel="stylesheet"/>
+  <script async="" data-config="{'appEntity':'aws-documentation','region':'us-east-1','service':'iam'}" id="awsc-panorama-bundle" src="https://prod.pa.cdn.uis.awsstatic.com/panorama-nav-init.js" type="text/javascript">
+  </script>
+  <meta id="panorama-serviceSubSection" value="Service Authorization Reference"/>
+  <meta id="panorama-serviceConsolePage" value="Actions, resources, and condition keys for Amazon Pinpoint"/>
+ </head>
+ <body class="awsdocs awsui">
+  <div class="awsdocs-container">
+   <awsdocs-header>
+   </awsdocs-header>
+   <awsui-app-layout class="awsui-util-no-gutters" header-selector="awsdocs-header" id="app-layout" navigation-change="$ctrl.onNavChange($event)" navigation-hide="false" navigation-open="$ctrl.navOpen" navigation-width="$ctrl.navWidth" ng-controller="ContentController as $ctrl" tools-change="$ctrl.onToolsChange($event)" tools-hide="$ctrl.hideTools" tools-open="$ctrl.toolsOpen" tools-width="$ctrl.toolsWidth">
+    <div dom-region="navigation" id="guide-toc">
+     <awsdocs-toc>
+     </awsdocs-toc>
+    </div>
+    <div dom-region="content" id="main-column" tabindex="-1">
+     <awsdocs-view class="awsdocs-view">
+      <div id="awsdocs-content">
+       <head>
+        <title>
+         Actions, resources, and condition keys for Amazon Pinpoint - Service Authorization Reference
+        </title>
+        <meta content="/pdfs/service-authorization/latest/reference/service-authorization.pdf#list_amazonpinpoint" name="pdf"/>
+        <meta content="http://forums.aws.amazon.com/forum.jspa?forumID=76" name="forums"/>
+        <meta content="https://docs.aws.amazon.com/forms/aws-doc-feedback?hidden_service_name=Service%20Authorization%20Docs&amp;topic_url=http://docs.aws.amazon.com/en_us/service-authorization/latest/reference/list_amazonpinpoint.html" name="feedback"/>
+        <meta content="feedbackyes.html?topic_url=http://docs.aws.amazon.com/en_us/service-authorization/latest/reference/list_amazonpinpoint.html" name="feedback-yes"/>
+        <meta content="feedbackno.html?topic_url=http://docs.aws.amazon.com/en_us/service-authorization/latest/reference/list_amazonpinpoint.html" name="feedback-no"/>
+        <script type="application/ld+json">
+         {
+    "@context" : "https://schema.org",
+    "@type" : "BreadcrumbList",
+    "itemListElement" : [
+      {
+        "@type" : "ListItem",
+        "position" : 1,
+        "name" : "AWS",
+        "item" : "https://aws.amazon.com"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 2,
+        "name" : "Service Authorization Reference",
+        "item" : "https://docs.aws.amazon.com/iam/index.html"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 3,
+        "name" : "Service Authorization Reference",
+        "item" : "https://docs.aws.amazon.com/service-authorization/latest/reference"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 4,
+        "name" : "Reference",
+        "item" : "https://docs.aws.amazon.com/service-authorization/latest/reference/reference.html"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 5,
+        "name" : "Actions, resources, and condition keys for AWS services",
+        "item" : "https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 6,
+        "name" : "Actions, resources, and condition keys for Amazon Pinpoint",
+        "item" : "https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html"
+      }
+    ]
+}
+        </script>
+       </head>
+       <body>
+        <div id="main">
+         <div style="display: none">
+          <a href="/pdfs/service-authorization/latest/reference/service-authorization.pdf#list_amazonpinpoint" rel="noopener noreferrer" target="_blank" title="Open PDF">
+          </a>
+         </div>
+         <div class="breadcrumb" id="breadcrumbs">
+          <a href="https://aws.amazon.com">
+           AWS
+          </a>
+          <a href="/index.html">
+           Documentation
+          </a>
+          <a href="/iam/index.html">
+           Service Authorization Reference
+          </a>
+          <a href="reference.html">
+           Service Authorization Reference
+          </a>
+         </div>
+         <div id="page-toc-src">
+          <a href="#amazonpinpoint-actions-as-permissions">
+           Actions
+          </a>
+          <a href="#amazonpinpoint-resources-for-iam-policies">
+           Resource types
+          </a>
+          <a href="#amazonpinpoint-policy-keys">
+           Condition keys
+          </a>
+         </div>
+         <div class="awsui-util-container" id="main-content">
+          <div id="main-col-body">
+           <awsdocs-language-banner data-service="$ctrl.pageService">
+           </awsdocs-language-banner>
+           <h1 class="topictitle" id="list_amazonpinpoint">
+            Actions, resources, and condition keys for      Amazon Pinpoint
+           </h1>
+           <div class="awsdocs-page-header-container">
+            <awsdocs-page-header>
+            </awsdocs-page-header>
+            <awsdocs-filter-selector id="awsdocs-filter-selector">
+            </awsdocs-filter-selector>
+           </div>
+           <p>
+            Amazon Pinpoint (service prefix:
+            <code class="code">
+             mobiletargeting
+            </code>
+            ) provides the following    service-specific resources, actions, and condition context keys for use in IAM permission    policies.
+           </p>
+           <p>
+            References:
+           </p>
+           <div class="itemizedlist">
+            <ul class="itemizedlist">
+             <li class="listitem">
+              <p>
+               Learn how to
+               <a href="https://docs.aws.amazon.com/pinpoint/latest/developerguide/">
+                configure this service
+               </a>
+               .
+              </p>
+             </li>
+             <li class="listitem">
+              <p>
+               View a list of the
+               <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/">
+                API operations available for this          service
+               </a>
+               .
+              </p>
+             </li>
+             <li class="listitem">
+              <p>
+               Learn how to secure this service and its resources by
+               <a href="https://docs.aws.amazon.com/pinpoint/latest/developerguide/permissions-actions.html#permissions-actions-apiactions">
+                using          IAM
+               </a>
+               permission policies.
+              </p>
+             </li>
+            </ul>
+           </div>
+           <div class="highlights" id="inline-topiclist">
+            <h6>
+             Topics
+            </h6>
+            <ul>
+             <li>
+              <a href="#amazonpinpoint-actions-as-permissions">
+               Actions defined by        Amazon Pinpoint
+              </a>
+             </li>
+             <li>
+              <a href="#amazonpinpoint-resources-for-iam-policies">
+               Resource types defined by        Amazon Pinpoint
+              </a>
+             </li>
+             <li>
+              <a href="#amazonpinpoint-policy-keys">
+               Condition keys for        Amazon Pinpoint
+              </a>
+             </li>
+            </ul>
+           </div>
+           <h2 id="amazonpinpoint-actions-as-permissions">
+            Actions defined by        Amazon Pinpoint
+           </h2>
+           <p>
+            You can specify the following actions in the
+            <code class="code">
+             Action
+            </code>
+            element of an IAM      policy statement. Use policies to grant permissions to perform an operation in AWS. When you      use an action in a policy, you usually allow or deny access to the API operation or CLI      command with the same name. However, in some cases, a single action controls access to more      than one operation. Alternatively, some operations require several different actions.
+           </p>
+           <p>
+            The
+            <b>
+             Resource types
+            </b>
+            column of the Actions table indicates whether each      action supports resource-level permissions. If there is no value for this column, you must      specify all resources ("*") to which the policy applies in the
+            <code class="code">
+             Resource
+            </code>
+            element      of your policy statement. If the column includes a resource type, then you can specify an ARN      of that type in a statement with that action. If the action has one or more required      resources, the caller must have permission to use the action with those resources. Required      resources are indicated in the table with an asterisk (*). If you limit resource access with      the
+            <code class="code">
+             Resource
+            </code>
+            element in an IAM policy, you must include an ARN or pattern for      each required resource type. Some actions support multiple resource types. If the resource      type is optional (not indicated as required), then you can choose to use one of the optional      resource types.
+           </p>
+           <p>
+            The
+            <b>
+             Condition keys
+            </b>
+            column of the Actions table includes keys that you      can specify in a policy statement's
+            <code class="code">
+             Condition
+            </code>
+            element. For more information on      the condition keys that are associated with resources for the service, see the
+            <b>
+             Condition keys
+            </b>
+            column of the Resource types table.
+           </p>
+           <div class="awsdocs-note">
+            <div class="awsdocs-note-title">
+             <awsui-icon name="status-info" variant="link">
+             </awsui-icon>
+             <h6>
+              Note
+             </h6>
+            </div>
+            <div class="awsdocs-note-text">
+             <p>
+              Resource condition keys are listed in the
+              <a href="#amazonpinpoint-resources-for-iam-policies">
+               Resource types
+              </a>
+              table. You        can find a link to the resource type that applies to an action in the
+              <b>
+               Resource          types (*required)
+              </b>
+              column of the Actions table. The resource type in the        Resource types table includes the
+              <b>
+               Condition keys
+              </b>
+              column, which are the        resource condition keys that apply to an action in the Actions table.
+             </p>
+            </div>
+           </div>
+           <p>
+            For details about the columns in the following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#actions_table" rel="noopener noreferrer" target="_blank">
+             Actions table
+            </a>
+            .
+           </p>
+           <div class="table-container">
+            <div class="table-contents disable-scroll">
+             <table id="w43aab5b9e1135c11c13">
+              <thead>
+               <tr>
+                <th>
+                 Actions
+                </th>
+                <th>
+                 Description
+                </th>
+                <th>
+                 Access level
+                </th>
+                <th>
+                 Resource types (*required)
+                </th>
+                <th>
+                 Condition keys
+                </th>
+                <th>
+                 Dependent actions
+                </th>
+               </tr>
+              </thead>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-CreateApp">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps.html#CreateApp">
+                 CreateApp
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to create an app
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-apps">
+                  apps*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-CreateCampaign">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-campaigns.html#CreateCampaign">
+                 CreateCampaign
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to create a campaign for an app
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-CreateEmailTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-email.html#CreateEmailTemplate">
+                 CreateEmailTemplate
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to create an email template
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-CreateExportJob">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-jobs-export.html#CreateExportJob">
+                 CreateExportJob
+                </a>
+               </td>
+               <td>
+                Grants permission to create an export job that exports endpoint definitions to Amazon S3
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-CreateImportJob">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-jobs-import.html#CreateImportJob">
+                 CreateImportJob
+                </a>
+               </td>
+               <td>
+                Grants permission to import endpoint definitions from to create a segment
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-CreateInAppTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-inapp.html#CreateInAppTemplate">
+                 CreateInAppTemplate
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to create an in-app message template
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-CreateJourney">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys.html#CreateJourney">
+                 CreateJourney
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to create a Journey for an app
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-journeys">
+                  journeys*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-CreatePushTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-push.html#CreatePushTemplate">
+                 CreatePushTemplate
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to create a push notification template
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-CreateRecommenderConfiguration">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/recommenders.html#CreateRecommenderConfiguration">
+                 CreateRecommenderConfiguration
+                </a>
+               </td>
+               <td>
+                Grants permission to create an Amazon Pinpoint configuration for a recommender model
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-recommenders">
+                  recommenders*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-CreateSegment">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-segments.html#CreateSegment">
+                 CreateSegment
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to create a segment that is based on endpoint data reported to Pinpoint by your app. To allow a user to create a segment by importing endpoint data from outside of Pinpoint, allow the mobiletargeting:CreateImportJob action
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-CreateSmsTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-sms.html#CreateSmsTemplate">
+                 CreateSmsTemplate
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to create an sms message template
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-CreateVoiceTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-voice.html#CreateVoiceTemplate">
+                 CreateVoiceTemplate
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to create a voice message template
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteAdmChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-adm.html#DeleteAdmChannel">
+                 DeleteAdmChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to delete the ADM channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteApnsChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-apns.html#DeleteApnsChannel">
+                 DeleteApnsChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to delete the APNs channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteApnsSandboxChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-apns_sandbox.html#DeleteApnsSandboxChannel">
+                 DeleteApnsSandboxChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to delete the APNs sandbox channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteApnsVoipChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-apns_voip.html#DeleteApnsVoipChannel">
+                 DeleteApnsVoipChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to delete the APNs VoIP channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteApnsVoipSandboxChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-apns_voip_sandbox.html#DeleteApnsVoipSandboxChannel">
+                 DeleteApnsVoipSandboxChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to delete the APNs VoIP sandbox channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteApp">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id.html#DeleteApp">
+                 DeleteApp
+                </a>
+               </td>
+               <td>
+                Grants permission to delete a specific campaign
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteBaiduChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-baidu.html#DeleteBaiduChannel">
+                 DeleteBaiduChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to delete the Baidu channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteCampaign">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-campaigns-campaign-id.html#DeleteCampaign">
+                 DeleteCampaign
+                </a>
+               </td>
+               <td>
+                Grants permission to delete a specific campaign
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-campaign">
+                  campaign*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteEmailChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-email.html#DeleteEmailChannel">
+                 DeleteEmailChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to delete the email channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteEmailTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-email.html#DeleteEmailTemplate">
+                 DeleteEmailTemplate
+                </a>
+               </td>
+               <td>
+                Grants permission to delete an email template or an email template version
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteEndpoint">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-endpoints-endpoint-id.html#DeleteEndpoint">
+                 DeleteEndpoint
+                </a>
+               </td>
+               <td>
+                Grants permission to delete an endpoint
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-endpoint">
+                  endpoint*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteEventStream">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-eventstream.html#DeleteEventStream">
+                 DeleteEventStream
+                </a>
+               </td>
+               <td>
+                Grants permission to delete the event stream for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-event-stream">
+                  event-stream*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteGcmChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-gcm.html#DeleteGcmChannel">
+                 DeleteGcmChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to delete the GCM channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteInAppTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-inapp.html#DeleteInAppTemplate">
+                 DeleteInAppTemplate
+                </a>
+               </td>
+               <td>
+                Grants permission to delete an in-app message template or an in-app message template version
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteJourney">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys-journey-id.html#DeleteJourney">
+                 DeleteJourney
+                </a>
+               </td>
+               <td>
+                Grants permission to delete a specific journey
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-journey">
+                  journey*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeletePushTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-push.html#DeletePushTemplate">
+                 DeletePushTemplate
+                </a>
+               </td>
+               <td>
+                Grants permission to delete a push notification template or a push notification template version
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteRecommenderConfiguration">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/recommenders-recommender-id.html#DeleteRecommenderConfiguration">
+                 DeleteRecommenderConfiguration
+                </a>
+               </td>
+               <td>
+                Grants permission to delete an Amazon Pinpoint configuration for a recommender model
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-recommender">
+                  recommender*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteSegment">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-segments-segment-id.html#DeleteSegment">
+                 DeleteSegment
+                </a>
+               </td>
+               <td>
+                Grants permission to delete a specific segment
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-segment">
+                  segment*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteSmsChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-sms.html#DeleteSmsChannel">
+                 DeleteSmsChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to delete the SMS channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteSmsTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-sms.html#DeleteSmsTemplate">
+                 DeleteSmsTemplate
+                </a>
+               </td>
+               <td>
+                Grants permission to delete an sms message template or an sms message template version
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteUserEndpoints">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-users-user-id.html#DeleteUserEndpoints">
+                 DeleteUserEndpoints
+                </a>
+               </td>
+               <td>
+                Grants permission to delete all of the endpoints that are associated with a user ID
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-user">
+                  user*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteVoiceChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-voice.html#DeleteVoiceChannel">
+                 DeleteVoiceChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to delete the Voice channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-DeleteVoiceTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-voice.html#DeleteVoiceTemplate">
+                 DeleteVoiceTemplate
+                </a>
+               </td>
+               <td>
+                Grants permission to delete a voice message template or a voice message template version
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetAdmChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-adm.html#GetAdmChannel">
+                 GetAdmChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about the Amazon Device Messaging (ADM) channel for an app
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetApnsChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-apns.html#GetApnsChannel">
+                 GetApnsChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about the APNs channel for an app
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetApnsSandboxChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-apns_sandbox.html#GetApnsSandboxChannel">
+                 GetApnsSandboxChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about the APNs sandbox channel for an app
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetApnsVoipChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-apns_voip.html#GetApnsVoipChannel">
+                 GetApnsVoipChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about the APNs VoIP channel for an app
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetApnsVoipSandboxChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-apns_voip_sandbox.html#GetApnsVoipSandboxChannel">
+                 GetApnsVoipSandboxChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about the APNs VoIP sandbox channel for an app
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetApp">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id.html#GetApp">
+                 GetApp
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about a specific app in your Amazon Pinpoint account
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetApplicationDateRangeKpi">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-kpis-daterange-kpi-name.html#GetApplicationDateRangeKpi">
+                 GetApplicationDateRangeKpi
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve (queries) pre-aggregated data for a standard metric that applies to an application
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-application-metrics">
+                  application-metrics*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetApplicationSettings">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-settings.html#GetApplicationSettings">
+                 GetApplicationSettings
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve the default settings for an app
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetApps">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps.html#GetApps">
+                 GetApps
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve a list of apps in your Amazon Pinpoint account
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-apps">
+                  apps*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetBaiduChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-baidu.html#GetBaiduChannel">
+                 GetBaiduChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about the Baidu channel for an app
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetCampaign">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-campaigns-campaign-id.html#GetCampaign">
+                 GetCampaign
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about a specific campaign
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-campaign">
+                  campaign*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetCampaignActivities">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-campaigns-campaign-id-activities.html#GetCampaignActivities">
+                 GetCampaignActivities
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about the activities performed by a campaign
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-campaign">
+                  campaign*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetCampaignDateRangeKpi">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-campaigns-campaign-id-kpis-daterange-kpi-name.html#GetCampaignDateRangeKpi">
+                 GetCampaignDateRangeKpi
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve (queries) pre-aggregated data for a standard metric that applies to a campaign
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-campaign-metrics">
+                  campaign-metrics*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetCampaignVersion">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-campaigns-campaign-id-versions-version.html#GetCampaignVersion">
+                 GetCampaignVersion
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about a specific campaign version
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-campaign">
+                  campaign*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetCampaignVersions">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-campaigns-campaign-id-versions.html#GetCampaignVersions">
+                 GetCampaignVersions
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about the current and prior versions of a campaign
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-campaign">
+                  campaign*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetCampaigns">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-campaigns.html#GetCampaigns">
+                 GetCampaigns
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about all campaigns for an app
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetChannels">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels.html#GetChannels">
+                 GetChannels
+                </a>
+               </td>
+               <td>
+                Grants permission to get all channels information for your app
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channels">
+                  channels*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetEmailChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-email.html#GetEmailChannel">
+                 GetEmailChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to obtain information about the email channel in an app
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetEmailTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-email.html#GetEmailTemplate">
+                 GetEmailTemplate
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about a specific or the active version of an email template
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetEndpoint">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-endpoints-endpoint-id.html#GetEndpoint">
+                 GetEndpoint
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about a specific endpoint
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-endpoint">
+                  endpoint*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetEventStream">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-eventstream.html#GetEventStream">
+                 GetEventStream
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about the event stream for an app
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-event-stream">
+                  event-stream*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetExportJob">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-jobs-export-job-id.html#GetExportJob">
+                 GetExportJob
+                </a>
+               </td>
+               <td>
+                Grants permission to obtain information about a specific export job
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-export-job">
+                  export-job*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetExportJobs">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-jobs-export.html#GetExportJobs">
+                 GetExportJobs
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve a list of all of the export jobs for an app
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetGcmChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-gcm.html#GetGcmChannel">
+                 GetGcmChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about the GCM channel for an app
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetImportJob">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-jobs-import-job-id.html#GetImportJob">
+                 GetImportJob
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about a specific import job
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-import-job">
+                  import-job*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetImportJobs">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-jobs-import.html#GetImportJobs">
+                 GetImportJobs
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about all import jobs for an app
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetInAppMessages">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-endpoints-endpoint-id-inappmessages.html#GetInAppMessages">
+                 GetInAppMessages
+                </a>
+               </td>
+               <td>
+                Grants permission to retrive in-app messages for the given endpoint id
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetInAppTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-inapp.html#GetInAppTemplate">
+                 GetInAppTemplate
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about a specific or the active version of an in-app message template
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetJourney">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys-journey-id.html#GetJourney">
+                 GetJourney
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about a specific journey
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-journey">
+                  journey*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetJourneyDateRangeKpi">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys-journey-id-kpis-daterange-kpi-name.html#GetJourneyDateRangeKpi">
+                 GetJourneyDateRangeKpi
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve (queries) pre-aggregated data for a standard engagement metric that applies to a journey
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-journey-metrics">
+                  journey-metrics*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetJourneyExecutionActivityMetrics">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys-journey-id-activities-journey-activity-id-execution-metrics.html#GetJourneyExecutionActivityMetrics">
+                 GetJourneyExecutionActivityMetrics
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve (queries) pre-aggregated data for a standard execution metric that applies to a journey activity
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-journey-execution-activity-metrics">
+                  journey-execution-activity-metrics*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetJourneyExecutionMetrics">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys-journey-id-execution-metrics.html#GetJourneyExecutionMetrics">
+                 GetJourneyExecutionMetrics
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve (queries) pre-aggregated data for a standard execution metric that applies to a journey
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-journey-execution-metrics">
+                  journey-execution-metrics*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetJourneyRunExecutionActivityMetrics">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys-journey-id-runs-run-id-activities-journey-activity-id-execution-metrics.html#GetJourneyRunExecutionActivityMetrics">
+                 GetJourneyRunExecutionActivityMetrics
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve (queries) pre-aggregated data for a standard execution metric that applies to a journey activity for a single journey run
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-journey">
+                  journey*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetJourneyRunExecutionMetrics">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys-journey-id-runs-run-id-execution-metrics.html#GetJourneyRunExecutionMetrics">
+                 GetJourneyRunExecutionMetrics
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve (queries) pre-aggregated data for a standard execution metric that applies to a journey for a single journey run
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-journey">
+                  journey*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetJourneyRuns">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys-journey-id-runs.html">
+                 GetJourneyRuns
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about all journey runs for a journey
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-journey">
+                  journey*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetPushTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-push.html#GetPushTemplate">
+                 GetPushTemplate
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about a specific or the active version of an push notification template
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetRecommenderConfiguration">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/recommenders-recommender-id.html#GetRecommenderConfiguration">
+                 GetRecommenderConfiguration
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about an Amazon Pinpoint configuration for a recommender model
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-recommender">
+                  recommender*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetRecommenderConfigurations">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/recommenders.html#GetRecommenderConfigurations">
+                 GetRecommenderConfigurations
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about all the recommender model configurations that are associated with an Amazon Pinpoint account
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-recommenders">
+                  recommenders*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetReports">
+                </a>
+                <a href="${UserGuideDocPage}/permissions-actions.html" rel="noopener noreferrer" target="_blank">
+                 GetReports
+                </a>
+                [permission only]
+               </td>
+               <td>
+                Grants permission to mobiletargeting:GetReports
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-reports">
+                  reports*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetSegment">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-segments-segment-id.html#GetSegment">
+                 GetSegment
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about a specific segment
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-segment">
+                  segment*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetSegmentExportJobs">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-segments-segment-id-jobs-export.html#GetSegmentExportJobs">
+                 GetSegmentExportJobs
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about jobs that export endpoint definitions from segments to Amazon S3
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-segment">
+                  segment*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetSegmentImportJobs">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-segments-segment-id-jobs-import.html#GetSegmentImportJobs">
+                 GetSegmentImportJobs
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about jobs that create segments by importing endpoint definitions from
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-segment">
+                  segment*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetSegmentVersion">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-segments-segment-id-versions-version.html#GetSegmentVersion">
+                 GetSegmentVersion
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about a specific segment version
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-segment">
+                  segment*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetSegmentVersions">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-segments-segment-id-versions.html#GetSegmentVersions">
+                 GetSegmentVersions
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about the current and prior versions of a segment
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-segment">
+                  segment*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetSegments">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-segments.html#GetSegments">
+                 GetSegments
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about the segments for an app
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetSmsChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-sms.html#GetSmsChannel">
+                 GetSmsChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to obtain information about the SMS channel in an app
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetSmsTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-sms.html#GetSmsTemplate">
+                 GetSmsTemplate
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about a specific or the active version of an sms message template
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetUserEndpoints">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-users-user-id.html#GetUserEndpoints">
+                 GetUserEndpoints
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about the endpoints that are associated with a user ID
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-user">
+                  user*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetVoiceChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-voice.html#GetVoiceChannel">
+                 GetVoiceChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to obtain information about the Voice channel in an app
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-GetVoiceTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-voice.html#GetVoiceTemplate">
+                 GetVoiceTemplate
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about a specific or the active version of a voice message template
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-ListJourneys">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys.html#ListJourneys">
+                 ListJourneys
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve information about all journeys for an app
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="5">
+                <a id="amazonpinpoint-ListTagsForResource">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/tags-resource-arn.html#ListTagsForResource">
+                 ListTagsForResource
+                </a>
+               </td>
+               <td rowspan="5">
+                Grants permission to list tags for a resource
+               </td>
+               <td rowspan="5">
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-campaign">
+                  campaign
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-journey">
+                  journey
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-segment">
+                  segment
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-ListTemplateVersions">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-template-type-versions.html#ListTemplateVersions">
+                 ListTemplateVersions
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve all versions about a specific template
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-ListTemplates">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates.html#ListTemplates">
+                 ListTemplates
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve metadata about the queried templates
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-templates">
+                  templates*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-PhoneNumberValidate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/phone-number-validate.html#PhoneNumberValidate">
+                 PhoneNumberValidate
+                </a>
+               </td>
+               <td>
+                Grants permission to obtain metadata for a phone number, such as the number type (mobile, landline, or VoIP), location, and provider
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-phone-number-validate">
+                  phone-number-validate*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-PutEventStream">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-eventstream.html#PutEventStream">
+                 PutEventStream
+                </a>
+               </td>
+               <td>
+                Grants permission to create or update an event stream for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-event-stream">
+                  event-stream*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-PutEvents">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-events.html#PutEvents">
+                 PutEvents
+                </a>
+               </td>
+               <td>
+                Grants permission to create or update events for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-events">
+                  events*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-RemoveAttributes">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-attributes-attribute-type.html#RemoveAttributes">
+                 RemoveAttributes
+                </a>
+               </td>
+               <td>
+                Grants permission to remove the attributes for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-attribute">
+                  attribute*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-SendMessages">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-messages.html#SendMessages">
+                 SendMessages
+                </a>
+               </td>
+               <td>
+                Grants permission to send an SMS message or push notification to specific endpoints
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-messages">
+                  messages*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-SendOTPMessage">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-otp.html#SendOTPMessage">
+                 SendOTPMessage
+                </a>
+               </td>
+               <td>
+                Grants permission to send an OTP code to a user of your application
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-otp">
+                  otp*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-SendUsersMessages">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-users-messages.html#SendUsersMessages">
+                 SendUsersMessages
+                </a>
+               </td>
+               <td>
+                Grants permission to send an SMS message or push notification to all endpoints that are associated with a specific user ID
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-messages">
+                  messages*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="6">
+                <a id="amazonpinpoint-TagResource">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/tags-resource-arn.html#TagResource">
+                 TagResource
+                </a>
+               </td>
+               <td rowspan="6">
+                Grants permission to add tags to a resource
+               </td>
+               <td rowspan="6">
+                Tagging
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-campaign">
+                  campaign
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-journey">
+                  journey
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-segment">
+                  segment
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="6">
+                <a id="amazonpinpoint-UntagResource">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/tags-resource-arn.html#UntagResource">
+                 UntagResource
+                </a>
+               </td>
+               <td rowspan="6">
+                Grants permission to remove tags from a resource
+               </td>
+               <td rowspan="6">
+                Tagging
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-campaign">
+                  campaign
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-journey">
+                  journey
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-segment">
+                  segment
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-UpdateAdmChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-adm.html#UpdateAdmChannel">
+                 UpdateAdmChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to update the Amazon Device Messaging (ADM) channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-UpdateApnsChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-apns.html#UpdateApnsChannel">
+                 UpdateApnsChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to update the Apple Push Notification service (APNs) channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-UpdateApnsSandboxChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-apns_sandbox.html#UpdateApnsSandboxChannel">
+                 UpdateApnsSandboxChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to update the Apple Push Notification service (APNs) sandbox channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-UpdateApnsVoipChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-apns_voip.html#UpdateApnsVoipChannel">
+                 UpdateApnsVoipChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to update the Apple Push Notification service (APNs) VoIP channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-UpdateApnsVoipSandboxChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-apns_voip_sandbox.html#UpdateApnsVoipSandboxChannel">
+                 UpdateApnsVoipSandboxChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to update the Apple Push Notification service (APNs) VoIP sandbox channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-UpdateApplicationSettings">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-settings.html#UpdateApplicationSettings">
+                 UpdateApplicationSettings
+                </a>
+               </td>
+               <td>
+                Grants permission to update the default settings for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-UpdateBaiduChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-baidu.html#UpdateBaiduChannel">
+                 UpdateBaiduChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to update the Baidu channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-UpdateCampaign">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-campaigns-campaign-id.html#UpdateCampaign">
+                 UpdateCampaign
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to update a specific campaign
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-campaign">
+                  campaign*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-UpdateEmailChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-email.html#UpdateEmailChannel">
+                 UpdateEmailChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to update the email channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-UpdateEmailTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-email.html#UpdateEmailTemplate">
+                 UpdateEmailTemplate
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to update a specific email template under the same version or generate a new version
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-UpdateEndpoint">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-endpoints-endpoint-id.html#UpdateEndpoint">
+                 UpdateEndpoint
+                </a>
+               </td>
+               <td>
+                Grants permission to create an endpoint or update the information for an endpoint
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-endpoint">
+                  endpoint*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-UpdateEndpointsBatch">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-endpoints.html#UpdateEndpointsBatch">
+                 UpdateEndpointsBatch
+                </a>
+               </td>
+               <td>
+                Grants permission to create or update endpoints as a batch operation
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-app">
+                  app*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-UpdateGcmChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-gcm.html#UpdateGcmChannel">
+                 UpdateGcmChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to update the Firebase Cloud Messaging (FCM) or Google Cloud Messaging (GCM) API key that allows to send push notifications to your Android app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-UpdateInAppTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-inapp.html#UpdateInAppTemplate">
+                 UpdateInAppTemplate
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to update a specific in-app message template under the same version or generate a new version
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-UpdateJourney">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys-journey-id.html#UpdateJourney">
+                 UpdateJourney
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to update a specific journey
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-journey">
+                  journey*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-UpdateJourneyState">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys-journey-id-state.html#UpdateJourneyState">
+                 UpdateJourneyState
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to update a specific journey state
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-journey">
+                  journey*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-UpdatePushTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-push.html#UpdatePushTemplate">
+                 UpdatePushTemplate
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to update a specific push notification template under the same version or generate a new version
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-UpdateRecommenderConfiguration">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/recommenders-recommender-id.html#UpdateRecommenderConfiguration">
+                 UpdateRecommenderConfiguration
+                </a>
+               </td>
+               <td>
+                Grants permission to update an Amazon Pinpoint configuration for a recommender model
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-recommender">
+                  recommender*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-UpdateSegment">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-segments-segment-id.html#UpdateSegment">
+                 UpdateSegment
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to update a specific segment
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-segment">
+                  segment*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-UpdateSmsChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-sms.html#UpdateSmsChannel">
+                 UpdateSmsChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to update the SMS channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-UpdateSmsTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-sms.html#UpdateSmsTemplate">
+                 UpdateSmsTemplate
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to update a specific sms message template under the same version or generate a new version
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-UpdateTemplateActiveVersion">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-template-type-active-version.html#UpdateTemplateActiveVersion">
+                 UpdateTemplateActiveVersion
+                </a>
+               </td>
+               <td>
+                Grants permission to update the active version parameter of a specific template
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-UpdateVoiceChannel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels-voice.html#UpdateVoiceChannel">
+                 UpdateVoiceChannel
+                </a>
+               </td>
+               <td>
+                Grants permission to update the Voice channel for an app
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-channel">
+                  channel*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonpinpoint-UpdateVoiceTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates-template-name-voice.html#UpdateVoiceTemplate">
+                 UpdateVoiceTemplate
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to update a specific voice message template under the same version or generate a new version
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-template">
+                  template*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonpinpoint-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-VerifyOTPMessage">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-verify-otp.html#VerifyOTPMessage">
+                 VerifyOTPMessage
+                </a>
+               </td>
+               <td>
+                Grants permission to check the validity of One-Time Passwords (OTPs)
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-verify-otp">
+                  verify-otp*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+             </table>
+            </div>
+           </div>
+           <h2 id="amazonpinpoint-resources-for-iam-policies">
+            Resource types defined by        Amazon Pinpoint
+           </h2>
+           <p>
+            The following resource types are defined by this service and can be used in the
+            <code class="code">
+             Resource
+            </code>
+            element of IAM permission policy statements. Each action in the
+            <a href="#amazonpinpoint-actions-as-permissions">
+             Actions table
+            </a>
+            identifies the      resource types that can be specified with that action. A resource type can also define which      condition keys you can include in a policy. These keys are displayed in the last column of the      Resource types table. For details about the columns in the following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#resources_table" rel="noopener noreferrer" target="_blank">
+             Resource types table
+            </a>
+            .
+           </p>
+           <div class="table-container">
+            <div class="table-contents disable-scroll">
+             <table id="w43aab5b9e1135c13b5">
+              <thead>
+               <tr>
+                <th>
+                 Resource types
+                </th>
+                <th>
+                 ARN
+                </th>
+                <th>
+                 Condition keys
+                </th>
+               </tr>
+              </thead>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-app">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id.html">
+                 app
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}
+                </code>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-apps">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps.html">
+                 apps
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/*
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-campaign">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-campaigns-campaign-id.html">
+                 campaign
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/campaigns/$
+                 <span>
+                  {
+                 </span>
+                 CampaignId}
+                </code>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-journey">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys-journey-id.html">
+                 journey
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/journeys/$
+                 <span>
+                  {
+                 </span>
+                 JourneyId}
+                </code>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-journeys">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys.html">
+                 journeys
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/journeys
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-segment">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-segments-segment-id.html">
+                 segment
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/segments/$
+                 <span>
+                  {
+                 </span>
+                 SegmentId}
+                </code>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-template">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates.html">
+                 template
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:templates/$
+                 <span>
+                  {
+                 </span>
+                 TemplateName}/$
+                 <span>
+                  {
+                 </span>
+                 TemplateType}
+                </code>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonpinpoint-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-templates">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/templates.html">
+                 templates
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:templates
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-recommender">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/recommenders.html">
+                 recommender
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:recommenders/$
+                 <span>
+                  {
+                 </span>
+                 RecommenderId}
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-recommenders">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/recommenders.html">
+                 recommenders
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:recommenders/*
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-phone-number-validate">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/phone-number-validate.html">
+                 phone-number-validate
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:phone/number/validate
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-channels">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels.html">
+                 channels
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/channels
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-channel">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-channels.html">
+                 channel
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/channels/$
+                 <span>
+                  {
+                 </span>
+                 ChannelType}
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-event-stream">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-eventstream.html">
+                 event-stream
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/eventstream
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-events">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-events.html">
+                 events
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/events
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-messages">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-messages.html">
+                 messages
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/messages
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-verify-otp">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-verify-otp.html">
+                 verify-otp
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/verify-otp
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-otp">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-verify-otp.html">
+                 otp
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/otp
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-attribute">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-attributes-attribute-type.html">
+                 attribute
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/attributes/$
+                 <span>
+                  {
+                 </span>
+                 AttributeType}
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-user">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-users-user-id.html">
+                 user
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/users/$
+                 <span>
+                  {
+                 </span>
+                 UserId}
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-endpoint">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-endpoints-endpoint-id.html">
+                 endpoint
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/endpoints/$
+                 <span>
+                  {
+                 </span>
+                 EndpointId}
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-import-job">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-jobs-import-job-id.html">
+                 import-job
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/jobs/import/$
+                 <span>
+                  {
+                 </span>
+                 JobId}
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-export-job">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-jobs-export-job-id.html">
+                 export-job
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/jobs/export/$
+                 <span>
+                  {
+                 </span>
+                 JobId}
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-application-metrics">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-kpis-daterange-kpi-name.html">
+                 application-metrics
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/kpis/daterange/$
+                 <span>
+                  {
+                 </span>
+                 KpiName}
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-campaign-metrics">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-campaigns-campaign-id-kpis-daterange-kpi-name.html">
+                 campaign-metrics
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/campaigns/$
+                 <span>
+                  {
+                 </span>
+                 CampaignId}/kpis/daterange/$
+                 <span>
+                  {
+                 </span>
+                 KpiName}
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-journey-metrics">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys-journey-id-kpis-daterange-kpi-name.html">
+                 journey-metrics
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/journeys/$
+                 <span>
+                  {
+                 </span>
+                 JourneyId}/kpis/daterange/$
+                 <span>
+                  {
+                 </span>
+                 KpiName}
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-journey-execution-metrics">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys-journey-id-execution-metrics.html">
+                 journey-execution-metrics
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/journeys/$
+                 <span>
+                  {
+                 </span>
+                 JourneyId}/execution-metrics
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-journey-execution-activity-metrics">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/apps-application-id-journeys-journey-id-activities-journey-activity-id-execution-metrics.html">
+                 journey-execution-activity-metrics
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:apps/$
+                 <span>
+                  {
+                 </span>
+                 AppId}/journeys/$
+                 <span>
+                  {
+                 </span>
+                 JourneyId}/activities/$
+                 <span>
+                  {
+                 </span>
+                 JourneyActivityId}/execution-metrics
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-reports">
+                </a>
+                <a href="https://docs.aws.amazon.com/pinpoint/latest/apireference/reports.html">
+                 reports
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:mobiletargeting:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:reports
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
+             </table>
+            </div>
+           </div>
+           <h2 id="amazonpinpoint-policy-keys">
+            Condition keys for        Amazon Pinpoint
+           </h2>
+           <p>
+            Amazon Pinpoint defines the following condition keys that can be used in the
+            <code class="code">
+             Condition
+            </code>
+            element of an IAM policy. You can use these keys to further refine      the conditions under which the policy statement applies. For details about the columns in the      following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#context_keys_table" rel="noopener noreferrer" target="_blank">
+             Condition keys table
+            </a>
+            .
+           </p>
+           <p>
+            To view the global condition keys that are available to all services, see
+            <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#AvailableKeys">
+             Available global condition keys
+            </a>
+            .
+           </p>
+           <div class="table-container">
+            <div class="table-contents disable-scroll">
+             <table id="w43aab5b9e1135c15b7">
+              <thead>
+               <tr>
+                <th>
+                 Condition keys
+                </th>
+                <th>
+                 Description
+                </th>
+                <th>
+                 Type
+                </th>
+               </tr>
+              </thead>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-aws_RequestTag___TagKey_">
+                </a>
+                <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-permissions.html#iam-contextkeys">
+                 aws:RequestTag/${TagKey}
+                </a>
+               </td>
+               <td>
+                Filters access by a key that is present in the request the user makes to the pinpoint service
+               </td>
+               <td>
+                String
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-aws_ResourceTag___TagKey_">
+                </a>
+                <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-permissions.html#iam-contextkeys">
+                 aws:ResourceTag/${TagKey}
+                </a>
+               </td>
+               <td>
+                Filters access by a tag key and value pair
+               </td>
+               <td>
+                String
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonpinpoint-aws_TagKeys">
+                </a>
+                <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-permissions.html#iam-contextkeys">
+                 aws:TagKeys
+                </a>
+               </td>
+               <td>
+                Filters access by the list of all the tag key names present in the request the user makes to the pinpoint service
+               </td>
+               <td>
+                ArrayOfString
+               </td>
+              </tr>
+             </table>
+            </div>
+           </div>
+           <awsdocs-copyright class="copyright-print">
+           </awsdocs-copyright>
+           <awsdocs-thumb-feedback right-edge="{{$ctrl.thumbFeedbackRightEdge}}">
+           </awsdocs-thumb-feedback>
+          </div>
+          <noscript>
+           <div>
+            <div>
+             <div>
+              <div id="js_error_message">
+               <p>
+                <img alt="Warning" src="https://d1ge0kk1l5kms0.cloudfront.net/images/G/01/webservices/console/warning.png"/>
+                <strong>
+                 Javascript is disabled or is unavailable in your browser.
+                </strong>
+               </p>
+               <p>
+                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.
+               </p>
+              </div>
+             </div>
+            </div>
+           </div>
+          </noscript>
+          <div class="awsui-util-font-size-0" id="main-col-footer">
+           <div id="doc-conventions">
+            <a href="/general/latest/gr/docconventions.html" target="_top">
+             Document Conventions
+            </a>
+           </div>
+           <div class="prev-next">
+            <div accesskey="p" class="prev-link" href="./list_amazonpersonalize.html" id="previous">
+             Amazon Personalize
+            </div>
+            <div accesskey="n" class="next-link" href="./list_amazonpinpointemailservice.html" id="next">
+             Amazon Pinpoint Email Service
+            </div>
+           </div>
+          </div>
+          <awsdocs-page-utilities>
+          </awsdocs-page-utilities>
+         </div>
+         <div id="quick-feedback-yes" style="display: none;">
+          <div class="title">
+           Did this page help you? - Yes
+          </div>
+          <div class="content">
+           <p>
+            Thanks for letting us know we're doing a good job!
+           </p>
+           <p>
+            If you've got a moment, please tell us what we did right so we can do more of it.
+           </p>
+           <p>
+            <awsui-button click="linkClick($event)" href="https://docs.aws.amazon.com/forms/aws-doc-feedback?hidden_service_name=Service Authorization Docs&amp;topic_url=https://docs.aws.amazon.com/en_us/service-authorization/latest/reference/list_amazonpinpoint.html" id="fblink" rel="noopener noreferrer" target="_blank" text="Feedback">
+            </awsui-button>
+           </p>
+          </div>
+         </div>
+         <div id="quick-feedback-no" style="display: none;">
+          <div class="title">
+           Did this page help you? - No
+          </div>
+          <div class="content">
+           <p>
+            Thanks for letting us know this page needs work. We're sorry we let you down.
+           </p>
+           <p>
+            If you've got a moment, please tell us how we can make the documentation better.
+           </p>
+           <p>
+            <awsui-button click="linkClick($event)" href="https://docs.aws.amazon.com/forms/aws-doc-feedback?hidden_service_name=Service Authorization Docs&amp;topic_url=https://docs.aws.amazon.com/en_us/service-authorization/latest/reference/list_amazonpinpoint.html" id="fblink" rel="noopener noreferrer" target="_blank" text="Feedback">
+            </awsui-button>
+           </p>
+          </div>
+         </div>
+        </div>
+       </body>
+      </div>
+     </awsdocs-view>
+     <div class="page-loading-indicator" id="page-loading-indicator">
+      <awsui-spinner size="large">
+      </awsui-spinner>
+     </div>
+    </div>
+    <div dom-region="tools" id="tools-panel">
+     <awsdocs-tools-panel id="awsdocs-tools-panel">
+     </awsdocs-tools-panel>
+    </div>
+   </awsui-app-layout>
+   <awsdocs-cookie-banner class="doc-cookie-banner">
+   </awsdocs-cookie-banner>
+  </div>
+ </body>
+</html>
