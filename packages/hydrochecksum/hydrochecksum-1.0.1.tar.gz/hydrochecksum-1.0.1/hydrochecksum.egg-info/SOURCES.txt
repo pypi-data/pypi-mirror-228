@@ -1,0 +1,6 @@
+LICENSE.txt
+setup.py
+hydrochecksum.egg-info/PKG-INFO
+hydrochecksum.egg-info/SOURCES.txt
+hydrochecksum.egg-info/dependency_links.txt
+hydrochecksum.egg-info/top_level.txt
