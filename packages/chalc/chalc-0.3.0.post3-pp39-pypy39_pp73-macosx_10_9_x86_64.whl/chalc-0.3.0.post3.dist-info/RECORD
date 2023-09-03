@@ -1,0 +1,11 @@
+chalc/__init__.py,sha256=J98QoldDpzY9GjfPDUO7L5sf9p7y0gA_2dyii3dNLEg,246
+chalc/filtration.pypy39-pp73-darwin.so,sha256=Ghb7fhDlRKWVErv3wva0UB_75ew2zPixEWJ0n7EuLFw,216080
+chalc/chromatic.pypy39-pp73-darwin.so,sha256=WlK0cK11apmhTrt-ZbL_oQKtAiSV5yYWQ75F8SNEi5U,1189432
+chalc/_version.pypy39-pp73-darwin.so,sha256=0Q8KANcsQBm6YqwDCV2JkuGIpxM8eXLx3Gpjh0-0z1w,113904
+chalc-0.3.0.post3.data/data/CMakeLists.txt,sha256=1yphETIF8z6EoTC6SN_bYWvbmDcesyaZc30yksJAMY0,3662
+chalc-0.3.0.post3.data/data/vcpkg.json,sha256=MqQ2uVRNz6uIYBhtRqSm2VGzK9Xihe3hbamv9pyJn74,853
+chalc-0.3.0.post3.dist-info/RECORD,,
+chalc-0.3.0.post3.dist-info/WHEEL,sha256=zVLIaneD0jbTTsnEtCSSNgUw5fksCdZaw6GzWG-7aC0,110
+chalc-0.3.0.post3.dist-info/COPYING,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+chalc-0.3.0.post3.dist-info/top_level.txt,sha256=tVtYforZ_xPmAlFijY1M_2Yt1FDjWKJ8jsVHiTW8r44,6
+chalc-0.3.0.post3.dist-info/METADATA,sha256=DqJbvGSaukuIAxyYfTaexXm2hwKOan0kvjtRBzQzz30,42083
