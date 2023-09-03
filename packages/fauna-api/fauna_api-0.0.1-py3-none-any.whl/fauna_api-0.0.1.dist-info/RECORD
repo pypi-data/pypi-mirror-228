@@ -1,0 +1,17 @@
+fauna_api/__init__.py,sha256=RFlY6CjDVd8ogtmCh0lorPr8FBJORJPdPd3rBMQwc-I,210
+fauna_api/application.py,sha256=ZSP4kpnFRS0TpAF0TJG5xRm6avkLhbXzt5QrZdm3BEs,547
+fauna_api/client.py,sha256=QrqWjOhbLKuKtbkWZti1z51BUX3OC6h7-Ow8cctaU_Q,4338
+fauna_api/decorators.py,sha256=v3xPMONKFiE_gEk2kj4n5JQD8yKBt8hR3T10vosgZPk,1336
+fauna_api/json.py,sha256=9pX1Fc-BYgPvBtbz-fbwqEye2HC26y8DWapFqOGo3Wc,3257
+fauna_api/lib/__init__.py,sha256=xafGDxcEAQheOvH37Ig4vEHgFcUz7RCLOQPeMHkLVCg,90
+fauna_api/lib/errors.py,sha256=TUGBYspoR2Q8LJ0MeCRnsANpPU-fFHfD2ZfE15f8EH8,7206
+fauna_api/lib/objects.py,sha256=Wa_wSGpV-_59dt2RFegAYllTqplui9YNCsfrJ-kn_DI,5451
+fauna_api/lib/page.py,sha256=cQaXgE27_uXCRXL6hzDyroEfEJ6ifym-5OJlYpwEj08,1588
+fauna_api/lib/query.py,sha256=2iSt6SXmcMVHokZiZacTSC2bztcKicvU2jfaqtThzwY,16486
+fauna_api/odm.py,sha256=K4plTgXDJkIuFx0F5vrb8Dm0GSAdb3MBP5wkQjJMNeQ,7821
+fauna_api/streams.py,sha256=qaLXTK0-9TZmK5ig9ofBl6JXNC5lEBPOuVrpR3KX3lw,983
+fauna_api/typedefs.py,sha256=Fj9_s0UJzFnWrUuaZBHcXPrJeX-m18yMc3RpKQJZrCM,2683
+fauna_api/utils.py,sha256=FYbseRoRJ1jAJdMfs_6nHLimpCkjvmk1yPSSebiWflo,3702
+fauna_api-0.0.1.dist-info/METADATA,sha256=u0mc4RNzUoa1rAh4ZE5Y7eB2ur449caNzMtpmvXgvsI,753
+fauna_api-0.0.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+fauna_api-0.0.1.dist-info/RECORD,,
