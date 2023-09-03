@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: wbx-admin-utils
+Version: 1.0.0
+Summary: A collection of utilities for Webex Control Hub admins and compliance officers
+Author-email: Stephane Cohen <stecoheh@gmail.com>
+Keywords: Webex,Control Hub,groups
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# wbx-control-hub-groups
+
+## Usage:
+Python3 wbx-users-to-groups.py [options] command parameters
+
+## Commands:
+* LG                        list all groups
+* LU \<gid\>                list users from groupid
+* AI \<uid\> \<gid\>        Add userid to groupid
+* AC \<csv\> \<gid\>        Add emails in CSV file to groupid
+* DC \<csv\> \<gid\>        Delete emails in CSV file to groupid
+
+## Options:
+* -t \<token\>              Add access token as a parameter. Will be read from AUTH_BEARER Env Variable by default        
+
