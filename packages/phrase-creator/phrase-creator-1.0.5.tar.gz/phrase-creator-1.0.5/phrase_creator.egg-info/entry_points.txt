@@ -1,0 +1,2 @@
+[console_scripts]
+phrasemagic = phrase:main
