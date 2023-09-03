@@ -1,0 +1,13 @@
+chalc/__init__.py,sha256=R4jBMwKmjGG-qCYAZkcoJSwa7NSc4sSJr48vicLcoAg,253
+chalc/_version.cp310-win_amd64.pyd,sha256=EmLWfwTt8lTDK64OSM_-8oBu3bOHJqDzxYXKfs4N5PM,102400
+chalc/chromatic.cp310-win_amd64.pyd,sha256=f25JalAb5jy2WVuIqvt2-H4cARf6eWmkPQ6WHvCm4Dc,715264
+chalc/filtration.cp310-win_amd64.pyd,sha256=w2IBmo41BxAAHV849L7Li6t_SzKYWiLBev1e6jpr8zU,209920
+chalc/gmp-10.dll,sha256=SBuBOggbBubKcKd2a749IN1fZPf_-ef2WqOLdGnTeVg,420864
+chalc/mpfr-6.dll,sha256=jcEE98sH5mZ93plX9ic6Bi8ERVdfyUI2qzLcy4insNE,413184
+chalc-0.3.0.post3.data/data/CMakeLists.txt,sha256=EZGl3mQqwCTx8yUErcT77LGULGxk5YS6p_wvWF_cXIw,3750
+chalc-0.3.0.post3.data/data/vcpkg.json,sha256=CJceuO1FhOsgTR5PT0v0cyMsj-tFEO8MaboMP0t4zkQ,883
+chalc-0.3.0.post3.dist-info/COPYING,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+chalc-0.3.0.post3.dist-info/METADATA,sha256=stQzi-7mEnxiUJ_x1ekce6ZcKa5o6h65RWJsyrKM-_Q,42785
+chalc-0.3.0.post3.dist-info/WHEEL,sha256=wUIouuIHFqRckGKsgk22M6XNSH8sVWKH16ZX06368Dg,96
+chalc-0.3.0.post3.dist-info/top_level.txt,sha256=tVtYforZ_xPmAlFijY1M_2Yt1FDjWKJ8jsVHiTW8r44,6
+chalc-0.3.0.post3.dist-info/RECORD,,
