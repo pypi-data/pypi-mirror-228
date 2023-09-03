@@ -1,0 +1,6 @@
+# Requirements
+
+```{requirements} ../../requirements.txt
+---
+---
+```
