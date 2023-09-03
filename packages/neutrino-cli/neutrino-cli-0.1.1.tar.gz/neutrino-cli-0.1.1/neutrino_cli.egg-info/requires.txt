@@ -1,0 +1,7 @@
+click
+nbformat
+autopep8
+python-dotenv
+termcolor
+Jinja2
+PyYAML
