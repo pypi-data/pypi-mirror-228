@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pz-sniper
+Version: 0.1.3
+Summary: kill resources across all regions in AWS in a targetted fashion
+License-File: LICENSE
+
+This tool iterates over fields in a CSV representing resouces you want to delete. It then makes sure that resource is tagged with deleteme=yes. Then, it deletes.
