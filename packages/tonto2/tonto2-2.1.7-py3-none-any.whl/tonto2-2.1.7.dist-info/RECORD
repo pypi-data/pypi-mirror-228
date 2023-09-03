@@ -1,0 +1,16 @@
+tonto2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tonto2/tonto2_conv_adr.py,sha256=hvbRpd_-Ii9pD2EHus-a5g2fNU9SGYFmBG3hb1ma9vM,7294
+tonto2/tonto2_conv_cal.py,sha256=Fx5MhHUCXDwH_DJvUL_zdLeadeuZJU647RJJZkuYVbY,9155
+tonto2/tonto2_main.py,sha256=Tk-C-1-XTvmYhsyDqEc_5IrvYZC-Xni0tUWxRN2tt_w,305670
+tonto2/externals/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tonto2/externals/barcodes2.py,sha256=vjKOApjXrKwa9YXUJg3DnkrsD7-V0JY2QZgR4CiQJRg,18305
+tonto2/externals/q0.py,sha256=el68dq9HWlQOvUO4kn99QKW9c5ugBEW-l8PZ_Bii86A,103416
+tonto2/externals/tonto2_code_tables.py,sha256=dceI8uWuQ3O4GIAfeQ8JLUAkRkmfPE3UPIPn51DFIgw,2778
+tonto2/externals/tonto2_conv_common.py,sha256=_KuK6E1bY_9c3ks6iVEIgUkTSh0M86Pk_CW6Gye4n08,56095
+tonto2/externals/tonto2_parse_international_addresses.py,sha256=OqfXZmryxCltNVbpTn5YU_80pt0NXH92SLsLv0NaG9o,62540
+tonto2-2.1.7.data/data/Tonto2/tonto.code_tables.ini,sha256=N1MQ6I_tMNwZdTp_p_vRxtHgapyrSRYRjDE-K8nG-GI,13403
+tonto2-2.1.7.dist-info/entry_points.txt,sha256=9bcuUNaA0KGx2ea3rlnd3ybDIfMhniUaXT1dn_zs2Dk,174
+tonto2-2.1.7.dist-info/LICENSE,sha256=ljOS4DjXvqEo5VzGfdaRwgRZPbNScGBmfwyC8PChvmQ,32422
+tonto2-2.1.7.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+tonto2-2.1.7.dist-info/METADATA,sha256=Yq8B7-LMpnCovUDsEkKfA8bXWvvi479jsMjR5dBV9zM,8054
+tonto2-2.1.7.dist-info/RECORD,,
