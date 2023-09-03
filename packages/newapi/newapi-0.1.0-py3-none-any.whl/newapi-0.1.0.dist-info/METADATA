@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: newapi
+Version: 0.1.0
+Summary: Api framework from scratch
+License: The MIT License (MIT)
+Author: Johannes
+Author-email: joh@nnes.fi
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pydantic (==2.3)

@@ -1,0 +1,9 @@
+newapi/__init__.py,sha256=QNeU8E7r6LMbhBLg0tX1gm10FOUiE0GFjGGQEKYiK-s,69
+newapi/__main__.py,sha256=6zUU3XzkGBGOrYkZ3IzaWqAObX0UYimyhREMOnNkyO0,263
+newapi/enums.py,sha256=dFsaB3FvHHfCKawQGG5v1PWvZ79A3jHWWUL84-u6T-U,106
+newapi/response_models.py,sha256=RyZKgCkvMgprjnuddUn2JtEYgELjL5g9vBnaUiIzH6c,353
+newapi/router.py,sha256=nQN3WwqI61URU7EDsqENnp4dKJklMmBGL4ezJERl2rk,452
+newapi/server.py,sha256=LYxDJUtuZ3YqTLRB83Xn50RoqXx3OleanqVNG2Ycdrg,4645
+newapi-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+newapi-0.1.0.dist-info/METADATA,sha256=bVw-BYtW7jv7Pdtm64A5MvbJCz3VwIguxxzUPeKYlnk,369
+newapi-0.1.0.dist-info/RECORD,,
