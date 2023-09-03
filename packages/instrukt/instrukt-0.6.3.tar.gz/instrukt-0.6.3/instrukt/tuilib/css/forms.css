@@ -1,0 +1,42 @@
+FormControl Horizontal {
+    height: auto;
+}
+
+FormControl Button {
+    border: none;
+}
+
+FormControl.error Input {
+    /* border-subtitle-color: $warning; */
+}
+
+FormControl Select {
+    border: solid transparent;
+}
+
+FormControl.error Select {
+    /* border-subtitle-color: $warning; */
+}
+
+
+
+FormControl SelectCurrent { 
+    border: none;
+}
+
+FormControl SelectCurrent .arrow {
+}
+
+FormControl SelectOverlay {
+    border: none;
+    padding: 0;
+}
+
+FormControl Select.-expanded > SelectCurrent {
+    background: $foreground 50%;
+}
+
+FormControl Select:focus > SelectCurrent {
+    background: $success-darken-3 80%;
+}
+
