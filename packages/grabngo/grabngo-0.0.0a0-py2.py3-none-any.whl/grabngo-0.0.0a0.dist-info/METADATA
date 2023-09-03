@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: grabngo
+Version: 0.0.0a0
+Summary: Optimal Permutation-based SGD Data Sampler for PyTorch
+Author-email: garywei944 <garywei944@gmail.com>
+License: Apache Software License 2.0
+Project-URL: Homepage, https://www.garywei.dev
+Project-URL: Documentation, https://readthedocs.org
+Project-URL: Repository, https://github.com/garywei944/grabngo
+Project-URL: Changelog, https://github.com/garywei944/grabngo/blob/main/HISTORY.rst
+Project-URL: BugTracker, https://github.com/GarlGuo/GraB-lib/issues
+Keywords: GraB,data-permutation,PyTorch,dataloader,sampler
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: torch >=2.0.0
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: absl-py
+Requires-Dist: overrides
+Provides-Extra: random-projection
+Requires-Dist: scikit-learn ; extra == 'random-projection'
+Provides-Extra: sparse
+Requires-Dist: torch-sparse ; extra == 'sparse'
+
+=========
+GraB'n Go
+=========
+
+
+.. image:: https://img.shields.io/pypi/v/grabngo.svg
+        :target: https://pypi.python.org/pypi/grabngo
+
+.. image:: https://img.shields.io/travis/garywei944/grabngo.svg
+        :target: https://travis-ci.com/garywei944/grabngo
+
+.. image:: https://readthedocs.org/projects/grabngo/badge/?version=latest
+        :target: https://grabngo.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Optimal Permutation-based SGD Data Sampler for PyTorch
+
+
+* Free software: Apache Software License 2.0
+* Documentation: https://grabngo.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+=======
+History
+=======
+
+0.1.0 (2023-09-02)
+------------------
+
+* First release on PyPI.
