@@ -1,0 +1,32 @@
+[build-system]
+requires = [
+    "setuptools>=61.0"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdfsyntax"
+version = "0.0.7"
+authors = [ 
+    { name="Martin D.", email="desgeeko@gmail.com" } 
+]
+description = "A Python PDF parsing library and tool built on top to browse the internal structure of a PDF file"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Utilities"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/desgeeko/pdfsyntax"
+"Bug Tracker" = "https://github.com/desgeeko/pdfsyntax/issues"
+
+[tool.setuptools]
+packages = ["pdfsyntax"]
