@@ -1,0 +1,6 @@
+exclude byquant/bybot/bottest.py
+exclude byquant/bybot/compile.py
+prune byquant/bybot/lib
+prune byquant/bybot/model
+prune byquant/bybot/strategy
+prune byquant/bybot/vip
