@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: cropgym
+Version: 0.0.1
+Summary: Reinforcement Learning Environment for Crop Management
+Home-page: https://cropgym.ai/
+Keywords: reinforcement learning
+Author: Wageningen University and Research
+Requires-Python: >=3.10,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: datetime (>=5.2,<6.0)
+Requires-Dist: gymnasium (>=0.29.1,<0.30.0)
+Requires-Dist: lib-programname (>=2.0.9,<3.0.0)
+Requires-Dist: matplotlib (>=3.7.2,<4.0.0)
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: pandas (>=2.1.0,<3.0.0)
+Requires-Dist: pcse (>=5.5.5,<6.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: sb3-contrib (>=2.1.0,<3.0.0)
+Requires-Dist: scipy (>=1.11.2,<2.0.0)
+Requires-Dist: stable-baselines3 (>=2.1.0,<3.0.0)
+Requires-Dist: tensorboard (>=2.14.0,<3.0.0)
+Requires-Dist: torch (>=2.0.1,<3.0.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+CropGym is a highly configurable [Python gymnasium](https://gymnasium.farama.org/) environment to conduct Reinforcement Learning (RL) research for crop management. CropGym is built around [PCSE](https://pcse.readthedocs.io/en/stable/), a well established python library that includes implementations of a variety of crop simulation models. Please refer to https://cropgym.ai/ for further information.
