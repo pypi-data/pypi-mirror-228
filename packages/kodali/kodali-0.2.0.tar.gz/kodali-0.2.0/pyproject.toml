@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kodali"
+version = "0.2.0"
+description = "Korean Dataset Loading Inferface"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tqdm = "^4.66.1"
+strenum = "^0.4.15"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-env = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
