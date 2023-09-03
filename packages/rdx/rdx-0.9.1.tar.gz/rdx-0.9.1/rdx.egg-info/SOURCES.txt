@@ -1,0 +1,9 @@
+LICENSE
+README.md
+rdx.py
+setup.py
+rdx.egg-info/PKG-INFO
+rdx.egg-info/SOURCES.txt
+rdx.egg-info/dependency_links.txt
+rdx.egg-info/requires.txt
+rdx.egg-info/top_level.txt
