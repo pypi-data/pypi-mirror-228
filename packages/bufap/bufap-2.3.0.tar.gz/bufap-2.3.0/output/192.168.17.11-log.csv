@@ -1,0 +1,1259 @@
+datetime,facility,message
+2023/09/01 16:35:10,WIRELESS,wl1 (2.4GHz): Detect interference(92per) [with Non-802.11] on channel 11.
+2023/09/01 16:31:55,ADT,publish: CONNECT(0)=0
+2023/09/01 16:31:44,WIRELESS,wl1 (2.4GHz): Detect interference(95per) [with Non-802.11] on channel 11.
+2023/09/01 16:31:30,ADT,The file was uploaded.
+2023/09/01 16:31:26,ADT,Call: REQUEST_SYSLOG(send_log)
+2023/09/01 16:31:26,ADT,Send log file.
+2023/09/01 16:31:23,ADT,publish: EXEC(0)=0
+2023/09/01 16:31:17,ADT,Subscribe callback(operation)
+2023/09/01 16:31:16,ADT,publish: request_operation(request_file_upload)=0
+2023/09/01 16:30:11,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 16:30:03,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 16:30:02,ADT,### Scheduled time.
+2023/09/01 16:04:59,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 16:04:59,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 16:04:46,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/09/01 16:04:46,WIRELESS,wl1 (2.4GHz): Switch Channel 11 / 20 MHz
+2023/09/01 16:04:46,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 11 / 20 MHz
+2023/09/01 16:04:46,WIRELESS,wl1 (2.4GHz): Detect interference(91per) [with Non-802.11] on channel 13.
+2023/09/01 16:04:46,WIRELESS,wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 12.
+2023/09/01 16:04:46,WIRELESS,wl1 (2.4GHz): Detect interference(79per) on channel 11.
+2023/09/01 16:04:46,WIRELESS,wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 10.
+2023/09/01 16:04:46,WIRELESS,wl1 (2.4GHz): Detect interference(94per) [with Non-802.11] on channel 9.
+2023/09/01 16:04:46,WIRELESS,wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 8.
+2023/09/01 16:04:46,WIRELESS,wl1 (2.4GHz): Detect interference(51per) on channel 5.
+2023/09/01 16:04:46,WIRELESS,wl1 (2.4GHz): Detect interference(56per) on channel 3.
+2023/09/01 16:04:46,WIRELESS,wl1 (2.4GHz): Detect interference(59per) on channel 1.
+2023/09/01 16:04:31,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 48 / 80 MHz
+2023/09/01 16:04:31,WIRELESS,wl0 (5GHz): Detect interference(66per) on channel 144.
+2023/09/01 16:04:31,WIRELESS,wl0 (5GHz): Detect interference(66per) on channel 140.
+2023/09/01 16:04:31,WIRELESS,wl0 (5GHz): Detect interference(66per) on channel 136.
+2023/09/01 16:04:31,WIRELESS,wl0 (5GHz): Detect interference(66per) on channel 132.
+2023/09/01 16:04:31,WIRELESS,wl0 (5GHz): Detect interference(67per) on channel 128.
+2023/09/01 16:04:31,WIRELESS,wl0 (5GHz): Detect interference(67per) on channel 124.
+2023/09/01 16:04:31,WIRELESS,wl0 (5GHz): Detect interference(67per) on channel 120.
+2023/09/01 16:04:31,WIRELESS,wl0 (5GHz): Detect interference(67per) on channel 116.
+2023/09/01 16:04:31,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 48.
+2023/09/01 16:04:31,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 44.
+2023/09/01 16:04:31,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 40.
+2023/09/01 16:04:31,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 36.
+2023/09/01 16:04:24,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 16:00:12,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 16:00:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 16:00:03,ADT,### Scheduled time.
+2023/09/01 15:58:54,WIRELESS,wl3 (5GHz): A radar pulse detected at Ch 64 / 20 MHz
+2023/09/01 15:57:16,WIRELESS,wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 1.
+2023/09/01 15:45:05,WIRELESS,wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 1.
+2023/09/01 15:44:55,WIRELESS,wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/09/01 15:40:41,WIRELESS,wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/09/01 15:38:41,WIRELESS,wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 1.
+2023/09/01 15:37:23,WIRELESS,wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 1.
+2023/09/01 15:33:04,WIRELESS,wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 1.
+2023/09/01 15:30:13,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 15:30:05,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 15:30:04,ADT,### Scheduled time.
+2023/09/01 15:28:45,WIRELESS,wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/09/01 15:26:15,WIRELESS,wl1 (2.4GHz): Detect interference(67per) [with Non-802.11] on channel 1.
+2023/09/01 15:24:21,WIRELESS,wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 1.
+2023/09/01 15:22:59,WIRELESS,wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 1.
+2023/09/01 15:18:34,WIRELESS,wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/09/01 15:04:59,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 15:04:59,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 15:04:45,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2023/09/01 15:04:45,WIRELESS,wl1 (2.4GHz): Detect interference(91per) [with Non-802.11] on channel 13.
+2023/09/01 15:04:45,WIRELESS,wl1 (2.4GHz): Detect interference(94per) [with Non-802.11] on channel 12.
+2023/09/01 15:04:45,WIRELESS,wl1 (2.4GHz): Detect interference(94per) on channel 11.
+2023/09/01 15:04:45,WIRELESS,wl1 (2.4GHz): Detect interference(91per) [with Non-802.11] on channel 10.
+2023/09/01 15:04:45,WIRELESS,wl1 (2.4GHz): Detect interference(96per) [with Non-802.11] on channel 9.
+2023/09/01 15:04:45,WIRELESS,wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 8.
+2023/09/01 15:04:45,WIRELESS,wl1 (2.4GHz): Detect interference(54per) on channel 7.
+2023/09/01 15:04:45,WIRELESS,wl1 (2.4GHz): Detect interference(53per) on channel 6.
+2023/09/01 15:04:44,WIRELESS,wl1 (2.4GHz): Detect interference(65per) on channel 3.
+2023/09/01 15:04:44,WIRELESS,wl1 (2.4GHz): Detect interference(57per) on channel 1.
+2023/09/01 15:04:32,WIRELESS,wl3 (5GHz): Switch Channel 52 / 80 MHz
+2023/09/01 15:04:31,WIRELESS,wl0 (5GHz): Start sending beacon
+2023/09/01 15:04:30,WIRELESS,wl0 (5GHz): Switch Channel 48 / 80 MHz
+2023/09/01 15:04:29,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 48 / 80 MHz
+2023/09/01 15:04:29,WIRELESS,wl0 (5GHz): Detect interference(53per) on channel 112.
+2023/09/01 15:04:29,WIRELESS,wl0 (5GHz): Detect interference(53per) on channel 108.
+2023/09/01 15:04:29,WIRELESS,wl0 (5GHz): Detect interference(53per) on channel 104.
+2023/09/01 15:04:29,WIRELESS,wl0 (5GHz): Detect interference(53per) on channel 100.
+2023/09/01 15:04:24,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 15:02:26,ADT,publish: status(1)=0
+2023/09/01 15:01:59,ADT,publish: EXEC(1)=0
+2023/09/01 15:01:53,ADT,Subscribe callback(status_scheduled)
+2023/09/01 15:00:13,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 15:00:05,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 15:00:04,ADT,### Scheduled time.
+2023/09/01 14:54:59,WIRELESS,wl3 (5GHz): A radar pulse detected at Ch 64 / 20 MHz
+2023/09/01 14:48:53,WIRELESS,wl3 (5GHz): A radar pulse detected at Ch 64 / 20 MHz
+2023/09/01 14:40:02,WIRELESS,wl3 (5GHz): A radar pulse detected at Ch 64 / 20 MHz
+2023/09/01 14:38:53,WIRELESS,wl3 (5GHz): A radar pulse detected at Ch 64 / 20 MHz
+2023/09/01 14:33:16,WIRELESS,wl3 (5GHz): A radar pulse detected at Ch 64 / 20 MHz
+2023/09/01 14:30:13,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 14:30:05,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 14:30:04,ADT,### Scheduled time.
+2023/09/01 14:27:52,WIRELESS,wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/09/01 14:23:33,WIRELESS,wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 1.
+2023/09/01 14:14:40,WIRELESS,wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/09/01 14:11:44,WIRELESS,wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/09/01 14:11:33,WIRELESS,wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/09/01 14:07:04,WIRELESS,wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 1.
+2023/09/01 14:04:59,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 14:04:59,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 14:04:44,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/09/01 14:04:44,WIRELESS,wl1 (2.4GHz): Switch Channel 1 / 20 MHz
+2023/09/01 14:04:43,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2023/09/01 14:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 13.
+2023/09/01 14:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 12.
+2023/09/01 14:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(94per) on channel 11.
+2023/09/01 14:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 10.
+2023/09/01 14:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(94per) [with Non-802.11] on channel 9.
+2023/09/01 14:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 8.
+2023/09/01 14:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(54per) on channel 7.
+2023/09/01 14:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(51per) on channel 6.
+2023/09/01 14:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(52per) on channel 5.
+2023/09/01 14:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(51per) on channel 4.
+2023/09/01 14:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(68per) on channel 3.
+2023/09/01 14:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(54per) on channel 2.
+2023/09/01 14:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(54per) on channel 1.
+2023/09/01 14:04:30,WIRELESS,wl3 (5GHz): Switch Channel 52 / 80 MHz
+2023/09/01 14:04:29,WIRELESS,wl0 (5GHz): Start sending beacon
+2023/09/01 14:04:29,WIRELESS,wl0 (5GHz): Switch Channel 44 / 80 MHz
+2023/09/01 14:04:28,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 44 / 80 MHz
+2023/09/01 14:04:24,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 14:00:10,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 14:00:03,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 14:00:02,ADT,### Scheduled time.
+2023/09/01 13:46:10,WIRELESS,wl3 (5GHz): A radar pulse detected at Ch 64 / 20 MHz
+2023/09/01 13:30:11,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 13:30:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 13:30:03,ADT,### Scheduled time.
+2023/09/01 13:13:04,WIRELESS,wl3 (5GHz): A radar pulse detected at Ch 64 / 20 MHz
+2023/09/01 13:07:26,NTP,SUCCESS: set time :  Fri Sep  1 13:07:26 2023
+2023/09/01 13:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 13:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 13:04:45,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/09/01 13:04:44,WIRELESS,wl1 (2.4GHz): Switch Channel 11 / 20 MHz
+2023/09/01 13:04:44,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 11 / 20 MHz
+2023/09/01 13:04:44,WIRELESS,wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 13.
+2023/09/01 13:04:44,WIRELESS,wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 12.
+2023/09/01 13:04:44,WIRELESS,wl1 (2.4GHz): Detect interference(78per) on channel 11.
+2023/09/01 13:04:44,WIRELESS,wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 10.
+2023/09/01 13:04:44,WIRELESS,wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 9.
+2023/09/01 13:04:44,WIRELESS,wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 8.
+2023/09/01 13:04:44,WIRELESS,wl1 (2.4GHz): Detect interference(51per) on channel 6.
+2023/09/01 13:04:44,WIRELESS,wl1 (2.4GHz): Detect interference(55per) on channel 5.
+2023/09/01 13:04:44,WIRELESS,wl1 (2.4GHz): Detect interference(52per) on channel 4.
+2023/09/01 13:04:44,WIRELESS,wl1 (2.4GHz): Detect interference(57per) on channel 3.
+2023/09/01 13:04:44,WIRELESS,wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 2.
+2023/09/01 13:04:44,WIRELESS,wl1 (2.4GHz): Detect interference(66per) on channel 1.
+2023/09/01 13:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 13:04:19,WIRELESS,wl3 (5GHz): Switch Channel 52 / 80 MHz
+2023/09/01 13:04:18,WIRELESS,wl0 (5GHz): Start sending beacon
+2023/09/01 13:04:18,WIRELESS,wl0 (5GHz): Switch Channel 36 / 80 MHz
+2023/09/01 13:04:17,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 36 / 80 MHz
+2023/09/01 13:00:12,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 13:00:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 13:00:03,ADT,### Scheduled time.
+2023/09/01 12:36:33,ADT,publish: CONNECT(0)=0
+2023/09/01 12:36:08,ADT,The file was uploaded.
+2023/09/01 12:36:04,ADT,Call: REQUEST_SYSLOG(send_log)
+2023/09/01 12:36:04,ADT,Send log file.
+2023/09/01 12:36:01,ADT,publish: EXEC(0)=0
+2023/09/01 12:35:55,ADT,Subscribe callback(operation)
+2023/09/01 12:35:54,ADT,publish: request_operation(request_file_upload)=0
+2023/09/01 12:30:09,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 12:30:02,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 12:30:01,ADT,### Scheduled time.
+2023/09/01 12:06:23,ADT,publish: CONNECT(0)=0
+2023/09/01 12:05:59,ADT,Send wireless file.
+2023/09/01 12:05:58,ADT,The file was uploaded.
+2023/09/01 12:05:57,ADT,Send wired file.
+2023/09/01 12:05:54,ADT,publish: EXEC(0)=0
+2023/09/01 12:05:48,ADT,Subscribe callback(operation)
+2023/09/01 12:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 12:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 12:04:43,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2023/09/01 12:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 13.
+2023/09/01 12:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 12.
+2023/09/01 12:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(90per) on channel 11.
+2023/09/01 12:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 10.
+2023/09/01 12:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(92per) [with Non-802.11] on channel 9.
+2023/09/01 12:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 8.
+2023/09/01 12:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(64per) [with Non-802.11] on channel 7.
+2023/09/01 12:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(57per) on channel 6.
+2023/09/01 12:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(53per) on channel 5.
+2023/09/01 12:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(54per) on channel 4.
+2023/09/01 12:04:43,WIRELESS,wl1 (2.4GHz): Detect interference(56per) on channel 3.
+2023/09/01 12:04:30,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/09/01 12:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 12:03:40,WIRELESS,wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 1.
+2023/09/01 12:00:10,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 12:00:03,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 12:00:02,ADT,### Scheduled time.
+2023/09/01 11:30:11,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 11:30:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 11:30:03,ADT,### Scheduled time.
+2023/09/01 11:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 11:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 11:04:42,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2023/09/01 11:04:42,WIRELESS,wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 13.
+2023/09/01 11:04:42,WIRELESS,wl1 (2.4GHz): Detect interference(91per) [with Non-802.11] on channel 12.
+2023/09/01 11:04:42,WIRELESS,wl1 (2.4GHz): Detect interference(94per) on channel 11.
+2023/09/01 11:04:42,WIRELESS,wl1 (2.4GHz): Detect interference(94per) [with Non-802.11] on channel 10.
+2023/09/01 11:04:42,WIRELESS,wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 9.
+2023/09/01 11:04:42,WIRELESS,wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 8.
+2023/09/01 11:04:42,WIRELESS,wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 7.
+2023/09/01 11:04:42,WIRELESS,wl1 (2.4GHz): Detect interference(68per) on channel 6.
+2023/09/01 11:04:42,WIRELESS,wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 5.
+2023/09/01 11:04:42,WIRELESS,wl1 (2.4GHz): Detect interference(61per) on channel 4.
+2023/09/01 11:04:42,WIRELESS,wl1 (2.4GHz): Detect interference(60per) on channel 3.
+2023/09/01 11:04:42,WIRELESS,wl1 (2.4GHz): Detect interference(54per) on channel 2.
+2023/09/01 11:04:42,WIRELESS,wl1 (2.4GHz): Detect interference(50per) on channel 1.
+2023/09/01 11:04:27,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/09/01 11:04:27,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 144.
+2023/09/01 11:04:27,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 140.
+2023/09/01 11:04:27,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 136.
+2023/09/01 11:04:27,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 132.
+2023/09/01 11:04:27,WIRELESS,wl0 (5GHz): Detect interference(53per) on channel 112.
+2023/09/01 11:04:27,WIRELESS,wl0 (5GHz): Detect interference(53per) on channel 108.
+2023/09/01 11:04:27,WIRELESS,wl0 (5GHz): Detect interference(53per) on channel 104.
+2023/09/01 11:04:27,WIRELESS,wl0 (5GHz): Detect interference(53per) on channel 100.
+2023/09/01 11:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 11:00:13,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 11:00:05,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 11:00:04,ADT,### Scheduled time.
+2023/09/01 10:30:10,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 10:30:03,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 10:30:02,ADT,### Scheduled time.
+2023/09/01 10:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 10:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 10:04:41,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/09/01 10:04:41,WIRELESS,wl1 (2.4GHz): Switch Channel 1 / 20 MHz
+2023/09/01 10:04:40,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2023/09/01 10:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 13.
+2023/09/01 10:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 12.
+2023/09/01 10:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(93per) on channel 11.
+2023/09/01 10:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 10.
+2023/09/01 10:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 9.
+2023/09/01 10:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 8.
+2023/09/01 10:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(53per) on channel 7.
+2023/09/01 10:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(62per) on channel 1.
+2023/09/01 10:04:27,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/09/01 10:04:27,WIRELESS,wl0 (5GHz): Detect interference(56per) on channel 144.
+2023/09/01 10:04:27,WIRELESS,wl0 (5GHz): Detect interference(56per) on channel 140.
+2023/09/01 10:04:27,WIRELESS,wl0 (5GHz): Detect interference(56per) on channel 136.
+2023/09/01 10:04:27,WIRELESS,wl0 (5GHz): Detect interference(56per) on channel 132.
+2023/09/01 10:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 10:00:15,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 10:00:07,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 10:00:06,ADT,### Scheduled time.
+2023/09/01 09:55:43,WIRELESS,wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 2.
+2023/09/01 09:43:34,WIRELESS,wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 2.
+2023/09/01 09:35:02,WIRELESS,wl1 (2.4GHz): Detect interference(63per) [with Non-802.11] on channel 2.
+2023/09/01 09:31:19,WIRELESS,wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 2.
+2023/09/01 09:30:12,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 09:30:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 09:30:03,ADT,### Scheduled time.
+2023/09/01 09:23:34,WIRELESS,wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 2.
+2023/09/01 09:19:52,WIRELESS,wl1 (2.4GHz): Detect interference(58per) [with Non-802.11] on channel 2.
+2023/09/01 09:15:48,WIRELESS,wl1 (2.4GHz): Detect interference(67per) [with Non-802.11] on channel 2.
+2023/09/01 09:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 09:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 09:04:55,WIRELESS,wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 2.
+2023/09/01 09:04:40,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 2 / 20 MHz
+2023/09/01 09:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 13.
+2023/09/01 09:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 12.
+2023/09/01 09:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(92per) on channel 11.
+2023/09/01 09:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(93per) [with Non-802.11] on channel 10.
+2023/09/01 09:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(96per) [with Non-802.11] on channel 9.
+2023/09/01 09:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 8.
+2023/09/01 09:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(66per) on channel 6.
+2023/09/01 09:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(50per) on channel 5.
+2023/09/01 09:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(54per) on channel 3.
+2023/09/01 09:04:40,WIRELESS,wl1 (2.4GHz): Detect interference(62per) on channel 1.
+2023/09/01 09:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 09:04:25,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/09/01 09:04:25,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 128.
+2023/09/01 09:04:25,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 124.
+2023/09/01 09:04:25,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 120.
+2023/09/01 09:04:25,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 116.
+2023/09/01 09:02:21,ADT,publish: status(1)=0
+2023/09/01 09:01:54,ADT,publish: EXEC(1)=0
+2023/09/01 09:01:48,ADT,Subscribe callback(status_scheduled)
+2023/09/01 09:01:26,WIRELESS,wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 2.
+2023/09/01 09:00:11,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 09:00:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 09:00:03,ADT,### Scheduled time.
+2023/09/01 08:58:10,WIRELESS,wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 2.
+2023/09/01 08:52:38,WIRELESS,wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 2.
+2023/09/01 08:52:33,WIRELESS,wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 2.
+2023/09/01 08:49:28,WIRELESS,wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 2.
+2023/09/01 08:49:12,WIRELESS,wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 2.
+2023/09/01 08:46:12,WIRELESS,wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 2.
+2023/09/01 08:45:52,WIRELESS,wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 2.
+2023/09/01 08:42:55,WIRELESS,wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 2.
+2023/09/01 08:42:44,WIRELESS,wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 2.
+2023/09/01 08:39:43,WIRELESS,wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 2.
+2023/09/01 08:38:57,WIRELESS,wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 2.
+2023/09/01 08:36:32,WIRELESS,wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 2.
+2023/09/01 08:35:03,WIRELESS,wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 2.
+2023/09/01 08:33:30,WIRELESS,wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 2.
+2023/09/01 08:31:57,ADT,publish: CONNECT(0)=0
+2023/09/01 08:31:32,ADT,The file was uploaded.
+2023/09/01 08:31:29,ADT,Call: REQUEST_SYSLOG(send_log)
+2023/09/01 08:31:29,ADT,Send log file.
+2023/09/01 08:31:26,ADT,publish: EXEC(0)=0
+2023/09/01 08:31:19,ADT,Subscribe callback(operation)
+2023/09/01 08:31:18,ADT,publish: request_operation(request_file_upload)=0
+2023/09/01 08:31:15,WIRELESS,wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 2.
+2023/09/01 08:30:18,WIRELESS,wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 2.
+2023/09/01 08:30:13,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 08:30:05,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 08:30:04,ADT,### Scheduled time.
+2023/09/01 08:28:03,WIRELESS,wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 2.
+2023/09/01 08:27:16,WIRELESS,wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 2.
+2023/09/01 08:25:02,WIRELESS,wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 2.
+2023/09/01 08:24:10,WIRELESS,wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 2.
+2023/09/01 08:21:04,WIRELESS,wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 2.
+2023/09/01 08:20:54,WIRELESS,wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 2.
+2023/09/01 08:17:58,WIRELESS,wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 2.
+2023/09/01 08:17:38,WIRELESS,wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 2.
+2023/09/01 08:14:53,WIRELESS,wl1 (2.4GHz): Detect interference(55per) [with Non-802.11] on channel 2.
+2023/09/01 08:14:01,WIRELESS,wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 2.
+2023/09/01 08:11:34,WIRELESS,wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 2.
+2023/09/01 08:08:33,WIRELESS,wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 2.
+2023/09/01 08:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 08:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 08:04:39,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/09/01 08:04:39,WIRELESS,wl1 (2.4GHz): Switch Channel 2 / 20 MHz
+2023/09/01 08:04:38,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 2 / 20 MHz
+2023/09/01 08:04:38,WIRELESS,wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 13.
+2023/09/01 08:04:38,WIRELESS,wl1 (2.4GHz): Detect interference(56per) on channel 11.
+2023/09/01 08:04:38,WIRELESS,wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 10.
+2023/09/01 08:04:38,WIRELESS,wl1 (2.4GHz): Detect interference(51per) on channel 9.
+2023/09/01 08:04:38,WIRELESS,wl1 (2.4GHz): Detect interference(51per) on channel 8.
+2023/09/01 08:04:38,WIRELESS,wl1 (2.4GHz): Detect interference(56per) on channel 6.
+2023/09/01 08:04:38,WIRELESS,wl1 (2.4GHz): Detect interference(62per) on channel 4.
+2023/09/01 08:04:38,WIRELESS,wl1 (2.4GHz): Detect interference(72per) on channel 1.
+2023/09/01 08:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 08:04:21,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/09/01 08:00:10,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 08:00:02,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 08:00:01,ADT,### Scheduled time.
+2023/09/01 07:30:11,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 07:30:03,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 07:30:02,ADT,### Scheduled time.
+2023/09/01 07:28:01,WIRELESS,wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 1.
+2023/09/01 07:16:39,WIRELESS,wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 1.
+2023/09/01 07:15:53,WIRELESS,wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 1.
+2023/09/01 07:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 07:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 07:04:39,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/09/01 07:04:38,WIRELESS,wl1 (2.4GHz): Switch Channel 1 / 20 MHz
+2023/09/01 07:04:38,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2023/09/01 07:04:38,WIRELESS,wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 13.
+2023/09/01 07:04:38,WIRELESS,wl1 (2.4GHz): Detect interference(58per) on channel 4.
+2023/09/01 07:04:38,WIRELESS,wl1 (2.4GHz): Detect interference(58per) [with Non-802.11] on channel 3.
+2023/09/01 07:04:38,WIRELESS,wl1 (2.4GHz): Detect interference(67per) on channel 2.
+2023/09/01 07:04:38,WIRELESS,wl1 (2.4GHz): Detect interference(71per) on channel 1.
+2023/09/01 07:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 07:04:23,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/09/01 07:02:01,WIRELESS,wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 13.
+2023/09/01 07:00:12,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 07:00:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 07:00:03,ADT,### Scheduled time.
+2023/09/01 06:54:51,WIRELESS,wl1 (2.4GHz): Detect interference(56per) [with Non-802.11] on channel 13.
+2023/09/01 06:50:02,WIRELESS,wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 13.
+2023/09/01 06:39:22,WIRELESS,wl1 (2.4GHz): Detect interference(50per) [with Non-802.11] on channel 13.
+2023/09/01 06:36:21,WIRELESS,wl1 (2.4GHz): Detect interference(50per) [with Non-802.11] on channel 13.
+2023/09/01 06:33:19,WIRELESS,wl1 (2.4GHz): Detect interference(54per) [with Non-802.11] on channel 13.
+2023/09/01 06:30:09,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 06:30:02,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 06:30:01,ADT,### Scheduled time.
+2023/09/01 06:29:27,WIRELESS,wl1 (2.4GHz): Detect interference(60per) [with Non-802.11] on channel 13.
+2023/09/01 06:26:26,WIRELESS,wl1 (2.4GHz): Detect interference(56per) [with Non-802.11] on channel 13.
+2023/09/01 06:22:25,WIRELESS,wl1 (2.4GHz): Detect interference(58per) [with Non-802.11] on channel 13.
+2023/09/01 06:19:24,WIRELESS,wl1 (2.4GHz): Detect interference(52per) [with Non-802.11] on channel 13.
+2023/09/01 06:15:52,WIRELESS,wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 13.
+2023/09/01 06:12:35,WIRELESS,wl1 (2.4GHz): Detect interference(54per) [with Non-802.11] on channel 13.
+2023/09/01 06:09:03,WIRELESS,wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 13.
+2023/09/01 06:06:55,ADT,publish: CONNECT(0)=0
+2023/09/01 06:06:31,ADT,Send wireless file.
+2023/09/01 06:06:30,ADT,The file was uploaded.
+2023/09/01 06:06:30,ADT,Send wired file.
+2023/09/01 06:06:27,ADT,publish: EXEC(0)=0
+2023/09/01 06:06:21,ADT,Subscribe callback(operation)
+2023/09/01 06:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 06:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 06:04:37,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/09/01 06:04:37,WIRELESS,wl1 (2.4GHz): Switch Channel 13 / 20 MHz
+2023/09/01 06:04:36,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 13 / 20 MHz
+2023/09/01 06:04:36,WIRELESS,wl1 (2.4GHz): Detect interference(55per) on channel 12.
+2023/09/01 06:04:36,WIRELESS,wl1 (2.4GHz): Detect interference(58per) on channel 11.
+2023/09/01 06:04:36,WIRELESS,wl1 (2.4GHz): Detect interference(50per) on channel 10.
+2023/09/01 06:04:36,WIRELESS,wl1 (2.4GHz): Detect interference(60per) [with Non-802.11] on channel 9.
+2023/09/01 06:04:36,WIRELESS,wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 8.
+2023/09/01 06:04:36,WIRELESS,wl1 (2.4GHz): Detect interference(55per) on channel 1.
+2023/09/01 06:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 06:04:18,WIRELESS,wl0 (5GHz): Start sending beacon
+2023/09/01 06:04:18,WIRELESS,wl0 (5GHz): Switch Channel 64 / 80 MHz
+2023/09/01 06:04:18,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/09/01 06:00:12,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 06:00:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 06:00:03,ADT,### Scheduled time.
+2023/09/01 05:30:13,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 05:30:05,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 05:30:04,ADT,### Scheduled time.
+2023/09/01 05:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 05:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 05:04:35,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2023/09/01 05:04:35,WIRELESS,wl1 (2.4GHz): Detect interference(55per) on channel 12.
+2023/09/01 05:04:35,WIRELESS,wl1 (2.4GHz): Detect interference(58per) on channel 11.
+2023/09/01 05:04:35,WIRELESS,wl1 (2.4GHz): Detect interference(50per) on channel 10.
+2023/09/01 05:04:35,WIRELESS,wl1 (2.4GHz): Detect interference(60per) [with Non-802.11] on channel 9.
+2023/09/01 05:04:35,WIRELESS,wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 8.
+2023/09/01 05:04:35,WIRELESS,wl1 (2.4GHz): Detect interference(58per) on channel 1.
+2023/09/01 05:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 05:04:25,WIRELESS,wl3 (5GHz): Switch Channel 52 / 80 MHz
+2023/09/01 05:04:23,WIRELESS,wl0 (5GHz): Start sending beacon
+2023/09/01 05:04:23,WIRELESS,wl0 (5GHz): Switch Channel 36 / 80 MHz
+2023/09/01 05:04:22,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 36 / 80 MHz
+2023/09/01 05:04:22,WIRELESS,wl0 (5GHz): Detect interference(51per) on channel 128.
+2023/09/01 05:04:22,WIRELESS,wl0 (5GHz): Detect interference(51per) on channel 124.
+2023/09/01 05:04:22,WIRELESS,wl0 (5GHz): Detect interference(51per) on channel 120.
+2023/09/01 05:04:22,WIRELESS,wl0 (5GHz): Detect interference(51per) on channel 116.
+2023/09/01 05:00:10,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 05:00:02,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 05:00:01,ADT,### Scheduled time.
+2023/09/01 04:39:01,WIRELESS,wl1 (2.4GHz): Detect interference(75per) [with Non-802.11] on channel 1.
+2023/09/01 04:30:15,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 04:30:15,ADT,ADT Challenge Response Error.(wireless_list)
+2023/09/01 04:30:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 04:30:03,ADT,### Scheduled time.
+2023/09/01 04:29:02,WIRELESS,wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 1.
+2023/09/01 04:13:01,WIRELESS,wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 1.
+2023/09/01 04:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 04:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 04:04:34,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2023/09/01 04:04:34,WIRELESS,wl1 (2.4GHz): Detect interference(69per) on channel 11.
+2023/09/01 04:04:34,WIRELESS,wl1 (2.4GHz): Detect interference(56per) on channel 10.
+2023/09/01 04:04:34,WIRELESS,wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 9.
+2023/09/01 04:04:34,WIRELESS,wl1 (2.4GHz): Detect interference(54per) on channel 8.
+2023/09/01 04:04:34,WIRELESS,wl1 (2.4GHz): Detect interference(54per) on channel 5.
+2023/09/01 04:04:34,WIRELESS,wl1 (2.4GHz): Detect interference(64per) on channel 4.
+2023/09/01 04:04:34,WIRELESS,wl1 (2.4GHz): Detect interference(53per) on channel 3.
+2023/09/01 04:04:34,WIRELESS,wl1 (2.4GHz): Detect interference(51per) on channel 2.
+2023/09/01 04:04:34,WIRELESS,wl1 (2.4GHz): Detect interference(61per) on channel 1.
+2023/09/01 04:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 04:04:16,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/09/01 04:04:16,WIRELESS,wl0 (5GHz): Detect interference(55per) on channel 128.
+2023/09/01 04:04:16,WIRELESS,wl0 (5GHz): Detect interference(55per) on channel 124.
+2023/09/01 04:04:16,WIRELESS,wl0 (5GHz): Detect interference(55per) on channel 120.
+2023/09/01 04:04:16,WIRELESS,wl0 (5GHz): Detect interference(55per) on channel 116.
+2023/09/01 04:00:12,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 04:00:05,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 04:00:04,ADT,### Scheduled time.
+2023/09/01 03:46:14,WIRELESS,wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 1.
+2023/09/01 03:31:58,ADT,publish: CONNECT(0)=0
+2023/09/01 03:31:34,ADT,The file was uploaded.
+2023/09/01 03:31:31,ADT,Call: REQUEST_SYSLOG(send_log)
+2023/09/01 03:31:31,ADT,Send log file.
+2023/09/01 03:31:28,ADT,publish: EXEC(0)=0
+2023/09/01 03:31:21,ADT,Subscribe callback(operation)
+2023/09/01 03:31:20,ADT,publish: request_operation(request_file_upload)=0
+2023/09/01 03:30:11,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 03:30:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 03:30:03,ADT,### Scheduled time.
+2023/09/01 03:26:01,WIRELESS,wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 1.
+2023/09/01 03:19:01,WIRELESS,wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 1.
+2023/09/01 03:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 03:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 03:04:34,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/09/01 03:04:34,WIRELESS,wl1 (2.4GHz): Switch Channel 1 / 20 MHz
+2023/09/01 03:04:33,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2023/09/01 03:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(58per) on channel 11.
+2023/09/01 03:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(52per) on channel 10.
+2023/09/01 03:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(57per) on channel 9.
+2023/09/01 03:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(50per) on channel 8.
+2023/09/01 03:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(57per) on channel 4.
+2023/09/01 03:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(58per) [with Non-802.11] on channel 3.
+2023/09/01 03:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(52per) on channel 2.
+2023/09/01 03:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(64per) on channel 1.
+2023/09/01 03:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 03:04:19,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/09/01 03:02:17,ADT,publish: status(1)=0
+2023/09/01 03:01:51,ADT,publish: EXEC(1)=0
+2023/09/01 03:01:45,ADT,Subscribe callback(status_scheduled)
+2023/09/01 03:00:13,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 03:00:05,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 03:00:04,ADT,### Scheduled time.
+2023/09/01 02:52:02,WIRELESS,wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 2.
+2023/09/01 02:30:14,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 02:30:06,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 02:30:05,ADT,### Scheduled time.
+2023/09/01 02:18:37,WIRELESS,wl1 (2.4GHz): Detect interference(60per) [with Non-802.11] on channel 2.
+2023/09/01 02:11:23,WIRELESS,wl1 (2.4GHz): Detect interference(56per) [with Non-802.11] on channel 2.
+2023/09/01 02:07:56,WIRELESS,wl1 (2.4GHz): Detect interference(54per) [with Non-802.11] on channel 2.
+2023/09/01 02:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 02:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 02:04:33,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/09/01 02:04:33,WIRELESS,wl1 (2.4GHz): Switch Channel 2 / 20 MHz
+2023/09/01 02:04:33,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 2 / 20 MHz
+2023/09/01 02:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(54per) on channel 13.
+2023/09/01 02:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(64per) on channel 11.
+2023/09/01 02:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(53per) on channel 10.
+2023/09/01 02:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(58per) on channel 9.
+2023/09/01 02:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(57per) on channel 7.
+2023/09/01 02:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(55per) on channel 6.
+2023/09/01 02:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(53per) on channel 5.
+2023/09/01 02:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(57per) on channel 4.
+2023/09/01 02:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(52per) on channel 3.
+2023/09/01 02:04:33,WIRELESS,wl1 (2.4GHz): Detect interference(50per) on channel 1.
+2023/09/01 02:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 02:04:18,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/09/01 02:03:44,WIRELESS,wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 10.
+2023/09/01 02:00:15,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 02:00:07,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 02:00:06,ADT,### Scheduled time.
+2023/09/01 01:59:56,WIRELESS,wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 10.
+2023/09/01 01:57:02,WIRELESS,wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 10.
+2023/09/01 01:55:50,WIRELESS,wl1 (2.4GHz): Detect interference(63per) [with Non-802.11] on channel 10.
+2023/09/01 01:54:01,WIRELESS,wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 10.
+2023/09/01 01:52:49,WIRELESS,wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 10.
+2023/09/01 01:49:42,WIRELESS,wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 10.
+2023/09/01 01:46:42,WIRELESS,wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 10.
+2023/09/01 01:30:12,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 01:30:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 01:30:03,ADT,### Scheduled time.
+2023/09/01 01:11:01,WIRELESS,wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 10.
+2023/09/01 01:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 01:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 01:04:26,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/09/01 01:04:26,WIRELESS,wl1 (2.4GHz): Switch Channel 10 / 20 MHz
+2023/09/01 01:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 01:04:25,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 10 / 20 MHz
+2023/09/01 01:04:25,WIRELESS,wl1 (2.4GHz): Detect interference(60per) [with Non-802.11] on channel 13.
+2023/09/01 01:04:25,WIRELESS,wl1 (2.4GHz): Detect interference(57per) on channel 9.
+2023/09/01 01:04:25,WIRELESS,wl1 (2.4GHz): Detect interference(63per) on channel 2.
+2023/09/01 01:04:25,WIRELESS,wl1 (2.4GHz): Detect interference(61per) on channel 1.
+2023/09/01 01:04:19,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/09/01 01:00:09,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 01:00:02,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 01:00:01,ADT,### Scheduled time.
+2023/09/01 00:30:11,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 00:30:03,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 00:30:02,ADT,### Scheduled time.
+2023/09/01 00:06:12,ADT,publish: CONNECT(0)=0
+2023/09/01 00:05:48,ADT,Send wireless file.
+2023/09/01 00:05:47,ADT,The file was uploaded.
+2023/09/01 00:05:47,ADT,Send wired file.
+2023/09/01 00:05:44,ADT,publish: EXEC(0)=0
+2023/09/01 00:05:38,ADT,Subscribe callback(operation)
+2023/09/01 00:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/09/01 00:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/09/01 00:04:29,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2023/09/01 00:04:29,WIRELESS,wl1 (2.4GHz): Detect interference(60per) [with Non-802.11] on channel 13.
+2023/09/01 00:04:29,WIRELESS,wl1 (2.4GHz): Detect interference(57per) on channel 9.
+2023/09/01 00:04:29,WIRELESS,wl1 (2.4GHz): Detect interference(63per) on channel 2.
+2023/09/01 00:04:29,WIRELESS,wl1 (2.4GHz): Detect interference(53per) on channel 1.
+2023/09/01 00:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/09/01 00:04:13,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/09/01 00:04:13,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 144.
+2023/09/01 00:04:13,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 140.
+2023/09/01 00:04:13,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 136.
+2023/09/01 00:04:13,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 132.
+2023/09/01 00:04:13,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 112.
+2023/09/01 00:04:13,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 108.
+2023/09/01 00:04:13,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 104.
+2023/09/01 00:04:13,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 100.
+2023/09/01 00:00:11,ADT,No new wireless terminal list.(scheduled)
+2023/09/01 00:00:03,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/09/01 00:00:02,ADT,### Scheduled time.
+2023/08/31 23:30:16,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 23:30:08,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 23:30:07,ADT,### Scheduled time.
+2023/08/31 23:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/08/31 23:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/08/31 23:04:30,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/08/31 23:04:29,WIRELESS,wl1 (2.4GHz): Switch Channel 1 / 20 MHz
+2023/08/31 23:04:29,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2023/08/31 23:04:29,WIRELESS,wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 13.
+2023/08/31 23:04:29,WIRELESS,wl1 (2.4GHz): Detect interference(92per) [with Non-802.11] on channel 12.
+2023/08/31 23:04:29,WIRELESS,wl1 (2.4GHz): Detect interference(62per) on channel 11.
+2023/08/31 23:04:29,WIRELESS,wl1 (2.4GHz): Detect interference(62per) on channel 10.
+2023/08/31 23:04:29,WIRELESS,wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 9.
+2023/08/31 23:04:29,WIRELESS,wl1 (2.4GHz): Detect interference(68per) [with Non-802.11] on channel 8.
+2023/08/31 23:04:29,WIRELESS,wl1 (2.4GHz): Detect interference(54per) on channel 3.
+2023/08/31 23:04:29,WIRELESS,wl1 (2.4GHz): Detect interference(63per) on channel 1.
+2023/08/31 23:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/08/31 23:04:15,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/08/31 23:00:09,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 23:00:02,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 23:00:01,ADT,### Scheduled time.
+2023/08/31 22:30:10,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 22:30:02,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 22:30:01,ADT,### Scheduled time.
+2023/08/31 22:18:44,ADT,publish: CONNECT(0)=0
+2023/08/31 22:18:18,ADT,The file was uploaded.
+2023/08/31 22:18:14,ADT,Call: REQUEST_SYSLOG(send_log)
+2023/08/31 22:18:14,ADT,Send log file.
+2023/08/31 22:18:11,ADT,publish: EXEC(0)=0
+2023/08/31 22:18:05,ADT,Subscribe callback(operation)
+2023/08/31 22:18:05,ADT,publish: request_operation(request_file_upload)=0
+2023/08/31 22:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/08/31 22:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/08/31 22:04:29,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/08/31 22:04:29,WIRELESS,wl1 (2.4GHz): Switch Channel 5 / 20 MHz
+2023/08/31 22:04:28,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 5 / 20 MHz
+2023/08/31 22:04:28,WIRELESS,wl1 (2.4GHz): Detect interference(53per) on channel 10.
+2023/08/31 22:04:28,WIRELESS,wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 9.
+2023/08/31 22:04:28,WIRELESS,wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 8.
+2023/08/31 22:04:28,WIRELESS,wl1 (2.4GHz): Detect interference(50per) on channel 7.
+2023/08/31 22:04:28,WIRELESS,wl1 (2.4GHz): Detect interference(62per) on channel 3.
+2023/08/31 22:04:28,WIRELESS,wl1 (2.4GHz): Detect interference(65per) on channel 1.
+2023/08/31 22:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/08/31 22:04:15,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/08/31 22:04:15,WIRELESS,wl0 (5GHz): Detect interference(51per) on channel 144.
+2023/08/31 22:04:15,WIRELESS,wl0 (5GHz): Detect interference(51per) on channel 140.
+2023/08/31 22:04:15,WIRELESS,wl0 (5GHz): Detect interference(51per) on channel 136.
+2023/08/31 22:04:15,WIRELESS,wl0 (5GHz): Detect interference(51per) on channel 132.
+2023/08/31 22:03:04,WIRELESS,wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 13.
+2023/08/31 22:00:18,WIRELESS,wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 13.
+2023/08/31 22:00:11,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 22:00:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 22:00:03,ADT,### Scheduled time.
+2023/08/31 21:59:57,WIRELESS,wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 13.
+2023/08/31 21:55:54,WIRELESS,wl1 (2.4GHz): Detect interference(57per) [with Non-802.11] on channel 13.
+2023/08/31 21:52:48,WIRELESS,wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 13.
+2023/08/31 21:52:28,WIRELESS,wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 13.
+2023/08/31 21:49:47,WIRELESS,wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 13.
+2023/08/31 21:46:46,WIRELESS,wl1 (2.4GHz): Detect interference(67per) [with Non-802.11] on channel 13.
+2023/08/31 21:30:13,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 21:30:05,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 21:30:04,ADT,### Scheduled time.
+2023/08/31 21:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/08/31 21:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/08/31 21:04:26,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 13 / 20 MHz
+2023/08/31 21:04:26,WIRELESS,wl1 (2.4GHz): Detect interference(64per) on channel 9.
+2023/08/31 21:04:26,WIRELESS,wl1 (2.4GHz): Detect interference(51per) on channel 4.
+2023/08/31 21:04:26,WIRELESS,wl1 (2.4GHz): Detect interference(52per) on channel 3.
+2023/08/31 21:04:26,WIRELESS,wl1 (2.4GHz): Detect interference(55per) on channel 2.
+2023/08/31 21:04:26,WIRELESS,wl1 (2.4GHz): Detect interference(62per) on channel 1.
+2023/08/31 21:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/08/31 21:04:14,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/08/31 21:04:14,WIRELESS,wl0 (5GHz): Detect interference(66per) on channel 144.
+2023/08/31 21:04:14,WIRELESS,wl0 (5GHz): Detect interference(66per) on channel 140.
+2023/08/31 21:04:14,WIRELESS,wl0 (5GHz): Detect interference(66per) on channel 136.
+2023/08/31 21:04:14,WIRELESS,wl0 (5GHz): Detect interference(66per) on channel 132.
+2023/08/31 21:04:14,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 128.
+2023/08/31 21:04:14,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 124.
+2023/08/31 21:04:14,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 120.
+2023/08/31 21:04:14,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 116.
+2023/08/31 21:02:10,ADT,publish: status(1)=0
+2023/08/31 21:01:43,ADT,publish: EXEC(1)=0
+2023/08/31 21:01:36,ADT,Subscribe callback(status_scheduled)
+2023/08/31 21:00:10,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 21:00:02,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 21:00:01,ADT,### Scheduled time.
+2023/08/31 20:44:31,WIRELESS,wl1 (2.4GHz): Detect interference(53per) [with Non-802.11] on channel 13.
+2023/08/31 20:41:30,WIRELESS,wl1 (2.4GHz): Detect interference(56per) [with Non-802.11] on channel 13.
+2023/08/31 20:36:30,WIRELESS,wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 13.
+2023/08/31 20:30:29,WIRELESS,wl1 (2.4GHz): Detect interference(72per) [with Non-802.11] on channel 13.
+2023/08/31 20:30:10,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 20:30:03,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 20:30:02,ADT,### Scheduled time.
+2023/08/31 20:24:51,WIRELESS,wl1 (2.4GHz): Detect interference(51per) [with Non-802.11] on channel 13.
+2023/08/31 20:21:34,WIRELESS,wl1 (2.4GHz): Detect interference(54per) [with Non-802.11] on channel 13.
+2023/08/31 20:17:58,WIRELESS,wl1 (2.4GHz): Detect interference(63per) [with Non-802.11] on channel 13.
+2023/08/31 20:14:43,WIRELESS,wl1 (2.4GHz): Detect interference(60per) [with Non-802.11] on channel 13.
+2023/08/31 20:07:28,WIRELESS,wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 13.
+2023/08/31 20:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/08/31 20:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/08/31 20:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/08/31 20:04:21,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/08/31 20:04:20,WIRELESS,wl1 (2.4GHz): Switch Channel 13 / 20 MHz
+2023/08/31 20:04:20,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 13 / 20 MHz
+2023/08/31 20:04:20,WIRELESS,wl1 (2.4GHz): Detect interference(50per) on channel 13.
+2023/08/31 20:04:20,WIRELESS,wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 12.
+2023/08/31 20:04:20,WIRELESS,wl1 (2.4GHz): Detect interference(78per) on channel 11.
+2023/08/31 20:04:20,WIRELESS,wl1 (2.4GHz): Detect interference(60per) [with Non-802.11] on channel 9.
+2023/08/31 20:04:20,WIRELESS,wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 8.
+2023/08/31 20:04:20,WIRELESS,wl1 (2.4GHz): Detect interference(52per) on channel 6.
+2023/08/31 20:04:20,WIRELESS,wl1 (2.4GHz): Detect interference(56per) on channel 3.
+2023/08/31 20:04:20,WIRELESS,wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 2.
+2023/08/31 20:04:20,WIRELESS,wl1 (2.4GHz): Detect interference(56per) on channel 1.
+2023/08/31 20:04:12,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/08/31 20:04:12,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 128.
+2023/08/31 20:04:12,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 124.
+2023/08/31 20:04:12,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 120.
+2023/08/31 20:04:12,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 116.
+2023/08/31 20:00:12,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 20:00:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 20:00:03,ADT,### Scheduled time.
+2023/08/31 19:30:13,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 19:30:05,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 19:30:04,ADT,### Scheduled time.
+2023/08/31 19:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/08/31 19:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/08/31 19:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/08/31 19:04:25,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/08/31 19:04:25,WIRELESS,wl1 (2.4GHz): Switch Channel 1 / 20 MHz
+2023/08/31 19:04:25,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2023/08/31 19:04:25,WIRELESS,wl1 (2.4GHz): Detect interference(50per) on channel 13.
+2023/08/31 19:04:25,WIRELESS,wl1 (2.4GHz): Detect interference(78per) on channel 11.
+2023/08/31 19:04:25,WIRELESS,wl1 (2.4GHz): Detect interference(60per) [with Non-802.11] on channel 9.
+2023/08/31 19:04:25,WIRELESS,wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 8.
+2023/08/31 19:04:25,WIRELESS,wl1 (2.4GHz): Detect interference(52per) on channel 6.
+2023/08/31 19:04:25,WIRELESS,wl1 (2.4GHz): Detect interference(56per) on channel 3.
+2023/08/31 19:04:25,WIRELESS,wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 2.
+2023/08/31 19:04:25,WIRELESS,wl1 (2.4GHz): Detect interference(67per) on channel 1.
+2023/08/31 19:04:10,WIRELESS,wl0 (5GHz): Start sending beacon
+2023/08/31 19:04:10,WIRELESS,wl0 (5GHz): Switch Channel 64 / 80 MHz
+2023/08/31 19:04:10,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/08/31 19:04:10,WIRELESS,wl0 (5GHz): Detect interference(53per) on channel 128.
+2023/08/31 19:04:10,WIRELESS,wl0 (5GHz): Detect interference(53per) on channel 124.
+2023/08/31 19:04:10,WIRELESS,wl0 (5GHz): Detect interference(53per) on channel 120.
+2023/08/31 19:04:09,WIRELESS,wl0 (5GHz): Detect interference(53per) on channel 116.
+2023/08/31 19:04:09,WIRELESS,wl0 (5GHz): Detect interference(51per) on channel 112.
+2023/08/31 19:04:09,WIRELESS,wl0 (5GHz): Detect interference(51per) on channel 108.
+2023/08/31 19:04:09,WIRELESS,wl0 (5GHz): Detect interference(51per) on channel 104.
+2023/08/31 19:04:09,WIRELESS,wl0 (5GHz): Detect interference(51per) on channel 100.
+2023/08/31 19:03:37,WIRELESS,wl1 (2.4GHz): Detect interference(54per) [with Non-802.11] on channel 12.
+2023/08/31 19:02:30,WIRELESS,wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 12.
+2023/08/31 19:00:35,WIRELESS,wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 12.
+2023/08/31 19:00:14,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 19:00:05,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 19:00:04,ADT,### Scheduled time.
+2023/08/31 18:58:52,WIRELESS,wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 12.
+2023/08/31 18:57:24,WIRELESS,wl1 (2.4GHz): Detect interference(55per) [with Non-802.11] on channel 12.
+2023/08/31 18:55:46,WIRELESS,wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 12.
+2023/08/31 18:54:19,WIRELESS,wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 12.
+2023/08/31 18:52:40,WIRELESS,wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 12.
+2023/08/31 18:51:18,WIRELESS,wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 12.
+2023/08/31 18:48:47,WIRELESS,wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 12.
+2023/08/31 18:48:16,WIRELESS,wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 12.
+2023/08/31 18:45:45,WIRELESS,wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 12.
+2023/08/31 18:45:14,WIRELESS,wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 12.
+2023/08/31 18:42:44,WIRELESS,wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 12.
+2023/08/31 18:42:13,WIRELESS,wl1 (2.4GHz): Detect interference(62per) [with Non-802.11] on channel 12.
+2023/08/31 18:39:43,WIRELESS,wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 12.
+2023/08/31 18:39:11,WIRELESS,wl1 (2.4GHz): Detect interference(60per) [with Non-802.11] on channel 12.
+2023/08/31 18:36:21,WIRELESS,wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 12.
+2023/08/31 18:36:10,WIRELESS,wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 12.
+2023/08/31 18:33:14,WIRELESS,wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 12.
+2023/08/31 18:33:04,WIRELESS,wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 12.
+2023/08/31 18:32:10,ADT,publish: CONNECT(0)=0
+2023/08/31 18:31:45,ADT,The file was uploaded.
+2023/08/31 18:31:41,ADT,Call: REQUEST_SYSLOG(send_log)
+2023/08/31 18:31:41,ADT,Send log file.
+2023/08/31 18:31:38,ADT,publish: EXEC(0)=0
+2023/08/31 18:31:32,ADT,Subscribe callback(operation)
+2023/08/31 18:31:31,ADT,publish: request_operation(request_file_upload)=0
+2023/08/31 18:30:10,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 18:30:03,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 18:30:02,ADT,### Scheduled time.
+2023/08/31 18:30:01,WIRELESS,wl1 (2.4GHz): Detect interference(64per) [with Non-802.11] on channel 12.
+2023/08/31 18:29:46,WIRELESS,wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 12.
+2023/08/31 18:26:51,WIRELESS,wl1 (2.4GHz): Detect interference(58per) [with Non-802.11] on channel 12.
+2023/08/31 18:26:30,WIRELESS,wl1 (2.4GHz): Detect interference(80per) [with Non-802.11] on channel 12.
+2023/08/31 18:23:35,WIRELESS,wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 12.
+2023/08/31 18:22:54,WIRELESS,wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 12.
+2023/08/31 18:20:33,WIRELESS,wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 12.
+2023/08/31 18:19:46,WIRELESS,wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 12.
+2023/08/31 18:17:21,WIRELESS,wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 12.
+2023/08/31 18:16:45,WIRELESS,wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 12.
+2023/08/31 18:13:54,WIRELESS,wl1 (2.4GHz): Detect interference(64per) [with Non-802.11] on channel 12.
+2023/08/31 18:13:34,WIRELESS,wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 12.
+2023/08/31 18:10:45,WIRELESS,wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 12.
+2023/08/31 18:10:29,WIRELESS,wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 12.
+2023/08/31 18:07:42,WIRELESS,wl1 (2.4GHz): Detect interference(69per) [with Non-802.11] on channel 12.
+2023/08/31 18:07:26,WIRELESS,wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 12.
+2023/08/31 18:07:00,ADT,publish: CONNECT(0)=0
+2023/08/31 18:06:36,ADT,Send wireless file.
+2023/08/31 18:06:35,ADT,The file was uploaded.
+2023/08/31 18:06:35,ADT,Send wired file.
+2023/08/31 18:06:32,ADT,publish: EXEC(0)=0
+2023/08/31 18:06:25,ADT,Subscribe callback(operation)
+2023/08/31 18:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/08/31 18:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/08/31 18:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/08/31 18:04:24,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/08/31 18:04:24,WIRELESS,wl1 (2.4GHz): Switch Channel 12 / 20 MHz
+2023/08/31 18:04:23,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 12 / 20 MHz
+2023/08/31 18:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(61per) [with Non-802.11] on channel 13.
+2023/08/31 18:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(53per) on channel 12.
+2023/08/31 18:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(85per) on channel 11.
+2023/08/31 18:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(53per) on channel 10.
+2023/08/31 18:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(74per) [with Non-802.11] on channel 9.
+2023/08/31 18:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 8.
+2023/08/31 18:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(51per) on channel 7.
+2023/08/31 18:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(65per) on channel 6.
+2023/08/31 18:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(53per) on channel 4.
+2023/08/31 18:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 3.
+2023/08/31 18:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(56per) on channel 1.
+2023/08/31 18:04:06,WIRELESS,wl3 (5GHz): Switch Channel 52 / 80 MHz
+2023/08/31 18:04:04,WIRELESS,wl0 (5GHz): Start sending beacon
+2023/08/31 18:04:04,WIRELESS,wl0 (5GHz): Switch Channel 36 / 80 MHz
+2023/08/31 18:04:03,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 36 / 80 MHz
+2023/08/31 18:04:03,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 144.
+2023/08/31 18:04:03,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 140.
+2023/08/31 18:04:03,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 136.
+2023/08/31 18:04:03,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 132.
+2023/08/31 18:04:03,WIRELESS,wl0 (5GHz): Detect interference(69per) on channel 128.
+2023/08/31 18:04:03,WIRELESS,wl0 (5GHz): Detect interference(69per) on channel 124.
+2023/08/31 18:04:03,WIRELESS,wl0 (5GHz): Detect interference(69per) on channel 120.
+2023/08/31 18:04:03,WIRELESS,wl0 (5GHz): Detect interference(69per) on channel 116.
+2023/08/31 18:00:11,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 18:00:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 18:00:03,ADT,### Scheduled time.
+2023/08/31 17:30:12,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 17:30:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 17:30:03,ADT,### Scheduled time.
+2023/08/31 17:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/08/31 17:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/08/31 17:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/08/31 17:04:23,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/08/31 17:04:23,WIRELESS,wl1 (2.4GHz): Switch Channel 1 / 20 MHz
+2023/08/31 17:04:23,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2023/08/31 17:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 13.
+2023/08/31 17:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(94per) [with Non-802.11] on channel 12.
+2023/08/31 17:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(85per) on channel 11.
+2023/08/31 17:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(77per) [with Non-802.11] on channel 10.
+2023/08/31 17:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(86per) [with Non-802.11] on channel 9.
+2023/08/31 17:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 8.
+2023/08/31 17:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(55per) on channel 6.
+2023/08/31 17:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(57per) on channel 5.
+2023/08/31 17:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(64per) on channel 4.
+2023/08/31 17:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(70per) [with Non-802.11] on channel 3.
+2023/08/31 17:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(71per) [with Non-802.11] on channel 2.
+2023/08/31 17:04:23,WIRELESS,wl1 (2.4GHz): Detect interference(64per) on channel 1.
+2023/08/31 17:03:57,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/08/31 17:03:57,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 144.
+2023/08/31 17:03:57,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 140.
+2023/08/31 17:03:57,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 136.
+2023/08/31 17:03:57,WIRELESS,wl0 (5GHz): Detect interference(52per) on channel 132.
+2023/08/31 17:03:57,WIRELESS,wl0 (5GHz): Detect interference(69per) on channel 128.
+2023/08/31 17:03:57,WIRELESS,wl0 (5GHz): Detect interference(69per) on channel 124.
+2023/08/31 17:03:57,WIRELESS,wl0 (5GHz): Detect interference(69per) on channel 120.
+2023/08/31 17:03:57,WIRELESS,wl0 (5GHz): Detect interference(69per) on channel 116.
+2023/08/31 17:00:13,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 17:00:05,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 17:00:04,ADT,### Scheduled time.
+2023/08/31 16:30:09,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 16:30:02,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 16:30:01,ADT,### Scheduled time.
+2023/08/31 16:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/08/31 16:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/08/31 16:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/08/31 16:04:22,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/08/31 16:04:22,WIRELESS,wl1 (2.4GHz): Switch Channel 11 / 20 MHz
+2023/08/31 16:04:21,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 11 / 20 MHz
+2023/08/31 16:04:21,WIRELESS,wl1 (2.4GHz): Detect interference(94per) [with Non-802.11] on channel 13.
+2023/08/31 16:04:21,WIRELESS,wl1 (2.4GHz): Detect interference(97per) [with Non-802.11] on channel 12.
+2023/08/31 16:04:21,WIRELESS,wl1 (2.4GHz): Detect interference(73per) on channel 11.
+2023/08/31 16:04:21,WIRELESS,wl1 (2.4GHz): Detect interference(53per) on channel 10.
+2023/08/31 16:04:21,WIRELESS,wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 9.
+2023/08/31 16:04:21,WIRELESS,wl1 (2.4GHz): Detect interference(66per) [with Non-802.11] on channel 8.
+2023/08/31 16:04:21,WIRELESS,wl1 (2.4GHz): Detect interference(62per) on channel 4.
+2023/08/31 16:04:21,WIRELESS,wl1 (2.4GHz): Detect interference(66per) on channel 3.
+2023/08/31 16:04:21,WIRELESS,wl1 (2.4GHz): Detect interference(61per) on channel 1.
+2023/08/31 16:04:08,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/08/31 16:04:08,WIRELESS,wl0 (5GHz): Detect interference(62per) on channel 128.
+2023/08/31 16:04:08,WIRELESS,wl0 (5GHz): Detect interference(62per) on channel 124.
+2023/08/31 16:04:08,WIRELESS,wl0 (5GHz): Detect interference(62per) on channel 120.
+2023/08/31 16:04:08,WIRELESS,wl0 (5GHz): Detect interference(62per) on channel 116.
+2023/08/31 16:04:08,WIRELESS,wl0 (5GHz): Detect interference(56per) on channel 112.
+2023/08/31 16:04:08,WIRELESS,wl0 (5GHz): Detect interference(56per) on channel 108.
+2023/08/31 16:04:08,WIRELESS,wl0 (5GHz): Detect interference(56per) on channel 104.
+2023/08/31 16:04:08,WIRELESS,wl0 (5GHz): Detect interference(56per) on channel 100.
+2023/08/31 16:00:10,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 16:00:03,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 16:00:02,ADT,### Scheduled time.
+2023/08/31 15:30:11,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 15:30:03,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 15:30:02,ADT,### Scheduled time.
+2023/08/31 15:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/08/31 15:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/08/31 15:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/08/31 15:04:15,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/08/31 15:04:15,WIRELESS,wl1 (2.4GHz): Switch Channel 1 / 20 MHz
+2023/08/31 15:04:14,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2023/08/31 15:04:14,WIRELESS,wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 13.
+2023/08/31 15:04:14,WIRELESS,wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 12.
+2023/08/31 15:04:14,WIRELESS,wl1 (2.4GHz): Detect interference(90per) on channel 11.
+2023/08/31 15:04:14,WIRELESS,wl1 (2.4GHz): Detect interference(90per) [with Non-802.11] on channel 10.
+2023/08/31 15:04:14,WIRELESS,wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 9.
+2023/08/31 15:04:14,WIRELESS,wl1 (2.4GHz): Detect interference(89per) [with Non-802.11] on channel 8.
+2023/08/31 15:04:14,WIRELESS,wl1 (2.4GHz): Detect interference(53per) on channel 3.
+2023/08/31 15:04:14,WIRELESS,wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 2.
+2023/08/31 15:04:14,WIRELESS,wl1 (2.4GHz): Detect interference(58per) on channel 1.
+2023/08/31 15:04:07,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/08/31 15:04:07,WIRELESS,wl0 (5GHz): Detect interference(63per) on channel 128.
+2023/08/31 15:04:07,WIRELESS,wl0 (5GHz): Detect interference(63per) on channel 124.
+2023/08/31 15:04:07,WIRELESS,wl0 (5GHz): Detect interference(63per) on channel 120.
+2023/08/31 15:04:07,WIRELESS,wl0 (5GHz): Detect interference(63per) on channel 116.
+2023/08/31 15:04:07,WIRELESS,wl0 (5GHz): Detect interference(57per) on channel 112.
+2023/08/31 15:04:07,WIRELESS,wl0 (5GHz): Detect interference(57per) on channel 108.
+2023/08/31 15:04:07,WIRELESS,wl0 (5GHz): Detect interference(57per) on channel 104.
+2023/08/31 15:04:07,WIRELESS,wl0 (5GHz): Detect interference(57per) on channel 100.
+2023/08/31 15:04:07,WIRELESS,wl0 (5GHz): Detect interference(59per) on channel 48.
+2023/08/31 15:04:07,WIRELESS,wl0 (5GHz): Detect interference(59per) on channel 44.
+2023/08/31 15:04:07,WIRELESS,wl0 (5GHz): Detect interference(59per) on channel 40.
+2023/08/31 15:04:07,WIRELESS,wl0 (5GHz): Detect interference(59per) on channel 36.
+2023/08/31 15:02:16,ADT,publish: status(1)=0
+2023/08/31 15:01:50,ADT,publish: EXEC(1)=0
+2023/08/31 15:01:43,ADT,Subscribe callback(status_scheduled)
+2023/08/31 15:00:10,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 15:00:02,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 15:00:01,ADT,### Scheduled time.
+2023/08/31 14:30:11,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 14:30:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 14:30:03,ADT,### Scheduled time.
+2023/08/31 14:29:02,ADT,publish: CONNECT(0)=0
+2023/08/31 14:28:38,ADT,The file was uploaded.
+2023/08/31 14:28:34,ADT,Call: REQUEST_SYSLOG(send_log)
+2023/08/31 14:28:34,ADT,Send log file.
+2023/08/31 14:28:31,ADT,publish: EXEC(0)=0
+2023/08/31 14:28:25,ADT,Subscribe callback(operation)
+2023/08/31 14:28:23,ADT,publish: request_operation(request_file_upload)=0
+2023/08/31 14:05:00,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2023/08/31 14:05:00,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2023/08/31 14:04:26,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2023/08/31 14:04:14,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2023/08/31 14:04:14,WIRELESS,wl1 (2.4GHz): Switch Channel 11 / 20 MHz
+2023/08/31 14:04:13,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 11 / 20 MHz
+2023/08/31 14:04:13,WIRELESS,wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 13.
+2023/08/31 14:04:13,WIRELESS,wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 12.
+2023/08/31 14:04:13,WIRELESS,wl1 (2.4GHz): Detect interference(90per) on channel 11.
+2023/08/31 14:04:13,WIRELESS,wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 10.
+2023/08/31 14:04:13,WIRELESS,wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 9.
+2023/08/31 14:04:13,WIRELESS,wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 8.
+2023/08/31 14:04:13,WIRELESS,wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 5.
+2023/08/31 14:04:13,WIRELESS,wl1 (2.4GHz): Detect interference(70per) on channel 4.
+2023/08/31 14:04:13,WIRELESS,wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 3.
+2023/08/31 14:04:13,WIRELESS,wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 2.
+2023/08/31 14:04:13,WIRELESS,wl1 (2.4GHz): Detect interference(64per) on channel 1.
+2023/08/31 14:04:06,WIRELESS,wl0 (5GHz): Start sending beacon
+2023/08/31 14:04:06,WIRELESS,wl0 (5GHz): Switch Channel 64 / 80 MHz
+2023/08/31 14:04:05,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2023/08/31 14:04:05,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 128.
+2023/08/31 14:04:05,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 124.
+2023/08/31 14:04:05,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 120.
+2023/08/31 14:04:05,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 116.
+2023/08/31 14:04:05,WIRELESS,wl0 (5GHz): Detect interference(60per) on channel 112.
+2023/08/31 14:04:05,WIRELESS,wl0 (5GHz): Detect interference(60per) on channel 108.
+2023/08/31 14:04:05,WIRELESS,wl0 (5GHz): Detect interference(60per) on channel 104.
+2023/08/31 14:04:05,WIRELESS,wl0 (5GHz): Detect interference(60per) on channel 100.
+2023/08/31 14:00:08,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 14:00:02,ADT,### Scheduled time.
+2023/08/31 13:30:12,ADT,No new wireless terminal list.(scheduled)
+2023/08/31 13:30:04,ADT,Call: REQUEST_SYSLOG(scheduled)
+2023/08/31 13:30:03,ADT,### Scheduled time.
+2023/08/31 13:13:25,ADT,publish: CONNECT(0)=0
+2023/08/31 13:13:00,ADT,The file was uploaded.
+2023/08/31 13:12:51,ADT,Call: SAVE_CONF
+2023/08/31 13:12:51,ADT,Send config file.
+2023/08/31 13:12:48,ADT,publish: EXEC(0)=0
+2023/08/31 13:12:41,ADT,Subscribe callback(operation)
+2023/08/31 13:12:41,ADT,publish: request_operation(request_file_upload)=0
+2023/08/31 13:12:41,ADT,setting_file: Get time.: 1693454825
+2023/08/31 13:08:20,ADT,publish: CONNECT(0)=0
+2023/08/31 13:08:14,WIRELESS,wl3 (5GHz): A radar pulse detected at Ch 64 / 20 MHz
+2023/08/31 13:07:57,ADT,publish: response_operation
+2023/08/31 13:07:54,ADT,publish: EXEC(0)=0
+2023/08/31 13:07:47,ADT,Subscribe callback(operation)
+2023/08/31 13:07:44,ADT,publish: request_operation(remote_setting)=0
+2023/08/31 13:07:41,ADT,publish: status(0)=0
+2023/08/31 13:07:27,NTP,SUCCESS: set time :  Thu Aug 31 13:07:27 2023
+2023/08/31 13:07:14,ADT,publish: EXEC(0)=0
+2023/08/31 13:07:07,ADT,Subscribe callback(status_atonce)
+2023/08/31 13:07:07,ADT,Start monitoring...
+2023/08/31 13:07:07,NTP,hostname=ntp.jst.mfeed.ad.jp  cycle_time=86400
+2023/08/31 13:07:07,NTP,start ntpclient
+2023/08/31 13:07:07,ADT,Subscribing(paired)...
+2023/08/31 13:07:06,ADT,Connecting...(connect and subscribe)
+2023/08/31 13:07:01,ADT,Device registration process Success.
+2023/08/31 13:06:58,ADT,Accept regist Success.
+2023/08/31 13:06:58,ADT,Subscribe callback(accept_regist)
+2023/08/31 13:06:57,ADT,publish: request_regist
+2023/08/31 13:06:56,ADT,Subscribing(unpaired)...
+2023/08/31 13:06:55,ADT,Start device registration process.
+2023/08/31 13:06:55,ADT,Finished checking the network. hosType=2
+2023/08/31 13:06:55,ADT,Start checking the network. hosType=2
+2023/08/31 13:06:55,ADT,No copied zip file from non-volatile area.
+2023/08/31 13:06:54,NTP,hostname=ntp.jst.mfeed.ad.jp  cycle_time=86400
+2023/08/31 13:06:54,NTP,start ntpclient
+2023/08/31 13:06:52,ADT,Not a proxy connection.
+2023/08/31 13:06:52,ADT,Host: Production
+2023/08/31 13:06:52,ADT,saveConfTimeoutMs    : 10000
+2023/08/31 13:06:52,ADT,keepaliveIntervalSec : 120
+2023/08/31 13:06:52,ADT,=== Start kikiNavi monitoring process.
+2023/08/31 13:06:52,ADT,Startup Remote Management Service
+2023/08/31 13:06:51,ADT,SNMP Daemon Start
+2023/08/31 13:06:42,CONFIGUR,Remote Management Service
+2023/08/31 13:05:02,WIRELESS,wl3 (5GHz): Switch Channel 52 / 80 MHz
+2023/08/31 13:05:00,WIRELESS,wl0 (5GHz): Start sending beacon
+2023/08/31 13:05:00,WIRELESS,wl0 (5GHz): Switch Channel 44 / 80 MHz
+2023/08/31 13:04:59,WIRELESS,wl3 (5GHz): A radar pulse detected at Ch 64 / 20 MHz
+2023/08/31 13:04:48,NTP,SUCCESS: set time :  Thu Aug 31 13:04:48 2023
+2022/02/06 20:59:55,NTP,hostname=ntp.jst.mfeed.ad.jp  cycle_time=86400
+2022/02/06 20:59:55,NTP,start ntpclient
+2022/02/06 20:59:54,WIRELESS,wl3 (5GHz): Switch Channel 52 / 80 MHz
+2022/02/06 20:59:53,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2022/02/06 20:59:53,WIRELESS,wl1 (2.4GHz): Switch Channel 1 / 20 MHz
+2022/02/06 20:59:44,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2022/02/06 20:59:44,WIRELESS,wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 13.
+2022/02/06 20:59:44,WIRELESS,wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 12.
+2022/02/06 20:59:44,WIRELESS,wl1 (2.4GHz): Detect interference(90per) on channel 11.
+2022/02/06 20:59:44,WIRELESS,wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 10.
+2022/02/06 20:59:44,WIRELESS,wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 9.
+2022/02/06 20:59:44,WIRELESS,wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 8.
+2022/02/06 20:59:44,WIRELESS,wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 5.
+2022/02/06 20:59:44,WIRELESS,wl1 (2.4GHz): Detect interference(70per) on channel 4.
+2022/02/06 20:59:44,WIRELESS,wl1 (2.4GHz): Detect interference(73per) [with Non-802.11] on channel 3.
+2022/02/06 20:59:44,WIRELESS,wl1 (2.4GHz): Detect interference(76per) [with Non-802.11] on channel 2.
+2022/02/06 20:59:44,WIRELESS,wl1 (2.4GHz): Detect interference(73per) on channel 1.
+2022/02/06 20:59:24,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2022/02/06 20:59:24,WIRELESS,wl0 (5GHz): Detect interference(57per) on channel 128.
+2022/02/06 20:59:24,WIRELESS,wl0 (5GHz): Detect interference(57per) on channel 124.
+2022/02/06 20:59:24,WIRELESS,wl0 (5GHz): Detect interference(57per) on channel 120.
+2022/02/06 20:59:24,WIRELESS,wl0 (5GHz): Detect interference(57per) on channel 116.
+2022/02/06 20:59:10,ADT,SNMP Daemon Start
+2022/02/06 20:59:10,WIRED,et0: link up(1000 Mbps Full duplex)
+2022/02/06 20:58:46,CONFIGUR,LAN Port
+2022/02/06 20:57:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:56:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:55:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:54:58,WIRELESS,wl0.1 (5GHz): Encryption Key Renewing
+2022/02/06 20:54:57,WIRELESS,wl0.0 (5GHz): Encryption Key Renewing
+2022/02/06 20:54:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:53:56,WIRELESS,wl1.0 (2.4GHz): Encryption Key Renewing
+2022/02/06 20:53:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:53:55,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2022/02/06 20:53:55,WIRELESS,wl1 (2.4GHz): Switch Channel 1 / 20 MHz
+2022/02/06 20:53:55,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 1 / 20 MHz
+2022/02/06 20:53:55,WIRELESS,wl1 (2.4GHz): Detect interference(88per) [with Non-802.11] on channel 13.
+2022/02/06 20:53:55,WIRELESS,wl1 (2.4GHz): Detect interference(93per) [with Non-802.11] on channel 12.
+2022/02/06 20:53:55,WIRELESS,wl1 (2.4GHz): Detect interference(94per) on channel 11.
+2022/02/06 20:53:55,WIRELESS,wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 10.
+2022/02/06 20:53:55,WIRELESS,wl1 (2.4GHz): Detect interference(92per) [with Non-802.11] on channel 9.
+2022/02/06 20:53:55,WIRELESS,wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 8.
+2022/02/06 20:53:55,WIRELESS,wl1 (2.4GHz): Detect interference(55per) on channel 7.
+2022/02/06 20:53:55,WIRELESS,wl1 (2.4GHz): Detect interference(69per) on channel 6.
+2022/02/06 20:53:55,WIRELESS,wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 3.
+2022/02/06 20:53:55,WIRELESS,wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 2.
+2022/02/06 20:53:55,WIRELESS,wl1 (2.4GHz): Detect interference(76per) on channel 1.
+2022/02/06 20:53:38,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2022/02/06 20:53:38,WIRELESS,wl0 (5GHz): Detect interference(61per) on channel 128.
+2022/02/06 20:53:38,WIRELESS,wl0 (5GHz): Detect interference(61per) on channel 124.
+2022/02/06 20:53:38,WIRELESS,wl0 (5GHz): Detect interference(61per) on channel 120.
+2022/02/06 20:53:38,WIRELESS,wl0 (5GHz): Detect interference(61per) on channel 116.
+2022/02/06 20:53:38,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 112.
+2022/02/06 20:53:38,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 108.
+2022/02/06 20:53:38,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 104.
+2022/02/06 20:53:38,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 100.
+2022/02/06 20:53:38,WIRELESS,wl0 (5GHz): Detect interference(58per) on channel 48.
+2022/02/06 20:53:38,WIRELESS,wl0 (5GHz): Detect interference(58per) on channel 44.
+2022/02/06 20:53:38,WIRELESS,wl0 (5GHz): Detect interference(58per) on channel 40.
+2022/02/06 20:53:38,WIRELESS,wl0 (5GHz): Detect interference(58per) on channel 36.
+2022/02/06 20:52:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:52:15,WIRELESS,wl1 (2.4GHz): Detect interference(57per) [with Non-802.11] on channel 5.
+2022/02/06 20:51:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:50:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:49:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:48:59,WIRELESS,wl1 (2.4GHz): Detect interference(54per) [with Non-802.11] on channel 5.
+2022/02/06 20:48:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:47:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:46:55,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:45:55,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:44:55,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:43:55,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:43:12,WIRELESS,wl1 (2.4GHz): Detect interference(83per) [with Non-802.11] on channel 5.
+2022/02/06 20:42:55,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:41:55,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:41:49,WIRELESS,wl1 (2.4GHz): Detect interference(55per) [with Non-802.11] on channel 5.
+2022/02/06 20:40:55,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:39:55,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:38:55,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:37:55,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:36:55,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:36:08,WIRELESS,wl1 (2.4GHz): Detect interference(64per) [with Non-802.11] on channel 5.
+2022/02/06 20:35:55,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:34:55,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:33:55,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:32:55,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:32:31,WIRELESS,wl1 (2.4GHz): Detect interference(57per) [with Non-802.11] on channel 5.
+2022/02/06 20:31:55,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:30:54,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:29:54,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:28:54,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:28:29,WIRELESS,wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 5.
+2022/02/06 20:27:54,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:26:54,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:25:54,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:24:54,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:23:54,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:22:59,WIRELESS,wl1 (2.4GHz): Detect interference(54per) [with Non-802.11] on channel 5.
+2022/02/06 20:22:54,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:21:54,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:20:54,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:19:54,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:18:54,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:17:54,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:17:11,WIRELESS,wl1 (2.4GHz): Detect interference(53per) [with Non-802.11] on channel 5.
+2022/02/06 20:16:54,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:15:54,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:14:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:13:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:12:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:11:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:10:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:10:11,WIRELESS,wl1 (2.4GHz): Detect interference(54per) [with Non-802.11] on channel 5.
+2022/02/06 20:09:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:08:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:07:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:07:00,WIRELESS,wl1 (2.4GHz): Detect interference(58per) [with Non-802.11] on channel 5.
+2022/02/06 20:06:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:05:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:04:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:03:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:03:47,WIRELESS,wl1 (2.4GHz): Detect interference(58per) [with Non-802.11] on channel 5.
+2022/02/06 20:02:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:01:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 20:00:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:59:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:58:53,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:58:29,ADT,Device registration process Error!!
+2022/02/06 19:58:29,ADT,Error: Retry over device registration process. result=1
+2022/02/06 19:58:29,ADT,Timeout!: Registration request(1)
+2022/02/06 19:58:04,ADT,Start device registration process.
+2022/02/06 19:58:04,ADT,Finished checking the network. hosType=2
+2022/02/06 19:58:04,ADT,Start checking the network. hosType=2
+2022/02/06 19:58:04,ADT,No copied zip file from non-volatile area.
+2022/02/06 19:58:00,ADT,Not a proxy connection.
+2022/02/06 19:58:00,ADT,Host: Production
+2022/02/06 19:58:00,ADT,saveConfTimeoutMs    : 10000
+2022/02/06 19:58:00,ADT,keepaliveIntervalSec : 120
+2022/02/06 19:58:00,ADT,=== Start kikiNavi monitoring process.
+2022/02/06 19:57:52,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:57:28,WIRELESS,wl1 (2.4GHz): Detect interference(59per) [with Non-802.11] on channel 5.
+2022/02/06 19:56:52,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:55:52,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:55:32,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:55:12,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:54:57,WIRELESS,wl0 (5GHz): Start sending beacon
+2022/02/06 19:54:52,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:54:52,NTP,hostname=ntp.jst.mfeed.ad.jp  cycle_time=86400
+2022/02/06 19:54:52,NTP,start ntpclient
+2022/02/06 19:54:50,ADT,Startup Remote Management Service
+2022/02/06 19:54:50,ADT,SNMP Daemon Start
+2022/02/06 19:54:41,CONFIGUR,Remote Management Service
+2022/02/06 19:54:38,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:54:18,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:53:58,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:53:58,NTP,hostname=ntp.jst.mfeed.ad.jp  cycle_time=86400
+2022/02/06 19:53:58,NTP,start ntpclient
+2022/02/06 19:53:57,WIRELESS,wl3 (5GHz): Switch Channel 52 / 80 MHz
+2022/02/06 19:53:56,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2022/02/06 19:53:47,WIRELESS,wl1 (2.4GHz): Switch Channel 5 / 20 MHz
+2022/02/06 19:53:47,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 5 / 20 MHz
+2022/02/06 19:53:47,WIRELESS,wl1 (2.4GHz): Detect interference(85per) [with Non-802.11] on channel 13.
+2022/02/06 19:53:47,WIRELESS,wl1 (2.4GHz): Detect interference(56per) on channel 12.
+2022/02/06 19:53:47,WIRELESS,wl1 (2.4GHz): Detect interference(90per) on channel 11.
+2022/02/06 19:53:47,WIRELESS,wl1 (2.4GHz): Detect interference(81per) [with Non-802.11] on channel 10.
+2022/02/06 19:53:47,WIRELESS,wl1 (2.4GHz): Detect interference(78per) [with Non-802.11] on channel 9.
+2022/02/06 19:53:47,WIRELESS,wl1 (2.4GHz): Detect interference(82per) [with Non-802.11] on channel 8.
+2022/02/06 19:53:47,WIRELESS,wl1 (2.4GHz): Detect interference(51per) on channel 4.
+2022/02/06 19:53:47,WIRELESS,wl1 (2.4GHz): Detect interference(62per) on channel 3.
+2022/02/06 19:53:47,WIRELESS,wl1 (2.4GHz): Detect interference(70per) on channel 2.
+2022/02/06 19:53:47,WIRELESS,wl1 (2.4GHz): Detect interference(84per) on channel 1.
+2022/02/06 19:53:31,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2022/02/06 19:53:31,WIRELESS,wl0 (5GHz): Detect interference(60per) on channel 128.
+2022/02/06 19:53:31,WIRELESS,wl0 (5GHz): Detect interference(60per) on channel 124.
+2022/02/06 19:53:31,WIRELESS,wl0 (5GHz): Detect interference(60per) on channel 120.
+2022/02/06 19:53:31,WIRELESS,wl0 (5GHz): Detect interference(60per) on channel 116.
+2022/02/06 19:53:31,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 112.
+2022/02/06 19:53:31,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 108.
+2022/02/06 19:53:31,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 104.
+2022/02/06 19:53:31,WIRELESS,wl0 (5GHz): Detect interference(54per) on channel 100.
+2022/02/06 19:53:16,ADT,SNMP Daemon Start
+2022/02/06 19:53:15,WIRED,et0: link up(1000 Mbps Full duplex)
+2022/02/06 19:52:51,CONFIGUR,LAN Port
+2022/02/06 19:51:58,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:50:58,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:49:58,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:48:58,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:47:58,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:46:58,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:45:58,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:44:58,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:43:58,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:42:58,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:41:58,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:40:58,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:39:58,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:38:58,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:37:58,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:36:57,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:35:57,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:34:57,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:33:57,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:32:57,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:31:57,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:30:57,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:29:57,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:28:57,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:27:57,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:26:57,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:25:57,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:24:57,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:23:57,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:22:57,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:21:57,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:20:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:19:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:18:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:18:33,ADT,Device registration process Error!!
+2022/02/06 19:18:33,ADT,Error: Retry over device registration process. result=1
+2022/02/06 19:18:33,ADT,Timeout!: Registration request(1)
+2022/02/06 19:18:08,ADT,Start device registration process.
+2022/02/06 19:18:07,ADT,Finished checking the network. hosType=2
+2022/02/06 19:18:07,ADT,Start checking the network. hosType=2
+2022/02/06 19:18:07,ADT,No copied zip file from non-volatile area.
+2022/02/06 19:18:04,ADT,Not a proxy connection.
+2022/02/06 19:18:04,ADT,Host: Production
+2022/02/06 19:18:04,ADT,saveConfTimeoutMs    : 10000
+2022/02/06 19:18:04,ADT,keepaliveIntervalSec : 120
+2022/02/06 19:18:04,ADT,=== Start kikiNavi monitoring process.
+2022/02/06 19:17:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:17:55,WIRELESS,wl0 (5GHz): Start sending beacon
+2022/02/06 19:17:55,WIRELESS,wl0 (5GHz): Switch Channel 64 / 80 MHz
+2022/02/06 19:17:54,WIRELESS,wl0 (5GHz): AutoChannel selected Channel 64 / 80 MHz
+2022/02/06 19:17:54,WIRELESS,wl0 (5GHz): Detect interference(77per) on channel 128.
+2022/02/06 19:17:54,WIRELESS,wl0 (5GHz): Detect interference(77per) on channel 124.
+2022/02/06 19:17:54,WIRELESS,wl0 (5GHz): Detect interference(77per) on channel 120.
+2022/02/06 19:17:54,WIRELESS,wl0 (5GHz): Detect interference(77per) on channel 116.
+2022/02/06 19:17:54,WIRELESS,wl0 (5GHz): Detect interference(53per) on channel 112.
+2022/02/06 19:17:54,WIRELESS,wl0 (5GHz): Detect interference(53per) on channel 108.
+2022/02/06 19:17:54,WIRELESS,wl0 (5GHz): Detect interference(53per) on channel 104.
+2022/02/06 19:17:54,WIRELESS,wl0 (5GHz): Detect interference(53per) on channel 100.
+2022/02/06 19:17:54,WIRELESS,wl1 (2.4GHz): Start sending beacon
+2022/02/06 19:17:54,WIRELESS,wl1 (2.4GHz): Switch Channel 11 / 20 MHz
+2022/02/06 19:17:53,WIRELESS,wl1 (2.4GHz): AutoChannel selected Channel 11 / 20 MHz
+2022/02/06 19:17:53,WIRELESS,wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 13.
+2022/02/06 19:17:53,WIRELESS,wl1 (2.4GHz): Detect interference(63per) [with Non-802.11] on channel 12.
+2022/02/06 19:17:53,WIRELESS,wl1 (2.4GHz): Detect interference(96per) on channel 11.
+2022/02/06 19:17:53,WIRELESS,wl1 (2.4GHz): Detect interference(60per) [with Non-802.11] on channel 10.
+2022/02/06 19:17:53,WIRELESS,wl1 (2.4GHz): Detect interference(87per) [with Non-802.11] on channel 9.
+2022/02/06 19:17:53,WIRELESS,wl1 (2.4GHz): Detect interference(79per) [with Non-802.11] on channel 8.
+2022/02/06 19:17:53,WIRELESS,wl1 (2.4GHz): Detect interference(58per) on channel 4.
+2022/02/06 19:17:53,WIRELESS,wl1 (2.4GHz): Detect interference(65per) [with Non-802.11] on channel 3.
+2022/02/06 19:17:53,WIRELESS,wl1 (2.4GHz): Detect interference(84per) [with Non-802.11] on channel 2.
+2022/02/06 19:17:53,WIRELESS,wl1 (2.4GHz): Detect interference(70per) on channel 1.
+2022/02/06 19:16:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:15:56,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:15:36,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
+2022/02/06 19:15:16,NTP,Unknown NTPServer  :  ntp.jst.mfeed.ad.jp
