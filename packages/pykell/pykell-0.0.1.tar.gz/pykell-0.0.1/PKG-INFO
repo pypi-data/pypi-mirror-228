@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pykell
+Version: 0.0.1
+Summary: Python functional programming library inspired by Haskell.
+Project-URL: Homepage, https://github.com/guilevieiram/pykell
+Project-URL: Bug Tracker, https://github.com/guilevieiram/pykell/issues
+Author-email: Guile Vieira <guilhermevmanhaes@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# pykell
+Python programming language library inspired by Haskell.
