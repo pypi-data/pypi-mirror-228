@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+text_randomizer/__init__.py
+text_randomizer/compiler.py
+text_randomizer/lexer.py
+text_randomizer/parser.py
+text_randomizer/tokenizer.py
+text_randomizer/utils.py
+text_randomizer.egg-info/PKG-INFO
+text_randomizer.egg-info/SOURCES.txt
+text_randomizer.egg-info/dependency_links.txt
+text_randomizer.egg-info/top_level.txt
