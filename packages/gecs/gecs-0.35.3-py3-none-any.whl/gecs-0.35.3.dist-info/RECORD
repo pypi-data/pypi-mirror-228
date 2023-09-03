@@ -1,0 +1,11 @@
+LICENSE,sha256=btLYQANwhy75BwN1SiFq0m8Tq0SYH81HyXV_qRZvfOc,1060
+gecs/catgec.py,sha256=7Ld2712b63oAd6AvJRZM55hSInnSeVhqFuXlAO8U0hQ,12232
+gecs/catger.py,sha256=rtW2O4zMjseLahenFnjgghnqe1UAKNnGEpPv9fvrzC8,11985
+gecs/gec_base.py,sha256=vVrsMPGDwAZKHqt19oqMO3UYa7B9If3TWTK_nu_keXo,32439
+gecs/lightgec.py,sha256=UK8hFCy4Vrag7sG58Imk_G1gFXMpoFbX5DutE4PYswM,14009
+gecs/lightger.py,sha256=DLsSSIukLx-7bv6DLu9vUeRN0wdobuZm5O3VCxzlgno,13919
+gecs/utils/gaussian_process_visualisation.py,sha256=_l7QGuAex_Jb6E81ouHZBy5F2o1wI_n8RJa8G-_WewE,2152
+gecs-0.35.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+gecs-0.35.3.dist-info/METADATA,sha256=59c5fTPdFjY6gA9nmvTnejGQR6VwQRw4hyEDSxdY1-c,5543
+gecs-0.35.3.dist-info/LICENSE,sha256=btLYQANwhy75BwN1SiFq0m8Tq0SYH81HyXV_qRZvfOc,1060
+gecs-0.35.3.dist-info/RECORD,,
