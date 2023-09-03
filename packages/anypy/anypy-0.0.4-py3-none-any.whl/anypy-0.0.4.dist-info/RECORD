@@ -1,0 +1,13 @@
+anypy/__init__.py,sha256=bbZykSyTaauGnDiHozYoqfpA0gnSZwzpBS2fqmu62WE,282
+anypy/_version.py,sha256=2GWffEF1rjyrveUGdfR8y3cl3JUnX0gJjr8Ryy_u4JQ,21
+anypy/data/metadata_dataset_dict.py,sha256=ajpEke9rh1YFFJBhaDxWQ15UCPiNuVWI4ttytnnxQO4,2605
+anypy/latex/__init__.py,sha256=zJXRiUcIAIjwhXpUQTH2tSrM44Pe1mrmuUbQGhe1ogo,79
+anypy/latex/dataframe.py,sha256=2oBnO17O2sef4g5xwIRvWvKvUcW0SLz8owU6WcuuK6w,2347
+anypy/nn/blocks.py,sha256=xfO19IuXSyFqOgBSNZ_c6KEgeWmE4iGty7m7C9DuszA,5790
+anypy/nn/dyncnn.py,sha256=QILbFqNFLuDCet_pRdQVsrUReXVYKnhkosyUgy_M1IA,15393
+anypy/nn/utils.py,sha256=oJjnm6UA067lPrLZ_wdc6Nd0iBpostOVCXuRo9nwamA,849
+anypy-0.0.4.dist-info/LICENSE,sha256=bMyoQen3WzMZGPp9ZWNnhzUaeXk-bWucDcBuAmQQqQg,1090
+anypy-0.0.4.dist-info/METADATA,sha256=nL_jVDpBlBehnEt3i_YPEc9-XsJNnUkB6h8NFVPBbBQ,2403
+anypy-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+anypy-0.0.4.dist-info/top_level.txt,sha256=FIDpYZKX3Qvs5xelj1kWdAY5QyVY7zv31P-7-Z1X0KE,6
+anypy-0.0.4.dist-info/RECORD,,
