@@ -1,0 +1,13 @@
+eez_backup/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+eez_backup/__main__.py,sha256=p2nPGS-Kenc1qRWTnGLo9tANwPjVaqQIrIjPw02GMpc,114
+eez_backup/cli.py,sha256=tntuoEACqf_UVy__C_IfNFl6e-vUWQI0fUL2oEXFWZw,6537
+eez_backup/command.py,sha256=D-f04c9_xWoJnM_vjkTcApkflSkuj8wEafl9bWeYTO0,6102
+eez_backup/common.py,sha256=dUUA5hCXhJTpaMSn1E4f-MkPfq7Pzltimqpq6RBf9X0,921
+eez_backup/config.py,sha256=k-kPKpC-ER9ztO9d3melmkKs5u8ijA3GEjtdJrlSMOg,1529
+eez_backup/monitor.py,sha256=IXQFeg-C5tSIOGjqYPkO2x7pLg8Z_4f9zWLPINQp8_U,3445
+eez_backup/profile.py,sha256=vT8sadRUc3MSmYFZPCKiOfYC59F94gd-3J7gq-emGCQ,3022
+eez_backup/repository.py,sha256=r2l7iOuzIt8HMBeQ456w-MvJ-WRF9URCiuHsiVJH8B4,1861
+eez_backup-0.2.0.dist-info/METADATA,sha256=Iasif4m9rHhMD_EXFvJvyChozcIYSF-eTBj8Hx1kts0,2666
+eez_backup-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+eez_backup-0.2.0.dist-info/entry_points.txt,sha256=HFzskvySp4HZ97mA8VxkYTId7uwk7Jwf-sw8_He9_WE,50
+eez_backup-0.2.0.dist-info/RECORD,,
