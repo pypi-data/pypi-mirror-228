@@ -1,0 +1,12 @@
+face_erase/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+face_erase/__main__.py,sha256=U6nEFxRUbhEqcKKaNjgina9HHt6d7SjNu2i2ZsNdAXE,1880
+face_erase/blur.py,sha256=WQiRj7wu63Pvrbibblj71R0AIqwgPjg5n3rbQDxuIHQ,1509
+face_erase/child_stream.py,sha256=fj5n-UH2g1nnKoEHuAm_UixIZrxWLStfCK1GqpEfB9Q,1547
+face_erase/detect.py,sha256=ellGYOJkCP_bo9oIqI-nQkVAf4ZSDAg7lC5LBhj7kvo,3778
+face_erase/ffmpeg.py,sha256=S8HHUte-a4_uoYiMwoSBAfeM4rbCgl3qv-_BHsSXGIY,5960
+face_erase/ultralytics_util.py,sha256=dESIRvQkA7uHNVGNemwiM4MXs-GqvIYmhY0PzlHoS1c,30179
+face_erase/binary/yolov8n-face-640x640.torchscript,sha256=09IWYr7sCL5HP9u9Mmu8HrJVnpsjuExlaeTgVH64IA4,13071790
+face_erase-0.1.0.dist-info/METADATA,sha256=80jucaWs13IXef5HMVGEGDPUZRYbcySYRRvyS8V7DWI,245
+face_erase-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+face_erase-0.1.0.dist-info/top_level.txt,sha256=fD329MbhaSTFyq9iDSve9_x83N7VH4QBkSzJyBkpIIg,11
+face_erase-0.1.0.dist-info/RECORD,,
