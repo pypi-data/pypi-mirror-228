@@ -1,0 +1,7 @@
+winrt/_winrt_windows_media_speechsynthesis.cp312-win32.pyd,sha256=Q3_kOlqZn4NHOP6eGmioQ8rr7ODdnL_K0wUTTvchPpg,189440
+winrt/_winrt_windows_media_speechsynthesis.pyi,sha256=qNq08zi2UH6XGoyG1pRjVQ9CJRxxtm9C13BXrNW8VP8,5586
+winrt/windows/media/speechsynthesis/__init__.py,sha256=O0zwwv0c-IKnvsqOZQNvlrGkEfznyaxKRTa1FYi-IXk,911
+winrt_Windows.Media.SpeechSynthesis-2.0.0b1.dist-info/METADATA,sha256=-XODZvdTOtr3U-nNUReVlHBIXepyEEb8L36y_wHk2Rw,1348
+winrt_Windows.Media.SpeechSynthesis-2.0.0b1.dist-info/WHEEL,sha256=hgw21682hRmfLj5nsd2kf-rkdu51i6WpSSV68iGxfBg,98
+winrt_Windows.Media.SpeechSynthesis-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Media.SpeechSynthesis-2.0.0b1.dist-info/RECORD,,
