@@ -1,0 +1,12 @@
+redisdecor/utils.c,sha256=obkAdC5L-eKoEM3bq35uNkUzdDONMfRh0HAEL0SlLME,715375
+redisdecor/__init__.py,sha256=W5lR6oauQTvmkrqYc2NVa5OKEal0_ox8TgCLSLoyBnk,439
+redisdecor/logs.py,sha256=p9unLkOD5PgFLdVXMwV-4Q06l0GP5ww9SjRZ6_yhB4c,358
+redisdecor/utils.cpython-310-x86_64-linux-gnu.so,sha256=-CIp-CP3f5C6tbNe3OMuxdLu0ssmR4o0b5Qj_8EHs4Q,923880
+redisdecor/decorator.py,sha256=PhhH7XNCparzSYgCL0tHfaNWCJIocADGzpgze8sy3K8,19112
+redisdecor/client.py,sha256=Io9R5oi9zGHr_e0NE4L0YKwhQsOh2tKHB74ltiHwOyQ,41136
+redisdecor/utils.py,sha256=m414uXULji2bqOniqCcHNIR-JXWNKtRGYo9tqjc7EUY,5219
+redisdecor-0.1.10.4.dist-info/RECORD,,
+redisdecor-0.1.10.4.dist-info/WHEEL,sha256=Qybn9f_9c7ImWsQIXNA7u-F9d7QLLBwD346Igm-60cw,113
+redisdecor-0.1.10.4.dist-info/LICENSE,sha256=JDbC5iyUkFj7pWaNVtk4-cS3d6eTs3ms2ZQBiN-lCoE,2694
+redisdecor-0.1.10.4.dist-info/METADATA,sha256=A3vH75WhwX5bH-Av58CwR0v9vo33_W4ck_q5JU1_rz0,11031
+redisdecor-0.1.10.4.dist-info/top_level.txt,sha256=JA_IppPDHXR2gLMBfSsj3QeNNRqfX8SfZN6HnoifRSQ,11
