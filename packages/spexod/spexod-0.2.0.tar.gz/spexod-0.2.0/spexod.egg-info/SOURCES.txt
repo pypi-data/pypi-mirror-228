@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+spexod/API.py
+spexod/FITSREAD.md
+spexod/__init__.py
+spexod/filepaths.py
+spexod/fits_read.py
+spexod.egg-info/PKG-INFO
+spexod.egg-info/SOURCES.txt
+spexod.egg-info/dependency_links.txt
+spexod.egg-info/requires.txt
+spexod.egg-info/top_level.txt
