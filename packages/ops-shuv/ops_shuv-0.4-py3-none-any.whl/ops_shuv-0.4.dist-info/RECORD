@@ -1,0 +1,13 @@
+operations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+operations/add.py,sha256=i5K9mRHMB-c-I6zoXey9dWQFxrss15BkUibne-vpRcU,233
+ops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ops/add.py,sha256=i5K9mRHMB-c-I6zoXey9dWQFxrss15BkUibne-vpRcU,233
+ops-shuv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ops-shuv/add.py,sha256=i5K9mRHMB-c-I6zoXey9dWQFxrss15BkUibne-vpRcU,233
+ops_shuv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ops_shuv/ops.py,sha256=i5K9mRHMB-c-I6zoXey9dWQFxrss15BkUibne-vpRcU,233
+ops_shuv-0.4.dist-info/LICENSE,sha256=AxK8K4zPBUsO7_DXLYqwM9fViNm9-KngKeB0RAa8_28,1090
+ops_shuv-0.4.dist-info/METADATA,sha256=tDFNv56jsHgZs4a-ct71EAedOHX6DfKS96xCfGARVKY,194
+ops_shuv-0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ops_shuv-0.4.dist-info/top_level.txt,sha256=uIlFiHPxPnslLTlnf3jfLj9qM6QvnCPBl533HvMD2Bo,9
+ops_shuv-0.4.dist-info/RECORD,,
