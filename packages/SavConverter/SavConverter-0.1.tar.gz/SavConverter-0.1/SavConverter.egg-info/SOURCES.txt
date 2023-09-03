@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+SavConverter/EditJson.py
+SavConverter/JsonToSav.py
+SavConverter/SavProperties.py
+SavConverter/SavReader.py
+SavConverter/SavToJson.py
+SavConverter/SavWriter.py
+SavConverter/__init__.py
+SavConverter.egg-info/PKG-INFO
+SavConverter.egg-info/SOURCES.txt
+SavConverter.egg-info/dependency_links.txt
+SavConverter.egg-info/top_level.txt
