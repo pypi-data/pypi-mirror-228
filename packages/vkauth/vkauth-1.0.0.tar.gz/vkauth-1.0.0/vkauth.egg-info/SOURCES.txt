@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+vkauth/__init__.py
+vkauth/vkauth.py
+vkauth.egg-info/PKG-INFO
+vkauth.egg-info/SOURCES.txt
+vkauth.egg-info/dependency_links.txt
+vkauth.egg-info/requires.txt
+vkauth.egg-info/top_level.txt
