@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: firefox-to-sqlite
+Version: 0.2.0
+Summary: Create an SQLite database from your Firefox data
+Author: Cade Ekblad-Frank
+Author-email: cade@e-f.me
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: sqlite-utils (>=3.35,<4.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Project-URL: Documentation, https://firefox-to-sqlite.cade.pro
+Project-URL: Repository, https://github.com/cadeef/firefox-to-sqlite
+Description-Content-Type: text/markdown
+
+Firefox *to* SQLite is a bit of a misnomer, Firefox stores history, bookmarks, etc. in
+SQLite. `firefox-to-sqlite` aims to make it easy to find your Firefox data and provide addtional
+context in the database suitable for easy queries.
+
+## Quick Start
+
+### Install
+
+```sh
+pipx install firefox-to-sqlite
+```
+
+### Select profile
+
+```sh
+firefox-to-sqlite profiles
+```
+
+### Export
+
+```sh
+firefox-to-sqlite fetch --profile <PROFILE> <TARGET_DB_FILE>
+```
+

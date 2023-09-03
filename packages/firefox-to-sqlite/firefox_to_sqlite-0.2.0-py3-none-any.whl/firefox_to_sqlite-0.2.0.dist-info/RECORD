@@ -1,0 +1,9 @@
+firefox_to_sqlite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+firefox_to_sqlite/__main__.py,sha256=Qd-f8z2Q2vpiEP2x6PBFsJrpACWDVxFKQk820MhFmHo,59
+firefox_to_sqlite/cli.py,sha256=KUhmJHqgk4Z-gEzj0rCSNWhMbxGyFHBrKFVXDP0YZO4,2711
+firefox_to_sqlite/lib.py,sha256=cdEDE3Y7S8hZxjjDs1j6JBeUAtccdqx7IUQI6ejdzUk,5425
+firefox_to_sqlite-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+firefox_to_sqlite-0.2.0.dist-info/METADATA,sha256=Wt-5LoN4WU3wyxkNgWzs87V_PEV1oTHcIRmz5ud8Pzk,1007
+firefox_to_sqlite-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+firefox_to_sqlite-0.2.0.dist-info/entry_points.txt,sha256=wpPwP9A8K_hV_I8VekTRL2CYzc9LPV8EQuG89NUSYpE,63
+firefox_to_sqlite-0.2.0.dist-info/RECORD,,
