@@ -1,0 +1,2 @@
+[console_scripts]
+qwd = qwd.__main__:main

@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+readme.md
+qwd/__init__.py
+qwd/__main__.py
+qwd.egg-info/PKG-INFO
+qwd.egg-info/SOURCES.txt
+qwd.egg-info/dependency_links.txt
+qwd.egg-info/entry_points.txt
+qwd.egg-info/top_level.txt
