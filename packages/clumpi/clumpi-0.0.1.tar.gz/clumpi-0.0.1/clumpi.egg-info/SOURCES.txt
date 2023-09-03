@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+clumpi/__init__.py
+clumpi/main.py
+clumpi.egg-info/PKG-INFO
+clumpi.egg-info/SOURCES.txt
+clumpi.egg-info/dependency_links.txt
+clumpi.egg-info/top_level.txt
