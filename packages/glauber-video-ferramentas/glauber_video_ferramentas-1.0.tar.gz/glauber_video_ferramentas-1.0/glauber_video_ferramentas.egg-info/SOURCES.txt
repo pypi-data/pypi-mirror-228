@@ -1,0 +1,10 @@
+README.md
+license.txt
+setup.py
+glauber_video_ferramentas/__init__.py
+glauber_video_ferramentas/camera.py
+glauber_video_ferramentas/video.py
+glauber_video_ferramentas.egg-info/PKG-INFO
+glauber_video_ferramentas.egg-info/SOURCES.txt
+glauber_video_ferramentas.egg-info/dependency_links.txt
+glauber_video_ferramentas.egg-info/top_level.txt
