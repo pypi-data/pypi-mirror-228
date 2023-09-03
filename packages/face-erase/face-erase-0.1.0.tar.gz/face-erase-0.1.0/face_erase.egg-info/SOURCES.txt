@@ -1,0 +1,15 @@
+README.md
+setup.py
+face_erase/__init__.py
+face_erase/__main__.py
+face_erase/blur.py
+face_erase/child_stream.py
+face_erase/detect.py
+face_erase/ffmpeg.py
+face_erase/ultralytics_util.py
+face_erase.egg-info/PKG-INFO
+face_erase.egg-info/SOURCES.txt
+face_erase.egg-info/dependency_links.txt
+face_erase.egg-info/requires.txt
+face_erase.egg-info/top_level.txt
+face_erase/binary/yolov8n-face-640x640.torchscript
