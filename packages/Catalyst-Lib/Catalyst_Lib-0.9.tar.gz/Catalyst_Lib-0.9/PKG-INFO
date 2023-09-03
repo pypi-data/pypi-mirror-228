@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Catalyst_Lib
+Version: 0.9
+Summary: The all in one python library you need
+Home-page: https://github.com/Catalyst-Studio/Lib_Files
+Download-URL: https://github.com/Catalyst-Studio/Lib_Files/
+Author: Catalyst Studios
+Author-email: help@catalyst-studios.cc
+License: Apache License 2.0
+Keywords: library,easy,allinone
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE.txt
