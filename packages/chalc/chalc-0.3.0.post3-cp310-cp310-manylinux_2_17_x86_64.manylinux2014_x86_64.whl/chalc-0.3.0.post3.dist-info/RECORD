@@ -1,0 +1,11 @@
+chalc/_version.cpython-310-x86_64-linux-gnu.so,sha256=3tM-bi7C_i7_t7GUIkpgjcn5OptNIH4Sha15GGZKbuQ,175712
+chalc/__init__.py,sha256=J98QoldDpzY9GjfPDUO7L5sf9p7y0gA_2dyii3dNLEg,246
+chalc/filtration.cpython-310-x86_64-linux-gnu.so,sha256=7zaBH2Kyynokp8PrKoVTSg4ekD-_7uxBJ8wxN1KHrCI,299016
+chalc/chromatic.cpython-310-x86_64-linux-gnu.so,sha256=Bb0BdDhqC6ILsZlQ1y3EViPEyQWXOYVbioEl0DTim9U,1354152
+chalc-0.3.0.post3.dist-info/RECORD,,
+chalc-0.3.0.post3.dist-info/WHEEL,sha256=cSmQbkNDab36KQmXphd83nSZDzoFkLydYC11op1qL-Y,146
+chalc-0.3.0.post3.dist-info/METADATA,sha256=DqJbvGSaukuIAxyYfTaexXm2hwKOan0kvjtRBzQzz30,42083
+chalc-0.3.0.post3.dist-info/top_level.txt,sha256=tVtYforZ_xPmAlFijY1M_2Yt1FDjWKJ8jsVHiTW8r44,6
+chalc-0.3.0.post3.dist-info/COPYING,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+chalc-0.3.0.post3.data/data/CMakeLists.txt,sha256=1yphETIF8z6EoTC6SN_bYWvbmDcesyaZc30yksJAMY0,3662
+chalc-0.3.0.post3.data/data/vcpkg.json,sha256=MqQ2uVRNz6uIYBhtRqSm2VGzK9Xihe3hbamv9pyJn74,853
