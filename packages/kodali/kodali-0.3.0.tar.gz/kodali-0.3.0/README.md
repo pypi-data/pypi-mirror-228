@@ -1,0 +1,40 @@
+# KODALI(Korean Dataset Loading Interface)
+
+# 1. 지원 데이터 셋
+## 개체명 인식
+- 모두의 말뭉치(Korean Corpus)
+- KLUE-NER(KLUE)
+
+## 관계 추출
+- AI Hub: 한국어 지식기반 관계 데이터
+- KLUE-RE
+
+# 2. How to use
+## 개체명 인식
+```
+dataset = Kodali(path={PATH}, task="ner", source={DATASET_SOURCE})
+
+# Source List
+# - 모두의 말뭉치 : "korean-corpus"
+# - KLUE-NER : "klue"
+```
+# 3. 데이터 포맷
+## 개체명 인식
+개체명 인식 데이터 셋은 NerOutputs, NerData, NerEntity 포맷을 지원합니다.<br/>
+NerEntity는 엔티티 정보를 가지고 있고, NerData는 문장과 문장 내 엔티티들을 포함합니다. NerOutputs는 NerData 목록을 가지고 있으며, 데이터를 입력할 시, 데이터의 크기를 자동으로 계산합니다.
+
+```
+NerOutputs
+    data: List[NerData]
+    size: int = 0
+
+NerData:
+    sentence: str
+    entities: List[NerEntity]
+
+NerEntity:
+    word: str
+    label: str
+    start_idx: int
+    end_idx: int
+```
