@@ -1,0 +1,15 @@
+README.md
+setup.py
+bogir/__init__.py
+bogir/base_merchant_manager.py
+bogir/everymatrix_merch_manager.py
+bogir/merchant_factory.py
+bogir/mima_merch_manager.py
+bogir.egg-info/PKG-INFO
+bogir.egg-info/SOURCES.txt
+bogir.egg-info/dependency_links.txt
+bogir.egg-info/requires.txt
+bogir.egg-info/top_level.txt
+bogir/schemas/__init__.py
+bogir/schemas/everymatrix.py
+bogir/schemas/mima.py
