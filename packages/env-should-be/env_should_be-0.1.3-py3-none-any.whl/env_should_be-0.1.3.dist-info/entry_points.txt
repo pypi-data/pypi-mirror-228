@@ -1,0 +1,2 @@
+[console_scripts]
+env_should_be = env_should_be.main:main

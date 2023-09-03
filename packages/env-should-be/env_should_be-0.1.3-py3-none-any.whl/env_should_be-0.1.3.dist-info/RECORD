@@ -1,0 +1,10 @@
+env_should_be/__init__.py,sha256=0E3yaHc6mTu6gBw3qyAYSPVzdl2MOvgkxgG10_rdyy8,58
+env_should_be/description.py,sha256=IpFVu3aQlFxMh3NPkEiqBNXBVeKK_wPlcXrpPcLdsIQ,3058
+env_should_be/exception.py,sha256=AnJYkFjHyI59Tp2bRKtqB5oh-D03qclUXncssI8gxlQ,446
+env_should_be/main.py,sha256=eluaLrf3h3SUqd7HnPp6c1fTPFLJq7ZghqxeZdPYVco,2990
+env_should_be/utils.py,sha256=MxlAZ0dSmg5Y-X15JtrhCiumkdBBLBPf0byobwMpgQw,3918
+env_should_be-0.1.3.dist-info/METADATA,sha256=9o4D4RvcIk_xP1sSXqugXkqBfBqXdyDVBQrEYBmoWac,1901
+env_should_be-0.1.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+env_should_be-0.1.3.dist-info/entry_points.txt,sha256=TetXKdBAkkDkn92JIWH02qSRlcR3OPxROvGak5bnrLc,58
+env_should_be-0.1.3.dist-info/top_level.txt,sha256=21bEq3QsZvwu1JeTJkaspw08trmuAFgdgckDQc9RS6E,14
+env_should_be-0.1.3.dist-info/RECORD,,
