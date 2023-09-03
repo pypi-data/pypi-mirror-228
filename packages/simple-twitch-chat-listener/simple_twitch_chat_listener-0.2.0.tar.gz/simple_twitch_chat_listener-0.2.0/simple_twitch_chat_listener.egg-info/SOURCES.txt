@@ -1,0 +1,16 @@
+.gitignore
+LICENCE
+README.md
+pyproject.toml
+.github/workflows/python-publish.yml
+examples/.gitignore
+examples/minimal.py
+examples/reconnect.py
+examples/tags.py
+simple_twitch_chat_listener/__init__.py
+simple_twitch_chat_listener/_version.py
+simple_twitch_chat_listener.egg-info/PKG-INFO
+simple_twitch_chat_listener.egg-info/SOURCES.txt
+simple_twitch_chat_listener.egg-info/dependency_links.txt
+simple_twitch_chat_listener.egg-info/requires.txt
+simple_twitch_chat_listener.egg-info/top_level.txt
