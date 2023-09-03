@@ -1,0 +1,4 @@
+winrt-runtime==2.0.0-beta.1
+
+[all]
+winrt-Windows.Foundation[all]==2.0.0-beta.1
