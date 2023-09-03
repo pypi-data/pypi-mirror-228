@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+sync_composer/__init__.py
+sync_composer/sync_composer.py
+sync_composer.egg-info/PKG-INFO
+sync_composer.egg-info/SOURCES.txt
+sync_composer.egg-info/dependency_links.txt
+sync_composer.egg-info/top_level.txt
