@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fauna_api"
+version = "0.0.2"
+description = ""
+authors = ["Oscar Bahamonde <oscar.bahamonde@aiofauna.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = {extras = ["http2"], version = "^0.24.1"}
+pydantic = "1.10.12"
+fastapi = "^0.103.0"
+iso8601 = "^2.0.0"
+rich = "^13.5.2"
+markdown-it-py = {extras = ["linkify"], version = "^3.0.0"}
+mangum = "^0.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
