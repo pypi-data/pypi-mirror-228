@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.cfg
+src/floof/__init__.py
+src/floof/_comparer.py
+src/floof/_linker.py
+src/floof/_matcher.py
+src/floof.egg-info/PKG-INFO
+src/floof.egg-info/SOURCES.txt
+src/floof.egg-info/dependency_links.txt
+src/floof.egg-info/requires.txt
+src/floof.egg-info/top_level.txt
+src/floof/utils/__init__.py
+src/floof/utils/types.py
+src/floof/utils/utils.py
+tests/test.py
