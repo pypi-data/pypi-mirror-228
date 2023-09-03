@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: flowtx
+Version: 0.0.1
+Summary: FlowTx: A Python package for analyzing flow cytometry experiments.
+Author-email: "Hersh K. Bhargava" <hello@hershbhargava.com>
+Maintainer-email: "Hersh K. Bhargava" <hello@hershbhargava.com>
+Project-URL: Homepage, https://github.com/hbhargava7/flowtx
+Keywords: flow cytometry,cell engineering,lab,biology
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# flowtx
+Toolkit for flow cytometry data analysis
