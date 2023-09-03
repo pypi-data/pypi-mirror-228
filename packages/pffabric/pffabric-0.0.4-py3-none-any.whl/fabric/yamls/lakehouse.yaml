@@ -1,0 +1,19 @@
+fabric.tools.lakehouse.lakehouse_lookup:
+  function: lakehouse_lookup
+  inputs:
+    workspaceName:
+      type:
+      - string
+    artifactName:
+      type:
+      - string
+    fileName:
+      type:
+      - string
+    params:
+      type:
+      - object
+  module: fabric.tools.lakehouse
+  name: Fabric Lakehouse Tool
+  description: Connect and filter data from a Microsoft Fabric Lakehouse
+  type: python
