@@ -1,0 +1,28 @@
+[package]
+name = "twibint"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "twibint"
+
+[dependencies.pyo3]
+version = "0.19.0"
+features = ["extension-module"]
+optional = true
+
+[dependencies.rand]
+version = "0.8"
+
+[dev-dependencies]
+criterion = "0.5"
+num-bigint = "0.4"
+typed_test_gen = "0.1"
+
+[[bench]]
+name = "biguint"
+harness = false
+
+[[bench]]
+name = "num-bigint"
+harness = false
