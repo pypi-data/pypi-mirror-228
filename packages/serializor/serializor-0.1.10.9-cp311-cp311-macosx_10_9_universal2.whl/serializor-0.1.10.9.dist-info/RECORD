@@ -1,0 +1,11 @@
+serializor/transcode.c,sha256=jBQiKXTXccFOBalvq-z8cr-V3Zbi2jLnpIlUb8ZBQgg,1030907
+serializor/__init__.pxd,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serializor/transcode.pxd,sha256=3xY9leXrwfvyhcHHvDkjilwXCQVCPtwigwBE1AwKQqQ,206
+serializor/transcode.py,sha256=j1hoIUcZTTtnKg8qs4nsI55il6TeSgHWT_Fj-5VMdjs,17468
+serializor/__init__.py,sha256=yIXrWqXEKyw7eB8iXFVH1PX9MTgtwrsNsnj1t4iJovU,199
+serializor/transcode.cpython-311-darwin.so,sha256=52Hbc_zqxMK2P7Bw3mZg4kpIHjIBFlKBhh1StnD3pJ8,517900
+serializor-0.1.10.9.dist-info/RECORD,,
+serializor-0.1.10.9.dist-info/LICENSE,sha256=RAniOK__cFrKZfwO6yVzJjATd-HyF27gqFNC7A9vCMI,11981
+serializor-0.1.10.9.dist-info/WHEEL,sha256=3FNOzWH49S9xlyW5kytslWcRN_cI_Pw_NSKs5sAOwcc,115
+serializor-0.1.10.9.dist-info/top_level.txt,sha256=Qi-GN-ievkejJkgwXvb-vDjONEKC9nxQyjKw_bKPK1E,11
+serializor-0.1.10.9.dist-info/METADATA,sha256=aXlbluqCX-k9H-XmKgC9SkZgDstSzUX2zc5KaEd-oMk,13598
