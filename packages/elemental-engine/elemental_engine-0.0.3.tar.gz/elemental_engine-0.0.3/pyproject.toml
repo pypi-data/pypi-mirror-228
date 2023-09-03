@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=65.5.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "elemental_engine"
+version = '0.0.3'
+authors = [
+  { name="Tom Neto", email="info@tomneto.com" },
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+        "Development Status :: 1 - Planning",
+        "Intended Audience :: Developers",
+        "Programming Language :: Python :: 3.8",
+        "Operating System :: Unix",
+        "Operating System :: MacOS :: MacOS X",
+        "Operating System :: Microsoft :: Windows",
+]
