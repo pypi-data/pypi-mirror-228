@@ -1,0 +1,14 @@
+[project]
+name = "Auraaisd"
+version = "1.1.1"
+authors = [
+  { name="Sandesh kumar" },
+]
+description = " A ai packagage to make a wonderful ai enhancement"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
