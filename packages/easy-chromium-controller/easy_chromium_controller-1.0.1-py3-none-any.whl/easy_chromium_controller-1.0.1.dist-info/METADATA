@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: easy-chromium-controller
+Version: 1.0.1
+License-File: LICENSE
+Requires-Dist: selenium (==4.12.0)
+Requires-Dist: Pillow (==10.0.0)
+Requires-Dist: psutil (==5.9.5)
+
