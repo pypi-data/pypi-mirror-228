@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: doxcli
+Version: 2.0.7
+Summary: Cli to create project structure
+Home-page: https://github.com/bijaydas/doxcli
+Author: Bijay Das
+Author-email: me@bijaydas.com
+License: MIT License
+Project-URL: Source, https://github.com/bijaydas/doxcli
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bleach ==6.0.0
+Requires-Dist: build ==1.0.0
+Requires-Dist: certifi ==2023.7.22
+Requires-Dist: cffi ==1.15.1
+Requires-Dist: charset-normalizer ==3.2.0
+Requires-Dist: cryptography ==41.0.3
+Requires-Dist: docutils ==0.20.1
+Requires-Dist: idna ==3.4
+Requires-Dist: importlib-metadata ==6.8.0
+Requires-Dist: jaraco.classes ==3.3.0
+Requires-Dist: jeepney ==0.8.0
+Requires-Dist: keyring ==24.2.0
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: more-itertools ==10.1.0
+Requires-Dist: packaging ==23.1
+Requires-Dist: pkginfo ==1.9.6
+Requires-Dist: pycparser ==2.21
+Requires-Dist: Pygments ==2.16.1
+Requires-Dist: pyproject-hooks ==1.0.0
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: readme-renderer ==41.0
+Requires-Dist: requests ==2.31.0
+Requires-Dist: requests-toolbelt ==1.0.0
+Requires-Dist: rfc3986 ==2.0.0
+Requires-Dist: rich ==13.5.2
+Requires-Dist: SecretStorage ==3.3.3
+Requires-Dist: six ==1.16.0
+Requires-Dist: tomli ==2.0.1
+Requires-Dist: twine ==4.0.2
+Requires-Dist: urllib3 ==2.0.4
+Requires-Dist: webencodings ==0.5.1
+Requires-Dist: zipp ==3.16.2
+
+<p align="center"><a href="https://github.com/bijaydas/doxcli" target="_blank"><img src="https://raw.githubusercontent.com/bijaydas/doxcli/v2.x/images/logo.png"></a></p>
+
+## About DocCli
+
+DoxCli is a cli tool which helps to do day to day jobs.
+
+## Features
+
+1. Check if domain is available using GoDaddy API.
+2. More features are coming soon...
+
+## Installation
+
+1. As this project is in Alpha mode, it is recommended to install it in `virtual env`.
+
+    ```shell
+    python3 -m venv name-your-venv
+    
+    source path-to-your-venv/bin/activate
+    
+    pip install doxcli
+    ```
+
+2. Create the config file in `~/.config/doxcli/config.yaml`
+3. And add your GoDaddy API credentials.
+    ```yaml
+   godaddy:
+      api_key: api-key
+      api_secret: api-secret
+   ```
+
+## How to use
+
+After the confi file has setup, you can run the following command to check if any domain is available.
+
+```bazaar
+dox godaddy --name bijaydas.com
+```
+<br />
+
+**Output screenshot**
+
+<p align="center"><img src="https://raw.githubusercontent.com/bijaydas/doxcli/v2.x/images/godaddy-output.png" /></p>
+
+## Contributing
+
+Thank you for considering contributing to the DocCli!
+
+## License
+
+The DoxCli is open-sourced software licensed under the [MIT license](LICENSE.md).
