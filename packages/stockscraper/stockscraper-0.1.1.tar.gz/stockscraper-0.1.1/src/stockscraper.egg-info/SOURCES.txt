@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/stockscraper/__init__.py
+src/stockscraper/stockscraper.py
+src/stockscraper.egg-info/PKG-INFO
+src/stockscraper.egg-info/SOURCES.txt
+src/stockscraper.egg-info/dependency_links.txt
+src/stockscraper.egg-info/requires.txt
+src/stockscraper.egg-info/top_level.txt
