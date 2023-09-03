@@ -1,0 +1,12 @@
+SavConverter/EditJson.py,sha256=BB8f2D6vkRuE7GSAfD04500VHHhV6Je4gRsjmYlE70Q,2432
+SavConverter/JsonToSav.py,sha256=hNcFRIrkqu3xo-poyq99Hk99MMXR4ptqxuq7zRDu01I,716
+SavConverter/SavProperties.py,sha256=YsuNckI8Wonrf9oPIgt8MYv5SqUS-urDli0j4AD0XEE,32779
+SavConverter/SavReader.py,sha256=-F8PDU8EKOdhsJyl9q4cWerucL9A5ckbl8iQeXFmdhQ,5866
+SavConverter/SavToJson.py,sha256=4d3nDK2HJdNIljR4AWQSOo0QW_KV0KUMkU1541emZxg,950
+SavConverter/SavWriter.py,sha256=7kqdAguJH4SE7nJww-0ejj3joHl7JOS8N0aBLfJ9QXU,1293
+SavConverter/__init__.py,sha256=wIV0jM_SxR6FU_VUvtv6pkUinaTLs7C5dXwIKvr1NVw,125
+SavConverter-0.1.1.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+SavConverter-0.1.1.dist-info/METADATA,sha256=J-5q5lSUbwUXxAtSih_SNBmjlKoQVMSkO-uIapmuN4A,5671
+SavConverter-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+SavConverter-0.1.1.dist-info/top_level.txt,sha256=vP6httnx7O7mlKodJZIiU_Hr4xfJIPSdi7kWleUIZrw,13
+SavConverter-0.1.1.dist-info/RECORD,,
