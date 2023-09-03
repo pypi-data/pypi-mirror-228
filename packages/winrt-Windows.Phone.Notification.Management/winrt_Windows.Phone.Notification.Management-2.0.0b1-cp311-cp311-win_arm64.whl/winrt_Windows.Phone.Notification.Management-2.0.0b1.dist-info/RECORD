@@ -1,0 +1,7 @@
+winrt/_winrt_windows_phone_notification_management.cp311-win_arm64.pyd,sha256=cXUks9JxnOI446j0S-mBxjcxqnnUpjHKYSRNkdI5hd4,512000
+winrt/_winrt_windows_phone_notification_management.pyi,sha256=ewrmFsxA9YB_UtOK3SsFpJuZEc4qShSU8nbFncbEJrI,19793
+winrt/windows/phone/notification/management/__init__.py,sha256=Ke8sH-6-Q9rh5ks58Fe70rOXagkohrix8QuxhPNlJMY,5348
+winrt_Windows.Phone.Notification.Management-2.0.0b1.dist-info/METADATA,sha256=XuVAxOTvx-uQUzImbZsP0svnlf4tQ5PU3dXimgZzOIE,1416
+winrt_Windows.Phone.Notification.Management-2.0.0b1.dist-info/WHEEL,sha256=kA-IFTHpHI7fgxmyCoX_1u7AutG245kusC5OBlaP9IU,102
+winrt_Windows.Phone.Notification.Management-2.0.0b1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Phone.Notification.Management-2.0.0b1.dist-info/RECORD,,
