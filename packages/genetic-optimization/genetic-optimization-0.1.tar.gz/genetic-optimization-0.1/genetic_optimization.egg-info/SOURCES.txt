@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+genetic_optimization.egg-info/PKG-INFO
+genetic_optimization.egg-info/SOURCES.txt
+genetic_optimization.egg-info/dependency_links.txt
+genetic_optimization.egg-info/requires.txt
+genetic_optimization.egg-info/top_level.txt
