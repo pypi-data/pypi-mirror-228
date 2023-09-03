@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pezzo
+Version: 0.1.0a1
+Summary: Python client for Pezzo
+Home-page: https://www.pezzo.ai
+License: Apache-2.0
+Author: Pezzo, Inc.
+Author-email: hello@pezzo.ai
+Requires-Python: >=3.8.1
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: lockfile (>=0.12.2,<0.13.0)
+Requires-Dist: openai (>=0.27.0,<0.28.0)
+Project-URL: Repository, https://github.com/pezzolabs/client-python
