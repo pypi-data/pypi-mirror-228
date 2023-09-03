@@ -1,0 +1,4 @@
+[console_scripts]
+housenomics=profitpulse.ui.typercli.main:app
+profitpulse=profitpulse.ui.typercli.main:app
+
