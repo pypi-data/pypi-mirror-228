@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: unratedwriting
+Version: 1.0.1
+Summary: A Python package that adds a typewriter effect to text output. It allows you to display text in a way that mimics the classic typewriter-style printing, with characters appearing one by one at a defined speed. This package is suitable for enhancing the visual appeal of command-line applications, creating interactive fiction games, or simply adding a fun twist to your Python projects. Easy to use and highly customizable, it provides an engaging way to present text-based information.
+Home-page: https://github.com/AnozieChibuike/typewriter
+License: MIT
+Author: Anozie Chibuike
+Author-email: chibuikeanozie0@gmail.com
+Requires-Python: >=2.5
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# My Typewriter Effect Package
+
+[![PyPI Version](https://img.shields.io/pypi/v/my-typewriter-package.svg)](https://pypi.org/project/my-typewriter-package/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/my-typewriter-package.svg)](https://pypi.org/project/typewriter/)
+[![License](https://img.shields.io/pypi/l/my-typewriter-package.svg)](https://github.com/AnozieChibuike/typewriter/blob/master/LICENSE)
+
+A Python package that creates a typewriter effect for text output.
+
+## Installation
+
+You can install this package using `pip`:
+
+```bash
+pip install unratedwriting 
+```
+
+Usage
+-----
+
+```python
+from unratedwriting import typewrite
+
+text_to_type = "Hello, this is a typewriter effect!"
+typewrite(text_to_type)`
+```
+Parameters
+----------
+
+-   `text` (str): The text you want to display with the typewriter effect.
+-   `delay` (float, optional): The delay in seconds between each character typing. Default is 0.05 seconds.
+
+Contributing
+------------
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Make your changes and test them thoroughly.
+4.  Create a pull request with a clear description of your changes.
+
+License
+-------
+
+This project is licensed under the MIT License - see the [LICENSE](https://mit-license.org/) file for details.
+
+Acknowledgments
+---------------
+
+-   Inspired by the typewriter effect in Python.
+
+Contact
+-------
+
+-   Anozie Joel
+-   Email: chibuikeanozie0@gmail.com
+-   GitHub: <https://github.com/AnozieChibuike>
