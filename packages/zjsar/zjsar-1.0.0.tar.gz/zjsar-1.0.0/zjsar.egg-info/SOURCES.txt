@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+zjsar.egg-info/PKG-INFO
+zjsar.egg-info/SOURCES.txt
+zjsar.egg-info/dependency_links.txt
+zjsar.egg-info/requires.txt
+zjsar.egg-info/top_level.txt
