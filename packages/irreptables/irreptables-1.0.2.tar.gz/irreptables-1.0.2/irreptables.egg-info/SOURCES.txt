@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+irreptables/__convertTab.py
+irreptables/__init__.py
+irreptables.egg-info/PKG-INFO
+irreptables.egg-info/SOURCES.txt
+irreptables.egg-info/dependency_links.txt
+irreptables.egg-info/requires.txt
+irreptables.egg-info/top_level.txt
