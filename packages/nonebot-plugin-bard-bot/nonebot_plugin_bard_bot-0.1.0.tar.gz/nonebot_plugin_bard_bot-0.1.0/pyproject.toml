@@ -1,0 +1,34 @@
+[project]
+name = "nonebot-plugin-bard-bot"
+version = "0.1.0"
+description = "nonebot-plugin-bard-bot"
+readme = "README.md"
+requires-python = ">=3.8, <4.0"
+
+[tool.nonebot]
+adapters = [
+    { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" }
+]
+plugins = ["nonebot_plugin_gocqhttp"]
+plugin_dirs = ["nonebot_plugin_bard_bot"]
+builtin_plugins = ["echo"]
+
+[tool.poetry]
+name = "nonebot-plugin-bard-bot"
+version = "0.1.0"
+description = "一个非常简单但是很可用的使得在QQ中可以使用Google Bard的插件"
+authors = ["leafdeveloper"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[testpypi]
+username = "__token__"
+password = "pypi-d7d2f5e9517d84c0"
