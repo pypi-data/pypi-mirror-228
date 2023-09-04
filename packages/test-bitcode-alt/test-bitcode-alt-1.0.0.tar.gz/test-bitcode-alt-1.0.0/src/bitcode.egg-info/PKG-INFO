@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: bitcode
+Version: 0.0.1
+Summary: bitcode is a fallback pure Python library for intbitset.
+Home-page: https://github.com/nexB/bitcode
+Author: nexB. Inc. and others
+Author-email: info@aboutcode.org
+License: Apache-2.0
+Keywords: utilities
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Provides-Extra: testing
+Provides-Extra: docs
+License-File: apache-2.0.LICENSE
+License-File: NOTICE
+License-File: AUTHORS.rst
+License-File: CHANGELOG.rst
+License-File: CODE_OF_CONDUCT.rst
+
+bitcode
+==================
+This repo is a pure python implementation for `intbitset <https://github.com/inveniosoftware-contrib/intbitset>`_.
+
+
+Installation
+-------------------
+
+Requirements
+###################
+* Python 3.8 or later
+
+.. code-block:: bash
+
+    pip install bitcode
+
+Documentation
+---------------------------
+bitcode is a fallback library for intbitset, so the ``intbitset`` class and its methods
+have same names and parameters.
+
+Below listed are the implemented classes and methods.
+
+Classes
+##########
+
+* ``intbitset``
+
+Methods for Automaton class
+###############################
+
+* ``add``
+* ``clear``
+* ``copy``
+* ``difference``
+* ``difference_update``
+* ``discard``
+* ``isdisjoint``
+* ``issuperset``
+* ``issubset``
+* ``remove``
+* ``strbits``
+* ``symmetric_difference``
+* ``symmetric_difference_update``
+* ``tolist``
+* ``union``
+* ``union_update``
+* ``intersection``
+* ``intersection_update``
+* ``__and__``
+* ``__eq__``
+* ``__contains__``
+* ``__len__``
+* ``__iter__``
+* ``__hash__``
+* ``__str__``
+
+For documentation please refer to: https://intbitset.readthedocs.io/en/latest/
