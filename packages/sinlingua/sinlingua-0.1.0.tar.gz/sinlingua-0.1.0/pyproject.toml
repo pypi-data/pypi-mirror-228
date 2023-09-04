@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sinlingua"
+version = "0.1.0"
+authors = [
+  { name="Supun Gurusinghe", email="supunsameeran@gmail.com" },
+  { name="Sandaruwini Galappaththi", email="sandaruwinigalappaththi@gmail.com" },
+  { name="Supun Sarada Wijesinghe", email="saradawijesinghe@gmail.com" },
+  { name="Binura Yasodya", email="binurayasodya24@gmail.com" },
+]
+description = "Package for Sinhala data processing"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Source Code" = "https://github.com/sinlingua/sinlingua"
+"Documentation" = "https://sinlingua.github.io/documentation/"
