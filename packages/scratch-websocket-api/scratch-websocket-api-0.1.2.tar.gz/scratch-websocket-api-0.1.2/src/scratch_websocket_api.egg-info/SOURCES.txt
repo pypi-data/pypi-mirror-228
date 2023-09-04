@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/scratch_api/__init__.py
+src/scratch_api/scratch_ws_api.py
+src/scratch_websocket_api.egg-info/PKG-INFO
+src/scratch_websocket_api.egg-info/SOURCES.txt
+src/scratch_websocket_api.egg-info/dependency_links.txt
+src/scratch_websocket_api.egg-info/top_level.txt
+src/tests/test_run.py
