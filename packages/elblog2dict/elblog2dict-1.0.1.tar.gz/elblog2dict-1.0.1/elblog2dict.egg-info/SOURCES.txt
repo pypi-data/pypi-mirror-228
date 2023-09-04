@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+elblog2dict/__init__.py
+elblog2dict/parser.py
+elblog2dict.egg-info/PKG-INFO
+elblog2dict.egg-info/SOURCES.txt
+elblog2dict.egg-info/dependency_links.txt
+elblog2dict.egg-info/not-zip-safe
+elblog2dict.egg-info/top_level.txt
