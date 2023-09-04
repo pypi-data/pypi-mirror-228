@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: metabypass
+Version: 0.1.6
+Author: MetaBypass
+Author-email: support@metabypass.tech
+Requires-Dist: requests
+
