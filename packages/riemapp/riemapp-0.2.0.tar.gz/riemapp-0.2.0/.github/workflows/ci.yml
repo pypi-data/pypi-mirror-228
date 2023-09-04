@@ -1,0 +1,116 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - main
+  release:
+    types:
+      - published
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  FORCE_COLOR: 3
+
+jobs:
+  pre-commit:
+    name: Format
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - uses: pre-commit/action@v3.0.0
+
+  build:
+    name: Build and test with Python ${{ matrix.python-version }} on ${{
+      matrix.runs-on }}
+    runs-on: ${{ matrix.runs-on }}
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
+        runs-on: [ubuntu-latest, macos-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies on Ubuntu
+        if: matrix.runs-on == 'ubuntu-latest'
+        run: |
+          sudo apt-get update
+          sudo apt install libpango1.0-dev ffmpeg
+
+      - name: Install dependencies on macOS
+        if: matrix.runs-on == 'macos-latest'
+        run: |
+          brew install ffmpeg pkg-config
+
+      - name: Install package
+        run: python -m pip install .[test]
+
+      - name: Test package
+        run: python -m pytest -ra --cov=riemapp
+
+      - name: Upload coverage report
+        uses: codecov/codecov-action@v3.1.4
+
+  docs:
+    name: Documentation
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+
+      - name: Install ubuntu dependencies
+        run: |
+          sudo apt-get update
+          sudo apt install libpango1.0-dev ffmpeg
+
+      - name: Install pythonic dependencies and build docs
+        run: |
+          python -m pip install .[dev,docs]
+          mkdocs build
+
+  dist:
+    name: Distribution build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Build sdist and wheel
+        run: pipx run build
+
+      - uses: actions/upload-artifact@v3
+        with:
+          path: dist
+
+      - name: Check products
+        run: pipx run twine check dist/*
+
+      - uses: pypa/gh-action-pypi-publish@v1.8.10
+        if: github.event_name == 'release' && github.event.action == 'published'
+        with:
+          password: ${{ secrets.pypi_password }}
