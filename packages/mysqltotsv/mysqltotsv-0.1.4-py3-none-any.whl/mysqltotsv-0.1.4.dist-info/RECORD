@@ -1,0 +1,9 @@
+mysqltotsv/__init__.py,sha256=fL0VWpTvTfmMNmPJ21Hs6k9pYy4coe75vzQopGmvLxo,6951
+mysqltotsv-0.1.4.data/scripts/mysql-to-tsv.py,sha256=06_HQlxaBK6fUpOof8nI_kkHPehKy38bwdV4w7uXN14,2982
+tests/__init__.py,sha256=W0fEo1J6TIf-c-Nxm53LKl4gJ4QGZDce_Uk1vKM546E,3
+tests/basic.py,sha256=Zw76HGzjOcICFmiSCh5mW_DhgG2deGVfcvanLB6FcRY,2385
+mysqltotsv-0.1.4.dist-info/LICENSE,sha256=1Walo9pM993xujflbrtLyNy9-n7mvUkmtIENImhOwEg,1062
+mysqltotsv-0.1.4.dist-info/METADATA,sha256=QCnVVYo_NXS3CeSvFnpyLAa_yQCvjvWpYkWJJkgtwCg,2887
+mysqltotsv-0.1.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+mysqltotsv-0.1.4.dist-info/top_level.txt,sha256=GyGMXE04y_G_L95DoXoxKa2RDCK605sX0TfUHH6HWJs,17
+mysqltotsv-0.1.4.dist-info/RECORD,,
