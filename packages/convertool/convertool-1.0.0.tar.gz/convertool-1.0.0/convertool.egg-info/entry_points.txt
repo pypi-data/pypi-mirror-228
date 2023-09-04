@@ -1,0 +1,2 @@
+[console_scripts]
+convertool = my_tool:cli
