@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+units_python/__init__.py
+units_python/constants.py
+units_python/functions.py
+units_python.egg-info/PKG-INFO
+units_python.egg-info/SOURCES.txt
+units_python.egg-info/dependency_links.txt
+units_python.egg-info/top_level.txt

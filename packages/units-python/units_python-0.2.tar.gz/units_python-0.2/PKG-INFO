@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: units_python
+Version: 0.2
+Summary: Package for automatically managing units when doing calculations in python.
+Home-page: https://github.com/Apros7/python-units
+Download-URL: https://github.com/Apros7/python-units/archive/refs/tags/v0.2.0.tar.gz
+Author: Lucas Vilsen
+Author-email: lucas.vilsen@gmail.com
+License: MIT
+Keywords: units,physics,math
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
