@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mactop"
+version = "0.1.0"
+description = "Htop for macbook."
+authors = ["laixintao <laixintaoo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+textual = "^0.35.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
