@@ -1,0 +1,10 @@
+scrippy_api/__init__.py,sha256=tDrA0ZRhOOvAia-Ae5K3XD07__DK9mj1SdiywOowV08,158
+scrippy_api/api/__init__.py,sha256=7nQn3SO4EN0k6t18MtymGHIzqwgK15NSQi7jvplGTvs,90
+scrippy_api/api/apiloader.py,sha256=GlHy1IiYrdQPOCjGBHQ-RuNW6pL68YB3CZfgaRc2odo,1718
+scrippy_api/api/client.py,sha256=QUsnm6l6YLym3-z6aZlqSDP5E412Wgh65U-I9PT09uo,4921
+scrippy_api/api/validator.py,sha256=KY1_aL8_uKg5oTqXCq6e7oTazzkgNqeRqT7Ki2ixD-8,314
+scrippy_api-1.1.83.dist-info/LICENSE,sha256=YoZ6HrhPUKE2Cw714ST1-k2uomnzFPET8wcsEO80lcQ,1179
+scrippy_api-1.1.83.dist-info/METADATA,sha256=y7CEiWoVaGfngg9gKog3ffoRBt24xkbD1EgYkwC8XfA,7599
+scrippy_api-1.1.83.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+scrippy_api-1.1.83.dist-info/top_level.txt,sha256=lkWdvjkc3HEKJgeVXTGjDpJixf1yTVmQJCwOIa60Csk,12
+scrippy_api-1.1.83.dist-info/RECORD,,
