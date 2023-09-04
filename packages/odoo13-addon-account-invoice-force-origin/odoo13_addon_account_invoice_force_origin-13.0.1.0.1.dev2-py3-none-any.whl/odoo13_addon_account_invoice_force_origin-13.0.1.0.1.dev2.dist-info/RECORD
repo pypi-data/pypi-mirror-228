@@ -1,0 +1,16 @@
+odoo/addons/account_invoice_force_origin/README.rst,sha256=2gNKGQGXh0InbXhZUTueSz0z0Bd5oHz77BlIKre__I8,3454
+odoo/addons/account_invoice_force_origin/__init__.py,sha256=WgVEdum_OqdrBQXp32YwA6KpPGfR-unpiJF8L2aTRKA,69
+odoo/addons/account_invoice_force_origin/__manifest__.py,sha256=Hkel5ARVaLM2cL99PAIK9P_Ic8rf3fDGbcgj0hR3r8s,599
+odoo/addons/account_invoice_force_origin/i18n/account_invoice_force_origin.pot,sha256=sJzS2DYr7Jn0I1pLj-9JSDVxQkraUKw2GwAFJAE-8pM,552
+odoo/addons/account_invoice_force_origin/readme/CONFIGURE.rst,sha256=GN_q-lLXRhO7qb4yHrGBZkwU45Mgwy2jU_kEIBgr4xY,237
+odoo/addons/account_invoice_force_origin/readme/CONTRIBUTORS.rst,sha256=IhnIcPL1cz20AuP8QJvxEenHdIY9-FC6w7j_l2wWnYM,67
+odoo/addons/account_invoice_force_origin/readme/DESCRIPTION.rst,sha256=NTxw69eSB9L8XfW0cHm0XfmIYVhSQHqciLb9rUUBVg8,106
+odoo/addons/account_invoice_force_origin/readme/USAGE.rst,sha256=JkywvIgXpj2bdrwJUr_KFnPuXeRYVr4i91JJMGmHEso,165
+odoo/addons/account_invoice_force_origin/security/security.xml,sha256=uoya5ooImp9y0MLi0_hhTO7QN-NU1L20_2CvCbtK9c8,301
+odoo/addons/account_invoice_force_origin/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/account_invoice_force_origin/static/description/index.html,sha256=C_wHEyg0qHM_ymb6mRYEkV09psske38mmXEwFb6GkL4,13148
+odoo/addons/account_invoice_force_origin/views/account_move_view.xml,sha256=chIBtUOky7PK433fMWHGg6exStl_D8UORG5gRMNHHTo,765
+odoo13_addon_account_invoice_force_origin-13.0.1.0.1.dev2.dist-info/METADATA,sha256=Bz_NV3NGYC46-liX1k13t6kXqda8GYkl2xemCBr2kRs,4045
+odoo13_addon_account_invoice_force_origin-13.0.1.0.1.dev2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo13_addon_account_invoice_force_origin-13.0.1.0.1.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_account_invoice_force_origin-13.0.1.0.1.dev2.dist-info/RECORD,,
