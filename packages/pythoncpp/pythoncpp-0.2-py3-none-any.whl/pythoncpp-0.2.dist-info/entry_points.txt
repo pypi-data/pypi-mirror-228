@@ -1,0 +1,3 @@
+[console_scripts]
+pycpp=pythoncpp.compile:main
+
