@@ -1,0 +1,9 @@
+WebChannel/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+WebChannel/audio/__init__.py,sha256=qS0QFfHZelyo_0iYmDvJac0Oo8LcJq8lxatFoD7xr9o,155
+WebChannel/video/__init__.py,sha256=qS0QFfHZelyo_0iYmDvJac0Oo8LcJq8lxatFoD7xr9o,155
+test/__init__.py,sha256=qS0QFfHZelyo_0iYmDvJac0Oo8LcJq8lxatFoD7xr9o,155
+WebChannel-2023.9.1.dist-info/LICENSE.txt,sha256=k1uUZ25Ne_mz5L4Wb-Wkt3ieMEaoetnGrYPV6EGJG9g,1091
+WebChannel-2023.9.1.dist-info/METADATA,sha256=94dCKtPeCmLtNDeZOMqR89hbGrP1wLjjwNfFQps2SEY,453
+WebChannel-2023.9.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+WebChannel-2023.9.1.dist-info/top_level.txt,sha256=rKheCRK4J5YLaRFn7AVklCfZLqJEA7n4pyGn0Ovlxr4,16
+WebChannel-2023.9.1.dist-info/RECORD,,
