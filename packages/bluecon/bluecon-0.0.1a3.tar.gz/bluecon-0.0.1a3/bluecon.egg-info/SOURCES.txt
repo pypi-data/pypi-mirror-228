@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bluecon/__init__.py
+bluecon/blueconapi.py
+bluecon.egg-info/PKG-INFO
+bluecon.egg-info/SOURCES.txt
+bluecon.egg-info/dependency_links.txt
+bluecon.egg-info/requires.txt
+bluecon.egg-info/top_level.txt
