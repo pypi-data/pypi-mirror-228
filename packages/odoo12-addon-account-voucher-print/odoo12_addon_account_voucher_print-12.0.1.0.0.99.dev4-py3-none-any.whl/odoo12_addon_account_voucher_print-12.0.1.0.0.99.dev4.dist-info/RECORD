@@ -1,0 +1,17 @@
+odoo/addons/account_voucher_print/README.rst,sha256=USDa56yvVYnoHpQ6U_CXQNOhhX8mnq5jIzmXdhfzp7U,2984
+odoo/addons/account_voucher_print/__init__.py,sha256=p2wXOyybX0xeuk39bxpqL2djoAbEUqWh9vPTl0pVrrs,160
+odoo/addons/account_voucher_print/__manifest__.py,sha256=ZB6hhVrfHjI2JOFx95ReN2447ZlF2evl9LX5AU7LEeA,637
+odoo/addons/account_voucher_print/i18n/account_voucher_print.pot,sha256=OY7OtI1Ff_s2vKyCkbKArrseVfUc0ea2-tPAIJ_3ue4,4170
+odoo/addons/account_voucher_print/i18n/it.po,sha256=DymR8wKqER8wEfNZt1yxY9gu1ZVqoPSg5kMBIlMZGYI,4930
+odoo/addons/account_voucher_print/models/__init__.py,sha256=mTJqIlC1LjA0D6gMkWjDMC7D2no0Gja7s3F52V4ooT4,169
+odoo/addons/account_voucher_print/models/account_voucher.py,sha256=Y5av6ncjPJV79rpMy1_vJaj98BLTopiRVFcIofxCqgc,1384
+odoo/addons/account_voucher_print/readme/CONTRIBUTORS.rst,sha256=-F0CnQuie3AEAhLGI17UYSdOEbzuwiIjwnAYju3cZQY,50
+odoo/addons/account_voucher_print/readme/DESCRIPTION.rst,sha256=TJpXk5FqUhACSAfm727KGqlBfYksc5RLcIli2iUyngs,59
+odoo/addons/account_voucher_print/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/account_voucher_print/static/description/index.html,sha256=Tzxn6r3sqpQ1UIbnOaQuuAJuf3NlUNmPk1nSB8DvvgY,12242
+odoo/addons/account_voucher_print/views/account_report.xml,sha256=laNiL22dljWJ9e-zBR1oPl-gf08Y_TKs581jC0Qtxtk,467
+odoo/addons/account_voucher_print/views/report_receipt.xml,sha256=E3r3DR-fDxF2LWoOUH3TaRJYr8qLQLdxMXgY_7hIaAY,7900
+odoo12_addon_account_voucher_print-12.0.1.0.0.99.dev4.dist-info/METADATA,sha256=5zv5r1OgzTOr12qPHVNWrR7EXLrgZycMfuhcRgUfSxo,3590
+odoo12_addon_account_voucher_print-12.0.1.0.0.99.dev4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo12_addon_account_voucher_print-12.0.1.0.0.99.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_account_voucher_print-12.0.1.0.0.99.dev4.dist-info/RECORD,,
