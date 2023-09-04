@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+WebChannel/__init__.py
+WebChannel.egg-info/PKG-INFO
+WebChannel.egg-info/SOURCES.txt
+WebChannel.egg-info/dependency_links.txt
+WebChannel.egg-info/top_level.txt
+WebChannel/audio/__init__.py
+WebChannel/video/__init__.py
+test/__init__.py
