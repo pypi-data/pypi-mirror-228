@@ -1,0 +1,9 @@
+README.md
+setup.py
+splade4elastic/__init__.py
+splade4elastic/elastic_splade.py
+splade4elastic.egg-info/PKG-INFO
+splade4elastic.egg-info/SOURCES.txt
+splade4elastic.egg-info/dependency_links.txt
+splade4elastic.egg-info/requires.txt
+splade4elastic.egg-info/top_level.txt

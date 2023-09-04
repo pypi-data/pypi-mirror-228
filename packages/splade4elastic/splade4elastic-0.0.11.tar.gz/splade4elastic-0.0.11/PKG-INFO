@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: splade4elastic
+Version: 0.0.11
+Home-page: https://github.com/argmaxml/splade4elastic
+Author: ArgmaxML
+Author-email: splade@argmaxml.com
+Description-Content-Type: text/markdown
+Provides-Extra: faiss
+Provides-Extra: elasticsearch
+
+# Elastic4Splade
+
+A simple query expansion wrapper for elastic search, that uses keyword custom weights derived from an huggingface masked-language-model transformer.
+
+## Example usage
+
+    from splade4elastic import SpladeRewriter
+    model_name = "bert-base-uncased"
+    splader = SpladeRewriter(model_name)
+    test_texts = [
+        "My name is John",
+        "The quick brown fox jumps over the lazy dog",
+        "I like to eat apples",
+    ]
+    for test_text in test_texts:
+        print(test_text)
+        print(splader.query_expand(test_text))
+

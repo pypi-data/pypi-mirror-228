@@ -1,0 +1,8 @@
+numpy>=1.21.2
+transformers>=4.0.0
+
+[elasticsearch]
+elasticsearch>=8.5.0
+
+[faiss]
+faiss-cpu>=1.7.1
