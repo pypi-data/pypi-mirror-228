@@ -1,0 +1,11 @@
+CHANGELOG.md,sha256=tV3iZOq_8bl-PXu0CP0BlL0oIaCQvYUxwiPG2ejfj1Y,1057
+casparser_isin/__init__.py,sha256=sH4DUW6G31y4bOJPO9e1WkML1OgQXLohX2U32xB6Xdw,106
+casparser_isin/cli.py,sha256=qEhnj8UGhJXO8IfYIa9BWCUYdUbxj2QWE5oU0594bxs,4227
+casparser_isin/isin.db,sha256=sm7QMKd8zgA8yL01WY4SkGS6dipAMzRR-Xd2khzsugQ,7610368
+casparser_isin/mf_isin.py,sha256=L9UMV-jnhGnrk5UbnhSvh5SKTx-7AzKdhw1YcJ8DyGU,6525
+casparser_isin/utils.py,sha256=80JCVk6t6dNgbRPa18aM5WPZsur8yVNqwFKaaR-rZmQ,399
+casparser_isin-2023.9.3.dist-info/LICENSE,sha256=Arlm7Mkx60cjJyVDaeX0bnvJfqy6X6RaCG04g7nL8Vk,1077
+casparser_isin-2023.9.3.dist-info/METADATA,sha256=af6gEW_7kx983YzQLa2eDQwmnvV1DKOfmgbU11L811Q,2620
+casparser_isin-2023.9.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+casparser_isin-2023.9.3.dist-info/entry_points.txt,sha256=66n1QrUgcZtv-5SkahvCMvazd01WPGvZVHI7MfCqtZ0,58
+casparser_isin-2023.9.3.dist-info/RECORD,,
