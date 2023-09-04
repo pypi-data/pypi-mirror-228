@@ -1,0 +1,7 @@
+LICENCE
+setup.py
+quick_deploy_test/src/quick_deploy_test.py
+quick_deploy_test/src/rajeshpublishtest.egg-info/PKG-INFO
+quick_deploy_test/src/rajeshpublishtest.egg-info/SOURCES.txt
+quick_deploy_test/src/rajeshpublishtest.egg-info/dependency_links.txt
+quick_deploy_test/src/rajeshpublishtest.egg-info/top_level.txt
