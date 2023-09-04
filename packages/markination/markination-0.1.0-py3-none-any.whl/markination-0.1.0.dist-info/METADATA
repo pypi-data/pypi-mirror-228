@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: markination
+Version: 0.1.0
+Summary: A discord paginator.
+Author: Mark
+Author-email: mark@blerp.co.uk
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: discord (>=2,<3)
+Requires-Dist: numpy (>=1.22.0,<2.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+
