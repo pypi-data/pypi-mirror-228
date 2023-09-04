@@ -1,0 +1,17 @@
+odoo/addons/account_maturity_date_default/README.rst,sha256=Lv3QSTWQVRNcBmuClR76JabELGvUtyob1qnYeOg2Mr4,3420
+odoo/addons/account_maturity_date_default/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/account_maturity_date_default/__manifest__.py,sha256=8D44tS61y0jip84vyAFU8jbL8pUpvBISEHKSqO2yigQ,480
+odoo/addons/account_maturity_date_default/i18n/account_maturity_date_default.pot,sha256=dnfz0B08uNjHIk54ivQsnwK8nODEOLkJWnJRTSn86c4,672
+odoo/addons/account_maturity_date_default/models/__init__.py,sha256=cA2aaYMpmsR_3CwQENrxaEFVrNHjT2WQaHusodeQ8ts,59
+odoo/addons/account_maturity_date_default/models/account_move.py,sha256=FkUVz-wNd0oYCKFCqAMaA3sYiR0wDoUNrg8eq4KB28Q,573
+odoo/addons/account_maturity_date_default/models/account_move_line.py,sha256=eOmbnmOS5UcZ3wvXohhXalVL0vidFe1lQ_uCcL3wfwY,685
+odoo/addons/account_maturity_date_default/readme/CONTRIBUTORS.rst,sha256=1uKtTUjInO2y6mRkmfVyLRUQdE1ZwtZQtrb84cCNplg,85
+odoo/addons/account_maturity_date_default/readme/DESCRIPTION.rst,sha256=BtrPykaA6t-1GQljsG0G_oB0mhxvMrRpqWUdR2jIFoA,164
+odoo/addons/account_maturity_date_default/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/account_maturity_date_default/static/description/index.html,sha256=NAFhAX6t-vKvlmLmfyzBEMgU7JBgX2kIAx57_I0LCwE,12697
+odoo/addons/account_maturity_date_default/tests/__init__.py,sha256=hB_yRHY0S8EJv7M1JG7x-jG58NaJeEoMo3bAYP2yFdo,97
+odoo/addons/account_maturity_date_default/tests/test_account_move.py,sha256=Fi3squt98-Q5AY8jaiDhtpgjFnILj-S3vsxIXEU2ndU,3960
+odoo_addon_account_maturity_date_default-15.0.1.0.0.3.dist-info/METADATA,sha256=YpmufyeqkGXP3LNrqTbRDmf-pe5nyxYjHFMK5VL2Wl0,3985
+odoo_addon_account_maturity_date_default-15.0.1.0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_account_maturity_date_default-15.0.1.0.0.3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_account_maturity_date_default-15.0.1.0.0.3.dist-info/RECORD,,
