@@ -1,0 +1,6 @@
+setup.py
+geodesk/__init__.py
+geodesk.egg-info/PKG-INFO
+geodesk.egg-info/SOURCES.txt
+geodesk.egg-info/dependency_links.txt
+geodesk.egg-info/top_level.txt
