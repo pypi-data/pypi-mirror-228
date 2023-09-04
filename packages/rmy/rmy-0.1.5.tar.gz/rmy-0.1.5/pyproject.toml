@@ -1,0 +1,85 @@
+
+[project]
+name = "rmy"
+version = "1.0.0"
+license = {text = "GNU"}
+dynamic = ["readme"]
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md"]}
+
+[tool.setuptools.packages.find]
+namespaces = false
+where = ["src"]
+include = ["*rmy*"]
+
+[tool.black]
+line-length = 99
+target_version = ["py38"]
+
+[tool.isort]
+line_length = 99
+profile = "black"
+multi_line_output = 3
+lines_after_imports = 2
+default_section = "THIRDPARTY"
+sections = "STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
+
+[tool.mypy]
+install_types = true
+non_interactive = true
+incremental = true
+warn_unused_configs = false
+warn_unused_ignores = true
+check_untyped_defs = true
+warn_redundant_casts = true
+ignore_missing_imports = true
+
+
+[tool.coverage.run]
+source = ["rmy"]
+relative_files = true
+
+[tool.coverage.report]
+show_missing = true
+
+[tool.poetry]
+name = "rmy"
+version = "0.1.5"
+description = "Stateful rpc for Python"
+authors = ["fdv1 <francois@pytek.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+anyio = "^3.7.0"
+asyncstdlib = "^3.10.7"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.3.0"
+pydocstyle = "^6.3.0"
+black = "^23.3.0"
+
+[tool.poetry.group.docs.dependencies]
+sphinx-autodoc-typehints = "^1.2.0"
+furo = "^2023.5.20"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+pip = "^23.1.2"
+install = "^1.3.5"
+coverage = "^7.2.7"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "-rsx --tb=short --strict-config --strict-markers -p anyio -p no:asyncio -p no:trio"
+testpaths = ["tests"]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "serial",
+]
+
