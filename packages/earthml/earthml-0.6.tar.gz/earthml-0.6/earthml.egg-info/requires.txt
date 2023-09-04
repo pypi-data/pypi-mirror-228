@@ -1,0 +1,8 @@
+fiona
+rasterio
+pygeohash
+Pillow
+laspy
+numpy
+scipy
+gdal
