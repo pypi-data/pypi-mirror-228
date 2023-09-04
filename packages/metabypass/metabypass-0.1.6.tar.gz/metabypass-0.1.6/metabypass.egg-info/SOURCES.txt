@@ -1,0 +1,9 @@
+README.md
+setup.py
+metabypass/__init__.py
+metabypass/main.py
+metabypass.egg-info/PKG-INFO
+metabypass.egg-info/SOURCES.txt
+metabypass.egg-info/dependency_links.txt
+metabypass.egg-info/requires.txt
+metabypass.egg-info/top_level.txt
