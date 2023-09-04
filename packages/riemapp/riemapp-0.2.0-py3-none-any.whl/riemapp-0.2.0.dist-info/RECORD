@@ -1,0 +1,10 @@
+riemapp/__init__.py,sha256=YTmgAy1lzGcaaiDFj2Sh6cHJcRibYkioV9qthagzaOw,296
+riemapp/core.py,sha256=0XXPX0AevP9m4nS8cc5tFR5Xm0l5xjupPeYyKm9V8m0,3491
+riemapp/geometry.py,sha256=Py4SQt1a_y80y8kDGuWw9mUAD2tDUMgrTIb1qYqItQw,4711
+riemapp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+riemapp/version.py,sha256=dQUHa1PGpJsNE2x_SQFxtOX-jousEqplwH1bdsk6mnE,160
+riemapp/version.pyi,sha256=j5kbzfm6lOn8BzASXWjGIA1yT0OlHTWqlbyZ8Si_o0E,118
+riemapp-0.2.0.dist-info/METADATA,sha256=O1bGIREzkZWa9qgTEVXBk34ERBrDVmeikGUrLlcfyJI,6231
+riemapp-0.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+riemapp-0.2.0.dist-info/licenses/LICENSE,sha256=CJEZghHe_DuO_zocEYOYXMlEKeeYMjhuh9z5JCRHBS4,1048
+riemapp-0.2.0.dist-info/RECORD,,
