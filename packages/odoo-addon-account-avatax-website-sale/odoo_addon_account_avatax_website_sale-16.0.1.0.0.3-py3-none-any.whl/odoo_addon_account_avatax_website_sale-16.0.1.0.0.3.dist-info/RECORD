@@ -1,0 +1,15 @@
+odoo/addons/account_avatax_website_sale/README.rst,sha256=0VvqkZ2ASJaYuL_SNmClJDKq7R7VHWgoqmRmMUCJb0g,3690
+odoo/addons/account_avatax_website_sale/__init__.py,sha256=kSWYuO-PxZ84nc6BjSWeVUfsZm6WHS036w3uy09DqBA,26
+odoo/addons/account_avatax_website_sale/__manifest__.py,sha256=oYpz_AH1i6gdkZq8lgwSd82vWPBKuWi_dqfWYDWt2RA,536
+odoo/addons/account_avatax_website_sale/controllers/__init__.py,sha256=4KFqEP2QHFbPN66eQJMdGsmNz2v7ywWv_FR1pW_kkLk,19
+odoo/addons/account_avatax_website_sale/controllers/main.py,sha256=ZsyLgV7Vwf_L5LAUlMJoaK9vEIsqBqr-jf6JMGUX4rk,325
+odoo/addons/account_avatax_website_sale/i18n/account_avatax_website_sale.pot,sha256=leB6MlaWiU1sPOdcOTxNVY5KVORnHv0MfD14HgQJIIs,341
+odoo/addons/account_avatax_website_sale/readme/CONTRIBUTORS.rst,sha256=0Cr_3HYPC84c3STBv-Ao20yME1l5XpPOk4rei7Oqxas,310
+odoo/addons/account_avatax_website_sale/readme/DESCRIPTION.rst,sha256=M3Lpl8i8jI5MlpEWFlw3R2zGHShT9uyckQictQEzAbs,117
+odoo/addons/account_avatax_website_sale/readme/USAGE.rst,sha256=QmXs5FosGcQVto4-atoYPNJLll5bG-LBmBWS_zKo7JU,93
+odoo/addons/account_avatax_website_sale/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/account_avatax_website_sale/static/description/index.html,sha256=UGasAWCgV2dsLwcda5XmSwcwzgqpDGBuOtooJvE_sGI,13483
+odoo_addon_account_avatax_website_sale-16.0.1.0.0.3.dist-info/METADATA,sha256=2L5XG0p3Z2waP2zW0gzG5SgtkmLpwi77U-bSLF0V7AE,4410
+odoo_addon_account_avatax_website_sale-16.0.1.0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_account_avatax_website_sale-16.0.1.0.0.3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_account_avatax_website_sale-16.0.1.0.0.3.dist-info/RECORD,,
