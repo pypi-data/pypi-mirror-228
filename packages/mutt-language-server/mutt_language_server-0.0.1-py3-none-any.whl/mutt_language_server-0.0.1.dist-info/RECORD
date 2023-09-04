@@ -1,0 +1,17 @@
+mutt_language_server/__init__.py,sha256=rMKx7H96TzrjRu1d4Zqki-uDwnunDNcbT3KXPH5PcWU,403
+mutt_language_server/__main__.py,sha256=cgTbyWVsu-XnBFwdQNECnItmrw5FZzVri3PP2gdXBF8,1131
+mutt_language_server/_metainfo.py,sha256=x7A1yRSMDS0gPasqOgaDjDY_bmSSAtYZNx6jtoisHP4,588
+mutt_language_server/_version.py,sha256=0E2q3bbXSYHV7qQaXVj0To-J2XdlP2Roo0TsM8oQtR4,160
+mutt_language_server/api.py,sha256=Y1PjMW8ibaAkbPQU9Qx4-D9deBx_NOplTZwpR4MzeyE,3111
+mutt_language_server/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mutt_language_server/server.py,sha256=qVdWE1xqqqwvWWOLaO-lnwqg23ZS7p8povu5gzarjQ8,5560
+mutt_language_server/assets/json/mutt.json,sha256=J_NOXyWDmfUQH3FjA1cgWOGGyNQ-EUlJV8q52tgz_lI,266438
+mutt_language_server-0.0.1.data/data/share/bash-completion/completions/mutt-language-server,sha256=vi1IpVoIWQimVdLvAefiM2iKgVYTnSTR1GhaVQDYAL8,4037
+mutt_language_server-0.0.1.data/data/share/man/man1/mutt-language-server.1,sha256=vfyrvDPIRan6752GquqyCiNts-G2ZX1YzdsD8h4kV8w,427
+mutt_language_server-0.0.1.data/data/share/zsh/site-functions/_mutt-language-server,sha256=x56p5Td8k_bVyMhqrfOtighqzm_YMACCRglBj6HfRk4,1198
+mutt_language_server-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mutt_language_server-0.0.1.dist-info/METADATA,sha256=dF9Z5N-3plaEZnlNIrIGl2TYi9_SJkPRGCOeCertuDg,6979
+mutt_language_server-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+mutt_language_server-0.0.1.dist-info/entry_points.txt,sha256=q2-A4DxgsTyuhqNFIrxedkBzZKy6AKZK8sFw1sdEDoY,76
+mutt_language_server-0.0.1.dist-info/top_level.txt,sha256=4IPhfDMFFgk5d3NSQgWRtcNij4eFgSLa3MkBDaFbZnE,21
+mutt_language_server-0.0.1.dist-info/RECORD,,
