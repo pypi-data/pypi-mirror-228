@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: splade4elastic
+Version: 0.0.1
+Home-page: https://github.com/argmaxml/splade4elastic
+Author: ArgmaxML
+Author-email: splade@argmaxml.com
+Description-Content-Type: text/markdown
+Requires-Dist: numpy >=1.21.2
+Requires-Dist: transformers >=4.0.0
+Provides-Extra: elasticsearch
+Requires-Dist: elasticsearch >=8.5.0 ; extra == 'elasticsearch'
+Provides-Extra: faiss
+Requires-Dist: faiss-cpu >=1.7.1 ; extra == 'faiss'
+
+# PyPi Cookie Cutter
+
+## Folder Structure
+1. `pkg/` - the package to be deployed.
+2. `docs/` - template for readthedocs documentation.
+3. `test/` - unit tests for the package.
+4. `notebooks/` - throw away jupyter notebooks.
+
+## Automation
+Any update to the master branch should trigger a github action to push latest version to `pypi`
