@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: asym-search
+Version: 0.0.1
+Summary: Asym-search is a search engine for research and development that uses a searching and ranking pipeline in Dense Passage Retrieval.
+Home-page: https://github.com/tien-ngnvan/asym-search
+Author: tien-ngnvan
+Author-email: tien.ngnvan@gmail.com
+Requires-Python: >=3.8
+License-File: LICENSE
