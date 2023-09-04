@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pythoncpp
+Version: 0.1.4
+Summary: Python, compiled.
+Author: dcode
+Author-email: opendylan@proton.me
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Welcome to PythonC++!
+
+PythonC++ is a full-scale compiler for Python.
+
+The aim of this project is to convert high-level Python code to lower-level C++ code, increasing your program's performance dramatically.
+
+In theory, PythonC++ is faster than other tools (such as PyInstaller), as it leaves no trace of a Python runtime interpreter, or libraries.
+
+The output is just plain C++ code - without any Python - so your program runs at the maximum performance!
+
+Thanks for choosing PythonC++ to simplify your projects!
+
