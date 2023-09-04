@@ -1,0 +1,13 @@
+odoo/addons/fastapi_auth_jwt/README.rst,sha256=9xuJvZMxiRNlsojE9T9O5eEEa2_KdZomB6shD_CYhEo,5759
+odoo/addons/fastapi_auth_jwt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/fastapi_auth_jwt/__manifest__.py,sha256=9gdJTv_4KvYv8gCdCSxhCmgsxcWpUC2iWZO_TaGYI74,515
+odoo/addons/fastapi_auth_jwt/dependencies.py,sha256=zWqkakp61TehXL7X5npJ0i2hGk6vaxqrvfuk23-t6NM,8104
+odoo/addons/fastapi_auth_jwt/i18n/fastapi_auth_jwt.pot,sha256=leB6MlaWiU1sPOdcOTxNVY5KVORnHv0MfD14HgQJIIs,341
+odoo/addons/fastapi_auth_jwt/readme/DESCRIPTION.rst,sha256=c6N73VW4KMIkfCL-MRxahl7UH0dv0mf8tNWTtpYn_xg,143
+odoo/addons/fastapi_auth_jwt/readme/USAGE.rst,sha256=JwJ4HaTs1r__t9iHXRSIF-IoEOPOP14mr40edfIqdYw,2634
+odoo/addons/fastapi_auth_jwt/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/fastapi_auth_jwt/static/description/index.html,sha256=FAOCt3Os8kp2PmLke0p_dbRDOdWFIN28OtuHlKt-E44,16167
+odoo_addon_fastapi_auth_jwt-16.0.1.0.1.1.dist-info/METADATA,sha256=54gnMaXu9QvlvX_K0hAZgw0OUkeHfe2NgGrsPOkT0FM,6436
+odoo_addon_fastapi_auth_jwt-16.0.1.0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_fastapi_auth_jwt-16.0.1.0.1.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_fastapi_auth_jwt-16.0.1.0.1.1.dist-info/RECORD,,
