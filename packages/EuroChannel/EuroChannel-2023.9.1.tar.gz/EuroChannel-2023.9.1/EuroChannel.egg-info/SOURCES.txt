@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+EuroChannel/__init__.py
+EuroChannel.egg-info/PKG-INFO
+EuroChannel.egg-info/SOURCES.txt
+EuroChannel.egg-info/dependency_links.txt
+EuroChannel.egg-info/top_level.txt
+EuroChannel/audio/__init__.py
+EuroChannel/video/__init__.py
+test/__init__.py
