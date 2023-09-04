@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+setup.cfg
+setup.py
+d_serialize/__init__.py
+d_serialize/d_serialize.py
+d_serialize.egg-info/PKG-INFO
+d_serialize.egg-info/SOURCES.txt
+d_serialize.egg-info/dependency_links.txt
+d_serialize.egg-info/top_level.txt
+test/test.py
