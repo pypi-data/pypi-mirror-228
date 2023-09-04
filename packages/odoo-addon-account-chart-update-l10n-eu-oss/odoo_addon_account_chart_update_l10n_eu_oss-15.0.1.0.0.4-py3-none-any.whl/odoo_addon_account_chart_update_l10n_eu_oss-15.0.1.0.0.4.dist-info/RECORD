@@ -1,0 +1,14 @@
+odoo/addons/account_chart_update_l10n_eu_oss/README.rst,sha256=HRdb0he3tubcomFY0pW3uKbCwz-acOkVav2MeVC8Pb8,3330
+odoo/addons/account_chart_update_l10n_eu_oss/__init__.py,sha256=jI5PZDKS0aV-yXubn1o0DHe5ldzQZrLmZYbgF0Q7DWg,21
+odoo/addons/account_chart_update_l10n_eu_oss/__manifest__.py,sha256=coABv0INxNIIDkOHf6vL7yJvNfR2fJCqXTr4UJ3Xd6o,549
+odoo/addons/account_chart_update_l10n_eu_oss/i18n/account_chart_update_l10n_eu_oss.pot,sha256=RJCV4aYASGITjbd0Od26Rja0XcyXtIPHs1ZjPyBRi_8,564
+odoo/addons/account_chart_update_l10n_eu_oss/readme/CONTRIBUTORS.rst,sha256=Cbu_K7Qrt8rzIYgqHpSwJuxQPnqX4q22lJVGBwVTWao,38
+odoo/addons/account_chart_update_l10n_eu_oss/readme/DESCRIPTION.rst,sha256=kKGTPUVXTlt1sz2_gUIUlVa7gdGXkSPAKUi5HtkSWJk,106
+odoo/addons/account_chart_update_l10n_eu_oss/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/account_chart_update_l10n_eu_oss/static/description/index.html,sha256=glzWuDGCMfB7cZv1rG36hAAxB7Q2-MrNTDQ0CAFXr60,12628
+odoo/addons/account_chart_update_l10n_eu_oss/wizard/__init__.py,sha256=J4JxzaX2pTGoMyRTRwCKxOCUVn_H2lacQ5onLKielFQ,34
+odoo/addons/account_chart_update_l10n_eu_oss/wizard/wizard_chart_update.py,sha256=5_cdvsa3aar2PtTlI8UPdrtONFeaPKXp4r4LPJWTf7o,474
+odoo_addon_account_chart_update_l10n_eu_oss-15.0.1.0.0.4.dist-info/METADATA,sha256=8O_wuHGJq4D3fWU1WzwSd-IjtzT4-sb7HTnah-azjiw,3959
+odoo_addon_account_chart_update_l10n_eu_oss-15.0.1.0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_account_chart_update_l10n_eu_oss-15.0.1.0.0.4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_account_chart_update_l10n_eu_oss-15.0.1.0.0.4.dist-info/RECORD,,
