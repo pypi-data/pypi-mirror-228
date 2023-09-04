@@ -1,0 +1,11 @@
+pyuow/__init__.py,sha256=GWbwhgwpbn9oHvlhuxgGepd5ZsaowUX_1_DpZ4BY4rA,524
+pyuow/context.py,sha256=hN4b7FJwspLwb3_LH0VmiH_zrUUkEEhGhHy3uNMwNes,403
+pyuow/exceptions.py,sha256=h8L9w22X_1I5VCPirrnxJklx0z9Nw7iOzZs1CBsckTc,202
+pyuow/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyuow/result.py,sha256=xv7kLJzFUED3vUxc4DVG0ZDIPXBoO9YQNFVMoND8XEQ,1136
+pyuow/types.py,sha256=-vk5QtkewxqCjd7HzKHLyR05Xsa77AAcsFsRt7ybENQ,84
+pyuow/units.py,sha256=hVoDtHUj01NFZcZXoyJvmRfvVEQs5cbeDP054Wn1Qxc,3908
+pyuow-0.1.0.dist-info/LICENSE,sha256=rjB40p_qDSBAsCiWVECUTGH1cW_WqmzvS3rDAaogj74,1075
+pyuow-0.1.0.dist-info/METADATA,sha256=T_yova1siL_Y118BXbg7SM8_RD8NeuZPt2EJILFv1ec,2502
+pyuow-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pyuow-0.1.0.dist-info/RECORD,,
