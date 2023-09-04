@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pythoncpp"
+version = "0.2"
+description = "Python, compiled."
+authors = ["dcode <opendylan@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.scripts]
+pycpp = 'pythoncpp.compile:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
