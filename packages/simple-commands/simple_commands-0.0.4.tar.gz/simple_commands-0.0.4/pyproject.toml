@@ -1,0 +1,16 @@
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+name = "simple_commands"
+version = "0.0.4"
+description = "simple_commands"
+readme = "README.md"
+requires-python = ">=3.9"
+packages=['simple_commands', 'simple_commands.img', 'simple_commands.data','simple_commands.time_zone', 'simple_commands.file','simple_commands.math_', 'simple_commands.help', 'simple_commands.open', 'simple_commands.error', 'simple_commands.classpy']
+install_requires=[
+'pillow',
+'numpy',
+'opencv-python',
+'tqdm',
+'colorama',
+'Flask',
+]

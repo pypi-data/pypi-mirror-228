@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: simple_commands
+Version: 0.0.4
+Summary: simple_commands
+Requires-Python: >=3.9
+License-File: LICENSE
