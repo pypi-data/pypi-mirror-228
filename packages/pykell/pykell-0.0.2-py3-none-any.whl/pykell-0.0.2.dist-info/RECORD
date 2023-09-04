@@ -1,0 +1,17 @@
+pykell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pykell/arrays/__init__.py,sha256=MDWcnGqkzsUOOWSzletFwjmSj9PlnJq6YyecZJPDjZs,48
+pykell/arrays/array.py,sha256=hYioReo6VD_W6D8Tww0piD51eRIgPV276nR1637np_I,1012
+pykell/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pykell/functions/function.py,sha256=6z8qmmseicoYlKfBnh3RW1YKajkaP7Hh6rj1BPTwiP0,2442
+pykell/functors/functor.py,sha256=XNImK6HRb5dJjtitNdVzYH0Thf3jJTe0bGoc0jy104k,564
+pykell/monads/abstract.py,sha256=13r_eg05qDhrV1FPEx4nS3YD-9xDW7tWHdGJSnSOgXo,1863
+pykell/monads/helpers.py,sha256=v6P0E8qXdRf9xs0pwM4rD_FSn_G2DCXseJb8vZnCL-0,787
+pykell/monads/list.py,sha256=IZNBiIMzSZ6u0ljXxHyUPGmX33lecc-0YutH50UFd2s,394
+pykell/monads/maybe.py,sha256=8ItSWYYBWiJpokh3UKomqQ2YSxYDU5ZecsYaxnXlG7c,965
+pykell/typing/__init__.py,sha256=IHEz8cJH6HZ-s2Z1hODgtpY5fiWli5pVp25Yjx5SFu4,120
+pykell/typing/containers.py,sha256=OGngMUAgDrAN6QzYlFYWyLsBgYjStVmEf4qi6eXid_Y,942
+pykell/typing/types.py,sha256=NNrtZuat_q3nLKLaNCaY2Rk6-iyt4MNtLL01jQstV-s,124
+pykell-0.0.2.dist-info/METADATA,sha256=Ev4Qnr7hjBkZZMcv35kVG-1mWnX7E6SaQB2rHTQbmFI,4553
+pykell-0.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pykell-0.0.2.dist-info/licenses/LICENSE,sha256=IXXo8e0XigfNvPVngw0_WOBydI74mYCAfRT5HFHIH74,1069
+pykell-0.0.2.dist-info/RECORD,,
