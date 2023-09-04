@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "browser-hz"
+version = "4.0.0"
+description = "Tailored Selenium Wire extension for in-house project development."
+authors = ["Hubert Zajac <hubertzajac6@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "browser_hz" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pylint = "^2.17.5"
+mypy = "^1.5.1"
+webdriver-manager = "^4.0.0"
+pytest = "^7.3.1"
+selenium-wire = "^5.1.0"
+
+[tool.flake8]
+exclude = [".git", ".venv", "__pycache__"]
+max_line_length = 120
+max-complexity = 8
+
+[tool.pylint.messages_control]
+max-line-length = 120
+max-attributes = 10
+disable = [
+    "missing-docstring",
+    "logging-fstring-interpolation"
+]
+good-names = "x, y"
+
+[tool.mypy]
+namespace_packages = true
+packages = ["browser_hz", "tests"]
+ignore_missing_imports = true
+check_untyped_defs = true
+disallow_untyped_defs = true
+disable_error_code = "attr-defined,union-attr"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
